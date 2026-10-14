@@ -5,7 +5,7 @@
   "metrics": {
     "rooms": 138,
     "collectedRooms": 138,
-    "loot": 13951,
+    "loot": 13956,
     "revealed": 299,
     "steps": 326,
     "guardianHealth": 482,
@@ -5589,7 +5589,7 @@
       "time": 17.849999999999934,
       "type": "room-loot",
       "date": "2026-10-14",
-      "value": 178,
+      "value": 183,
       "data": {
         "column": 52,
         "row": 3

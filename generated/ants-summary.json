@@ -5,7 +5,7 @@
   "metrics": {
     "workers": 3,
     "trips": 138,
-    "resources": 13951
+    "resources": 13956
   },
   "checkpoints": [
     1.9999999999999998,
@@ -1970,7 +1970,7 @@
       "time": 84.31789832285111,
       "type": "harvest",
       "date": "2026-10-14",
-      "value": 178,
+      "value": 183,
       "data": {
         "ant": 1
       }
@@ -1997,7 +1997,7 @@
       "time": 85.73910901467501,
       "type": "deposit",
       "date": "2026-10-14",
-      "value": 178,
+      "value": 183,
       "data": {
         "ant": 1
       }

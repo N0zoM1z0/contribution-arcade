@@ -4,22 +4,22 @@
   "languages": [
     {
       "name": "C++",
-      "weight": 5968,
+      "weight": 5974,
       "color": "#f34b7d"
     },
     {
       "name": "Python",
-      "weight": 4448,
+      "weight": 4475,
       "color": "#3572A5"
     },
     {
       "name": "TypeScript",
-      "weight": 800,
+      "weight": 803,
       "color": "#3178c6"
     },
     {
       "name": "Rust",
-      "weight": 577,
+      "weight": 584,
       "color": "#dea584"
     },
     {
@@ -34,28 +34,33 @@
     },
     {
       "name": "C#",
-      "weight": 59,
+      "weight": 69,
       "color": "#7355dd"
     },
     {
       "name": "CSS",
-      "weight": 53,
+      "weight": 56,
       "color": "#663399"
     },
     {
       "name": "JavaScript",
-      "weight": 42,
+      "weight": 47,
       "color": "#f1e05a"
     },
     {
       "name": "Go",
-      "weight": 33,
+      "weight": 38,
       "color": "#00ADD8"
+    },
+    {
+      "name": "PowerShell",
+      "weight": 1,
+      "color": "#012456"
     }
   ],
   "activity": {
-    "commits": 12349,
-    "issues": 380,
+    "commits": 12429,
+    "issues": 413,
     "pullRequests": 870,
     "reviews": 162
   }

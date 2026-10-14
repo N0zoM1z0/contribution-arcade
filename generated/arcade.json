@@ -37,7 +37,7 @@
       "caption": "Active weeks fall into place. Complete a row and breathe.",
       "description": "Each active week supplies a legal tetromino. Smaller weekly totals fall first; busier weeks accelerate gravity. Pieces collide with the existing stack, completed rows disappear, and the blocks above fall into the gap.",
       "category": "Arcade",
-      "duration": 34.977
+      "duration": 34.756
     },
     {
       "id": "garden",
@@ -163,7 +163,7 @@
       "caption": "Swap real dates into runs. Let the cascades follow.",
       "description": "Every gem represents a real active date and is colored by its GitHub intensity. Adjacent swaps create runs of at least three. Matched dates bank their actual contribution counts, surviving gems fall, and remaining dates refill the board for further cascades.",
       "category": "Arcade",
-      "duration": 22.88
+      "duration": 14.3
     },
     {
       "id": "whack-a-mole",

@@ -4,7 +4,7 @@
   "duration": 38.45,
   "metrics": {
     "excavations": 138,
-    "ore": 13951,
+    "ore": 13956,
     "treasure": 1,
     "treasureStreak": 94,
     "ordering": "count-ascending"
@@ -2537,7 +2537,7 @@
       "time": 28.37,
       "type": "ore-excavate",
       "date": "2026-10-14",
-      "value": 178,
+      "value": 183,
       "data": {
         "tier": "diamond",
         "x": 1054.4905660377358,
