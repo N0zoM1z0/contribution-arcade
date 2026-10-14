@@ -1,0 +1,53 @@
+name: Contribution Arcade
+description: Generate a quiet breakout animation from a GitHub contribution calendar.
+author: N0zoM1z0
+branding:
+  icon: grid
+  color: green
+
+inputs:
+  github_username:
+    description: GitHub account whose contribution calendar becomes the level.
+    required: false
+    default: ${{ github.repository_owner }}
+  github_token:
+    description: Token used to read the GitHub contribution calendar.
+    required: false
+    default: ${{ github.token }}
+  output_path:
+    description: Output directory, relative to the calling workflow workspace.
+    required: false
+    default: generated
+  seed:
+    description: Optional deterministic seed. Defaults to the account name.
+    required: false
+    default: ''
+
+runs:
+  using: composite
+  steps:
+    - name: Set up Node.js
+      uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+      with:
+        node-version: '22'
+        cache: npm
+        cache-dependency-path: ${{ github.action_path }}/package-lock.json
+    - name: Build the generator
+      shell: bash
+      working-directory: ${{ github.action_path }}
+      run: |
+        npm ci --ignore-scripts --no-audit --no-fund
+        npm run build
+    - name: Generate arcade SVGs
+      shell: bash
+      working-directory: ${{ github.workspace }}
+      env:
+        GITHUB_TOKEN: ${{ inputs.github_token }}
+        ARCADE_USERNAME: ${{ inputs.github_username }}
+        ARCADE_OUTPUT: ${{ inputs.output_path }}
+        ARCADE_SEED: ${{ inputs.seed }}
+      run: |
+        node "$GITHUB_ACTION_PATH/lib/cli.js" \
+          --username "$ARCADE_USERNAME" \
+          --output "$ARCADE_OUTPUT" \
+          --seed "${ARCADE_SEED:-$ARCADE_USERNAME}"
