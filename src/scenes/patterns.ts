@@ -102,9 +102,13 @@ const ants: SceneDefinition = {
 };
 
 export function buildWeatherModel(calendar: Calendar) {
-  let peak = 0, streak = 0;
+  let peak = 0, streak = 0, previous = 0;
   const states = weeks(calendar).map((week, index) => {
-    for (const cell of week.cells) streak = cell.count ? streak + 1 : 0;
+    for (const cell of week.cells) {
+      const time = Date.parse(`${cell.date}T00:00:00Z`);
+      streak = cell.count ? (time - previous === 86_400_000 ? streak + 1 : 1) : 0;
+      previous = time;
+    }
     const record = week.count > peak;
     peak = Math.max(peak, week.count);
     return { ...week, time: 1.8 + index * .72, sky: week.count === 0 ? 'rain' : streak >= 7 || week.active >= 5 ? 'sunny' : 'cloudy', record, streak };

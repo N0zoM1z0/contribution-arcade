@@ -4,6 +4,13 @@ const template = document.querySelector('#scene-template');
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 const players = new Map();
 let theme = document.documentElement.dataset.theme;
+let category = 'All';
+const visibility = new IntersectionObserver(entries => {
+  for (const entry of entries) {
+    const player = players.get(entry.target.dataset.scene);
+    if (player) { player.visible = entry.isIntersecting; updatePause(player); }
+  }
+}, { rootMargin: '120px' });
 
 function root(player) {
   try { return player.board.contentDocument?.documentElement; }
@@ -12,7 +19,7 @@ function root(player) {
 
 function updatePause(player) {
   const svg = root(player);
-  if (svg?.pauseAnimations) player.paused ? svg.pauseAnimations() : svg.unpauseAnimations();
+  if (svg?.pauseAnimations) (player.paused || !player.visible) ? svg.pauseAnimations() : svg.unpauseAnimations();
   player.pause.setAttribute('aria-pressed', String(player.paused));
   player.pause.setAttribute('aria-label', `${player.paused ? 'Play' : 'Pause'} ${player.title}`);
   player.icon.setAttribute('d', player.paused ? 'M7 4l8 6-8 6Z' : 'M7 5v10M13 5v10');
@@ -42,10 +49,11 @@ function addScene(scene) {
   fragment.querySelector('.scene-subtitle').textContent = scene.caption;
   fragment.querySelector('[data-role="description"]').textContent = scene.description;
   const player = {
-    ...scene, section, paused: false, preservedTime: 0,
+    ...scene, section, paused: false, visible: true, preservedTime: 0,
     board: fragment.querySelector('.board'),
     pause: fragment.querySelector('[data-action="pause"]'),
     replay: fragment.querySelector('[data-action="replay"]'),
+    expand: fragment.querySelector('[data-action="expand"]'),
     download: fragment.querySelector('.download'),
     icon: fragment.querySelector('[data-role="pause-icon"]'),
     time: fragment.querySelector('.time'),
@@ -53,6 +61,13 @@ function addScene(scene) {
   player.board.id = `${scene.id}-board`;
   player.board.setAttribute('aria-label', `${scene.title} animation made from GitHub contributions`);
   player.replay.setAttribute('aria-label', `Replay ${scene.title}`);
+  player.expand.setAttribute('aria-label', `Expand ${scene.title}`);
+  player.expand.addEventListener('click', () => {
+    const enlarged = section.classList.toggle('enlarged');
+    player.expand.setAttribute('aria-pressed', String(enlarged));
+    player.expand.setAttribute('aria-label', `${enlarged ? 'Shrink' : 'Expand'} ${scene.title}`);
+    section.scrollIntoView({ block: 'start' });
+  });
   player.download.setAttribute('aria-label', `Download ${scene.title} SVG`);
   player.board.addEventListener('load', () => {
     const svg = root(player);
@@ -73,12 +88,7 @@ function addScene(scene) {
   players.set(scene.id, player);
   collection.append(fragment);
 
-  const link = document.createElement('a');
-  link.href = `#${scene.id}`;
-  const number = document.createElement('span');
-  number.textContent = scene.number;
-  link.append(number, document.createTextNode(scene.title));
-  index.append(link);
+  visibility.observe(section);
 }
 
 document.querySelectorAll('button[data-theme]').forEach(button => button.addEventListener('click', () => {
@@ -115,6 +125,20 @@ async function initialize() {
   document.querySelector('#date-label').textContent = `${date(catalog.from)} — ${date(catalog.to)}`;
   collection.replaceChildren();
   catalog.scenes.forEach(addScene);
+  for (const name of ['All', 'Arcade', 'Worlds', 'Journeys', 'Patterns']) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    const count = name === 'All' ? catalog.scenes.length : catalog.scenes.filter(scene => scene.category === name).length;
+    button.append(document.createTextNode(name));
+    const badge = document.createElement('span'); badge.textContent = count; button.append(badge);
+    button.setAttribute('aria-pressed', String(name === category));
+    button.addEventListener('click', () => {
+      category = name;
+      for (const other of index.querySelectorAll('button')) other.setAttribute('aria-pressed', String(other === button));
+      for (const player of players.values()) player.section.hidden = category !== 'All' && player.category !== category;
+    });
+    index.append(button);
+  }
   collection.setAttribute('aria-busy', 'false');
   if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
 }

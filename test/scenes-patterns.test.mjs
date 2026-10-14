@@ -46,6 +46,12 @@ test('weather follows real weekly counts and only positive records celebrate', (
   assert.ok(buildWeatherModel(empty).states.every(state => state.sky === 'rain' && !state.record));
 });
 
+test('missing dates break weather streaks instead of implying unseen activity', () => {
+  const cells = real.cells.slice(0, 14).filter((_, index) => index !== 6).map(cell => ({ ...cell, count: 1, level: 1 }));
+  const model = buildWeatherModel({ ...real, columns: 2, cells, activeDays: cells.length, total: cells.length });
+  assert.deepEqual(model.states.map(state => state.streak), [6, 7]);
+});
+
 test('the silent score preserves every week and activity note without creating contributions', () => {
   const model = buildMusicModel(real);
   assert.equal(model.beats.length, real.columns);
