@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="448" viewBox="0 0 1120 448" style="background:#fbfcf8;border-radius:20px" role="img" aria-labelledby="title desc" data-duration="23.375" data-cleared="138" data-active="138">
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="448" viewBox="0 0 1120 448" style="background:#fbfcf8;border-radius:20px" role="img" aria-labelledby="title desc" data-duration="39.417" data-cleared="138" data-active="138">
   <title id="title">N0zoM1z0 · Contribution Arcade</title>
   <desc id="desc">13,951 GitHub contributions across 138 active days, 2025-10-12 to 2026-10-14. An automatically played breakout animation. Stronger contribution levels take more hits. A long streak unlocks multiball. The original calendar returns each loop.</desc>
   <style>text{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}.reduced{display:none}@media(prefers-reduced-motion:reduce){.animated{display:none}.reduced{display:inline}}</style>
@@ -15,6 +15,7 @@
   <text x="48" y="425" font-size="10" fill="#788574" class="mono">2025 — 2026</text>
   <text x="343" y="406" font-size="15" font-weight="600" fill="#26392c">13,951<tspan dx="7" font-size="11" font-weight="400" fill="#788574">contributions</tspan></text>
   <text x="343" y="425" font-size="10" fill="#788574">138 active days · 94 day longest streak</text>
+
   <g transform="translate(958 401)"><rect x="0" width="11" height="11" rx="2.5" fill="#eaf0e4"/><rect x="16" width="11" height="11" rx="2.5" fill="#c4d8b8"/><rect x="32" width="11" height="11" rx="2.5" fill="#98bc8d"/><rect x="48" width="11" height="11" rx="2.5" fill="#6d986e"/><rect x="64" width="11" height="11" rx="2.5" fill="#426c50"/></g>
   <text x="1072" y="425" text-anchor="end" font-size="9" letter-spacing="1" fill="#788574" class="mono">YOUR COMMITS. YOUR GAME.</text>
 </svg>
