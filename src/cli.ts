@@ -51,8 +51,8 @@ async function main(): Promise<void> {
     username: calendar.login, from: calendar.from, to: calendar.to,
     contributions: calendar.total, activeDays: calendar.activeDays,
     duration: Number(snake.duration.toFixed(2)), playEnd: snake.playEnd,
-    initialLength: snake.initialLength, finalLength: snake.finalLength, eaten: snake.meals.length,
-    meals: snake.meals.map(meal => ({ time: meal.time, date: meal.cell.date, length: meal.length })),
+    initialLength: snake.initialLength, finalLength: snake.finalLength, growthEvery: snake.growthEvery, maxLength: snake.maxLength, order: 'count-ascending', eaten: snake.meals.length,
+    meals: snake.meals.map(meal => ({ time: meal.time, date: meal.cell.date, count: meal.cell.count, length: meal.length })),
   }, null, 2)}\n`);
   await writeFile(resolve(directory, 'arcade.json'), `${JSON.stringify({
     username: calendar.login, from: calendar.from, to: calendar.to,
@@ -60,8 +60,8 @@ async function main(): Promise<void> {
       { id: 'breakout', number: '01', title: 'Breakout', caption: 'Your history is the level.',
         description: 'One ball to begin. A long streak brings a second, then a third. A gentle start, a little more momentum, and your year begins again.',
         duration: Number(scene.duration.toFixed(2)) },
-      { id: 'snake', number: '02', title: 'Growing Snake', caption: 'Every good day makes you grow.',
-        description: `Four segments to begin. One more for every active day. Watch your year become a ${snake.finalLength}-segment snake, one small square at a time.`,
+      { id: 'snake', number: '02', title: 'Growing Snake', caption: 'Small steps. A little growth.',
+        description: `Start with the smallest contribution counts and plan a path upward. Grow once every ${snake.growthEvery} dates, with a compact ${snake.maxLength}-segment limit.`,
         duration: Number(snake.duration.toFixed(2)) },
     ],
   }, null, 2)}\n`);

@@ -76,7 +76,8 @@ try {
   if (snake.meals.length) {
     const meal = snake.meals[Math.floor(snake.meals.length / 2)];
     await seek(page, meal.time - 0.002, 'snake');
-    assert.deepEqual((await snakeState()).segments, [meal.length - 1]);
+    const previousMeal = snake.meals[snake.meals.indexOf(meal) - 1];
+    assert.deepEqual((await snakeState()).segments, [previousMeal?.length || snake.initialLength]);
     // Normalized SMIL keyTimes have six decimal places; cross the boundary by
     // a millisecond rather than depending on sub-millisecond rounding.
     await seek(page, meal.time + 0.001, 'snake');

@@ -20,14 +20,18 @@ export function renderSnakeSVG(calendar: Calendar, scene: SnakeScene, theme: The
   const foods = (moving: boolean) => calendar.cells.filter(cell => cell.count > 0).map(cell => {
     const rect = square({ column: cell.column, row: cell.row }, palette.colors[cell.level]);
     if (!moving) return rect;
-    return `<g class="snake-food" data-date="${cell.date}" data-eaten-at="${n(mealTimes.get(cell.date)!)}">${rect}${discrete('opacity', [
-      { time: 0, value: '1' }, { time: mealTimes.get(cell.date)!, value: '0' },
-      { time: duration - 0.04, value: '1' }, { time: duration, value: '1' },
+    const previousTier = scene.meals.filter(meal => meal.cell.count < cell.count).at(-1)?.time || 0;
+    const initialOpacity = previousTier ? '0.35' : '1';
+    return `<g class="snake-food" data-date="${cell.date}" data-count="${cell.count}" data-eaten-at="${n(mealTimes.get(cell.date)!)}">${rect}${discrete('opacity', [
+      { time: 0, value: initialOpacity },
+      ...(previousTier ? [{ time: previousTier, value: '1' }] : []),
+      { time: mealTimes.get(cell.date)!, value: '0' },
+      { time: duration - 0.04, value: initialOpacity }, { time: duration, value: initialOpacity },
     ], duration)}</g>`;
   }).join('');
 
-  // One continuous trail makes even a 375-segment snake compact in SVG.
-  // The visible window moves along that trail; its tail stays put on a meal.
+  // The visible window follows the planned trail. Its tail stays still only
+  // when a meal reaches the next gradual-growth milestone.
   const trail = [...scene.frames[0].body].reverse().map(pixel)
     .concat(scene.frames.slice(1).map(frame => pixel(frame.body[0])));
   const distances = [0];
@@ -76,17 +80,27 @@ export function renderSnakeSVG(calendar: Calendar, scene: SnakeScene, theme: The
     <text x="854" y="406" text-anchor="end" font-size="11" class="mono" fill="${palette.secondary}">${state.length} SEGMENTS</text>
     <text x="854" y="425" text-anchor="end" font-size="9" class="mono" letter-spacing="0.6" fill="${palette.muted}">${state.eaten} / ${calendar.activeDays} DAYS EATEN</text>
   </g>`).filter((_, index) => animated || index === 0).join('');
+  const tiers = [...new Set(scene.meals.map(meal => meal.cell.count))];
+  const tierLabels = tiers.map((count, index) => {
+    const start = index ? scene.meals.filter(meal => meal.cell.count < count).at(-1)!.time : 0;
+    const end = scene.meals.filter(meal => meal.cell.count === count).at(-1)!.time;
+    return `<g data-snake-tier="${count}">${discrete('opacity', [
+      { time: 0, value: index === 0 ? '1' : '0' },
+      ...(start ? [{ time: start, value: '1' }] : []), { time: end, value: '0' },
+      { time: duration, value: index === 0 ? '1' : '0' },
+    ], duration)}<text x="48" y="350" fill="${palette.muted}" font-size="10" class="mono">NEXT · ${count} CONTRIBUTION${count === 1 ? '' : 'S'}</text></g>`;
+  }).join('');
   const content = `${calendar.cells.map(cell => square(cell, palette.empty)).join('')}
     <g class="${animated ? 'reduced' : 'static'}">${foods(false)}${staticSnake}</g>
-    ${animated ? `<g class="animated">${foods(true)}${movingSnake}
+    ${animated ? `<g class="animated">${foods(true)}${movingSnake}${tierLabels}
       <rect x="48" y="376" width="0" height="2" rx="1" fill="${palette.secondary}" opacity="0.7">${discrete('width', [
         { time: 0, value: '0' }, ...scene.meals.map((meal, index) => ({ time: meal.time, value: n(BOARD.gridWidth * (index + 1) / Math.max(1, calendar.activeDays)) })),
         { time: duration - 0.04, value: '0' }, { time: duration, value: '0' },
       ], duration)}</rect></g>` : ''}`;
   return renderCard(calendar, theme, {
     label: '02 / GROWING SNAKE', scene: 'snake', duration,
-    description: `A growing snake starts with ${scene.initialLength} segments and adds one segment for every active date it eats, finishing with ${scene.finalLength}. All ${calendar.activeDays} active dates are eaten without self-collision.`,
-    attributes: { 'initial-length': scene.initialLength, 'final-length': scene.finalLength, active: calendar.activeDays },
+    description: `A snake eats all ${calendar.activeDays} active dates in ascending contribution-count order. It grows once every ${scene.growthEvery} dates, from ${scene.initialLength} to at most ${scene.maxLength} segments. Brighter food marks the current count tier; later tiers remain dormant floor.`,
+    attributes: { 'initial-length': scene.initialLength, 'final-length': scene.finalLength, active: calendar.activeDays, 'growth-every': scene.growthEvery, 'max-length': scene.maxLength, order: 'count-ascending' },
     content, footer,
   });
 }

@@ -1,17 +1,14 @@
 import type { Calendar, Cell } from './calendar.js';
 
 export interface GridPoint { column: number; row: number }
-export interface SnakeFrame {
-  time: number;
-  body: GridPoint[];
-  eaten: number;
-  food?: Cell;
-}
+export interface SnakeFrame { time: number; body: GridPoint[]; eaten: number; food?: Cell }
 export interface SnakeScene {
   columns: number;
   rows: number;
   initialLength: number;
   finalLength: number;
+  growthEvery: number;
+  maxLength: number;
   frames: SnakeFrame[];
   meals: { time: number; cell: Cell; length: number }[];
   playStart: number;
@@ -21,65 +18,92 @@ export interface SnakeScene {
 
 const INITIAL_LENGTH = 4;
 const PLAY_START = 1.8;
-const STEP_SECONDS = 0.12;
-
+const GROWTH_EVERY = 5;
+const MAX_LENGTH = 16;
 const key = (point: GridPoint): string => `${point.column},${point.row}`;
+const same = (a: GridPoint, b: GridPoint): boolean => a.column === b.column && a.row === b.row;
 
-/** A cycle leaves room for a growing body, even when every date has food. */
-export function makeCycle(columns: number): GridPoint[] {
-  const width = Math.max(2, columns);
-  const rows = width < INITIAL_LENGTH ? 10 : 8;
-  const points: GridPoint[] = [{ column: 0, row: 0 }];
-  for (let row = 0; row < rows; row++) {
-    if (row % 2 === 0) {
-      for (let column = 1; column < width; column++) points.push({ column, row });
-    } else {
-      for (let column = width - 1; column >= 1; column--) points.push({ column, row });
-    }
-  }
-  for (let row = rows - 1; row >= 1; row--) points.push({ column: 0, row });
-  return points;
-}
-
+/** Exact counts choose the next food tier. BFS chooses a short, body-safe route. */
 export function simulateSnake(calendar: Calendar): SnakeScene {
-  const cycle = makeCycle(calendar.columns);
+  const columns = Math.max(4, calendar.columns);
+  const rows = 11;
+  const maxLength = Math.min(MAX_LENGTH, Math.floor(columns * rows / 3));
   const food = new Map(calendar.cells.filter(cell => cell.count > 0).map(cell => [key(cell), cell]));
-  const at = (index: number): GridPoint => cycle[(index + cycle.length) % cycle.length];
-
-  // Start with an empty four-cell body and an early first meal. Food is never
-  // hidden underneath the initial snake or removed without being visited.
-  let start = cycle.findIndex((_, index) => Array.from({ length: INITIAL_LENGTH }, (_, offset) => at(index - offset)).every(point => !food.has(key(point))));
-  let bestScore = Infinity;
-  if (food.size) {
-    for (let index = 0; index < cycle.length; index++) {
-      if (Array.from({ length: INITIAL_LENGTH }, (_, offset) => at(index - offset)).some(point => food.has(key(point)))) continue;
-      let distance = 1;
-      while (!food.has(key(at(index + distance))) && distance < cycle.length) distance++;
-      const score = distance * 1000 + at(index).column * 2 + at(index).row / 10;
-      if (score < bestScore) { bestScore = score; start = index; }
+  const neighbors = (point: GridPoint): GridPoint[] => [
+    { column: point.column + 1, row: point.row }, { column: point.column, row: point.row - 1 },
+    { column: point.column - 1, row: point.row }, { column: point.column, row: point.row + 1 },
+  ].filter(p => p.column >= 0 && p.column < columns && p.row >= 0 && p.row < rows);
+  const route = (body: GridPoint[], targets: Set<string>, allowTail: boolean): GridPoint[] | undefined => {
+    const blocked = new Set(body.slice(1, allowTail ? -1 : undefined).map(key));
+    const queue = [body[0]];
+    const previous = new Map<string, GridPoint | null>([[key(body[0]), null]]);
+    for (let index = 0; index < queue.length; index++) {
+      const current = queue[index];
+      if (index > 0 && targets.has(key(current))) {
+        const path = [current];
+        let parent = previous.get(key(current));
+        while (parent && !same(parent, body[0])) { path.push(parent); parent = previous.get(key(parent)); }
+        return path.reverse();
+      }
+      for (const next of neighbors(current)) {
+        const id = key(next);
+        if (!blocked.has(id) && !previous.has(id)) { previous.set(id, current); queue.push(next); }
+      }
     }
-  }
-  if (start < 0) throw new Error('The snake needs an empty starting lane.');
-
-  let body = Array.from({ length: INITIAL_LENGTH }, (_, offset) => ({ ...at(start - offset) }));
+    return undefined;
+  };
+  let body: GridPoint[] = Array.from({ length: INITIAL_LENGTH }, (_, index) => ({ column: 3 - index, row: 9 }));
   const frames: SnakeFrame[] = [{ time: PLAY_START, body, eaten: 0 }];
   const meals: SnakeScene['meals'] = [];
-  for (let step = 1; food.size && step <= cycle.length; step++) {
-    const next = { ...at(start + step) };
-    const meal = food.get(key(next));
-    body = [next, ...body];
-    if (meal) food.delete(key(next));
-    else body.pop();
-    const time = PLAY_START + step * STEP_SECONDS;
-    if (meal) meals.push({ time, cell: meal, length: body.length });
-    frames.push({ time, body, eaten: meals.length, ...(meal ? { food: meal } : {}) });
+  let idle = 0;
+  while (food.size) {
+    const tier = Math.min(...[...food.values()].map(cell => cell.count));
+    const targets = new Set([...food].filter(([, cell]) => cell.count === tier).map(([id]) => id));
+    // Later tiers are dormant floor until all smaller counts have been eaten.
+    // Arbitrary count layouts remain solvable without consuming out of order.
+    let path: GridPoint[] | undefined;
+    const remaining = new Set(targets);
+    while (remaining.size) {
+      const candidate = route(body, remaining, true);
+      if (!candidate) break;
+      let trial = body;
+      let safe = true;
+      candidate.forEach((point, index) => {
+        const grows = index === candidate.length - 1 && (meals.length + 1) % GROWTH_EVERY === 0 && trial.length < maxLength;
+        if (trial.slice(0, grows ? undefined : -1).some(part => same(part, point))) safe = false;
+        trial = [point, ...trial];
+        if (!grows) trial.pop();
+      });
+      if (safe && route(trial, new Set([key(trial.at(-1)!)]), true)) { path = candidate; break; }
+      remaining.delete(key(candidate.at(-1)!));
+    }
+    if (!path) {
+      // Move toward the vacating tail and replan instead of entering a pocket.
+      path = route(body, new Set([key(body.at(-1)!)]), true)?.slice(0, 1);
+      if (!path?.length || ++idle > columns * rows * 8) throw new Error('No safe route to the lowest remaining contribution count.');
+    } else idle = 0;
+    for (const point of path) {
+      const possibleMeal = food.get(key(point));
+      const meal = possibleMeal?.count === tier ? possibleMeal : undefined;
+      const grows = !!meal && (meals.length + 1) % GROWTH_EVERY === 0 && body.length < maxLength;
+      if (body.slice(0, grows ? undefined : -1).some(part => same(part, point))) throw new Error('Snake path intersects its body.');
+      body = [{ ...point }, ...body];
+      if (!grows) body.pop();
+      if (meal) { food.delete(key(point)); meals.push({ time: 0, cell: meal, length: body.length }); }
+      frames.push({ time: 0, body, eaten: meals.length, ...(meal ? { food: meal } : {}) });
+      if (meal) break;
+    }
   }
-  if (food.size) throw new Error('The snake route did not visit every active date.');
-  const playEnd = frames.at(-1)!.time;
-  return {
-    columns: Math.max(2, calendar.columns), rows: cycle.length / Math.max(2, calendar.columns),
-    initialLength: INITIAL_LENGTH, finalLength: body.length,
-    frames, meals, playStart: PLAY_START, playEnd,
-    duration: Math.max(12, playEnd + 3.5),
-  };
+  // Keep every move visible. A long sorted route takes longer, never teleports.
+  let elapsed = PLAY_START;
+  let mealIndex = 0;
+  for (let index = 1; index < frames.length; index++) {
+    const progress = frames[index].eaten / Math.max(1, meals.length);
+    elapsed += 0.105 - progress * 0.035;
+    if (frames[index].food) { elapsed += 0.07; meals[mealIndex++].time = elapsed; }
+    frames[index].time = elapsed;
+  }
+  return { columns, rows, initialLength: INITIAL_LENGTH, finalLength: body.length,
+    growthEvery: GROWTH_EVERY, maxLength, frames, meals, playStart: PLAY_START, playEnd: elapsed,
+    duration: Math.max(12, elapsed + 3.5) };
 }
