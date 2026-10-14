@@ -44,3 +44,11 @@ The coordinator owns shared interfaces, kit, registry, generation, GitHub enrich
 The interface is frozen before producers start. Producers may ask for a helper but cannot change the interface themselves. Each packet can advance independently with the same saved contribution calendar and context schema. The coordinator resolves conflicts, reviews evidence, and integrates in this order: shared interfaces; independent producers; registry and consumers; operational surfaces and documentation; complete rendered acceptance.
 
 The split is retained because the three scene-family modules and their tests do not overlap and can be reviewed independently. Shared state and publishing remain centralized. Completion requires both unit evidence and rendered runtime evidence for every row above, then green GitHub CI and a verified push. Passing metadata checks alone does not establish a completed game mechanic.
+
+## Accepted integration
+
+All three independent producer packets were accepted after their model tests and direct Chromium probes. The coordinator integrated Patterns, ascending-count gradual Snake, public context, the complete registry, generation, gallery controls, daily refresh compatibility, documentation, and preview tooling.
+
+The integrated local acceptance run on 2026-10-14 passed 63 model tests, generated 76 valid SVGs, rendered all nineteen scenes in both themes, verified animation-free static exports and reduced motion, and observed all nineteen SVGs animating inside real image elements. Gallery category counts, expansion, independent pause/replay, theme changes, download paths and mobile overflow passed. Full-loop GIFs and both-theme collection sheets accompany the canonical SVG exports.
+
+The existing Breakout and its compatible outputs remain present. No preparation/reference files are part of the tracked deliverable. Remaining operational verification is the normal remote CI and scheduled-refresh run after pushing this release.

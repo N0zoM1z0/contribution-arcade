@@ -121,7 +121,11 @@ try {
     if (breakout.activeDays) assert.ok(frames.some(frame => !frame.equals(frames[0])), `${scene.title}: expected a visible state transition.`);
     for (const theme of ['dark', 'light']) {
       await board.goto(`${base}/generated/${scene.id}-${theme}.svg`);
-      await seek(board, scene.id === 'snake' ? snake.playEnd + .2 : checkpoints[1]);
+      const poster = scene.id === 'snake' ? snake.playEnd + .2
+        : scene.category === 'Worlds' || scene.id === 'weather' ? checkpoints.at(-1)
+        : scene.id === 'ants' ? scene.duration * .55
+        : scene.id === 'tetris' ? scene.duration * .72 : checkpoints[1];
+      await seek(board, poster);
       await board.screenshot({ path: `previews/${scene.id}-${theme}.png` });
       await board.goto(`${base}/generated/${scene.id}-${theme}-static.svg`);
       assert.equal(await board.locator('animate, animateTransform, script, foreignObject, parsererror').count(), 0);
