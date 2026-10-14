@@ -76,6 +76,16 @@ test('narrow, empty, sparse and tied-count histories remain deterministic and co
   }
 });
 
+test('a growth meal on the tail requires a side step instead of a collision', () => {
+  let value = 6;
+  const counts = Array.from({ length: 49 }, () => { value = (Math.imul(value, 1664525) + 1013904223) >>> 0; return value % 127; });
+  const input = calendar(7, (column, row) => counts[column * 7 + row]);
+  const scene = simulateSnake(input);
+  assert.equal(scene.meals.length, input.activeDays);
+  assert.deepEqual(scene.meals.map(meal => meal.cell.count), input.cells.map(cell => cell.count).filter(Boolean).sort((a, b) => a - b));
+  verifyMovement(scene);
+});
+
 test('missing dates are traversable space, never synthetic food', () => {
   const input = calendar(5, () => true);
   input.cells = input.cells.filter(cell => cell.row >= 2 && cell.column < 4);
