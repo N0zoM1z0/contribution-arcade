@@ -3,6 +3,7 @@ import type { Theme } from '../card.js';
 
 export interface SceneContext {
   source: 'github-public' | 'calendar-only';
+  coverage?: string;
   languages: { name: string; weight: number; color: string }[];
   activity?: { commits: number; issues: number; pullRequests: number; reviews: number };
 }
