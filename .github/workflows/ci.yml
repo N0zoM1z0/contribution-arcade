@@ -32,7 +32,7 @@ jobs:
       - name: Test the generator
         run: npm test
       - name: Rebuild the example from its saved calendar
-        run: node lib/cli.js --input generated/calendar.json
+        run: node lib/cli.js --input generated/calendar.json --context generated/context.json
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Verify the browser flow and capture previews
@@ -44,7 +44,8 @@ jobs:
           path: |
             generated/*.svg
             generated/summary.json
-            generated/snake-summary.json
+            generated/*-summary.json
+            generated/context.json
             generated/arcade.json
             previews/*.png
           retention-days: 14
