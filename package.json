@@ -1,0 +1,20 @@
+{
+  "name": "contribution-arcade",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A small arcade, grown from your GitHub contributions.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsc",
+    "generate": "npm run build && node lib/cli.js",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "preview": "node scripts/serve.mjs",
+    "capture": "node scripts/capture.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "playwright": "^1.55.0",
+    "typescript": "^5.9.0"
+  }
+}
