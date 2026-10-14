@@ -141,7 +141,7 @@ npx playwright install chromium
 npm run capture
 ```
 
-Tests cover partial weeks, streak gaps, input validation, empty histories, fast collisions, durability, progressive acceleration, safe snake growth, self-collision, narrow boards, deterministic scenes, safe SVG output, and API failures. Browser checks verify both homepage scenes, visible snake growth, the head reaching each eaten date, progressive multiball, independent playback, both themes, mobile overflow, animated README images, and reduced motion. The [CI workflow](.github/workflows/ci.yml) runs both suites and uploads preview artifacts.
+Tests cover partial weeks, streak gaps, input validation, empty histories, fast collisions, durability, progressive acceleration, safe snake growth, self-collision, narrow boards, deterministic scenes, safe SVG output, and API failures. Browser checks verify both homepage scenes, visible snake growth, meal timing and head position, progressive multiball, independent playback, both themes, mobile overflow, animated README images, and reduced motion. The [CI workflow](.github/workflows/ci.yml) runs both suites and uploads preview artifacts.
 
 To export an animated GIF, install FFmpeg and run:
 
