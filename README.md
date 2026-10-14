@@ -8,7 +8,7 @@ A little arcade, made from a year of GitHub contributions.
   <img src="generated/breakout-light.svg" alt="N0zoM1z0's GitHub contribution calendar playing itself as a breakout game" width="1120">
 </picture>
 
-**Your commits. Your game.** Each date keeps its place in the calendar. Active days become bricks, stronger contribution levels take more hits, and a long streak unlocks multiball. The original calendar returns at the start of every loop.
+**Your commits. Your game.** Each date keeps its place in the calendar. Active days become bricks and stronger contribution levels take more hits. Start with one unhurried ball; a long streak brings a second, then a third, with speed building gradually. The original calendar returns at the start of every loop.
 
 [Watch the animated GIF](previews/breakout.gif) · [Midnight preview](previews/preview-dark.png) · [Paper preview](previews/preview-light.png) · [Mobile preview](previews/preview-mobile.png)
 
@@ -100,10 +100,10 @@ Contribution totals include the activity visible to the supplied token and follo
 ## How it works
 
 1. **Calendar:** read GitHub's GraphQL contribution calendar, preserving actual weekday coordinates and partial weeks.
-2. **Scene:** simulate an automatic breakout game at a fixed timestep. Swept collisions prevent fast balls from skipping bricks. Levels 1–2 take one hit; levels 3–4 take two. More than 100 active days and a streak of at least seven days unlock two extra balls after six seconds.
+2. **Scene:** simulate an automatic breakout game at a fixed timestep. Swept collisions prevent fast balls from skipping bricks. Levels 1–2 take one hit; levels 3–4 take two. More than 100 active days and a streak of at least seven days unlock a second ball after ten seconds of play and a third after twenty-two. Speed rises smoothly from a relaxed opening to a lively finale.
 3. **SVG:** turn collision vertices, hit events, and paddle positions into a script-free animation. The same scene supplies both color themes.
 
-The simulation is deterministic for the same calendar and seed. Loops last roughly 12–41 seconds, including the opening and closing pause. Difficult calendars may restart before every brick is cleared; `summary.json` records the actual result.
+The simulation is deterministic for the same calendar and seed. Loops last roughly 12–63 seconds, including the opening and closing pause. Difficult calendars may restart before every brick is cleared; `summary.json` records the actual result. The checked-in example uses the contribution data visible to the workflow token, so scheduled runs and previews use the same public calendar.
 
 ## Verify and capture
 
@@ -113,7 +113,7 @@ npx playwright install chromium
 npm run capture
 ```
 
-Tests cover partial weeks, streak gaps, input validation, empty histories, fast collisions, durability, deterministic dense calendars, safe SVG output, and API failures. Browser checks verify real motion, both themes, pause, replay, mobile overflow, README image embedding, and reduced motion. The [CI workflow](.github/workflows/ci.yml) runs both suites and uploads preview artifacts.
+Tests cover partial weeks, streak gaps, input validation, empty histories, fast collisions, durability, progressive acceleration, deterministic dense calendars, safe SVG output, and API failures. Browser checks verify real motion, the one-to-two-to-three ball progression, both themes, pause, replay, mobile overflow, README image embedding, and reduced motion. The [CI workflow](.github/workflows/ci.yml) runs both suites and uploads preview artifacts.
 
 To export an animated GIF, install FFmpeg and run:
 

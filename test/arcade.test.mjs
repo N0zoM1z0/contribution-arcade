@@ -79,7 +79,16 @@ test('dense histories stay bounded, deterministic, and conserve brick durability
   const scene = simulate(calendar);
   assert.deepEqual(scene, simulate(calendar));
   assert.equal(scene.balls.length, 3);
-  assert.ok(scene.duration < 42);
+  assert.ok(scene.duration < 64);
+  assert.ok(Math.abs(scene.balls[1].start - scene.playStart - 10) < 0.02);
+  assert.ok(Math.abs(scene.balls[2].start - scene.playStart - 22) < 0.02);
+  const velocity = (ball, time) => {
+    const points = ball.points.filter(point => point.time >= time && point.time < time + 0.1);
+    const [first, second] = points;
+    return Math.hypot(second.x - first.x, second.y - first.y) / (second.time - first.time);
+  };
+  assert.ok(velocity(scene.balls[0], 4) < velocity(scene.balls[0], 16));
+  assert.ok(velocity(scene.balls[0], 16) < velocity(scene.balls[0], 30));
   assert.ok(scene.cleared > 0);
   assert.equal(scene.totalHits + scene.bricks.reduce((sum, brick) => sum + brick.hp, 0), 371 * 2);
   for (const ball of scene.balls) {

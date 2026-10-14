@@ -123,6 +123,19 @@ export function renderSVG(calendar: Calendar, scene: Scene, theme: Theme, animat
   </g>` : '';
   const fromYear = calendar.from.slice(0, 4);
   const toYear = calendar.to.slice(0, 4);
+  const phaseLabels = ['WARM UP', 'PICKING UP', 'IN THE FLOW'];
+  const phaseMarkup = animated ? scene.balls.map((ball, index) => {
+    const start = index === 0 ? 0 : ball.start;
+    const end = scene.balls[index + 1]?.start || duration;
+    const events = [{ time: 0, value: index === 0 ? '1' : '0' }];
+    if (index > 0) events.push({ time: start, value: '1' });
+    if (end < duration) events.push({ time: end, value: '0' });
+    events.push({ time: duration, value: index === 0 ? '1' : '0' });
+    return `<g class="animated">${discrete('opacity', events, duration)}
+      <text x="854" y="406" text-anchor="end" font-size="11" class="mono" fill="${palette.secondary}">${index + 1} ${index === 0 ? 'BALL' : 'BALLS'}</text>
+      <text x="854" y="425" text-anchor="end" font-size="9" class="mono" letter-spacing="0.8" fill="${palette.muted}">${phaseLabels[index]}</text>
+    </g>`;
+  }).join('') : '';
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" style="background:${palette.background};border-radius:20px" role="img" aria-labelledby="title desc" data-duration="${n(duration)}" data-cleared="${scene.cleared}" data-active="${activeDays}">
   <title id="title">${escapeXML(calendar.login)} · Contribution Arcade</title>
@@ -141,7 +154,8 @@ export function renderSVG(calendar: Calendar, scene: Scene, theme: Theme, animat
   <text x="48" y="425" font-size="10" fill="${palette.muted}" class="mono">${fromYear}${fromYear === toYear ? '' : ` — ${toYear}`}</text>
   <text x="343" y="406" font-size="15" font-weight="600" fill="${palette.ink}">${number(calendar.total)}<tspan dx="7" font-size="11" font-weight="400" fill="${palette.muted}">contributions</tspan></text>
   <text x="343" y="425" font-size="10" fill="${palette.muted}">${activeDays} active days · ${calendar.longestStreak} day longest streak</text>
+  ${phaseMarkup}
   <g transform="translate(958 401)">${palette.colors.map((color, index) => `<rect x="${index * 16}" width="11" height="11" rx="2.5" fill="${color}"/>`).join('')}</g>
   <text x="1072" y="425" text-anchor="end" font-size="9" letter-spacing="1" fill="${palette.muted}" class="mono">YOUR COMMITS. YOUR GAME.</text>
-</svg>`;
+</svg>`.replace(/[ \t]+$/gm, '');
 }

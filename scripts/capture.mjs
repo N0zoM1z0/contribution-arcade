@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { mkdir, readFile } from 'node:fs/promises';
+import { mkdir, readFile, rm } from 'node:fs/promises';
 import { chromium } from 'playwright';
 import { serve } from './serve.mjs';
 
@@ -41,6 +41,15 @@ try {
   await seek(page, 8);
   if (summary.activeDays) assert.notDeepEqual(await ballPosition(), firstPosition);
 
+  if (summary.balls === 3 && summary.duration > 28) {
+    for (const [time, expected] of [[4, 1], [15, 2], [26, 3]]) {
+      await seek(page, time);
+      const visible = await page.evaluate(() => [...document.querySelector('#board').contentDocument.querySelectorAll('.ball > g')]
+        .filter(ball => Number(getComputedStyle(ball).opacity) > 0).length);
+      assert.equal(visible, expected, `Expected ${expected} visible balls at ${time}s`);
+    }
+  }
+
   await page.getByRole('button', { name: 'Pause animation', exact: true }).click();
   assert.equal(await page.evaluate(() => document.querySelector('#board').contentDocument.documentElement.animationsPaused()), true);
   await page.getByRole('button', { name: 'Paper', exact: true }).click();
@@ -79,6 +88,7 @@ try {
   await board.screenshot({ path: 'previews/breakout-light.png' });
 
   if (process.argv.includes('--frames')) {
+    await rm('previews/frames', { recursive: true, force: true });
     await mkdir('previews/frames', { recursive: true });
     await board.goto(`${base}/generated/breakout-dark.svg`);
     const fps = 12;
@@ -92,7 +102,7 @@ try {
     }
   }
   assert.deepEqual(errors, []);
-  console.log('Browser checks passed: real-data rendering, motion, themes, pause, replay, mobile layout, README image embedding, and reduced motion.');
+  console.log('Browser checks passed: real-data rendering, motion, gradual multiball, themes, pause, replay, mobile layout, README image embedding, and reduced motion.');
   console.log('Preview screenshots saved to previews/.');
 } finally {
   await browser.close();

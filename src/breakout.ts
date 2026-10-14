@@ -35,9 +35,15 @@ export interface Scene {
 
 const STEP = 1 / 120;
 const START = 1.8;
-const MAX_PLAY = 36;
-const SPEED = 1100;
+const MAX_PLAY = 58;
 const EPSILON = 0.001;
+
+// Give the viewer time to settle in, then build momentum without sudden jumps.
+function speedAt(time: number): number {
+  if (time < 10) return 420 + time * 10;
+  if (time < 22) return 520 + (time - 10) * 15;
+  return Math.min(940, 700 + (time - 22) * 12);
+}
 
 function randomFor(seed: string): () => number {
   let value = 2166136261;
@@ -112,7 +118,8 @@ export function simulate(calendar: Calendar, seed = calendar.login): Scene {
     const targetX = target ? target.x + target.size / 2 : BOARD.width * random();
     const targetY = target ? target.y + target.size : BOARD.gridY;
     const angle = clamp(Math.atan2(targetX - x, y - targetY), -1.1, 1.1);
-    return { vx: Math.sin(angle) * SPEED, vy: -Math.cos(angle) * SPEED };
+    const speed = speedAt(playTime);
+    return { vx: Math.sin(angle) * speed, vy: -Math.cos(angle) * speed };
   }
 
   function launch(offset: number): void {
@@ -124,22 +131,22 @@ export function simulate(calendar: Calendar, seed = calendar.login): Scene {
   }
 
   if (remaining) launch(0);
-  // Dense histories unlock two extra balls, keeping the film short and lively.
+  // A long streak unlocks a gradual one → two → three ball progression.
   const multiball = calendar.activeDays > 100 && calendar.longestStreak >= 7;
-  let split = false;
   while (remaining > 0 && playTime < MAX_PLAY) {
-    if (multiball && !split && playTime >= 6) {
-      launch(-20);
-      launch(20);
-      split = true;
-    }
+    if (multiball && balls.length === 1 && playTime >= 10) launch(-18);
+    if (multiball && balls.length === 2 && playTime >= 22) launch(18);
     const nextToLand = [...balls].filter(ball => ball.vy > 0)
       .sort((a, b) => (BOARD.paddleY - a.y) / a.vy - (BOARD.paddleY - b.y) / b.vy)[0] || balls[0];
     paddleX = clamp(nextToLand.x, BOARD.left + BOARD.paddleWidth / 2, BOARD.right - BOARD.paddleWidth / 2);
     if (Math.round(playTime / STEP) % 4 === 0) paddle.push({ time: START + playTime, x: paddleX, y: BOARD.paddleY });
     for (const ball of balls) {
+      const oldSpeed = Math.hypot(ball.vx, ball.vy);
+      const speed = speedAt(playTime);
+      ball.vx *= speed / oldSpeed;
+      ball.vy *= speed / oldSpeed;
       let rest = STEP;
-      for (let bounce = 0; bounce < 6 && rest > EPSILON / SPEED; bounce++) {
+      for (let bounce = 0; bounce < 6 && rest > EPSILON / speed; bounce++) {
         const dx = ball.vx * rest;
         const dy = ball.vy * rest;
         let nearest = 1;
