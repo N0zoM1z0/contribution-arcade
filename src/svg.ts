@@ -1,64 +1,16 @@
 import type { Calendar } from './calendar.js';
-import { BOARD, type Point, type Scene, type Brick } from './breakout.js';
-
-export type Theme = 'dark' | 'light';
-const THEMES = {
-  dark: {
-    background: '#111a17', border: '#2a3730', ink: '#eef3e9', muted: '#8b9c90',
-    empty: '#202d26', colors: ['#202d26', '#365c49', '#58866a', '#88b591', '#c3dfb5'],
-    accent: '#efc8a4', line: '#2b3930', secondary: '#b5ccb0',
-  },
-  light: {
-    background: '#fbfcf8', border: '#dce3d6', ink: '#26392c', muted: '#788574',
-    empty: '#eaf0e4', colors: ['#eaf0e4', '#c4d8b8', '#98bc8d', '#6d986e', '#426c50'],
-    accent: '#b66d49', line: '#e0e7d9', secondary: '#53765a',
-  },
-};
-
-export const escapeXML = (value: string): string => value.replace(/[&<>"']/g, character => ({
-  '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;',
-})[character]!);
-const n = (value: number): string => Number(value.toFixed(3)).toString();
+import { BOARD, type Scene, type Brick } from './breakout.js';
+import { THEMES, n, discrete, motion, renderCard, type Theme } from './card.js';
+export { escapeXML, type Theme } from './card.js';
 const fraction = (time: number, duration: number): string => n(Math.min(1, Math.max(0, time / duration)));
-const number = (value: number): string => value.toLocaleString('en-US');
-
-function discrete(attribute: string, events: { time: number; value: string }[], duration: number): string {
-  // Use six decimals for event times: dense histories can have sub-millisecond hits.
-  const times = events.map(event => (event.time / duration).toFixed(6));
-  return `<animate attributeName="${attribute}" values="${events.map(event => event.value).join(';')}" keyTimes="${times.join(';')}" calcMode="discrete" dur="${n(duration)}s" repeatCount="indefinite"/>`;
-}
-
-function motion(points: Point[], duration: number): string {
-  const ordered = [...points].sort((a, b) => a.time - b.time);
-  const frames: Point[] = [{ ...ordered[0], time: 0 }];
-  for (const point of ordered) {
-    if (point.time - frames.at(-1)!.time < 0.00001) frames[frames.length - 1] = point;
-    else frames.push(point);
-  }
-  frames.push({ ...frames.at(-1)!, time: duration });
-  return `<animateTransform attributeName="transform" type="translate" values="${frames.map(point => `${n(point.x)} ${n(point.y)}`).join(';')}" keyTimes="${frames.map(point => (point.time / duration).toFixed(6)).join(';')}" dur="${n(duration)}s" repeatCount="indefinite"/>`;
-}
 
 function cellRect(brick: Brick, color: string, extra = ''): string {
   return `<rect x="${n(brick.x)}" y="${n(brick.y)}" width="${n(brick.size)}" height="${n(brick.size)}" rx="3" fill="${color}"${extra}/>`;
 }
 
-function monthLabels(calendar: Calendar, muted: string): string {
-  let previous = '';
-  return calendar.cells.filter(day => day.row === 0 || day.date === calendar.from).map(day => {
-    const month = day.date.slice(0, 7);
-    if (month === previous) return '';
-    previous = month;
-    const x = BOARD.left + day.column * BOARD.gridWidth / calendar.columns + 2;
-    if (x > BOARD.right - 24) return '';
-    const label = new Date(`${day.date}T00:00:00Z`).toLocaleString('en-US', { month: 'short', timeZone: 'UTC' });
-    return `<text x="${n(x)}" y="97" fill="${muted}" font-size="10">${label}</text>`;
-  }).join('');
-}
-
 export function renderSVG(calendar: Calendar, scene: Scene, theme: Theme, animated = true): string {
   const palette = THEMES[theme];
-  const { width, height, paddleY, paddleWidth, paddleHeight } = BOARD;
+  const { width, paddleY, paddleWidth, paddleHeight } = BOARD;
   const duration = scene.duration;
   const initialCells = scene.bricks.filter(brick => brick.initialHp > 0)
     .map(brick => cellRect(brick, palette.colors[brick.cell.level])).join('');
@@ -121,8 +73,6 @@ export function renderSVG(calendar: Calendar, scene: Scene, theme: Theme, animat
     ${discrete('opacity', [{ time: 0, value: '0' }, { time: scene.playEnd + 0.3, value: '1' }, { time: duration - 0.5, value: '0' }, { time: duration, value: '0' }], duration)}
     <text x="560" y="292" text-anchor="middle" font-size="14" fill="${palette.muted}">${endMessage}</text>
   </g>` : '';
-  const fromYear = calendar.from.slice(0, 4);
-  const toYear = calendar.to.slice(0, 4);
   const phaseLabels = ['WARM UP', 'PICKING UP', 'IN THE FLOW'];
   const phaseMarkup = animated ? scene.balls.map((ball, index) => {
     const start = index === 0 ? 0 : ball.start;
@@ -137,25 +87,11 @@ export function renderSVG(calendar: Calendar, scene: Scene, theme: Theme, animat
     </g>`;
   }).join('') : '';
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" style="background:${palette.background};border-radius:20px" role="img" aria-labelledby="title desc" data-duration="${n(duration)}" data-cleared="${scene.cleared}" data-active="${activeDays}">
-  <title id="title">${escapeXML(calendar.login)} · Contribution Arcade</title>
-  <desc id="desc">${number(calendar.total)} GitHub contributions across ${activeDays} active days, ${calendar.from} to ${calendar.to}. An automatically played breakout animation. Stronger contribution levels take more hits. A long streak unlocks multiball. The original calendar returns each loop.</desc>
-  <style>text{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}.reduced{display:none}@media(prefers-reduced-motion:reduce){.animated{display:none}.reduced{display:inline}}</style>
-  <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="20" fill="${palette.background}" stroke="${palette.border}"/>
-  <g fill="${palette.secondary}"><rect x="48" y="32" width="6" height="6" rx="1.3"/><rect x="57" y="32" width="6" height="6" rx="1.3" opacity="0.5"/><rect x="48" y="41" width="6" height="6" rx="1.3" opacity="0.5"/><rect x="57" y="41" width="6" height="6" rx="1.3"/></g>
-  <text x="77" y="45" font-size="14" font-weight="600" fill="${palette.ink}" letter-spacing="-0.2">contribution arcade</text>
-  <text x="1072" y="44" text-anchor="end" font-size="10" class="mono" letter-spacing="1.5" fill="${palette.muted}">01 / BREAKOUT</text>
-  <path d="M48 65H1072" stroke="${palette.line}"/>
-  ${monthLabels(calendar, palette.muted)}
-  ${scene.bricks.map(brick => cellRect(brick, palette.empty)).join('')}
-  ${staticScene}${film}${status}
-  <path d="M48 376H1072" stroke="${palette.line}"/>
-  <text x="48" y="406" font-size="15" font-weight="600" fill="${palette.ink}">@${escapeXML(calendar.login)}</text>
-  <text x="48" y="425" font-size="10" fill="${palette.muted}" class="mono">${fromYear}${fromYear === toYear ? '' : ` — ${toYear}`}</text>
-  <text x="343" y="406" font-size="15" font-weight="600" fill="${palette.ink}">${number(calendar.total)}<tspan dx="7" font-size="11" font-weight="400" fill="${palette.muted}">contributions</tspan></text>
-  <text x="343" y="425" font-size="10" fill="${palette.muted}">${activeDays} active days · ${calendar.longestStreak} day longest streak</text>
-  ${phaseMarkup}
-  <g transform="translate(958 401)">${palette.colors.map((color, index) => `<rect x="${index * 16}" width="11" height="11" rx="2.5" fill="${color}"/>`).join('')}</g>
-  <text x="1072" y="425" text-anchor="end" font-size="9" letter-spacing="1" fill="${palette.muted}" class="mono">YOUR COMMITS. YOUR GAME.</text>
-</svg>`.replace(/[ \t]+$/gm, '');
+  return renderCard(calendar, theme, {
+    label: '01 / BREAKOUT', scene: 'breakout', duration,
+    description: 'An automatically played breakout animation. Stronger contribution levels take more hits. A long streak unlocks multiball. The original calendar returns each loop.',
+    attributes: { cleared: scene.cleared, active: activeDays },
+    content: `${scene.bricks.map(brick => cellRect(brick, palette.empty)).join('')}${staticScene}${film}${status}`,
+    footer: phaseMarkup,
+  });
 }
