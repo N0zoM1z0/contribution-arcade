@@ -1,5 +1,5 @@
 name: Contribution Arcade
-description: Generate a quiet breakout animation from a GitHub contribution calendar.
+description: Generate Breakout and Growing Snake SVGs from a GitHub contribution calendar.
 author: N0zoM1z0
 branding:
   icon: grid

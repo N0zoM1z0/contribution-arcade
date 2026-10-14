@@ -44,5 +44,7 @@ jobs:
           path: |
             generated/*.svg
             generated/summary.json
+            generated/snake-summary.json
+            generated/arcade.json
             previews/*.png
           retention-days: 14
