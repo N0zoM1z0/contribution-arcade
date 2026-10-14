@@ -1,0 +1,4799 @@
+{
+  "username": "N0zoM1z0",
+  "id": "invaders",
+  "duration": 32.916,
+  "metrics": {
+    "targets": 138,
+    "hits": 138,
+    "contributions": 13951,
+    "boss": 1,
+    "bossStreak": 94,
+    "ordering": "count-ascending"
+  },
+  "checkpoints": [
+    1,
+    12.536000000000001,
+    25.216
+  ],
+  "events": [
+    {
+      "time": 1.3199999999999998,
+      "type": "invader-dive",
+      "date": "2025-11-03",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 1.4,
+      "type": "ship-fire",
+      "date": "2025-11-03",
+      "value": 1,
+      "data": {
+        "x": 128.55003773584906,
+        "y": 303,
+        "hitTime": 1.496,
+        "targetX": 128.55003773584906,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 1.4799999999999998,
+      "type": "invader-dive",
+      "date": "2026-02-09",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 1.496,
+      "type": "invader-hit",
+      "date": "2025-11-03",
+      "value": 1,
+      "data": {
+        "x": 128.55003773584906,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 1.5599999999999998,
+      "type": "ship-fire",
+      "date": "2026-02-09",
+      "value": 1,
+      "data": {
+        "x": 395.4541886792453,
+        "y": 303,
+        "hitTime": 1.656,
+        "targetX": 395.4541886792453,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 1.64,
+      "type": "invader-dive",
+      "date": "2026-02-15",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 1.656,
+      "type": "invader-hit",
+      "date": "2026-02-09",
+      "value": 1,
+      "data": {
+        "x": 395.4541886792453,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 1.72,
+      "type": "ship-fire",
+      "date": "2026-02-15",
+      "value": 1,
+      "data": {
+        "x": 415.1130566037736,
+        "y": 303,
+        "hitTime": 1.816,
+        "targetX": 415.1130566037736,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 1.7999999999999998,
+      "type": "invader-dive",
+      "date": "2026-02-22",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 1.816,
+      "type": "invader-hit",
+      "date": "2026-02-15",
+      "value": 1,
+      "data": {
+        "x": 415.1130566037736,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 1.88,
+      "type": "ship-fire",
+      "date": "2026-02-22",
+      "value": 1,
+      "data": {
+        "x": 434.7719245283019,
+        "y": 303,
+        "hitTime": 1.976,
+        "targetX": 434.7719245283019,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 1.96,
+      "type": "invader-dive",
+      "date": "2026-02-24",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 1.976,
+      "type": "invader-hit",
+      "date": "2026-02-22",
+      "value": 1,
+      "data": {
+        "x": 434.7719245283019,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 2.04,
+      "type": "ship-fire",
+      "date": "2026-02-24",
+      "value": 1,
+      "data": {
+        "x": 434.3239245283019,
+        "y": 303,
+        "hitTime": 2.136,
+        "targetX": 434.3239245283019,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 2.12,
+      "type": "invader-dive",
+      "date": "2026-03-30",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 2.136,
+      "type": "invader-hit",
+      "date": "2026-02-24",
+      "value": 1,
+      "data": {
+        "x": 434.3239245283019,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 2.2,
+      "type": "ship-fire",
+      "date": "2026-03-30",
+      "value": 1,
+      "data": {
+        "x": 528.7782641509434,
+        "y": 303,
+        "hitTime": 2.2960000000000003,
+        "targetX": 528.7782641509434,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 2.28,
+      "type": "invader-dive",
+      "date": "2026-04-21",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 2.2960000000000003,
+      "type": "invader-hit",
+      "date": "2026-03-30",
+      "value": 1,
+      "data": {
+        "x": 528.7782641509434,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 2.36,
+      "type": "ship-fire",
+      "date": "2026-04-21",
+      "value": 1,
+      "data": {
+        "x": 585.1948679245284,
+        "y": 303,
+        "hitTime": 2.456,
+        "targetX": 585.1948679245284,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 2.44,
+      "type": "invader-dive",
+      "date": "2026-04-25",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 2.456,
+      "type": "invader-hit",
+      "date": "2026-04-21",
+      "value": 1,
+      "data": {
+        "x": 585.1948679245284,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 2.52,
+      "type": "ship-fire",
+      "date": "2026-04-25",
+      "value": 1,
+      "data": {
+        "x": 584.5548679245283,
+        "y": 303,
+        "hitTime": 2.616,
+        "targetX": 584.5548679245283,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 2.5999999999999996,
+      "type": "invader-dive",
+      "date": "2026-05-01",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 2.616,
+      "type": "invader-hit",
+      "date": "2026-04-25",
+      "value": 1,
+      "data": {
+        "x": 584.5548679245283,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 2.6799999999999997,
+      "type": "ship-fire",
+      "date": "2026-05-01",
+      "value": 1,
+      "data": {
+        "x": 602.9337358490566,
+        "y": 303,
+        "hitTime": 2.776,
+        "targetX": 602.9337358490566,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 2.76,
+      "type": "invader-dive",
+      "date": "2026-05-11",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 2.776,
+      "type": "invader-hit",
+      "date": "2026-05-01",
+      "value": 1,
+      "data": {
+        "x": 602.9337358490566,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 2.84,
+      "type": "ship-fire",
+      "date": "2026-05-11",
+      "value": 1,
+      "data": {
+        "x": 640.3314716981132,
+        "y": 303,
+        "hitTime": 2.936,
+        "targetX": 640.3314716981132,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 2.92,
+      "type": "invader-dive",
+      "date": "2026-05-14",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 2.936,
+      "type": "invader-hit",
+      "date": "2026-05-11",
+      "value": 1,
+      "data": {
+        "x": 640.3314716981132,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 3,
+      "type": "ship-fire",
+      "date": "2026-05-14",
+      "value": 1,
+      "data": {
+        "x": 639.6914716981132,
+        "y": 303,
+        "hitTime": 3.096,
+        "targetX": 639.6914716981132,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 3.08,
+      "type": "invader-dive",
+      "date": "2026-05-15",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 3.096,
+      "type": "invader-hit",
+      "date": "2026-05-14",
+      "value": 1,
+      "data": {
+        "x": 639.6914716981132,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 3.16,
+      "type": "ship-fire",
+      "date": "2026-05-15",
+      "value": 1,
+      "data": {
+        "x": 639.0514716981132,
+        "y": 303,
+        "hitTime": 3.2560000000000002,
+        "targetX": 639.0514716981132,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 3.2399999999999998,
+      "type": "invader-dive",
+      "date": "2026-05-22",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 3.2560000000000002,
+      "type": "invader-hit",
+      "date": "2026-05-15",
+      "value": 1,
+      "data": {
+        "x": 639.0514716981132,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 3.32,
+      "type": "ship-fire",
+      "date": "2026-05-22",
+      "value": 1,
+      "data": {
+        "x": 657.4303396226416,
+        "y": 303,
+        "hitTime": 3.416,
+        "targetX": 657.4303396226416,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 3.4,
+      "type": "invader-dive",
+      "date": "2026-05-23",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 3.416,
+      "type": "invader-hit",
+      "date": "2026-05-22",
+      "value": 1,
+      "data": {
+        "x": 657.4303396226416,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 3.48,
+      "type": "ship-fire",
+      "date": "2026-05-23",
+      "value": 1,
+      "data": {
+        "x": 656.7903396226416,
+        "y": 303,
+        "hitTime": 3.576,
+        "targetX": 656.7903396226416,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 3.56,
+      "type": "invader-dive",
+      "date": "2026-05-26",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 3.576,
+      "type": "invader-hit",
+      "date": "2026-05-23",
+      "value": 1,
+      "data": {
+        "x": 656.7903396226416,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 3.64,
+      "type": "ship-fire",
+      "date": "2026-05-26",
+      "value": 1,
+      "data": {
+        "x": 675.1692075471699,
+        "y": 303,
+        "hitTime": 3.736,
+        "targetX": 675.1692075471699,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 3.7199999999999998,
+      "type": "invader-dive",
+      "date": "2026-06-18",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 3.736,
+      "type": "invader-hit",
+      "date": "2026-05-26",
+      "value": 1,
+      "data": {
+        "x": 675.1692075471699,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 3.8,
+      "type": "ship-fire",
+      "date": "2026-06-18",
+      "value": 1,
+      "data": {
+        "x": 731.5858113207547,
+        "y": 303,
+        "hitTime": 3.896,
+        "targetX": 731.5858113207547,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 3.88,
+      "type": "invader-dive",
+      "date": "2026-02-20",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 3.896,
+      "type": "invader-hit",
+      "date": "2026-06-18",
+      "value": 1,
+      "data": {
+        "x": 731.5858113207547,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 3.96,
+      "type": "ship-fire",
+      "date": "2026-02-20",
+      "value": 2,
+      "data": {
+        "x": 407.6250566037736,
+        "y": 303,
+        "hitTime": 4.056,
+        "targetX": 407.6250566037736,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 4.04,
+      "type": "invader-dive",
+      "date": "2026-04-28",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 4.056,
+      "type": "invader-hit",
+      "date": "2026-02-20",
+      "value": 2,
+      "data": {
+        "x": 407.6250566037736,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 4.12,
+      "type": "ship-fire",
+      "date": "2026-04-28",
+      "value": 2,
+      "data": {
+        "x": 597.1737358490566,
+        "y": 303,
+        "hitTime": 4.216,
+        "targetX": 597.1737358490566,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 4.199999999999999,
+      "type": "invader-dive",
+      "date": "2026-05-17",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 4.216,
+      "type": "invader-hit",
+      "date": "2026-04-28",
+      "value": 2,
+      "data": {
+        "x": 597.1737358490566,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 4.279999999999999,
+      "type": "ship-fire",
+      "date": "2026-05-17",
+      "value": 2,
+      "data": {
+        "x": 653.5903396226415,
+        "y": 303,
+        "hitTime": 4.3759999999999994,
+        "targetX": 653.5903396226415,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 4.359999999999999,
+      "type": "invader-dive",
+      "date": "2026-04-18",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 4.3759999999999994,
+      "type": "invader-hit",
+      "date": "2026-05-17",
+      "value": 2,
+      "data": {
+        "x": 653.5903396226415,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 4.4399999999999995,
+      "type": "ship-fire",
+      "date": "2026-04-18",
+      "value": 3,
+      "data": {
+        "x": 557.856,
+        "y": 303,
+        "hitTime": 4.536,
+        "targetX": 557.856,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 4.52,
+      "type": "invader-dive",
+      "date": "2026-06-04",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 4.536,
+      "type": "invader-hit",
+      "date": "2026-04-18",
+      "value": 3,
+      "data": {
+        "x": 557.856,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 4.6,
+      "type": "ship-fire",
+      "date": "2026-06-04",
+      "value": 3,
+      "data": {
+        "x": 690.3480754716982,
+        "y": 303,
+        "hitTime": 4.696,
+        "targetX": 690.3480754716982,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 4.68,
+      "type": "invader-dive",
+      "date": "2026-04-20",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 4.696,
+      "type": "invader-hit",
+      "date": "2026-06-04",
+      "value": 3,
+      "data": {
+        "x": 690.3480754716982,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 4.76,
+      "type": "ship-fire",
+      "date": "2026-04-20",
+      "value": 4,
+      "data": {
+        "x": 575.5948679245283,
+        "y": 303,
+        "hitTime": 4.856,
+        "targetX": 575.5948679245283,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 4.84,
+      "type": "invader-dive",
+      "date": "2026-05-09",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 4.856,
+      "type": "invader-hit",
+      "date": "2026-04-20",
+      "value": 4,
+      "data": {
+        "x": 575.5948679245283,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 4.92,
+      "type": "ship-fire",
+      "date": "2026-05-09",
+      "value": 4,
+      "data": {
+        "x": 612.992603773585,
+        "y": 303,
+        "hitTime": 5.016,
+        "targetX": 612.992603773585,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 5,
+      "type": "invader-dive",
+      "date": "2026-07-08",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 5.016,
+      "type": "invader-hit",
+      "date": "2026-05-09",
+      "value": 4,
+      "data": {
+        "x": 612.992603773585,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 5.08,
+      "type": "ship-fire",
+      "date": "2026-07-08",
+      "value": 4,
+      "data": {
+        "x": 783.5224150943396,
+        "y": 303,
+        "hitTime": 5.176,
+        "targetX": 783.5224150943396,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 5.16,
+      "type": "invader-dive",
+      "date": "2026-07-11",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 5.176,
+      "type": "invader-hit",
+      "date": "2026-07-08",
+      "value": 4,
+      "data": {
+        "x": 783.5224150943396,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 5.24,
+      "type": "ship-fire",
+      "date": "2026-07-11",
+      "value": 4,
+      "data": {
+        "x": 782.8824150943395,
+        "y": 303,
+        "hitTime": 5.336,
+        "targetX": 782.8824150943395,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 5.32,
+      "type": "invader-dive",
+      "date": "2026-04-17",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 5.336,
+      "type": "invader-hit",
+      "date": "2026-07-11",
+      "value": 4,
+      "data": {
+        "x": 782.8824150943395,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 5.4,
+      "type": "ship-fire",
+      "date": "2026-04-17",
+      "value": 5,
+      "data": {
+        "x": 554.016,
+        "y": 303,
+        "hitTime": 5.496,
+        "targetX": 554.016,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 5.48,
+      "type": "invader-dive",
+      "date": "2026-05-07",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 5.496,
+      "type": "invader-hit",
+      "date": "2026-04-17",
+      "value": 5,
+      "data": {
+        "x": 554.016,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 5.5600000000000005,
+      "type": "ship-fire",
+      "date": "2026-05-07",
+      "value": 5,
+      "data": {
+        "x": 610.4326037735849,
+        "y": 303,
+        "hitTime": 5.656000000000001,
+        "targetX": 610.4326037735849,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 5.640000000000001,
+      "type": "invader-dive",
+      "date": "2026-06-20",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 5.656000000000001,
+      "type": "invader-hit",
+      "date": "2026-05-07",
+      "value": 5,
+      "data": {
+        "x": 610.4326037735849,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 5.720000000000001,
+      "type": "ship-fire",
+      "date": "2026-06-20",
+      "value": 5,
+      "data": {
+        "x": 723.9058113207547,
+        "y": 303,
+        "hitTime": 5.816000000000001,
+        "targetX": 723.9058113207547,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 5.800000000000001,
+      "type": "invader-dive",
+      "date": "2026-09-04",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 5.816000000000001,
+      "type": "invader-hit",
+      "date": "2026-06-20",
+      "value": 5,
+      "data": {
+        "x": 723.9058113207547,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 5.880000000000001,
+      "type": "ship-fire",
+      "date": "2026-09-04",
+      "value": 5,
+      "data": {
+        "x": 932.473358490566,
+        "y": 303,
+        "hitTime": 5.976000000000001,
+        "targetX": 932.473358490566,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 5.959999999999999,
+      "type": "invader-dive",
+      "date": "2026-05-18",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 5.976000000000001,
+      "type": "invader-hit",
+      "date": "2026-09-04",
+      "value": 5,
+      "data": {
+        "x": 932.473358490566,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 6.039999999999999,
+      "type": "ship-fire",
+      "date": "2026-05-18",
+      "value": 7,
+      "data": {
+        "x": 647.6383396226415,
+        "y": 303,
+        "hitTime": 6.135999999999999,
+        "targetX": 647.6383396226415,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 6.119999999999999,
+      "type": "invader-dive",
+      "date": "2026-07-10",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 6.135999999999999,
+      "type": "invader-hit",
+      "date": "2026-05-18",
+      "value": 7,
+      "data": {
+        "x": 647.6383396226415,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 6.199999999999999,
+      "type": "ship-fire",
+      "date": "2026-07-10",
+      "value": 7,
+      "data": {
+        "x": 781.4104150943396,
+        "y": 303,
+        "hitTime": 6.295999999999999,
+        "targetX": 781.4104150943396,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 6.279999999999999,
+      "type": "invader-dive",
+      "date": "2026-03-14",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 6.295999999999999,
+      "type": "invader-hit",
+      "date": "2026-07-10",
+      "value": 7,
+      "data": {
+        "x": 781.4104150943396,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 6.359999999999999,
+      "type": "ship-fire",
+      "date": "2026-03-14",
+      "value": 8,
+      "data": {
+        "x": 458.7296603773585,
+        "y": 303,
+        "hitTime": 6.4559999999999995,
+        "targetX": 458.7296603773585,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 6.4399999999999995,
+      "type": "invader-dive",
+      "date": "2026-07-13",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 6.4559999999999995,
+      "type": "invader-hit",
+      "date": "2026-03-14",
+      "value": 8,
+      "data": {
+        "x": 458.7296603773585,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 6.52,
+      "type": "ship-fire",
+      "date": "2026-07-13",
+      "value": 8,
+      "data": {
+        "x": 801.7092830188678,
+        "y": 303,
+        "hitTime": 6.616,
+        "targetX": 801.7092830188678,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 6.6,
+      "type": "invader-dive",
+      "date": "2026-07-09",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 6.616,
+      "type": "invader-hit",
+      "date": "2026-07-13",
+      "value": 8,
+      "data": {
+        "x": 801.7092830188678,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 6.68,
+      "type": "ship-fire",
+      "date": "2026-07-09",
+      "value": 10,
+      "data": {
+        "x": 783.3304150943396,
+        "y": 303,
+        "hitTime": 6.776,
+        "targetX": 783.3304150943396,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 6.76,
+      "type": "invader-dive",
+      "date": "2026-06-14",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 6.776,
+      "type": "invader-hit",
+      "date": "2026-07-09",
+      "value": 10,
+      "data": {
+        "x": 783.3304150943396,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 6.84,
+      "type": "ship-fire",
+      "date": "2026-06-14",
+      "value": 11,
+      "data": {
+        "x": 726.9138113207547,
+        "y": 303,
+        "hitTime": 6.936,
+        "targetX": 726.9138113207547,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 6.92,
+      "type": "invader-dive",
+      "date": "2026-06-19",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 6.936,
+      "type": "invader-hit",
+      "date": "2026-06-14",
+      "value": 11,
+      "data": {
+        "x": 726.9138113207547,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 7,
+      "type": "ship-fire",
+      "date": "2026-06-19",
+      "value": 11,
+      "data": {
+        "x": 727.5538113207547,
+        "y": 303,
+        "hitTime": 7.096,
+        "targetX": 727.5538113207547,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 7.08,
+      "type": "invader-dive",
+      "date": "2026-04-23",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 7.096,
+      "type": "invader-hit",
+      "date": "2026-06-19",
+      "value": 11,
+      "data": {
+        "x": 727.5538113207547,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 7.16,
+      "type": "ship-fire",
+      "date": "2026-04-23",
+      "value": 12,
+      "data": {
+        "x": 576.0428679245283,
+        "y": 303,
+        "hitTime": 7.256,
+        "targetX": 576.0428679245283,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 7.24,
+      "type": "invader-dive",
+      "date": "2026-04-27",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 7.256,
+      "type": "invader-hit",
+      "date": "2026-04-23",
+      "value": 12,
+      "data": {
+        "x": 576.0428679245283,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 7.32,
+      "type": "ship-fire",
+      "date": "2026-04-27",
+      "value": 12,
+      "data": {
+        "x": 595.7017358490566,
+        "y": 303,
+        "hitTime": 7.416,
+        "targetX": 595.7017358490566,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 7.4,
+      "type": "invader-dive",
+      "date": "2026-04-22",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 7.416,
+      "type": "invader-hit",
+      "date": "2026-04-27",
+      "value": 12,
+      "data": {
+        "x": 595.7017358490566,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 7.48,
+      "type": "ship-fire",
+      "date": "2026-04-22",
+      "value": 13,
+      "data": {
+        "x": 577.3228679245283,
+        "y": 303,
+        "hitTime": 7.5760000000000005,
+        "targetX": 577.3228679245283,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 7.5600000000000005,
+      "type": "invader-dive",
+      "date": "2026-10-01",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 7.5760000000000005,
+      "type": "invader-hit",
+      "date": "2026-04-22",
+      "value": 13,
+      "data": {
+        "x": 577.3228679245283,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 7.640000000000001,
+      "type": "ship-fire",
+      "date": "2026-10-01",
+      "value": 14,
+      "data": {
+        "x": 1015.3968301886792,
+        "y": 303,
+        "hitTime": 7.736000000000001,
+        "targetX": 1015.3968301886792,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 7.720000000000001,
+      "type": "invader-dive",
+      "date": "2026-03-13",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 7.736000000000001,
+      "type": "invader-hit",
+      "date": "2026-10-01",
+      "value": 14,
+      "data": {
+        "x": 1015.3968301886792,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 7.800000000000001,
+      "type": "ship-fire",
+      "date": "2026-03-13",
+      "value": 16,
+      "data": {
+        "x": 464.4896603773585,
+        "y": 303,
+        "hitTime": 7.896000000000001,
+        "targetX": 464.4896603773585,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 7.880000000000001,
+      "type": "invader-dive",
+      "date": "2026-09-23",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 7.896000000000001,
+      "type": "invader-hit",
+      "date": "2026-03-13",
+      "value": 16,
+      "data": {
+        "x": 464.4896603773585,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 7.960000000000001,
+      "type": "ship-fire",
+      "date": "2026-09-23",
+      "value": 16,
+      "data": {
+        "x": 997.657962264151,
+        "y": 303,
+        "hitTime": 8.056000000000001,
+        "targetX": 997.657962264151,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 8.04,
+      "type": "invader-dive",
+      "date": "2026-05-27",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 8.056000000000001,
+      "type": "invader-hit",
+      "date": "2026-09-23",
+      "value": 16,
+      "data": {
+        "x": 997.657962264151,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 8.12,
+      "type": "ship-fire",
+      "date": "2026-05-27",
+      "value": 17,
+      "data": {
+        "x": 674.9772075471699,
+        "y": 303,
+        "hitTime": 8.216,
+        "targetX": 674.9772075471699,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 8.2,
+      "type": "invader-dive",
+      "date": "2026-08-28",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 8.216,
+      "type": "invader-hit",
+      "date": "2026-05-27",
+      "value": 17,
+      "data": {
+        "x": 674.9772075471699,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 8.28,
+      "type": "ship-fire",
+      "date": "2026-08-28",
+      "value": 17,
+      "data": {
+        "x": 922.8624905660378,
+        "y": 303,
+        "hitTime": 8.376,
+        "targetX": 922.8624905660378,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 8.36,
+      "type": "invader-dive",
+      "date": "2026-04-30",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 8.376,
+      "type": "invader-hit",
+      "date": "2026-08-28",
+      "value": 17,
+      "data": {
+        "x": 922.8624905660378,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 8.44,
+      "type": "ship-fire",
+      "date": "2026-04-30",
+      "value": 18,
+      "data": {
+        "x": 600.1817358490566,
+        "y": 303,
+        "hitTime": 8.536,
+        "targetX": 600.1817358490566,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 8.52,
+      "type": "invader-dive",
+      "date": "2026-06-12",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 8.536,
+      "type": "invader-hit",
+      "date": "2026-04-30",
+      "value": 18,
+      "data": {
+        "x": 600.1817358490566,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 8.6,
+      "type": "ship-fire",
+      "date": "2026-06-12",
+      "value": 18,
+      "data": {
+        "x": 714.9349433962265,
+        "y": 303,
+        "hitTime": 8.696,
+        "targetX": 714.9349433962265,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 8.68,
+      "type": "invader-dive",
+      "date": "2026-06-22",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 8.696,
+      "type": "invader-hit",
+      "date": "2026-06-12",
+      "value": 18,
+      "data": {
+        "x": 714.9349433962265,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 8.76,
+      "type": "ship-fire",
+      "date": "2026-06-22",
+      "value": 29,
+      "data": {
+        "x": 753.612679245283,
+        "y": 303,
+        "hitTime": 8.856,
+        "targetX": 753.612679245283,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 8.84,
+      "type": "invader-dive",
+      "date": "2026-08-08",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 8.856,
+      "type": "invader-hit",
+      "date": "2026-06-22",
+      "value": 29,
+      "data": {
+        "x": 753.612679245283,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 8.92,
+      "type": "ship-fire",
+      "date": "2026-08-08",
+      "value": 30,
+      "data": {
+        "x": 868.3658867924528,
+        "y": 303,
+        "hitTime": 9.016,
+        "targetX": 868.3658867924528,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 9,
+      "type": "invader-dive",
+      "date": "2026-05-06",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 9.016,
+      "type": "invader-hit",
+      "date": "2026-08-08",
+      "value": 30,
+      "data": {
+        "x": 868.3658867924528,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 9.08,
+      "type": "ship-fire",
+      "date": "2026-05-06",
+      "value": 31,
+      "data": {
+        "x": 621.7606037735849,
+        "y": 303,
+        "hitTime": 9.176,
+        "targetX": 621.7606037735849,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 9.16,
+      "type": "invader-dive",
+      "date": "2026-09-18",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 9.176,
+      "type": "invader-hit",
+      "date": "2026-05-06",
+      "value": 31,
+      "data": {
+        "x": 621.7606037735849,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 9.24,
+      "type": "ship-fire",
+      "date": "2026-09-18",
+      "value": 33,
+      "data": {
+        "x": 983.7590943396227,
+        "y": 303,
+        "hitTime": 9.336,
+        "targetX": 983.7590943396227,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 9.32,
+      "type": "invader-dive",
+      "date": "2026-07-23",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 9.336,
+      "type": "invader-hit",
+      "date": "2026-09-18",
+      "value": 33,
+      "data": {
+        "x": 983.7590943396227,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 9.4,
+      "type": "ship-fire",
+      "date": "2026-07-23",
+      "value": 34,
+      "data": {
+        "x": 832.2481509433962,
+        "y": 303,
+        "hitTime": 9.496,
+        "targetX": 832.2481509433962,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 9.48,
+      "type": "invader-dive",
+      "date": "2026-09-30",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 9.496,
+      "type": "invader-hit",
+      "date": "2026-07-23",
+      "value": 34,
+      "data": {
+        "x": 832.2481509433962,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 9.56,
+      "type": "ship-fire",
+      "date": "2026-09-30",
+      "value": 34,
+      "data": {
+        "x": 1023.0768301886793,
+        "y": 303,
+        "hitTime": 9.656,
+        "targetX": 1023.0768301886793,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 9.64,
+      "type": "invader-dive",
+      "date": "2026-09-03",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 9.656,
+      "type": "invader-hit",
+      "date": "2026-09-30",
+      "value": 34,
+      "data": {
+        "x": 1023.0768301886793,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 9.72,
+      "type": "ship-fire",
+      "date": "2026-09-03",
+      "value": 37,
+      "data": {
+        "x": 947.6413584905661,
+        "y": 303,
+        "hitTime": 9.816,
+        "targetX": 947.6413584905661,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 9.8,
+      "type": "invader-dive",
+      "date": "2026-07-19",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 9.816,
+      "type": "invader-hit",
+      "date": "2026-09-03",
+      "value": 37,
+      "data": {
+        "x": 947.6413584905661,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 9.88,
+      "type": "ship-fire",
+      "date": "2026-07-19",
+      "value": 41,
+      "data": {
+        "x": 834.1681509433962,
+        "y": 303,
+        "hitTime": 9.976,
+        "targetX": 834.1681509433962,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 9.96,
+      "type": "invader-dive",
+      "date": "2026-09-13",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 9.976,
+      "type": "invader-hit",
+      "date": "2026-07-19",
+      "value": 41,
+      "data": {
+        "x": 834.1681509433962,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 10.040000000000001,
+      "type": "ship-fire",
+      "date": "2026-09-13",
+      "value": 41,
+      "data": {
+        "x": 985.8710943396227,
+        "y": 303,
+        "hitTime": 10.136000000000001,
+        "targetX": 985.8710943396227,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 10.120000000000001,
+      "type": "invader-dive",
+      "date": "2026-09-02",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 10.136000000000001,
+      "type": "invader-hit",
+      "date": "2026-09-13",
+      "value": 41,
+      "data": {
+        "x": 985.8710943396227,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 10.200000000000001,
+      "type": "ship-fire",
+      "date": "2026-09-02",
+      "value": 42,
+      "data": {
+        "x": 947.1933584905661,
+        "y": 303,
+        "hitTime": 10.296000000000001,
+        "targetX": 947.1933584905661,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 10.280000000000001,
+      "type": "invader-dive",
+      "date": "2026-09-28",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 10.296000000000001,
+      "type": "invader-hit",
+      "date": "2026-09-02",
+      "value": 42,
+      "data": {
+        "x": 947.1933584905661,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 10.360000000000001,
+      "type": "ship-fire",
+      "date": "2026-09-28",
+      "value": 42,
+      "data": {
+        "x": 1022.6288301886793,
+        "y": 303,
+        "hitTime": 10.456000000000001,
+        "targetX": 1022.6288301886793,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 10.440000000000001,
+      "type": "invader-dive",
+      "date": "2026-08-07",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 10.456000000000001,
+      "type": "invader-hit",
+      "date": "2026-09-28",
+      "value": 42,
+      "data": {
+        "x": 1022.6288301886793,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 10.520000000000001,
+      "type": "ship-fire",
+      "date": "2026-08-07",
+      "value": 44,
+      "data": {
+        "x": 869.8378867924528,
+        "y": 303,
+        "hitTime": 10.616000000000001,
+        "targetX": 869.8378867924528,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 10.6,
+      "type": "invader-dive",
+      "date": "2026-07-18",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 10.616000000000001,
+      "type": "invader-hit",
+      "date": "2026-08-07",
+      "value": 44,
+      "data": {
+        "x": 869.8378867924528,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 10.68,
+      "type": "ship-fire",
+      "date": "2026-07-18",
+      "value": 46,
+      "data": {
+        "x": 812.1412830188679,
+        "y": 303,
+        "hitTime": 10.776,
+        "targetX": 812.1412830188679,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 10.76,
+      "type": "invader-dive",
+      "date": "2026-09-17",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 10.776,
+      "type": "invader-hit",
+      "date": "2026-07-18",
+      "value": 46,
+      "data": {
+        "x": 812.1412830188679,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 10.84,
+      "type": "ship-fire",
+      "date": "2026-09-17",
+      "value": 50,
+      "data": {
+        "x": 982.6710943396226,
+        "y": 303,
+        "hitTime": 10.936,
+        "targetX": 982.6710943396226,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 10.92,
+      "type": "invader-dive",
+      "date": "2026-08-25",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 10.936,
+      "type": "invader-hit",
+      "date": "2026-09-17",
+      "value": 50,
+      "data": {
+        "x": 982.6710943396226,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 11,
+      "type": "ship-fire",
+      "date": "2026-08-25",
+      "value": 52,
+      "data": {
+        "x": 924.9744905660377,
+        "y": 303,
+        "hitTime": 11.096,
+        "targetX": 924.9744905660377,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 11.08,
+      "type": "invader-dive",
+      "date": "2026-09-27",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 11.096,
+      "type": "invader-hit",
+      "date": "2026-08-25",
+      "value": 52,
+      "data": {
+        "x": 924.9744905660377,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 11.16,
+      "type": "ship-fire",
+      "date": "2026-09-27",
+      "value": 52,
+      "data": {
+        "x": 1019.4288301886793,
+        "y": 303,
+        "hitTime": 11.256,
+        "targetX": 1019.4288301886793,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 11.24,
+      "type": "invader-dive",
+      "date": "2026-08-03",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 11.256,
+      "type": "invader-hit",
+      "date": "2026-09-27",
+      "value": 52,
+      "data": {
+        "x": 1019.4288301886793,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 11.32,
+      "type": "ship-fire",
+      "date": "2026-08-03",
+      "value": 53,
+      "data": {
+        "x": 866.6378867924528,
+        "y": 303,
+        "hitTime": 11.416,
+        "targetX": 866.6378867924528,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 11.4,
+      "type": "invader-dive",
+      "date": "2026-08-31",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 11.416,
+      "type": "invader-hit",
+      "date": "2026-08-03",
+      "value": 53,
+      "data": {
+        "x": 866.6378867924528,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 11.48,
+      "type": "ship-fire",
+      "date": "2026-08-31",
+      "value": 53,
+      "data": {
+        "x": 942.0733584905661,
+        "y": 303,
+        "hitTime": 11.576,
+        "targetX": 942.0733584905661,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 11.56,
+      "type": "invader-dive",
+      "date": "2026-07-22",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 11.576,
+      "type": "invader-hit",
+      "date": "2026-08-31",
+      "value": 53,
+      "data": {
+        "x": 942.0733584905661,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 11.64,
+      "type": "ship-fire",
+      "date": "2026-07-22",
+      "value": 54,
+      "data": {
+        "x": 827.3201509433962,
+        "y": 303,
+        "hitTime": 11.736,
+        "targetX": 827.3201509433962,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 11.72,
+      "type": "invader-dive",
+      "date": "2026-07-21",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 11.736,
+      "type": "invader-hit",
+      "date": "2026-07-22",
+      "value": 54,
+      "data": {
+        "x": 827.3201509433962,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 11.8,
+      "type": "ship-fire",
+      "date": "2026-07-21",
+      "value": 56,
+      "data": {
+        "x": 826.6801509433963,
+        "y": 303,
+        "hitTime": 11.896,
+        "targetX": 826.6801509433963,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 11.88,
+      "type": "invader-dive",
+      "date": "2026-09-05",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 11.896,
+      "type": "invader-hit",
+      "date": "2026-07-21",
+      "value": 56,
+      "data": {
+        "x": 826.6801509433963,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 11.96,
+      "type": "ship-fire",
+      "date": "2026-09-05",
+      "value": 60,
+      "data": {
+        "x": 940.153358490566,
+        "y": 303,
+        "hitTime": 12.056000000000001,
+        "targetX": 940.153358490566,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 12.040000000000001,
+      "type": "invader-dive",
+      "date": "2026-05-28",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 12.056000000000001,
+      "type": "invader-hit",
+      "date": "2026-09-05",
+      "value": 60,
+      "data": {
+        "x": 940.153358490566,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 12.120000000000001,
+      "type": "ship-fire",
+      "date": "2026-05-28",
+      "value": 61,
+      "data": {
+        "x": 673.2492075471698,
+        "y": 303,
+        "hitTime": 12.216000000000001,
+        "targetX": 673.2492075471698,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 12.200000000000001,
+      "type": "invader-dive",
+      "date": "2026-08-01",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 12.216000000000001,
+      "type": "invader-hit",
+      "date": "2026-05-28",
+      "value": 61,
+      "data": {
+        "x": 673.2492075471698,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 12.280000000000001,
+      "type": "ship-fire",
+      "date": "2026-08-01",
+      "value": 70,
+      "data": {
+        "x": 843.7790188679245,
+        "y": 303,
+        "hitTime": 12.376000000000001,
+        "targetX": 843.7790188679245,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 12.360000000000001,
+      "type": "invader-dive",
+      "date": "2026-07-14",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 12.376000000000001,
+      "type": "invader-hit",
+      "date": "2026-08-01",
+      "value": 70,
+      "data": {
+        "x": 843.7790188679245,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 12.440000000000001,
+      "type": "ship-fire",
+      "date": "2026-07-14",
+      "value": 73,
+      "data": {
+        "x": 805.1012830188679,
+        "y": 303,
+        "hitTime": 12.536000000000001,
+        "targetX": 805.1012830188679,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 12.520000000000001,
+      "type": "invader-dive",
+      "date": "2026-07-24",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 12.536000000000001,
+      "type": "invader-hit",
+      "date": "2026-07-14",
+      "value": 73,
+      "data": {
+        "x": 805.1012830188679,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 12.600000000000001,
+      "type": "ship-fire",
+      "date": "2026-07-24",
+      "value": 77,
+      "data": {
+        "x": 823.4801509433962,
+        "y": 303,
+        "hitTime": 12.696000000000002,
+        "targetX": 823.4801509433962,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 12.68,
+      "type": "invader-dive",
+      "date": "2026-07-31",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 12.696000000000002,
+      "type": "invader-hit",
+      "date": "2026-07-24",
+      "value": 77,
+      "data": {
+        "x": 823.4801509433962,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 12.76,
+      "type": "ship-fire",
+      "date": "2026-07-31",
+      "value": 78,
+      "data": {
+        "x": 841.8590188679245,
+        "y": 303,
+        "hitTime": 12.856,
+        "targetX": 841.8590188679245,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 12.84,
+      "type": "invader-dive",
+      "date": "2026-08-24",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 12.856,
+      "type": "invader-hit",
+      "date": "2026-07-31",
+      "value": 78,
+      "data": {
+        "x": 841.8590188679245,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 12.92,
+      "type": "ship-fire",
+      "date": "2026-08-24",
+      "value": 78,
+      "data": {
+        "x": 917.2944905660378,
+        "y": 303,
+        "hitTime": 13.016,
+        "targetX": 917.2944905660378,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 13,
+      "type": "invader-dive",
+      "date": "2026-08-23",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 13.016,
+      "type": "invader-hit",
+      "date": "2026-08-24",
+      "value": 78,
+      "data": {
+        "x": 917.2944905660378,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 13.08,
+      "type": "ship-fire",
+      "date": "2026-08-23",
+      "value": 80,
+      "data": {
+        "x": 916.6544905660378,
+        "y": 303,
+        "hitTime": 13.176,
+        "targetX": 916.6544905660378,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 13.16,
+      "type": "invader-dive",
+      "date": "2026-08-29",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 13.176,
+      "type": "invader-hit",
+      "date": "2026-08-23",
+      "value": 80,
+      "data": {
+        "x": 916.6544905660378,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 13.24,
+      "type": "ship-fire",
+      "date": "2026-08-29",
+      "value": 81,
+      "data": {
+        "x": 916.0144905660377,
+        "y": 303,
+        "hitTime": 13.336,
+        "targetX": 916.0144905660377,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 13.32,
+      "type": "invader-dive",
+      "date": "2026-07-20",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 13.336,
+      "type": "invader-hit",
+      "date": "2026-08-29",
+      "value": 81,
+      "data": {
+        "x": 916.0144905660377,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 13.4,
+      "type": "ship-fire",
+      "date": "2026-07-20",
+      "value": 84,
+      "data": {
+        "x": 820.2801509433962,
+        "y": 303,
+        "hitTime": 13.496,
+        "targetX": 820.2801509433962,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 13.48,
+      "type": "invader-dive",
+      "date": "2026-08-10",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 13.496,
+      "type": "invader-hit",
+      "date": "2026-07-20",
+      "value": 84,
+      "data": {
+        "x": 820.2801509433962,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 13.56,
+      "type": "ship-fire",
+      "date": "2026-08-10",
+      "value": 84,
+      "data": {
+        "x": 876.6967547169811,
+        "y": 303,
+        "hitTime": 13.656,
+        "targetX": 876.6967547169811,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 13.64,
+      "type": "invader-dive",
+      "date": "2026-08-05",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 13.656,
+      "type": "invader-hit",
+      "date": "2026-08-10",
+      "value": 84,
+      "data": {
+        "x": 876.6967547169811,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 13.72,
+      "type": "ship-fire",
+      "date": "2026-08-05",
+      "value": 87,
+      "data": {
+        "x": 857.0378867924528,
+        "y": 303,
+        "hitTime": 13.816,
+        "targetX": 857.0378867924528,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 13.8,
+      "type": "invader-dive",
+      "date": "2026-09-06",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 13.816,
+      "type": "invader-hit",
+      "date": "2026-08-05",
+      "value": 87,
+      "data": {
+        "x": 857.0378867924528,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 13.88,
+      "type": "ship-fire",
+      "date": "2026-09-06",
+      "value": 87,
+      "data": {
+        "x": 951.4922264150944,
+        "y": 303,
+        "hitTime": 13.976,
+        "targetX": 951.4922264150944,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 13.96,
+      "type": "invader-dive",
+      "date": "2026-08-04",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 13.976,
+      "type": "invader-hit",
+      "date": "2026-09-06",
+      "value": 87,
+      "data": {
+        "x": 951.4922264150944,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 14.040000000000001,
+      "type": "ship-fire",
+      "date": "2026-08-04",
+      "value": 90,
+      "data": {
+        "x": 856.8458867924528,
+        "y": 303,
+        "hitTime": 14.136000000000001,
+        "targetX": 856.8458867924528,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 14.120000000000001,
+      "type": "invader-dive",
+      "date": "2026-10-04",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 14.136000000000001,
+      "type": "invader-hit",
+      "date": "2026-08-04",
+      "value": 90,
+      "data": {
+        "x": 856.8458867924528,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 14.200000000000001,
+      "type": "ship-fire",
+      "date": "2026-10-04",
+      "value": 93,
+      "data": {
+        "x": 1028.6556981132076,
+        "y": 303,
+        "hitTime": 14.296000000000001,
+        "targetX": 1028.6556981132076,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 14.280000000000001,
+      "type": "invader-dive",
+      "date": "2026-09-08",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 14.296000000000001,
+      "type": "invader-hit",
+      "date": "2026-10-04",
+      "value": 93,
+      "data": {
+        "x": 1028.6556981132076,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 14.360000000000001,
+      "type": "ship-fire",
+      "date": "2026-09-08",
+      "value": 94,
+      "data": {
+        "x": 953.2202264150943,
+        "y": 303,
+        "hitTime": 14.456000000000001,
+        "targetX": 953.2202264150943,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 14.440000000000001,
+      "type": "invader-dive",
+      "date": "2026-07-25",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 14.456000000000001,
+      "type": "invader-hit",
+      "date": "2026-09-08",
+      "value": 94,
+      "data": {
+        "x": 953.2202264150943,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 14.520000000000001,
+      "type": "ship-fire",
+      "date": "2026-07-25",
+      "value": 98,
+      "data": {
+        "x": 820.7281509433963,
+        "y": 303,
+        "hitTime": 14.616000000000001,
+        "targetX": 820.7281509433963,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 14.600000000000001,
+      "type": "invader-dive",
+      "date": "2026-08-21",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 14.616000000000001,
+      "type": "invader-hit",
+      "date": "2026-07-25",
+      "value": 98,
+      "data": {
+        "x": 820.7281509433963,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 14.680000000000001,
+      "type": "ship-fire",
+      "date": "2026-08-21",
+      "value": 99,
+      "data": {
+        "x": 897.4436226415095,
+        "y": 303,
+        "hitTime": 14.776000000000002,
+        "targetX": 897.4436226415095,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 14.76,
+      "type": "invader-dive",
+      "date": "2026-09-07",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 14.776000000000002,
+      "type": "invader-hit",
+      "date": "2026-08-21",
+      "value": 99,
+      "data": {
+        "x": 897.4436226415095,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 14.84,
+      "type": "ship-fire",
+      "date": "2026-09-07",
+      "value": 102,
+      "data": {
+        "x": 955.1402264150944,
+        "y": 303,
+        "hitTime": 14.936,
+        "targetX": 955.1402264150944,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 14.92,
+      "type": "invader-dive",
+      "date": "2026-09-09",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 14.936,
+      "type": "invader-hit",
+      "date": "2026-09-07",
+      "value": 102,
+      "data": {
+        "x": 955.1402264150944,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 15,
+      "type": "ship-fire",
+      "date": "2026-09-09",
+      "value": 103,
+      "data": {
+        "x": 955.7802264150944,
+        "y": 303,
+        "hitTime": 15.096,
+        "targetX": 955.7802264150944,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 15.08,
+      "type": "invader-dive",
+      "date": "2026-09-29",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 15.096,
+      "type": "invader-hit",
+      "date": "2026-09-09",
+      "value": 103,
+      "data": {
+        "x": 955.7802264150944,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 15.16,
+      "type": "ship-fire",
+      "date": "2026-09-29",
+      "value": 111,
+      "data": {
+        "x": 1013.4768301886793,
+        "y": 303,
+        "hitTime": 15.256,
+        "targetX": 1013.4768301886793,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 15.24,
+      "type": "invader-dive",
+      "date": "2026-08-11",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 15.256,
+      "type": "invader-hit",
+      "date": "2026-09-29",
+      "value": 111,
+      "data": {
+        "x": 1013.4768301886793,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 15.32,
+      "type": "ship-fire",
+      "date": "2026-08-11",
+      "value": 113,
+      "data": {
+        "x": 880.9847547169811,
+        "y": 303,
+        "hitTime": 15.416,
+        "targetX": 880.9847547169811,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 15.4,
+      "type": "invader-dive",
+      "date": "2026-09-15",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 15.416,
+      "type": "invader-hit",
+      "date": "2026-08-11",
+      "value": 113,
+      "data": {
+        "x": 880.9847547169811,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 15.48,
+      "type": "ship-fire",
+      "date": "2026-09-15",
+      "value": 113,
+      "data": {
+        "x": 976.7190943396226,
+        "y": 303,
+        "hitTime": 15.576,
+        "targetX": 976.7190943396226,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 15.56,
+      "type": "invader-dive",
+      "date": "2026-08-06",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 15.576,
+      "type": "invader-hit",
+      "date": "2026-09-15",
+      "value": 113,
+      "data": {
+        "x": 976.7190943396226,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 15.64,
+      "type": "ship-fire",
+      "date": "2026-08-06",
+      "value": 114,
+      "data": {
+        "x": 863.2458867924528,
+        "y": 303,
+        "hitTime": 15.736,
+        "targetX": 863.2458867924528,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 15.72,
+      "type": "invader-dive",
+      "date": "2026-08-30",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 15.736,
+      "type": "invader-hit",
+      "date": "2026-08-06",
+      "value": 114,
+      "data": {
+        "x": 863.2458867924528,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 15.8,
+      "type": "ship-fire",
+      "date": "2026-08-30",
+      "value": 115,
+      "data": {
+        "x": 939.961358490566,
+        "y": 303,
+        "hitTime": 15.896,
+        "targetX": 939.961358490566,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 15.88,
+      "type": "invader-dive",
+      "date": "2026-09-14",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 15.896,
+      "type": "invader-hit",
+      "date": "2026-08-30",
+      "value": 115,
+      "data": {
+        "x": 939.961358490566,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 15.96,
+      "type": "ship-fire",
+      "date": "2026-09-14",
+      "value": 119,
+      "data": {
+        "x": 978.6390943396227,
+        "y": 303,
+        "hitTime": 16.056,
+        "targetX": 978.6390943396227,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 16.040000000000003,
+      "type": "invader-dive",
+      "date": "2026-08-26",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 16.056,
+      "type": "invader-hit",
+      "date": "2026-09-14",
+      "value": 119,
+      "data": {
+        "x": 978.6390943396227,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 16.12,
+      "type": "ship-fire",
+      "date": "2026-08-26",
+      "value": 120,
+      "data": {
+        "x": 922.2224905660378,
+        "y": 303,
+        "hitTime": 16.216,
+        "targetX": 922.2224905660378,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 16.200000000000003,
+      "type": "invader-dive",
+      "date": "2026-07-29",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 16.216,
+      "type": "invader-hit",
+      "date": "2026-08-26",
+      "value": 120,
+      "data": {
+        "x": 922.2224905660378,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 16.28,
+      "type": "ship-fire",
+      "date": "2026-07-29",
+      "value": 121,
+      "data": {
+        "x": 846.7870188679245,
+        "y": 303,
+        "hitTime": 16.376,
+        "targetX": 846.7870188679245,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 16.360000000000003,
+      "type": "invader-dive",
+      "date": "2026-07-30",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 16.376,
+      "type": "invader-hit",
+      "date": "2026-07-29",
+      "value": 121,
+      "data": {
+        "x": 846.7870188679245,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 16.44,
+      "type": "ship-fire",
+      "date": "2026-07-30",
+      "value": 132,
+      "data": {
+        "x": 847.4270188679245,
+        "y": 303,
+        "hitTime": 16.536,
+        "targetX": 847.4270188679245,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 16.520000000000003,
+      "type": "invader-dive",
+      "date": "2026-08-14",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 16.536,
+      "type": "invader-hit",
+      "date": "2026-07-30",
+      "value": 132,
+      "data": {
+        "x": 847.4270188679245,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 16.6,
+      "type": "ship-fire",
+      "date": "2026-08-14",
+      "value": 134,
+      "data": {
+        "x": 886.1047547169811,
+        "y": 303,
+        "hitTime": 16.696,
+        "targetX": 886.1047547169811,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 16.68,
+      "type": "invader-dive",
+      "date": "2026-09-01",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 16.696,
+      "type": "invader-hit",
+      "date": "2026-08-14",
+      "value": 134,
+      "data": {
+        "x": 886.1047547169811,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 16.759999999999998,
+      "type": "ship-fire",
+      "date": "2026-09-01",
+      "value": 135,
+      "data": {
+        "x": 943.801358490566,
+        "y": 303,
+        "hitTime": 16.855999999999998,
+        "targetX": 943.801358490566,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 16.84,
+      "type": "invader-dive",
+      "date": "2026-10-03",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 16.855999999999998,
+      "type": "invader-hit",
+      "date": "2026-09-01",
+      "value": 135,
+      "data": {
+        "x": 943.801358490566,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 16.919999999999998,
+      "type": "ship-fire",
+      "date": "2026-10-03",
+      "value": 135,
+      "data": {
+        "x": 1020.5168301886793,
+        "y": 303,
+        "hitTime": 17.016,
+        "targetX": 1020.5168301886793,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 17,
+      "type": "invader-dive",
+      "date": "2026-08-27",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 17.016,
+      "type": "invader-hit",
+      "date": "2026-10-03",
+      "value": 135,
+      "data": {
+        "x": 1020.5168301886793,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 17.08,
+      "type": "ship-fire",
+      "date": "2026-08-27",
+      "value": 136,
+      "data": {
+        "x": 926.0624905660377,
+        "y": 303,
+        "hitTime": 17.176,
+        "targetX": 926.0624905660377,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 17.16,
+      "type": "invader-dive",
+      "date": "2026-09-11",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 17.176,
+      "type": "invader-hit",
+      "date": "2026-08-27",
+      "value": 136,
+      "data": {
+        "x": 926.0624905660377,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 17.24,
+      "type": "ship-fire",
+      "date": "2026-09-11",
+      "value": 136,
+      "data": {
+        "x": 964.7402264150944,
+        "y": 303,
+        "hitTime": 17.336,
+        "targetX": 964.7402264150944,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 17.32,
+      "type": "invader-dive",
+      "date": "2026-08-09",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 17.336,
+      "type": "invader-hit",
+      "date": "2026-09-11",
+      "value": 136,
+      "data": {
+        "x": 964.7402264150944,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 17.4,
+      "type": "ship-fire",
+      "date": "2026-08-09",
+      "value": 146,
+      "data": {
+        "x": 889.3047547169812,
+        "y": 303,
+        "hitTime": 17.496,
+        "targetX": 889.3047547169812,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 17.48,
+      "type": "invader-dive",
+      "date": "2026-10-05",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 17.496,
+      "type": "invader-hit",
+      "date": "2026-08-09",
+      "value": 146,
+      "data": {
+        "x": 889.3047547169812,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 17.56,
+      "type": "ship-fire",
+      "date": "2026-10-05",
+      "value": 146,
+      "data": {
+        "x": 1042.0956981132076,
+        "y": 303,
+        "hitTime": 17.656,
+        "targetX": 1042.0956981132076,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 17.64,
+      "type": "invader-dive",
+      "date": "2026-08-02",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 17.656,
+      "type": "invader-hit",
+      "date": "2026-10-05",
+      "value": 146,
+      "data": {
+        "x": 1042.0956981132076,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 17.72,
+      "type": "ship-fire",
+      "date": "2026-08-02",
+      "value": 147,
+      "data": {
+        "x": 871.5658867924528,
+        "y": 303,
+        "hitTime": 17.816,
+        "targetX": 871.5658867924528,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 17.8,
+      "type": "invader-dive",
+      "date": "2026-09-10",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 17.816,
+      "type": "invader-hit",
+      "date": "2026-08-02",
+      "value": 147,
+      "data": {
+        "x": 871.5658867924528,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 17.88,
+      "type": "ship-fire",
+      "date": "2026-09-10",
+      "value": 149,
+      "data": {
+        "x": 967.3002264150944,
+        "y": 303,
+        "hitTime": 17.976,
+        "targetX": 967.3002264150944,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 17.96,
+      "type": "invader-dive",
+      "date": "2026-09-16",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 17.976,
+      "type": "invader-hit",
+      "date": "2026-09-10",
+      "value": 149,
+      "data": {
+        "x": 967.3002264150944,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 18.04,
+      "type": "ship-fire",
+      "date": "2026-09-16",
+      "value": 154,
+      "data": {
+        "x": 985.8710943396227,
+        "y": 303,
+        "hitTime": 18.136,
+        "targetX": 985.8710943396227,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 18.12,
+      "type": "invader-dive",
+      "date": "2026-09-26",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 18.136,
+      "type": "invader-hit",
+      "date": "2026-09-16",
+      "value": 154,
+      "data": {
+        "x": 985.8710943396227,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 18.2,
+      "type": "ship-fire",
+      "date": "2026-09-26",
+      "value": 156,
+      "data": {
+        "x": 1004.249962264151,
+        "y": 303,
+        "hitTime": 18.296,
+        "targetX": 1004.249962264151,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 18.28,
+      "type": "invader-dive",
+      "date": "2026-09-22",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 18.296,
+      "type": "invader-hit",
+      "date": "2026-09-26",
+      "value": 156,
+      "data": {
+        "x": 1004.249962264151,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 18.36,
+      "type": "ship-fire",
+      "date": "2026-09-22",
+      "value": 157,
+      "data": {
+        "x": 1003.609962264151,
+        "y": 303,
+        "hitTime": 18.456,
+        "targetX": 1003.609962264151,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 18.44,
+      "type": "invader-dive",
+      "date": "2026-10-12",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 18.456,
+      "type": "invader-hit",
+      "date": "2026-09-22",
+      "value": 157,
+      "data": {
+        "x": 1003.609962264151,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 18.52,
+      "type": "ship-fire",
+      "date": "2026-10-12",
+      "value": 158,
+      "data": {
+        "x": 1060.0265660377358,
+        "y": 303,
+        "hitTime": 18.616,
+        "targetX": 1060.0265660377358,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 18.6,
+      "type": "invader-dive",
+      "date": "2026-09-25",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 18.616,
+      "type": "invader-hit",
+      "date": "2026-10-12",
+      "value": 158,
+      "data": {
+        "x": 1060.0265660377358,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 18.68,
+      "type": "ship-fire",
+      "date": "2026-09-25",
+      "value": 167,
+      "data": {
+        "x": 1002.3299622641509,
+        "y": 303,
+        "hitTime": 18.776,
+        "targetX": 1002.3299622641509,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 18.76,
+      "type": "invader-dive",
+      "date": "2026-10-14",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 18.776,
+      "type": "invader-hit",
+      "date": "2026-09-25",
+      "value": 167,
+      "data": {
+        "x": 1002.3299622641509,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 18.84,
+      "type": "ship-fire",
+      "date": "2026-10-14",
+      "value": 178,
+      "data": {
+        "x": 1058.7465660377359,
+        "y": 303,
+        "hitTime": 18.936,
+        "targetX": 1058.7465660377359,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 18.92,
+      "type": "invader-dive",
+      "date": "2026-09-12",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 18.936,
+      "type": "invader-hit",
+      "date": "2026-10-14",
+      "value": 178,
+      "data": {
+        "x": 1058.7465660377359,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 19,
+      "type": "ship-fire",
+      "date": "2026-09-12",
+      "value": 197,
+      "data": {
+        "x": 963.0122264150943,
+        "y": 303,
+        "hitTime": 19.096,
+        "targetX": 963.0122264150943,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 19.080000000000002,
+      "type": "invader-dive",
+      "date": "2026-07-26",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 19.096,
+      "type": "invader-hit",
+      "date": "2026-09-12",
+      "value": 197,
+      "data": {
+        "x": 963.0122264150943,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 19.16,
+      "type": "ship-fire",
+      "date": "2026-07-26",
+      "value": 205,
+      "data": {
+        "x": 848.2590188679245,
+        "y": 303,
+        "hitTime": 19.256,
+        "targetX": 848.2590188679245,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 19.240000000000002,
+      "type": "invader-dive",
+      "date": "2026-10-13",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 19.256,
+      "type": "invader-hit",
+      "date": "2026-07-26",
+      "value": 205,
+      "data": {
+        "x": 848.2590188679245,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 19.32,
+      "type": "ship-fire",
+      "date": "2026-10-13",
+      "value": 206,
+      "data": {
+        "x": 1056.8265660377358,
+        "y": 303,
+        "hitTime": 19.416,
+        "targetX": 1056.8265660377358,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 19.400000000000002,
+      "type": "invader-dive",
+      "date": "2026-07-28",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 19.416,
+      "type": "invader-hit",
+      "date": "2026-10-13",
+      "value": 206,
+      "data": {
+        "x": 1056.8265660377358,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 19.48,
+      "type": "ship-fire",
+      "date": "2026-07-28",
+      "value": 211,
+      "data": {
+        "x": 846.9790188679245,
+        "y": 303,
+        "hitTime": 19.576,
+        "targetX": 846.9790188679245,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 19.560000000000002,
+      "type": "invader-dive",
+      "date": "2026-08-17",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 19.576,
+      "type": "invader-hit",
+      "date": "2026-07-28",
+      "value": 211,
+      "data": {
+        "x": 846.9790188679245,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 19.64,
+      "type": "ship-fire",
+      "date": "2026-08-17",
+      "value": 212,
+      "data": {
+        "x": 903.3956226415095,
+        "y": 303,
+        "hitTime": 19.736,
+        "targetX": 903.3956226415095,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 19.720000000000002,
+      "type": "invader-dive",
+      "date": "2026-09-20",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 19.736,
+      "type": "invader-hit",
+      "date": "2026-08-17",
+      "value": 212,
+      "data": {
+        "x": 903.3956226415095,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 19.8,
+      "type": "ship-fire",
+      "date": "2026-09-20",
+      "value": 212,
+      "data": {
+        "x": 997.8499622641509,
+        "y": 303,
+        "hitTime": 19.896,
+        "targetX": 997.8499622641509,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 19.88,
+      "type": "invader-dive",
+      "date": "2026-09-21",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 19.896,
+      "type": "invader-hit",
+      "date": "2026-09-20",
+      "value": 212,
+      "data": {
+        "x": 997.8499622641509,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 19.959999999999997,
+      "type": "ship-fire",
+      "date": "2026-09-21",
+      "value": 217,
+      "data": {
+        "x": 997.209962264151,
+        "y": 303,
+        "hitTime": 20.055999999999997,
+        "targetX": 997.209962264151,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 20.04,
+      "type": "invader-dive",
+      "date": "2026-08-22",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 20.055999999999997,
+      "type": "invader-hit",
+      "date": "2026-09-21",
+      "value": 217,
+      "data": {
+        "x": 997.209962264151,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 20.119999999999997,
+      "type": "ship-fire",
+      "date": "2026-08-22",
+      "value": 220,
+      "data": {
+        "x": 901.4756226415094,
+        "y": 303,
+        "hitTime": 20.215999999999998,
+        "targetX": 901.4756226415094,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 20.2,
+      "type": "invader-dive",
+      "date": "2026-10-08",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 20.215999999999998,
+      "type": "invader-hit",
+      "date": "2026-08-22",
+      "value": 220,
+      "data": {
+        "x": 901.4756226415094,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 20.279999999999998,
+      "type": "ship-fire",
+      "date": "2026-10-08",
+      "value": 229,
+      "data": {
+        "x": 1033.9676981132077,
+        "y": 303,
+        "hitTime": 20.375999999999998,
+        "targetX": 1033.9676981132077,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 20.36,
+      "type": "invader-dive",
+      "date": "2026-07-27",
+      "data": {
+        "fromY": 163,
+        "toY": 278
+      }
+    },
+    {
+      "time": 20.375999999999998,
+      "type": "invader-hit",
+      "date": "2026-10-08",
+      "value": 229,
+      "data": {
+        "x": 1033.9676981132077,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 20.439999999999998,
+      "type": "ship-fire",
+      "date": "2026-07-27",
+      "value": 232,
+      "data": {
+        "x": 843.1390188679245,
+        "y": 303,
+        "hitTime": 20.535999999999998,
+        "targetX": 843.1390188679245,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 20.52,
+      "type": "invader-dive",
+      "date": "2026-10-02",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 20.535999999999998,
+      "type": "invader-hit",
+      "date": "2026-07-27",
+      "value": 232,
+      "data": {
+        "x": 843.1390188679245,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 20.599999999999998,
+      "type": "ship-fire",
+      "date": "2026-10-02",
+      "value": 238,
+      "data": {
+        "x": 1013.6688301886793,
+        "y": 303,
+        "hitTime": 20.695999999999998,
+        "targetX": 1013.6688301886793,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 20.68,
+      "type": "invader-dive",
+      "date": "2026-10-09",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 20.695999999999998,
+      "type": "invader-hit",
+      "date": "2026-10-02",
+      "value": 238,
+      "data": {
+        "x": 1013.6688301886793,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 20.759999999999998,
+      "type": "ship-fire",
+      "date": "2026-10-09",
+      "value": 243,
+      "data": {
+        "x": 1032.0476981132076,
+        "y": 303,
+        "hitTime": 20.855999999999998,
+        "targetX": 1032.0476981132076,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 20.84,
+      "type": "invader-dive",
+      "date": "2026-08-18",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 20.855999999999998,
+      "type": "invader-hit",
+      "date": "2026-10-09",
+      "value": 243,
+      "data": {
+        "x": 1032.0476981132076,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 20.919999999999998,
+      "type": "ship-fire",
+      "date": "2026-08-18",
+      "value": 244,
+      "data": {
+        "x": 898.2756226415095,
+        "y": 303,
+        "hitTime": 21.016,
+        "targetX": 898.2756226415095,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 21,
+      "type": "invader-dive",
+      "date": "2026-09-19",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 21.016,
+      "type": "invader-hit",
+      "date": "2026-08-18",
+      "value": 244,
+      "data": {
+        "x": 898.2756226415095,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 21.08,
+      "type": "ship-fire",
+      "date": "2026-09-19",
+      "value": 244,
+      "data": {
+        "x": 973.7110943396227,
+        "y": 303,
+        "hitTime": 21.176,
+        "targetX": 973.7110943396227,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 21.16,
+      "type": "invader-dive",
+      "date": "2026-09-24",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 21.176,
+      "type": "invader-hit",
+      "date": "2026-09-19",
+      "value": 244,
+      "data": {
+        "x": 973.7110943396227,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 21.24,
+      "type": "ship-fire",
+      "date": "2026-09-24",
+      "value": 259,
+      "data": {
+        "x": 992.0899622641509,
+        "y": 303,
+        "hitTime": 21.336,
+        "targetX": 992.0899622641509,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 21.32,
+      "type": "invader-dive",
+      "date": "2026-08-12",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 21.336,
+      "type": "invader-hit",
+      "date": "2026-09-24",
+      "value": 259,
+      "data": {
+        "x": 992.0899622641509,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 21.4,
+      "type": "ship-fire",
+      "date": "2026-08-12",
+      "value": 261,
+      "data": {
+        "x": 877.3367547169811,
+        "y": 303,
+        "hitTime": 21.496,
+        "targetX": 877.3367547169811,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 21.48,
+      "type": "invader-dive",
+      "date": "2026-07-17",
+      "data": {
+        "fromY": 235,
+        "toY": 278
+      }
+    },
+    {
+      "time": 21.496,
+      "type": "invader-hit",
+      "date": "2026-08-12",
+      "value": 261,
+      "data": {
+        "x": 877.3367547169811,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 21.56,
+      "type": "ship-fire",
+      "date": "2026-07-17",
+      "value": 287,
+      "data": {
+        "x": 800.6212830188679,
+        "y": 303,
+        "hitTime": 21.656,
+        "targetX": 800.6212830188679,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 21.64,
+      "type": "invader-dive",
+      "date": "2026-10-10",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 21.656,
+      "type": "invader-hit",
+      "date": "2026-07-17",
+      "value": 287,
+      "data": {
+        "x": 800.6212830188679,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 21.72,
+      "type": "ship-fire",
+      "date": "2026-10-10",
+      "value": 294,
+      "data": {
+        "x": 1028.2076981132077,
+        "y": 303,
+        "hitTime": 21.816,
+        "targetX": 1028.2076981132077,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 21.8,
+      "type": "invader-dive",
+      "date": "2026-07-15",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 21.816,
+      "type": "invader-hit",
+      "date": "2026-10-10",
+      "value": 294,
+      "data": {
+        "x": 1028.2076981132077,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 21.88,
+      "type": "ship-fire",
+      "date": "2026-07-15",
+      "value": 295,
+      "data": {
+        "x": 799.3412830188679,
+        "y": 303,
+        "hitTime": 21.976,
+        "targetX": 799.3412830188679,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 21.96,
+      "type": "invader-dive",
+      "date": "2026-08-16",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 21.976,
+      "type": "invader-hit",
+      "date": "2026-07-15",
+      "value": 295,
+      "data": {
+        "x": 799.3412830188679,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 22.04,
+      "type": "ship-fire",
+      "date": "2026-08-16",
+      "value": 306,
+      "data": {
+        "x": 894.8836226415094,
+        "y": 303,
+        "hitTime": 22.136,
+        "targetX": 894.8836226415094,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 22.12,
+      "type": "invader-dive",
+      "date": "2026-08-19",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 22.136,
+      "type": "invader-hit",
+      "date": "2026-08-16",
+      "value": 306,
+      "data": {
+        "x": 894.8836226415094,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 22.2,
+      "type": "ship-fire",
+      "date": "2026-08-19",
+      "value": 307,
+      "data": {
+        "x": 895.5236226415094,
+        "y": 303,
+        "hitTime": 22.296,
+        "targetX": 895.5236226415094,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 22.28,
+      "type": "invader-dive",
+      "date": "2026-10-07",
+      "data": {
+        "fromY": 199,
+        "toY": 278
+      }
+    },
+    {
+      "time": 22.296,
+      "type": "invader-hit",
+      "date": "2026-08-19",
+      "value": 307,
+      "data": {
+        "x": 895.5236226415094,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 22.36,
+      "type": "ship-fire",
+      "date": "2026-10-07",
+      "value": 319,
+      "data": {
+        "x": 1029.2956981132077,
+        "y": 303,
+        "hitTime": 22.456,
+        "targetX": 1029.2956981132077,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 22.44,
+      "type": "invader-dive",
+      "date": "2026-10-11",
+      "data": {
+        "fromY": 145,
+        "toY": 278
+      }
+    },
+    {
+      "time": 22.456,
+      "type": "invader-hit",
+      "date": "2026-10-07",
+      "value": 319,
+      "data": {
+        "x": 1029.2956981132077,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 22.52,
+      "type": "ship-fire",
+      "date": "2026-10-11",
+      "value": 322,
+      "data": {
+        "x": 1048.9545660377357,
+        "y": 303,
+        "hitTime": 22.616,
+        "targetX": 1048.9545660377357,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 22.6,
+      "type": "invader-dive",
+      "date": "2026-10-06",
+      "data": {
+        "fromY": 181,
+        "toY": 278
+      }
+    },
+    {
+      "time": 22.616,
+      "type": "invader-hit",
+      "date": "2026-10-11",
+      "value": 322,
+      "data": {
+        "x": 1048.9545660377357,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 22.68,
+      "type": "ship-fire",
+      "date": "2026-10-06",
+      "value": 362,
+      "data": {
+        "x": 1030.5756981132076,
+        "y": 303,
+        "hitTime": 22.776,
+        "targetX": 1030.5756981132076,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 22.76,
+      "type": "invader-dive",
+      "date": "2026-07-16",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 22.776,
+      "type": "invader-hit",
+      "date": "2026-10-06",
+      "value": 362,
+      "data": {
+        "x": 1030.5756981132076,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 22.84,
+      "type": "ship-fire",
+      "date": "2026-07-16",
+      "value": 374,
+      "data": {
+        "x": 802.9892830188679,
+        "y": 303,
+        "hitTime": 22.936,
+        "targetX": 802.9892830188679,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 22.92,
+      "type": "invader-dive",
+      "date": "2026-08-15",
+      "data": {
+        "fromY": 253,
+        "toY": 278
+      }
+    },
+    {
+      "time": 22.936,
+      "type": "invader-hit",
+      "date": "2026-07-16",
+      "value": 374,
+      "data": {
+        "x": 802.9892830188679,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 23,
+      "type": "ship-fire",
+      "date": "2026-08-15",
+      "value": 391,
+      "data": {
+        "x": 879.7047547169811,
+        "y": 303,
+        "hitTime": 23.096,
+        "targetX": 879.7047547169811,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 23.080000000000002,
+      "type": "invader-dive",
+      "date": "2026-08-20",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 23.096,
+      "type": "invader-hit",
+      "date": "2026-08-15",
+      "value": 391,
+      "data": {
+        "x": 879.7047547169811,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 23.16,
+      "type": "ship-fire",
+      "date": "2026-08-20",
+      "value": 478,
+      "data": {
+        "x": 899.3636226415094,
+        "y": 303,
+        "hitTime": 23.256,
+        "targetX": 899.3636226415094,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 23.240000000000002,
+      "type": "invader-dive",
+      "date": "2026-08-13",
+      "data": {
+        "fromY": 217,
+        "toY": 278
+      }
+    },
+    {
+      "time": 23.256,
+      "type": "invader-hit",
+      "date": "2026-08-20",
+      "value": 478,
+      "data": {
+        "x": 899.3636226415094,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 23.32,
+      "type": "ship-fire",
+      "date": "2026-08-13",
+      "value": 482,
+      "data": {
+        "x": 880.9847547169811,
+        "y": 303,
+        "hitTime": 23.416,
+        "targetX": 880.9847547169811,
+        "targetY": 278
+      }
+    },
+    {
+      "time": 23.416,
+      "type": "invader-hit",
+      "date": "2026-08-13",
+      "value": 482,
+      "data": {
+        "x": 880.9847547169811,
+        "y": 278,
+        "removed": true
+      }
+    },
+    {
+      "time": 24.616,
+      "type": "boss-arrive",
+      "date": "2026-10-14",
+      "value": 94,
+      "data": {
+        "threshold": 7,
+        "shields": 7,
+        "streakDates": [
+          "2026-07-13",
+          "2026-07-14",
+          "2026-07-15",
+          "2026-07-16",
+          "2026-07-17",
+          "2026-07-18",
+          "2026-07-19",
+          "2026-07-20",
+          "2026-07-21",
+          "2026-07-22",
+          "2026-07-23",
+          "2026-07-24",
+          "2026-07-25",
+          "2026-07-26",
+          "2026-07-27",
+          "2026-07-28",
+          "2026-07-29",
+          "2026-07-30",
+          "2026-07-31",
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06",
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11",
+          "2026-08-12",
+          "2026-08-13",
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16",
+          "2026-08-17",
+          "2026-08-18",
+          "2026-08-19",
+          "2026-08-20",
+          "2026-08-21",
+          "2026-08-22",
+          "2026-08-23",
+          "2026-08-24",
+          "2026-08-25",
+          "2026-08-26",
+          "2026-08-27",
+          "2026-08-28",
+          "2026-08-29",
+          "2026-08-30",
+          "2026-08-31",
+          "2026-09-01",
+          "2026-09-02",
+          "2026-09-03",
+          "2026-09-04",
+          "2026-09-05",
+          "2026-09-06",
+          "2026-09-07",
+          "2026-09-08",
+          "2026-09-09",
+          "2026-09-10",
+          "2026-09-11",
+          "2026-09-12",
+          "2026-09-13",
+          "2026-09-14",
+          "2026-09-15",
+          "2026-09-16",
+          "2026-09-17",
+          "2026-09-18",
+          "2026-09-19",
+          "2026-09-20",
+          "2026-09-21",
+          "2026-09-22",
+          "2026-09-23",
+          "2026-09-24",
+          "2026-09-25",
+          "2026-09-26",
+          "2026-09-27",
+          "2026-09-28",
+          "2026-09-29",
+          "2026-09-30",
+          "2026-10-01",
+          "2026-10-02",
+          "2026-10-03",
+          "2026-10-04",
+          "2026-10-05",
+          "2026-10-06",
+          "2026-10-07",
+          "2026-10-08",
+          "2026-10-09",
+          "2026-10-10",
+          "2026-10-11",
+          "2026-10-12",
+          "2026-10-13",
+          "2026-10-14"
+        ]
+      }
+    },
+    {
+      "time": 25.616,
+      "type": "boss-fire",
+      "date": "2026-10-14",
+      "data": {
+        "x": 655.2320000000001,
+        "y": 303,
+        "targetY": 164,
+        "hitTime": 26.016
+      }
+    },
+    {
+      "time": 26.016,
+      "type": "boss-hit",
+      "date": "2026-10-14",
+      "value": 6
+    },
+    {
+      "time": 26.266,
+      "type": "boss-fire",
+      "date": "2026-10-14",
+      "data": {
+        "x": 624.0320000000002,
+        "y": 303,
+        "targetY": 164,
+        "hitTime": 26.665999999999997
+      }
+    },
+    {
+      "time": 26.665999999999997,
+      "type": "boss-hit",
+      "date": "2026-10-14",
+      "value": 5
+    },
+    {
+      "time": 26.916,
+      "type": "boss-fire",
+      "date": "2026-10-14",
+      "data": {
+        "x": 592.8320000000001,
+        "y": 303,
+        "targetY": 164,
+        "hitTime": 27.316
+      }
+    },
+    {
+      "time": 27.316,
+      "type": "boss-hit",
+      "date": "2026-10-14",
+      "value": 4
+    },
+    {
+      "time": 27.566,
+      "type": "boss-fire",
+      "date": "2026-10-14",
+      "data": {
+        "x": 561.6320000000001,
+        "y": 303,
+        "targetY": 164,
+        "hitTime": 27.965999999999998
+      }
+    },
+    {
+      "time": 27.965999999999998,
+      "type": "boss-hit",
+      "date": "2026-10-14",
+      "value": 3
+    },
+    {
+      "time": 28.216,
+      "type": "boss-fire",
+      "date": "2026-10-14",
+      "data": {
+        "x": 530.432,
+        "y": 303,
+        "targetY": 164,
+        "hitTime": 28.616
+      }
+    },
+    {
+      "time": 28.616,
+      "type": "boss-hit",
+      "date": "2026-10-14",
+      "value": 2
+    },
+    {
+      "time": 28.866,
+      "type": "boss-fire",
+      "date": "2026-10-14",
+      "data": {
+        "x": 499.2320000000001,
+        "y": 303,
+        "targetY": 164,
+        "hitTime": 29.266
+      }
+    },
+    {
+      "time": 29.266,
+      "type": "boss-hit",
+      "date": "2026-10-14",
+      "value": 1
+    },
+    {
+      "time": 29.516,
+      "type": "boss-fire",
+      "date": "2026-10-14",
+      "data": {
+        "x": 468.03200000000015,
+        "y": 303,
+        "targetY": 164,
+        "hitTime": 29.915999999999997
+      }
+    },
+    {
+      "time": 29.915999999999997,
+      "type": "boss-defeated",
+      "date": "2026-10-14",
+      "value": 0
+    }
+  ]
+}

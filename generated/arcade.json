@@ -5,6 +5,7 @@
   "scenes": [
     {
       "id": "breakout",
+      "category": "Arcade",
       "number": "01",
       "title": "Breakout",
       "caption": "Your history is the level.",
@@ -13,11 +14,165 @@
     },
     {
       "id": "snake",
+      "category": "Arcade",
       "number": "02",
       "title": "Growing Snake",
-      "caption": "Every good day makes you grow.",
-      "description": "Four segments to begin. One more for every active day. Watch your year become a 142-segment snake, one small square at a time.",
-      "duration": 54.62
+      "caption": "Small steps. A little growth.",
+      "description": "Start with the smallest contribution counts and plan a path upward. Grow once every 5 dates, with a compact 16-segment limit.",
+      "duration": 122.52
+    },
+    {
+      "id": "pacman",
+      "number": "03",
+      "title": "Pac-Man",
+      "caption": "Date pellets, hungry turns, and ghosts on your trail.",
+      "description": "Pac-Man eats one pellet per active date, from smaller contribution counts to larger ones. Actual consecutive-day streaks increase his pace; three ghosts pursue the same connected maze trail.",
+      "category": "Arcade",
+      "duration": 15.985
+    },
+    {
+      "id": "tetris",
+      "number": "04",
+      "title": "Tetris",
+      "caption": "Active weeks fall into place. Complete a row and breathe.",
+      "description": "Each active week supplies a legal tetromino. Smaller weekly totals fall first; busier weeks accelerate gravity. Pieces collide with the existing stack, completed rows disappear, and the blocks above fall into the gap.",
+      "category": "Arcade",
+      "duration": 34.977
+    },
+    {
+      "id": "garden",
+      "number": "05",
+      "title": "Garden",
+      "caption": "Small habits, a living garden.",
+      "description": "Each active date grows a plant. Exact contribution counts control its height, leaves and flowering, while the recorded months bring seasonal colors. Public repository languages shape the aggregate planting blend when supplied.",
+      "category": "Worlds",
+      "duration": 28
+    },
+    {
+      "id": "city",
+      "number": "06",
+      "title": "City",
+      "caption": "A skyline raised one week at a time.",
+      "description": "Each active week develops from a foundation through a structural frame to a finished building. Its exact weekly contribution total controls skyline height; quiet weeks leave a gap.",
+      "category": "Worlds",
+      "duration": 30
+    },
+    {
+      "id": "invaders",
+      "number": "07",
+      "title": "Space Invaders",
+      "caption": "A quiet sky. A very busy defense.",
+      "description": "The ship fires at real contribution dates in ascending count order. Invaders disappear only on projectile impact. A streak of seven consecutive active dates unlocks a boss.",
+      "category": "Journeys",
+      "duration": 32.916
+    },
+    {
+      "id": "train",
+      "number": "08",
+      "title": "Train",
+      "caption": "Every week, another little station.",
+      "description": "A train follows the weeks chronologically, stopping only at stations with actual contributions. Landscape seasons follow calendar months in the northern hemisphere.",
+      "category": "Journeys",
+      "duration": 37.59
+    },
+    {
+      "id": "civilization",
+      "number": "09",
+      "title": "Civilization",
+      "caption": "From a first camp to a distant orbit.",
+      "description": "Actual accumulated contributions cross fixed era thresholds, growing a camp into a hamlet, village, town, industrial settlement and spaceport. Observed inactive runs weather and overgrow the settlement; activity repairs it.",
+      "category": "Worlds",
+      "duration": 32
+    },
+    {
+      "id": "archaeology",
+      "number": "10",
+      "title": "Archaeology",
+      "caption": "A small pickaxe. A year of buried treasure.",
+      "description": "The miner excavates real dates in ascending contribution-count order. Counts set quartz, copper, gold and diamond tiers. Excavating a consecutive five-day streak reveals a treasure chest.",
+      "category": "Journeys",
+      "duration": 38.45
+    },
+    {
+      "id": "life",
+      "number": "11",
+      "title": "Game of Life",
+      "caption": "A year becomes a living pattern.",
+      "description": "Active dates seed a finite Conway world. Every next generation follows B3/S23: births at three neighbors, survival at two or three.",
+      "category": "Patterns",
+      "duration": 30.5
+    },
+    {
+      "id": "ants",
+      "number": "12",
+      "title": "Ant Colony",
+      "caption": "Small journeys, a shared store.",
+      "description": "Three workers collect the smallest contribution deposits first and carry each harvest home. Resource totals change only when a worker reaches the nest.",
+      "category": "Patterns",
+      "duration": 111.976
+    },
+    {
+      "id": "weather",
+      "number": "13",
+      "title": "Weather Report",
+      "caption": "Every season has its own pace.",
+      "description": "Quiet weeks bring rain, active runs open the sky, and a new weekly peak scatters a small celebration. Every weather change follows your calendar.",
+      "category": "Patterns",
+      "duration": 42.46
+    },
+    {
+      "id": "dungeon",
+      "number": "14",
+      "title": "Dungeon",
+      "caption": "Light a room. Find the next door.",
+      "description": "The hero walks an adjacent room graph, revealing nearby fog and collecting each active date once. The strongest contribution room becomes a final guardian, defeated with collected activity.",
+      "category": "Journeys",
+      "duration": 26
+    },
+    {
+      "id": "music",
+      "number": "15",
+      "title": "Year in Rhythm",
+      "caption": "A quiet score, written by your year.",
+      "description": "Weeks become beats. Actual contribution totals set each note height and pulse; active days add smaller notes from low to high. This visual score is silent.",
+      "category": "Patterns",
+      "duration": 35.04
+    },
+    {
+      "id": "space-route",
+      "number": "16",
+      "title": "Space Route",
+      "caption": "One small ship. A constellation of weeks.",
+      "description": "Every week is a planet. The ship docks at active weeks in chronological order and flies past intervening quiet planets. Each actual contribution adds one fuel; each station-to-station jump spends one fuel.",
+      "category": "Journeys",
+      "duration": 60.49
+    },
+    {
+      "id": "town",
+      "number": "17",
+      "title": "Town",
+      "caption": "A neighborhood made by showing up.",
+      "description": "Contributions fund homes and connecting lanes. Active weeks earn festivals. When real public activity context is available, the civic square reports observed sampled commits, issues, pull requests and reviews without inventing daily attribution.",
+      "category": "Worlds",
+      "duration": 30
+    },
+    {
+      "id": "match3",
+      "number": "18",
+      "title": "Match Three",
+      "caption": "Swap real dates into runs. Let the cascades follow.",
+      "description": "Every gem represents a real active date and is colored by its GitHub intensity. Adjacent swaps create runs of at least three. Matched dates bank their actual contribution counts, surviving gems fall, and remaining dates refill the board for further cascades.",
+      "category": "Arcade",
+      "duration": 22.88
+    },
+    {
+      "id": "whack-a-mole",
+      "number": "19",
+      "title": "Whack-a-Mole",
+      "caption": "Busy weeks pop faster. Streaks sharpen your timing.",
+      "description": "One mole represents each active week, ordered by contribution count. Busier weeks have shorter appearance windows, while real daily streaks reduce hammer reaction time. The hammer banks weekly contributions only when it strikes before the mole hides; late swings visibly miss.",
+      "category": "Arcade",
+      "duration": 29.214
     }
   ]
 }

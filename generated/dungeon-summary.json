@@ -1,0 +1,5721 @@
+{
+  "username": "N0zoM1z0",
+  "id": "dungeon",
+  "duration": 26,
+  "metrics": {
+    "rooms": 138,
+    "collectedRooms": 138,
+    "loot": 13951,
+    "revealed": 299,
+    "steps": 326,
+    "guardianHealth": 482,
+    "finalEncounter": 1
+  },
+  "checkpoints": [
+    1.4,
+    11.579999999999966,
+    19.92999999999993
+  ],
+  "events": [
+    {
+      "time": 0.8,
+      "type": "fog-reveal",
+      "data": {
+        "column": 0,
+        "row": 3
+      }
+    },
+    {
+      "time": 0.8,
+      "type": "fog-reveal",
+      "data": {
+        "column": 1,
+        "row": 3
+      }
+    },
+    {
+      "time": 0.8,
+      "type": "fog-reveal",
+      "data": {
+        "column": 0,
+        "row": 4
+      }
+    },
+    {
+      "time": 0.8,
+      "type": "fog-reveal",
+      "data": {
+        "column": 0,
+        "row": 2
+      }
+    },
+    {
+      "time": 0.8,
+      "type": "room-enter",
+      "data": {
+        "column": 0,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 0.8550000000000001,
+      "type": "fog-reveal",
+      "data": {
+        "column": 2,
+        "row": 3
+      }
+    },
+    {
+      "time": 0.8550000000000001,
+      "type": "fog-reveal",
+      "data": {
+        "column": 1,
+        "row": 4
+      }
+    },
+    {
+      "time": 0.8550000000000001,
+      "type": "fog-reveal",
+      "data": {
+        "column": 1,
+        "row": 2
+      }
+    },
+    {
+      "time": 0.8550000000000001,
+      "type": "room-enter",
+      "data": {
+        "column": 1,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 0.9100000000000001,
+      "type": "fog-reveal",
+      "data": {
+        "column": 3,
+        "row": 3
+      }
+    },
+    {
+      "time": 0.9100000000000001,
+      "type": "fog-reveal",
+      "data": {
+        "column": 2,
+        "row": 4
+      }
+    },
+    {
+      "time": 0.9100000000000001,
+      "type": "fog-reveal",
+      "data": {
+        "column": 2,
+        "row": 2
+      }
+    },
+    {
+      "time": 0.9100000000000001,
+      "type": "room-enter",
+      "data": {
+        "column": 2,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 0.9650000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 4,
+        "row": 3
+      }
+    },
+    {
+      "time": 0.9650000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 3,
+        "row": 4
+      }
+    },
+    {
+      "time": 0.9650000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 3,
+        "row": 2
+      }
+    },
+    {
+      "time": 0.9650000000000002,
+      "type": "room-enter",
+      "data": {
+        "column": 3,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 1.0200000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 4,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.0200000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 3,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.0200000000000002,
+      "type": "room-enter",
+      "data": {
+        "column": 3,
+        "row": 2,
+        "active": false
+      }
+    },
+    {
+      "time": 1.0750000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 4,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.0750000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 2,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.0750000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 3,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.0750000000000002,
+      "type": "room-enter",
+      "data": {
+        "column": 3,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 1.0750000000000002,
+      "type": "room-loot",
+      "date": "2025-11-03",
+      "value": 1,
+      "data": {
+        "column": 3,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.1300000000000001,
+      "type": "fog-reveal",
+      "data": {
+        "column": 5,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.1300000000000001,
+      "type": "fog-reveal",
+      "data": {
+        "column": 4,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.1300000000000001,
+      "type": "room-enter",
+      "data": {
+        "column": 4,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.185,
+      "type": "fog-reveal",
+      "data": {
+        "column": 6,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.185,
+      "type": "fog-reveal",
+      "data": {
+        "column": 5,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.185,
+      "type": "fog-reveal",
+      "data": {
+        "column": 5,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.185,
+      "type": "room-enter",
+      "data": {
+        "column": 5,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.24,
+      "type": "fog-reveal",
+      "data": {
+        "column": 7,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.24,
+      "type": "fog-reveal",
+      "data": {
+        "column": 6,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.24,
+      "type": "fog-reveal",
+      "data": {
+        "column": 6,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.24,
+      "type": "room-enter",
+      "data": {
+        "column": 6,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.295,
+      "type": "fog-reveal",
+      "data": {
+        "column": 8,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.295,
+      "type": "fog-reveal",
+      "data": {
+        "column": 7,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.295,
+      "type": "fog-reveal",
+      "data": {
+        "column": 7,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.295,
+      "type": "room-enter",
+      "data": {
+        "column": 7,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.3499999999999999,
+      "type": "fog-reveal",
+      "data": {
+        "column": 9,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.3499999999999999,
+      "type": "fog-reveal",
+      "data": {
+        "column": 8,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.3499999999999999,
+      "type": "fog-reveal",
+      "data": {
+        "column": 8,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.3499999999999999,
+      "type": "room-enter",
+      "data": {
+        "column": 8,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.4049999999999998,
+      "type": "fog-reveal",
+      "data": {
+        "column": 10,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.4049999999999998,
+      "type": "fog-reveal",
+      "data": {
+        "column": 9,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.4049999999999998,
+      "type": "fog-reveal",
+      "data": {
+        "column": 9,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.4049999999999998,
+      "type": "room-enter",
+      "data": {
+        "column": 9,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.4599999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 11,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.4599999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 10,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.4599999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 10,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.4599999999999997,
+      "type": "room-enter",
+      "data": {
+        "column": 10,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.5149999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 12,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.5149999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 11,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.5149999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 11,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.5149999999999997,
+      "type": "room-enter",
+      "data": {
+        "column": 11,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.5699999999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 13,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.5699999999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 12,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.5699999999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 12,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.5699999999999996,
+      "type": "room-enter",
+      "data": {
+        "column": 12,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.6249999999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 14,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.6249999999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 13,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.6249999999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 13,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.6249999999999996,
+      "type": "room-enter",
+      "data": {
+        "column": 13,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.6799999999999995,
+      "type": "fog-reveal",
+      "data": {
+        "column": 15,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.6799999999999995,
+      "type": "fog-reveal",
+      "data": {
+        "column": 14,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.6799999999999995,
+      "type": "fog-reveal",
+      "data": {
+        "column": 14,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.6799999999999995,
+      "type": "room-enter",
+      "data": {
+        "column": 14,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.7349999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 16,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.7349999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 15,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.7349999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 15,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.7349999999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 15,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.7899999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 17,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.7899999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 16,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.7899999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 16,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.7899999999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 16,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.8449999999999993,
+      "type": "fog-reveal",
+      "data": {
+        "column": 18,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.8449999999999993,
+      "type": "fog-reveal",
+      "data": {
+        "column": 17,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.8449999999999993,
+      "type": "fog-reveal",
+      "data": {
+        "column": 17,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.8449999999999993,
+      "type": "room-enter",
+      "data": {
+        "column": 17,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 1.8449999999999993,
+      "type": "room-loot",
+      "date": "2026-02-09",
+      "value": 1,
+      "data": {
+        "column": 17,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.8999999999999992,
+      "type": "fog-reveal",
+      "data": {
+        "column": 19,
+        "row": 1
+      }
+    },
+    {
+      "time": 1.8999999999999992,
+      "type": "fog-reveal",
+      "data": {
+        "column": 18,
+        "row": 2
+      }
+    },
+    {
+      "time": 1.8999999999999992,
+      "type": "fog-reveal",
+      "data": {
+        "column": 18,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.8999999999999992,
+      "type": "room-enter",
+      "data": {
+        "column": 18,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 1.9549999999999992,
+      "type": "fog-reveal",
+      "data": {
+        "column": 19,
+        "row": 0
+      }
+    },
+    {
+      "time": 1.9549999999999992,
+      "type": "room-enter",
+      "data": {
+        "column": 18,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 1.9549999999999992,
+      "type": "room-loot",
+      "date": "2026-02-15",
+      "value": 1,
+      "data": {
+        "column": 18,
+        "row": 0
+      }
+    },
+    {
+      "time": 2.0649999999999995,
+      "type": "fog-reveal",
+      "data": {
+        "column": 19,
+        "row": 2
+      }
+    },
+    {
+      "time": 2.0649999999999995,
+      "type": "fog-reveal",
+      "data": {
+        "column": 18,
+        "row": 3
+      }
+    },
+    {
+      "time": 2.0649999999999995,
+      "type": "room-enter",
+      "data": {
+        "column": 18,
+        "row": 2,
+        "active": false
+      }
+    },
+    {
+      "time": 2.1199999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 19,
+        "row": 3
+      }
+    },
+    {
+      "time": 2.1199999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 17,
+        "row": 3
+      }
+    },
+    {
+      "time": 2.1199999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 18,
+        "row": 4
+      }
+    },
+    {
+      "time": 2.1199999999999997,
+      "type": "room-enter",
+      "data": {
+        "column": 18,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 2.175,
+      "type": "fog-reveal",
+      "data": {
+        "column": 19,
+        "row": 4
+      }
+    },
+    {
+      "time": 2.175,
+      "type": "fog-reveal",
+      "data": {
+        "column": 17,
+        "row": 4
+      }
+    },
+    {
+      "time": 2.175,
+      "type": "fog-reveal",
+      "data": {
+        "column": 18,
+        "row": 5
+      }
+    },
+    {
+      "time": 2.175,
+      "type": "room-enter",
+      "data": {
+        "column": 18,
+        "row": 4,
+        "active": false
+      }
+    },
+    {
+      "time": 2.23,
+      "type": "fog-reveal",
+      "data": {
+        "column": 19,
+        "row": 5
+      }
+    },
+    {
+      "time": 2.23,
+      "type": "fog-reveal",
+      "data": {
+        "column": 17,
+        "row": 5
+      }
+    },
+    {
+      "time": 2.23,
+      "type": "fog-reveal",
+      "data": {
+        "column": 18,
+        "row": 6
+      }
+    },
+    {
+      "time": 2.23,
+      "type": "room-enter",
+      "data": {
+        "column": 18,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 2.23,
+      "type": "room-loot",
+      "date": "2026-02-20",
+      "value": 2,
+      "data": {
+        "column": 18,
+        "row": 5
+      }
+    },
+    {
+      "time": 2.285,
+      "type": "fog-reveal",
+      "data": {
+        "column": 20,
+        "row": 5
+      }
+    },
+    {
+      "time": 2.285,
+      "type": "fog-reveal",
+      "data": {
+        "column": 19,
+        "row": 6
+      }
+    },
+    {
+      "time": 2.285,
+      "type": "room-enter",
+      "data": {
+        "column": 19,
+        "row": 5,
+        "active": false
+      }
+    },
+    {
+      "time": 2.3400000000000003,
+      "type": "fog-reveal",
+      "data": {
+        "column": 20,
+        "row": 4
+      }
+    },
+    {
+      "time": 2.3400000000000003,
+      "type": "room-enter",
+      "data": {
+        "column": 19,
+        "row": 4,
+        "active": false
+      }
+    },
+    {
+      "time": 2.3950000000000005,
+      "type": "fog-reveal",
+      "data": {
+        "column": 20,
+        "row": 3
+      }
+    },
+    {
+      "time": 2.3950000000000005,
+      "type": "room-enter",
+      "data": {
+        "column": 19,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 2.4500000000000006,
+      "type": "fog-reveal",
+      "data": {
+        "column": 20,
+        "row": 2
+      }
+    },
+    {
+      "time": 2.4500000000000006,
+      "type": "room-enter",
+      "data": {
+        "column": 19,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 2.4500000000000006,
+      "type": "room-loot",
+      "date": "2026-02-24",
+      "value": 1,
+      "data": {
+        "column": 19,
+        "row": 2
+      }
+    },
+    {
+      "time": 2.505000000000001,
+      "type": "fog-reveal",
+      "data": {
+        "column": 20,
+        "row": 1
+      }
+    },
+    {
+      "time": 2.505000000000001,
+      "type": "room-enter",
+      "data": {
+        "column": 19,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 2.560000000000001,
+      "type": "fog-reveal",
+      "data": {
+        "column": 20,
+        "row": 0
+      }
+    },
+    {
+      "time": 2.560000000000001,
+      "type": "room-enter",
+      "data": {
+        "column": 19,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 2.560000000000001,
+      "type": "room-loot",
+      "date": "2026-02-22",
+      "value": 1,
+      "data": {
+        "column": 19,
+        "row": 0
+      }
+    },
+    {
+      "time": 2.7250000000000014,
+      "type": "fog-reveal",
+      "data": {
+        "column": 21,
+        "row": 2
+      }
+    },
+    {
+      "time": 2.7250000000000014,
+      "type": "room-enter",
+      "data": {
+        "column": 20,
+        "row": 2,
+        "active": false
+      }
+    },
+    {
+      "time": 2.7800000000000016,
+      "type": "fog-reveal",
+      "data": {
+        "column": 22,
+        "row": 2
+      }
+    },
+    {
+      "time": 2.7800000000000016,
+      "type": "fog-reveal",
+      "data": {
+        "column": 21,
+        "row": 3
+      }
+    },
+    {
+      "time": 2.7800000000000016,
+      "type": "fog-reveal",
+      "data": {
+        "column": 21,
+        "row": 1
+      }
+    },
+    {
+      "time": 2.7800000000000016,
+      "type": "room-enter",
+      "data": {
+        "column": 21,
+        "row": 2,
+        "active": false
+      }
+    },
+    {
+      "time": 2.8350000000000017,
+      "type": "fog-reveal",
+      "data": {
+        "column": 22,
+        "row": 3
+      }
+    },
+    {
+      "time": 2.8350000000000017,
+      "type": "fog-reveal",
+      "data": {
+        "column": 21,
+        "row": 4
+      }
+    },
+    {
+      "time": 2.8350000000000017,
+      "type": "room-enter",
+      "data": {
+        "column": 21,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 2.890000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 22,
+        "row": 4
+      }
+    },
+    {
+      "time": 2.890000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 21,
+        "row": 5
+      }
+    },
+    {
+      "time": 2.890000000000002,
+      "type": "room-enter",
+      "data": {
+        "column": 21,
+        "row": 4,
+        "active": false
+      }
+    },
+    {
+      "time": 2.945000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 22,
+        "row": 5
+      }
+    },
+    {
+      "time": 2.945000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 21,
+        "row": 6
+      }
+    },
+    {
+      "time": 2.945000000000002,
+      "type": "room-enter",
+      "data": {
+        "column": 21,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 2.945000000000002,
+      "type": "room-loot",
+      "date": "2026-03-13",
+      "value": 16,
+      "data": {
+        "column": 21,
+        "row": 5
+      }
+    },
+    {
+      "time": 3.000000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 22,
+        "row": 6
+      }
+    },
+    {
+      "time": 3.000000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 20,
+        "row": 6
+      }
+    },
+    {
+      "time": 3.000000000000002,
+      "type": "room-enter",
+      "data": {
+        "column": 21,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 3.000000000000002,
+      "type": "room-loot",
+      "date": "2026-03-14",
+      "value": 8,
+      "data": {
+        "column": 21,
+        "row": 6
+      }
+    },
+    {
+      "time": 3.0550000000000024,
+      "type": "fog-reveal",
+      "data": {
+        "column": 23,
+        "row": 6
+      }
+    },
+    {
+      "time": 3.0550000000000024,
+      "type": "room-enter",
+      "data": {
+        "column": 22,
+        "row": 6,
+        "active": false
+      }
+    },
+    {
+      "time": 3.1100000000000025,
+      "type": "fog-reveal",
+      "data": {
+        "column": 24,
+        "row": 6
+      }
+    },
+    {
+      "time": 3.1100000000000025,
+      "type": "fog-reveal",
+      "data": {
+        "column": 23,
+        "row": 5
+      }
+    },
+    {
+      "time": 3.1100000000000025,
+      "type": "room-enter",
+      "data": {
+        "column": 23,
+        "row": 6,
+        "active": false
+      }
+    },
+    {
+      "time": 3.1650000000000027,
+      "type": "fog-reveal",
+      "data": {
+        "column": 25,
+        "row": 6
+      }
+    },
+    {
+      "time": 3.1650000000000027,
+      "type": "fog-reveal",
+      "data": {
+        "column": 24,
+        "row": 5
+      }
+    },
+    {
+      "time": 3.1650000000000027,
+      "type": "room-enter",
+      "data": {
+        "column": 24,
+        "row": 6,
+        "active": false
+      }
+    },
+    {
+      "time": 3.220000000000003,
+      "type": "fog-reveal",
+      "data": {
+        "column": 25,
+        "row": 5
+      }
+    },
+    {
+      "time": 3.220000000000003,
+      "type": "fog-reveal",
+      "data": {
+        "column": 24,
+        "row": 4
+      }
+    },
+    {
+      "time": 3.220000000000003,
+      "type": "room-enter",
+      "data": {
+        "column": 24,
+        "row": 5,
+        "active": false
+      }
+    },
+    {
+      "time": 3.275000000000003,
+      "type": "fog-reveal",
+      "data": {
+        "column": 25,
+        "row": 4
+      }
+    },
+    {
+      "time": 3.275000000000003,
+      "type": "fog-reveal",
+      "data": {
+        "column": 23,
+        "row": 4
+      }
+    },
+    {
+      "time": 3.275000000000003,
+      "type": "fog-reveal",
+      "data": {
+        "column": 24,
+        "row": 3
+      }
+    },
+    {
+      "time": 3.275000000000003,
+      "type": "room-enter",
+      "data": {
+        "column": 24,
+        "row": 4,
+        "active": false
+      }
+    },
+    {
+      "time": 3.330000000000003,
+      "type": "fog-reveal",
+      "data": {
+        "column": 25,
+        "row": 3
+      }
+    },
+    {
+      "time": 3.330000000000003,
+      "type": "fog-reveal",
+      "data": {
+        "column": 23,
+        "row": 3
+      }
+    },
+    {
+      "time": 3.330000000000003,
+      "type": "fog-reveal",
+      "data": {
+        "column": 24,
+        "row": 2
+      }
+    },
+    {
+      "time": 3.330000000000003,
+      "type": "room-enter",
+      "data": {
+        "column": 24,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 3.3850000000000033,
+      "type": "fog-reveal",
+      "data": {
+        "column": 25,
+        "row": 2
+      }
+    },
+    {
+      "time": 3.3850000000000033,
+      "type": "fog-reveal",
+      "data": {
+        "column": 23,
+        "row": 2
+      }
+    },
+    {
+      "time": 3.3850000000000033,
+      "type": "fog-reveal",
+      "data": {
+        "column": 24,
+        "row": 1
+      }
+    },
+    {
+      "time": 3.3850000000000033,
+      "type": "room-enter",
+      "data": {
+        "column": 24,
+        "row": 2,
+        "active": false
+      }
+    },
+    {
+      "time": 3.4400000000000035,
+      "type": "fog-reveal",
+      "data": {
+        "column": 25,
+        "row": 1
+      }
+    },
+    {
+      "time": 3.4400000000000035,
+      "type": "fog-reveal",
+      "data": {
+        "column": 23,
+        "row": 1
+      }
+    },
+    {
+      "time": 3.4400000000000035,
+      "type": "fog-reveal",
+      "data": {
+        "column": 24,
+        "row": 0
+      }
+    },
+    {
+      "time": 3.4400000000000035,
+      "type": "room-enter",
+      "data": {
+        "column": 24,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 3.4400000000000035,
+      "type": "room-loot",
+      "date": "2026-03-30",
+      "value": 1,
+      "data": {
+        "column": 24,
+        "row": 1
+      }
+    },
+    {
+      "time": 3.4950000000000037,
+      "type": "fog-reveal",
+      "data": {
+        "column": 26,
+        "row": 1
+      }
+    },
+    {
+      "time": 3.4950000000000037,
+      "type": "fog-reveal",
+      "data": {
+        "column": 25,
+        "row": 0
+      }
+    },
+    {
+      "time": 3.4950000000000037,
+      "type": "room-enter",
+      "data": {
+        "column": 25,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 3.550000000000004,
+      "type": "fog-reveal",
+      "data": {
+        "column": 27,
+        "row": 1
+      }
+    },
+    {
+      "time": 3.550000000000004,
+      "type": "fog-reveal",
+      "data": {
+        "column": 26,
+        "row": 2
+      }
+    },
+    {
+      "time": 3.550000000000004,
+      "type": "fog-reveal",
+      "data": {
+        "column": 26,
+        "row": 0
+      }
+    },
+    {
+      "time": 3.550000000000004,
+      "type": "room-enter",
+      "data": {
+        "column": 26,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 3.605000000000004,
+      "type": "fog-reveal",
+      "data": {
+        "column": 27,
+        "row": 2
+      }
+    },
+    {
+      "time": 3.605000000000004,
+      "type": "fog-reveal",
+      "data": {
+        "column": 26,
+        "row": 3
+      }
+    },
+    {
+      "time": 3.605000000000004,
+      "type": "room-enter",
+      "data": {
+        "column": 26,
+        "row": 2,
+        "active": false
+      }
+    },
+    {
+      "time": 3.660000000000004,
+      "type": "fog-reveal",
+      "data": {
+        "column": 27,
+        "row": 3
+      }
+    },
+    {
+      "time": 3.660000000000004,
+      "type": "fog-reveal",
+      "data": {
+        "column": 26,
+        "row": 4
+      }
+    },
+    {
+      "time": 3.660000000000004,
+      "type": "room-enter",
+      "data": {
+        "column": 26,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 3.7150000000000043,
+      "type": "fog-reveal",
+      "data": {
+        "column": 27,
+        "row": 4
+      }
+    },
+    {
+      "time": 3.7150000000000043,
+      "type": "fog-reveal",
+      "data": {
+        "column": 26,
+        "row": 5
+      }
+    },
+    {
+      "time": 3.7150000000000043,
+      "type": "room-enter",
+      "data": {
+        "column": 26,
+        "row": 4,
+        "active": false
+      }
+    },
+    {
+      "time": 3.7700000000000045,
+      "type": "fog-reveal",
+      "data": {
+        "column": 27,
+        "row": 5
+      }
+    },
+    {
+      "time": 3.7700000000000045,
+      "type": "fog-reveal",
+      "data": {
+        "column": 26,
+        "row": 6
+      }
+    },
+    {
+      "time": 3.7700000000000045,
+      "type": "room-enter",
+      "data": {
+        "column": 26,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 3.7700000000000045,
+      "type": "room-loot",
+      "date": "2026-04-17",
+      "value": 5,
+      "data": {
+        "column": 26,
+        "row": 5
+      }
+    },
+    {
+      "time": 3.8250000000000046,
+      "type": "fog-reveal",
+      "data": {
+        "column": 27,
+        "row": 6
+      }
+    },
+    {
+      "time": 3.8250000000000046,
+      "type": "room-enter",
+      "data": {
+        "column": 26,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 3.8250000000000046,
+      "type": "room-loot",
+      "date": "2026-04-18",
+      "value": 3,
+      "data": {
+        "column": 26,
+        "row": 6
+      }
+    },
+    {
+      "time": 3.880000000000005,
+      "type": "fog-reveal",
+      "data": {
+        "column": 28,
+        "row": 6
+      }
+    },
+    {
+      "time": 3.880000000000005,
+      "type": "room-enter",
+      "data": {
+        "column": 27,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 3.880000000000005,
+      "type": "room-loot",
+      "date": "2026-04-25",
+      "value": 1,
+      "data": {
+        "column": 27,
+        "row": 6
+      }
+    },
+    {
+      "time": 3.935000000000005,
+      "type": "fog-reveal",
+      "data": {
+        "column": 28,
+        "row": 5
+      }
+    },
+    {
+      "time": 3.935000000000005,
+      "type": "room-enter",
+      "data": {
+        "column": 27,
+        "row": 5,
+        "active": false
+      }
+    },
+    {
+      "time": 3.990000000000005,
+      "type": "fog-reveal",
+      "data": {
+        "column": 28,
+        "row": 4
+      }
+    },
+    {
+      "time": 3.990000000000005,
+      "type": "room-enter",
+      "data": {
+        "column": 27,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 3.990000000000005,
+      "type": "room-loot",
+      "date": "2026-04-23",
+      "value": 12,
+      "data": {
+        "column": 27,
+        "row": 4
+      }
+    },
+    {
+      "time": 4.045000000000005,
+      "type": "fog-reveal",
+      "data": {
+        "column": 28,
+        "row": 3
+      }
+    },
+    {
+      "time": 4.045000000000005,
+      "type": "room-enter",
+      "data": {
+        "column": 27,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 4.045000000000005,
+      "type": "room-loot",
+      "date": "2026-04-22",
+      "value": 13,
+      "data": {
+        "column": 27,
+        "row": 3
+      }
+    },
+    {
+      "time": 4.100000000000005,
+      "type": "fog-reveal",
+      "data": {
+        "column": 28,
+        "row": 2
+      }
+    },
+    {
+      "time": 4.100000000000005,
+      "type": "room-enter",
+      "data": {
+        "column": 27,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 4.100000000000005,
+      "type": "room-loot",
+      "date": "2026-04-21",
+      "value": 1,
+      "data": {
+        "column": 27,
+        "row": 2
+      }
+    },
+    {
+      "time": 4.155000000000005,
+      "type": "fog-reveal",
+      "data": {
+        "column": 28,
+        "row": 1
+      }
+    },
+    {
+      "time": 4.155000000000005,
+      "type": "fog-reveal",
+      "data": {
+        "column": 27,
+        "row": 0
+      }
+    },
+    {
+      "time": 4.155000000000005,
+      "type": "room-enter",
+      "data": {
+        "column": 27,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 4.155000000000005,
+      "type": "room-loot",
+      "date": "2026-04-20",
+      "value": 4,
+      "data": {
+        "column": 27,
+        "row": 1
+      }
+    },
+    {
+      "time": 4.485000000000003,
+      "type": "fog-reveal",
+      "data": {
+        "column": 29,
+        "row": 6
+      }
+    },
+    {
+      "time": 4.485000000000003,
+      "type": "room-enter",
+      "data": {
+        "column": 28,
+        "row": 6,
+        "active": false
+      }
+    },
+    {
+      "time": 4.540000000000003,
+      "type": "fog-reveal",
+      "data": {
+        "column": 29,
+        "row": 5
+      }
+    },
+    {
+      "time": 4.540000000000003,
+      "type": "room-enter",
+      "data": {
+        "column": 28,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 4.540000000000003,
+      "type": "room-loot",
+      "date": "2026-05-01",
+      "value": 1,
+      "data": {
+        "column": 28,
+        "row": 5
+      }
+    },
+    {
+      "time": 4.595000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 29,
+        "row": 4
+      }
+    },
+    {
+      "time": 4.595000000000002,
+      "type": "room-enter",
+      "data": {
+        "column": 28,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 4.595000000000002,
+      "type": "room-loot",
+      "date": "2026-04-30",
+      "value": 18,
+      "data": {
+        "column": 28,
+        "row": 4
+      }
+    },
+    {
+      "time": 4.650000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 29,
+        "row": 3
+      }
+    },
+    {
+      "time": 4.650000000000002,
+      "type": "room-enter",
+      "data": {
+        "column": 28,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 4.705000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 29,
+        "row": 2
+      }
+    },
+    {
+      "time": 4.705000000000002,
+      "type": "room-enter",
+      "data": {
+        "column": 28,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 4.705000000000002,
+      "type": "room-loot",
+      "date": "2026-04-28",
+      "value": 2,
+      "data": {
+        "column": 28,
+        "row": 2
+      }
+    },
+    {
+      "time": 4.760000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 29,
+        "row": 1
+      }
+    },
+    {
+      "time": 4.760000000000002,
+      "type": "fog-reveal",
+      "data": {
+        "column": 28,
+        "row": 0
+      }
+    },
+    {
+      "time": 4.760000000000002,
+      "type": "room-enter",
+      "data": {
+        "column": 28,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 4.760000000000002,
+      "type": "room-loot",
+      "date": "2026-04-27",
+      "value": 12,
+      "data": {
+        "column": 28,
+        "row": 1
+      }
+    },
+    {
+      "time": 5.035,
+      "type": "fog-reveal",
+      "data": {
+        "column": 30,
+        "row": 5
+      }
+    },
+    {
+      "time": 5.035,
+      "type": "room-enter",
+      "data": {
+        "column": 29,
+        "row": 5,
+        "active": false
+      }
+    },
+    {
+      "time": 5.09,
+      "type": "fog-reveal",
+      "data": {
+        "column": 30,
+        "row": 4
+      }
+    },
+    {
+      "time": 5.09,
+      "type": "room-enter",
+      "data": {
+        "column": 29,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 5.09,
+      "type": "room-loot",
+      "date": "2026-05-07",
+      "value": 5,
+      "data": {
+        "column": 29,
+        "row": 4
+      }
+    },
+    {
+      "time": 5.145,
+      "type": "fog-reveal",
+      "data": {
+        "column": 30,
+        "row": 3
+      }
+    },
+    {
+      "time": 5.145,
+      "type": "room-enter",
+      "data": {
+        "column": 29,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 5.145,
+      "type": "room-loot",
+      "date": "2026-05-06",
+      "value": 31,
+      "data": {
+        "column": 29,
+        "row": 3
+      }
+    },
+    {
+      "time": 5.309999999999999,
+      "type": "fog-reveal",
+      "data": {
+        "column": 30,
+        "row": 6
+      }
+    },
+    {
+      "time": 5.309999999999999,
+      "type": "room-enter",
+      "data": {
+        "column": 29,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 5.309999999999999,
+      "type": "room-loot",
+      "date": "2026-05-09",
+      "value": 4,
+      "data": {
+        "column": 29,
+        "row": 6
+      }
+    },
+    {
+      "time": 5.364999999999998,
+      "type": "fog-reveal",
+      "data": {
+        "column": 31,
+        "row": 6
+      }
+    },
+    {
+      "time": 5.364999999999998,
+      "type": "room-enter",
+      "data": {
+        "column": 30,
+        "row": 6,
+        "active": false
+      }
+    },
+    {
+      "time": 5.419999999999998,
+      "type": "fog-reveal",
+      "data": {
+        "column": 31,
+        "row": 5
+      }
+    },
+    {
+      "time": 5.419999999999998,
+      "type": "room-enter",
+      "data": {
+        "column": 30,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 5.419999999999998,
+      "type": "room-loot",
+      "date": "2026-05-15",
+      "value": 1,
+      "data": {
+        "column": 30,
+        "row": 5
+      }
+    },
+    {
+      "time": 5.474999999999998,
+      "type": "fog-reveal",
+      "data": {
+        "column": 31,
+        "row": 4
+      }
+    },
+    {
+      "time": 5.474999999999998,
+      "type": "room-enter",
+      "data": {
+        "column": 30,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 5.474999999999998,
+      "type": "room-loot",
+      "date": "2026-05-14",
+      "value": 1,
+      "data": {
+        "column": 30,
+        "row": 4
+      }
+    },
+    {
+      "time": 5.529999999999998,
+      "type": "fog-reveal",
+      "data": {
+        "column": 31,
+        "row": 3
+      }
+    },
+    {
+      "time": 5.529999999999998,
+      "type": "fog-reveal",
+      "data": {
+        "column": 30,
+        "row": 2
+      }
+    },
+    {
+      "time": 5.529999999999998,
+      "type": "room-enter",
+      "data": {
+        "column": 30,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 5.584999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 31,
+        "row": 2
+      }
+    },
+    {
+      "time": 5.584999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 30,
+        "row": 1
+      }
+    },
+    {
+      "time": 5.584999999999997,
+      "type": "room-enter",
+      "data": {
+        "column": 30,
+        "row": 2,
+        "active": false
+      }
+    },
+    {
+      "time": 5.639999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 31,
+        "row": 1
+      }
+    },
+    {
+      "time": 5.639999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 30,
+        "row": 0
+      }
+    },
+    {
+      "time": 5.639999999999997,
+      "type": "room-enter",
+      "data": {
+        "column": 30,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 5.639999999999997,
+      "type": "room-loot",
+      "date": "2026-05-11",
+      "value": 1,
+      "data": {
+        "column": 30,
+        "row": 1
+      }
+    },
+    {
+      "time": 5.914999999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 32,
+        "row": 5
+      }
+    },
+    {
+      "time": 5.914999999999996,
+      "type": "room-enter",
+      "data": {
+        "column": 31,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 5.914999999999996,
+      "type": "room-loot",
+      "date": "2026-05-22",
+      "value": 1,
+      "data": {
+        "column": 31,
+        "row": 5
+      }
+    },
+    {
+      "time": 5.969999999999995,
+      "type": "fog-reveal",
+      "data": {
+        "column": 32,
+        "row": 4
+      }
+    },
+    {
+      "time": 5.969999999999995,
+      "type": "room-enter",
+      "data": {
+        "column": 31,
+        "row": 4,
+        "active": false
+      }
+    },
+    {
+      "time": 6.024999999999995,
+      "type": "fog-reveal",
+      "data": {
+        "column": 32,
+        "row": 3
+      }
+    },
+    {
+      "time": 6.024999999999995,
+      "type": "room-enter",
+      "data": {
+        "column": 31,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 6.079999999999995,
+      "type": "fog-reveal",
+      "data": {
+        "column": 32,
+        "row": 2
+      }
+    },
+    {
+      "time": 6.079999999999995,
+      "type": "room-enter",
+      "data": {
+        "column": 31,
+        "row": 2,
+        "active": false
+      }
+    },
+    {
+      "time": 6.1349999999999945,
+      "type": "fog-reveal",
+      "data": {
+        "column": 32,
+        "row": 1
+      }
+    },
+    {
+      "time": 6.1349999999999945,
+      "type": "fog-reveal",
+      "data": {
+        "column": 31,
+        "row": 0
+      }
+    },
+    {
+      "time": 6.1349999999999945,
+      "type": "room-enter",
+      "data": {
+        "column": 31,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 6.1349999999999945,
+      "type": "room-loot",
+      "date": "2026-05-18",
+      "value": 7,
+      "data": {
+        "column": 31,
+        "row": 1
+      }
+    },
+    {
+      "time": 6.189999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 32,
+        "row": 0
+      }
+    },
+    {
+      "time": 6.189999999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 31,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 6.189999999999994,
+      "type": "room-loot",
+      "date": "2026-05-17",
+      "value": 2,
+      "data": {
+        "column": 31,
+        "row": 0
+      }
+    },
+    {
+      "time": 6.5199999999999925,
+      "type": "fog-reveal",
+      "data": {
+        "column": 32,
+        "row": 6
+      }
+    },
+    {
+      "time": 6.5199999999999925,
+      "type": "room-enter",
+      "data": {
+        "column": 31,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 6.5199999999999925,
+      "type": "room-loot",
+      "date": "2026-05-23",
+      "value": 1,
+      "data": {
+        "column": 31,
+        "row": 6
+      }
+    },
+    {
+      "time": 6.574999999999992,
+      "type": "fog-reveal",
+      "data": {
+        "column": 33,
+        "row": 6
+      }
+    },
+    {
+      "time": 6.574999999999992,
+      "type": "room-enter",
+      "data": {
+        "column": 32,
+        "row": 6,
+        "active": false
+      }
+    },
+    {
+      "time": 6.629999999999992,
+      "type": "fog-reveal",
+      "data": {
+        "column": 33,
+        "row": 5
+      }
+    },
+    {
+      "time": 6.629999999999992,
+      "type": "room-enter",
+      "data": {
+        "column": 32,
+        "row": 5,
+        "active": false
+      }
+    },
+    {
+      "time": 6.684999999999992,
+      "type": "fog-reveal",
+      "data": {
+        "column": 33,
+        "row": 4
+      }
+    },
+    {
+      "time": 6.684999999999992,
+      "type": "room-enter",
+      "data": {
+        "column": 32,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 6.684999999999992,
+      "type": "room-loot",
+      "date": "2026-05-28",
+      "value": 61,
+      "data": {
+        "column": 32,
+        "row": 4
+      }
+    },
+    {
+      "time": 6.739999999999991,
+      "type": "fog-reveal",
+      "data": {
+        "column": 33,
+        "row": 3
+      }
+    },
+    {
+      "time": 6.739999999999991,
+      "type": "room-enter",
+      "data": {
+        "column": 32,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 6.739999999999991,
+      "type": "room-loot",
+      "date": "2026-05-27",
+      "value": 17,
+      "data": {
+        "column": 32,
+        "row": 3
+      }
+    },
+    {
+      "time": 6.794999999999991,
+      "type": "fog-reveal",
+      "data": {
+        "column": 33,
+        "row": 2
+      }
+    },
+    {
+      "time": 6.794999999999991,
+      "type": "room-enter",
+      "data": {
+        "column": 32,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 6.794999999999991,
+      "type": "room-loot",
+      "date": "2026-05-26",
+      "value": 1,
+      "data": {
+        "column": 32,
+        "row": 2
+      }
+    },
+    {
+      "time": 6.95999999999999,
+      "type": "fog-reveal",
+      "data": {
+        "column": 34,
+        "row": 4
+      }
+    },
+    {
+      "time": 6.95999999999999,
+      "type": "room-enter",
+      "data": {
+        "column": 33,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 6.95999999999999,
+      "type": "room-loot",
+      "date": "2026-06-04",
+      "value": 3,
+      "data": {
+        "column": 33,
+        "row": 4
+      }
+    },
+    {
+      "time": 7.01499999999999,
+      "type": "fog-reveal",
+      "data": {
+        "column": 35,
+        "row": 4
+      }
+    },
+    {
+      "time": 7.01499999999999,
+      "type": "fog-reveal",
+      "data": {
+        "column": 34,
+        "row": 5
+      }
+    },
+    {
+      "time": 7.01499999999999,
+      "type": "fog-reveal",
+      "data": {
+        "column": 34,
+        "row": 3
+      }
+    },
+    {
+      "time": 7.01499999999999,
+      "type": "room-enter",
+      "data": {
+        "column": 34,
+        "row": 4,
+        "active": false
+      }
+    },
+    {
+      "time": 7.06999999999999,
+      "type": "fog-reveal",
+      "data": {
+        "column": 35,
+        "row": 5
+      }
+    },
+    {
+      "time": 7.06999999999999,
+      "type": "fog-reveal",
+      "data": {
+        "column": 34,
+        "row": 6
+      }
+    },
+    {
+      "time": 7.06999999999999,
+      "type": "room-enter",
+      "data": {
+        "column": 34,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 7.06999999999999,
+      "type": "room-loot",
+      "date": "2026-06-12",
+      "value": 18,
+      "data": {
+        "column": 34,
+        "row": 5
+      }
+    },
+    {
+      "time": 7.124999999999989,
+      "type": "fog-reveal",
+      "data": {
+        "column": 36,
+        "row": 5
+      }
+    },
+    {
+      "time": 7.124999999999989,
+      "type": "fog-reveal",
+      "data": {
+        "column": 35,
+        "row": 6
+      }
+    },
+    {
+      "time": 7.124999999999989,
+      "type": "room-enter",
+      "data": {
+        "column": 35,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 7.124999999999989,
+      "type": "room-loot",
+      "date": "2026-06-19",
+      "value": 11,
+      "data": {
+        "column": 35,
+        "row": 5
+      }
+    },
+    {
+      "time": 7.179999999999989,
+      "type": "fog-reveal",
+      "data": {
+        "column": 36,
+        "row": 4
+      }
+    },
+    {
+      "time": 7.179999999999989,
+      "type": "fog-reveal",
+      "data": {
+        "column": 35,
+        "row": 3
+      }
+    },
+    {
+      "time": 7.179999999999989,
+      "type": "room-enter",
+      "data": {
+        "column": 35,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 7.179999999999989,
+      "type": "room-loot",
+      "date": "2026-06-18",
+      "value": 1,
+      "data": {
+        "column": 35,
+        "row": 4
+      }
+    },
+    {
+      "time": 7.234999999999989,
+      "type": "fog-reveal",
+      "data": {
+        "column": 36,
+        "row": 3
+      }
+    },
+    {
+      "time": 7.234999999999989,
+      "type": "fog-reveal",
+      "data": {
+        "column": 35,
+        "row": 2
+      }
+    },
+    {
+      "time": 7.234999999999989,
+      "type": "room-enter",
+      "data": {
+        "column": 35,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 7.2899999999999885,
+      "type": "fog-reveal",
+      "data": {
+        "column": 36,
+        "row": 2
+      }
+    },
+    {
+      "time": 7.2899999999999885,
+      "type": "fog-reveal",
+      "data": {
+        "column": 34,
+        "row": 2
+      }
+    },
+    {
+      "time": 7.2899999999999885,
+      "type": "fog-reveal",
+      "data": {
+        "column": 35,
+        "row": 1
+      }
+    },
+    {
+      "time": 7.2899999999999885,
+      "type": "room-enter",
+      "data": {
+        "column": 35,
+        "row": 2,
+        "active": false
+      }
+    },
+    {
+      "time": 7.344999999999988,
+      "type": "fog-reveal",
+      "data": {
+        "column": 36,
+        "row": 1
+      }
+    },
+    {
+      "time": 7.344999999999988,
+      "type": "fog-reveal",
+      "data": {
+        "column": 34,
+        "row": 1
+      }
+    },
+    {
+      "time": 7.344999999999988,
+      "type": "fog-reveal",
+      "data": {
+        "column": 35,
+        "row": 0
+      }
+    },
+    {
+      "time": 7.344999999999988,
+      "type": "room-enter",
+      "data": {
+        "column": 35,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 7.399999999999988,
+      "type": "fog-reveal",
+      "data": {
+        "column": 36,
+        "row": 0
+      }
+    },
+    {
+      "time": 7.399999999999988,
+      "type": "fog-reveal",
+      "data": {
+        "column": 34,
+        "row": 0
+      }
+    },
+    {
+      "time": 7.399999999999988,
+      "type": "room-enter",
+      "data": {
+        "column": 35,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 7.399999999999988,
+      "type": "room-loot",
+      "date": "2026-06-14",
+      "value": 11,
+      "data": {
+        "column": 35,
+        "row": 0
+      }
+    },
+    {
+      "time": 7.729999999999986,
+      "type": "fog-reveal",
+      "data": {
+        "column": 36,
+        "row": 6
+      }
+    },
+    {
+      "time": 7.729999999999986,
+      "type": "room-enter",
+      "data": {
+        "column": 35,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 7.729999999999986,
+      "type": "room-loot",
+      "date": "2026-06-20",
+      "value": 5,
+      "data": {
+        "column": 35,
+        "row": 6
+      }
+    },
+    {
+      "time": 7.784999999999986,
+      "type": "fog-reveal",
+      "data": {
+        "column": 37,
+        "row": 6
+      }
+    },
+    {
+      "time": 7.784999999999986,
+      "type": "room-enter",
+      "data": {
+        "column": 36,
+        "row": 6,
+        "active": false
+      }
+    },
+    {
+      "time": 7.839999999999986,
+      "type": "fog-reveal",
+      "data": {
+        "column": 37,
+        "row": 5
+      }
+    },
+    {
+      "time": 7.839999999999986,
+      "type": "room-enter",
+      "data": {
+        "column": 36,
+        "row": 5,
+        "active": false
+      }
+    },
+    {
+      "time": 7.894999999999985,
+      "type": "fog-reveal",
+      "data": {
+        "column": 37,
+        "row": 4
+      }
+    },
+    {
+      "time": 7.894999999999985,
+      "type": "room-enter",
+      "data": {
+        "column": 36,
+        "row": 4,
+        "active": false
+      }
+    },
+    {
+      "time": 7.949999999999985,
+      "type": "fog-reveal",
+      "data": {
+        "column": 37,
+        "row": 3
+      }
+    },
+    {
+      "time": 7.949999999999985,
+      "type": "room-enter",
+      "data": {
+        "column": 36,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 8.004999999999985,
+      "type": "fog-reveal",
+      "data": {
+        "column": 37,
+        "row": 2
+      }
+    },
+    {
+      "time": 8.004999999999985,
+      "type": "room-enter",
+      "data": {
+        "column": 36,
+        "row": 2,
+        "active": false
+      }
+    },
+    {
+      "time": 8.059999999999985,
+      "type": "fog-reveal",
+      "data": {
+        "column": 37,
+        "row": 1
+      }
+    },
+    {
+      "time": 8.059999999999985,
+      "type": "room-enter",
+      "data": {
+        "column": 36,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 8.059999999999985,
+      "type": "room-loot",
+      "date": "2026-06-22",
+      "value": 29,
+      "data": {
+        "column": 36,
+        "row": 1
+      }
+    },
+    {
+      "time": 8.114999999999984,
+      "type": "fog-reveal",
+      "data": {
+        "column": 38,
+        "row": 1
+      }
+    },
+    {
+      "time": 8.114999999999984,
+      "type": "fog-reveal",
+      "data": {
+        "column": 37,
+        "row": 0
+      }
+    },
+    {
+      "time": 8.114999999999984,
+      "type": "room-enter",
+      "data": {
+        "column": 37,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 8.169999999999984,
+      "type": "fog-reveal",
+      "data": {
+        "column": 39,
+        "row": 1
+      }
+    },
+    {
+      "time": 8.169999999999984,
+      "type": "fog-reveal",
+      "data": {
+        "column": 38,
+        "row": 2
+      }
+    },
+    {
+      "time": 8.169999999999984,
+      "type": "fog-reveal",
+      "data": {
+        "column": 38,
+        "row": 0
+      }
+    },
+    {
+      "time": 8.169999999999984,
+      "type": "room-enter",
+      "data": {
+        "column": 38,
+        "row": 1,
+        "active": false
+      }
+    },
+    {
+      "time": 8.224999999999984,
+      "type": "fog-reveal",
+      "data": {
+        "column": 39,
+        "row": 2
+      }
+    },
+    {
+      "time": 8.224999999999984,
+      "type": "fog-reveal",
+      "data": {
+        "column": 38,
+        "row": 3
+      }
+    },
+    {
+      "time": 8.224999999999984,
+      "type": "room-enter",
+      "data": {
+        "column": 38,
+        "row": 2,
+        "active": false
+      }
+    },
+    {
+      "time": 8.279999999999983,
+      "type": "fog-reveal",
+      "data": {
+        "column": 39,
+        "row": 3
+      }
+    },
+    {
+      "time": 8.279999999999983,
+      "type": "fog-reveal",
+      "data": {
+        "column": 38,
+        "row": 4
+      }
+    },
+    {
+      "time": 8.279999999999983,
+      "type": "room-enter",
+      "data": {
+        "column": 38,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 8.279999999999983,
+      "type": "room-loot",
+      "date": "2026-07-08",
+      "value": 4,
+      "data": {
+        "column": 38,
+        "row": 3
+      }
+    },
+    {
+      "time": 8.334999999999983,
+      "type": "fog-reveal",
+      "data": {
+        "column": 39,
+        "row": 4
+      }
+    },
+    {
+      "time": 8.334999999999983,
+      "type": "fog-reveal",
+      "data": {
+        "column": 38,
+        "row": 5
+      }
+    },
+    {
+      "time": 8.334999999999983,
+      "type": "room-enter",
+      "data": {
+        "column": 38,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 8.334999999999983,
+      "type": "room-loot",
+      "date": "2026-07-09",
+      "value": 10,
+      "data": {
+        "column": 38,
+        "row": 4
+      }
+    },
+    {
+      "time": 8.389999999999983,
+      "type": "fog-reveal",
+      "data": {
+        "column": 39,
+        "row": 5
+      }
+    },
+    {
+      "time": 8.389999999999983,
+      "type": "fog-reveal",
+      "data": {
+        "column": 38,
+        "row": 6
+      }
+    },
+    {
+      "time": 8.389999999999983,
+      "type": "room-enter",
+      "data": {
+        "column": 38,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 8.389999999999983,
+      "type": "room-loot",
+      "date": "2026-07-10",
+      "value": 7,
+      "data": {
+        "column": 38,
+        "row": 5
+      }
+    },
+    {
+      "time": 8.444999999999983,
+      "type": "fog-reveal",
+      "data": {
+        "column": 39,
+        "row": 6
+      }
+    },
+    {
+      "time": 8.444999999999983,
+      "type": "room-enter",
+      "data": {
+        "column": 38,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 8.444999999999983,
+      "type": "room-loot",
+      "date": "2026-07-11",
+      "value": 4,
+      "data": {
+        "column": 38,
+        "row": 6
+      }
+    },
+    {
+      "time": 8.499999999999982,
+      "type": "fog-reveal",
+      "data": {
+        "column": 40,
+        "row": 6
+      }
+    },
+    {
+      "time": 8.499999999999982,
+      "type": "room-enter",
+      "data": {
+        "column": 39,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 8.499999999999982,
+      "type": "room-loot",
+      "date": "2026-07-18",
+      "value": 46,
+      "data": {
+        "column": 39,
+        "row": 6
+      }
+    },
+    {
+      "time": 8.554999999999982,
+      "type": "fog-reveal",
+      "data": {
+        "column": 40,
+        "row": 5
+      }
+    },
+    {
+      "time": 8.554999999999982,
+      "type": "room-enter",
+      "data": {
+        "column": 39,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 8.554999999999982,
+      "type": "room-loot",
+      "date": "2026-07-17",
+      "value": 287,
+      "data": {
+        "column": 39,
+        "row": 5
+      }
+    },
+    {
+      "time": 8.609999999999982,
+      "type": "fog-reveal",
+      "data": {
+        "column": 40,
+        "row": 4
+      }
+    },
+    {
+      "time": 8.609999999999982,
+      "type": "room-enter",
+      "data": {
+        "column": 39,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 8.609999999999982,
+      "type": "room-loot",
+      "date": "2026-07-16",
+      "value": 374,
+      "data": {
+        "column": 39,
+        "row": 4
+      }
+    },
+    {
+      "time": 8.664999999999981,
+      "type": "fog-reveal",
+      "data": {
+        "column": 40,
+        "row": 3
+      }
+    },
+    {
+      "time": 8.664999999999981,
+      "type": "room-enter",
+      "data": {
+        "column": 39,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 8.664999999999981,
+      "type": "room-loot",
+      "date": "2026-07-15",
+      "value": 295,
+      "data": {
+        "column": 39,
+        "row": 3
+      }
+    },
+    {
+      "time": 8.719999999999981,
+      "type": "fog-reveal",
+      "data": {
+        "column": 40,
+        "row": 2
+      }
+    },
+    {
+      "time": 8.719999999999981,
+      "type": "room-enter",
+      "data": {
+        "column": 39,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 8.719999999999981,
+      "type": "room-loot",
+      "date": "2026-07-14",
+      "value": 73,
+      "data": {
+        "column": 39,
+        "row": 2
+      }
+    },
+    {
+      "time": 8.77499999999998,
+      "type": "fog-reveal",
+      "data": {
+        "column": 40,
+        "row": 1
+      }
+    },
+    {
+      "time": 8.77499999999998,
+      "type": "fog-reveal",
+      "data": {
+        "column": 39,
+        "row": 0
+      }
+    },
+    {
+      "time": 8.77499999999998,
+      "type": "room-enter",
+      "data": {
+        "column": 39,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 8.77499999999998,
+      "type": "room-loot",
+      "date": "2026-07-13",
+      "value": 8,
+      "data": {
+        "column": 39,
+        "row": 1
+      }
+    },
+    {
+      "time": 9.104999999999979,
+      "type": "fog-reveal",
+      "data": {
+        "column": 41,
+        "row": 6
+      }
+    },
+    {
+      "time": 9.104999999999979,
+      "type": "room-enter",
+      "data": {
+        "column": 40,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 9.104999999999979,
+      "type": "room-loot",
+      "date": "2026-07-25",
+      "value": 98,
+      "data": {
+        "column": 40,
+        "row": 6
+      }
+    },
+    {
+      "time": 9.159999999999979,
+      "type": "fog-reveal",
+      "data": {
+        "column": 41,
+        "row": 5
+      }
+    },
+    {
+      "time": 9.159999999999979,
+      "type": "room-enter",
+      "data": {
+        "column": 40,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 9.159999999999979,
+      "type": "room-loot",
+      "date": "2026-07-24",
+      "value": 77,
+      "data": {
+        "column": 40,
+        "row": 5
+      }
+    },
+    {
+      "time": 9.214999999999979,
+      "type": "fog-reveal",
+      "data": {
+        "column": 41,
+        "row": 4
+      }
+    },
+    {
+      "time": 9.214999999999979,
+      "type": "room-enter",
+      "data": {
+        "column": 40,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 9.214999999999979,
+      "type": "room-loot",
+      "date": "2026-07-23",
+      "value": 34,
+      "data": {
+        "column": 40,
+        "row": 4
+      }
+    },
+    {
+      "time": 9.269999999999978,
+      "type": "fog-reveal",
+      "data": {
+        "column": 41,
+        "row": 3
+      }
+    },
+    {
+      "time": 9.269999999999978,
+      "type": "room-enter",
+      "data": {
+        "column": 40,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 9.269999999999978,
+      "type": "room-loot",
+      "date": "2026-07-22",
+      "value": 54,
+      "data": {
+        "column": 40,
+        "row": 3
+      }
+    },
+    {
+      "time": 9.324999999999978,
+      "type": "fog-reveal",
+      "data": {
+        "column": 41,
+        "row": 2
+      }
+    },
+    {
+      "time": 9.324999999999978,
+      "type": "room-enter",
+      "data": {
+        "column": 40,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 9.324999999999978,
+      "type": "room-loot",
+      "date": "2026-07-21",
+      "value": 56,
+      "data": {
+        "column": 40,
+        "row": 2
+      }
+    },
+    {
+      "time": 9.379999999999978,
+      "type": "fog-reveal",
+      "data": {
+        "column": 41,
+        "row": 1
+      }
+    },
+    {
+      "time": 9.379999999999978,
+      "type": "fog-reveal",
+      "data": {
+        "column": 40,
+        "row": 0
+      }
+    },
+    {
+      "time": 9.379999999999978,
+      "type": "room-enter",
+      "data": {
+        "column": 40,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 9.379999999999978,
+      "type": "room-loot",
+      "date": "2026-07-20",
+      "value": 84,
+      "data": {
+        "column": 40,
+        "row": 1
+      }
+    },
+    {
+      "time": 9.434999999999977,
+      "type": "fog-reveal",
+      "data": {
+        "column": 41,
+        "row": 0
+      }
+    },
+    {
+      "time": 9.434999999999977,
+      "type": "room-enter",
+      "data": {
+        "column": 40,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 9.434999999999977,
+      "type": "room-loot",
+      "date": "2026-07-19",
+      "value": 41,
+      "data": {
+        "column": 40,
+        "row": 0
+      }
+    },
+    {
+      "time": 9.819999999999975,
+      "type": "fog-reveal",
+      "data": {
+        "column": 42,
+        "row": 6
+      }
+    },
+    {
+      "time": 9.819999999999975,
+      "type": "room-enter",
+      "data": {
+        "column": 41,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 9.819999999999975,
+      "type": "room-loot",
+      "date": "2026-08-01",
+      "value": 70,
+      "data": {
+        "column": 41,
+        "row": 6
+      }
+    },
+    {
+      "time": 9.874999999999975,
+      "type": "fog-reveal",
+      "data": {
+        "column": 42,
+        "row": 5
+      }
+    },
+    {
+      "time": 9.874999999999975,
+      "type": "room-enter",
+      "data": {
+        "column": 41,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 9.874999999999975,
+      "type": "room-loot",
+      "date": "2026-07-31",
+      "value": 78,
+      "data": {
+        "column": 41,
+        "row": 5
+      }
+    },
+    {
+      "time": 9.929999999999975,
+      "type": "fog-reveal",
+      "data": {
+        "column": 42,
+        "row": 4
+      }
+    },
+    {
+      "time": 9.929999999999975,
+      "type": "room-enter",
+      "data": {
+        "column": 41,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 9.929999999999975,
+      "type": "room-loot",
+      "date": "2026-07-30",
+      "value": 132,
+      "data": {
+        "column": 41,
+        "row": 4
+      }
+    },
+    {
+      "time": 9.984999999999975,
+      "type": "fog-reveal",
+      "data": {
+        "column": 42,
+        "row": 3
+      }
+    },
+    {
+      "time": 9.984999999999975,
+      "type": "room-enter",
+      "data": {
+        "column": 41,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 9.984999999999975,
+      "type": "room-loot",
+      "date": "2026-07-29",
+      "value": 121,
+      "data": {
+        "column": 41,
+        "row": 3
+      }
+    },
+    {
+      "time": 10.039999999999974,
+      "type": "fog-reveal",
+      "data": {
+        "column": 42,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.039999999999974,
+      "type": "room-enter",
+      "data": {
+        "column": 41,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 10.039999999999974,
+      "type": "room-loot",
+      "date": "2026-07-28",
+      "value": 211,
+      "data": {
+        "column": 41,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.094999999999974,
+      "type": "fog-reveal",
+      "data": {
+        "column": 42,
+        "row": 1
+      }
+    },
+    {
+      "time": 10.094999999999974,
+      "type": "room-enter",
+      "data": {
+        "column": 41,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 10.094999999999974,
+      "type": "room-loot",
+      "date": "2026-07-27",
+      "value": 232,
+      "data": {
+        "column": 41,
+        "row": 1
+      }
+    },
+    {
+      "time": 10.149999999999974,
+      "type": "fog-reveal",
+      "data": {
+        "column": 42,
+        "row": 0
+      }
+    },
+    {
+      "time": 10.149999999999974,
+      "type": "room-enter",
+      "data": {
+        "column": 41,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 10.149999999999974,
+      "type": "room-loot",
+      "date": "2026-07-26",
+      "value": 205,
+      "data": {
+        "column": 41,
+        "row": 0
+      }
+    },
+    {
+      "time": 10.534999999999972,
+      "type": "fog-reveal",
+      "data": {
+        "column": 43,
+        "row": 6
+      }
+    },
+    {
+      "time": 10.534999999999972,
+      "type": "room-enter",
+      "data": {
+        "column": 42,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 10.534999999999972,
+      "type": "room-loot",
+      "date": "2026-08-08",
+      "value": 30,
+      "data": {
+        "column": 42,
+        "row": 6
+      }
+    },
+    {
+      "time": 10.589999999999971,
+      "type": "fog-reveal",
+      "data": {
+        "column": 43,
+        "row": 5
+      }
+    },
+    {
+      "time": 10.589999999999971,
+      "type": "room-enter",
+      "data": {
+        "column": 42,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 10.589999999999971,
+      "type": "room-loot",
+      "date": "2026-08-07",
+      "value": 44,
+      "data": {
+        "column": 42,
+        "row": 5
+      }
+    },
+    {
+      "time": 10.644999999999971,
+      "type": "fog-reveal",
+      "data": {
+        "column": 43,
+        "row": 4
+      }
+    },
+    {
+      "time": 10.644999999999971,
+      "type": "room-enter",
+      "data": {
+        "column": 42,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 10.644999999999971,
+      "type": "room-loot",
+      "date": "2026-08-06",
+      "value": 114,
+      "data": {
+        "column": 42,
+        "row": 4
+      }
+    },
+    {
+      "time": 10.69999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 43,
+        "row": 3
+      }
+    },
+    {
+      "time": 10.69999999999997,
+      "type": "room-enter",
+      "data": {
+        "column": 42,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 10.69999999999997,
+      "type": "room-loot",
+      "date": "2026-08-05",
+      "value": 87,
+      "data": {
+        "column": 42,
+        "row": 3
+      }
+    },
+    {
+      "time": 10.75499999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 43,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.75499999999997,
+      "type": "room-enter",
+      "data": {
+        "column": 42,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 10.75499999999997,
+      "type": "room-loot",
+      "date": "2026-08-04",
+      "value": 90,
+      "data": {
+        "column": 42,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.80999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 43,
+        "row": 1
+      }
+    },
+    {
+      "time": 10.80999999999997,
+      "type": "room-enter",
+      "data": {
+        "column": 42,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 10.80999999999997,
+      "type": "room-loot",
+      "date": "2026-08-03",
+      "value": 53,
+      "data": {
+        "column": 42,
+        "row": 1
+      }
+    },
+    {
+      "time": 10.86499999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 43,
+        "row": 0
+      }
+    },
+    {
+      "time": 10.86499999999997,
+      "type": "room-enter",
+      "data": {
+        "column": 42,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 10.86499999999997,
+      "type": "room-loot",
+      "date": "2026-08-02",
+      "value": 147,
+      "data": {
+        "column": 42,
+        "row": 0
+      }
+    },
+    {
+      "time": 11.249999999999968,
+      "type": "fog-reveal",
+      "data": {
+        "column": 44,
+        "row": 6
+      }
+    },
+    {
+      "time": 11.249999999999968,
+      "type": "room-enter",
+      "data": {
+        "column": 43,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 11.249999999999968,
+      "type": "room-loot",
+      "date": "2026-08-15",
+      "value": 391,
+      "data": {
+        "column": 43,
+        "row": 6
+      }
+    },
+    {
+      "time": 11.304999999999968,
+      "type": "fog-reveal",
+      "data": {
+        "column": 44,
+        "row": 5
+      }
+    },
+    {
+      "time": 11.304999999999968,
+      "type": "room-enter",
+      "data": {
+        "column": 43,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 11.304999999999968,
+      "type": "room-loot",
+      "date": "2026-08-14",
+      "value": 134,
+      "data": {
+        "column": 43,
+        "row": 5
+      }
+    },
+    {
+      "time": 11.359999999999967,
+      "type": "fog-reveal",
+      "data": {
+        "column": 44,
+        "row": 4
+      }
+    },
+    {
+      "time": 11.359999999999967,
+      "type": "room-enter",
+      "data": {
+        "column": 43,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 11.359999999999967,
+      "type": "room-loot",
+      "date": "2026-08-13",
+      "value": 482,
+      "data": {
+        "column": 43,
+        "row": 4
+      }
+    },
+    {
+      "time": 11.414999999999967,
+      "type": "fog-reveal",
+      "data": {
+        "column": 44,
+        "row": 3
+      }
+    },
+    {
+      "time": 11.414999999999967,
+      "type": "room-enter",
+      "data": {
+        "column": 43,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 11.414999999999967,
+      "type": "room-loot",
+      "date": "2026-08-12",
+      "value": 261,
+      "data": {
+        "column": 43,
+        "row": 3
+      }
+    },
+    {
+      "time": 11.469999999999967,
+      "type": "fog-reveal",
+      "data": {
+        "column": 44,
+        "row": 2
+      }
+    },
+    {
+      "time": 11.469999999999967,
+      "type": "room-enter",
+      "data": {
+        "column": 43,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 11.469999999999967,
+      "type": "room-loot",
+      "date": "2026-08-11",
+      "value": 113,
+      "data": {
+        "column": 43,
+        "row": 2
+      }
+    },
+    {
+      "time": 11.524999999999967,
+      "type": "fog-reveal",
+      "data": {
+        "column": 44,
+        "row": 1
+      }
+    },
+    {
+      "time": 11.524999999999967,
+      "type": "room-enter",
+      "data": {
+        "column": 43,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 11.524999999999967,
+      "type": "room-loot",
+      "date": "2026-08-10",
+      "value": 84,
+      "data": {
+        "column": 43,
+        "row": 1
+      }
+    },
+    {
+      "time": 11.579999999999966,
+      "type": "fog-reveal",
+      "data": {
+        "column": 44,
+        "row": 0
+      }
+    },
+    {
+      "time": 11.579999999999966,
+      "type": "room-enter",
+      "data": {
+        "column": 43,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 11.579999999999966,
+      "type": "room-loot",
+      "date": "2026-08-09",
+      "value": 146,
+      "data": {
+        "column": 43,
+        "row": 0
+      }
+    },
+    {
+      "time": 11.964999999999964,
+      "type": "fog-reveal",
+      "data": {
+        "column": 45,
+        "row": 6
+      }
+    },
+    {
+      "time": 11.964999999999964,
+      "type": "room-enter",
+      "data": {
+        "column": 44,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 11.964999999999964,
+      "type": "room-loot",
+      "date": "2026-08-22",
+      "value": 220,
+      "data": {
+        "column": 44,
+        "row": 6
+      }
+    },
+    {
+      "time": 12.019999999999964,
+      "type": "fog-reveal",
+      "data": {
+        "column": 45,
+        "row": 5
+      }
+    },
+    {
+      "time": 12.019999999999964,
+      "type": "room-enter",
+      "data": {
+        "column": 44,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 12.019999999999964,
+      "type": "room-loot",
+      "date": "2026-08-21",
+      "value": 99,
+      "data": {
+        "column": 44,
+        "row": 5
+      }
+    },
+    {
+      "time": 12.074999999999964,
+      "type": "fog-reveal",
+      "data": {
+        "column": 45,
+        "row": 4
+      }
+    },
+    {
+      "time": 12.074999999999964,
+      "type": "room-enter",
+      "data": {
+        "column": 44,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 12.074999999999964,
+      "type": "room-loot",
+      "date": "2026-08-20",
+      "value": 478,
+      "data": {
+        "column": 44,
+        "row": 4
+      }
+    },
+    {
+      "time": 12.129999999999963,
+      "type": "fog-reveal",
+      "data": {
+        "column": 45,
+        "row": 3
+      }
+    },
+    {
+      "time": 12.129999999999963,
+      "type": "room-enter",
+      "data": {
+        "column": 44,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 12.129999999999963,
+      "type": "room-loot",
+      "date": "2026-08-19",
+      "value": 307,
+      "data": {
+        "column": 44,
+        "row": 3
+      }
+    },
+    {
+      "time": 12.184999999999963,
+      "type": "fog-reveal",
+      "data": {
+        "column": 45,
+        "row": 2
+      }
+    },
+    {
+      "time": 12.184999999999963,
+      "type": "room-enter",
+      "data": {
+        "column": 44,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 12.184999999999963,
+      "type": "room-loot",
+      "date": "2026-08-18",
+      "value": 244,
+      "data": {
+        "column": 44,
+        "row": 2
+      }
+    },
+    {
+      "time": 12.239999999999963,
+      "type": "fog-reveal",
+      "data": {
+        "column": 45,
+        "row": 1
+      }
+    },
+    {
+      "time": 12.239999999999963,
+      "type": "room-enter",
+      "data": {
+        "column": 44,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 12.239999999999963,
+      "type": "room-loot",
+      "date": "2026-08-17",
+      "value": 212,
+      "data": {
+        "column": 44,
+        "row": 1
+      }
+    },
+    {
+      "time": 12.294999999999963,
+      "type": "fog-reveal",
+      "data": {
+        "column": 45,
+        "row": 0
+      }
+    },
+    {
+      "time": 12.294999999999963,
+      "type": "room-enter",
+      "data": {
+        "column": 44,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 12.294999999999963,
+      "type": "room-loot",
+      "date": "2026-08-16",
+      "value": 306,
+      "data": {
+        "column": 44,
+        "row": 0
+      }
+    },
+    {
+      "time": 12.67999999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 46,
+        "row": 6
+      }
+    },
+    {
+      "time": 12.67999999999996,
+      "type": "room-enter",
+      "data": {
+        "column": 45,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 12.67999999999996,
+      "type": "room-loot",
+      "date": "2026-08-29",
+      "value": 81,
+      "data": {
+        "column": 45,
+        "row": 6
+      }
+    },
+    {
+      "time": 12.73499999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 46,
+        "row": 5
+      }
+    },
+    {
+      "time": 12.73499999999996,
+      "type": "room-enter",
+      "data": {
+        "column": 45,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 12.73499999999996,
+      "type": "room-loot",
+      "date": "2026-08-28",
+      "value": 17,
+      "data": {
+        "column": 45,
+        "row": 5
+      }
+    },
+    {
+      "time": 12.78999999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 46,
+        "row": 4
+      }
+    },
+    {
+      "time": 12.78999999999996,
+      "type": "room-enter",
+      "data": {
+        "column": 45,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 12.78999999999996,
+      "type": "room-loot",
+      "date": "2026-08-27",
+      "value": 136,
+      "data": {
+        "column": 45,
+        "row": 4
+      }
+    },
+    {
+      "time": 12.84499999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 46,
+        "row": 3
+      }
+    },
+    {
+      "time": 12.84499999999996,
+      "type": "room-enter",
+      "data": {
+        "column": 45,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 12.84499999999996,
+      "type": "room-loot",
+      "date": "2026-08-26",
+      "value": 120,
+      "data": {
+        "column": 45,
+        "row": 3
+      }
+    },
+    {
+      "time": 12.89999999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 46,
+        "row": 2
+      }
+    },
+    {
+      "time": 12.89999999999996,
+      "type": "room-enter",
+      "data": {
+        "column": 45,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 12.89999999999996,
+      "type": "room-loot",
+      "date": "2026-08-25",
+      "value": 52,
+      "data": {
+        "column": 45,
+        "row": 2
+      }
+    },
+    {
+      "time": 12.95499999999996,
+      "type": "fog-reveal",
+      "data": {
+        "column": 46,
+        "row": 1
+      }
+    },
+    {
+      "time": 12.95499999999996,
+      "type": "room-enter",
+      "data": {
+        "column": 45,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 12.95499999999996,
+      "type": "room-loot",
+      "date": "2026-08-24",
+      "value": 78,
+      "data": {
+        "column": 45,
+        "row": 1
+      }
+    },
+    {
+      "time": 13.009999999999959,
+      "type": "fog-reveal",
+      "data": {
+        "column": 46,
+        "row": 0
+      }
+    },
+    {
+      "time": 13.009999999999959,
+      "type": "room-enter",
+      "data": {
+        "column": 45,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 13.009999999999959,
+      "type": "room-loot",
+      "date": "2026-08-23",
+      "value": 80,
+      "data": {
+        "column": 45,
+        "row": 0
+      }
+    },
+    {
+      "time": 13.394999999999957,
+      "type": "fog-reveal",
+      "data": {
+        "column": 47,
+        "row": 6
+      }
+    },
+    {
+      "time": 13.394999999999957,
+      "type": "room-enter",
+      "data": {
+        "column": 46,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 13.394999999999957,
+      "type": "room-loot",
+      "date": "2026-09-05",
+      "value": 60,
+      "data": {
+        "column": 46,
+        "row": 6
+      }
+    },
+    {
+      "time": 13.449999999999957,
+      "type": "fog-reveal",
+      "data": {
+        "column": 47,
+        "row": 5
+      }
+    },
+    {
+      "time": 13.449999999999957,
+      "type": "room-enter",
+      "data": {
+        "column": 46,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 13.449999999999957,
+      "type": "room-loot",
+      "date": "2026-09-04",
+      "value": 5,
+      "data": {
+        "column": 46,
+        "row": 5
+      }
+    },
+    {
+      "time": 13.504999999999956,
+      "type": "fog-reveal",
+      "data": {
+        "column": 47,
+        "row": 4
+      }
+    },
+    {
+      "time": 13.504999999999956,
+      "type": "room-enter",
+      "data": {
+        "column": 46,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 13.504999999999956,
+      "type": "room-loot",
+      "date": "2026-09-03",
+      "value": 37,
+      "data": {
+        "column": 46,
+        "row": 4
+      }
+    },
+    {
+      "time": 13.559999999999956,
+      "type": "fog-reveal",
+      "data": {
+        "column": 47,
+        "row": 3
+      }
+    },
+    {
+      "time": 13.559999999999956,
+      "type": "room-enter",
+      "data": {
+        "column": 46,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 13.559999999999956,
+      "type": "room-loot",
+      "date": "2026-09-02",
+      "value": 42,
+      "data": {
+        "column": 46,
+        "row": 3
+      }
+    },
+    {
+      "time": 13.614999999999956,
+      "type": "fog-reveal",
+      "data": {
+        "column": 47,
+        "row": 2
+      }
+    },
+    {
+      "time": 13.614999999999956,
+      "type": "room-enter",
+      "data": {
+        "column": 46,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 13.614999999999956,
+      "type": "room-loot",
+      "date": "2026-09-01",
+      "value": 135,
+      "data": {
+        "column": 46,
+        "row": 2
+      }
+    },
+    {
+      "time": 13.669999999999956,
+      "type": "fog-reveal",
+      "data": {
+        "column": 47,
+        "row": 1
+      }
+    },
+    {
+      "time": 13.669999999999956,
+      "type": "room-enter",
+      "data": {
+        "column": 46,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 13.669999999999956,
+      "type": "room-loot",
+      "date": "2026-08-31",
+      "value": 53,
+      "data": {
+        "column": 46,
+        "row": 1
+      }
+    },
+    {
+      "time": 13.724999999999955,
+      "type": "fog-reveal",
+      "data": {
+        "column": 47,
+        "row": 0
+      }
+    },
+    {
+      "time": 13.724999999999955,
+      "type": "room-enter",
+      "data": {
+        "column": 46,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 13.724999999999955,
+      "type": "room-loot",
+      "date": "2026-08-30",
+      "value": 115,
+      "data": {
+        "column": 46,
+        "row": 0
+      }
+    },
+    {
+      "time": 14.109999999999953,
+      "type": "fog-reveal",
+      "data": {
+        "column": 48,
+        "row": 6
+      }
+    },
+    {
+      "time": 14.109999999999953,
+      "type": "room-enter",
+      "data": {
+        "column": 47,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 14.109999999999953,
+      "type": "room-loot",
+      "date": "2026-09-12",
+      "value": 197,
+      "data": {
+        "column": 47,
+        "row": 6
+      }
+    },
+    {
+      "time": 14.164999999999953,
+      "type": "fog-reveal",
+      "data": {
+        "column": 48,
+        "row": 5
+      }
+    },
+    {
+      "time": 14.164999999999953,
+      "type": "room-enter",
+      "data": {
+        "column": 47,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 14.164999999999953,
+      "type": "room-loot",
+      "date": "2026-09-11",
+      "value": 136,
+      "data": {
+        "column": 47,
+        "row": 5
+      }
+    },
+    {
+      "time": 14.219999999999953,
+      "type": "fog-reveal",
+      "data": {
+        "column": 48,
+        "row": 4
+      }
+    },
+    {
+      "time": 14.219999999999953,
+      "type": "room-enter",
+      "data": {
+        "column": 47,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 14.219999999999953,
+      "type": "room-loot",
+      "date": "2026-09-10",
+      "value": 149,
+      "data": {
+        "column": 47,
+        "row": 4
+      }
+    },
+    {
+      "time": 14.274999999999952,
+      "type": "fog-reveal",
+      "data": {
+        "column": 48,
+        "row": 3
+      }
+    },
+    {
+      "time": 14.274999999999952,
+      "type": "room-enter",
+      "data": {
+        "column": 47,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 14.274999999999952,
+      "type": "room-loot",
+      "date": "2026-09-09",
+      "value": 103,
+      "data": {
+        "column": 47,
+        "row": 3
+      }
+    },
+    {
+      "time": 14.329999999999952,
+      "type": "fog-reveal",
+      "data": {
+        "column": 48,
+        "row": 2
+      }
+    },
+    {
+      "time": 14.329999999999952,
+      "type": "room-enter",
+      "data": {
+        "column": 47,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 14.329999999999952,
+      "type": "room-loot",
+      "date": "2026-09-08",
+      "value": 94,
+      "data": {
+        "column": 47,
+        "row": 2
+      }
+    },
+    {
+      "time": 14.384999999999952,
+      "type": "fog-reveal",
+      "data": {
+        "column": 48,
+        "row": 1
+      }
+    },
+    {
+      "time": 14.384999999999952,
+      "type": "room-enter",
+      "data": {
+        "column": 47,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 14.384999999999952,
+      "type": "room-loot",
+      "date": "2026-09-07",
+      "value": 102,
+      "data": {
+        "column": 47,
+        "row": 1
+      }
+    },
+    {
+      "time": 14.439999999999952,
+      "type": "fog-reveal",
+      "data": {
+        "column": 48,
+        "row": 0
+      }
+    },
+    {
+      "time": 14.439999999999952,
+      "type": "room-enter",
+      "data": {
+        "column": 47,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 14.439999999999952,
+      "type": "room-loot",
+      "date": "2026-09-06",
+      "value": 87,
+      "data": {
+        "column": 47,
+        "row": 0
+      }
+    },
+    {
+      "time": 14.82499999999995,
+      "type": "fog-reveal",
+      "data": {
+        "column": 49,
+        "row": 6
+      }
+    },
+    {
+      "time": 14.82499999999995,
+      "type": "room-enter",
+      "data": {
+        "column": 48,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 14.82499999999995,
+      "type": "room-loot",
+      "date": "2026-09-19",
+      "value": 244,
+      "data": {
+        "column": 48,
+        "row": 6
+      }
+    },
+    {
+      "time": 14.87999999999995,
+      "type": "fog-reveal",
+      "data": {
+        "column": 49,
+        "row": 5
+      }
+    },
+    {
+      "time": 14.87999999999995,
+      "type": "room-enter",
+      "data": {
+        "column": 48,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 14.87999999999995,
+      "type": "room-loot",
+      "date": "2026-09-18",
+      "value": 33,
+      "data": {
+        "column": 48,
+        "row": 5
+      }
+    },
+    {
+      "time": 14.934999999999949,
+      "type": "fog-reveal",
+      "data": {
+        "column": 49,
+        "row": 4
+      }
+    },
+    {
+      "time": 14.934999999999949,
+      "type": "room-enter",
+      "data": {
+        "column": 48,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 14.934999999999949,
+      "type": "room-loot",
+      "date": "2026-09-17",
+      "value": 50,
+      "data": {
+        "column": 48,
+        "row": 4
+      }
+    },
+    {
+      "time": 14.989999999999949,
+      "type": "fog-reveal",
+      "data": {
+        "column": 49,
+        "row": 3
+      }
+    },
+    {
+      "time": 14.989999999999949,
+      "type": "room-enter",
+      "data": {
+        "column": 48,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 14.989999999999949,
+      "type": "room-loot",
+      "date": "2026-09-16",
+      "value": 154,
+      "data": {
+        "column": 48,
+        "row": 3
+      }
+    },
+    {
+      "time": 15.044999999999948,
+      "type": "fog-reveal",
+      "data": {
+        "column": 49,
+        "row": 2
+      }
+    },
+    {
+      "time": 15.044999999999948,
+      "type": "room-enter",
+      "data": {
+        "column": 48,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 15.044999999999948,
+      "type": "room-loot",
+      "date": "2026-09-15",
+      "value": 113,
+      "data": {
+        "column": 48,
+        "row": 2
+      }
+    },
+    {
+      "time": 15.099999999999948,
+      "type": "fog-reveal",
+      "data": {
+        "column": 49,
+        "row": 1
+      }
+    },
+    {
+      "time": 15.099999999999948,
+      "type": "room-enter",
+      "data": {
+        "column": 48,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 15.099999999999948,
+      "type": "room-loot",
+      "date": "2026-09-14",
+      "value": 119,
+      "data": {
+        "column": 48,
+        "row": 1
+      }
+    },
+    {
+      "time": 15.154999999999948,
+      "type": "fog-reveal",
+      "data": {
+        "column": 49,
+        "row": 0
+      }
+    },
+    {
+      "time": 15.154999999999948,
+      "type": "room-enter",
+      "data": {
+        "column": 48,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 15.154999999999948,
+      "type": "room-loot",
+      "date": "2026-09-13",
+      "value": 41,
+      "data": {
+        "column": 48,
+        "row": 0
+      }
+    },
+    {
+      "time": 15.539999999999946,
+      "type": "fog-reveal",
+      "data": {
+        "column": 50,
+        "row": 6
+      }
+    },
+    {
+      "time": 15.539999999999946,
+      "type": "room-enter",
+      "data": {
+        "column": 49,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 15.539999999999946,
+      "type": "room-loot",
+      "date": "2026-09-26",
+      "value": 156,
+      "data": {
+        "column": 49,
+        "row": 6
+      }
+    },
+    {
+      "time": 15.594999999999946,
+      "type": "fog-reveal",
+      "data": {
+        "column": 50,
+        "row": 5
+      }
+    },
+    {
+      "time": 15.594999999999946,
+      "type": "room-enter",
+      "data": {
+        "column": 49,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 15.594999999999946,
+      "type": "room-loot",
+      "date": "2026-09-25",
+      "value": 167,
+      "data": {
+        "column": 49,
+        "row": 5
+      }
+    },
+    {
+      "time": 15.649999999999945,
+      "type": "fog-reveal",
+      "data": {
+        "column": 50,
+        "row": 4
+      }
+    },
+    {
+      "time": 15.649999999999945,
+      "type": "room-enter",
+      "data": {
+        "column": 49,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 15.649999999999945,
+      "type": "room-loot",
+      "date": "2026-09-24",
+      "value": 259,
+      "data": {
+        "column": 49,
+        "row": 4
+      }
+    },
+    {
+      "time": 15.704999999999945,
+      "type": "fog-reveal",
+      "data": {
+        "column": 50,
+        "row": 3
+      }
+    },
+    {
+      "time": 15.704999999999945,
+      "type": "room-enter",
+      "data": {
+        "column": 49,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 15.704999999999945,
+      "type": "room-loot",
+      "date": "2026-09-23",
+      "value": 16,
+      "data": {
+        "column": 49,
+        "row": 3
+      }
+    },
+    {
+      "time": 15.759999999999945,
+      "type": "fog-reveal",
+      "data": {
+        "column": 50,
+        "row": 2
+      }
+    },
+    {
+      "time": 15.759999999999945,
+      "type": "room-enter",
+      "data": {
+        "column": 49,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 15.759999999999945,
+      "type": "room-loot",
+      "date": "2026-09-22",
+      "value": 157,
+      "data": {
+        "column": 49,
+        "row": 2
+      }
+    },
+    {
+      "time": 15.814999999999944,
+      "type": "fog-reveal",
+      "data": {
+        "column": 50,
+        "row": 1
+      }
+    },
+    {
+      "time": 15.814999999999944,
+      "type": "room-enter",
+      "data": {
+        "column": 49,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 15.814999999999944,
+      "type": "room-loot",
+      "date": "2026-09-21",
+      "value": 217,
+      "data": {
+        "column": 49,
+        "row": 1
+      }
+    },
+    {
+      "time": 15.869999999999944,
+      "type": "fog-reveal",
+      "data": {
+        "column": 50,
+        "row": 0
+      }
+    },
+    {
+      "time": 15.869999999999944,
+      "type": "room-enter",
+      "data": {
+        "column": 49,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 15.869999999999944,
+      "type": "room-loot",
+      "date": "2026-09-20",
+      "value": 212,
+      "data": {
+        "column": 49,
+        "row": 0
+      }
+    },
+    {
+      "time": 16.254999999999942,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 6
+      }
+    },
+    {
+      "time": 16.254999999999942,
+      "type": "room-enter",
+      "data": {
+        "column": 50,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 16.254999999999942,
+      "type": "room-loot",
+      "date": "2026-10-03",
+      "value": 135,
+      "data": {
+        "column": 50,
+        "row": 6
+      }
+    },
+    {
+      "time": 16.309999999999942,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 5
+      }
+    },
+    {
+      "time": 16.309999999999942,
+      "type": "room-enter",
+      "data": {
+        "column": 50,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 16.309999999999942,
+      "type": "room-loot",
+      "date": "2026-10-02",
+      "value": 238,
+      "data": {
+        "column": 50,
+        "row": 5
+      }
+    },
+    {
+      "time": 16.36499999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 4
+      }
+    },
+    {
+      "time": 16.36499999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 50,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 16.36499999999994,
+      "type": "room-loot",
+      "date": "2026-10-01",
+      "value": 14,
+      "data": {
+        "column": 50,
+        "row": 4
+      }
+    },
+    {
+      "time": 16.41999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 3
+      }
+    },
+    {
+      "time": 16.41999999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 50,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 16.41999999999994,
+      "type": "room-loot",
+      "date": "2026-09-30",
+      "value": 34,
+      "data": {
+        "column": 50,
+        "row": 3
+      }
+    },
+    {
+      "time": 16.47499999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 2
+      }
+    },
+    {
+      "time": 16.47499999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 50,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 16.47499999999994,
+      "type": "room-loot",
+      "date": "2026-09-29",
+      "value": 111,
+      "data": {
+        "column": 50,
+        "row": 2
+      }
+    },
+    {
+      "time": 16.52999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 1
+      }
+    },
+    {
+      "time": 16.52999999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 50,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 16.52999999999994,
+      "type": "room-loot",
+      "date": "2026-09-28",
+      "value": 42,
+      "data": {
+        "column": 50,
+        "row": 1
+      }
+    },
+    {
+      "time": 16.58499999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 0
+      }
+    },
+    {
+      "time": 16.58499999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 50,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 16.58499999999994,
+      "type": "room-loot",
+      "date": "2026-09-27",
+      "value": 52,
+      "data": {
+        "column": 50,
+        "row": 0
+      }
+    },
+    {
+      "time": 16.96999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 52,
+        "row": 6
+      }
+    },
+    {
+      "time": 16.96999999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 51,
+        "row": 6,
+        "active": true
+      }
+    },
+    {
+      "time": 16.96999999999994,
+      "type": "room-loot",
+      "date": "2026-10-10",
+      "value": 294,
+      "data": {
+        "column": 51,
+        "row": 6
+      }
+    },
+    {
+      "time": 17.024999999999938,
+      "type": "fog-reveal",
+      "data": {
+        "column": 52,
+        "row": 5
+      }
+    },
+    {
+      "time": 17.024999999999938,
+      "type": "room-enter",
+      "data": {
+        "column": 51,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 17.024999999999938,
+      "type": "room-loot",
+      "date": "2026-10-09",
+      "value": 243,
+      "data": {
+        "column": 51,
+        "row": 5
+      }
+    },
+    {
+      "time": 17.079999999999938,
+      "type": "fog-reveal",
+      "data": {
+        "column": 52,
+        "row": 4
+      }
+    },
+    {
+      "time": 17.079999999999938,
+      "type": "room-enter",
+      "data": {
+        "column": 51,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 17.079999999999938,
+      "type": "room-loot",
+      "date": "2026-10-08",
+      "value": 229,
+      "data": {
+        "column": 51,
+        "row": 4
+      }
+    },
+    {
+      "time": 17.134999999999938,
+      "type": "fog-reveal",
+      "data": {
+        "column": 52,
+        "row": 3
+      }
+    },
+    {
+      "time": 17.134999999999938,
+      "type": "room-enter",
+      "data": {
+        "column": 51,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 17.134999999999938,
+      "type": "room-loot",
+      "date": "2026-10-07",
+      "value": 319,
+      "data": {
+        "column": 51,
+        "row": 3
+      }
+    },
+    {
+      "time": 17.189999999999937,
+      "type": "fog-reveal",
+      "data": {
+        "column": 52,
+        "row": 2
+      }
+    },
+    {
+      "time": 17.189999999999937,
+      "type": "room-enter",
+      "data": {
+        "column": 51,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 17.189999999999937,
+      "type": "room-loot",
+      "date": "2026-10-06",
+      "value": 362,
+      "data": {
+        "column": 51,
+        "row": 2
+      }
+    },
+    {
+      "time": 17.244999999999937,
+      "type": "fog-reveal",
+      "data": {
+        "column": 52,
+        "row": 1
+      }
+    },
+    {
+      "time": 17.244999999999937,
+      "type": "room-enter",
+      "data": {
+        "column": 51,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 17.244999999999937,
+      "type": "room-loot",
+      "date": "2026-10-05",
+      "value": 146,
+      "data": {
+        "column": 51,
+        "row": 1
+      }
+    },
+    {
+      "time": 17.299999999999937,
+      "type": "fog-reveal",
+      "data": {
+        "column": 52,
+        "row": 0
+      }
+    },
+    {
+      "time": 17.299999999999937,
+      "type": "room-enter",
+      "data": {
+        "column": 51,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 17.299999999999937,
+      "type": "room-loot",
+      "date": "2026-10-04",
+      "value": 93,
+      "data": {
+        "column": 51,
+        "row": 0
+      }
+    },
+    {
+      "time": 17.684999999999935,
+      "type": "room-enter",
+      "data": {
+        "column": 52,
+        "row": 6,
+        "active": false
+      }
+    },
+    {
+      "time": 17.739999999999934,
+      "type": "room-enter",
+      "data": {
+        "column": 52,
+        "row": 5,
+        "active": false
+      }
+    },
+    {
+      "time": 17.794999999999934,
+      "type": "room-enter",
+      "data": {
+        "column": 52,
+        "row": 4,
+        "active": false
+      }
+    },
+    {
+      "time": 17.849999999999934,
+      "type": "room-enter",
+      "data": {
+        "column": 52,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 17.849999999999934,
+      "type": "room-loot",
+      "date": "2026-10-14",
+      "value": 178,
+      "data": {
+        "column": 52,
+        "row": 3
+      }
+    },
+    {
+      "time": 17.904999999999934,
+      "type": "room-enter",
+      "data": {
+        "column": 52,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 17.904999999999934,
+      "type": "room-loot",
+      "date": "2026-10-13",
+      "value": 206,
+      "data": {
+        "column": 52,
+        "row": 2
+      }
+    },
+    {
+      "time": 17.959999999999933,
+      "type": "room-enter",
+      "data": {
+        "column": 52,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 17.959999999999933,
+      "type": "room-loot",
+      "date": "2026-10-12",
+      "value": 158,
+      "data": {
+        "column": 52,
+        "row": 1
+      }
+    },
+    {
+      "time": 18.014999999999933,
+      "type": "room-enter",
+      "data": {
+        "column": 52,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 18.014999999999933,
+      "type": "room-loot",
+      "date": "2026-10-11",
+      "value": 322,
+      "data": {
+        "column": 52,
+        "row": 0
+      }
+    },
+    {
+      "time": 19.52999999999993,
+      "type": "encounter-start",
+      "date": "2026-08-13",
+      "value": 482,
+      "data": {
+        "column": 43,
+        "row": 4,
+        "collectedRooms": 138
+      }
+    },
+    {
+      "time": 20.32999999999993,
+      "type": "guardian-hit",
+      "date": "2026-08-13",
+      "value": 121,
+      "data": {
+        "hp": 361,
+        "sourceDate": "2026-08-13",
+        "sourceCount": 482,
+        "sourceRemaining": 361
+      }
+    },
+    {
+      "time": 20.929999999999932,
+      "type": "guardian-hit",
+      "date": "2026-08-13",
+      "value": 121,
+      "data": {
+        "hp": 240,
+        "sourceDate": "2026-08-13",
+        "sourceCount": 482,
+        "sourceRemaining": 240
+      }
+    },
+    {
+      "time": 21.529999999999934,
+      "type": "guardian-hit",
+      "date": "2026-08-13",
+      "value": 121,
+      "data": {
+        "hp": 119,
+        "sourceDate": "2026-08-13",
+        "sourceCount": 482,
+        "sourceRemaining": 119
+      }
+    },
+    {
+      "time": 22.129999999999935,
+      "type": "guardian-hit",
+      "date": "2026-08-13",
+      "value": 119,
+      "data": {
+        "hp": 0,
+        "sourceDate": "2026-08-13",
+        "sourceCount": 482,
+        "sourceRemaining": 0
+      }
+    },
+    {
+      "time": 22.729999999999936,
+      "type": "encounter-defeated",
+      "date": "2026-08-13",
+      "value": 482
+    }
+  ]
+}

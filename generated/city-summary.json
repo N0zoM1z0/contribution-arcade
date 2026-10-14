@@ -1,0 +1,1011 @@
+{
+  "username": "N0zoM1z0",
+  "id": "city",
+  "duration": 30,
+  "metrics": {
+    "buildings": 32,
+    "contributions": 13951,
+    "tallest": 156.664,
+    "peakWeek": 1866,
+    "floors": 258
+  },
+  "checkpoints": [
+    4,
+    15,
+    28
+  ],
+  "events": [
+    {
+      "time": 2.6423076923076922,
+      "type": "foundation",
+      "date": "2025-11-02",
+      "value": 1,
+      "data": {
+        "column": 3,
+        "height": 21.538403912731063
+      }
+    },
+    {
+      "time": 3.042307692307692,
+      "type": "frame",
+      "date": "2025-11-02",
+      "value": 1,
+      "data": {
+        "column": 3,
+        "floors": 1
+      }
+    },
+    {
+      "time": 3.8923076923076922,
+      "type": "building-complete",
+      "date": "2025-11-02",
+      "value": 1,
+      "data": {
+        "column": 3,
+        "height": 21.538403912731063,
+        "floors": 1
+      }
+    },
+    {
+      "time": 9.373076923076923,
+      "type": "foundation",
+      "date": "2026-02-08",
+      "value": 1,
+      "data": {
+        "column": 17,
+        "height": 21.538403912731063
+      }
+    },
+    {
+      "time": 9.773076923076923,
+      "type": "frame",
+      "date": "2026-02-08",
+      "value": 1,
+      "data": {
+        "column": 17,
+        "floors": 1
+      }
+    },
+    {
+      "time": 9.853846153846153,
+      "type": "foundation",
+      "date": "2026-02-15",
+      "value": 3,
+      "data": {
+        "column": 18,
+        "height": 27.49498416224361
+      }
+    },
+    {
+      "time": 10.253846153846153,
+      "type": "frame",
+      "date": "2026-02-15",
+      "value": 3,
+      "data": {
+        "column": 18,
+        "floors": 2
+      }
+    },
+    {
+      "time": 10.334615384615383,
+      "type": "foundation",
+      "date": "2026-02-22",
+      "value": 2,
+      "data": {
+        "column": 19,
+        "height": 24.938522346861312
+      }
+    },
+    {
+      "time": 10.623076923076923,
+      "type": "building-complete",
+      "date": "2026-02-08",
+      "value": 1,
+      "data": {
+        "column": 17,
+        "height": 21.538403912731063,
+        "floors": 1
+      }
+    },
+    {
+      "time": 10.734615384615383,
+      "type": "frame",
+      "date": "2026-02-22",
+      "value": 2,
+      "data": {
+        "column": 19,
+        "floors": 1
+      }
+    },
+    {
+      "time": 11.103846153846153,
+      "type": "building-complete",
+      "date": "2026-02-15",
+      "value": 3,
+      "data": {
+        "column": 18,
+        "height": 27.49498416224361,
+        "floors": 2
+      }
+    },
+    {
+      "time": 11.296153846153846,
+      "type": "foundation",
+      "date": "2026-03-08",
+      "value": 24,
+      "data": {
+        "column": 21,
+        "height": 50.64695007307985
+      }
+    },
+    {
+      "time": 11.584615384615383,
+      "type": "building-complete",
+      "date": "2026-02-22",
+      "value": 2,
+      "data": {
+        "column": 19,
+        "height": 24.938522346861312,
+        "floors": 1
+      }
+    },
+    {
+      "time": 11.696153846153846,
+      "type": "frame",
+      "date": "2026-03-08",
+      "value": 24,
+      "data": {
+        "column": 21,
+        "floors": 4
+      }
+    },
+    {
+      "time": 12.546153846153846,
+      "type": "building-complete",
+      "date": "2026-03-08",
+      "value": 24,
+      "data": {
+        "column": 21,
+        "height": 50.64695007307985,
+        "floors": 4
+      }
+    },
+    {
+      "time": 12.738461538461538,
+      "type": "foundation",
+      "date": "2026-03-29",
+      "value": 1,
+      "data": {
+        "column": 24,
+        "height": 21.538403912731063
+      }
+    },
+    {
+      "time": 13.138461538461538,
+      "type": "frame",
+      "date": "2026-03-29",
+      "value": 1,
+      "data": {
+        "column": 24,
+        "floors": 1
+      }
+    },
+    {
+      "time": 13.7,
+      "type": "foundation",
+      "date": "2026-04-12",
+      "value": 8,
+      "data": {
+        "column": 26,
+        "height": 35.9749667454536
+      }
+    },
+    {
+      "time": 13.988461538461538,
+      "type": "building-complete",
+      "date": "2026-03-29",
+      "value": 1,
+      "data": {
+        "column": 24,
+        "height": 21.538403912731063,
+        "floors": 1
+      }
+    },
+    {
+      "time": 14.1,
+      "type": "frame",
+      "date": "2026-04-12",
+      "value": 8,
+      "data": {
+        "column": 26,
+        "floors": 3
+      }
+    },
+    {
+      "time": 14.180769230769231,
+      "type": "foundation",
+      "date": "2026-04-19",
+      "value": 31,
+      "data": {
+        "column": 27,
+        "height": 55.03658068414033
+      }
+    },
+    {
+      "time": 14.580769230769231,
+      "type": "frame",
+      "date": "2026-04-19",
+      "value": 31,
+      "data": {
+        "column": 27,
+        "floors": 5
+      }
+    },
+    {
+      "time": 14.661538461538461,
+      "type": "foundation",
+      "date": "2026-04-26",
+      "value": 33,
+      "data": {
+        "column": 28,
+        "height": 56.1700126328201
+      }
+    },
+    {
+      "time": 14.95,
+      "type": "building-complete",
+      "date": "2026-04-12",
+      "value": 8,
+      "data": {
+        "column": 26,
+        "height": 35.9749667454536,
+        "floors": 3
+      }
+    },
+    {
+      "time": 15.061538461538461,
+      "type": "frame",
+      "date": "2026-04-26",
+      "value": 33,
+      "data": {
+        "column": 28,
+        "floors": 5
+      }
+    },
+    {
+      "time": 15.142307692307693,
+      "type": "foundation",
+      "date": "2026-05-03",
+      "value": 40,
+      "data": {
+        "column": 29,
+        "height": 59.81106754689312
+      }
+    },
+    {
+      "time": 15.430769230769231,
+      "type": "building-complete",
+      "date": "2026-04-19",
+      "value": 31,
+      "data": {
+        "column": 27,
+        "height": 55.03658068414033,
+        "floors": 5
+      }
+    },
+    {
+      "time": 15.542307692307693,
+      "type": "frame",
+      "date": "2026-05-03",
+      "value": 40,
+      "data": {
+        "column": 29,
+        "floors": 5
+      }
+    },
+    {
+      "time": 15.62307692307692,
+      "type": "foundation",
+      "date": "2026-05-10",
+      "value": 3,
+      "data": {
+        "column": 30,
+        "height": 27.49498416224361
+      }
+    },
+    {
+      "time": 15.911538461538461,
+      "type": "building-complete",
+      "date": "2026-04-26",
+      "value": 33,
+      "data": {
+        "column": 28,
+        "height": 56.1700126328201,
+        "floors": 5
+      }
+    },
+    {
+      "time": 16.02307692307692,
+      "type": "frame",
+      "date": "2026-05-10",
+      "value": 3,
+      "data": {
+        "column": 30,
+        "floors": 2
+      }
+    },
+    {
+      "time": 16.103846153846153,
+      "type": "foundation",
+      "date": "2026-05-17",
+      "value": 11,
+      "data": {
+        "column": 31,
+        "height": 39.58791140885653
+      }
+    },
+    {
+      "time": 16.392307692307693,
+      "type": "building-complete",
+      "date": "2026-05-03",
+      "value": 40,
+      "data": {
+        "column": 29,
+        "height": 59.81106754689312,
+        "floors": 5
+      }
+    },
+    {
+      "time": 16.50384615384615,
+      "type": "frame",
+      "date": "2026-05-17",
+      "value": 11,
+      "data": {
+        "column": 31,
+        "floors": 3
+      }
+    },
+    {
+      "time": 16.584615384615386,
+      "type": "foundation",
+      "date": "2026-05-24",
+      "value": 79,
+      "data": {
+        "column": 32,
+        "height": 74.57105129679812
+      }
+    },
+    {
+      "time": 16.873076923076923,
+      "type": "building-complete",
+      "date": "2026-05-10",
+      "value": 3,
+      "data": {
+        "column": 30,
+        "height": 27.49498416224361,
+        "floors": 2
+      }
+    },
+    {
+      "time": 16.984615384615385,
+      "type": "frame",
+      "date": "2026-05-24",
+      "value": 79,
+      "data": {
+        "column": 32,
+        "floors": 7
+      }
+    },
+    {
+      "time": 17.065384615384616,
+      "type": "foundation",
+      "date": "2026-05-31",
+      "value": 3,
+      "data": {
+        "column": 33,
+        "height": 27.49498416224361
+      }
+    },
+    {
+      "time": 17.353846153846153,
+      "type": "building-complete",
+      "date": "2026-05-17",
+      "value": 11,
+      "data": {
+        "column": 31,
+        "height": 39.58791140885653,
+        "floors": 3
+      }
+    },
+    {
+      "time": 17.465384615384615,
+      "type": "frame",
+      "date": "2026-05-31",
+      "value": 3,
+      "data": {
+        "column": 33,
+        "floors": 2
+      }
+    },
+    {
+      "time": 17.546153846153846,
+      "type": "foundation",
+      "date": "2026-06-07",
+      "value": 18,
+      "data": {
+        "column": 34,
+        "height": 46.17749444732129
+      }
+    },
+    {
+      "time": 17.834615384615386,
+      "type": "building-complete",
+      "date": "2026-05-24",
+      "value": 79,
+      "data": {
+        "column": 32,
+        "height": 74.57105129679812,
+        "floors": 7
+      }
+    },
+    {
+      "time": 17.946153846153845,
+      "type": "frame",
+      "date": "2026-06-07",
+      "value": 18,
+      "data": {
+        "column": 34,
+        "floors": 4
+      }
+    },
+    {
+      "time": 18.026923076923076,
+      "type": "foundation",
+      "date": "2026-06-14",
+      "value": 28,
+      "data": {
+        "column": 35,
+        "height": 53.243060524925085
+      }
+    },
+    {
+      "time": 18.315384615384616,
+      "type": "building-complete",
+      "date": "2026-05-31",
+      "value": 3,
+      "data": {
+        "column": 33,
+        "height": 27.49498416224361,
+        "floors": 2
+      }
+    },
+    {
+      "time": 18.426923076923075,
+      "type": "frame",
+      "date": "2026-06-14",
+      "value": 28,
+      "data": {
+        "column": 35,
+        "floors": 5
+      }
+    },
+    {
+      "time": 18.507692307692306,
+      "type": "foundation",
+      "date": "2026-06-21",
+      "value": 29,
+      "data": {
+        "column": 36,
+        "height": 53.8542119992754
+      }
+    },
+    {
+      "time": 18.796153846153846,
+      "type": "building-complete",
+      "date": "2026-06-07",
+      "value": 18,
+      "data": {
+        "column": 34,
+        "height": 46.17749444732129,
+        "floors": 4
+      }
+    },
+    {
+      "time": 18.907692307692304,
+      "type": "frame",
+      "date": "2026-06-21",
+      "value": 29,
+      "data": {
+        "column": 36,
+        "floors": 5
+      }
+    },
+    {
+      "time": 19.276923076923076,
+      "type": "building-complete",
+      "date": "2026-06-14",
+      "value": 28,
+      "data": {
+        "column": 35,
+        "height": 53.243060524925085,
+        "floors": 5
+      }
+    },
+    {
+      "time": 19.469230769230766,
+      "type": "foundation",
+      "date": "2026-07-05",
+      "value": 25,
+      "data": {
+        "column": 38,
+        "height": 51.3205097132793
+      }
+    },
+    {
+      "time": 19.757692307692306,
+      "type": "building-complete",
+      "date": "2026-06-21",
+      "value": 29,
+      "data": {
+        "column": 36,
+        "height": 53.8542119992754,
+        "floors": 5
+      }
+    },
+    {
+      "time": 19.869230769230764,
+      "type": "frame",
+      "date": "2026-07-05",
+      "value": 25,
+      "data": {
+        "column": 38,
+        "floors": 4
+      }
+    },
+    {
+      "time": 19.95,
+      "type": "foundation",
+      "date": "2026-07-12",
+      "value": 1083,
+      "data": {
+        "column": 39,
+        "height": 145.61091948533428
+      }
+    },
+    {
+      "time": 20.349999999999998,
+      "type": "frame",
+      "date": "2026-07-12",
+      "value": 1083,
+      "data": {
+        "column": 39,
+        "floors": 15
+      }
+    },
+    {
+      "time": 20.430769230769233,
+      "type": "foundation",
+      "date": "2026-07-19",
+      "value": 444,
+      "data": {
+        "column": 40,
+        "height": 121.99281900626957
+      }
+    },
+    {
+      "time": 20.719230769230766,
+      "type": "building-complete",
+      "date": "2026-07-05",
+      "value": 25,
+      "data": {
+        "column": 38,
+        "height": 51.3205097132793,
+        "floors": 4
+      }
+    },
+    {
+      "time": 20.83076923076923,
+      "type": "frame",
+      "date": "2026-07-19",
+      "value": 444,
+      "data": {
+        "column": 40,
+        "floors": 12
+      }
+    },
+    {
+      "time": 20.91153846153846,
+      "type": "foundation",
+      "date": "2026-07-26",
+      "value": 1049,
+      "data": {
+        "column": 41,
+        "height": 144.86574963671134
+      }
+    },
+    {
+      "time": 21.2,
+      "type": "building-complete",
+      "date": "2026-07-12",
+      "value": 1083,
+      "data": {
+        "column": 39,
+        "height": 145.61091948533428,
+        "floors": 15
+      }
+    },
+    {
+      "time": 21.311538461538458,
+      "type": "frame",
+      "date": "2026-07-26",
+      "value": 1049,
+      "data": {
+        "column": 41,
+        "floors": 15
+      }
+    },
+    {
+      "time": 21.392307692307693,
+      "type": "foundation",
+      "date": "2026-08-02",
+      "value": 565,
+      "data": {
+        "column": 42,
+        "height": 128.81542838800127
+      }
+    },
+    {
+      "time": 21.680769230769233,
+      "type": "building-complete",
+      "date": "2026-07-19",
+      "value": 444,
+      "data": {
+        "column": 40,
+        "height": 121.99281900626957,
+        "floors": 12
+      }
+    },
+    {
+      "time": 21.79230769230769,
+      "type": "frame",
+      "date": "2026-08-02",
+      "value": 565,
+      "data": {
+        "column": 42,
+        "floors": 13
+      }
+    },
+    {
+      "time": 21.873076923076923,
+      "type": "foundation",
+      "date": "2026-08-09",
+      "value": 1611,
+      "data": {
+        "column": 43,
+        "height": 154.007925893351
+      }
+    },
+    {
+      "time": 22.16153846153846,
+      "type": "building-complete",
+      "date": "2026-07-26",
+      "value": 1049,
+      "data": {
+        "column": 41,
+        "height": 144.86574963671134,
+        "floors": 15
+      }
+    },
+    {
+      "time": 22.27307692307692,
+      "type": "frame",
+      "date": "2026-08-09",
+      "value": 1611,
+      "data": {
+        "column": 43,
+        "floors": 16
+      }
+    },
+    {
+      "time": 22.353846153846153,
+      "type": "foundation",
+      "date": "2026-08-16",
+      "value": 1866,
+      "data": {
+        "column": 44,
+        "height": 156.66435118836304
+      }
+    },
+    {
+      "time": 22.642307692307693,
+      "type": "building-complete",
+      "date": "2026-08-02",
+      "value": 565,
+      "data": {
+        "column": 42,
+        "height": 128.81542838800127,
+        "floors": 13
+      }
+    },
+    {
+      "time": 22.75384615384615,
+      "type": "frame",
+      "date": "2026-08-16",
+      "value": 1866,
+      "data": {
+        "column": 44,
+        "floors": 16
+      }
+    },
+    {
+      "time": 22.834615384615386,
+      "type": "foundation",
+      "date": "2026-08-23",
+      "value": 564,
+      "data": {
+        "column": 45,
+        "height": 128.7660799839952
+      }
+    },
+    {
+      "time": 23.123076923076923,
+      "type": "building-complete",
+      "date": "2026-08-09",
+      "value": 1611,
+      "data": {
+        "column": 43,
+        "height": 154.007925893351,
+        "floors": 16
+      }
+    },
+    {
+      "time": 23.234615384615385,
+      "type": "frame",
+      "date": "2026-08-23",
+      "value": 564,
+      "data": {
+        "column": 45,
+        "floors": 13
+      }
+    },
+    {
+      "time": 23.315384615384612,
+      "type": "foundation",
+      "date": "2026-08-30",
+      "value": 447,
+      "data": {
+        "column": 46,
+        "height": 122.18592608113154
+      }
+    },
+    {
+      "time": 23.603846153846153,
+      "type": "building-complete",
+      "date": "2026-08-16",
+      "value": 1866,
+      "data": {
+        "column": 44,
+        "height": 156.66435118836304,
+        "floors": 16
+      }
+    },
+    {
+      "time": 23.71538461538461,
+      "type": "frame",
+      "date": "2026-08-30",
+      "value": 447,
+      "data": {
+        "column": 46,
+        "floors": 12
+      }
+    },
+    {
+      "time": 23.796153846153846,
+      "type": "foundation",
+      "date": "2026-09-06",
+      "value": 868,
+      "data": {
+        "column": 47,
+        "height": 140.25196285911136
+      }
+    },
+    {
+      "time": 24.084615384615386,
+      "type": "building-complete",
+      "date": "2026-08-23",
+      "value": 564,
+      "data": {
+        "column": 45,
+        "height": 128.7660799839952,
+        "floors": 13
+      }
+    },
+    {
+      "time": 24.196153846153845,
+      "type": "frame",
+      "date": "2026-09-06",
+      "value": 868,
+      "data": {
+        "column": 47,
+        "floors": 14
+      }
+    },
+    {
+      "time": 24.276923076923076,
+      "type": "foundation",
+      "date": "2026-09-13",
+      "value": 754,
+      "data": {
+        "column": 48,
+        "height": 136.63317616922996
+      }
+    },
+    {
+      "time": 24.565384615384612,
+      "type": "building-complete",
+      "date": "2026-08-30",
+      "value": 447,
+      "data": {
+        "column": 46,
+        "height": 122.18592608113154,
+        "floors": 12
+      }
+    },
+    {
+      "time": 24.676923076923075,
+      "type": "frame",
+      "date": "2026-09-13",
+      "value": 754,
+      "data": {
+        "column": 48,
+        "floors": 14
+      }
+    },
+    {
+      "time": 24.757692307692306,
+      "type": "foundation",
+      "date": "2026-09-20",
+      "value": 1184,
+      "data": {
+        "column": 49,
+        "height": 147.64135395433374
+      }
+    },
+    {
+      "time": 25.046153846153846,
+      "type": "building-complete",
+      "date": "2026-09-06",
+      "value": 868,
+      "data": {
+        "column": 47,
+        "height": 140.25196285911136,
+        "floors": 14
+      }
+    },
+    {
+      "time": 25.157692307692304,
+      "type": "frame",
+      "date": "2026-09-20",
+      "value": 1184,
+      "data": {
+        "column": 49,
+        "floors": 15
+      }
+    },
+    {
+      "time": 25.23846153846154,
+      "type": "foundation",
+      "date": "2026-09-27",
+      "value": 626,
+      "data": {
+        "column": 50,
+        "height": 131.64608439154966
+      }
+    },
+    {
+      "time": 25.526923076923076,
+      "type": "building-complete",
+      "date": "2026-09-13",
+      "value": 754,
+      "data": {
+        "column": 48,
+        "height": 136.63317616922996,
+        "floors": 14
+      }
+    },
+    {
+      "time": 25.638461538461538,
+      "type": "frame",
+      "date": "2026-09-27",
+      "value": 626,
+      "data": {
+        "column": 50,
+        "floors": 13
+      }
+    },
+    {
+      "time": 25.719230769230766,
+      "type": "foundation",
+      "date": "2026-10-04",
+      "value": 1686,
+      "data": {
+        "column": 51,
+        "height": 154.85787625948197
+      }
+    },
+    {
+      "time": 26.007692307692306,
+      "type": "building-complete",
+      "date": "2026-09-20",
+      "value": 1184,
+      "data": {
+        "column": 49,
+        "height": 147.64135395433374,
+        "floors": 15
+      }
+    },
+    {
+      "time": 26.119230769230764,
+      "type": "frame",
+      "date": "2026-10-04",
+      "value": 1686,
+      "data": {
+        "column": 51,
+        "floors": 16
+      }
+    },
+    {
+      "time": 26.2,
+      "type": "foundation",
+      "date": "2026-10-11",
+      "value": 864,
+      "data": {
+        "column": 52,
+        "height": 140.1356476851779
+      }
+    },
+    {
+      "time": 26.48846153846154,
+      "type": "building-complete",
+      "date": "2026-09-27",
+      "value": 626,
+      "data": {
+        "column": 50,
+        "height": 131.64608439154966,
+        "floors": 13
+      }
+    },
+    {
+      "time": 26.599999999999998,
+      "type": "frame",
+      "date": "2026-10-11",
+      "value": 864,
+      "data": {
+        "column": 52,
+        "floors": 14
+      }
+    },
+    {
+      "time": 26.969230769230766,
+      "type": "building-complete",
+      "date": "2026-10-04",
+      "value": 1686,
+      "data": {
+        "column": 51,
+        "height": 154.85787625948197,
+        "floors": 16
+      }
+    },
+    {
+      "time": 27.45,
+      "type": "building-complete",
+      "date": "2026-10-11",
+      "value": 864,
+      "data": {
+        "column": 52,
+        "height": 140.1356476851779,
+        "floors": 14
+      }
+    }
+  ]
+}

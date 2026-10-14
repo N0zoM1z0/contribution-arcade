@@ -1,0 +1,3497 @@
+{
+  "username": "N0zoM1z0",
+  "id": "garden",
+  "duration": 28,
+  "metrics": {
+    "plants": 138,
+    "flowers": 113,
+    "contributions": 13951,
+    "plantingSource": "repository-languages",
+    "seasons": "Autumn, Winter, Spring, Summer"
+  },
+  "checkpoints": [
+    3,
+    14,
+    26
+  ],
+  "events": [
+    {
+      "time": 0,
+      "type": "season",
+      "date": "2025-10-12",
+      "data": {
+        "season": "Autumn"
+      }
+    },
+    {
+      "time": 2.8147138964577656,
+      "type": "seed",
+      "date": "2025-11-03",
+      "value": 1,
+      "data": {
+        "column": 3,
+        "row": 1
+      }
+    },
+    {
+      "time": 3.534713896457766,
+      "type": "growth",
+      "date": "2025-11-03",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 4.615258855585831,
+      "type": "season",
+      "date": "2025-12-01",
+      "data": {
+        "season": "Winter"
+      }
+    },
+    {
+      "time": 9.116621253405995,
+      "type": "seed",
+      "date": "2026-02-09",
+      "value": 1,
+      "data": {
+        "column": 17,
+        "row": 1
+      }
+    },
+    {
+      "time": 9.502452316076296,
+      "type": "seed",
+      "date": "2026-02-15",
+      "value": 1,
+      "data": {
+        "column": 18,
+        "row": 0
+      }
+    },
+    {
+      "time": 9.823978201634878,
+      "type": "seed",
+      "date": "2026-02-20",
+      "value": 2,
+      "data": {
+        "column": 18,
+        "row": 5
+      }
+    },
+    {
+      "time": 9.836621253405996,
+      "type": "growth",
+      "date": "2026-02-09",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 9.952588555858313,
+      "type": "seed",
+      "date": "2026-02-22",
+      "value": 1,
+      "data": {
+        "column": 19,
+        "row": 0
+      }
+    },
+    {
+      "time": 10.081198910081744,
+      "type": "seed",
+      "date": "2026-02-24",
+      "value": 1,
+      "data": {
+        "column": 19,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.222452316076296,
+      "type": "growth",
+      "date": "2026-02-15",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 10.402724795640328,
+      "type": "season",
+      "date": "2026-03-01",
+      "data": {
+        "season": "Spring"
+      }
+    },
+    {
+      "time": 10.543978201634879,
+      "type": "growth",
+      "date": "2026-02-20",
+      "value": 2,
+      "data": {
+        "height": 10.192529830739907,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 10.672588555858313,
+      "type": "growth",
+      "date": "2026-02-22",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 10.801198910081744,
+      "type": "growth",
+      "date": "2026-02-24",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 11.174386920980927,
+      "type": "seed",
+      "date": "2026-03-13",
+      "value": 16,
+      "data": {
+        "column": 21,
+        "row": 5
+      }
+    },
+    {
+      "time": 11.238692098092644,
+      "type": "seed",
+      "date": "2026-03-14",
+      "value": 8,
+      "data": {
+        "column": 21,
+        "row": 6
+      }
+    },
+    {
+      "time": 11.894386920980928,
+      "type": "growth",
+      "date": "2026-03-13",
+      "value": 16,
+      "data": {
+        "height": 13.895509444597865,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 11.958692098092644,
+      "type": "growth",
+      "date": "2026-03-14",
+      "value": 8,
+      "data": {
+        "height": 12.364983978775046,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 12.044386920980928,
+      "type": "flower",
+      "date": "2026-03-13",
+      "value": 16
+    },
+    {
+      "time": 12.108692098092645,
+      "type": "flower",
+      "date": "2026-03-14",
+      "value": 8
+    },
+    {
+      "time": 12.26757493188011,
+      "type": "seed",
+      "date": "2026-03-30",
+      "value": 1,
+      "data": {
+        "column": 24,
+        "row": 1
+      }
+    },
+    {
+      "time": 12.987574931880111,
+      "type": "growth",
+      "date": "2026-03-30",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 13.425068119891009,
+      "type": "seed",
+      "date": "2026-04-17",
+      "value": 5,
+      "data": {
+        "column": 26,
+        "row": 5
+      }
+    },
+    {
+      "time": 13.489373297002727,
+      "type": "seed",
+      "date": "2026-04-18",
+      "value": 3,
+      "data": {
+        "column": 26,
+        "row": 6
+      }
+    },
+    {
+      "time": 13.617983651226158,
+      "type": "seed",
+      "date": "2026-04-20",
+      "value": 4,
+      "data": {
+        "column": 27,
+        "row": 1
+      }
+    },
+    {
+      "time": 13.682288828337876,
+      "type": "seed",
+      "date": "2026-04-21",
+      "value": 1,
+      "data": {
+        "column": 27,
+        "row": 2
+      }
+    },
+    {
+      "time": 13.746594005449591,
+      "type": "seed",
+      "date": "2026-04-22",
+      "value": 13,
+      "data": {
+        "column": 27,
+        "row": 3
+      }
+    },
+    {
+      "time": 13.81089918256131,
+      "type": "seed",
+      "date": "2026-04-23",
+      "value": 12,
+      "data": {
+        "column": 27,
+        "row": 4
+      }
+    },
+    {
+      "time": 13.939509536784742,
+      "type": "seed",
+      "date": "2026-04-25",
+      "value": 1,
+      "data": {
+        "column": 27,
+        "row": 6
+      }
+    },
+    {
+      "time": 14.068119891008177,
+      "type": "seed",
+      "date": "2026-04-27",
+      "value": 12,
+      "data": {
+        "column": 28,
+        "row": 1
+      }
+    },
+    {
+      "time": 14.132425068119892,
+      "type": "seed",
+      "date": "2026-04-28",
+      "value": 2,
+      "data": {
+        "column": 28,
+        "row": 2
+      }
+    },
+    {
+      "time": 14.14506811989101,
+      "type": "growth",
+      "date": "2026-04-17",
+      "value": 5,
+      "data": {
+        "height": 11.501515158487921,
+        "leaves": 3
+      }
+    },
+    {
+      "time": 14.209373297002728,
+      "type": "growth",
+      "date": "2026-04-18",
+      "value": 3,
+      "data": {
+        "height": 10.714761274953867,
+        "leaves": 3
+      }
+    },
+    {
+      "time": 14.261035422343326,
+      "type": "seed",
+      "date": "2026-04-30",
+      "value": 18,
+      "data": {
+        "column": 28,
+        "row": 4
+      }
+    },
+    {
+      "time": 14.29506811989101,
+      "type": "flower",
+      "date": "2026-04-17",
+      "value": 5
+    },
+    {
+      "time": 14.325340599455041,
+      "type": "seed",
+      "date": "2026-05-01",
+      "value": 1,
+      "data": {
+        "column": 28,
+        "row": 5
+      }
+    },
+    {
+      "time": 14.337983651226159,
+      "type": "growth",
+      "date": "2026-04-20",
+      "value": 4,
+      "data": {
+        "height": 11.139187470857522,
+        "leaves": 3
+      }
+    },
+    {
+      "time": 14.402288828337877,
+      "type": "growth",
+      "date": "2026-04-21",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 14.466594005449592,
+      "type": "growth",
+      "date": "2026-04-22",
+      "value": 13,
+      "data": {
+        "height": 13.405026417449962,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 14.53089918256131,
+      "type": "growth",
+      "date": "2026-04-23",
+      "value": 12,
+      "data": {
+        "height": 13.22316393741072,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 14.616594005449592,
+      "type": "flower",
+      "date": "2026-04-22",
+      "value": 13
+    },
+    {
+      "time": 14.646866485013625,
+      "type": "seed",
+      "date": "2026-05-06",
+      "value": 31,
+      "data": {
+        "column": 29,
+        "row": 3
+      }
+    },
+    {
+      "time": 14.659509536784743,
+      "type": "growth",
+      "date": "2026-04-25",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 14.68089918256131,
+      "type": "flower",
+      "date": "2026-04-23",
+      "value": 12
+    },
+    {
+      "time": 14.711171662125341,
+      "type": "seed",
+      "date": "2026-05-07",
+      "value": 5,
+      "data": {
+        "column": 29,
+        "row": 4
+      }
+    },
+    {
+      "time": 14.788119891008177,
+      "type": "growth",
+      "date": "2026-04-27",
+      "value": 12,
+      "data": {
+        "height": 13.22316393741072,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 14.839782016348774,
+      "type": "seed",
+      "date": "2026-05-09",
+      "value": 4,
+      "data": {
+        "column": 29,
+        "row": 6
+      }
+    },
+    {
+      "time": 14.852425068119892,
+      "type": "growth",
+      "date": "2026-04-28",
+      "value": 2,
+      "data": {
+        "height": 10.192529830739907,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 14.938119891008178,
+      "type": "flower",
+      "date": "2026-04-27",
+      "value": 12
+    },
+    {
+      "time": 14.968392370572209,
+      "type": "seed",
+      "date": "2026-05-11",
+      "value": 1,
+      "data": {
+        "column": 30,
+        "row": 1
+      }
+    },
+    {
+      "time": 14.981035422343327,
+      "type": "growth",
+      "date": "2026-04-30",
+      "value": 18,
+      "data": {
+        "height": 14.1854286152667,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 15.045340599455042,
+      "type": "growth",
+      "date": "2026-05-01",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 15.131035422343327,
+      "type": "flower",
+      "date": "2026-04-30",
+      "value": 18
+    },
+    {
+      "time": 15.161307901907357,
+      "type": "seed",
+      "date": "2026-05-14",
+      "value": 1,
+      "data": {
+        "column": 30,
+        "row": 4
+      }
+    },
+    {
+      "time": 15.225613079019075,
+      "type": "seed",
+      "date": "2026-05-15",
+      "value": 1,
+      "data": {
+        "column": 30,
+        "row": 5
+      }
+    },
+    {
+      "time": 15.354223433242508,
+      "type": "seed",
+      "date": "2026-05-17",
+      "value": 2,
+      "data": {
+        "column": 31,
+        "row": 0
+      }
+    },
+    {
+      "time": 15.366866485013626,
+      "type": "growth",
+      "date": "2026-05-06",
+      "value": 31,
+      "data": {
+        "height": 15.622555062782437,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 15.418528610354224,
+      "type": "seed",
+      "date": "2026-05-18",
+      "value": 7,
+      "data": {
+        "column": 31,
+        "row": 1
+      }
+    },
+    {
+      "time": 15.431171662125342,
+      "type": "growth",
+      "date": "2026-05-07",
+      "value": 5,
+      "data": {
+        "height": 11.501515158487921,
+        "leaves": 3
+      }
+    },
+    {
+      "time": 15.516866485013626,
+      "type": "flower",
+      "date": "2026-05-06",
+      "value": 31
+    },
+    {
+      "time": 15.559782016348775,
+      "type": "growth",
+      "date": "2026-05-09",
+      "value": 4,
+      "data": {
+        "height": 11.139187470857522,
+        "leaves": 3
+      }
+    },
+    {
+      "time": 15.581171662125342,
+      "type": "flower",
+      "date": "2026-05-07",
+      "value": 5
+    },
+    {
+      "time": 15.675749318801092,
+      "type": "seed",
+      "date": "2026-05-22",
+      "value": 1,
+      "data": {
+        "column": 31,
+        "row": 5
+      }
+    },
+    {
+      "time": 15.68839237057221,
+      "type": "growth",
+      "date": "2026-05-11",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 15.740054495912807,
+      "type": "seed",
+      "date": "2026-05-23",
+      "value": 1,
+      "data": {
+        "column": 31,
+        "row": 6
+      }
+    },
+    {
+      "time": 15.881307901907357,
+      "type": "growth",
+      "date": "2026-05-14",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 15.932970027247958,
+      "type": "seed",
+      "date": "2026-05-26",
+      "value": 1,
+      "data": {
+        "column": 32,
+        "row": 2
+      }
+    },
+    {
+      "time": 15.945613079019076,
+      "type": "growth",
+      "date": "2026-05-15",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 15.997275204359674,
+      "type": "seed",
+      "date": "2026-05-27",
+      "value": 17,
+      "data": {
+        "column": 32,
+        "row": 3
+      }
+    },
+    {
+      "time": 16.06158038147139,
+      "type": "seed",
+      "date": "2026-05-28",
+      "value": 61,
+      "data": {
+        "column": 32,
+        "row": 4
+      }
+    },
+    {
+      "time": 16.07422343324251,
+      "type": "growth",
+      "date": "2026-05-17",
+      "value": 2,
+      "data": {
+        "height": 10.192529830739907,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 16.138528610354225,
+      "type": "growth",
+      "date": "2026-05-18",
+      "value": 7,
+      "data": {
+        "height": 12.105486801314681,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 16.288528610354224,
+      "type": "flower",
+      "date": "2026-05-18",
+      "value": 7
+    },
+    {
+      "time": 16.318801089918257,
+      "type": "season",
+      "date": "2026-06-01",
+      "data": {
+        "season": "Summer"
+      }
+    },
+    {
+      "time": 16.39574931880109,
+      "type": "growth",
+      "date": "2026-05-22",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 16.460054495912807,
+      "type": "growth",
+      "date": "2026-05-23",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 16.511716621253406,
+      "type": "seed",
+      "date": "2026-06-04",
+      "value": 3,
+      "data": {
+        "column": 33,
+        "row": 4
+      }
+    },
+    {
+      "time": 16.652970027247957,
+      "type": "growth",
+      "date": "2026-05-26",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 16.717275204359673,
+      "type": "growth",
+      "date": "2026-05-27",
+      "value": 17,
+      "data": {
+        "height": 14.043700992152866,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 16.78158038147139,
+      "type": "growth",
+      "date": "2026-05-28",
+      "value": 61,
+      "data": {
+        "height": 17.572649590577985,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 16.86727520435967,
+      "type": "flower",
+      "date": "2026-05-27",
+      "value": 17
+    },
+    {
+      "time": 16.931580381471388,
+      "type": "flower",
+      "date": "2026-05-28",
+      "value": 61
+    },
+    {
+      "time": 17.02615803814714,
+      "type": "seed",
+      "date": "2026-06-12",
+      "value": 18,
+      "data": {
+        "column": 34,
+        "row": 5
+      }
+    },
+    {
+      "time": 17.15476839237057,
+      "type": "seed",
+      "date": "2026-06-14",
+      "value": 11,
+      "data": {
+        "column": 35,
+        "row": 0
+      }
+    },
+    {
+      "time": 17.231716621253405,
+      "type": "growth",
+      "date": "2026-06-04",
+      "value": 3,
+      "data": {
+        "height": 10.714761274953867,
+        "leaves": 3
+      }
+    },
+    {
+      "time": 17.41198910081744,
+      "type": "seed",
+      "date": "2026-06-18",
+      "value": 1,
+      "data": {
+        "column": 35,
+        "row": 4
+      }
+    },
+    {
+      "time": 17.476294277929153,
+      "type": "seed",
+      "date": "2026-06-19",
+      "value": 11,
+      "data": {
+        "column": 35,
+        "row": 5
+      }
+    },
+    {
+      "time": 17.540599455040873,
+      "type": "seed",
+      "date": "2026-06-20",
+      "value": 5,
+      "data": {
+        "column": 35,
+        "row": 6
+      }
+    },
+    {
+      "time": 17.669209809264302,
+      "type": "seed",
+      "date": "2026-06-22",
+      "value": 29,
+      "data": {
+        "column": 36,
+        "row": 1
+      }
+    },
+    {
+      "time": 17.74615803814714,
+      "type": "growth",
+      "date": "2026-06-12",
+      "value": 18,
+      "data": {
+        "height": 14.1854286152667,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 17.87476839237057,
+      "type": "growth",
+      "date": "2026-06-14",
+      "value": 11,
+      "data": {
+        "height": 13.030096994491837,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 17.89615803814714,
+      "type": "flower",
+      "date": "2026-06-12",
+      "value": 18
+    },
+    {
+      "time": 18.024768392370568,
+      "type": "flower",
+      "date": "2026-06-14",
+      "value": 11
+    },
+    {
+      "time": 18.13198910081744,
+      "type": "growth",
+      "date": "2026-06-18",
+      "value": 1,
+      "data": {
+        "height": 9.480049558646472,
+        "leaves": 2
+      }
+    },
+    {
+      "time": 18.19629427792915,
+      "type": "growth",
+      "date": "2026-06-19",
+      "value": 11,
+      "data": {
+        "height": 13.030096994491837,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 18.26059945504087,
+      "type": "growth",
+      "date": "2026-06-20",
+      "value": 5,
+      "data": {
+        "height": 11.501515158487921,
+        "leaves": 3
+      }
+    },
+    {
+      "time": 18.34629427792915,
+      "type": "flower",
+      "date": "2026-06-19",
+      "value": 11
+    },
+    {
+      "time": 18.3892098092643,
+      "type": "growth",
+      "date": "2026-06-22",
+      "value": 29,
+      "data": {
+        "height": 15.438376387139407,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 18.41059945504087,
+      "type": "flower",
+      "date": "2026-06-20",
+      "value": 5
+    },
+    {
+      "time": 18.5392098092643,
+      "type": "flower",
+      "date": "2026-06-22",
+      "value": 29
+    },
+    {
+      "time": 18.698092643051773,
+      "type": "seed",
+      "date": "2026-07-08",
+      "value": 4,
+      "data": {
+        "column": 38,
+        "row": 3
+      }
+    },
+    {
+      "time": 18.762397820163486,
+      "type": "seed",
+      "date": "2026-07-09",
+      "value": 10,
+      "data": {
+        "column": 38,
+        "row": 4
+      }
+    },
+    {
+      "time": 18.826702997275206,
+      "type": "seed",
+      "date": "2026-07-10",
+      "value": 7,
+      "data": {
+        "column": 38,
+        "row": 5
+      }
+    },
+    {
+      "time": 18.89100817438692,
+      "type": "seed",
+      "date": "2026-07-11",
+      "value": 4,
+      "data": {
+        "column": 38,
+        "row": 6
+      }
+    },
+    {
+      "time": 19.019618528610355,
+      "type": "seed",
+      "date": "2026-07-13",
+      "value": 8,
+      "data": {
+        "column": 39,
+        "row": 1
+      }
+    },
+    {
+      "time": 19.083923705722068,
+      "type": "seed",
+      "date": "2026-07-14",
+      "value": 73,
+      "data": {
+        "column": 39,
+        "row": 2
+      }
+    },
+    {
+      "time": 19.148228882833788,
+      "type": "seed",
+      "date": "2026-07-15",
+      "value": 295,
+      "data": {
+        "column": 39,
+        "row": 3
+      }
+    },
+    {
+      "time": 19.212534059945504,
+      "type": "seed",
+      "date": "2026-07-16",
+      "value": 374,
+      "data": {
+        "column": 39,
+        "row": 4
+      }
+    },
+    {
+      "time": 19.27683923705722,
+      "type": "seed",
+      "date": "2026-07-17",
+      "value": 287,
+      "data": {
+        "column": 39,
+        "row": 5
+      }
+    },
+    {
+      "time": 19.341144414168937,
+      "type": "seed",
+      "date": "2026-07-18",
+      "value": 46,
+      "data": {
+        "column": 39,
+        "row": 6
+      }
+    },
+    {
+      "time": 19.405449591280654,
+      "type": "seed",
+      "date": "2026-07-19",
+      "value": 41,
+      "data": {
+        "column": 40,
+        "row": 0
+      }
+    },
+    {
+      "time": 19.41809264305177,
+      "type": "growth",
+      "date": "2026-07-08",
+      "value": 4,
+      "data": {
+        "height": 11.139187470857522,
+        "leaves": 3
+      }
+    },
+    {
+      "time": 19.46975476839237,
+      "type": "seed",
+      "date": "2026-07-20",
+      "value": 84,
+      "data": {
+        "column": 40,
+        "row": 1
+      }
+    },
+    {
+      "time": 19.482397820163484,
+      "type": "growth",
+      "date": "2026-07-09",
+      "value": 10,
+      "data": {
+        "height": 12.824187763583572,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 19.534059945504087,
+      "type": "seed",
+      "date": "2026-07-21",
+      "value": 56,
+      "data": {
+        "column": 40,
+        "row": 2
+      }
+    },
+    {
+      "time": 19.546702997275204,
+      "type": "growth",
+      "date": "2026-07-10",
+      "value": 7,
+      "data": {
+        "height": 12.105486801314681,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 19.598365122615803,
+      "type": "seed",
+      "date": "2026-07-22",
+      "value": 54,
+      "data": {
+        "column": 40,
+        "row": 3
+      }
+    },
+    {
+      "time": 19.611008174386917,
+      "type": "growth",
+      "date": "2026-07-11",
+      "value": 4,
+      "data": {
+        "height": 11.139187470857522,
+        "leaves": 3
+      }
+    },
+    {
+      "time": 19.632397820163483,
+      "type": "flower",
+      "date": "2026-07-09",
+      "value": 10
+    },
+    {
+      "time": 19.66267029972752,
+      "type": "seed",
+      "date": "2026-07-23",
+      "value": 34,
+      "data": {
+        "column": 40,
+        "row": 4
+      }
+    },
+    {
+      "time": 19.696702997275203,
+      "type": "flower",
+      "date": "2026-07-10",
+      "value": 7
+    },
+    {
+      "time": 19.726975476839236,
+      "type": "seed",
+      "date": "2026-07-24",
+      "value": 77,
+      "data": {
+        "column": 40,
+        "row": 5
+      }
+    },
+    {
+      "time": 19.739618528610354,
+      "type": "growth",
+      "date": "2026-07-13",
+      "value": 8,
+      "data": {
+        "height": 12.364983978775046,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 19.791280653950952,
+      "type": "seed",
+      "date": "2026-07-25",
+      "value": 98,
+      "data": {
+        "column": 40,
+        "row": 6
+      }
+    },
+    {
+      "time": 19.803923705722067,
+      "type": "growth",
+      "date": "2026-07-14",
+      "value": 73,
+      "data": {
+        "height": 18.100879039644433,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 19.85558583106267,
+      "type": "seed",
+      "date": "2026-07-26",
+      "value": 205,
+      "data": {
+        "column": 41,
+        "row": 0
+      }
+    },
+    {
+      "time": 19.868228882833787,
+      "type": "growth",
+      "date": "2026-07-15",
+      "value": 295,
+      "data": {
+        "height": 22.930551967376896,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 19.889618528610352,
+      "type": "flower",
+      "date": "2026-07-13",
+      "value": 8
+    },
+    {
+      "time": 19.91989100817439,
+      "type": "seed",
+      "date": "2026-07-27",
+      "value": 232,
+      "data": {
+        "column": 41,
+        "row": 1
+      }
+    },
+    {
+      "time": 19.932534059945503,
+      "type": "growth",
+      "date": "2026-07-16",
+      "value": 374,
+      "data": {
+        "height": 23.97352870111715,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 19.953923705722065,
+      "type": "flower",
+      "date": "2026-07-14",
+      "value": 73
+    },
+    {
+      "time": 19.984196185286102,
+      "type": "seed",
+      "date": "2026-07-28",
+      "value": 211,
+      "data": {
+        "column": 41,
+        "row": 2
+      }
+    },
+    {
+      "time": 19.99683923705722,
+      "type": "growth",
+      "date": "2026-07-17",
+      "value": 287,
+      "data": {
+        "height": 22.874945211337455,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.018228882833785,
+      "type": "flower",
+      "date": "2026-07-15",
+      "value": 295
+    },
+    {
+      "time": 20.048501362397822,
+      "type": "seed",
+      "date": "2026-07-29",
+      "value": 121,
+      "data": {
+        "column": 41,
+        "row": 3
+      }
+    },
+    {
+      "time": 20.061144414168936,
+      "type": "growth",
+      "date": "2026-07-18",
+      "value": 46,
+      "data": {
+        "height": 16.746239536968154,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.082534059945502,
+      "type": "flower",
+      "date": "2026-07-16",
+      "value": 374
+    },
+    {
+      "time": 20.11280653950954,
+      "type": "seed",
+      "date": "2026-07-30",
+      "value": 132,
+      "data": {
+        "column": 41,
+        "row": 4
+      }
+    },
+    {
+      "time": 20.125449591280653,
+      "type": "growth",
+      "date": "2026-07-19",
+      "value": 41,
+      "data": {
+        "height": 16.41354364670492,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.14683923705722,
+      "type": "flower",
+      "date": "2026-07-17",
+      "value": 287
+    },
+    {
+      "time": 20.17711171662125,
+      "type": "seed",
+      "date": "2026-07-31",
+      "value": 78,
+      "data": {
+        "column": 41,
+        "row": 5
+      }
+    },
+    {
+      "time": 20.18975476839237,
+      "type": "growth",
+      "date": "2026-07-20",
+      "value": 84,
+      "data": {
+        "height": 18.51169485095808,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.211144414168935,
+      "type": "flower",
+      "date": "2026-07-18",
+      "value": 46
+    },
+    {
+      "time": 20.24141689373297,
+      "type": "seed",
+      "date": "2026-08-01",
+      "value": 70,
+      "data": {
+        "column": 41,
+        "row": 6
+      }
+    },
+    {
+      "time": 20.254059945504086,
+      "type": "growth",
+      "date": "2026-07-21",
+      "value": 56,
+      "data": {
+        "height": 17.32122827885172,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.27544959128065,
+      "type": "flower",
+      "date": "2026-07-19",
+      "value": 41
+    },
+    {
+      "time": 20.305722070844684,
+      "type": "seed",
+      "date": "2026-08-02",
+      "value": 147,
+      "data": {
+        "column": 42,
+        "row": 0
+      }
+    },
+    {
+      "time": 20.318365122615802,
+      "type": "growth",
+      "date": "2026-07-22",
+      "value": 54,
+      "data": {
+        "height": 17.214498252020796,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.339754768392368,
+      "type": "flower",
+      "date": "2026-07-20",
+      "value": 84
+    },
+    {
+      "time": 20.370027247956404,
+      "type": "seed",
+      "date": "2026-08-03",
+      "value": 53,
+      "data": {
+        "column": 42,
+        "row": 1
+      }
+    },
+    {
+      "time": 20.38267029972752,
+      "type": "growth",
+      "date": "2026-07-23",
+      "value": 34,
+      "data": {
+        "height": 15.880730498634215,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.404059945504084,
+      "type": "flower",
+      "date": "2026-07-21",
+      "value": 56
+    },
+    {
+      "time": 20.43433242506812,
+      "type": "seed",
+      "date": "2026-08-04",
+      "value": 90,
+      "data": {
+        "column": 42,
+        "row": 2
+      }
+    },
+    {
+      "time": 20.446975476839235,
+      "type": "growth",
+      "date": "2026-07-24",
+      "value": 77,
+      "data": {
+        "height": 18.257369290908493,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.4683651226158,
+      "type": "flower",
+      "date": "2026-07-22",
+      "value": 54
+    },
+    {
+      "time": 20.498637602179834,
+      "type": "seed",
+      "date": "2026-08-05",
+      "value": 87,
+      "data": {
+        "column": 42,
+        "row": 3
+      }
+    },
+    {
+      "time": 20.51128065395095,
+      "type": "growth",
+      "date": "2026-07-25",
+      "value": 98,
+      "data": {
+        "height": 18.957969607282482,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.532670299727517,
+      "type": "flower",
+      "date": "2026-07-23",
+      "value": 34
+    },
+    {
+      "time": 20.562942779291554,
+      "type": "seed",
+      "date": "2026-08-06",
+      "value": 114,
+      "data": {
+        "column": 42,
+        "row": 4
+      }
+    },
+    {
+      "time": 20.575585831062668,
+      "type": "growth",
+      "date": "2026-07-26",
+      "value": 205,
+      "data": {
+        "height": 21.52790959494224,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.596975476839233,
+      "type": "flower",
+      "date": "2026-07-24",
+      "value": 77
+    },
+    {
+      "time": 20.62724795640327,
+      "type": "seed",
+      "date": "2026-08-07",
+      "value": 44,
+      "data": {
+        "column": 42,
+        "row": 5
+      }
+    },
+    {
+      "time": 20.639891008174388,
+      "type": "growth",
+      "date": "2026-07-27",
+      "value": 232,
+      "data": {
+        "height": 21.81632015787582,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.66128065395095,
+      "type": "flower",
+      "date": "2026-07-25",
+      "value": 98
+    },
+    {
+      "time": 20.691553133514986,
+      "type": "seed",
+      "date": "2026-08-08",
+      "value": 30,
+      "data": {
+        "column": 42,
+        "row": 6
+      }
+    },
+    {
+      "time": 20.7041961852861,
+      "type": "growth",
+      "date": "2026-07-28",
+      "value": 211,
+      "data": {
+        "height": 21.596494408125825,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.725585831062666,
+      "type": "flower",
+      "date": "2026-07-26",
+      "value": 205
+    },
+    {
+      "time": 20.755858310626703,
+      "type": "seed",
+      "date": "2026-08-09",
+      "value": 146,
+      "data": {
+        "column": 43,
+        "row": 0
+      }
+    },
+    {
+      "time": 20.76850136239782,
+      "type": "growth",
+      "date": "2026-07-29",
+      "value": 121,
+      "data": {
+        "height": 20.154566467124056,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.789891008174386,
+      "type": "flower",
+      "date": "2026-07-27",
+      "value": 232
+    },
+    {
+      "time": 20.82016348773842,
+      "type": "seed",
+      "date": "2026-08-10",
+      "value": 84,
+      "data": {
+        "column": 43,
+        "row": 1
+      }
+    },
+    {
+      "time": 20.832806539509537,
+      "type": "growth",
+      "date": "2026-07-30",
+      "value": 132,
+      "data": {
+        "height": 20.394497443159935,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.8541961852861,
+      "type": "flower",
+      "date": "2026-07-28",
+      "value": 211
+    },
+    {
+      "time": 20.884468664850136,
+      "type": "seed",
+      "date": "2026-08-11",
+      "value": 113,
+      "data": {
+        "column": 43,
+        "row": 2
+      }
+    },
+    {
+      "time": 20.89711171662125,
+      "type": "growth",
+      "date": "2026-07-31",
+      "value": 78,
+      "data": {
+        "height": 18.295165291236366,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.91850136239782,
+      "type": "flower",
+      "date": "2026-07-29",
+      "value": 121
+    },
+    {
+      "time": 20.948773841961852,
+      "type": "seed",
+      "date": "2026-08-12",
+      "value": 261,
+      "data": {
+        "column": 43,
+        "row": 3
+      }
+    },
+    {
+      "time": 20.96141689373297,
+      "type": "growth",
+      "date": "2026-08-01",
+      "value": 70,
+      "data": {
+        "height": 17.977571494013702,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 20.982806539509536,
+      "type": "flower",
+      "date": "2026-07-30",
+      "value": 132
+    },
+    {
+      "time": 21.01307901907357,
+      "type": "seed",
+      "date": "2026-08-13",
+      "value": 482,
+      "data": {
+        "column": 43,
+        "row": 4
+      }
+    },
+    {
+      "time": 21.025722070844683,
+      "type": "growth",
+      "date": "2026-08-02",
+      "value": 147,
+      "data": {
+        "height": 20.68498333761484,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.04711171662125,
+      "type": "flower",
+      "date": "2026-07-31",
+      "value": 78
+    },
+    {
+      "time": 21.077384196185285,
+      "type": "seed",
+      "date": "2026-08-14",
+      "value": 134,
+      "data": {
+        "column": 43,
+        "row": 5
+      }
+    },
+    {
+      "time": 21.090027247956403,
+      "type": "growth",
+      "date": "2026-08-03",
+      "value": 53,
+      "data": {
+        "height": 17.159700881048977,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.11141689373297,
+      "type": "flower",
+      "date": "2026-08-01",
+      "value": 70
+    },
+    {
+      "time": 21.141689373297,
+      "type": "seed",
+      "date": "2026-08-15",
+      "value": 391,
+      "data": {
+        "column": 43,
+        "row": 6
+      }
+    },
+    {
+      "time": 21.15433242506812,
+      "type": "growth",
+      "date": "2026-08-04",
+      "value": 90,
+      "data": {
+        "height": 18.71223765949989,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.17572207084468,
+      "type": "flower",
+      "date": "2026-08-02",
+      "value": 147
+    },
+    {
+      "time": 21.205994550408718,
+      "type": "seed",
+      "date": "2026-08-16",
+      "value": 306,
+      "data": {
+        "column": 44,
+        "row": 0
+      }
+    },
+    {
+      "time": 21.218637602179832,
+      "type": "growth",
+      "date": "2026-08-05",
+      "value": 87,
+      "data": {
+        "height": 18.61383867285557,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.2400272479564,
+      "type": "flower",
+      "date": "2026-08-03",
+      "value": 53
+    },
+    {
+      "time": 21.270299727520435,
+      "type": "seed",
+      "date": "2026-08-17",
+      "value": 212,
+      "data": {
+        "column": 44,
+        "row": 1
+      }
+    },
+    {
+      "time": 21.282942779291552,
+      "type": "growth",
+      "date": "2026-08-06",
+      "value": 114,
+      "data": {
+        "height": 19.38793114813031,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.304332425068118,
+      "type": "flower",
+      "date": "2026-08-04",
+      "value": 90
+    },
+    {
+      "time": 21.334604904632155,
+      "type": "seed",
+      "date": "2026-08-18",
+      "value": 244,
+      "data": {
+        "column": 44,
+        "row": 2
+      }
+    },
+    {
+      "time": 21.34724795640327,
+      "type": "growth",
+      "date": "2026-08-07",
+      "value": 44,
+      "data": {
+        "height": 16.617321903384347,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.36863760217983,
+      "type": "flower",
+      "date": "2026-08-05",
+      "value": 87
+    },
+    {
+      "time": 21.398910081743868,
+      "type": "seed",
+      "date": "2026-08-19",
+      "value": 307,
+      "data": {
+        "column": 44,
+        "row": 3
+      }
+    },
+    {
+      "time": 21.411553133514985,
+      "type": "growth",
+      "date": "2026-08-08",
+      "value": 30,
+      "data": {
+        "height": 15.531758720703278,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.43294277929155,
+      "type": "flower",
+      "date": "2026-08-06",
+      "value": 114
+    },
+    {
+      "time": 21.463215258855588,
+      "type": "seed",
+      "date": "2026-08-20",
+      "value": 478,
+      "data": {
+        "column": 44,
+        "row": 4
+      }
+    },
+    {
+      "time": 21.475858310626702,
+      "type": "growth",
+      "date": "2026-08-09",
+      "value": 146,
+      "data": {
+        "height": 20.666785868402638,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.497247956403267,
+      "type": "flower",
+      "date": "2026-08-07",
+      "value": 44
+    },
+    {
+      "time": 21.527520435967304,
+      "type": "seed",
+      "date": "2026-08-21",
+      "value": 99,
+      "data": {
+        "column": 44,
+        "row": 5
+      }
+    },
+    {
+      "time": 21.54016348773842,
+      "type": "growth",
+      "date": "2026-08-10",
+      "value": 84,
+      "data": {
+        "height": 18.51169485095808,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.561553133514984,
+      "type": "flower",
+      "date": "2026-08-08",
+      "value": 30
+    },
+    {
+      "time": 21.591825613079017,
+      "type": "seed",
+      "date": "2026-08-22",
+      "value": 220,
+      "data": {
+        "column": 44,
+        "row": 6
+      }
+    },
+    {
+      "time": 21.604468664850135,
+      "type": "growth",
+      "date": "2026-08-11",
+      "value": 113,
+      "data": {
+        "height": 19.36314819070548,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.6258583106267,
+      "type": "flower",
+      "date": "2026-08-09",
+      "value": 146
+    },
+    {
+      "time": 21.656130790190737,
+      "type": "seed",
+      "date": "2026-08-23",
+      "value": 80,
+      "data": {
+        "column": 45,
+        "row": 0
+      }
+    },
+    {
+      "time": 21.66877384196185,
+      "type": "growth",
+      "date": "2026-08-12",
+      "value": 261,
+      "data": {
+        "height": 22.67631684278931,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.690163487738417,
+      "type": "flower",
+      "date": "2026-08-10",
+      "value": 84
+    },
+    {
+      "time": 21.72043596730245,
+      "type": "seed",
+      "date": "2026-08-24",
+      "value": 78,
+      "data": {
+        "column": 45,
+        "row": 1
+      }
+    },
+    {
+      "time": 21.733079019073568,
+      "type": "growth",
+      "date": "2026-08-13",
+      "value": 482,
+      "data": {
+        "height": 24.37132000485989,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.754468664850133,
+      "type": "flower",
+      "date": "2026-08-11",
+      "value": 113
+    },
+    {
+      "time": 21.78474114441417,
+      "type": "seed",
+      "date": "2026-08-25",
+      "value": 52,
+      "data": {
+        "column": 45,
+        "row": 2
+      }
+    },
+    {
+      "time": 21.797384196185284,
+      "type": "growth",
+      "date": "2026-08-14",
+      "value": 134,
+      "data": {
+        "height": 20.43552236451575,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.81877384196185,
+      "type": "flower",
+      "date": "2026-08-12",
+      "value": 261
+    },
+    {
+      "time": 21.849046321525886,
+      "type": "seed",
+      "date": "2026-08-26",
+      "value": 120,
+      "data": {
+        "column": 45,
+        "row": 3
+      }
+    },
+    {
+      "time": 21.861689373297,
+      "type": "growth",
+      "date": "2026-08-15",
+      "value": 391,
+      "data": {
+        "height": 24.048961264111647,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.883079019073566,
+      "type": "flower",
+      "date": "2026-08-13",
+      "value": 482
+    },
+    {
+      "time": 21.9133514986376,
+      "type": "seed",
+      "date": "2026-08-27",
+      "value": 136,
+      "data": {
+        "column": 45,
+        "row": 4
+      }
+    },
+    {
+      "time": 21.925994550408717,
+      "type": "growth",
+      "date": "2026-08-16",
+      "value": 306,
+      "data": {
+        "height": 23.003245895667828,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 21.947384196185283,
+      "type": "flower",
+      "date": "2026-08-14",
+      "value": 134
+    },
+    {
+      "time": 21.97765667574932,
+      "type": "seed",
+      "date": "2026-08-28",
+      "value": 17,
+      "data": {
+        "column": 45,
+        "row": 5
+      }
+    },
+    {
+      "time": 21.990299727520433,
+      "type": "growth",
+      "date": "2026-08-17",
+      "value": 212,
+      "data": {
+        "height": 21.607659203652414,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.011689373297,
+      "type": "flower",
+      "date": "2026-08-15",
+      "value": 391
+    },
+    {
+      "time": 22.041961852861036,
+      "type": "seed",
+      "date": "2026-08-29",
+      "value": 81,
+      "data": {
+        "column": 45,
+        "row": 6
+      }
+    },
+    {
+      "time": 22.054604904632154,
+      "type": "growth",
+      "date": "2026-08-18",
+      "value": 244,
+      "data": {
+        "height": 22.529440440127516,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.075994550408716,
+      "type": "flower",
+      "date": "2026-08-16",
+      "value": 306
+    },
+    {
+      "time": 22.106267029972752,
+      "type": "seed",
+      "date": "2026-08-30",
+      "value": 115,
+      "data": {
+        "column": 46,
+        "row": 0
+      }
+    },
+    {
+      "time": 22.118910081743866,
+      "type": "growth",
+      "date": "2026-08-19",
+      "value": 307,
+      "data": {
+        "height": 23.009648823233714,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.140299727520432,
+      "type": "flower",
+      "date": "2026-08-17",
+      "value": 212
+    },
+    {
+      "time": 22.17057220708447,
+      "type": "seed",
+      "date": "2026-08-31",
+      "value": 53,
+      "data": {
+        "column": 46,
+        "row": 1
+      }
+    },
+    {
+      "time": 22.183215258855586,
+      "type": "growth",
+      "date": "2026-08-20",
+      "value": 478,
+      "data": {
+        "height": 24.35951460149022,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.204604904632152,
+      "type": "flower",
+      "date": "2026-08-18",
+      "value": 244
+    },
+    {
+      "time": 22.234877384196185,
+      "type": "season",
+      "date": "2026-09-01",
+      "data": {
+        "season": "Autumn"
+      }
+    },
+    {
+      "time": 22.234877384196185,
+      "type": "seed",
+      "date": "2026-09-01",
+      "value": 135,
+      "data": {
+        "column": 46,
+        "row": 2
+      }
+    },
+    {
+      "time": 22.247520435967303,
+      "type": "growth",
+      "date": "2026-08-21",
+      "value": 99,
+      "data": {
+        "height": 18.987110612505386,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.268910081743865,
+      "type": "flower",
+      "date": "2026-08-19",
+      "value": 307
+    },
+    {
+      "time": 22.2991825613079,
+      "type": "seed",
+      "date": "2026-09-02",
+      "value": 42,
+      "data": {
+        "column": 46,
+        "row": 3
+      }
+    },
+    {
+      "time": 22.311825613079016,
+      "type": "growth",
+      "date": "2026-08-22",
+      "value": 220,
+      "data": {
+        "height": 21.694372754830628,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.333215258855585,
+      "type": "flower",
+      "date": "2026-08-20",
+      "value": 478
+    },
+    {
+      "time": 22.363487738419618,
+      "type": "seed",
+      "date": "2026-09-03",
+      "value": 37,
+      "data": {
+        "column": 46,
+        "row": 4
+      }
+    },
+    {
+      "time": 22.376130790190736,
+      "type": "growth",
+      "date": "2026-08-23",
+      "value": 80,
+      "data": {
+        "height": 18.369249674371876,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.3975204359673,
+      "type": "flower",
+      "date": "2026-08-21",
+      "value": 99
+    },
+    {
+      "time": 22.427792915531334,
+      "type": "seed",
+      "date": "2026-09-04",
+      "value": 5,
+      "data": {
+        "column": 46,
+        "row": 5
+      }
+    },
+    {
+      "time": 22.44043596730245,
+      "type": "growth",
+      "date": "2026-08-24",
+      "value": 78,
+      "data": {
+        "height": 18.295165291236366,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.461825613079014,
+      "type": "flower",
+      "date": "2026-08-22",
+      "value": 220
+    },
+    {
+      "time": 22.49209809264305,
+      "type": "seed",
+      "date": "2026-09-05",
+      "value": 60,
+      "data": {
+        "column": 46,
+        "row": 6
+      }
+    },
+    {
+      "time": 22.50474114441417,
+      "type": "growth",
+      "date": "2026-08-25",
+      "value": 52,
+      "data": {
+        "height": 17.103907103194178,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.526130790190734,
+      "type": "flower",
+      "date": "2026-08-23",
+      "value": 80
+    },
+    {
+      "time": 22.556403269754767,
+      "type": "seed",
+      "date": "2026-09-06",
+      "value": 87,
+      "data": {
+        "column": 47,
+        "row": 0
+      }
+    },
+    {
+      "time": 22.569046321525885,
+      "type": "growth",
+      "date": "2026-08-26",
+      "value": 120,
+      "data": {
+        "height": 20.131467666190776,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.590435967302447,
+      "type": "flower",
+      "date": "2026-08-24",
+      "value": 78
+    },
+    {
+      "time": 22.620708446866484,
+      "type": "seed",
+      "date": "2026-09-07",
+      "value": 102,
+      "data": {
+        "column": 47,
+        "row": 1
+      }
+    },
+    {
+      "time": 22.633351498637598,
+      "type": "growth",
+      "date": "2026-08-27",
+      "value": 136,
+      "data": {
+        "height": 20.47580489783025,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.654741144414167,
+      "type": "flower",
+      "date": "2026-08-25",
+      "value": 52
+    },
+    {
+      "time": 22.6850136239782,
+      "type": "seed",
+      "date": "2026-09-08",
+      "value": 94,
+      "data": {
+        "column": 47,
+        "row": 2
+      }
+    },
+    {
+      "time": 22.697656675749318,
+      "type": "growth",
+      "date": "2026-08-28",
+      "value": 17,
+      "data": {
+        "height": 14.043700992152866,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.719046321525884,
+      "type": "flower",
+      "date": "2026-08-26",
+      "value": 120
+    },
+    {
+      "time": 22.74931880108992,
+      "type": "seed",
+      "date": "2026-09-09",
+      "value": 103,
+      "data": {
+        "column": 47,
+        "row": 3
+      }
+    },
+    {
+      "time": 22.761961852861035,
+      "type": "growth",
+      "date": "2026-08-29",
+      "value": 81,
+      "data": {
+        "height": 18.405560522266406,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.783351498637597,
+      "type": "flower",
+      "date": "2026-08-27",
+      "value": 136
+    },
+    {
+      "time": 22.813623978201633,
+      "type": "seed",
+      "date": "2026-09-10",
+      "value": 149,
+      "data": {
+        "column": 47,
+        "row": 4
+      }
+    },
+    {
+      "time": 22.82626702997275,
+      "type": "growth",
+      "date": "2026-08-30",
+      "value": 115,
+      "data": {
+        "height": 19.41246162874353,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.847656675749317,
+      "type": "flower",
+      "date": "2026-08-28",
+      "value": 17
+    },
+    {
+      "time": 22.877929155313353,
+      "type": "seed",
+      "date": "2026-09-11",
+      "value": 136,
+      "data": {
+        "column": 47,
+        "row": 5
+      }
+    },
+    {
+      "time": 22.890572207084467,
+      "type": "growth",
+      "date": "2026-08-31",
+      "value": 53,
+      "data": {
+        "height": 17.159700881048977,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.911961852861033,
+      "type": "flower",
+      "date": "2026-08-29",
+      "value": 81
+    },
+    {
+      "time": 22.94223433242507,
+      "type": "seed",
+      "date": "2026-09-12",
+      "value": 197,
+      "data": {
+        "column": 47,
+        "row": 6
+      }
+    },
+    {
+      "time": 22.954877384196184,
+      "type": "growth",
+      "date": "2026-09-01",
+      "value": 135,
+      "data": {
+        "height": 20.455755101456152,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 22.97626702997275,
+      "type": "flower",
+      "date": "2026-08-30",
+      "value": 115
+    },
+    {
+      "time": 23.006539509536783,
+      "type": "seed",
+      "date": "2026-09-13",
+      "value": 41,
+      "data": {
+        "column": 48,
+        "row": 0
+      }
+    },
+    {
+      "time": 23.0191825613079,
+      "type": "growth",
+      "date": "2026-09-02",
+      "value": 42,
+      "data": {
+        "height": 16.482929921248594,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.040572207084466,
+      "type": "flower",
+      "date": "2026-08-31",
+      "value": 53
+    },
+    {
+      "time": 23.070844686648503,
+      "type": "seed",
+      "date": "2026-09-14",
+      "value": 119,
+      "data": {
+        "column": 48,
+        "row": 1
+      }
+    },
+    {
+      "time": 23.083487738419617,
+      "type": "growth",
+      "date": "2026-09-03",
+      "value": 37,
+      "data": {
+        "height": 16.119920607112103,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.104877384196183,
+      "type": "flower",
+      "date": "2026-09-01",
+      "value": 135
+    },
+    {
+      "time": 23.13514986376022,
+      "type": "seed",
+      "date": "2026-09-15",
+      "value": 113,
+      "data": {
+        "column": 48,
+        "row": 2
+      }
+    },
+    {
+      "time": 23.147792915531333,
+      "type": "growth",
+      "date": "2026-09-04",
+      "value": 5,
+      "data": {
+        "height": 11.501515158487921,
+        "leaves": 3
+      }
+    },
+    {
+      "time": 23.1691825613079,
+      "type": "flower",
+      "date": "2026-09-02",
+      "value": 42
+    },
+    {
+      "time": 23.199455040871936,
+      "type": "seed",
+      "date": "2026-09-16",
+      "value": 154,
+      "data": {
+        "column": 48,
+        "row": 3
+      }
+    },
+    {
+      "time": 23.21209809264305,
+      "type": "growth",
+      "date": "2026-09-05",
+      "value": 60,
+      "data": {
+        "height": 17.524022475359494,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.233487738419615,
+      "type": "flower",
+      "date": "2026-09-03",
+      "value": 37
+    },
+    {
+      "time": 23.263760217983652,
+      "type": "seed",
+      "date": "2026-09-17",
+      "value": 50,
+      "data": {
+        "column": 48,
+        "row": 4
+      }
+    },
+    {
+      "time": 23.276403269754766,
+      "type": "growth",
+      "date": "2026-09-06",
+      "value": 87,
+      "data": {
+        "height": 18.61383867285557,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.297792915531332,
+      "type": "flower",
+      "date": "2026-09-04",
+      "value": 5
+    },
+    {
+      "time": 23.328065395095365,
+      "type": "seed",
+      "date": "2026-09-18",
+      "value": 33,
+      "data": {
+        "column": 48,
+        "row": 5
+      }
+    },
+    {
+      "time": 23.340708446866483,
+      "type": "growth",
+      "date": "2026-09-07",
+      "value": 102,
+      "data": {
+        "height": 19.07258740630572,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.36209809264305,
+      "type": "flower",
+      "date": "2026-09-05",
+      "value": 60
+    },
+    {
+      "time": 23.392370572207085,
+      "type": "seed",
+      "date": "2026-09-19",
+      "value": 244,
+      "data": {
+        "column": 48,
+        "row": 6
+      }
+    },
+    {
+      "time": 23.4050136239782,
+      "type": "growth",
+      "date": "2026-09-08",
+      "value": 94,
+      "data": {
+        "height": 18.837995191229837,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.426403269754765,
+      "type": "flower",
+      "date": "2026-09-06",
+      "value": 87
+    },
+    {
+      "time": 23.4566757493188,
+      "type": "seed",
+      "date": "2026-09-20",
+      "value": 212,
+      "data": {
+        "column": 49,
+        "row": 0
+      }
+    },
+    {
+      "time": 23.46931880108992,
+      "type": "growth",
+      "date": "2026-09-09",
+      "value": 103,
+      "data": {
+        "height": 19.100450518225234,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.49070844686648,
+      "type": "flower",
+      "date": "2026-09-07",
+      "value": 102
+    },
+    {
+      "time": 23.520980926430518,
+      "type": "seed",
+      "date": "2026-09-21",
+      "value": 217,
+      "data": {
+        "column": 49,
+        "row": 1
+      }
+    },
+    {
+      "time": 23.533623978201632,
+      "type": "growth",
+      "date": "2026-09-10",
+      "value": 149,
+      "data": {
+        "height": 20.720915201461306,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.555013623978198,
+      "type": "flower",
+      "date": "2026-09-08",
+      "value": 94
+    },
+    {
+      "time": 23.585286103542234,
+      "type": "seed",
+      "date": "2026-09-22",
+      "value": 157,
+      "data": {
+        "column": 49,
+        "row": 2
+      }
+    },
+    {
+      "time": 23.597929155313352,
+      "type": "growth",
+      "date": "2026-09-11",
+      "value": 136,
+      "data": {
+        "height": 20.47580489783025,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.619318801089918,
+      "type": "flower",
+      "date": "2026-09-09",
+      "value": 103
+    },
+    {
+      "time": 23.64959128065395,
+      "type": "seed",
+      "date": "2026-09-23",
+      "value": 16,
+      "data": {
+        "column": 49,
+        "row": 3
+      }
+    },
+    {
+      "time": 23.66223433242507,
+      "type": "growth",
+      "date": "2026-09-12",
+      "value": 197,
+      "data": {
+        "height": 21.4319859425875,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.68362397820163,
+      "type": "flower",
+      "date": "2026-09-10",
+      "value": 149
+    },
+    {
+      "time": 23.713896457765667,
+      "type": "seed",
+      "date": "2026-09-24",
+      "value": 259,
+      "data": {
+        "column": 49,
+        "row": 4
+      }
+    },
+    {
+      "time": 23.72653950953678,
+      "type": "growth",
+      "date": "2026-09-13",
+      "value": 41,
+      "data": {
+        "height": 16.41354364670492,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.74792915531335,
+      "type": "flower",
+      "date": "2026-09-11",
+      "value": 136
+    },
+    {
+      "time": 23.778201634877384,
+      "type": "seed",
+      "date": "2026-09-25",
+      "value": 167,
+      "data": {
+        "column": 49,
+        "row": 5
+      }
+    },
+    {
+      "time": 23.7908446866485,
+      "type": "growth",
+      "date": "2026-09-14",
+      "value": 119,
+      "data": {
+        "height": 19.508139699228035,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.812234332425067,
+      "type": "flower",
+      "date": "2026-09-12",
+      "value": 197
+    },
+    {
+      "time": 23.842506811989104,
+      "type": "seed",
+      "date": "2026-09-26",
+      "value": 156,
+      "data": {
+        "column": 49,
+        "row": 6
+      }
+    },
+    {
+      "time": 23.855149863760218,
+      "type": "growth",
+      "date": "2026-09-15",
+      "value": 113,
+      "data": {
+        "height": 19.36314819070548,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.87653950953678,
+      "type": "flower",
+      "date": "2026-09-13",
+      "value": 41
+    },
+    {
+      "time": 23.906811989100817,
+      "type": "seed",
+      "date": "2026-09-27",
+      "value": 52,
+      "data": {
+        "column": 50,
+        "row": 0
+      }
+    },
+    {
+      "time": 23.919455040871934,
+      "type": "growth",
+      "date": "2026-09-16",
+      "value": 154,
+      "data": {
+        "height": 20.808136360539216,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 23.9408446866485,
+      "type": "flower",
+      "date": "2026-09-14",
+      "value": 119
+    },
+    {
+      "time": 23.971117166212533,
+      "type": "seed",
+      "date": "2026-09-28",
+      "value": 42,
+      "data": {
+        "column": 50,
+        "row": 1
+      }
+    },
+    {
+      "time": 23.98376021798365,
+      "type": "growth",
+      "date": "2026-09-17",
+      "value": 50,
+      "data": {
+        "height": 16.989196228722214,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.005149863760217,
+      "type": "flower",
+      "date": "2026-09-15",
+      "value": 113
+    },
+    {
+      "time": 24.03542234332425,
+      "type": "seed",
+      "date": "2026-09-29",
+      "value": 111,
+      "data": {
+        "column": 50,
+        "row": 2
+      }
+    },
+    {
+      "time": 24.048065395095364,
+      "type": "growth",
+      "date": "2026-09-18",
+      "value": 33,
+      "data": {
+        "height": 15.796921062206211,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.069455040871933,
+      "type": "flower",
+      "date": "2026-09-16",
+      "value": 154
+    },
+    {
+      "time": 24.099727520435966,
+      "type": "seed",
+      "date": "2026-09-30",
+      "value": 34,
+      "data": {
+        "column": 50,
+        "row": 3
+      }
+    },
+    {
+      "time": 24.112370572207084,
+      "type": "growth",
+      "date": "2026-09-19",
+      "value": 244,
+      "data": {
+        "height": 22.529440440127516,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.13376021798365,
+      "type": "flower",
+      "date": "2026-09-17",
+      "value": 50
+    },
+    {
+      "time": 24.164032697547686,
+      "type": "seed",
+      "date": "2026-10-01",
+      "value": 14,
+      "data": {
+        "column": 50,
+        "row": 4
+      }
+    },
+    {
+      "time": 24.1766757493188,
+      "type": "growth",
+      "date": "2026-09-20",
+      "value": 212,
+      "data": {
+        "height": 21.607659203652414,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.198065395095362,
+      "type": "flower",
+      "date": "2026-09-18",
+      "value": 33
+    },
+    {
+      "time": 24.2283378746594,
+      "type": "seed",
+      "date": "2026-10-02",
+      "value": 238,
+      "data": {
+        "column": 50,
+        "row": 5
+      }
+    },
+    {
+      "time": 24.240980926430517,
+      "type": "growth",
+      "date": "2026-09-21",
+      "value": 217,
+      "data": {
+        "height": 21.662387345085747,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.262370572207082,
+      "type": "flower",
+      "date": "2026-09-19",
+      "value": 244
+    },
+    {
+      "time": 24.29264305177112,
+      "type": "seed",
+      "date": "2026-10-03",
+      "value": 135,
+      "data": {
+        "column": 50,
+        "row": 6
+      }
+    },
+    {
+      "time": 24.305286103542233,
+      "type": "growth",
+      "date": "2026-09-22",
+      "value": 157,
+      "data": {
+        "height": 20.858755937392363,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.3266757493188,
+      "type": "flower",
+      "date": "2026-09-20",
+      "value": 212
+    },
+    {
+      "time": 24.356948228882835,
+      "type": "seed",
+      "date": "2026-10-04",
+      "value": 93,
+      "data": {
+        "column": 51,
+        "row": 0
+      }
+    },
+    {
+      "time": 24.36959128065395,
+      "type": "growth",
+      "date": "2026-09-23",
+      "value": 16,
+      "data": {
+        "height": 13.895509444597865,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.390980926430515,
+      "type": "flower",
+      "date": "2026-09-21",
+      "value": 217
+    },
+    {
+      "time": 24.42125340599455,
+      "type": "seed",
+      "date": "2026-10-05",
+      "value": 146,
+      "data": {
+        "column": 51,
+        "row": 1
+      }
+    },
+    {
+      "time": 24.433896457765666,
+      "type": "growth",
+      "date": "2026-09-24",
+      "value": 259,
+      "data": {
+        "height": 22.659789679502392,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.45528610354223,
+      "type": "flower",
+      "date": "2026-09-22",
+      "value": 157
+    },
+    {
+      "time": 24.48555858310627,
+      "type": "seed",
+      "date": "2026-10-06",
+      "value": 362,
+      "data": {
+        "column": 51,
+        "row": 2
+      }
+    },
+    {
+      "time": 24.498201634877383,
+      "type": "growth",
+      "date": "2026-09-25",
+      "value": 167,
+      "data": {
+        "height": 21.018881945944184,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.519591280653948,
+      "type": "flower",
+      "date": "2026-09-23",
+      "value": 16
+    },
+    {
+      "time": 24.549863760217985,
+      "type": "seed",
+      "date": "2026-10-07",
+      "value": 319,
+      "data": {
+        "column": 51,
+        "row": 3
+      }
+    },
+    {
+      "time": 24.562506811989103,
+      "type": "growth",
+      "date": "2026-09-26",
+      "value": 156,
+      "data": {
+        "height": 20.842021276271527,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.583896457765665,
+      "type": "flower",
+      "date": "2026-09-24",
+      "value": 259
+    },
+    {
+      "time": 24.6141689373297,
+      "type": "seed",
+      "date": "2026-10-08",
+      "value": 229,
+      "data": {
+        "column": 51,
+        "row": 4
+      }
+    },
+    {
+      "time": 24.626811989100815,
+      "type": "growth",
+      "date": "2026-09-27",
+      "value": 52,
+      "data": {
+        "height": 17.103907103194178,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.64820163487738,
+      "type": "flower",
+      "date": "2026-09-25",
+      "value": 167
+    },
+    {
+      "time": 24.678474114441418,
+      "type": "seed",
+      "date": "2026-10-09",
+      "value": 243,
+      "data": {
+        "column": 51,
+        "row": 5
+      }
+    },
+    {
+      "time": 24.691117166212532,
+      "type": "growth",
+      "date": "2026-09-28",
+      "value": 42,
+      "data": {
+        "height": 16.482929921248594,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.7125068119891,
+      "type": "flower",
+      "date": "2026-09-26",
+      "value": 156
+    },
+    {
+      "time": 24.74277929155313,
+      "type": "seed",
+      "date": "2026-10-10",
+      "value": 294,
+      "data": {
+        "column": 51,
+        "row": 6
+      }
+    },
+    {
+      "time": 24.75542234332425,
+      "type": "growth",
+      "date": "2026-09-29",
+      "value": 111,
+      "data": {
+        "height": 19.31280787157199,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.776811989100814,
+      "type": "flower",
+      "date": "2026-09-27",
+      "value": 52
+    },
+    {
+      "time": 24.80708446866485,
+      "type": "seed",
+      "date": "2026-10-11",
+      "value": 322,
+      "data": {
+        "column": 52,
+        "row": 0
+      }
+    },
+    {
+      "time": 24.819727520435965,
+      "type": "growth",
+      "date": "2026-09-30",
+      "value": 34,
+      "data": {
+        "height": 15.880730498634215,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.84111716621253,
+      "type": "flower",
+      "date": "2026-09-28",
+      "value": 42
+    },
+    {
+      "time": 24.871389645776567,
+      "type": "seed",
+      "date": "2026-10-12",
+      "value": 158,
+      "data": {
+        "column": 52,
+        "row": 1
+      }
+    },
+    {
+      "time": 24.884032697547685,
+      "type": "growth",
+      "date": "2026-10-01",
+      "value": 14,
+      "data": {
+        "height": 13.577009052265261,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.905422343324247,
+      "type": "flower",
+      "date": "2026-09-29",
+      "value": 111
+    },
+    {
+      "time": 24.935694822888284,
+      "type": "seed",
+      "date": "2026-10-13",
+      "value": 206,
+      "data": {
+        "column": 52,
+        "row": 2
+      }
+    },
+    {
+      "time": 24.948337874659398,
+      "type": "growth",
+      "date": "2026-10-02",
+      "value": 238,
+      "data": {
+        "height": 21.87392419308582,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 24.969727520435963,
+      "type": "flower",
+      "date": "2026-09-30",
+      "value": 34
+    },
+    {
+      "time": 25,
+      "type": "seed",
+      "date": "2026-10-14",
+      "value": 178,
+      "data": {
+        "column": 52,
+        "row": 3
+      }
+    },
+    {
+      "time": 25.012643051771118,
+      "type": "growth",
+      "date": "2026-10-03",
+      "value": 135,
+      "data": {
+        "height": 20.455755101456152,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 25.034032697547683,
+      "type": "flower",
+      "date": "2026-10-01",
+      "value": 14
+    },
+    {
+      "time": 25.076948228882834,
+      "type": "growth",
+      "date": "2026-10-04",
+      "value": 93,
+      "data": {
+        "height": 18.807115716298483,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 25.098337874659396,
+      "type": "flower",
+      "date": "2026-10-02",
+      "value": 238
+    },
+    {
+      "time": 25.141253405994547,
+      "type": "growth",
+      "date": "2026-10-05",
+      "value": 146,
+      "data": {
+        "height": 20.666785868402638,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 25.162643051771116,
+      "type": "flower",
+      "date": "2026-10-03",
+      "value": 135
+    },
+    {
+      "time": 25.205558583106267,
+      "type": "growth",
+      "date": "2026-10-06",
+      "value": 362,
+      "data": {
+        "height": 23.9166522546417,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 25.226948228882833,
+      "type": "flower",
+      "date": "2026-10-04",
+      "value": 93
+    },
+    {
+      "time": 25.269863760217984,
+      "type": "growth",
+      "date": "2026-10-07",
+      "value": 319,
+      "data": {
+        "height": 23.083963390915876,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 25.291253405994546,
+      "type": "flower",
+      "date": "2026-10-05",
+      "value": 146
+    },
+    {
+      "time": 25.3341689373297,
+      "type": "growth",
+      "date": "2026-10-08",
+      "value": 229,
+      "data": {
+        "height": 21.78669909994112,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 25.355558583106266,
+      "type": "flower",
+      "date": "2026-10-06",
+      "value": 362
+    },
+    {
+      "time": 25.398474114441417,
+      "type": "growth",
+      "date": "2026-10-09",
+      "value": 243,
+      "data": {
+        "height": 22.52032802107247,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 25.419863760217982,
+      "type": "flower",
+      "date": "2026-10-07",
+      "value": 319
+    },
+    {
+      "time": 25.46277929155313,
+      "type": "growth",
+      "date": "2026-10-10",
+      "value": 294,
+      "data": {
+        "height": 22.923731062277195,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 25.4841689373297,
+      "type": "flower",
+      "date": "2026-10-08",
+      "value": 229
+    },
+    {
+      "time": 25.52708446866485,
+      "type": "growth",
+      "date": "2026-10-11",
+      "value": 322,
+      "data": {
+        "height": 23.10184236949205,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 25.548474114441415,
+      "type": "flower",
+      "date": "2026-10-09",
+      "value": 243
+    },
+    {
+      "time": 25.591389645776566,
+      "type": "growth",
+      "date": "2026-10-12",
+      "value": 158,
+      "data": {
+        "height": 20.87535438659568,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 25.612779291553128,
+      "type": "flower",
+      "date": "2026-10-10",
+      "value": 294
+    },
+    {
+      "time": 25.655694822888282,
+      "type": "growth",
+      "date": "2026-10-13",
+      "value": 206,
+      "data": {
+        "height": 21.539534226089174,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 25.677084468664848,
+      "type": "flower",
+      "date": "2026-10-11",
+      "value": 322
+    },
+    {
+      "time": 25.72,
+      "type": "growth",
+      "date": "2026-10-14",
+      "value": 178,
+      "data": {
+        "height": 21.18113566024758,
+        "leaves": 4
+      }
+    },
+    {
+      "time": 25.741389645776565,
+      "type": "flower",
+      "date": "2026-10-12",
+      "value": 158
+    },
+    {
+      "time": 25.80569482288828,
+      "type": "flower",
+      "date": "2026-10-13",
+      "value": 206
+    },
+    {
+      "time": 25.869999999999997,
+      "type": "flower",
+      "date": "2026-10-14",
+      "value": 178
+    }
+  ]
+}

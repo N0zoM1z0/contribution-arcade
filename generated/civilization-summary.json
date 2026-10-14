@@ -1,0 +1,2839 @@
+{
+  "username": "N0zoM1z0",
+  "id": "civilization",
+  "duration": 32,
+  "metrics": {
+    "resources": 13951,
+    "era": "Space",
+    "erasReached": 6,
+    "weathering": 0,
+    "maximumWeathering": 1
+  },
+  "checkpoints": [
+    3,
+    16,
+    30
+  ],
+  "events": [
+    {
+      "time": 3.0544959128065394,
+      "type": "resources",
+      "date": "2025-11-03",
+      "value": 1,
+      "data": {
+        "accumulated": 1
+      }
+    },
+    {
+      "time": 3.0544959128065394,
+      "type": "era",
+      "date": "2025-11-03",
+      "value": 1,
+      "data": {
+        "era": 1,
+        "name": "Camp",
+        "threshold": 1
+      }
+    },
+    {
+      "time": 3.280108991825613,
+      "type": "weathering",
+      "date": "2025-11-06",
+      "value": 0.075,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 3.355313351498638,
+      "type": "weathering",
+      "date": "2025-11-07",
+      "value": 0.15,
+      "data": {
+        "idleDays": 4
+      }
+    },
+    {
+      "time": 3.430517711171662,
+      "type": "weathering",
+      "date": "2025-11-08",
+      "value": 0.22499999999999998,
+      "data": {
+        "idleDays": 5
+      }
+    },
+    {
+      "time": 3.5057220708446866,
+      "type": "weathering",
+      "date": "2025-11-09",
+      "value": 0.3,
+      "data": {
+        "idleDays": 6
+      }
+    },
+    {
+      "time": 3.580926430517711,
+      "type": "weathering",
+      "date": "2025-11-10",
+      "value": 0.375,
+      "data": {
+        "idleDays": 7
+      }
+    },
+    {
+      "time": 3.6561307901907356,
+      "type": "weathering",
+      "date": "2025-11-11",
+      "value": 0.45,
+      "data": {
+        "idleDays": 8
+      }
+    },
+    {
+      "time": 3.73133514986376,
+      "type": "weathering",
+      "date": "2025-11-12",
+      "value": 0.525,
+      "data": {
+        "idleDays": 9
+      }
+    },
+    {
+      "time": 3.8065395095367847,
+      "type": "weathering",
+      "date": "2025-11-13",
+      "value": 0.6,
+      "data": {
+        "idleDays": 10
+      }
+    },
+    {
+      "time": 3.881743869209809,
+      "type": "weathering",
+      "date": "2025-11-14",
+      "value": 0.6749999999999999,
+      "data": {
+        "idleDays": 11
+      }
+    },
+    {
+      "time": 3.9569482288828337,
+      "type": "weathering",
+      "date": "2025-11-15",
+      "value": 0.7499999999999999,
+      "data": {
+        "idleDays": 12
+      }
+    },
+    {
+      "time": 4.032152588555858,
+      "type": "weathering",
+      "date": "2025-11-16",
+      "value": 0.8249999999999998,
+      "data": {
+        "idleDays": 13
+      }
+    },
+    {
+      "time": 4.107356948228883,
+      "type": "weathering",
+      "date": "2025-11-17",
+      "value": 0.8999999999999998,
+      "data": {
+        "idleDays": 14
+      }
+    },
+    {
+      "time": 4.182561307901908,
+      "type": "weathering",
+      "date": "2025-11-18",
+      "value": 0.9749999999999998,
+      "data": {
+        "idleDays": 15
+      }
+    },
+    {
+      "time": 4.257765667574931,
+      "type": "weathering",
+      "date": "2025-11-19",
+      "value": 1,
+      "data": {
+        "idleDays": 16
+      }
+    },
+    {
+      "time": 4.332970027247956,
+      "type": "weathering",
+      "date": "2025-11-20",
+      "value": 1,
+      "data": {
+        "idleDays": 17
+      }
+    },
+    {
+      "time": 4.408174386920981,
+      "type": "weathering",
+      "date": "2025-11-21",
+      "value": 1,
+      "data": {
+        "idleDays": 18
+      }
+    },
+    {
+      "time": 4.483378746594005,
+      "type": "weathering",
+      "date": "2025-11-22",
+      "value": 1,
+      "data": {
+        "idleDays": 19
+      }
+    },
+    {
+      "time": 4.5585831062670295,
+      "type": "weathering",
+      "date": "2025-11-23",
+      "value": 1,
+      "data": {
+        "idleDays": 20
+      }
+    },
+    {
+      "time": 4.633787465940054,
+      "type": "weathering",
+      "date": "2025-11-24",
+      "value": 1,
+      "data": {
+        "idleDays": 21
+      }
+    },
+    {
+      "time": 4.708991825613079,
+      "type": "weathering",
+      "date": "2025-11-25",
+      "value": 1,
+      "data": {
+        "idleDays": 22
+      }
+    },
+    {
+      "time": 4.784196185286104,
+      "type": "weathering",
+      "date": "2025-11-26",
+      "value": 1,
+      "data": {
+        "idleDays": 23
+      }
+    },
+    {
+      "time": 4.8594005449591275,
+      "type": "weathering",
+      "date": "2025-11-27",
+      "value": 1,
+      "data": {
+        "idleDays": 24
+      }
+    },
+    {
+      "time": 4.9346049046321525,
+      "type": "weathering",
+      "date": "2025-11-28",
+      "value": 1,
+      "data": {
+        "idleDays": 25
+      }
+    },
+    {
+      "time": 5.0098092643051775,
+      "type": "weathering",
+      "date": "2025-11-29",
+      "value": 1,
+      "data": {
+        "idleDays": 26
+      }
+    },
+    {
+      "time": 5.085013623978202,
+      "type": "weathering",
+      "date": "2025-11-30",
+      "value": 1,
+      "data": {
+        "idleDays": 27
+      }
+    },
+    {
+      "time": 5.1602179836512265,
+      "type": "weathering",
+      "date": "2025-12-01",
+      "value": 1,
+      "data": {
+        "idleDays": 28
+      }
+    },
+    {
+      "time": 5.235422343324251,
+      "type": "weathering",
+      "date": "2025-12-02",
+      "value": 1,
+      "data": {
+        "idleDays": 29
+      }
+    },
+    {
+      "time": 5.310626702997276,
+      "type": "weathering",
+      "date": "2025-12-03",
+      "value": 1,
+      "data": {
+        "idleDays": 30
+      }
+    },
+    {
+      "time": 5.3858310626703,
+      "type": "weathering",
+      "date": "2025-12-04",
+      "value": 1,
+      "data": {
+        "idleDays": 31
+      }
+    },
+    {
+      "time": 5.461035422343324,
+      "type": "weathering",
+      "date": "2025-12-05",
+      "value": 1,
+      "data": {
+        "idleDays": 32
+      }
+    },
+    {
+      "time": 5.536239782016349,
+      "type": "weathering",
+      "date": "2025-12-06",
+      "value": 1,
+      "data": {
+        "idleDays": 33
+      }
+    },
+    {
+      "time": 5.611444141689374,
+      "type": "weathering",
+      "date": "2025-12-07",
+      "value": 1,
+      "data": {
+        "idleDays": 34
+      }
+    },
+    {
+      "time": 5.686648501362397,
+      "type": "weathering",
+      "date": "2025-12-08",
+      "value": 1,
+      "data": {
+        "idleDays": 35
+      }
+    },
+    {
+      "time": 5.761852861035422,
+      "type": "weathering",
+      "date": "2025-12-09",
+      "value": 1,
+      "data": {
+        "idleDays": 36
+      }
+    },
+    {
+      "time": 5.837057220708447,
+      "type": "weathering",
+      "date": "2025-12-10",
+      "value": 1,
+      "data": {
+        "idleDays": 37
+      }
+    },
+    {
+      "time": 5.912261580381472,
+      "type": "weathering",
+      "date": "2025-12-11",
+      "value": 1,
+      "data": {
+        "idleDays": 38
+      }
+    },
+    {
+      "time": 5.987465940054497,
+      "type": "weathering",
+      "date": "2025-12-12",
+      "value": 1,
+      "data": {
+        "idleDays": 39
+      }
+    },
+    {
+      "time": 6.06267029972752,
+      "type": "weathering",
+      "date": "2025-12-13",
+      "value": 1,
+      "data": {
+        "idleDays": 40
+      }
+    },
+    {
+      "time": 6.137874659400545,
+      "type": "weathering",
+      "date": "2025-12-14",
+      "value": 1,
+      "data": {
+        "idleDays": 41
+      }
+    },
+    {
+      "time": 6.21307901907357,
+      "type": "weathering",
+      "date": "2025-12-15",
+      "value": 1,
+      "data": {
+        "idleDays": 42
+      }
+    },
+    {
+      "time": 6.288283378746595,
+      "type": "weathering",
+      "date": "2025-12-16",
+      "value": 1,
+      "data": {
+        "idleDays": 43
+      }
+    },
+    {
+      "time": 6.363487738419618,
+      "type": "weathering",
+      "date": "2025-12-17",
+      "value": 1,
+      "data": {
+        "idleDays": 44
+      }
+    },
+    {
+      "time": 6.438692098092643,
+      "type": "weathering",
+      "date": "2025-12-18",
+      "value": 1,
+      "data": {
+        "idleDays": 45
+      }
+    },
+    {
+      "time": 6.513896457765668,
+      "type": "weathering",
+      "date": "2025-12-19",
+      "value": 1,
+      "data": {
+        "idleDays": 46
+      }
+    },
+    {
+      "time": 6.589100817438693,
+      "type": "weathering",
+      "date": "2025-12-20",
+      "value": 1,
+      "data": {
+        "idleDays": 47
+      }
+    },
+    {
+      "time": 6.664305177111718,
+      "type": "weathering",
+      "date": "2025-12-21",
+      "value": 1,
+      "data": {
+        "idleDays": 48
+      }
+    },
+    {
+      "time": 6.739509536784741,
+      "type": "weathering",
+      "date": "2025-12-22",
+      "value": 1,
+      "data": {
+        "idleDays": 49
+      }
+    },
+    {
+      "time": 6.814713896457766,
+      "type": "weathering",
+      "date": "2025-12-23",
+      "value": 1,
+      "data": {
+        "idleDays": 50
+      }
+    },
+    {
+      "time": 6.889918256130791,
+      "type": "weathering",
+      "date": "2025-12-24",
+      "value": 1,
+      "data": {
+        "idleDays": 51
+      }
+    },
+    {
+      "time": 6.965122615803816,
+      "type": "weathering",
+      "date": "2025-12-25",
+      "value": 1,
+      "data": {
+        "idleDays": 52
+      }
+    },
+    {
+      "time": 7.040326975476839,
+      "type": "weathering",
+      "date": "2025-12-26",
+      "value": 1,
+      "data": {
+        "idleDays": 53
+      }
+    },
+    {
+      "time": 7.115531335149864,
+      "type": "weathering",
+      "date": "2025-12-27",
+      "value": 1,
+      "data": {
+        "idleDays": 54
+      }
+    },
+    {
+      "time": 7.190735694822887,
+      "type": "weathering",
+      "date": "2025-12-28",
+      "value": 1,
+      "data": {
+        "idleDays": 55
+      }
+    },
+    {
+      "time": 7.265940054495912,
+      "type": "weathering",
+      "date": "2025-12-29",
+      "value": 1,
+      "data": {
+        "idleDays": 56
+      }
+    },
+    {
+      "time": 7.341144414168937,
+      "type": "weathering",
+      "date": "2025-12-30",
+      "value": 1,
+      "data": {
+        "idleDays": 57
+      }
+    },
+    {
+      "time": 7.416348773841962,
+      "type": "weathering",
+      "date": "2025-12-31",
+      "value": 1,
+      "data": {
+        "idleDays": 58
+      }
+    },
+    {
+      "time": 7.491553133514987,
+      "type": "weathering",
+      "date": "2026-01-01",
+      "value": 1,
+      "data": {
+        "idleDays": 59
+      }
+    },
+    {
+      "time": 7.56675749318801,
+      "type": "weathering",
+      "date": "2026-01-02",
+      "value": 1,
+      "data": {
+        "idleDays": 60
+      }
+    },
+    {
+      "time": 7.641961852861035,
+      "type": "weathering",
+      "date": "2026-01-03",
+      "value": 1,
+      "data": {
+        "idleDays": 61
+      }
+    },
+    {
+      "time": 7.71716621253406,
+      "type": "weathering",
+      "date": "2026-01-04",
+      "value": 1,
+      "data": {
+        "idleDays": 62
+      }
+    },
+    {
+      "time": 7.792370572207085,
+      "type": "weathering",
+      "date": "2026-01-05",
+      "value": 1,
+      "data": {
+        "idleDays": 63
+      }
+    },
+    {
+      "time": 7.8675749318801085,
+      "type": "weathering",
+      "date": "2026-01-06",
+      "value": 1,
+      "data": {
+        "idleDays": 64
+      }
+    },
+    {
+      "time": 7.9427792915531334,
+      "type": "weathering",
+      "date": "2026-01-07",
+      "value": 1,
+      "data": {
+        "idleDays": 65
+      }
+    },
+    {
+      "time": 8.017983651226158,
+      "type": "weathering",
+      "date": "2026-01-08",
+      "value": 1,
+      "data": {
+        "idleDays": 66
+      }
+    },
+    {
+      "time": 8.093188010899183,
+      "type": "weathering",
+      "date": "2026-01-09",
+      "value": 1,
+      "data": {
+        "idleDays": 67
+      }
+    },
+    {
+      "time": 8.168392370572208,
+      "type": "weathering",
+      "date": "2026-01-10",
+      "value": 1,
+      "data": {
+        "idleDays": 68
+      }
+    },
+    {
+      "time": 8.243596730245232,
+      "type": "weathering",
+      "date": "2026-01-11",
+      "value": 1,
+      "data": {
+        "idleDays": 69
+      }
+    },
+    {
+      "time": 8.318801089918257,
+      "type": "weathering",
+      "date": "2026-01-12",
+      "value": 1,
+      "data": {
+        "idleDays": 70
+      }
+    },
+    {
+      "time": 8.394005449591281,
+      "type": "weathering",
+      "date": "2026-01-13",
+      "value": 1,
+      "data": {
+        "idleDays": 71
+      }
+    },
+    {
+      "time": 8.469209809264306,
+      "type": "weathering",
+      "date": "2026-01-14",
+      "value": 1,
+      "data": {
+        "idleDays": 72
+      }
+    },
+    {
+      "time": 8.54441416893733,
+      "type": "weathering",
+      "date": "2026-01-15",
+      "value": 1,
+      "data": {
+        "idleDays": 73
+      }
+    },
+    {
+      "time": 8.619618528610355,
+      "type": "weathering",
+      "date": "2026-01-16",
+      "value": 1,
+      "data": {
+        "idleDays": 74
+      }
+    },
+    {
+      "time": 8.69482288828338,
+      "type": "weathering",
+      "date": "2026-01-17",
+      "value": 1,
+      "data": {
+        "idleDays": 75
+      }
+    },
+    {
+      "time": 8.770027247956403,
+      "type": "weathering",
+      "date": "2026-01-18",
+      "value": 1,
+      "data": {
+        "idleDays": 76
+      }
+    },
+    {
+      "time": 8.845231607629428,
+      "type": "weathering",
+      "date": "2026-01-19",
+      "value": 1,
+      "data": {
+        "idleDays": 77
+      }
+    },
+    {
+      "time": 8.920435967302453,
+      "type": "weathering",
+      "date": "2026-01-20",
+      "value": 1,
+      "data": {
+        "idleDays": 78
+      }
+    },
+    {
+      "time": 8.995640326975478,
+      "type": "weathering",
+      "date": "2026-01-21",
+      "value": 1,
+      "data": {
+        "idleDays": 79
+      }
+    },
+    {
+      "time": 9.0708446866485,
+      "type": "weathering",
+      "date": "2026-01-22",
+      "value": 1,
+      "data": {
+        "idleDays": 80
+      }
+    },
+    {
+      "time": 9.146049046321526,
+      "type": "weathering",
+      "date": "2026-01-23",
+      "value": 1,
+      "data": {
+        "idleDays": 81
+      }
+    },
+    {
+      "time": 9.22125340599455,
+      "type": "weathering",
+      "date": "2026-01-24",
+      "value": 1,
+      "data": {
+        "idleDays": 82
+      }
+    },
+    {
+      "time": 9.296457765667576,
+      "type": "weathering",
+      "date": "2026-01-25",
+      "value": 1,
+      "data": {
+        "idleDays": 83
+      }
+    },
+    {
+      "time": 9.371662125340599,
+      "type": "weathering",
+      "date": "2026-01-26",
+      "value": 1,
+      "data": {
+        "idleDays": 84
+      }
+    },
+    {
+      "time": 9.446866485013624,
+      "type": "weathering",
+      "date": "2026-01-27",
+      "value": 1,
+      "data": {
+        "idleDays": 85
+      }
+    },
+    {
+      "time": 9.522070844686649,
+      "type": "weathering",
+      "date": "2026-01-28",
+      "value": 1,
+      "data": {
+        "idleDays": 86
+      }
+    },
+    {
+      "time": 9.597275204359674,
+      "type": "weathering",
+      "date": "2026-01-29",
+      "value": 1,
+      "data": {
+        "idleDays": 87
+      }
+    },
+    {
+      "time": 9.672479564032697,
+      "type": "weathering",
+      "date": "2026-01-30",
+      "value": 1,
+      "data": {
+        "idleDays": 88
+      }
+    },
+    {
+      "time": 9.747683923705724,
+      "type": "weathering",
+      "date": "2026-01-31",
+      "value": 1,
+      "data": {
+        "idleDays": 89
+      }
+    },
+    {
+      "time": 9.822888283378747,
+      "type": "weathering",
+      "date": "2026-02-01",
+      "value": 1,
+      "data": {
+        "idleDays": 90
+      }
+    },
+    {
+      "time": 9.898092643051772,
+      "type": "weathering",
+      "date": "2026-02-02",
+      "value": 1,
+      "data": {
+        "idleDays": 91
+      }
+    },
+    {
+      "time": 9.973297002724795,
+      "type": "weathering",
+      "date": "2026-02-03",
+      "value": 1,
+      "data": {
+        "idleDays": 92
+      }
+    },
+    {
+      "time": 10.048501362397822,
+      "type": "weathering",
+      "date": "2026-02-04",
+      "value": 1,
+      "data": {
+        "idleDays": 93
+      }
+    },
+    {
+      "time": 10.123705722070845,
+      "type": "weathering",
+      "date": "2026-02-05",
+      "value": 1,
+      "data": {
+        "idleDays": 94
+      }
+    },
+    {
+      "time": 10.19891008174387,
+      "type": "weathering",
+      "date": "2026-02-06",
+      "value": 1,
+      "data": {
+        "idleDays": 95
+      }
+    },
+    {
+      "time": 10.274114441416893,
+      "type": "weathering",
+      "date": "2026-02-07",
+      "value": 1,
+      "data": {
+        "idleDays": 96
+      }
+    },
+    {
+      "time": 10.34931880108992,
+      "type": "weathering",
+      "date": "2026-02-08",
+      "value": 1,
+      "data": {
+        "idleDays": 97
+      }
+    },
+    {
+      "time": 10.424523160762943,
+      "type": "resources",
+      "date": "2026-02-09",
+      "value": 1,
+      "data": {
+        "accumulated": 2
+      }
+    },
+    {
+      "time": 10.650136239782018,
+      "type": "weathering",
+      "date": "2026-02-12",
+      "value": 1,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 10.725340599455041,
+      "type": "weathering",
+      "date": "2026-02-13",
+      "value": 1,
+      "data": {
+        "idleDays": 4
+      }
+    },
+    {
+      "time": 10.800544959128066,
+      "type": "weathering",
+      "date": "2026-02-14",
+      "value": 1,
+      "data": {
+        "idleDays": 5
+      }
+    },
+    {
+      "time": 10.875749318801091,
+      "type": "resources",
+      "date": "2026-02-15",
+      "value": 1,
+      "data": {
+        "accumulated": 3
+      }
+    },
+    {
+      "time": 11.101362397820164,
+      "type": "weathering",
+      "date": "2026-02-18",
+      "value": 1,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 11.17656675749319,
+      "type": "weathering",
+      "date": "2026-02-19",
+      "value": 1,
+      "data": {
+        "idleDays": 4
+      }
+    },
+    {
+      "time": 11.251771117166212,
+      "type": "resources",
+      "date": "2026-02-20",
+      "value": 2,
+      "data": {
+        "accumulated": 5
+      }
+    },
+    {
+      "time": 11.402179836512262,
+      "type": "resources",
+      "date": "2026-02-22",
+      "value": 1,
+      "data": {
+        "accumulated": 6
+      }
+    },
+    {
+      "time": 11.55258855585831,
+      "type": "resources",
+      "date": "2026-02-24",
+      "value": 1,
+      "data": {
+        "accumulated": 7
+      }
+    },
+    {
+      "time": 11.778201634877385,
+      "type": "weathering",
+      "date": "2026-02-27",
+      "value": 1,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 11.853405994550409,
+      "type": "weathering",
+      "date": "2026-02-28",
+      "value": 1,
+      "data": {
+        "idleDays": 4
+      }
+    },
+    {
+      "time": 11.928610354223435,
+      "type": "weathering",
+      "date": "2026-03-01",
+      "value": 1,
+      "data": {
+        "idleDays": 5
+      }
+    },
+    {
+      "time": 12.003814713896459,
+      "type": "weathering",
+      "date": "2026-03-02",
+      "value": 1,
+      "data": {
+        "idleDays": 6
+      }
+    },
+    {
+      "time": 12.079019073569484,
+      "type": "weathering",
+      "date": "2026-03-03",
+      "value": 1,
+      "data": {
+        "idleDays": 7
+      }
+    },
+    {
+      "time": 12.154223433242507,
+      "type": "weathering",
+      "date": "2026-03-04",
+      "value": 1,
+      "data": {
+        "idleDays": 8
+      }
+    },
+    {
+      "time": 12.229427792915534,
+      "type": "weathering",
+      "date": "2026-03-05",
+      "value": 1,
+      "data": {
+        "idleDays": 9
+      }
+    },
+    {
+      "time": 12.304632152588557,
+      "type": "weathering",
+      "date": "2026-03-06",
+      "value": 1,
+      "data": {
+        "idleDays": 10
+      }
+    },
+    {
+      "time": 12.379836512261582,
+      "type": "weathering",
+      "date": "2026-03-07",
+      "value": 1,
+      "data": {
+        "idleDays": 11
+      }
+    },
+    {
+      "time": 12.455040871934605,
+      "type": "weathering",
+      "date": "2026-03-08",
+      "value": 1,
+      "data": {
+        "idleDays": 12
+      }
+    },
+    {
+      "time": 12.530245231607632,
+      "type": "weathering",
+      "date": "2026-03-09",
+      "value": 1,
+      "data": {
+        "idleDays": 13
+      }
+    },
+    {
+      "time": 12.605449591280655,
+      "type": "weathering",
+      "date": "2026-03-10",
+      "value": 1,
+      "data": {
+        "idleDays": 14
+      }
+    },
+    {
+      "time": 12.68065395095368,
+      "type": "weathering",
+      "date": "2026-03-11",
+      "value": 1,
+      "data": {
+        "idleDays": 15
+      }
+    },
+    {
+      "time": 12.755858310626705,
+      "type": "weathering",
+      "date": "2026-03-12",
+      "value": 1,
+      "data": {
+        "idleDays": 16
+      }
+    },
+    {
+      "time": 12.831062670299728,
+      "type": "resources",
+      "date": "2026-03-13",
+      "value": 16,
+      "data": {
+        "accumulated": 23
+      }
+    },
+    {
+      "time": 12.906267029972753,
+      "type": "resources",
+      "date": "2026-03-14",
+      "value": 8,
+      "data": {
+        "accumulated": 31
+      }
+    },
+    {
+      "time": 13.131880108991826,
+      "type": "weathering",
+      "date": "2026-03-17",
+      "value": 0.6429999999999999,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 13.207084468664851,
+      "type": "weathering",
+      "date": "2026-03-18",
+      "value": 0.7179999999999999,
+      "data": {
+        "idleDays": 4
+      }
+    },
+    {
+      "time": 13.282288828337874,
+      "type": "weathering",
+      "date": "2026-03-19",
+      "value": 0.7929999999999998,
+      "data": {
+        "idleDays": 5
+      }
+    },
+    {
+      "time": 13.357493188010901,
+      "type": "weathering",
+      "date": "2026-03-20",
+      "value": 0.8679999999999998,
+      "data": {
+        "idleDays": 6
+      }
+    },
+    {
+      "time": 13.432697547683924,
+      "type": "weathering",
+      "date": "2026-03-21",
+      "value": 0.9429999999999997,
+      "data": {
+        "idleDays": 7
+      }
+    },
+    {
+      "time": 13.507901907356949,
+      "type": "weathering",
+      "date": "2026-03-22",
+      "value": 1,
+      "data": {
+        "idleDays": 8
+      }
+    },
+    {
+      "time": 13.583106267029974,
+      "type": "weathering",
+      "date": "2026-03-23",
+      "value": 1,
+      "data": {
+        "idleDays": 9
+      }
+    },
+    {
+      "time": 13.658310626702999,
+      "type": "weathering",
+      "date": "2026-03-24",
+      "value": 1,
+      "data": {
+        "idleDays": 10
+      }
+    },
+    {
+      "time": 13.733514986376022,
+      "type": "weathering",
+      "date": "2026-03-25",
+      "value": 1,
+      "data": {
+        "idleDays": 11
+      }
+    },
+    {
+      "time": 13.808719346049047,
+      "type": "weathering",
+      "date": "2026-03-26",
+      "value": 1,
+      "data": {
+        "idleDays": 12
+      }
+    },
+    {
+      "time": 13.883923705722072,
+      "type": "weathering",
+      "date": "2026-03-27",
+      "value": 1,
+      "data": {
+        "idleDays": 13
+      }
+    },
+    {
+      "time": 13.959128065395097,
+      "type": "weathering",
+      "date": "2026-03-28",
+      "value": 1,
+      "data": {
+        "idleDays": 14
+      }
+    },
+    {
+      "time": 14.03433242506812,
+      "type": "weathering",
+      "date": "2026-03-29",
+      "value": 1,
+      "data": {
+        "idleDays": 15
+      }
+    },
+    {
+      "time": 14.109536784741147,
+      "type": "resources",
+      "date": "2026-03-30",
+      "value": 1,
+      "data": {
+        "accumulated": 32
+      }
+    },
+    {
+      "time": 14.335149863760218,
+      "type": "weathering",
+      "date": "2026-04-02",
+      "value": 1,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 14.410354223433243,
+      "type": "weathering",
+      "date": "2026-04-03",
+      "value": 1,
+      "data": {
+        "idleDays": 4
+      }
+    },
+    {
+      "time": 14.485558583106268,
+      "type": "weathering",
+      "date": "2026-04-04",
+      "value": 1,
+      "data": {
+        "idleDays": 5
+      }
+    },
+    {
+      "time": 14.560762942779292,
+      "type": "weathering",
+      "date": "2026-04-05",
+      "value": 1,
+      "data": {
+        "idleDays": 6
+      }
+    },
+    {
+      "time": 14.635967302452316,
+      "type": "weathering",
+      "date": "2026-04-06",
+      "value": 1,
+      "data": {
+        "idleDays": 7
+      }
+    },
+    {
+      "time": 14.711171662125341,
+      "type": "weathering",
+      "date": "2026-04-07",
+      "value": 1,
+      "data": {
+        "idleDays": 8
+      }
+    },
+    {
+      "time": 14.786376021798366,
+      "type": "weathering",
+      "date": "2026-04-08",
+      "value": 1,
+      "data": {
+        "idleDays": 9
+      }
+    },
+    {
+      "time": 14.86158038147139,
+      "type": "weathering",
+      "date": "2026-04-09",
+      "value": 1,
+      "data": {
+        "idleDays": 10
+      }
+    },
+    {
+      "time": 14.936784741144416,
+      "type": "weathering",
+      "date": "2026-04-10",
+      "value": 1,
+      "data": {
+        "idleDays": 11
+      }
+    },
+    {
+      "time": 15.01198910081744,
+      "type": "weathering",
+      "date": "2026-04-11",
+      "value": 1,
+      "data": {
+        "idleDays": 12
+      }
+    },
+    {
+      "time": 15.087193460490465,
+      "type": "weathering",
+      "date": "2026-04-12",
+      "value": 1,
+      "data": {
+        "idleDays": 13
+      }
+    },
+    {
+      "time": 15.162397820163488,
+      "type": "weathering",
+      "date": "2026-04-13",
+      "value": 1,
+      "data": {
+        "idleDays": 14
+      }
+    },
+    {
+      "time": 15.237602179836513,
+      "type": "weathering",
+      "date": "2026-04-14",
+      "value": 1,
+      "data": {
+        "idleDays": 15
+      }
+    },
+    {
+      "time": 15.312806539509538,
+      "type": "weathering",
+      "date": "2026-04-15",
+      "value": 1,
+      "data": {
+        "idleDays": 16
+      }
+    },
+    {
+      "time": 15.388010899182564,
+      "type": "weathering",
+      "date": "2026-04-16",
+      "value": 1,
+      "data": {
+        "idleDays": 17
+      }
+    },
+    {
+      "time": 15.463215258855586,
+      "type": "resources",
+      "date": "2026-04-17",
+      "value": 5,
+      "data": {
+        "accumulated": 37
+      }
+    },
+    {
+      "time": 15.463215258855586,
+      "type": "era",
+      "date": "2026-04-17",
+      "value": 37,
+      "data": {
+        "era": 2,
+        "name": "Hamlet",
+        "threshold": 35
+      }
+    },
+    {
+      "time": 15.538419618528613,
+      "type": "resources",
+      "date": "2026-04-18",
+      "value": 3,
+      "data": {
+        "accumulated": 40
+      }
+    },
+    {
+      "time": 15.68882833787466,
+      "type": "resources",
+      "date": "2026-04-20",
+      "value": 4,
+      "data": {
+        "accumulated": 44
+      }
+    },
+    {
+      "time": 15.764032697547686,
+      "type": "resources",
+      "date": "2026-04-21",
+      "value": 1,
+      "data": {
+        "accumulated": 45
+      }
+    },
+    {
+      "time": 15.839237057220709,
+      "type": "resources",
+      "date": "2026-04-22",
+      "value": 13,
+      "data": {
+        "accumulated": 58
+      }
+    },
+    {
+      "time": 15.914441416893734,
+      "type": "resources",
+      "date": "2026-04-23",
+      "value": 12,
+      "data": {
+        "accumulated": 70
+      }
+    },
+    {
+      "time": 16.06485013623978,
+      "type": "resources",
+      "date": "2026-04-25",
+      "value": 1,
+      "data": {
+        "accumulated": 71
+      }
+    },
+    {
+      "time": 16.215258855585834,
+      "type": "resources",
+      "date": "2026-04-27",
+      "value": 12,
+      "data": {
+        "accumulated": 83
+      }
+    },
+    {
+      "time": 16.290463215258853,
+      "type": "resources",
+      "date": "2026-04-28",
+      "value": 2,
+      "data": {
+        "accumulated": 85
+      }
+    },
+    {
+      "time": 16.440871934604907,
+      "type": "resources",
+      "date": "2026-04-30",
+      "value": 18,
+      "data": {
+        "accumulated": 103
+      }
+    },
+    {
+      "time": 16.51607629427793,
+      "type": "resources",
+      "date": "2026-05-01",
+      "value": 1,
+      "data": {
+        "accumulated": 104
+      }
+    },
+    {
+      "time": 16.741689373297003,
+      "type": "weathering",
+      "date": "2026-05-04",
+      "value": 0.075,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 16.81689373297003,
+      "type": "weathering",
+      "date": "2026-05-05",
+      "value": 0.15,
+      "data": {
+        "idleDays": 4
+      }
+    },
+    {
+      "time": 16.89209809264305,
+      "type": "resources",
+      "date": "2026-05-06",
+      "value": 31,
+      "data": {
+        "accumulated": 135
+      }
+    },
+    {
+      "time": 16.967302452316076,
+      "type": "resources",
+      "date": "2026-05-07",
+      "value": 5,
+      "data": {
+        "accumulated": 140
+      }
+    },
+    {
+      "time": 16.967302452316076,
+      "type": "era",
+      "date": "2026-05-07",
+      "value": 140,
+      "data": {
+        "era": 3,
+        "name": "Village",
+        "threshold": 140
+      }
+    },
+    {
+      "time": 17.117711171662126,
+      "type": "resources",
+      "date": "2026-05-09",
+      "value": 4,
+      "data": {
+        "accumulated": 144
+      }
+    },
+    {
+      "time": 17.268119891008176,
+      "type": "resources",
+      "date": "2026-05-11",
+      "value": 1,
+      "data": {
+        "accumulated": 145
+      }
+    },
+    {
+      "time": 17.493732970027246,
+      "type": "resources",
+      "date": "2026-05-14",
+      "value": 1,
+      "data": {
+        "accumulated": 146
+      }
+    },
+    {
+      "time": 17.568937329700272,
+      "type": "resources",
+      "date": "2026-05-15",
+      "value": 1,
+      "data": {
+        "accumulated": 147
+      }
+    },
+    {
+      "time": 17.71934604904632,
+      "type": "resources",
+      "date": "2026-05-17",
+      "value": 2,
+      "data": {
+        "accumulated": 149
+      }
+    },
+    {
+      "time": 17.794550408719346,
+      "type": "resources",
+      "date": "2026-05-18",
+      "value": 7,
+      "data": {
+        "accumulated": 156
+      }
+    },
+    {
+      "time": 18.02016348773842,
+      "type": "weathering",
+      "date": "2026-05-21",
+      "value": 0.075,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 18.095367847411445,
+      "type": "resources",
+      "date": "2026-05-22",
+      "value": 1,
+      "data": {
+        "accumulated": 157
+      }
+    },
+    {
+      "time": 18.17057220708447,
+      "type": "resources",
+      "date": "2026-05-23",
+      "value": 1,
+      "data": {
+        "accumulated": 158
+      }
+    },
+    {
+      "time": 18.39618528610354,
+      "type": "resources",
+      "date": "2026-05-26",
+      "value": 1,
+      "data": {
+        "accumulated": 159
+      }
+    },
+    {
+      "time": 18.47138964577657,
+      "type": "resources",
+      "date": "2026-05-27",
+      "value": 17,
+      "data": {
+        "accumulated": 176
+      }
+    },
+    {
+      "time": 18.546594005449588,
+      "type": "resources",
+      "date": "2026-05-28",
+      "value": 61,
+      "data": {
+        "accumulated": 237
+      }
+    },
+    {
+      "time": 18.772207084468665,
+      "type": "weathering",
+      "date": "2026-05-31",
+      "value": 0.075,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 18.847411444141688,
+      "type": "weathering",
+      "date": "2026-06-01",
+      "value": 0.15,
+      "data": {
+        "idleDays": 4
+      }
+    },
+    {
+      "time": 18.922615803814715,
+      "type": "weathering",
+      "date": "2026-06-02",
+      "value": 0.22499999999999998,
+      "data": {
+        "idleDays": 5
+      }
+    },
+    {
+      "time": 18.997820163487738,
+      "type": "weathering",
+      "date": "2026-06-03",
+      "value": 0.3,
+      "data": {
+        "idleDays": 6
+      }
+    },
+    {
+      "time": 19.073024523160765,
+      "type": "resources",
+      "date": "2026-06-04",
+      "value": 3,
+      "data": {
+        "accumulated": 240
+      }
+    },
+    {
+      "time": 19.298637602179838,
+      "type": "weathering",
+      "date": "2026-06-07",
+      "value": 0.321,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 19.37384196185286,
+      "type": "weathering",
+      "date": "2026-06-08",
+      "value": 0.396,
+      "data": {
+        "idleDays": 4
+      }
+    },
+    {
+      "time": 19.449046321525884,
+      "type": "weathering",
+      "date": "2026-06-09",
+      "value": 0.47100000000000003,
+      "data": {
+        "idleDays": 5
+      }
+    },
+    {
+      "time": 19.52425068119891,
+      "type": "weathering",
+      "date": "2026-06-10",
+      "value": 0.546,
+      "data": {
+        "idleDays": 6
+      }
+    },
+    {
+      "time": 19.599455040871934,
+      "type": "weathering",
+      "date": "2026-06-11",
+      "value": 0.621,
+      "data": {
+        "idleDays": 7
+      }
+    },
+    {
+      "time": 19.674659400544957,
+      "type": "resources",
+      "date": "2026-06-12",
+      "value": 18,
+      "data": {
+        "accumulated": 258
+      }
+    },
+    {
+      "time": 19.825068119891007,
+      "type": "resources",
+      "date": "2026-06-14",
+      "value": 11,
+      "data": {
+        "accumulated": 269
+      }
+    },
+    {
+      "time": 20.05068119891008,
+      "type": "weathering",
+      "date": "2026-06-17",
+      "value": 0.198,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 20.125885558583107,
+      "type": "resources",
+      "date": "2026-06-18",
+      "value": 1,
+      "data": {
+        "accumulated": 270
+      }
+    },
+    {
+      "time": 20.20108991825613,
+      "type": "resources",
+      "date": "2026-06-19",
+      "value": 11,
+      "data": {
+        "accumulated": 281
+      }
+    },
+    {
+      "time": 20.276294277929154,
+      "type": "resources",
+      "date": "2026-06-20",
+      "value": 5,
+      "data": {
+        "accumulated": 286
+      }
+    },
+    {
+      "time": 20.426702997275203,
+      "type": "resources",
+      "date": "2026-06-22",
+      "value": 29,
+      "data": {
+        "accumulated": 315
+      }
+    },
+    {
+      "time": 20.652316076294277,
+      "type": "weathering",
+      "date": "2026-06-25",
+      "value": 0.075,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 20.727520435967303,
+      "type": "weathering",
+      "date": "2026-06-26",
+      "value": 0.15,
+      "data": {
+        "idleDays": 4
+      }
+    },
+    {
+      "time": 20.802724795640327,
+      "type": "weathering",
+      "date": "2026-06-27",
+      "value": 0.22499999999999998,
+      "data": {
+        "idleDays": 5
+      }
+    },
+    {
+      "time": 20.87792915531335,
+      "type": "weathering",
+      "date": "2026-06-28",
+      "value": 0.3,
+      "data": {
+        "idleDays": 6
+      }
+    },
+    {
+      "time": 20.953133514986376,
+      "type": "weathering",
+      "date": "2026-06-29",
+      "value": 0.375,
+      "data": {
+        "idleDays": 7
+      }
+    },
+    {
+      "time": 21.0283378746594,
+      "type": "weathering",
+      "date": "2026-06-30",
+      "value": 0.45,
+      "data": {
+        "idleDays": 8
+      }
+    },
+    {
+      "time": 21.103542234332423,
+      "type": "weathering",
+      "date": "2026-07-01",
+      "value": 0.525,
+      "data": {
+        "idleDays": 9
+      }
+    },
+    {
+      "time": 21.17874659400545,
+      "type": "weathering",
+      "date": "2026-07-02",
+      "value": 0.6,
+      "data": {
+        "idleDays": 10
+      }
+    },
+    {
+      "time": 21.253950953678473,
+      "type": "weathering",
+      "date": "2026-07-03",
+      "value": 0.6749999999999999,
+      "data": {
+        "idleDays": 11
+      }
+    },
+    {
+      "time": 21.3291553133515,
+      "type": "weathering",
+      "date": "2026-07-04",
+      "value": 0.7499999999999999,
+      "data": {
+        "idleDays": 12
+      }
+    },
+    {
+      "time": 21.404359673024523,
+      "type": "weathering",
+      "date": "2026-07-05",
+      "value": 0.8249999999999998,
+      "data": {
+        "idleDays": 13
+      }
+    },
+    {
+      "time": 21.479564032697546,
+      "type": "weathering",
+      "date": "2026-07-06",
+      "value": 0.8999999999999998,
+      "data": {
+        "idleDays": 14
+      }
+    },
+    {
+      "time": 21.554768392370573,
+      "type": "weathering",
+      "date": "2026-07-07",
+      "value": 0.9749999999999998,
+      "data": {
+        "idleDays": 15
+      }
+    },
+    {
+      "time": 21.6299727520436,
+      "type": "resources",
+      "date": "2026-07-08",
+      "value": 4,
+      "data": {
+        "accumulated": 319
+      }
+    },
+    {
+      "time": 21.70517711171662,
+      "type": "resources",
+      "date": "2026-07-09",
+      "value": 10,
+      "data": {
+        "accumulated": 329
+      }
+    },
+    {
+      "time": 21.780381471389646,
+      "type": "resources",
+      "date": "2026-07-10",
+      "value": 7,
+      "data": {
+        "accumulated": 336
+      }
+    },
+    {
+      "time": 21.85558583106267,
+      "type": "resources",
+      "date": "2026-07-11",
+      "value": 4,
+      "data": {
+        "accumulated": 340
+      }
+    },
+    {
+      "time": 22.00599455040872,
+      "type": "resources",
+      "date": "2026-07-13",
+      "value": 8,
+      "data": {
+        "accumulated": 348
+      }
+    },
+    {
+      "time": 22.081198910081742,
+      "type": "resources",
+      "date": "2026-07-14",
+      "value": 73,
+      "data": {
+        "accumulated": 421
+      }
+    },
+    {
+      "time": 22.081198910081742,
+      "type": "era",
+      "date": "2026-07-14",
+      "value": 421,
+      "data": {
+        "era": 4,
+        "name": "Town",
+        "threshold": 420
+      }
+    },
+    {
+      "time": 22.15640326975477,
+      "type": "resources",
+      "date": "2026-07-15",
+      "value": 295,
+      "data": {
+        "accumulated": 716
+      }
+    },
+    {
+      "time": 22.231607629427792,
+      "type": "resources",
+      "date": "2026-07-16",
+      "value": 374,
+      "data": {
+        "accumulated": 1090
+      }
+    },
+    {
+      "time": 22.231607629427792,
+      "type": "era",
+      "date": "2026-07-16",
+      "value": 1090,
+      "data": {
+        "era": 5,
+        "name": "Industry",
+        "threshold": 1000
+      }
+    },
+    {
+      "time": 22.306811989100815,
+      "type": "resources",
+      "date": "2026-07-17",
+      "value": 287,
+      "data": {
+        "accumulated": 1377
+      }
+    },
+    {
+      "time": 22.382016348773842,
+      "type": "resources",
+      "date": "2026-07-18",
+      "value": 46,
+      "data": {
+        "accumulated": 1423
+      }
+    },
+    {
+      "time": 22.45722070844687,
+      "type": "resources",
+      "date": "2026-07-19",
+      "value": 41,
+      "data": {
+        "accumulated": 1464
+      }
+    },
+    {
+      "time": 22.532425068119892,
+      "type": "resources",
+      "date": "2026-07-20",
+      "value": 84,
+      "data": {
+        "accumulated": 1548
+      }
+    },
+    {
+      "time": 22.607629427792915,
+      "type": "resources",
+      "date": "2026-07-21",
+      "value": 56,
+      "data": {
+        "accumulated": 1604
+      }
+    },
+    {
+      "time": 22.68283378746594,
+      "type": "resources",
+      "date": "2026-07-22",
+      "value": 54,
+      "data": {
+        "accumulated": 1658
+      }
+    },
+    {
+      "time": 22.758038147138965,
+      "type": "resources",
+      "date": "2026-07-23",
+      "value": 34,
+      "data": {
+        "accumulated": 1692
+      }
+    },
+    {
+      "time": 22.833242506811988,
+      "type": "resources",
+      "date": "2026-07-24",
+      "value": 77,
+      "data": {
+        "accumulated": 1769
+      }
+    },
+    {
+      "time": 22.90844686648501,
+      "type": "resources",
+      "date": "2026-07-25",
+      "value": 98,
+      "data": {
+        "accumulated": 1867
+      }
+    },
+    {
+      "time": 22.983651226158038,
+      "type": "resources",
+      "date": "2026-07-26",
+      "value": 205,
+      "data": {
+        "accumulated": 2072
+      }
+    },
+    {
+      "time": 23.058855585831065,
+      "type": "resources",
+      "date": "2026-07-27",
+      "value": 232,
+      "data": {
+        "accumulated": 2304
+      }
+    },
+    {
+      "time": 23.058855585831065,
+      "type": "era",
+      "date": "2026-07-27",
+      "value": 2304,
+      "data": {
+        "era": 6,
+        "name": "Space",
+        "threshold": 2200
+      }
+    },
+    {
+      "time": 23.134059945504085,
+      "type": "resources",
+      "date": "2026-07-28",
+      "value": 211,
+      "data": {
+        "accumulated": 2515
+      }
+    },
+    {
+      "time": 23.20926430517711,
+      "type": "resources",
+      "date": "2026-07-29",
+      "value": 121,
+      "data": {
+        "accumulated": 2636
+      }
+    },
+    {
+      "time": 23.284468664850138,
+      "type": "resources",
+      "date": "2026-07-30",
+      "value": 132,
+      "data": {
+        "accumulated": 2768
+      }
+    },
+    {
+      "time": 23.35967302452316,
+      "type": "resources",
+      "date": "2026-07-31",
+      "value": 78,
+      "data": {
+        "accumulated": 2846
+      }
+    },
+    {
+      "time": 23.434877384196184,
+      "type": "resources",
+      "date": "2026-08-01",
+      "value": 70,
+      "data": {
+        "accumulated": 2916
+      }
+    },
+    {
+      "time": 23.510081743869208,
+      "type": "resources",
+      "date": "2026-08-02",
+      "value": 147,
+      "data": {
+        "accumulated": 3063
+      }
+    },
+    {
+      "time": 23.585286103542234,
+      "type": "resources",
+      "date": "2026-08-03",
+      "value": 53,
+      "data": {
+        "accumulated": 3116
+      }
+    },
+    {
+      "time": 23.66049046321526,
+      "type": "resources",
+      "date": "2026-08-04",
+      "value": 90,
+      "data": {
+        "accumulated": 3206
+      }
+    },
+    {
+      "time": 23.73569482288828,
+      "type": "resources",
+      "date": "2026-08-05",
+      "value": 87,
+      "data": {
+        "accumulated": 3293
+      }
+    },
+    {
+      "time": 23.810899182561307,
+      "type": "resources",
+      "date": "2026-08-06",
+      "value": 114,
+      "data": {
+        "accumulated": 3407
+      }
+    },
+    {
+      "time": 23.886103542234334,
+      "type": "resources",
+      "date": "2026-08-07",
+      "value": 44,
+      "data": {
+        "accumulated": 3451
+      }
+    },
+    {
+      "time": 23.961307901907357,
+      "type": "resources",
+      "date": "2026-08-08",
+      "value": 30,
+      "data": {
+        "accumulated": 3481
+      }
+    },
+    {
+      "time": 24.03651226158038,
+      "type": "resources",
+      "date": "2026-08-09",
+      "value": 146,
+      "data": {
+        "accumulated": 3627
+      }
+    },
+    {
+      "time": 24.111716621253407,
+      "type": "resources",
+      "date": "2026-08-10",
+      "value": 84,
+      "data": {
+        "accumulated": 3711
+      }
+    },
+    {
+      "time": 24.18692098092643,
+      "type": "resources",
+      "date": "2026-08-11",
+      "value": 113,
+      "data": {
+        "accumulated": 3824
+      }
+    },
+    {
+      "time": 24.262125340599454,
+      "type": "resources",
+      "date": "2026-08-12",
+      "value": 261,
+      "data": {
+        "accumulated": 4085
+      }
+    },
+    {
+      "time": 24.337329700272477,
+      "type": "resources",
+      "date": "2026-08-13",
+      "value": 482,
+      "data": {
+        "accumulated": 4567
+      }
+    },
+    {
+      "time": 24.412534059945504,
+      "type": "resources",
+      "date": "2026-08-14",
+      "value": 134,
+      "data": {
+        "accumulated": 4701
+      }
+    },
+    {
+      "time": 24.48773841961853,
+      "type": "resources",
+      "date": "2026-08-15",
+      "value": 391,
+      "data": {
+        "accumulated": 5092
+      }
+    },
+    {
+      "time": 24.56294277929155,
+      "type": "resources",
+      "date": "2026-08-16",
+      "value": 306,
+      "data": {
+        "accumulated": 5398
+      }
+    },
+    {
+      "time": 24.638147138964577,
+      "type": "resources",
+      "date": "2026-08-17",
+      "value": 212,
+      "data": {
+        "accumulated": 5610
+      }
+    },
+    {
+      "time": 24.713351498637603,
+      "type": "resources",
+      "date": "2026-08-18",
+      "value": 244,
+      "data": {
+        "accumulated": 5854
+      }
+    },
+    {
+      "time": 24.788555858310627,
+      "type": "resources",
+      "date": "2026-08-19",
+      "value": 307,
+      "data": {
+        "accumulated": 6161
+      }
+    },
+    {
+      "time": 24.86376021798365,
+      "type": "resources",
+      "date": "2026-08-20",
+      "value": 478,
+      "data": {
+        "accumulated": 6639
+      }
+    },
+    {
+      "time": 24.938964577656677,
+      "type": "resources",
+      "date": "2026-08-21",
+      "value": 99,
+      "data": {
+        "accumulated": 6738
+      }
+    },
+    {
+      "time": 25.0141689373297,
+      "type": "resources",
+      "date": "2026-08-22",
+      "value": 220,
+      "data": {
+        "accumulated": 6958
+      }
+    },
+    {
+      "time": 25.089373297002727,
+      "type": "resources",
+      "date": "2026-08-23",
+      "value": 80,
+      "data": {
+        "accumulated": 7038
+      }
+    },
+    {
+      "time": 25.164577656675746,
+      "type": "resources",
+      "date": "2026-08-24",
+      "value": 78,
+      "data": {
+        "accumulated": 7116
+      }
+    },
+    {
+      "time": 25.239782016348773,
+      "type": "resources",
+      "date": "2026-08-25",
+      "value": 52,
+      "data": {
+        "accumulated": 7168
+      }
+    },
+    {
+      "time": 25.3149863760218,
+      "type": "resources",
+      "date": "2026-08-26",
+      "value": 120,
+      "data": {
+        "accumulated": 7288
+      }
+    },
+    {
+      "time": 25.390190735694823,
+      "type": "resources",
+      "date": "2026-08-27",
+      "value": 136,
+      "data": {
+        "accumulated": 7424
+      }
+    },
+    {
+      "time": 25.465395095367846,
+      "type": "resources",
+      "date": "2026-08-28",
+      "value": 17,
+      "data": {
+        "accumulated": 7441
+      }
+    },
+    {
+      "time": 25.540599455040873,
+      "type": "resources",
+      "date": "2026-08-29",
+      "value": 81,
+      "data": {
+        "accumulated": 7522
+      }
+    },
+    {
+      "time": 25.615803814713896,
+      "type": "resources",
+      "date": "2026-08-30",
+      "value": 115,
+      "data": {
+        "accumulated": 7637
+      }
+    },
+    {
+      "time": 25.691008174386923,
+      "type": "resources",
+      "date": "2026-08-31",
+      "value": 53,
+      "data": {
+        "accumulated": 7690
+      }
+    },
+    {
+      "time": 25.766212534059946,
+      "type": "resources",
+      "date": "2026-09-01",
+      "value": 135,
+      "data": {
+        "accumulated": 7825
+      }
+    },
+    {
+      "time": 25.84141689373297,
+      "type": "resources",
+      "date": "2026-09-02",
+      "value": 42,
+      "data": {
+        "accumulated": 7867
+      }
+    },
+    {
+      "time": 25.916621253405996,
+      "type": "resources",
+      "date": "2026-09-03",
+      "value": 37,
+      "data": {
+        "accumulated": 7904
+      }
+    },
+    {
+      "time": 25.99182561307902,
+      "type": "resources",
+      "date": "2026-09-04",
+      "value": 5,
+      "data": {
+        "accumulated": 7909
+      }
+    },
+    {
+      "time": 26.067029972752042,
+      "type": "resources",
+      "date": "2026-09-05",
+      "value": 60,
+      "data": {
+        "accumulated": 7969
+      }
+    },
+    {
+      "time": 26.14223433242507,
+      "type": "resources",
+      "date": "2026-09-06",
+      "value": 87,
+      "data": {
+        "accumulated": 8056
+      }
+    },
+    {
+      "time": 26.217438692098092,
+      "type": "resources",
+      "date": "2026-09-07",
+      "value": 102,
+      "data": {
+        "accumulated": 8158
+      }
+    },
+    {
+      "time": 26.292643051771115,
+      "type": "resources",
+      "date": "2026-09-08",
+      "value": 94,
+      "data": {
+        "accumulated": 8252
+      }
+    },
+    {
+      "time": 26.367847411444142,
+      "type": "resources",
+      "date": "2026-09-09",
+      "value": 103,
+      "data": {
+        "accumulated": 8355
+      }
+    },
+    {
+      "time": 26.443051771117165,
+      "type": "resources",
+      "date": "2026-09-10",
+      "value": 149,
+      "data": {
+        "accumulated": 8504
+      }
+    },
+    {
+      "time": 26.518256130790192,
+      "type": "resources",
+      "date": "2026-09-11",
+      "value": 136,
+      "data": {
+        "accumulated": 8640
+      }
+    },
+    {
+      "time": 26.593460490463215,
+      "type": "resources",
+      "date": "2026-09-12",
+      "value": 197,
+      "data": {
+        "accumulated": 8837
+      }
+    },
+    {
+      "time": 26.66866485013624,
+      "type": "resources",
+      "date": "2026-09-13",
+      "value": 41,
+      "data": {
+        "accumulated": 8878
+      }
+    },
+    {
+      "time": 26.743869209809265,
+      "type": "resources",
+      "date": "2026-09-14",
+      "value": 119,
+      "data": {
+        "accumulated": 8997
+      }
+    },
+    {
+      "time": 26.819073569482292,
+      "type": "resources",
+      "date": "2026-09-15",
+      "value": 113,
+      "data": {
+        "accumulated": 9110
+      }
+    },
+    {
+      "time": 26.89427792915531,
+      "type": "resources",
+      "date": "2026-09-16",
+      "value": 154,
+      "data": {
+        "accumulated": 9264
+      }
+    },
+    {
+      "time": 26.96948228882834,
+      "type": "resources",
+      "date": "2026-09-17",
+      "value": 50,
+      "data": {
+        "accumulated": 9314
+      }
+    },
+    {
+      "time": 27.04468664850136,
+      "type": "resources",
+      "date": "2026-09-18",
+      "value": 33,
+      "data": {
+        "accumulated": 9347
+      }
+    },
+    {
+      "time": 27.11989100817439,
+      "type": "resources",
+      "date": "2026-09-19",
+      "value": 244,
+      "data": {
+        "accumulated": 9591
+      }
+    },
+    {
+      "time": 27.19509536784741,
+      "type": "resources",
+      "date": "2026-09-20",
+      "value": 212,
+      "data": {
+        "accumulated": 9803
+      }
+    },
+    {
+      "time": 27.270299727520435,
+      "type": "resources",
+      "date": "2026-09-21",
+      "value": 217,
+      "data": {
+        "accumulated": 10020
+      }
+    },
+    {
+      "time": 27.34550408719346,
+      "type": "resources",
+      "date": "2026-09-22",
+      "value": 157,
+      "data": {
+        "accumulated": 10177
+      }
+    },
+    {
+      "time": 27.420708446866485,
+      "type": "resources",
+      "date": "2026-09-23",
+      "value": 16,
+      "data": {
+        "accumulated": 10193
+      }
+    },
+    {
+      "time": 27.495912806539508,
+      "type": "resources",
+      "date": "2026-09-24",
+      "value": 259,
+      "data": {
+        "accumulated": 10452
+      }
+    },
+    {
+      "time": 27.571117166212534,
+      "type": "resources",
+      "date": "2026-09-25",
+      "value": 167,
+      "data": {
+        "accumulated": 10619
+      }
+    },
+    {
+      "time": 27.64632152588556,
+      "type": "resources",
+      "date": "2026-09-26",
+      "value": 156,
+      "data": {
+        "accumulated": 10775
+      }
+    },
+    {
+      "time": 27.72152588555858,
+      "type": "resources",
+      "date": "2026-09-27",
+      "value": 52,
+      "data": {
+        "accumulated": 10827
+      }
+    },
+    {
+      "time": 27.796730245231608,
+      "type": "resources",
+      "date": "2026-09-28",
+      "value": 42,
+      "data": {
+        "accumulated": 10869
+      }
+    },
+    {
+      "time": 27.87193460490463,
+      "type": "resources",
+      "date": "2026-09-29",
+      "value": 111,
+      "data": {
+        "accumulated": 10980
+      }
+    },
+    {
+      "time": 27.947138964577658,
+      "type": "resources",
+      "date": "2026-09-30",
+      "value": 34,
+      "data": {
+        "accumulated": 11014
+      }
+    },
+    {
+      "time": 28.02234332425068,
+      "type": "resources",
+      "date": "2026-10-01",
+      "value": 14,
+      "data": {
+        "accumulated": 11028
+      }
+    },
+    {
+      "time": 28.097547683923704,
+      "type": "resources",
+      "date": "2026-10-02",
+      "value": 238,
+      "data": {
+        "accumulated": 11266
+      }
+    },
+    {
+      "time": 28.17275204359673,
+      "type": "resources",
+      "date": "2026-10-03",
+      "value": 135,
+      "data": {
+        "accumulated": 11401
+      }
+    },
+    {
+      "time": 28.247956403269757,
+      "type": "resources",
+      "date": "2026-10-04",
+      "value": 93,
+      "data": {
+        "accumulated": 11494
+      }
+    },
+    {
+      "time": 28.323160762942777,
+      "type": "resources",
+      "date": "2026-10-05",
+      "value": 146,
+      "data": {
+        "accumulated": 11640
+      }
+    },
+    {
+      "time": 28.398365122615804,
+      "type": "resources",
+      "date": "2026-10-06",
+      "value": 362,
+      "data": {
+        "accumulated": 12002
+      }
+    },
+    {
+      "time": 28.47356948228883,
+      "type": "resources",
+      "date": "2026-10-07",
+      "value": 319,
+      "data": {
+        "accumulated": 12321
+      }
+    },
+    {
+      "time": 28.548773841961854,
+      "type": "resources",
+      "date": "2026-10-08",
+      "value": 229,
+      "data": {
+        "accumulated": 12550
+      }
+    },
+    {
+      "time": 28.623978201634877,
+      "type": "resources",
+      "date": "2026-10-09",
+      "value": 243,
+      "data": {
+        "accumulated": 12793
+      }
+    },
+    {
+      "time": 28.6991825613079,
+      "type": "resources",
+      "date": "2026-10-10",
+      "value": 294,
+      "data": {
+        "accumulated": 13087
+      }
+    },
+    {
+      "time": 28.774386920980927,
+      "type": "resources",
+      "date": "2026-10-11",
+      "value": 322,
+      "data": {
+        "accumulated": 13409
+      }
+    },
+    {
+      "time": 28.84959128065395,
+      "type": "resources",
+      "date": "2026-10-12",
+      "value": 158,
+      "data": {
+        "accumulated": 13567
+      }
+    },
+    {
+      "time": 28.924795640326973,
+      "type": "resources",
+      "date": "2026-10-13",
+      "value": 206,
+      "data": {
+        "accumulated": 13773
+      }
+    },
+    {
+      "time": 29,
+      "type": "resources",
+      "date": "2026-10-14",
+      "value": 178,
+      "data": {
+        "accumulated": 13951
+      }
+    }
+  ]
+}

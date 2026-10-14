@@ -1,0 +1,5814 @@
+{
+  "username": "N0zoM1z0",
+  "id": "pacman",
+  "duration": 15.985493621734388,
+  "metrics": {
+    "pellets": 138,
+    "contributions": 13951,
+    "ghosts": 3,
+    "ordering": "contribution-count"
+  },
+  "checkpoints": [
+    1.4,
+    8.312456683301882,
+    13.985493621734388
+  ],
+  "events": [
+    {
+      "time": 1.15,
+      "type": "pellet",
+      "date": "2025-11-03",
+      "value": 1,
+      "data": {
+        "column": 0,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 1.265,
+      "type": "pellet",
+      "date": "2026-02-09",
+      "value": 1,
+      "data": {
+        "column": 1,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 1.38,
+      "type": "pellet",
+      "date": "2026-02-15",
+      "value": 1,
+      "data": {
+        "column": 2,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 1.4949999999999999,
+      "type": "pellet",
+      "date": "2026-02-22",
+      "value": 1,
+      "data": {
+        "column": 3,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 1.6099999999999999,
+      "type": "pellet",
+      "date": "2026-02-24",
+      "value": 1,
+      "data": {
+        "column": 4,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 1.7249999999999999,
+      "type": "pellet",
+      "date": "2026-03-30",
+      "value": 1,
+      "data": {
+        "column": 5,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 1.835047846889952,
+      "type": "pellet",
+      "date": "2026-04-21",
+      "value": 1,
+      "data": {
+        "column": 6,
+        "row": 0,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 1.8499999999999999,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 70,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 1.950047846889952,
+      "type": "pellet",
+      "date": "2026-04-25",
+      "value": 1,
+      "data": {
+        "column": 7,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 1.9649999999999999,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 119,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 2.060095693779904,
+      "type": "pellet",
+      "date": "2026-05-01",
+      "value": 1,
+      "data": {
+        "column": 8,
+        "row": 0,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 2.08,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 168,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 2.1750956937799044,
+      "type": "pellet",
+      "date": "2026-05-11",
+      "value": 1,
+      "data": {
+        "column": 9,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 2.195,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 217,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 2.2900956937799046,
+      "type": "pellet",
+      "date": "2026-05-14",
+      "value": 1,
+      "data": {
+        "column": 10,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 2.3,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 70,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 2.3099999999999996,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 266,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 2.400143540669857,
+      "type": "pellet",
+      "date": "2026-05-15",
+      "value": 1,
+      "data": {
+        "column": 11,
+        "row": 0,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 2.415,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 119,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 2.425,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 315,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 2.515143540669857,
+      "type": "pellet",
+      "date": "2026-05-22",
+      "value": 1,
+      "data": {
+        "column": 12,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 2.53,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 168,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 2.535047846889952,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 364,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 2.625191387559809,
+      "type": "pellet",
+      "date": "2026-05-23",
+      "value": 1,
+      "data": {
+        "column": 13,
+        "row": 0,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 2.6449999999999996,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 217,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 2.6500478468899518,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 413,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 2.7401913875598094,
+      "type": "pellet",
+      "date": "2026-05-26",
+      "value": 1,
+      "data": {
+        "column": 14,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 2.75,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 70,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 2.76,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 266,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 2.7600956937799044,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 462,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 2.8551913875598096,
+      "type": "pellet",
+      "date": "2026-06-18",
+      "value": 1,
+      "data": {
+        "column": 15,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 2.865,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 119,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 2.875,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 315,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 2.8750956937799046,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 511,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 2.97019138755981,
+      "type": "pellet",
+      "date": "2026-02-20",
+      "value": 2,
+      "data": {
+        "column": 16,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 2.98,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 168,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 2.9850478468899517,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 364,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 2.990095693779905,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 560,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 3.080239234449762,
+      "type": "pellet",
+      "date": "2026-04-28",
+      "value": 2,
+      "data": {
+        "column": 17,
+        "row": 0,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 3.0949999999999998,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 217,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 3.100047846889952,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 413,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 3.1001435406698565,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 609,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 3.195239234449762,
+      "type": "pellet",
+      "date": "2026-05-17",
+      "value": 2,
+      "data": {
+        "column": 18,
+        "row": 0,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 3.21,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 266,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 3.210095693779904,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 462,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 3.2151435406698567,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 658,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 3.3052870813397144,
+      "type": "pellet",
+      "date": "2026-04-18",
+      "value": 3,
+      "data": {
+        "column": 19,
+        "row": 0,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 3.325,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 315,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 3.3250956937799043,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 511,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 3.3251913875598094,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 707,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 3.4202870813397146,
+      "type": "pellet",
+      "date": "2026-06-04",
+      "value": 3,
+      "data": {
+        "column": 19,
+        "row": 1,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 3.435047846889952,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 364,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 3.4400956937799045,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 560,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 3.4401913875598096,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 756,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 3.535287081339715,
+      "type": "pellet",
+      "date": "2026-04-20",
+      "value": 4,
+      "data": {
+        "column": 18,
+        "row": 1,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 3.550047846889952,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 413,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 3.5501435406698567,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 609,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 3.55519138755981,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 805,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 3.650287081339715,
+      "type": "pellet",
+      "date": "2026-05-09",
+      "value": 4,
+      "data": {
+        "column": 17,
+        "row": 1,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 3.6600956937799043,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 462,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 3.665143540669857,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 658,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 3.67019138755981,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 854,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 3.7652870813397152,
+      "type": "pellet",
+      "date": "2026-07-08",
+      "value": 4,
+      "data": {
+        "column": 16,
+        "row": 1,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 3.7750956937799045,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 511,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 3.775191387559809,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 707,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 3.7802392344497617,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 903,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 3.866608667242799,
+      "type": "pellet",
+      "date": "2026-07-11",
+      "value": 4,
+      "data": {
+        "column": 15,
+        "row": 1,
+        "streak": 4,
+        "secondsPerCell": 0.10132158590308371
+      }
+    },
+    {
+      "time": 3.8900956937799047,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 560,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 3.8901913875598093,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 756,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 3.895239234449762,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 952,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 3.9816086672427993,
+      "type": "pellet",
+      "date": "2026-04-17",
+      "value": 5,
+      "data": {
+        "column": 14,
+        "row": 1,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 4.000143540669857,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 609,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 4.00519138755981,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 805,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 4.005287081339715,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 1001,
+        "y": 137,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 4.091656514132751,
+      "type": "pellet",
+      "date": "2026-05-07",
+      "value": 5,
+      "data": {
+        "column": 13,
+        "row": 1,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 4.115143540669857,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 658,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 4.12019138755981,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 854,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 4.120287081339715,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 1001,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 4.197161101288715,
+      "type": "pellet",
+      "date": "2026-06-20",
+      "value": 5,
+      "data": {
+        "column": 12,
+        "row": 1,
+        "streak": 3,
+        "secondsPerCell": 0.1055045871559633
+      }
+    },
+    {
+      "time": 4.225191387559809,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 707,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 4.230239234449762,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 903,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 4.235287081339715,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 952,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 4.267713248527978,
+      "type": "pellet",
+      "date": "2026-09-04",
+      "value": 5,
+      "data": {
+        "column": 11,
+        "row": 1,
+        "streak": 54,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 4.340191387559809,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 756,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 4.345239234449762,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 952,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 4.350287081339715,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 903,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 4.377761095417931,
+      "type": "pellet",
+      "date": "2026-05-18",
+      "value": 7,
+      "data": {
+        "column": 10,
+        "row": 1,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 4.455191387559809,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 805,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 4.455287081339714,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 1001,
+        "y": 137,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 4.465287081339715,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 854,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 4.483265682573895,
+      "type": "pellet",
+      "date": "2026-07-10",
+      "value": 7,
+      "data": {
+        "column": 9,
+        "row": 1,
+        "streak": 3,
+        "secondsPerCell": 0.1055045871559633
+      }
+    },
+    {
+      "time": 4.566608667242799,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 805,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 4.5701913875598095,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 854,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 4.570287081339714,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 1001,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 4.593313529463847,
+      "type": "pellet",
+      "date": "2026-03-14",
+      "value": 8,
+      "data": {
+        "column": 8,
+        "row": 1,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 4.680239234449762,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 903,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 4.6816086672427994,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 756,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 4.685287081339714,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 952,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 4.708313529463847,
+      "type": "pellet",
+      "date": "2026-07-13",
+      "value": 8,
+      "data": {
+        "column": 7,
+        "row": 1,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 4.791656514132751,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 707,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 4.795239234449762,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 952,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 4.8002870813397145,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 903,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 4.818361376353799,
+      "type": "pellet",
+      "date": "2026-07-09",
+      "value": 10,
+      "data": {
+        "column": 6,
+        "row": 1,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 4.897161101288715,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 658,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 4.905287081339715,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 1001,
+        "y": 137,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 4.915287081339715,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 854,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 4.933361376353799,
+      "type": "pellet",
+      "date": "2026-06-14",
+      "value": 11,
+      "data": {
+        "column": 5,
+        "row": 1,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 4.9677132485279785,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 609,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 5.016608667242799,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 805,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 5.020287081339715,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 1001,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 5.043409223243751,
+      "type": "pellet",
+      "date": "2026-06-19",
+      "value": 11,
+      "data": {
+        "column": 4,
+        "row": 1,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 5.077761095417931,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 560,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 5.1316086672428,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 756,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 5.135287081339715,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 952,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 5.144730809146835,
+      "type": "pellet",
+      "date": "2026-04-23",
+      "value": 12,
+      "data": {
+        "column": 3,
+        "row": 1,
+        "streak": 4,
+        "secondsPerCell": 0.10132158590308371
+      }
+    },
+    {
+      "time": 5.183265682573895,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 511,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 5.241656514132751,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 707,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 5.2502870813397156,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 903,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 5.259730809146835,
+      "type": "pellet",
+      "date": "2026-04-27",
+      "value": 12,
+      "data": {
+        "column": 2,
+        "row": 1,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 5.293313529463847,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 462,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 5.347161101288714,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 658,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 5.365235396302799,
+      "type": "pellet",
+      "date": "2026-04-22",
+      "value": 13,
+      "data": {
+        "column": 1,
+        "row": 1,
+        "streak": 3,
+        "secondsPerCell": 0.1055045871559633
+      }
+    },
+    {
+      "time": 5.365287081339716,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 854,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 5.408313529463848,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 413,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 5.417713248527978,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 609,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 5.435787543542062,
+      "type": "pellet",
+      "date": "2026-10-01",
+      "value": 14,
+      "data": {
+        "column": 0,
+        "row": 1,
+        "streak": 81,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 5.466608667242799,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 805,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 5.518361376353799,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 364,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 5.527761095417931,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 560,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 5.550787543542063,
+      "type": "pellet",
+      "date": "2026-03-13",
+      "value": 16,
+      "data": {
+        "column": 0,
+        "row": 2,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 5.581608667242799,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 756,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 5.621339690781326,
+      "type": "pellet",
+      "date": "2026-09-23",
+      "value": 16,
+      "data": {
+        "column": 1,
+        "row": 2,
+        "streak": 73,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 5.633265682573894,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 511,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 5.6333613763537995,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 315,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 5.691656514132751,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 707,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 5.731387537671278,
+      "type": "pellet",
+      "date": "2026-05-27",
+      "value": 17,
+      "data": {
+        "column": 2,
+        "row": 2,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 5.7433135294638475,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 462,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 5.743409223243751,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 266,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 5.797161101288715,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 658,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 5.801939684910542,
+      "type": "pellet",
+      "date": "2026-08-28",
+      "value": 17,
+      "data": {
+        "column": 3,
+        "row": 2,
+        "streak": 47,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 5.844730809146835,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 217,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 5.858313529463848,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 413,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 5.867713248527979,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 609,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 5.916939684910542,
+      "type": "pellet",
+      "date": "2026-04-30",
+      "value": 18,
+      "data": {
+        "column": 4,
+        "row": 2,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 5.959730809146835,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 168,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 5.9683613763537995,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 364,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 5.9777610954179305,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 560,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 6.031939684910542,
+      "type": "pellet",
+      "date": "2026-06-12",
+      "value": 18,
+      "data": {
+        "column": 5,
+        "row": 2,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 6.065235396302799,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 119,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 6.083265682573895,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 511,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 6.0833613763538,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 315,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 6.135787543542063,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 70,
+        "y": 164,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 6.146939684910542,
+      "type": "pellet",
+      "date": "2026-06-22",
+      "value": 29,
+      "data": {
+        "column": 6,
+        "row": 2,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 6.193313529463847,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 462,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 6.193409223243751,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 266,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 6.217491832149806,
+      "type": "pellet",
+      "date": "2026-08-08",
+      "value": 30,
+      "data": {
+        "column": 7,
+        "row": 2,
+        "streak": 27,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 6.250787543542063,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 70,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 6.294730809146834,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 217,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 6.308313529463847,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 413,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 6.321339690781326,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 119,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 6.332491832149806,
+      "type": "pellet",
+      "date": "2026-05-06",
+      "value": 31,
+      "data": {
+        "column": 8,
+        "row": 2,
+        "streak": 1,
+        "secondsPerCell": 0.115
+      }
+    },
+    {
+      "time": 6.40304397938907,
+      "type": "pellet",
+      "date": "2026-09-18",
+      "value": 33,
+      "data": {
+        "column": 9,
+        "row": 2,
+        "streak": 68,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 6.409730809146835,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 168,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 6.418361376353799,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 364,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 6.431387537671278,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 168,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 6.482354324216656,
+      "type": "pellet",
+      "date": "2026-07-23",
+      "value": 34,
+      "data": {
+        "column": 10,
+        "row": 2,
+        "streak": 11,
+        "secondsPerCell": 0.07931034482758621
+      }
+    },
+    {
+      "time": 6.501939684910542,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 217,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 6.515235396302799,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 119,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 6.533361376353799,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 315,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 6.55290647145592,
+      "type": "pellet",
+      "date": "2026-09-30",
+      "value": 34,
+      "data": {
+        "column": 11,
+        "row": 2,
+        "streak": 80,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 6.585787543542063,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 70,
+        "y": 164,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 6.616939684910542,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 266,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 6.623458618695183,
+      "type": "pellet",
+      "date": "2026-09-03",
+      "value": 37,
+      "data": {
+        "column": 12,
+        "row": 2,
+        "streak": 53,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 6.643409223243751,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 266,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 6.700787543542063,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 70,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 6.714009799797545,
+      "type": "pellet",
+      "date": "2026-07-19",
+      "value": 41,
+      "data": {
+        "column": 13,
+        "row": 2,
+        "streak": 7,
+        "secondsPerCell": 0.09055118110236221
+      }
+    },
+    {
+      "time": 6.731939684910542,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 315,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 6.744730809146835,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 217,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 6.771339690781327,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 119,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 6.784561947036809,
+      "type": "pellet",
+      "date": "2026-09-13",
+      "value": 41,
+      "data": {
+        "column": 14,
+        "row": 2,
+        "streak": 63,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 6.846939684910542,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 364,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 6.855114094276073,
+      "type": "pellet",
+      "date": "2026-09-02",
+      "value": 42,
+      "data": {
+        "column": 15,
+        "row": 2,
+        "streak": 52,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 6.859730809146836,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 168,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 6.881387537671278,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 168,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 6.917491832149806,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 413,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 6.925666241515336,
+      "type": "pellet",
+      "date": "2026-09-28",
+      "value": 42,
+      "data": {
+        "column": 16,
+        "row": 2,
+        "streak": 78,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 6.951939684910542,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 217,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 6.965235396302798,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 119,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 6.9962183887546,
+      "type": "pellet",
+      "date": "2026-08-07",
+      "value": 44,
+      "data": {
+        "column": 17,
+        "row": 2,
+        "streak": 26,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 7.032491832149806,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 462,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.035787543542062,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 70,
+        "y": 164,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 7.066939684910542,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 266,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 7.090095939775008,
+      "type": "pellet",
+      "date": "2026-07-18",
+      "value": 46,
+      "data": {
+        "column": 18,
+        "row": 2,
+        "streak": 6,
+        "secondsPerCell": 0.09387755102040816
+      }
+    },
+    {
+      "time": 7.10304397938907,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 511,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.150787543542062,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 70,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 7.1606480870142715,
+      "type": "pellet",
+      "date": "2026-09-17",
+      "value": 50,
+      "data": {
+        "column": 19,
+        "row": 2,
+        "streak": 67,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 7.181939684910542,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 315,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 7.182354324216656,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 560,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.221339690781326,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 119,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 7.231200234253535,
+      "type": "pellet",
+      "date": "2026-08-25",
+      "value": 52,
+      "data": {
+        "column": 19,
+        "row": 3,
+        "streak": 44,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 7.25290647145592,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 609,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.296939684910543,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 364,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 7.301752381492799,
+      "type": "pellet",
+      "date": "2026-09-27",
+      "value": 52,
+      "data": {
+        "column": 18,
+        "row": 3,
+        "streak": 77,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 7.3234586186951836,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 658,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.331387537671278,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 168,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 7.367491832149806,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 413,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 7.372304528732062,
+      "type": "pellet",
+      "date": "2026-08-03",
+      "value": 53,
+      "data": {
+        "column": 17,
+        "row": 3,
+        "streak": 22,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 7.401939684910541,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 217,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 7.414009799797546,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 707,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.442856675971326,
+      "type": "pellet",
+      "date": "2026-08-31",
+      "value": 53,
+      "data": {
+        "column": 16,
+        "row": 3,
+        "streak": 50,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 7.482491832149806,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 462,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 7.484561947036809,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 756,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.516939684910541,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 266,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 7.524707209779155,
+      "type": "pellet",
+      "date": "2026-07-22",
+      "value": 54,
+      "data": {
+        "column": 15,
+        "row": 3,
+        "streak": 10,
+        "secondsPerCell": 0.08185053380782918
+      }
+    },
+    {
+      "time": 7.55304397938907,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 511,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 7.555114094276073,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 805,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.609266033308567,
+      "type": "pellet",
+      "date": "2026-07-21",
+      "value": 56,
+      "data": {
+        "column": 14,
+        "row": 3,
+        "streak": 9,
+        "secondsPerCell": 0.08455882352941177
+      }
+    },
+    {
+      "time": 7.6256662415153365,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 854,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.631939684910542,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 315,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 7.6323543242166565,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 560,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 7.679818180547831,
+      "type": "pellet",
+      "date": "2026-09-05",
+      "value": 60,
+      "data": {
+        "column": 13,
+        "row": 3,
+        "streak": 55,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 7.6962183887546,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 903,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.70290647145592,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 609,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 7.746939684910542,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 364,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 7.773458618695184,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 658,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 7.785322767703795,
+      "type": "pellet",
+      "date": "2026-05-28",
+      "value": 61,
+      "data": {
+        "column": 12,
+        "row": 3,
+        "streak": 3,
+        "secondsPerCell": 0.1055045871559633
+      }
+    },
+    {
+      "time": 7.790095939775008,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 952,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.8174918321498055,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 413,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 7.855874914943058,
+      "type": "pellet",
+      "date": "2026-08-01",
+      "value": 70,
+      "data": {
+        "column": 11,
+        "row": 3,
+        "streak": 20,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 7.860648087014272,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 1001,
+        "y": 191,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.864009799797545,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 707,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 7.931200234253535,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 1001,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 7.932491832149806,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 462,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 7.9345619470368085,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 756,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 7.96592276183301,
+      "type": "pellet",
+      "date": "2026-07-14",
+      "value": 73,
+      "data": {
+        "column": 10,
+        "row": 3,
+        "streak": 2,
+        "secondsPerCell": 0.11004784688995217
+      }
+    },
+    {
+      "time": 8.001752381492798,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 952,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.00304397938907,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 511,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.005114094276072,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 805,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.042845838756087,
+      "type": "pellet",
+      "date": "2026-07-24",
+      "value": 77,
+      "data": {
+        "column": 9,
+        "row": 3,
+        "streak": 12,
+        "secondsPerCell": 0.07692307692307693
+      }
+    },
+    {
+      "time": 8.072304528732062,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 903,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.075666241515336,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 854,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.082354324216656,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 560,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.11339798599535,
+      "type": "pellet",
+      "date": "2026-07-31",
+      "value": 78,
+      "data": {
+        "column": 8,
+        "row": 3,
+        "streak": 19,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 8.142856675971325,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 854,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.1462183887546,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 903,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.15290647145592,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 609,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.183950133234614,
+      "type": "pellet",
+      "date": "2026-08-24",
+      "value": 78,
+      "data": {
+        "column": 7,
+        "row": 3,
+        "streak": 43,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 8.223458618695183,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 658,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.224707209779154,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 805,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.240095939775008,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 952,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.254502280473877,
+      "type": "pellet",
+      "date": "2026-08-23",
+      "value": 80,
+      "data": {
+        "column": 6,
+        "row": 3,
+        "streak": 42,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 8.309266033308568,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 756,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.310648087014272,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 1001,
+        "y": 191,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.314009799797546,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 707,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.325054427713141,
+      "type": "pellet",
+      "date": "2026-08-29",
+      "value": 81,
+      "data": {
+        "column": 5,
+        "row": 3,
+        "streak": 48,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 8.379818180547831,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 707,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.381200234253535,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 1001,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.38456194703681,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 756,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.41250689919603,
+      "type": "pellet",
+      "date": "2026-07-20",
+      "value": 84,
+      "data": {
+        "column": 4,
+        "row": 3,
+        "streak": 8,
+        "secondsPerCell": 0.08745247148288975
+      }
+    },
+    {
+      "time": 8.451752381492799,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 952,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.455114094276073,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 805,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.483059046435294,
+      "type": "pellet",
+      "date": "2026-08-10",
+      "value": 84,
+      "data": {
+        "column": 3,
+        "row": 3,
+        "streak": 29,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 8.485322767703794,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 658,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.522304528732063,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 903,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.525666241515337,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 854,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.553611193674557,
+      "type": "pellet",
+      "date": "2026-08-05",
+      "value": 87,
+      "data": {
+        "column": 2,
+        "row": 3,
+        "streak": 24,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 8.555874914943058,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 609,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.592856675971326,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 854,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.5962183887546,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 903,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.624163340913821,
+      "type": "pellet",
+      "date": "2026-09-06",
+      "value": 87,
+      "data": {
+        "column": 1,
+        "row": 3,
+        "streak": 56,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 8.66592276183301,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 560,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.674707209779156,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 805,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.690095939775007,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 952,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.694715488153085,
+      "type": "pellet",
+      "date": "2026-08-04",
+      "value": 90,
+      "data": {
+        "column": 0,
+        "row": 3,
+        "streak": 23,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 8.742845838756086,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 511,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.759266033308567,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 756,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.760648087014271,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 1001,
+        "y": 191,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.765267635392348,
+      "type": "pellet",
+      "date": "2026-10-04",
+      "value": 93,
+      "data": {
+        "column": 0,
+        "row": 4,
+        "streak": 84,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 8.81339798599535,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 462,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.82981818054783,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 707,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.831200234253535,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 1001,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.835819782631612,
+      "type": "pellet",
+      "date": "2026-09-08",
+      "value": 94,
+      "data": {
+        "column": 1,
+        "row": 4,
+        "streak": 58,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 8.883950133234613,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 413,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.901752381492798,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 952,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.910495107306936,
+      "type": "pellet",
+      "date": "2026-07-25",
+      "value": 98,
+      "data": {
+        "column": 2,
+        "row": 4,
+        "streak": 13,
+        "secondsPerCell": 0.07467532467532467
+      }
+    },
+    {
+      "time": 8.935322767703795,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 658,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 8.954502280473877,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 364,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 8.972304528732062,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 903,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 8.9810472545462,
+      "type": "pellet",
+      "date": "2026-08-21",
+      "value": 99,
+      "data": {
+        "column": 3,
+        "row": 4,
+        "streak": 40,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.005874914943059,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 609,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.02505442771314,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 315,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.042856675971326,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 854,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 9.051599401785463,
+      "type": "pellet",
+      "date": "2026-09-07",
+      "value": 102,
+      "data": {
+        "column": 4,
+        "row": 4,
+        "streak": 57,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.11250689919603,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 266,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.11592276183301,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 560,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.122151549024727,
+      "type": "pellet",
+      "date": "2026-09-09",
+      "value": 103,
+      "data": {
+        "column": 5,
+        "row": 4,
+        "streak": 59,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.124707209779155,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 805,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 9.183059046435293,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 217,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.19270369626399,
+      "type": "pellet",
+      "date": "2026-09-29",
+      "value": 111,
+      "data": {
+        "column": 6,
+        "row": 4,
+        "streak": 79,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.192845838756087,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 511,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.209266033308568,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 756,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 9.253611193674557,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 168,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.263255843503254,
+      "type": "pellet",
+      "date": "2026-08-11",
+      "value": 113,
+      "data": {
+        "column": 7,
+        "row": 4,
+        "streak": 30,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.26339798599535,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 462,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.279818180547831,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 707,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 9.32416334091382,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 119,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.333807990742518,
+      "type": "pellet",
+      "date": "2026-09-15",
+      "value": 113,
+      "data": {
+        "column": 8,
+        "row": 4,
+        "streak": 65,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.333950133234614,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 413,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.385322767703794,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 658,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 9.394715488153084,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 70,
+        "y": 218,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.404360137981781,
+      "type": "pellet",
+      "date": "2026-08-06",
+      "value": 114,
+      "data": {
+        "column": 9,
+        "row": 4,
+        "streak": 25,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.404502280473878,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 364,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.455874914943058,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 609,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 9.465267635392348,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 70,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.474912285221045,
+      "type": "pellet",
+      "date": "2026-08-30",
+      "value": 115,
+      "data": {
+        "column": 10,
+        "row": 4,
+        "streak": 49,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.475054427713141,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 315,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.535819782631611,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 119,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.545464432460308,
+      "type": "pellet",
+      "date": "2026-09-14",
+      "value": 119,
+      "data": {
+        "column": 11,
+        "row": 4,
+        "streak": 64,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.56250689919603,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 266,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.56592276183301,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 560,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 9.610495107306935,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 168,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.616016579699572,
+      "type": "pellet",
+      "date": "2026-08-26",
+      "value": 120,
+      "data": {
+        "column": 12,
+        "row": 4,
+        "streak": 45,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.633059046435294,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 217,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.642845838756086,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 511,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 9.681047254546199,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 217,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.686568726938836,
+      "type": "pellet",
+      "date": "2026-07-29",
+      "value": 121,
+      "data": {
+        "column": 13,
+        "row": 4,
+        "streak": 17,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.703611193674558,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 168,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.71339798599535,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 462,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 9.751599401785462,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 266,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.7571208741781,
+      "type": "pellet",
+      "date": "2026-07-30",
+      "value": 132,
+      "data": {
+        "column": 14,
+        "row": 4,
+        "streak": 18,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.774163340913821,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 119,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.783950133234613,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 413,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 9.822151549024726,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 315,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.827673021417363,
+      "type": "pellet",
+      "date": "2026-08-14",
+      "value": 134,
+      "data": {
+        "column": 15,
+        "row": 4,
+        "streak": 33,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.844715488153085,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 70,
+        "y": 218,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.854502280473877,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 364,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 9.89270369626399,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 364,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.898225168656626,
+      "type": "pellet",
+      "date": "2026-09-01",
+      "value": 135,
+      "data": {
+        "column": 16,
+        "row": 4,
+        "streak": 51,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.915267635392349,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 70,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 9.92505442771314,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 315,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 9.963255843503253,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 413,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 9.96877731589589,
+      "type": "pellet",
+      "date": "2026-10-03",
+      "value": 135,
+      "data": {
+        "column": 17,
+        "row": 4,
+        "streak": 83,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 9.985819782631612,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 119,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.01250689919603,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 266,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.033807990742517,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 462,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.039329463135154,
+      "type": "pellet",
+      "date": "2026-08-27",
+      "value": 136,
+      "data": {
+        "column": 18,
+        "row": 4,
+        "streak": 46,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.060495107306936,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 168,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.083059046435293,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 217,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.10436013798178,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 511,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.109881610374417,
+      "type": "pellet",
+      "date": "2026-09-11",
+      "value": 136,
+      "data": {
+        "column": 19,
+        "row": 4,
+        "streak": 61,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.1310472545462,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 217,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.153611193674557,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 168,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.174912285221044,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 560,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.180433757613681,
+      "type": "pellet",
+      "date": "2026-08-09",
+      "value": 146,
+      "data": {
+        "column": 19,
+        "row": 5,
+        "streak": 28,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.201599401785463,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 266,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.22416334091382,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 119,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.245464432460308,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 609,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.250985904852945,
+      "type": "pellet",
+      "date": "2026-10-05",
+      "value": 146,
+      "data": {
+        "column": 18,
+        "row": 5,
+        "streak": 85,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.272151549024727,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 315,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.294715488153084,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 70,
+        "y": 218,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.316016579699571,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 658,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.321538052092208,
+      "type": "pellet",
+      "date": "2026-08-02",
+      "value": 147,
+      "data": {
+        "column": 17,
+        "row": 5,
+        "streak": 21,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.34270369626399,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 364,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.365267635392348,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 70,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.386568726938835,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 707,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.392090199331472,
+      "type": "pellet",
+      "date": "2026-09-10",
+      "value": 149,
+      "data": {
+        "column": 16,
+        "row": 5,
+        "streak": 60,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.413255843503254,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 413,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.435819782631611,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 119,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.457120874178099,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 756,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.462642346570735,
+      "type": "pellet",
+      "date": "2026-09-16",
+      "value": 154,
+      "data": {
+        "column": 15,
+        "row": 5,
+        "streak": 66,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.483807990742518,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 462,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.510495107306935,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 168,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.527673021417362,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 805,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.533194493809999,
+      "type": "pellet",
+      "date": "2026-09-26",
+      "value": 156,
+      "data": {
+        "column": 14,
+        "row": 5,
+        "streak": 76,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.554360137981782,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 511,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.581047254546199,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 217,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.598225168656626,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 854,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.603746641049263,
+      "type": "pellet",
+      "date": "2026-09-22",
+      "value": 157,
+      "data": {
+        "column": 13,
+        "row": 5,
+        "streak": 72,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.624912285221045,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 560,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.651599401785463,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 266,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.66877731589589,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 903,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.674298788288526,
+      "type": "pellet",
+      "date": "2026-10-12",
+      "value": 158,
+      "data": {
+        "column": 12,
+        "row": 5,
+        "streak": 92,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.695464432460309,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 609,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.722151549024726,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 315,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.739329463135153,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 952,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.74485093552779,
+      "type": "pellet",
+      "date": "2026-09-25",
+      "value": 167,
+      "data": {
+        "column": 11,
+        "row": 5,
+        "streak": 75,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.766016579699572,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 658,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.79270369626399,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 364,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.809881610374417,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 1001,
+        "y": 245,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.815403082767054,
+      "type": "pellet",
+      "date": "2026-10-14",
+      "value": 178,
+      "data": {
+        "column": 10,
+        "row": 5,
+        "streak": 94,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.836568726938836,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 707,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.863255843503254,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 413,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.88043375761368,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 1001,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.885955230006317,
+      "type": "pellet",
+      "date": "2026-09-12",
+      "value": 197,
+      "data": {
+        "column": 9,
+        "row": 5,
+        "streak": 62,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 10.9071208741781,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 756,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 10.933807990742517,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 462,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 10.950985904852944,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 952,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 10.958510435053636,
+      "type": "pellet",
+      "date": "2026-07-26",
+      "value": 205,
+      "data": {
+        "column": 8,
+        "row": 5,
+        "streak": 14,
+        "secondsPerCell": 0.07255520504731862
+      }
+    },
+    {
+      "time": 10.977673021417363,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 805,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.00436013798178,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 511,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.021538052092207,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 903,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.0290625822929,
+      "type": "pellet",
+      "date": "2026-10-13",
+      "value": 206,
+      "data": {
+        "column": 7,
+        "row": 5,
+        "streak": 93,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.048225168656627,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 854,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.074912285221044,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 560,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.092090199331471,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 854,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.099614729532163,
+      "type": "pellet",
+      "date": "2026-07-28",
+      "value": 211,
+      "data": {
+        "column": 6,
+        "row": 5,
+        "streak": 16,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.11877731589589,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 903,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.145464432460308,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 609,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.162642346570735,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 805,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.170166876771427,
+      "type": "pellet",
+      "date": "2026-08-17",
+      "value": 212,
+      "data": {
+        "column": 5,
+        "row": 5,
+        "streak": 36,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.189329463135154,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 952,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.216016579699572,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 658,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.233194493809998,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 756,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.24071902401069,
+      "type": "pellet",
+      "date": "2026-09-20",
+      "value": 212,
+      "data": {
+        "column": 4,
+        "row": 5,
+        "streak": 70,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.259881610374418,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 1001,
+        "y": 245,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.286568726938835,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 707,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.303746641049262,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 707,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.311271171249954,
+      "type": "pellet",
+      "date": "2026-09-21",
+      "value": 217,
+      "data": {
+        "column": 3,
+        "row": 5,
+        "streak": 71,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.330433757613681,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 1001,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.357120874178099,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 756,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.374298788288526,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 658,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.381823318489218,
+      "type": "pellet",
+      "date": "2026-08-22",
+      "value": 220,
+      "data": {
+        "column": 2,
+        "row": 5,
+        "streak": 41,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.400985904852945,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 952,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.427673021417363,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 805,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.44485093552779,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 609,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.452375465728482,
+      "type": "pellet",
+      "date": "2026-10-08",
+      "value": 229,
+      "data": {
+        "column": 1,
+        "row": 5,
+        "streak": 88,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.471538052092209,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 903,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.498225168656626,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 854,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.515403082767053,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 560,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.522927612967745,
+      "type": "pellet",
+      "date": "2026-07-27",
+      "value": 232,
+      "data": {
+        "column": 0,
+        "row": 5,
+        "streak": 15,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.542090199331472,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 854,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.56877731589589,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 903,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.585955230006316,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 511,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.593479760207009,
+      "type": "pellet",
+      "date": "2026-10-02",
+      "value": 238,
+      "data": {
+        "column": 0,
+        "row": 6,
+        "streak": 82,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.612642346570736,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 805,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.639329463135153,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 952,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.658510435053635,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 462,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.664031907446272,
+      "type": "pellet",
+      "date": "2026-10-09",
+      "value": 243,
+      "data": {
+        "column": 1,
+        "row": 6,
+        "streak": 89,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.68319449381,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 756,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.709881610374417,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 1001,
+        "y": 245,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.729062582292899,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 413,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.734584054685536,
+      "type": "pellet",
+      "date": "2026-08-18",
+      "value": 244,
+      "data": {
+        "column": 2,
+        "row": 6,
+        "streak": 37,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.753746641049263,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 707,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.78043375761368,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 1001,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.799614729532163,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 364,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.8051362019248,
+      "type": "pellet",
+      "date": "2026-09-19",
+      "value": 244,
+      "data": {
+        "column": 3,
+        "row": 6,
+        "streak": 69,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.824298788288527,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 658,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.850985904852944,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 952,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.870166876771426,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 315,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.875688349164063,
+      "type": "pellet",
+      "date": "2026-09-24",
+      "value": 259,
+      "data": {
+        "column": 4,
+        "row": 6,
+        "streak": 74,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.89485093552779,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 609,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.921538052092208,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 903,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 11.94071902401069,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 266,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 11.946240496403327,
+      "type": "pellet",
+      "date": "2026-08-12",
+      "value": 261,
+      "data": {
+        "column": 5,
+        "row": 6,
+        "streak": 31,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 11.965403082767054,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 560,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 11.992090199331471,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 854,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.011271171249954,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 217,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.035955230006318,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 511,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.04369812352197,
+      "type": "pellet",
+      "date": "2026-07-17",
+      "value": 287,
+      "data": {
+        "column": 6,
+        "row": 6,
+        "streak": 5,
+        "secondsPerCell": 0.09745762711864407
+      }
+    },
+    {
+      "time": 12.062642346570735,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 805,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.081823318489217,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 168,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.108510435053637,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 462,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.114250270761234,
+      "type": "pellet",
+      "date": "2026-10-10",
+      "value": 294,
+      "data": {
+        "column": 7,
+        "row": 6,
+        "streak": 90,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 12.133194493809999,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 756,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.15237546572848,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 119,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.1790625822929,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 413,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.203746641049262,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 707,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.219754857917197,
+      "type": "pellet",
+      "date": "2026-07-15",
+      "value": 295,
+      "data": {
+        "column": 8,
+        "row": 6,
+        "streak": 3,
+        "secondsPerCell": 0.1055045871559633
+      }
+    },
+    {
+      "time": 12.222927612967744,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 70,
+        "y": 272,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.249614729532164,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 364,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.274298788288526,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 658,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.29030700515646,
+      "type": "pellet",
+      "date": "2026-08-16",
+      "value": 306,
+      "data": {
+        "column": 9,
+        "row": 6,
+        "streak": 35,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 12.293479760207008,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 70,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.320166876771427,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 315,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.34485093552779,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 609,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.360859152395724,
+      "type": "pellet",
+      "date": "2026-08-19",
+      "value": 307,
+      "data": {
+        "column": 10,
+        "row": 6,
+        "streak": 38,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 12.364031907446272,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 119,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.390719024010691,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 266,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.415403082767053,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 560,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.431411299634988,
+      "type": "pellet",
+      "date": "2026-10-07",
+      "value": 319,
+      "data": {
+        "column": 11,
+        "row": 6,
+        "streak": 87,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 12.434584054685535,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 168,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.461271171249955,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 217,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.485955230006317,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 511,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.501963446874251,
+      "type": "pellet",
+      "date": "2026-10-11",
+      "value": 322,
+      "data": {
+        "column": 12,
+        "row": 6,
+        "streak": 91,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 12.505136201924799,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 217,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.531823318489218,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 168,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.558510435053636,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 462,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.572515594113515,
+      "type": "pellet",
+      "date": "2026-10-06",
+      "value": 362,
+      "data": {
+        "column": 13,
+        "row": 6,
+        "streak": 86,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 12.575688349164063,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 266,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.602375465728482,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 119,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.6290625822929,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 413,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.646240496403326,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 315,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.672927612967746,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 70,
+        "y": 272,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.673837180016598,
+      "type": "pellet",
+      "date": "2026-07-16",
+      "value": 374,
+      "data": {
+        "column": 14,
+        "row": 6,
+        "streak": 4,
+        "secondsPerCell": 0.10132158590308371
+      }
+    },
+    {
+      "time": 12.699614729532163,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 364,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.74347976020701,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 70,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.74369812352197,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 364,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.744389327255861,
+      "type": "pellet",
+      "date": "2026-08-15",
+      "value": 391,
+      "data": {
+        "column": 15,
+        "row": 6,
+        "streak": 34,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 12.770166876771427,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 315,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.814031907446273,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 119,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.814250270761233,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 413,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.814941474495125,
+      "type": "pellet",
+      "date": "2026-08-20",
+      "value": 478,
+      "data": {
+        "column": 16,
+        "row": 6,
+        "streak": 39,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 12.84071902401069,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 266,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.884584054685536,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 168,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.885493621734389,
+      "type": "pellet",
+      "date": "2026-08-13",
+      "value": 482,
+      "data": {
+        "column": 17,
+        "row": 6,
+        "streak": 32,
+        "secondsPerCell": 0.07055214723926381
+      }
+    },
+    {
+      "time": 12.911271171249954,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 217,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.919754857917196,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 462,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 12.9551362019248,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 217,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 12.981823318489218,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 168,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 12.99030700515646,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 511,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 13.025688349164064,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 266,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 13.052375465728481,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 119,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.060859152395723,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 560,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 13.096240496403327,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 315,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 13.122927612967745,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 70,
+        "y": 272,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.131411299634987,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 609,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 13.193479760207008,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 70,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.19369812352197,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 364,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 13.20196344687425,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 658,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 13.264031907446272,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 119,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.264250270761234,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 413,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 13.272515594113514,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 707,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 13.334584054685536,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 168,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.369754857917197,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 462,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 13.373837180016597,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 756,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 13.4051362019248,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 217,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.44030700515646,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 511,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 13.44438932725586,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 805,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 13.475688349164063,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 266,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.510859152395724,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 560,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 13.514941474495124,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 854,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 13.546240496403327,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 315,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.581411299634988,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 609,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 13.585493621734388,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 0,
+        "x": 903,
+        "y": 299,
+        "trailDelay": 0.7
+      }
+    },
+    {
+      "time": 13.64369812352197,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 364,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.651963446874252,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 658,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 13.714250270761234,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 413,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.722515594113515,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 707,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 13.819754857917196,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 462,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.823837180016598,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 756,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 13.89030700515646,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 511,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.894389327255862,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 805,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 13.960859152395724,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 560,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 13.964941474495125,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 854,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 14.031411299634987,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 609,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 14.035493621734389,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 1,
+        "x": 903,
+        "y": 299,
+        "trailDelay": 1.15
+      }
+    },
+    {
+      "time": 14.101963446874251,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 658,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 14.172515594113515,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 707,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 14.273837180016598,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 756,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 14.344389327255861,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 805,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 14.414941474495125,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 854,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    },
+    {
+      "time": 14.485493621734388,
+      "type": "ghost-chase",
+      "data": {
+        "ghost": 2,
+        "x": 903,
+        "y": 299,
+        "trailDelay": 1.6
+      }
+    }
+  ]
+}

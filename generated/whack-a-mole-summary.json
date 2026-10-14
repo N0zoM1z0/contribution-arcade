@@ -1,0 +1,786 @@
+{
+  "username": "N0zoM1z0",
+  "id": "whack-a-mole",
+  "duration": 29.21353577885198,
+  "metrics": {
+    "attempts": 32,
+    "hits": 30,
+    "misses": 2,
+    "contributions": 10474
+  },
+  "checkpoints": [
+    1.6128987472668448,
+    26.55467699487039,
+    27.21353577885198
+  ],
+  "events": [
+    {
+      "time": 1,
+      "type": "mole-pop",
+      "date": "2025-11-02",
+      "value": 1,
+      "data": {
+        "hole": 8,
+        "week": 3,
+        "expires": 1.7596998928188639,
+        "streak": 1
+      }
+    },
+    {
+      "time": 1.5728987472668448,
+      "type": "hammer-hit",
+      "date": "2025-11-02",
+      "value": 1,
+      "data": {
+        "hole": 8,
+        "score": 1,
+        "reaction": 0.5728987472668448,
+        "window": 0.7596998928188639
+      }
+    },
+    {
+      "time": 1.9596998928188638,
+      "type": "mole-pop",
+      "date": "2026-02-08",
+      "value": 1,
+      "data": {
+        "hole": 6,
+        "week": 17,
+        "expires": 2.7193997856377274,
+        "streak": 1
+      }
+    },
+    {
+      "time": 2.5449104191346534,
+      "type": "hammer-hit",
+      "date": "2026-02-08",
+      "value": 1,
+      "data": {
+        "hole": 6,
+        "score": 2,
+        "reaction": 0.5852105263157896,
+        "window": 0.7596998928188636
+      }
+    },
+    {
+      "time": 2.9193997856377276,
+      "type": "mole-pop",
+      "date": "2026-03-29",
+      "value": 1,
+      "data": {
+        "hole": 5,
+        "week": 24,
+        "expires": 3.6790996784565912,
+        "streak": 1
+      }
+    },
+    {
+      "time": 3.5102622741707057,
+      "type": "hammer-hit",
+      "date": "2026-03-29",
+      "value": 1,
+      "data": {
+        "hole": 5,
+        "score": 3,
+        "reaction": 0.5908624885329781,
+        "window": 0.7596998928188636
+      }
+    },
+    {
+      "time": 3.8790996784565914,
+      "type": "mole-pop",
+      "date": "2026-02-22",
+      "value": 2,
+      "data": {
+        "hole": 0,
+        "week": 19,
+        "expires": 4.638499464094319,
+        "streak": 1
+      }
+    },
+    {
+      "time": 4.434962166989569,
+      "type": "hammer-hit",
+      "date": "2026-02-22",
+      "value": 2,
+      "data": {
+        "hole": 0,
+        "score": 5,
+        "reaction": 0.5558624885329779,
+        "window": 0.7593997856377275
+      }
+    },
+    {
+      "time": 4.838499464094319,
+      "type": "mole-pop",
+      "date": "2026-02-15",
+      "value": 3,
+      "data": {
+        "hole": 5,
+        "week": 18,
+        "expires": 5.59759914255091,
+        "streak": 1
+      }
+    },
+    {
+      "time": 5.394361952627297,
+      "type": "hammer-hit",
+      "date": "2026-02-15",
+      "value": 3,
+      "data": {
+        "hole": 5,
+        "score": 8,
+        "reaction": 0.5558624885329779,
+        "window": 0.7590996784565913
+      }
+    },
+    {
+      "time": 5.797599142550911,
+      "type": "mole-pop",
+      "date": "2026-05-10",
+      "value": 3,
+      "data": {
+        "hole": 3,
+        "week": 30,
+        "expires": 6.556698821007502,
+        "streak": 2
+      }
+    },
+    {
+      "time": 6.3038096688667,
+      "type": "hammer-hit",
+      "date": "2026-05-10",
+      "value": 3,
+      "data": {
+        "hole": 3,
+        "score": 11,
+        "reaction": 0.5062105263157894,
+        "window": 0.7590996784565913
+      }
+    },
+    {
+      "time": 6.756698821007502,
+      "type": "mole-pop",
+      "date": "2026-05-31",
+      "value": 3,
+      "data": {
+        "hole": 7,
+        "week": 33,
+        "expires": 7.515798499464093,
+        "streak": 1
+      }
+    },
+    {
+      "time": 7.290452341831196,
+      "type": "hammer-hit",
+      "date": "2026-05-31",
+      "value": 3,
+      "data": {
+        "hole": 7,
+        "score": 14,
+        "reaction": 0.5337535208236943,
+        "window": 0.7590996784565913
+      }
+    },
+    {
+      "time": 7.715798499464094,
+      "type": "mole-pop",
+      "date": "2026-04-12",
+      "value": 8,
+      "data": {
+        "hole": 5,
+        "week": 26,
+        "expires": 8.473397642015005,
+        "streak": 2
+      }
+    },
+    {
+      "time": 8.205552020287788,
+      "type": "hammer-hit",
+      "date": "2026-04-12",
+      "value": 8,
+      "data": {
+        "hole": 5,
+        "score": 22,
+        "reaction": 0.4897535208236947,
+        "window": 0.7575991425509114
+      }
+    },
+    {
+      "time": 8.673397642015004,
+      "type": "mole-pop",
+      "date": "2026-05-17",
+      "value": 11,
+      "data": {
+        "hole": 8,
+        "week": 31,
+        "expires": 9.430096463022506,
+        "streak": 2
+      }
+    },
+    {
+      "time": 9.058292378857109,
+      "type": "hammer-hit",
+      "date": "2026-05-17",
+      "value": 11,
+      "data": {
+        "hole": 8,
+        "score": 33,
+        "reaction": 0.38489473684210473,
+        "window": 0.7566988210075021
+      }
+    },
+    {
+      "time": 9.630096463022506,
+      "type": "mole-pop",
+      "date": "2026-06-07",
+      "value": 18,
+      "data": {
+        "hole": 0,
+        "week": 34,
+        "expires": 10.384694533762055,
+        "streak": 1
+      }
+    },
+    {
+      "time": 10.236603504669896,
+      "type": "hammer-hit",
+      "date": "2026-06-07",
+      "value": 18,
+      "data": {
+        "hole": 0,
+        "score": 51,
+        "reaction": 0.6065070416473901,
+        "window": 0.754598070739549
+      }
+    },
+    {
+      "time": 10.584694533762054,
+      "type": "mole-pop",
+      "date": "2026-03-08",
+      "value": 24,
+      "data": {
+        "hole": 5,
+        "week": 21,
+        "expires": 11.337491961414786,
+        "streak": 2
+      }
+    },
+    {
+      "time": 11.131557022295032,
+      "type": "hammer-hit",
+      "date": "2026-03-08",
+      "value": 24,
+      "data": {
+        "hole": 5,
+        "score": 75,
+        "reaction": 0.5468624885329785,
+        "window": 0.752797427652732
+      }
+    },
+    {
+      "time": 11.537491961414785,
+      "type": "mole-pop",
+      "date": "2026-07-05",
+      "value": 25,
+      "data": {
+        "hole": 3,
+        "week": 38,
+        "expires": 12.289989281886381,
+        "streak": 4
+      }
+    },
+    {
+      "time": 11.990702487730575,
+      "type": "hammer-hit",
+      "date": "2026-07-05",
+      "value": 25,
+      "data": {
+        "hole": 3,
+        "score": 100,
+        "reaction": 0.4532105263157895,
+        "window": 0.7524973204715959
+      }
+    },
+    {
+      "time": 12.48998928188638,
+      "type": "mole-pop",
+      "date": "2026-06-14",
+      "value": 28,
+      "data": {
+        "hole": 0,
+        "week": 35,
+        "expires": 13.24158628081457,
+        "streak": 3
+      }
+    },
+    {
+      "time": 12.865884018728487,
+      "type": "hammer-hit",
+      "date": "2026-06-14",
+      "value": 28,
+      "data": {
+        "hole": 0,
+        "score": 128,
+        "reaction": 0.37589473684210617,
+        "window": 0.7515969989281892
+      }
+    },
+    {
+      "time": 13.441586280814569,
+      "type": "mole-pop",
+      "date": "2026-06-21",
+      "value": 29,
+      "data": {
+        "hole": 3,
+        "week": 36,
+        "expires": 14.192883172561622,
+        "streak": 1
+      }
+    },
+    {
+      "time": 13.940481017656674,
+      "type": "hammer-hit",
+      "date": "2026-06-21",
+      "value": 29,
+      "data": {
+        "hole": 3,
+        "score": 157,
+        "reaction": 0.4988947368421055,
+        "window": 0.751296891747053
+      }
+    },
+    {
+      "time": 14.392883172561621,
+      "type": "mole-pop",
+      "date": "2026-04-19",
+      "value": 31,
+      "data": {
+        "hole": 0,
+        "week": 27,
+        "expires": 15.143579849946402,
+        "streak": 4
+      }
+    },
+    {
+      "time": 14.724777909403727,
+      "type": "hammer-hit",
+      "date": "2026-04-19",
+      "value": 31,
+      "data": {
+        "hole": 0,
+        "score": 188,
+        "reaction": 0.3318947368421057,
+        "window": 0.7506966773847807
+      }
+    },
+    {
+      "time": 15.343579849946401,
+      "type": "mole-pop",
+      "date": "2026-04-26",
+      "value": 33,
+      "data": {
+        "hole": 6,
+        "week": 28,
+        "expires": 16.09367631296891,
+        "streak": 2
+      }
+    },
+    {
+      "time": 15.766369323630611,
+      "type": "hammer-hit",
+      "date": "2026-04-26",
+      "value": 33,
+      "data": {
+        "hole": 6,
+        "score": 221,
+        "reaction": 0.42278947368420994,
+        "window": 0.7500964630225084
+      }
+    },
+    {
+      "time": 16.29367631296891,
+      "type": "mole-pop",
+      "date": "2026-05-03",
+      "value": 40,
+      "data": {
+        "hole": 8,
+        "week": 29,
+        "expires": 17.041672025723464,
+        "streak": 2
+      }
+    },
+    {
+      "time": 16.7998868392847,
+      "type": "hammer-hit",
+      "date": "2026-05-03",
+      "value": 40,
+      "data": {
+        "hole": 8,
+        "score": 261,
+        "reaction": 0.5062105263157903,
+        "window": 0.7479957127545553
+      }
+    },
+    {
+      "time": 17.241672025723464,
+      "type": "mole-pop",
+      "date": "2026-05-24",
+      "value": 79,
+      "data": {
+        "hole": 8,
+        "week": 32,
+        "expires": 17.977963558413713,
+        "streak": 3
+      }
+    },
+    {
+      "time": 17.614672025723465,
+      "type": "hammer-hit",
+      "date": "2026-05-24",
+      "value": 79,
+      "data": {
+        "hole": 8,
+        "score": 340,
+        "reaction": 0.3730000000000011,
+        "window": 0.7362915326902488
+      }
+    },
+    {
+      "time": 18.177963558413712,
+      "type": "mole-pop",
+      "date": "2026-07-19",
+      "value": 444,
+      "data": {
+        "hole": 3,
+        "week": 40,
+        "expires": 18.804715969989275,
+        "streak": 13
+      }
+    },
+    {
+      "time": 18.45982604694669,
+      "type": "hammer-hit",
+      "date": "2026-07-19",
+      "value": 444,
+      "data": {
+        "hole": 3,
+        "score": 784,
+        "reaction": 0.2818624885329797,
+        "window": 0.6267524115755627
+      }
+    },
+    {
+      "time": 19.004715969989274,
+      "type": "mole-pop",
+      "date": "2026-08-30",
+      "value": 447,
+      "data": {
+        "hole": 0,
+        "week": 46,
+        "expires": 19.630568060021428,
+        "streak": 55
+      }
+    },
+    {
+      "time": 19.194715969989275,
+      "type": "hammer-hit",
+      "date": "2026-08-30",
+      "value": 447,
+      "data": {
+        "hole": 0,
+        "score": 1231,
+        "reaction": 0.19000000000000128,
+        "window": 0.6258520900321543
+      }
+    },
+    {
+      "time": 19.830568060021427,
+      "type": "mole-pop",
+      "date": "2026-08-23",
+      "value": 564,
+      "data": {
+        "hole": 4,
+        "week": 45,
+        "expires": 20.42130760986066,
+        "streak": 48
+      }
+    },
+    {
+      "time": 20.05532158084512,
+      "type": "hammer-hit",
+      "date": "2026-08-23",
+      "value": 564,
+      "data": {
+        "hole": 4,
+        "score": 1795,
+        "reaction": 0.22475352082369326,
+        "window": 0.5907395498392312
+      }
+    },
+    {
+      "time": 20.621307609860658,
+      "type": "mole-pop",
+      "date": "2026-08-02",
+      "value": 565,
+      "data": {
+        "hole": 8,
+        "week": 42,
+        "expires": 21.211747052518753,
+        "streak": 27
+      }
+    },
+    {
+      "time": 20.84606113068435,
+      "type": "hammer-hit",
+      "date": "2026-08-02",
+      "value": 565,
+      "data": {
+        "hole": 8,
+        "score": 2360,
+        "reaction": 0.22475352082369326,
+        "window": 0.590439442658095
+      }
+    },
+    {
+      "time": 21.411747052518752,
+      "type": "mole-pop",
+      "date": "2026-09-27",
+      "value": 626,
+      "data": {
+        "hole": 1,
+        "week": 50,
+        "expires": 21.98387995712754,
+        "streak": 83
+      }
+    },
+    {
+      "time": 21.661732296475385,
+      "type": "hammer-hit",
+      "date": "2026-09-27",
+      "value": 626,
+      "data": {
+        "hole": 1,
+        "score": 2986,
+        "reaction": 0.24998524395663324,
+        "window": 0.5721329046087895
+      }
+    },
+    {
+      "time": 22.18387995712754,
+      "type": "mole-pop",
+      "date": "2026-09-13",
+      "value": 754,
+      "data": {
+        "hole": 2,
+        "week": 48,
+        "expires": 22.71759914255091,
+        "streak": 69
+      }
+    },
+    {
+      "time": 22.397985220285435,
+      "type": "hammer-hit",
+      "date": "2026-09-13",
+      "value": 754,
+      "data": {
+        "hole": 2,
+        "score": 3740,
+        "reaction": 0.2141052631578937,
+        "window": 0.5337191854233687
+      }
+    },
+    {
+      "time": 22.91759914255091,
+      "type": "mole-pop",
+      "date": "2026-10-11",
+      "value": 864,
+      "data": {
+        "hole": 3,
+        "week": 52,
+        "expires": 23.418306538049304,
+        "streak": 94
+      }
+    },
+    {
+      "time": 23.304461631083885,
+      "type": "hammer-hit",
+      "date": "2026-10-11",
+      "value": 864,
+      "data": {
+        "hole": 3,
+        "score": 4604,
+        "reaction": 0.38686248853297656,
+        "window": 0.5007073954983952
+      }
+    },
+    {
+      "time": 23.624461631083886,
+      "type": "mole-pop",
+      "date": "2026-09-06",
+      "value": 868,
+      "data": {
+        "hole": 3,
+        "week": 47,
+        "expires": 24.123968597857736,
+        "streak": 62
+      }
+    },
+    {
+      "time": 23.814461631083887,
+      "type": "hammer-hit",
+      "date": "2026-09-06",
+      "value": 868,
+      "data": {
+        "hole": 3,
+        "score": 5472,
+        "reaction": 0.19000000000000128,
+        "window": 0.49950696677385054
+      }
+    },
+    {
+      "time": 24.323968597857736,
+      "type": "mole-pop",
+      "date": "2026-07-26",
+      "value": 1049,
+      "data": {
+        "hole": 1,
+        "week": 41,
+        "expires": 24.769156164845946,
+        "streak": 20
+      }
+    },
+    {
+      "time": 24.54872211868143,
+      "type": "hammer-hit",
+      "date": "2026-07-26",
+      "value": 1049,
+      "data": {
+        "hole": 1,
+        "score": 6521,
+        "reaction": 0.22475352082369326,
+        "window": 0.44518756698820994
+      }
+    },
+    {
+      "time": 24.969156164845945,
+      "type": "mole-pop",
+      "date": "2026-07-12",
+      "value": 1083,
+      "data": {
+        "hole": 6,
+        "week": 39,
+        "expires": 25.40414008767553,
+        "streak": 6
+      }
+    },
+    {
+      "time": 25.308141408802577,
+      "type": "hammer-hit",
+      "date": "2026-07-12",
+      "value": 1083,
+      "data": {
+        "hole": 6,
+        "score": 7604,
+        "reaction": 0.3389852439566319,
+        "window": 0.4349839228295842
+      }
+    },
+    {
+      "time": 25.628141408802577,
+      "type": "mole-pop",
+      "date": "2026-09-20",
+      "value": 1184,
+      "data": {
+        "hole": 5,
+        "week": 49,
+        "expires": 26.032814506337413,
+        "streak": 76
+      }
+    },
+    {
+      "time": 25.910003897335557,
+      "type": "hammer-hit",
+      "date": "2026-09-20",
+      "value": 1184,
+      "data": {
+        "hole": 5,
+        "score": 8788,
+        "reaction": 0.2818624885329797,
+        "window": 0.40467309753483605
+      }
+    },
+    {
+      "time": 26.232814506337412,
+      "type": "mole-pop",
+      "date": "2026-08-09",
+      "value": 1611,
+      "data": {
+        "hole": 6,
+        "week": 43,
+        "expires": 26.509341837527124,
+        "streak": 34
+      }
+    },
+    {
+      "time": 26.514676994870392,
+      "type": "hammer-miss",
+      "date": "2026-08-09",
+      "value": 0,
+      "data": {
+        "hole": 6,
+        "score": 8788,
+        "reaction": 0.2818624885329797,
+        "window": 0.27652733118971184
+      }
+    },
+    {
+      "time": 26.834676994870392,
+      "type": "mole-pop",
+      "date": "2026-10-04",
+      "value": 1686,
+      "data": {
+        "hole": 4,
+        "week": 51,
+        "expires": 27.088696287474896,
+        "streak": 90
+      }
+    },
+    {
+      "time": 27.059430515694086,
+      "type": "hammer-hit",
+      "date": "2026-10-04",
+      "value": 1686,
+      "data": {
+        "hole": 4,
+        "score": 10474,
+        "reaction": 0.22475352082369326,
+        "window": 0.25401929260450373
+      }
+    },
+    {
+      "time": 27.379430515694086,
+      "type": "mole-pop",
+      "date": "2026-08-16",
+      "value": 1866,
+      "data": {
+        "hole": 5,
+        "week": 44,
+        "expires": 27.57943051569409,
+        "streak": 41
+      }
+    },
+    {
+      "time": 27.59353577885198,
+      "type": "hammer-miss",
+      "date": "2026-08-16",
+      "value": 0,
+      "data": {
+        "hole": 5,
+        "score": 10474,
+        "reaction": 0.2141052631578937,
+        "window": 0.20000000000000284
+      }
+    }
+  ]
+}
