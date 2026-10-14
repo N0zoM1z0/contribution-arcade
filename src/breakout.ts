@@ -35,8 +35,8 @@ export interface Scene {
 
 const STEP = 1 / 120;
 const START = 1.8;
-const MAX_PLAY = 42;
-const SPEED = 820;
+const MAX_PLAY = 36;
+const SPEED = 1100;
 const EPSILON = 0.001;
 
 function randomFor(seed: string): () => number {
@@ -107,7 +107,8 @@ export function simulate(calendar: Calendar, seed = calendar.login): Scene {
       }
     }
     const candidates = [...exposed.values()].sort((a, b) => Math.abs(a.x - x) - Math.abs(b.x - x));
-    const target = candidates[Math.floor(random() * Math.min(10, candidates.length))];
+    // Tighten the auto-player's aim for the finale instead of chasing empty space.
+    const target = candidates[Math.floor(random() * Math.min(remaining < 100 ? 1 : 5, candidates.length))];
     const targetX = target ? target.x + target.size / 2 : BOARD.width * random();
     const targetY = target ? target.y + target.size : BOARD.gridY;
     const angle = clamp(Math.atan2(targetX - x, y - targetY), -1.1, 1.1);

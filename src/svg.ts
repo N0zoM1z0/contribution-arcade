@@ -124,7 +124,7 @@ export function renderSVG(calendar: Calendar, scene: Scene, theme: Theme, animat
   const fromYear = calendar.from.slice(0, 4);
   const toYear = calendar.to.slice(0, 4);
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc" data-duration="${n(duration)}" data-cleared="${scene.cleared}" data-active="${activeDays}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" style="background:${palette.background};border-radius:20px" role="img" aria-labelledby="title desc" data-duration="${n(duration)}" data-cleared="${scene.cleared}" data-active="${activeDays}">
   <title id="title">${escapeXML(calendar.login)} · Contribution Arcade</title>
   <desc id="desc">${number(calendar.total)} GitHub contributions across ${activeDays} active days, ${calendar.from} to ${calendar.to}. An automatically played breakout animation. Stronger contribution levels take more hits. A long streak unlocks multiball. The original calendar returns each loop.</desc>
   <style>text{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}.reduced{display:none}@media(prefers-reduced-motion:reduce){.animated{display:none}.reduced{display:inline}}</style>
