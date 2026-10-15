@@ -1,1752 +1,1959 @@
 {
   "username": "N0zoM1z0",
   "id": "match3",
-  "duration": 14.299999999999997,
+  "duration": 14.04,
   "metrics": {
-    "swaps": 2,
-    "matchedDates": 126,
-    "contributions": 11482,
-    "cascades": 11,
+    "swaps": 6,
+    "matchedDates": 113,
+    "contributions": 10260,
+    "cascades": 1,
     "reserve": 0
   },
   "checkpoints": [
     1.25,
-    2.3,
-    12.799999999999997
+    2.42,
+    12.54
   ],
   "events": [
     {
-      "time": 1.1,
-      "type": "swap",
-      "data": {
-        "a": {
-          "x": 5,
-          "y": 2
-        },
-        "b": {
-          "x": 6,
-          "y": 2
-        },
-        "dates": [
-          "2026-08-12",
-          "2026-04-21"
-        ],
-        "matchSize": 10
-      }
-    },
-    {
-      "time": 1.52,
-      "type": "gem-match",
-      "date": "2025-11-03",
-      "value": 1,
-      "data": {
-        "depth": 0,
-        "x": 5,
-        "y": 0
-      }
-    },
-    {
-      "time": 1.52,
-      "type": "gem-match",
-      "date": "2026-05-11",
-      "value": 1,
-      "data": {
-        "depth": 0,
-        "x": 5,
-        "y": 1
-      }
-    },
-    {
-      "time": 1.52,
-      "type": "gem-match",
-      "date": "2026-04-21",
-      "value": 1,
-      "data": {
-        "depth": 0,
-        "x": 5,
-        "y": 2
-      }
-    },
-    {
-      "time": 1.52,
-      "type": "gem-match",
-      "date": "2026-08-19",
-      "value": 307,
-      "data": {
-        "depth": 0,
-        "x": 6,
-        "y": 0
-      }
-    },
-    {
-      "time": 1.52,
-      "type": "gem-match",
-      "date": "2026-10-10",
-      "value": 294,
-      "data": {
-        "depth": 0,
-        "x": 6,
-        "y": 1
-      }
-    },
-    {
-      "time": 1.52,
-      "type": "gem-match",
-      "date": "2026-08-12",
-      "value": 261,
-      "data": {
-        "depth": 0,
-        "x": 6,
-        "y": 2
-      }
-    },
-    {
-      "time": 1.52,
-      "type": "gem-match",
-      "date": "2026-10-09",
-      "value": 243,
-      "data": {
-        "depth": 0,
-        "x": 6,
-        "y": 3
-      }
-    },
-    {
-      "time": 1.52,
-      "type": "gem-match",
-      "date": "2026-10-11",
-      "value": 322,
-      "data": {
-        "depth": 0,
-        "x": 6,
-        "y": 4
-      }
-    },
-    {
-      "time": 1.52,
-      "type": "gem-match",
-      "date": "2026-05-15",
-      "value": 1,
-      "data": {
-        "depth": 0,
-        "x": 3,
-        "y": 2
-      }
-    },
-    {
-      "time": 1.52,
-      "type": "gem-match",
-      "date": "2026-06-18",
-      "value": 1,
-      "data": {
-        "depth": 0,
-        "x": 4,
-        "y": 2
-      }
-    },
-    {
-      "time": 2.12,
-      "type": "gravity",
-      "value": 10,
-      "data": {
-        "depth": 0,
-        "refilledDates": [
-          "2026-02-20",
-          "2026-04-28",
-          "2026-05-17",
-          "2026-04-18",
-          "2026-06-04",
-          "2026-04-20",
-          "2026-05-09",
-          "2026-07-08",
-          "2026-07-11",
-          "2026-04-17"
-        ]
-      }
-    },
-    {
-      "time": 2.3,
-      "type": "gem-match",
-      "date": "2026-02-20",
-      "value": 2,
-      "data": {
-        "depth": 1,
-        "x": 3,
-        "y": 0
-      }
-    },
-    {
-      "time": 2.3,
-      "type": "gem-match",
-      "date": "2026-04-28",
-      "value": 2,
-      "data": {
-        "depth": 1,
-        "x": 4,
-        "y": 0
-      }
-    },
-    {
-      "time": 2.3,
-      "type": "gem-match",
-      "date": "2026-06-04",
-      "value": 3,
-      "data": {
-        "depth": 1,
-        "x": 5,
-        "y": 0
-      }
-    },
-    {
-      "time": 2.3,
-      "type": "gem-match",
-      "date": "2026-04-17",
-      "value": 5,
-      "data": {
-        "depth": 1,
-        "x": 6,
-        "y": 0
-      }
-    },
-    {
-      "time": 2.3,
-      "type": "gem-match",
-      "date": "2026-04-18",
-      "value": 3,
-      "data": {
-        "depth": 1,
-        "x": 5,
-        "y": 1
-      }
-    },
-    {
-      "time": 2.3,
-      "type": "gem-match",
-      "date": "2026-05-17",
-      "value": 2,
-      "data": {
-        "depth": 1,
-        "x": 5,
-        "y": 2
-      }
-    },
-    {
-      "time": 2.3,
-      "type": "gem-match",
-      "date": "2026-07-11",
-      "value": 4,
-      "data": {
-        "depth": 1,
-        "x": 6,
-        "y": 1
-      }
-    },
-    {
-      "time": 2.3,
-      "type": "gem-match",
-      "date": "2026-07-08",
-      "value": 4,
-      "data": {
-        "depth": 1,
-        "x": 6,
-        "y": 2
-      }
-    },
-    {
-      "time": 2.3,
-      "type": "gem-match",
-      "date": "2026-05-09",
-      "value": 4,
-      "data": {
-        "depth": 1,
-        "x": 6,
-        "y": 3
-      }
-    },
-    {
-      "time": 2.3,
-      "type": "gem-match",
-      "date": "2026-04-20",
-      "value": 4,
-      "data": {
-        "depth": 1,
-        "x": 6,
-        "y": 4
-      }
-    },
-    {
-      "time": 2.3,
-      "type": "gem-match",
-      "date": "2026-05-26",
-      "value": 1,
-      "data": {
-        "depth": 1,
-        "x": 4,
-        "y": 1
-      }
-    },
-    {
-      "time": 2.3,
-      "type": "cascade",
-      "value": 11,
-      "data": {
-        "depth": 1
-      }
-    },
-    {
-      "time": 2.9,
-      "type": "gravity",
-      "value": 11,
-      "data": {
-        "depth": 1,
-        "refilledDates": [
-          "2026-05-07",
-          "2026-06-20",
-          "2026-09-04",
-          "2026-05-18",
-          "2026-07-10",
-          "2026-03-14",
-          "2026-07-13",
-          "2026-07-09",
-          "2026-06-14",
-          "2026-06-19",
-          "2026-04-23"
-        ]
-      }
-    },
-    {
-      "time": 3.08,
-      "type": "gem-match",
-      "date": "2026-05-07",
-      "value": 5,
-      "data": {
-        "depth": 2,
-        "x": 3,
-        "y": 0
-      }
-    },
-    {
-      "time": 3.08,
-      "type": "gem-match",
-      "date": "2026-09-04",
-      "value": 5,
-      "data": {
-        "depth": 2,
-        "x": 4,
-        "y": 0
-      }
-    },
-    {
-      "time": 3.08,
-      "type": "gem-match",
-      "date": "2026-03-14",
-      "value": 8,
-      "data": {
-        "depth": 2,
-        "x": 5,
-        "y": 0
-      }
-    },
-    {
-      "time": 3.08,
-      "type": "gem-match",
-      "date": "2026-04-23",
-      "value": 12,
-      "data": {
-        "depth": 2,
-        "x": 6,
-        "y": 0
-      }
-    },
-    {
-      "time": 3.08,
-      "type": "gem-match",
-      "date": "2026-07-10",
-      "value": 7,
-      "data": {
-        "depth": 2,
-        "x": 5,
-        "y": 1
-      }
-    },
-    {
-      "time": 3.08,
-      "type": "gem-match",
-      "date": "2026-05-18",
-      "value": 7,
-      "data": {
-        "depth": 2,
-        "x": 5,
-        "y": 2
-      }
-    },
-    {
-      "time": 3.08,
-      "type": "gem-match",
-      "date": "2026-06-19",
-      "value": 11,
-      "data": {
-        "depth": 2,
-        "x": 6,
-        "y": 1
-      }
-    },
-    {
-      "time": 3.08,
-      "type": "gem-match",
-      "date": "2026-06-14",
-      "value": 11,
-      "data": {
-        "depth": 2,
-        "x": 6,
-        "y": 2
-      }
-    },
-    {
-      "time": 3.08,
-      "type": "gem-match",
-      "date": "2026-07-09",
-      "value": 10,
-      "data": {
-        "depth": 2,
-        "x": 6,
-        "y": 3
-      }
-    },
-    {
-      "time": 3.08,
-      "type": "gem-match",
-      "date": "2026-07-13",
-      "value": 8,
-      "data": {
-        "depth": 2,
-        "x": 6,
-        "y": 4
-      }
-    },
-    {
-      "time": 3.08,
-      "type": "gem-match",
-      "date": "2026-06-20",
-      "value": 5,
-      "data": {
-        "depth": 2,
-        "x": 4,
-        "y": 1
-      }
-    },
-    {
-      "time": 3.08,
-      "type": "cascade",
-      "value": 11,
-      "data": {
-        "depth": 2
-      }
-    },
-    {
-      "time": 3.68,
-      "type": "gravity",
-      "value": 11,
-      "data": {
-        "depth": 2,
-        "refilledDates": [
-          "2026-04-27",
-          "2026-04-22",
-          "2026-10-01",
-          "2026-03-13",
-          "2026-09-23",
-          "2026-05-27",
-          "2026-08-28",
-          "2026-04-30",
-          "2026-06-12",
-          "2026-06-22",
-          "2026-08-08"
-        ]
-      }
-    },
-    {
-      "time": 3.8600000000000003,
-      "type": "gem-match",
-      "date": "2026-04-27",
-      "value": 12,
-      "data": {
-        "depth": 3,
-        "x": 3,
-        "y": 0
-      }
-    },
-    {
-      "time": 3.8600000000000003,
-      "type": "gem-match",
-      "date": "2026-10-01",
-      "value": 14,
-      "data": {
-        "depth": 3,
-        "x": 4,
-        "y": 0
-      }
-    },
-    {
-      "time": 3.8600000000000003,
-      "type": "gem-match",
-      "date": "2026-05-27",
-      "value": 17,
-      "data": {
-        "depth": 3,
-        "x": 5,
-        "y": 0
-      }
-    },
-    {
-      "time": 3.8600000000000003,
-      "type": "gem-match",
-      "date": "2026-08-08",
-      "value": 30,
-      "data": {
-        "depth": 3,
-        "x": 6,
-        "y": 0
-      }
-    },
-    {
-      "time": 3.8600000000000003,
-      "type": "gem-match",
-      "date": "2026-09-23",
-      "value": 16,
-      "data": {
-        "depth": 3,
-        "x": 5,
-        "y": 1
-      }
-    },
-    {
-      "time": 3.8600000000000003,
-      "type": "gem-match",
-      "date": "2026-03-13",
-      "value": 16,
-      "data": {
-        "depth": 3,
-        "x": 5,
-        "y": 2
-      }
-    },
-    {
-      "time": 3.8600000000000003,
-      "type": "gem-match",
-      "date": "2026-06-22",
-      "value": 29,
-      "data": {
-        "depth": 3,
-        "x": 6,
-        "y": 1
-      }
-    },
-    {
-      "time": 3.8600000000000003,
-      "type": "gem-match",
-      "date": "2026-06-12",
-      "value": 18,
-      "data": {
-        "depth": 3,
-        "x": 6,
-        "y": 2
-      }
-    },
-    {
-      "time": 3.8600000000000003,
-      "type": "gem-match",
-      "date": "2026-04-30",
-      "value": 18,
-      "data": {
-        "depth": 3,
-        "x": 6,
-        "y": 3
-      }
-    },
-    {
-      "time": 3.8600000000000003,
-      "type": "gem-match",
-      "date": "2026-08-28",
-      "value": 17,
-      "data": {
-        "depth": 3,
-        "x": 6,
-        "y": 4
-      }
-    },
-    {
-      "time": 3.8600000000000003,
-      "type": "gem-match",
-      "date": "2026-04-22",
-      "value": 13,
-      "data": {
-        "depth": 3,
-        "x": 4,
-        "y": 1
-      }
-    },
-    {
-      "time": 3.8600000000000003,
-      "type": "cascade",
-      "value": 11,
-      "data": {
-        "depth": 3
-      }
-    },
-    {
-      "time": 4.46,
-      "type": "gravity",
-      "value": 11,
-      "data": {
-        "depth": 3,
-        "refilledDates": [
-          "2026-05-06",
-          "2026-09-18",
-          "2026-07-23",
-          "2026-09-30",
-          "2026-09-03",
-          "2026-07-19",
-          "2026-09-13",
-          "2026-09-02",
-          "2026-09-28",
-          "2026-08-07",
-          "2026-07-18"
-        ]
-      }
-    },
-    {
-      "time": 4.640000000000001,
-      "type": "gem-match",
-      "date": "2026-05-06",
-      "value": 31,
-      "data": {
-        "depth": 4,
-        "x": 3,
-        "y": 0
-      }
-    },
-    {
-      "time": 4.640000000000001,
-      "type": "gem-match",
-      "date": "2026-07-23",
-      "value": 34,
-      "data": {
-        "depth": 4,
-        "x": 4,
-        "y": 0
-      }
-    },
-    {
-      "time": 4.640000000000001,
+      "time": 1.6,
       "type": "gem-match",
       "date": "2026-07-19",
       "value": 41,
       "data": {
-        "depth": 4,
-        "x": 5,
-        "y": 0
+        "depth": 0,
+        "column": 40,
+        "row": 0,
+        "originalColumn": 40,
+        "originalRow": 0
       }
     },
     {
-      "time": 4.640000000000001,
-      "type": "gem-match",
-      "date": "2026-07-18",
-      "value": 46,
-      "data": {
-        "depth": 4,
-        "x": 6,
-        "y": 0
-      }
-    },
-    {
-      "time": 4.640000000000001,
-      "type": "gem-match",
-      "date": "2026-09-03",
-      "value": 37,
-      "data": {
-        "depth": 4,
-        "x": 5,
-        "y": 1
-      }
-    },
-    {
-      "time": 4.640000000000001,
-      "type": "gem-match",
-      "date": "2026-09-30",
-      "value": 34,
-      "data": {
-        "depth": 4,
-        "x": 5,
-        "y": 2
-      }
-    },
-    {
-      "time": 4.640000000000001,
-      "type": "gem-match",
-      "date": "2026-08-07",
-      "value": 44,
-      "data": {
-        "depth": 4,
-        "x": 6,
-        "y": 1
-      }
-    },
-    {
-      "time": 4.640000000000001,
-      "type": "gem-match",
-      "date": "2026-09-28",
-      "value": 42,
-      "data": {
-        "depth": 4,
-        "x": 6,
-        "y": 2
-      }
-    },
-    {
-      "time": 4.640000000000001,
-      "type": "gem-match",
-      "date": "2026-09-02",
-      "value": 42,
-      "data": {
-        "depth": 4,
-        "x": 6,
-        "y": 3
-      }
-    },
-    {
-      "time": 4.640000000000001,
-      "type": "gem-match",
-      "date": "2026-09-13",
-      "value": 41,
-      "data": {
-        "depth": 4,
-        "x": 6,
-        "y": 4
-      }
-    },
-    {
-      "time": 4.640000000000001,
-      "type": "gem-match",
-      "date": "2026-09-18",
-      "value": 33,
-      "data": {
-        "depth": 4,
-        "x": 4,
-        "y": 1
-      }
-    },
-    {
-      "time": 4.640000000000001,
-      "type": "cascade",
-      "value": 11,
-      "data": {
-        "depth": 4
-      }
-    },
-    {
-      "time": 5.24,
-      "type": "gravity",
-      "value": 11,
-      "data": {
-        "depth": 4,
-        "refilledDates": [
-          "2026-09-17",
-          "2026-08-25",
-          "2026-09-27",
-          "2026-08-03",
-          "2026-08-31",
-          "2026-07-22",
-          "2026-07-21",
-          "2026-09-05",
-          "2026-05-28",
-          "2026-08-01",
-          "2026-07-14"
-        ]
-      }
-    },
-    {
-      "time": 5.420000000000001,
-      "type": "gem-match",
-      "date": "2026-09-17",
-      "value": 50,
-      "data": {
-        "depth": 5,
-        "x": 3,
-        "y": 0
-      }
-    },
-    {
-      "time": 5.420000000000001,
-      "type": "gem-match",
-      "date": "2026-09-27",
-      "value": 52,
-      "data": {
-        "depth": 5,
-        "x": 4,
-        "y": 0
-      }
-    },
-    {
-      "time": 5.420000000000001,
-      "type": "gem-match",
-      "date": "2026-07-22",
-      "value": 54,
-      "data": {
-        "depth": 5,
-        "x": 5,
-        "y": 0
-      }
-    },
-    {
-      "time": 5.420000000000001,
-      "type": "gem-match",
-      "date": "2026-07-14",
-      "value": 73,
-      "data": {
-        "depth": 5,
-        "x": 6,
-        "y": 0
-      }
-    },
-    {
-      "time": 5.420000000000001,
-      "type": "gem-match",
-      "date": "2026-08-31",
-      "value": 53,
-      "data": {
-        "depth": 5,
-        "x": 5,
-        "y": 1
-      }
-    },
-    {
-      "time": 5.420000000000001,
-      "type": "gem-match",
-      "date": "2026-08-03",
-      "value": 53,
-      "data": {
-        "depth": 5,
-        "x": 5,
-        "y": 2
-      }
-    },
-    {
-      "time": 5.420000000000001,
-      "type": "gem-match",
-      "date": "2026-08-01",
-      "value": 70,
-      "data": {
-        "depth": 5,
-        "x": 6,
-        "y": 1
-      }
-    },
-    {
-      "time": 5.420000000000001,
-      "type": "gem-match",
-      "date": "2026-05-28",
-      "value": 61,
-      "data": {
-        "depth": 5,
-        "x": 6,
-        "y": 2
-      }
-    },
-    {
-      "time": 5.420000000000001,
-      "type": "gem-match",
-      "date": "2026-09-05",
-      "value": 60,
-      "data": {
-        "depth": 5,
-        "x": 6,
-        "y": 3
-      }
-    },
-    {
-      "time": 5.420000000000001,
-      "type": "gem-match",
-      "date": "2026-07-21",
-      "value": 56,
-      "data": {
-        "depth": 5,
-        "x": 6,
-        "y": 4
-      }
-    },
-    {
-      "time": 5.420000000000001,
-      "type": "gem-match",
-      "date": "2026-08-25",
-      "value": 52,
-      "data": {
-        "depth": 5,
-        "x": 4,
-        "y": 1
-      }
-    },
-    {
-      "time": 5.420000000000001,
-      "type": "cascade",
-      "value": 11,
-      "data": {
-        "depth": 5
-      }
-    },
-    {
-      "time": 6.0200000000000005,
-      "type": "gravity",
-      "value": 11,
-      "data": {
-        "depth": 5,
-        "refilledDates": [
-          "2026-07-24",
-          "2026-07-31",
-          "2026-08-24",
-          "2026-08-23",
-          "2026-08-29",
-          "2026-07-20",
-          "2026-08-10",
-          "2026-08-05",
-          "2026-09-06",
-          "2026-08-04",
-          "2026-10-04"
-        ]
-      }
-    },
-    {
-      "time": 6.200000000000001,
-      "type": "gem-match",
-      "date": "2026-07-24",
-      "value": 77,
-      "data": {
-        "depth": 6,
-        "x": 3,
-        "y": 0
-      }
-    },
-    {
-      "time": 6.200000000000001,
-      "type": "gem-match",
-      "date": "2026-08-24",
-      "value": 78,
-      "data": {
-        "depth": 6,
-        "x": 4,
-        "y": 0
-      }
-    },
-    {
-      "time": 6.200000000000001,
+      "time": 1.6,
       "type": "gem-match",
       "date": "2026-07-20",
       "value": 84,
       "data": {
-        "depth": 6,
-        "x": 5,
-        "y": 0
+        "depth": 0,
+        "column": 40,
+        "row": 1,
+        "originalColumn": 40,
+        "originalRow": 1
       }
     },
     {
-      "time": 6.200000000000001,
+      "time": 1.6,
       "type": "gem-match",
-      "date": "2026-10-04",
-      "value": 93,
+      "date": "2026-07-21",
+      "value": 56,
       "data": {
-        "depth": 6,
-        "x": 6,
-        "y": 0
+        "depth": 0,
+        "column": 40,
+        "row": 2,
+        "originalColumn": 40,
+        "originalRow": 2
       }
     },
     {
-      "time": 6.200000000000001,
+      "time": 1.6,
       "type": "gem-match",
-      "date": "2026-08-29",
-      "value": 81,
+      "date": "2026-07-22",
+      "value": 54,
       "data": {
-        "depth": 6,
-        "x": 5,
-        "y": 1
+        "depth": 0,
+        "column": 40,
+        "row": 3,
+        "originalColumn": 40,
+        "originalRow": 3
       }
     },
     {
-      "time": 6.200000000000001,
+      "time": 1.6,
       "type": "gem-match",
-      "date": "2026-08-23",
-      "value": 80,
+      "date": "2026-07-23",
+      "value": 34,
       "data": {
-        "depth": 6,
-        "x": 5,
-        "y": 2
+        "depth": 0,
+        "column": 40,
+        "row": 4,
+        "originalColumn": 40,
+        "originalRow": 4
       }
     },
     {
-      "time": 6.200000000000001,
+      "time": 1.6,
       "type": "gem-match",
-      "date": "2026-08-04",
-      "value": 90,
+      "date": "2026-07-24",
+      "value": 77,
       "data": {
-        "depth": 6,
-        "x": 6,
-        "y": 1
+        "depth": 0,
+        "column": 40,
+        "row": 5,
+        "originalColumn": 40,
+        "originalRow": 5
       }
     },
     {
-      "time": 6.200000000000001,
-      "type": "gem-match",
-      "date": "2026-09-06",
-      "value": 87,
-      "data": {
-        "depth": 6,
-        "x": 6,
-        "y": 2
-      }
-    },
-    {
-      "time": 6.200000000000001,
-      "type": "gem-match",
-      "date": "2026-08-05",
-      "value": 87,
-      "data": {
-        "depth": 6,
-        "x": 6,
-        "y": 3
-      }
-    },
-    {
-      "time": 6.200000000000001,
-      "type": "gem-match",
-      "date": "2026-08-10",
-      "value": 84,
-      "data": {
-        "depth": 6,
-        "x": 6,
-        "y": 4
-      }
-    },
-    {
-      "time": 6.200000000000001,
-      "type": "gem-match",
-      "date": "2026-07-31",
-      "value": 78,
-      "data": {
-        "depth": 6,
-        "x": 4,
-        "y": 1
-      }
-    },
-    {
-      "time": 6.200000000000001,
-      "type": "cascade",
-      "value": 11,
-      "data": {
-        "depth": 6
-      }
-    },
-    {
-      "time": 6.800000000000001,
-      "type": "gravity",
-      "value": 11,
-      "data": {
-        "depth": 6,
-        "refilledDates": [
-          "2026-09-08",
-          "2026-07-25",
-          "2026-08-21",
-          "2026-09-07",
-          "2026-09-09",
-          "2026-09-29",
-          "2026-08-11",
-          "2026-09-15",
-          "2026-08-06",
-          "2026-08-30",
-          "2026-09-14"
-        ]
-      }
-    },
-    {
-      "time": 6.980000000000001,
-      "type": "gem-match",
-      "date": "2026-09-08",
-      "value": 94,
-      "data": {
-        "depth": 7,
-        "x": 3,
-        "y": 0
-      }
-    },
-    {
-      "time": 6.980000000000001,
-      "type": "gem-match",
-      "date": "2026-08-21",
-      "value": 99,
-      "data": {
-        "depth": 7,
-        "x": 4,
-        "y": 0
-      }
-    },
-    {
-      "time": 6.980000000000001,
-      "type": "gem-match",
-      "date": "2026-09-29",
-      "value": 111,
-      "data": {
-        "depth": 7,
-        "x": 5,
-        "y": 0
-      }
-    },
-    {
-      "time": 6.980000000000001,
-      "type": "gem-match",
-      "date": "2026-09-14",
-      "value": 119,
-      "data": {
-        "depth": 7,
-        "x": 6,
-        "y": 0
-      }
-    },
-    {
-      "time": 6.980000000000001,
-      "type": "gem-match",
-      "date": "2026-09-09",
-      "value": 103,
-      "data": {
-        "depth": 7,
-        "x": 5,
-        "y": 1
-      }
-    },
-    {
-      "time": 6.980000000000001,
-      "type": "gem-match",
-      "date": "2026-09-07",
-      "value": 102,
-      "data": {
-        "depth": 7,
-        "x": 5,
-        "y": 2
-      }
-    },
-    {
-      "time": 6.980000000000001,
-      "type": "gem-match",
-      "date": "2026-08-30",
-      "value": 115,
-      "data": {
-        "depth": 7,
-        "x": 6,
-        "y": 1
-      }
-    },
-    {
-      "time": 6.980000000000001,
-      "type": "gem-match",
-      "date": "2026-08-06",
-      "value": 114,
-      "data": {
-        "depth": 7,
-        "x": 6,
-        "y": 2
-      }
-    },
-    {
-      "time": 6.980000000000001,
-      "type": "gem-match",
-      "date": "2026-09-15",
-      "value": 113,
-      "data": {
-        "depth": 7,
-        "x": 6,
-        "y": 3
-      }
-    },
-    {
-      "time": 6.980000000000001,
-      "type": "gem-match",
-      "date": "2026-08-11",
-      "value": 113,
-      "data": {
-        "depth": 7,
-        "x": 6,
-        "y": 4
-      }
-    },
-    {
-      "time": 6.980000000000001,
+      "time": 1.6,
       "type": "gem-match",
       "date": "2026-07-25",
       "value": 98,
       "data": {
-        "depth": 7,
-        "x": 4,
-        "y": 1
+        "depth": 0,
+        "column": 40,
+        "row": 6,
+        "originalColumn": 40,
+        "originalRow": 6
       }
     },
     {
-      "time": 6.980000000000001,
-      "type": "cascade",
-      "value": 11,
-      "data": {
-        "depth": 7
-      }
-    },
-    {
-      "time": 7.580000000000001,
-      "type": "gravity",
-      "value": 11,
-      "data": {
-        "depth": 7,
-        "refilledDates": [
-          "2026-10-12",
-          "2026-09-25",
-          "2026-10-14",
-          "2026-09-12",
-          "2026-07-26",
-          "2026-10-13",
-          "2026-07-28",
-          "2026-08-17",
-          "2026-09-20",
-          "2026-09-21",
-          "2026-08-22"
-        ]
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-09-10",
-      "value": 149,
-      "data": {
-        "depth": 8,
-        "x": 2,
-        "y": 0
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-10-12",
-      "value": 158,
-      "data": {
-        "depth": 8,
-        "x": 3,
-        "y": 0
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-10-14",
-      "value": 183,
-      "data": {
-        "depth": 8,
-        "x": 4,
-        "y": 0
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-10-13",
-      "value": 206,
-      "data": {
-        "depth": 8,
-        "x": 5,
-        "y": 0
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-08-22",
-      "value": 220,
-      "data": {
-        "depth": 8,
-        "x": 6,
-        "y": 0
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-09-22",
-      "value": 157,
-      "data": {
-        "depth": 8,
-        "x": 7,
-        "y": 0
-      }
-    },
-    {
-      "time": 7.760000000000002,
+      "time": 1.6,
       "type": "gem-match",
       "date": "2026-07-26",
       "value": 205,
       "data": {
-        "depth": 8,
-        "x": 5,
-        "y": 1
+        "depth": 0,
+        "column": 41,
+        "row": 0,
+        "originalColumn": 41,
+        "originalRow": 0
       }
     },
     {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-09-12",
-      "value": 197,
-      "data": {
-        "depth": 8,
-        "x": 5,
-        "y": 2
-      }
-    },
-    {
-      "time": 7.760000000000002,
+      "time": 1.6,
       "type": "gem-match",
       "date": "2026-08-02",
       "value": 147,
       "data": {
-        "depth": 8,
-        "x": 5,
-        "y": 3
+        "depth": 0,
+        "column": 42,
+        "row": 0,
+        "originalColumn": 42,
+        "originalRow": 0
       }
     },
     {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-09-21",
-      "value": 217,
-      "data": {
-        "depth": 8,
-        "x": 6,
-        "y": 1
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-09-20",
-      "value": 212,
-      "data": {
-        "depth": 8,
-        "x": 6,
-        "y": 2
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-08-17",
-      "value": 212,
-      "data": {
-        "depth": 8,
-        "x": 6,
-        "y": 3
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-07-28",
-      "value": 211,
-      "data": {
-        "depth": 8,
-        "x": 6,
-        "y": 4
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-10-05",
-      "value": 146,
-      "data": {
-        "depth": 8,
-        "x": 2,
-        "y": 1
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-09-01",
-      "value": 135,
-      "data": {
-        "depth": 8,
-        "x": 3,
-        "y": 1
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-09-25",
-      "value": 167,
-      "data": {
-        "depth": 8,
-        "x": 4,
-        "y": 1
-      }
-    },
-    {
-      "time": 7.760000000000002,
+      "time": 1.6,
       "type": "gem-match",
       "date": "2026-08-09",
       "value": 146,
       "data": {
-        "depth": 8,
-        "x": 7,
-        "y": 2
+        "depth": 0,
+        "column": 43,
+        "row": 0,
+        "originalColumn": 43,
+        "originalRow": 0
       }
     },
     {
-      "time": 7.760000000000002,
-      "type": "gem-match",
-      "date": "2026-07-30",
-      "value": 132,
-      "data": {
-        "depth": 8,
-        "x": 4,
-        "y": 3
-      }
-    },
-    {
-      "time": 7.760000000000002,
-      "type": "cascade",
-      "value": 18,
-      "data": {
-        "depth": 8
-      }
-    },
-    {
-      "time": 8.360000000000001,
-      "type": "gravity",
-      "value": 3,
-      "data": {
-        "depth": 8,
-        "refilledDates": [
-          "2026-10-08",
-          "2026-07-27",
-          "2026-10-02"
-        ]
-      }
-    },
-    {
-      "time": 8.9,
-      "type": "swap",
-      "data": {
-        "a": {
-          "x": 2,
-          "y": 2
-        },
-        "b": {
-          "x": 2,
-          "y": 3
-        },
-        "dates": [
-          "2026-09-19",
-          "2026-08-27"
-        ],
-        "matchSize": 8
-      }
-    },
-    {
-      "time": 9.32,
+      "time": 1.6,
       "type": "gem-match",
       "date": "2026-07-27",
       "value": 232,
       "data": {
         "depth": 0,
-        "x": 2,
-        "y": 0
+        "column": 41,
+        "row": 1,
+        "originalColumn": 41,
+        "originalRow": 1
       }
     },
     {
-      "time": 9.32,
+      "time": 1.6,
       "type": "gem-match",
-      "date": "2026-10-08",
-      "value": 229,
+      "date": "2026-07-28",
+      "value": 211,
       "data": {
         "depth": 0,
-        "x": 2,
-        "y": 1
+        "column": 41,
+        "row": 2,
+        "originalColumn": 41,
+        "originalRow": 2
       }
     },
     {
-      "time": 9.32,
+      "time": 1.6,
       "type": "gem-match",
-      "date": "2026-08-27",
+      "date": "2026-07-29",
+      "value": 121,
+      "data": {
+        "depth": 0,
+        "column": 41,
+        "row": 3,
+        "originalColumn": 41,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-07-30",
+      "value": 132,
+      "data": {
+        "depth": 0,
+        "column": 41,
+        "row": 4,
+        "originalColumn": 41,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-23",
+      "value": 80,
+      "data": {
+        "depth": 0,
+        "column": 45,
+        "row": 0,
+        "originalColumn": 45,
+        "originalRow": 0
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-30",
+      "value": 115,
+      "data": {
+        "depth": 0,
+        "column": 46,
+        "row": 0,
+        "originalColumn": 46,
+        "originalRow": 0
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-06",
+      "value": 87,
+      "data": {
+        "depth": 0,
+        "column": 47,
+        "row": 0,
+        "originalColumn": 47,
+        "originalRow": 0
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-13",
+      "value": 41,
+      "data": {
+        "depth": 0,
+        "column": 48,
+        "row": 0,
+        "originalColumn": 48,
+        "originalRow": 0
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-24",
+      "value": 78,
+      "data": {
+        "depth": 0,
+        "column": 45,
+        "row": 1,
+        "originalColumn": 45,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-25",
+      "value": 52,
+      "data": {
+        "depth": 0,
+        "column": 45,
+        "row": 2,
+        "originalColumn": 45,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-07",
+      "value": 102,
+      "data": {
+        "depth": 0,
+        "column": 47,
+        "row": 1,
+        "originalColumn": 47,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-08",
+      "value": 94,
+      "data": {
+        "depth": 0,
+        "column": 47,
+        "row": 2,
+        "originalColumn": 47,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-09",
+      "value": 103,
+      "data": {
+        "depth": 0,
+        "column": 47,
+        "row": 3,
+        "originalColumn": 47,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-14",
+      "value": 119,
+      "data": {
+        "depth": 0,
+        "column": 48,
+        "row": 1,
+        "originalColumn": 48,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-15",
+      "value": 113,
+      "data": {
+        "depth": 0,
+        "column": 48,
+        "row": 2,
+        "originalColumn": 48,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-20",
+      "value": 212,
+      "data": {
+        "depth": 0,
+        "column": 49,
+        "row": 0,
+        "originalColumn": 49,
+        "originalRow": 0
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-21",
+      "value": 217,
+      "data": {
+        "depth": 0,
+        "column": 49,
+        "row": 1,
+        "originalColumn": 49,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-22",
+      "value": 157,
+      "data": {
+        "depth": 0,
+        "column": 49,
+        "row": 2,
+        "originalColumn": 49,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-27",
+      "value": 52,
+      "data": {
+        "depth": 0,
+        "column": 50,
+        "row": 0,
+        "originalColumn": 50,
+        "originalRow": 0
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-28",
+      "value": 42,
+      "data": {
+        "depth": 0,
+        "column": 50,
+        "row": 1,
+        "originalColumn": 50,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-29",
+      "value": 111,
+      "data": {
+        "depth": 0,
+        "column": 50,
+        "row": 2,
+        "originalColumn": 50,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-30",
+      "value": 34,
+      "data": {
+        "depth": 0,
+        "column": 50,
+        "row": 3,
+        "originalColumn": 50,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-10-01",
+      "value": 14,
+      "data": {
+        "depth": 0,
+        "column": 50,
+        "row": 4,
+        "originalColumn": 50,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-04-20",
+      "value": 4,
+      "data": {
+        "depth": 0,
+        "column": 27,
+        "row": 1,
+        "originalColumn": 27,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-04-21",
+      "value": 1,
+      "data": {
+        "depth": 0,
+        "column": 27,
+        "row": 2,
+        "originalColumn": 27,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-04-22",
+      "value": 13,
+      "data": {
+        "depth": 0,
+        "column": 27,
+        "row": 3,
+        "originalColumn": 27,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-04-23",
+      "value": 12,
+      "data": {
+        "depth": 0,
+        "column": 27,
+        "row": 4,
+        "originalColumn": 27,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-03",
+      "value": 53,
+      "data": {
+        "depth": 0,
+        "column": 42,
+        "row": 1,
+        "originalColumn": 42,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-04",
+      "value": 90,
+      "data": {
+        "depth": 0,
+        "column": 42,
+        "row": 2,
+        "originalColumn": 42,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-05",
+      "value": 87,
+      "data": {
+        "depth": 0,
+        "column": 42,
+        "row": 3,
+        "originalColumn": 42,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-06",
+      "value": 114,
+      "data": {
+        "depth": 0,
+        "column": 42,
+        "row": 4,
+        "originalColumn": 42,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-07",
+      "value": 44,
+      "data": {
+        "depth": 0,
+        "column": 42,
+        "row": 5,
+        "originalColumn": 42,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-08",
+      "value": 30,
+      "data": {
+        "depth": 0,
+        "column": 42,
+        "row": 6,
+        "originalColumn": 42,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-31",
+      "value": 53,
+      "data": {
+        "depth": 0,
+        "column": 46,
+        "row": 1,
+        "originalColumn": 46,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-10-12",
+      "value": 158,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 1,
+        "originalColumn": 52,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-10-13",
+      "value": 206,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 2,
+        "originalColumn": 52,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-10-14",
+      "value": 183,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 3,
+        "originalColumn": 52,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-05-26",
+      "value": 1,
+      "data": {
+        "depth": 0,
+        "column": 32,
+        "row": 2,
+        "originalColumn": 32,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-05-27",
+      "value": 17,
+      "data": {
+        "depth": 0,
+        "column": 32,
+        "row": 3,
+        "originalColumn": 32,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-05-28",
+      "value": 61,
+      "data": {
+        "depth": 0,
+        "column": 32,
+        "row": 4,
+        "originalColumn": 32,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-07-08",
+      "value": 4,
+      "data": {
+        "depth": 0,
+        "column": 38,
+        "row": 3,
+        "originalColumn": 38,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-07-09",
+      "value": 10,
+      "data": {
+        "depth": 0,
+        "column": 38,
+        "row": 4,
+        "originalColumn": 38,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-07-10",
+      "value": 7,
+      "data": {
+        "depth": 0,
+        "column": 38,
+        "row": 5,
+        "originalColumn": 38,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-07-11",
+      "value": 4,
+      "data": {
+        "depth": 0,
+        "column": 38,
+        "row": 6,
+        "originalColumn": 38,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-02",
+      "value": 42,
+      "data": {
+        "depth": 0,
+        "column": 46,
+        "row": 3,
+        "originalColumn": 46,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-03",
+      "value": 37,
+      "data": {
+        "depth": 0,
+        "column": 46,
+        "row": 4,
+        "originalColumn": 46,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-04",
+      "value": 5,
+      "data": {
+        "depth": 0,
+        "column": 46,
+        "row": 5,
+        "originalColumn": 46,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-05",
+      "value": 60,
+      "data": {
+        "depth": 0,
+        "column": 46,
+        "row": 6,
+        "originalColumn": 46,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-04-30",
+      "value": 18,
+      "data": {
+        "depth": 0,
+        "column": 28,
+        "row": 4,
+        "originalColumn": 28,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-05-07",
+      "value": 5,
+      "data": {
+        "depth": 0,
+        "column": 29,
+        "row": 4,
+        "originalColumn": 29,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-05-14",
+      "value": 1,
+      "data": {
+        "depth": 0,
+        "column": 30,
+        "row": 4,
+        "originalColumn": 30,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-06-18",
+      "value": 1,
+      "data": {
+        "depth": 0,
+        "column": 35,
+        "row": 4,
+        "originalColumn": 35,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-06-19",
+      "value": 11,
+      "data": {
+        "depth": 0,
+        "column": 35,
+        "row": 5,
+        "originalColumn": 35,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-06-20",
+      "value": 5,
+      "data": {
+        "depth": 0,
+        "column": 35,
+        "row": 6,
+        "originalColumn": 35,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-10",
+      "value": 149,
+      "data": {
+        "depth": 0,
+        "column": 47,
+        "row": 4,
+        "originalColumn": 47,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-11",
       "value": 136,
       "data": {
         "depth": 0,
-        "x": 2,
-        "y": 2
+        "column": 47,
+        "row": 5,
+        "originalColumn": 47,
+        "originalRow": 5
       }
     },
     {
-      "time": 9.32,
+      "time": 1.6,
       "type": "gem-match",
-      "date": "2026-08-26",
-      "value": 120,
+      "date": "2026-09-12",
+      "value": 197,
       "data": {
         "depth": 0,
-        "x": 0,
-        "y": 2
+        "column": 47,
+        "row": 6,
+        "originalColumn": 47,
+        "originalRow": 6
       }
     },
     {
-      "time": 9.32,
+      "time": 1.6,
       "type": "gem-match",
-      "date": "2026-08-14",
-      "value": 134,
+      "date": "2026-07-31",
+      "value": 78,
       "data": {
         "depth": 0,
-        "x": 1,
-        "y": 2
+        "column": 41,
+        "row": 5,
+        "originalColumn": 41,
+        "originalRow": 5
       }
     },
     {
-      "time": 9.32,
+      "time": 1.6,
       "type": "gem-match",
-      "date": "2026-09-19",
-      "value": 244,
+      "date": "2026-08-21",
+      "value": 99,
       "data": {
         "depth": 0,
-        "x": 2,
-        "y": 3
+        "column": 44,
+        "row": 5,
+        "originalColumn": 44,
+        "originalRow": 5
       }
     },
     {
-      "time": 9.32,
+      "time": 1.6,
       "type": "gem-match",
-      "date": "2026-08-18",
-      "value": 244,
+      "date": "2026-08-28",
+      "value": 17,
       "data": {
         "depth": 0,
-        "x": 3,
-        "y": 3
+        "column": 45,
+        "row": 5,
+        "originalColumn": 45,
+        "originalRow": 5
       }
     },
     {
-      "time": 9.32,
+      "time": 1.6,
       "type": "gem-match",
-      "date": "2026-09-24",
-      "value": 259,
+      "date": "2026-07-18",
+      "value": 46,
       "data": {
         "depth": 0,
-        "x": 4,
-        "y": 3
+        "column": 39,
+        "row": 6,
+        "originalColumn": 39,
+        "originalRow": 6
       }
     },
     {
-      "time": 9.92,
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-01",
+      "value": 70,
+      "data": {
+        "depth": 0,
+        "column": 41,
+        "row": 6,
+        "originalColumn": 41,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 2.2,
       "type": "gravity",
-      "value": 0,
+      "value": 33,
       "data": {
         "depth": 0,
+        "falls": [
+          {
+            "date": "2026-08-16",
+            "column": 44,
+            "fromRow": 0,
+            "row": 1
+          },
+          {
+            "date": "2026-07-13",
+            "column": 39,
+            "fromRow": 1,
+            "row": 2
+          },
+          {
+            "date": "2026-08-17",
+            "column": 44,
+            "fromRow": 1,
+            "row": 2
+          },
+          {
+            "date": "2026-05-17",
+            "column": 31,
+            "fromRow": 0,
+            "row": 3
+          },
+          {
+            "date": "2026-07-14",
+            "column": 39,
+            "fromRow": 2,
+            "row": 3
+          },
+          {
+            "date": "2026-08-18",
+            "column": 44,
+            "fromRow": 2,
+            "row": 3
+          },
+          {
+            "date": "2026-10-11",
+            "column": 52,
+            "fromRow": 0,
+            "row": 3
+          },
+          {
+            "date": "2026-04-27",
+            "column": 28,
+            "fromRow": 1,
+            "row": 4
+          },
+          {
+            "date": "2026-05-18",
+            "column": 31,
+            "fromRow": 1,
+            "row": 4
+          },
+          {
+            "date": "2026-07-15",
+            "column": 39,
+            "fromRow": 3,
+            "row": 4
+          },
+          {
+            "date": "2026-08-19",
+            "column": 44,
+            "fromRow": 3,
+            "row": 4
+          },
+          {
+            "date": "2026-08-26",
+            "column": 45,
+            "fromRow": 3,
+            "row": 4
+          },
+          {
+            "date": "2026-02-15",
+            "column": 18,
+            "fromRow": 0,
+            "row": 5
+          },
+          {
+            "date": "2026-02-22",
+            "column": 19,
+            "fromRow": 0,
+            "row": 5
+          },
+          {
+            "date": "2026-04-28",
+            "column": 28,
+            "fromRow": 2,
+            "row": 5
+          },
+          {
+            "date": "2026-05-06",
+            "column": 29,
+            "fromRow": 3,
+            "row": 5
+          },
+          {
+            "date": "2026-05-11",
+            "column": 30,
+            "fromRow": 1,
+            "row": 5
+          },
+          {
+            "date": "2026-07-16",
+            "column": 39,
+            "fromRow": 4,
+            "row": 5
+          },
+          {
+            "date": "2026-08-20",
+            "column": 44,
+            "fromRow": 4,
+            "row": 5
+          },
+          {
+            "date": "2026-08-27",
+            "column": 45,
+            "fromRow": 4,
+            "row": 5
+          },
+          {
+            "date": "2025-11-03",
+            "column": 3,
+            "fromRow": 1,
+            "row": 6
+          },
+          {
+            "date": "2026-02-09",
+            "column": 17,
+            "fromRow": 1,
+            "row": 6
+          },
+          {
+            "date": "2026-02-20",
+            "column": 18,
+            "fromRow": 5,
+            "row": 6
+          },
+          {
+            "date": "2026-02-24",
+            "column": 19,
+            "fromRow": 2,
+            "row": 6
+          },
+          {
+            "date": "2026-03-30",
+            "column": 24,
+            "fromRow": 1,
+            "row": 6
+          },
+          {
+            "date": "2026-05-01",
+            "column": 28,
+            "fromRow": 5,
+            "row": 6
+          },
+          {
+            "date": "2026-05-15",
+            "column": 30,
+            "fromRow": 5,
+            "row": 6
+          },
+          {
+            "date": "2026-06-04",
+            "column": 33,
+            "fromRow": 4,
+            "row": 6
+          },
+          {
+            "date": "2026-06-12",
+            "column": 34,
+            "fromRow": 5,
+            "row": 6
+          },
+          {
+            "date": "2026-06-14",
+            "column": 35,
+            "fromRow": 0,
+            "row": 6
+          },
+          {
+            "date": "2026-06-22",
+            "column": 36,
+            "fromRow": 1,
+            "row": 6
+          },
+          {
+            "date": "2026-07-17",
+            "column": 39,
+            "fromRow": 5,
+            "row": 6
+          },
+          {
+            "date": "2026-09-01",
+            "column": 46,
+            "fromRow": 2,
+            "row": 6
+          }
+        ],
         "refilledDates": []
       }
     },
     {
-      "time": 10.1,
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-05-17",
+      "value": 2,
+      "data": {
+        "depth": 1,
+        "column": 31,
+        "row": 3,
+        "originalColumn": 31,
+        "originalRow": 0
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-05-18",
+      "value": 7,
+      "data": {
+        "depth": 1,
+        "column": 31,
+        "row": 4,
+        "originalColumn": 31,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 2.42,
       "type": "gem-match",
       "date": "2026-05-22",
       "value": 1,
       "data": {
         "depth": 1,
-        "x": 1,
-        "y": 1
+        "column": 31,
+        "row": 5,
+        "originalColumn": 31,
+        "originalRow": 5
       }
     },
     {
-      "time": 10.1,
-      "type": "gem-match",
-      "date": "2026-04-25",
-      "value": 1,
-      "data": {
-        "depth": 1,
-        "x": 1,
-        "y": 2
-      }
-    },
-    {
-      "time": 10.1,
+      "time": 2.42,
       "type": "gem-match",
       "date": "2026-05-23",
       "value": 1,
       "data": {
         "depth": 1,
-        "x": 1,
-        "y": 3
+        "column": 31,
+        "row": 6,
+        "originalColumn": 31,
+        "originalRow": 6
       }
     },
     {
-      "time": 10.1,
+      "time": 2.42,
       "type": "gem-match",
-      "date": "2026-02-15",
+      "date": "2026-04-27",
+      "value": 12,
+      "data": {
+        "depth": 1,
+        "column": 28,
+        "row": 4,
+        "originalColumn": 28,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-04-28",
+      "value": 2,
+      "data": {
+        "depth": 1,
+        "column": 28,
+        "row": 5,
+        "originalColumn": 28,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-05-01",
       "value": 1,
       "data": {
         "depth": 1,
-        "x": 1,
-        "y": 4
+        "column": 28,
+        "row": 6,
+        "originalColumn": 28,
+        "originalRow": 5
       }
     },
     {
-      "time": 10.1,
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-05-06",
+      "value": 31,
+      "data": {
+        "depth": 1,
+        "column": 29,
+        "row": 5,
+        "originalColumn": 29,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-05-11",
+      "value": 1,
+      "data": {
+        "depth": 1,
+        "column": 30,
+        "row": 5,
+        "originalColumn": 30,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 2.42,
       "type": "gem-match",
       "date": "2026-02-09",
       "value": 1,
       "data": {
         "depth": 1,
-        "x": 3,
-        "y": 3
+        "column": 17,
+        "row": 6,
+        "originalColumn": 17,
+        "originalRow": 1
       }
     },
     {
-      "time": 10.1,
+      "time": 2.42,
       "type": "gem-match",
-      "date": "2026-05-14",
+      "date": "2026-02-20",
+      "value": 2,
+      "data": {
+        "depth": 1,
+        "column": 18,
+        "row": 6,
+        "originalColumn": 18,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-02-24",
       "value": 1,
       "data": {
         "depth": 1,
-        "x": 3,
-        "y": 4
+        "column": 19,
+        "row": 6,
+        "originalColumn": 19,
+        "originalRow": 2
       }
     },
     {
-      "time": 10.1,
+      "time": 2.42,
       "type": "gem-match",
-      "date": "2026-03-30",
+      "date": "2026-04-18",
+      "value": 3,
+      "data": {
+        "depth": 1,
+        "column": 26,
+        "row": 6,
+        "originalColumn": 26,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-04-25",
       "value": 1,
       "data": {
         "depth": 1,
-        "x": 3,
-        "y": 5
+        "column": 27,
+        "row": 6,
+        "originalColumn": 27,
+        "originalRow": 6
       }
     },
     {
-      "time": 10.1,
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-05-09",
+      "value": 4,
+      "data": {
+        "depth": 1,
+        "column": 29,
+        "row": 6,
+        "originalColumn": 29,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-05-15",
+      "value": 1,
+      "data": {
+        "depth": 1,
+        "column": 30,
+        "row": 6,
+        "originalColumn": 30,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-06-04",
+      "value": 3,
+      "data": {
+        "depth": 1,
+        "column": 33,
+        "row": 6,
+        "originalColumn": 33,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-06-12",
+      "value": 18,
+      "data": {
+        "depth": 1,
+        "column": 34,
+        "row": 6,
+        "originalColumn": 34,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-06-14",
+      "value": 11,
+      "data": {
+        "depth": 1,
+        "column": 35,
+        "row": 6,
+        "originalColumn": 35,
+        "originalRow": 0
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-06-22",
+      "value": 29,
+      "data": {
+        "depth": 1,
+        "column": 36,
+        "row": 6,
+        "originalColumn": 36,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 2.42,
       "type": "cascade",
-      "value": 7,
+      "value": 20,
       "data": {
         "depth": 1
       }
     },
     {
-      "time": 10.7,
+      "time": 3.02,
       "type": "gravity",
-      "value": 0,
+      "value": 3,
       "data": {
         "depth": 1,
+        "falls": [
+          {
+            "date": "2026-02-15",
+            "column": 18,
+            "fromRow": 5,
+            "row": 6
+          },
+          {
+            "date": "2026-02-22",
+            "column": 19,
+            "fromRow": 5,
+            "row": 6
+          },
+          {
+            "date": "2026-04-17",
+            "column": 26,
+            "fromRow": 5,
+            "row": 6
+          }
+        ],
         "refilledDates": []
       }
     },
     {
-      "time": 10.879999999999999,
-      "type": "gem-match",
-      "date": "2026-10-02",
-      "value": 238,
+      "time": 3.2399999999999998,
+      "type": "swap",
+      "value": 99,
       "data": {
-        "depth": 2,
-        "x": 3,
-        "y": 5
+        "a": {
+          "x": 48,
+          "y": 3
+        },
+        "b": {
+          "x": 49,
+          "y": 3
+        },
+        "dates": [
+          "2026-09-16",
+          "2026-09-23"
+        ],
+        "matchSize": 3
       }
     },
     {
-      "time": 10.879999999999999,
+      "time": 3.69,
+      "type": "gem-match",
+      "date": "2026-09-23",
+      "value": 16,
+      "data": {
+        "depth": 0,
+        "column": 48,
+        "row": 3,
+        "originalColumn": 49,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 3.69,
+      "type": "gem-match",
+      "date": "2026-09-17",
+      "value": 50,
+      "data": {
+        "depth": 0,
+        "column": 48,
+        "row": 4,
+        "originalColumn": 48,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 3.69,
+      "type": "gem-match",
+      "date": "2026-09-18",
+      "value": 33,
+      "data": {
+        "depth": 0,
+        "column": 48,
+        "row": 5,
+        "originalColumn": 48,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 4.29,
+      "type": "gravity",
+      "value": 0,
+      "data": {
+        "depth": 0,
+        "falls": [],
+        "refilledDates": []
+      }
+    },
+    {
+      "time": 4.79,
+      "type": "swap",
+      "value": 391,
+      "data": {
+        "a": {
+          "x": 45,
+          "y": 6
+        },
+        "b": {
+          "x": 46,
+          "y": 6
+        },
+        "dates": [
+          "2026-08-29",
+          "2026-09-01"
+        ],
+        "matchSize": 3
+      }
+    },
+    {
+      "time": 5.24,
+      "type": "gem-match",
+      "date": "2026-08-26",
+      "value": 120,
+      "data": {
+        "depth": 0,
+        "column": 45,
+        "row": 4,
+        "originalColumn": 45,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 5.24,
+      "type": "gem-match",
+      "date": "2026-08-27",
+      "value": 136,
+      "data": {
+        "depth": 0,
+        "column": 45,
+        "row": 5,
+        "originalColumn": 45,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 5.24,
+      "type": "gem-match",
+      "date": "2026-09-01",
+      "value": 135,
+      "data": {
+        "depth": 0,
+        "column": 45,
+        "row": 6,
+        "originalColumn": 46,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 5.84,
+      "type": "gravity",
+      "value": 0,
+      "data": {
+        "depth": 0,
+        "falls": [],
+        "refilledDates": []
+      }
+    },
+    {
+      "time": 6.340000000000001,
+      "type": "swap",
+      "value": 477,
+      "data": {
+        "a": {
+          "x": 49,
+          "y": 3
+        },
+        "b": {
+          "x": 49,
+          "y": 4
+        },
+        "dates": [
+          "2026-09-16",
+          "2026-09-24"
+        ],
+        "matchSize": 3
+      }
+    },
+    {
+      "time": 6.790000000000001,
       "type": "gem-match",
       "date": "2026-09-16",
       "value": 154,
       "data": {
-        "depth": 2,
-        "x": 4,
-        "y": 5
+        "depth": 0,
+        "column": 49,
+        "row": 4,
+        "originalColumn": 48,
+        "originalRow": 3
       }
     },
     {
-      "time": 10.879999999999999,
+      "time": 6.790000000000001,
       "type": "gem-match",
-      "date": "2026-09-11",
-      "value": 136,
+      "date": "2026-09-25",
+      "value": 167,
       "data": {
-        "depth": 2,
-        "x": 5,
-        "y": 5
+        "depth": 0,
+        "column": 49,
+        "row": 5,
+        "originalColumn": 49,
+        "originalRow": 5
       }
     },
     {
-      "time": 10.879999999999999,
-      "type": "cascade",
-      "value": 3,
+      "time": 6.790000000000001,
+      "type": "gem-match",
+      "date": "2026-09-26",
+      "value": 156,
       "data": {
-        "depth": 2
+        "depth": 0,
+        "column": 49,
+        "row": 6,
+        "originalColumn": 49,
+        "originalRow": 6
       }
     },
     {
-      "time": 11.479999999999999,
+      "time": 7.390000000000001,
       "type": "gravity",
-      "value": 0,
+      "value": 1,
       "data": {
-        "depth": 2,
+        "depth": 0,
+        "falls": [
+          {
+            "date": "2026-09-24",
+            "column": 49,
+            "fromRow": 3,
+            "row": 6
+          }
+        ],
         "refilledDates": []
       }
     },
     {
-      "time": 11.659999999999998,
+      "time": 7.8900000000000015,
+      "type": "swap",
+      "value": 797,
+      "data": {
+        "a": {
+          "x": 50,
+          "y": 6
+        },
+        "b": {
+          "x": 51,
+          "y": 6
+        },
+        "dates": [
+          "2026-10-03",
+          "2026-10-10"
+        ],
+        "matchSize": 3
+      }
+    },
+    {
+      "time": 8.340000000000002,
+      "type": "gem-match",
+      "date": "2026-09-19",
+      "value": 244,
+      "data": {
+        "depth": 0,
+        "column": 48,
+        "row": 6,
+        "originalColumn": 48,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 8.340000000000002,
+      "type": "gem-match",
+      "date": "2026-09-24",
+      "value": 259,
+      "data": {
+        "depth": 0,
+        "column": 49,
+        "row": 6,
+        "originalColumn": 49,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 8.340000000000002,
+      "type": "gem-match",
+      "date": "2026-10-10",
+      "value": 294,
+      "data": {
+        "depth": 0,
+        "column": 50,
+        "row": 6,
+        "originalColumn": 51,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 8.940000000000001,
+      "type": "gravity",
+      "value": 1,
+      "data": {
+        "depth": 0,
+        "falls": [
+          {
+            "date": "2026-10-02",
+            "column": 50,
+            "fromRow": 5,
+            "row": 6
+          }
+        ],
+        "refilledDates": []
+      }
+    },
+    {
+      "time": 9.440000000000001,
+      "type": "swap",
+      "value": 857,
+      "data": {
+        "a": {
+          "x": 44,
+          "y": 1
+        },
+        "b": {
+          "x": 44,
+          "y": 2
+        },
+        "dates": [
+          "2026-08-16",
+          "2026-08-17"
+        ],
+        "matchSize": 3
+      }
+    },
+    {
+      "time": 9.89,
+      "type": "gem-match",
+      "date": "2026-08-16",
+      "value": 306,
+      "data": {
+        "depth": 0,
+        "column": 44,
+        "row": 2,
+        "originalColumn": 44,
+        "originalRow": 0
+      }
+    },
+    {
+      "time": 9.89,
+      "type": "gem-match",
+      "date": "2026-08-18",
+      "value": 244,
+      "data": {
+        "depth": 0,
+        "column": 44,
+        "row": 3,
+        "originalColumn": 44,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 9.89,
+      "type": "gem-match",
+      "date": "2026-08-19",
+      "value": 307,
+      "data": {
+        "depth": 0,
+        "column": 44,
+        "row": 4,
+        "originalColumn": 44,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 10.49,
+      "type": "gravity",
+      "value": 1,
+      "data": {
+        "depth": 0,
+        "falls": [
+          {
+            "date": "2026-08-17",
+            "column": 44,
+            "fromRow": 1,
+            "row": 4
+          }
+        ],
+        "refilledDates": []
+      }
+    },
+    {
+      "time": 10.99,
+      "type": "swap",
+      "value": 1917,
+      "data": {
+        "a": {
+          "x": 43,
+          "y": 5
+        },
+        "b": {
+          "x": 44,
+          "y": 5
+        },
+        "dates": [
+          "2026-08-14",
+          "2026-08-20"
+        ],
+        "matchSize": 6
+      }
+    },
+    {
+      "time": 11.44,
       "type": "gem-match",
       "date": "2026-08-13",
       "value": 482,
       "data": {
-        "depth": 3,
-        "x": 4,
-        "y": 5
+        "depth": 0,
+        "column": 43,
+        "row": 4,
+        "originalColumn": 43,
+        "originalRow": 4
       }
     },
     {
-      "time": 11.659999999999998,
+      "time": 11.44,
       "type": "gem-match",
-      "date": "2026-10-06",
-      "value": 362,
+      "date": "2026-08-20",
+      "value": 478,
       "data": {
-        "depth": 3,
-        "x": 5,
-        "y": 5
+        "depth": 0,
+        "column": 43,
+        "row": 5,
+        "originalColumn": 44,
+        "originalRow": 4
       }
     },
     {
-      "time": 11.659999999999998,
+      "time": 11.44,
       "type": "gem-match",
       "date": "2026-08-15",
       "value": 391,
       "data": {
-        "depth": 3,
-        "x": 6,
-        "y": 5
+        "depth": 0,
+        "column": 43,
+        "row": 6,
+        "originalColumn": 43,
+        "originalRow": 6
       }
     },
     {
-      "time": 11.659999999999998,
-      "type": "cascade",
+      "time": 11.44,
+      "type": "gem-match",
+      "date": "2026-08-17",
+      "value": 212,
+      "data": {
+        "depth": 0,
+        "column": 44,
+        "row": 4,
+        "originalColumn": 44,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 11.44,
+      "type": "gem-match",
+      "date": "2026-08-14",
+      "value": 134,
+      "data": {
+        "depth": 0,
+        "column": 44,
+        "row": 5,
+        "originalColumn": 43,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 11.44,
+      "type": "gem-match",
+      "date": "2026-08-22",
+      "value": 220,
+      "data": {
+        "depth": 0,
+        "column": 44,
+        "row": 6,
+        "originalColumn": 44,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 12.04,
+      "type": "gravity",
       "value": 3,
       "data": {
-        "depth": 3
-      }
-    },
-    {
-      "time": 12.259999999999998,
-      "type": "gravity",
-      "value": 0,
-      "data": {
-        "depth": 3,
+        "depth": 0,
+        "falls": [
+          {
+            "date": "2026-08-10",
+            "column": 43,
+            "fromRow": 1,
+            "row": 4
+          },
+          {
+            "date": "2026-08-11",
+            "column": 43,
+            "fromRow": 2,
+            "row": 5
+          },
+          {
+            "date": "2026-08-12",
+            "column": 43,
+            "fromRow": 3,
+            "row": 6
+          }
+        ],
         "refilledDates": []
       }
     },
     {
-      "time": 12.799999999999997,
+      "time": 12.54,
       "type": "no-moves",
-      "value": 11482
+      "value": 10260
     }
   ]
 }
