@@ -86,9 +86,9 @@
       "number": "09",
       "title": "Civilization",
       "caption": "From a first camp to a distant orbit.",
-      "description": "Actual accumulated contributions cross fixed era thresholds, growing a camp into a hamlet, village, town, industrial settlement and spaceport. Observed inactive runs weather and overgrow the settlement; activity repairs it.",
+      "description": "Actual accumulated contributions cross fixed era thresholds, growing a camp into a hamlet, village, town, industrial settlement and spaceport. Observed inactive runs weather and overgrow the settlement; activity repairs it. Reaching Space unlocks a rocket launch after the complete year: ignition, accelerating liftoff and a flight beyond the card.",
       "category": "Worlds",
-      "duration": 32
+      "duration": 37.5
     },
     {
       "id": "archaeology",
