@@ -94,9 +94,11 @@ Animated exports contain no JavaScript or external dependencies. Reduced-motion 
 
 ## Data and interpretation
 
-Every scene retains **exactly the original calendar's day tiles and arrangement**: week columns, weekday rows, zero-contribution dates, and partial-week gaps. Changing a day's count cannot change where that date appears. There is no count-sorted replacement calendar, packed active-day maze, separate 3×3 mole board, or unrelated puzzle mesh.
+Every scene starts from **exactly the original calendar's day tiles and arrangement**: week columns, weekday rows, zero-contribution dates, and partial-week gaps. Changing a day's count cannot change where that date appears. There is no count-sorted replacement calendar, packed active-day maze, separate 3×3 mole board, or unrelated puzzle mesh.
 
 Actors and game effects operate over that fixed graph. Pac-Man, Snake, mining, and harvesting plan their targets from the smallest remaining exact count. Future tiers can be crossed as dormant floor without early consumption. Whack-a-Mole emerges at each actual active date's own tile. Tetris uses one source piece per active date on the original graph's columns and seven weekday rows, with missing dates unavailable; narrow histories can lack room for a tetromino. Match Three starts at the original date slots, then performs explicit swaps and gravity with the actual finite gems. Forced matches and cascades retain matching rules rather than claiming individually sorted consumption.
+
+An eaten or destroyed date disappears completely, including its colored tile and empty backing, leaving a visible background gap. Misses retain their targets, and stronger Breakout bricks survive until their final hit. Replay restores the original graph. Static and reduced-motion views keep their chosen still state consistently across all layers.
 
 `calendar.json` preserves GitHub's actual date counts, weekday positions, missing dates and contribution levels. Contribution totals include activity visible to the supplied token and follow profile settings; they include more than commits. The checked-in calendar is the public snapshot used by the scheduled workflow.
 
@@ -134,7 +136,7 @@ npx playwright install chromium
 npm run capture
 ```
 
-Model tests check actual rules and accounting, including row compaction, legal matching swaps, growth and collision boundaries, local fog reveal, fuel conservation, Conway oscillators and empty histories. Chromium checks every scene's visible transitions, both static themes, reduced motion, README image animation, original calendar geometry, gallery categories, independent playback, theme switching and mobile overflow. CI uploads all SVGs, summaries and screenshots.
+Model tests check actual rules and accounting, including row compaction, legal matching swaps, growth and collision boundaries, local fog reveal, fuel conservation, Conway oscillators and empty histories. Chromium checks every scene's visible transitions, both static themes, reduced motion, README image animation, original calendar geometry, gallery categories, independent playback, theme switching and mobile overflow. It also compares actual screenshot pixels: eaten or destroyed date tiles must leave background gaps, missed targets must remain visible, and replay must restore the original calendar. CI uploads all SVGs, summaries and screenshots.
 
 Export full-loop GIFs with Chromium and FFmpeg:
 

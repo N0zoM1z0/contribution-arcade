@@ -4,7 +4,9 @@ Every board is a deterministic, precomputed performance over a real contribution
 
 ## Fixed calendar geometry
 
-All nineteen scenes share one permanent calendar mesh derived directly from the input dates. The mesh has exactly one tile per actual day, including zero-count dates. A partial week or absent date never becomes synthetic food or an extra cell. Columns remain weeks and rows remain weekdays in chronological order. The same layout applies to both themes, static exports and reduced-motion views.
+All nineteen scenes start with the original calendar derived directly from the input dates. It has exactly one tile per actual day, including zero-count dates. A partial week or absent date never becomes synthetic food or an extra cell. Columns remain weeks and rows remain weekdays in chronological order. The same coordinates apply to both themes, static exports and reduced-motion views.
+
+Consumed or destroyed dates leave visible gaps: the target, activity color, and underlying empty tile disappear together. A hammer miss retains its tile; a damaged Breakout brick remains until its final hit. Tetris clears every actual date tile in a completed row, and matching gems carry their whole tile as they move and disappear. The original calendar returns on replay. Reduced-motion views hold the same complete still frame throughout the loop.
 
 Food, moles, ore and rooms use those original coordinates. Target selection changes an actor's itinerary rather than rearranging the calendar. Tetris overlays legal pieces on this mesh and marks missing date slots unavailable. Matching begins with actual date gems in their original slots; movement afterwards is visible game play. Landscape and narrative artwork sits below the graph rather than replacing or covering its dates.
 
@@ -49,6 +51,8 @@ Visual scales are bounded for readable artwork. Town has 24 housing lots, the sk
 ## Verification surfaces
 
 - [Shared calendar layout and routing tests](../test/calendar-layout.test.mjs)
+- [Clearing, misses, and missing-date tests](../test/clearing.test.mjs)
+- [Rendered clearing pixel checks](../scripts/verify-clearing.mjs)
 - [Calendar and Breakout tests](../test/arcade.test.mjs)
 - [Snake ordering, movement and growth tests](../test/snake.test.mjs)
 - [Pac-Man, Tetris, Match Three and Mole tests](../test/scenes-arcade.test.mjs)
@@ -59,6 +63,6 @@ Visual scales are bounded for readable artwork. Town has 24 housing lots, the sk
 - [Complete Chromium gallery and embedding checks](../scripts/capture.mjs)
 - [Full-loop GIF exporter](../scripts/export-gifs.mjs)
 
-`npm run capture` renders every scene in both themes, compares meaningful runtime checkpoints, verifies both animation-free static exports and reduced motion, and checks real animated image embedding. It also exercises the complete homepage: all nineteen headings, category filters, original full-width graphs, independent pause/replay states, theme switching, downloads and mobile overflow. Offscreen SVGs pause to limit rendering work without changing the viewer's explicit playback settings.
+`npm run capture` renders every scene in both themes, compares meaningful runtime checkpoints, verifies both animation-free static exports and reduced motion, and checks real animated image embedding. Screenshot pixel checks require cleared tiles to become actual card-background pixels, check misses retain their color, and verify replay restores the original tiles. Run `node scripts/verify-clearing.mjs` for that focused check. The full capture also exercises all nineteen homepage headings, category filters, original full-width graphs, independent pause/replay states, theme switching, downloads and mobile overflow. Offscreen SVGs pause to limit rendering work without changing the viewer's explicit playback settings.
 
 Canonical animations and model logs are in `generated/`. Both-theme screenshots, collection sheets and full-loop GIFs are in `previews/`. Scheduled updates refresh generated assets; preview media are snapshots of the release calendar.

@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { mkdir, readFile, rm } from 'node:fs/promises';
 import { chromium } from 'playwright';
 import { serve } from './serve.mjs';
+import { verifyClearing } from './verify-clearing.mjs';
 
 const catalog = JSON.parse(await readFile('generated/arcade.json', 'utf8'));
 const summaries = new Map(await Promise.all(catalog.scenes.map(async scene => [scene.id,
@@ -191,6 +192,7 @@ try {
     console.log(`Rendered ${scene.id}: original calendar geometry, state transitions, static themes, and reduced motion passed.`);
   }
   await reduced.close();
+  await verifyClearing(browser, base, catalog, summaries, input);
   await contactSheet('dark'); await contactSheet('light');
 
   // External SVG images have their own animation clock. Exercise real image

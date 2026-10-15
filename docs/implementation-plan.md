@@ -60,3 +60,9 @@ The collection must use the original contribution graph in every scene: all actu
 
 
 The corrected 2026-10-15 integration passed 77 tests. Browser verification checks every actual day in all nineteen scenes against the source date, count, week and weekday center. Pac-Man contact and mole emergence are checked at their original date coordinates, alongside both themes, reduced motion, static variants, full-width gallery controls and real README image animation. Tetris uses the exact 53-by-7 mask (368 valid dates and three missing slots in the release snapshot); matching starts its 138 actual gems at their original day slots, without a shuffled opening or reserve. The preparation directory remains untracked.
+
+## Visible clearing correction, 2026-10-15
+
+Preserving original coordinates does not mean retaining a visible empty tile after its target is consumed. Cleared dates now remove all three layers: game target, activity paint, and calendar backing. Misses preserve tiles, Breakout damage preserves surviving bricks, completed Tetris rows remove their actual date tiles, and matching gems move with their full tile. Replay restores the original graph. Reduced-motion and static snapshots apply the same clearing state to every layer.
+
+The public snapshot now contains 369 actual dates and 139 active dates. The 79 unit tests cover the original geometry and successful-versus-missed clearing. Chromium pixel checks require actual background gaps in all ten consumptive games, both themes, replay, and reduced motion. As a negative control, the same pixel check rejects the previous permanent-tile Breakout export.
