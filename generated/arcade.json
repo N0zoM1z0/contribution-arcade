@@ -41,7 +41,7 @@
       "number": "04",
       "title": "Tetris",
       "caption": "Legal pieces fall through the original seven-row calendar.",
-      "description": "Active dates supply legal tetrominoes, with lower contribution counts first. The board has the original calendar width and seven weekday rows. Missing dates are unavailable. Pieces collide with the stack, full weekday lines clear, and the permanent date colors remain fixed beneath the piece outlines. If no legal piece fits, the calendar rests.",
+      "description": "Active dates supply legal tetrominoes, with lower contribution counts first. The board has the original calendar width and seven weekday rows. Missing dates are unavailable. Pieces collide with the stack, full weekday lines clear, and cleared calendar tiles disappear with the piece outlines. If no legal piece fits, the calendar rests.",
       "category": "Arcade",
       "duration": 43.091
     },
