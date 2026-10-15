@@ -53,7 +53,6 @@ function addScene(scene) {
     board: fragment.querySelector('.board'),
     pause: fragment.querySelector('[data-action="pause"]'),
     replay: fragment.querySelector('[data-action="replay"]'),
-    expand: fragment.querySelector('[data-action="expand"]'),
     download: fragment.querySelector('.download'),
     icon: fragment.querySelector('[data-role="pause-icon"]'),
     time: fragment.querySelector('.time'),
@@ -61,13 +60,6 @@ function addScene(scene) {
   player.board.id = `${scene.id}-board`;
   player.board.setAttribute('aria-label', `${scene.title} animation made from GitHub contributions`);
   player.replay.setAttribute('aria-label', `Replay ${scene.title}`);
-  player.expand.setAttribute('aria-label', `Expand ${scene.title}`);
-  player.expand.addEventListener('click', () => {
-    const enlarged = section.classList.toggle('enlarged');
-    player.expand.setAttribute('aria-pressed', String(enlarged));
-    player.expand.setAttribute('aria-label', `${enlarged ? 'Shrink' : 'Expand'} ${scene.title}`);
-    section.scrollIntoView({ block: 'start' });
-  });
   player.download.setAttribute('aria-label', `Download ${scene.title} SVG`);
   player.board.addEventListener('load', () => {
     const svg = root(player);

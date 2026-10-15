@@ -23,7 +23,7 @@ button svg {
   width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.6;
   stroke-linecap: round; stroke-linejoin: round;
 }
-.wrap { max-width: 1224px; margin: auto; padding: 0 52px; }
+.wrap { max-width: 1600px; margin: auto; padding: 0 52px; }
 header {
   height: 108px; display: flex; align-items: center; justify-content: space-between;
   border-bottom: 1px solid var(--line);
@@ -112,20 +112,19 @@ h1 span { color: var(--accent); }
   html { scroll-behavior: auto; }
 }
 
-/* The collection stays on one page; any board can expand for a closer look. */
-#collection { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 38px 26px; }
+/* Keep every original calendar readable in a full-width collection. */
+#collection { display: grid; grid-template-columns: minmax(0, 1fr); gap: 46px; }
 #collection > .loading, #collection > .error { grid-column: 1 / -1; }
 .scene { min-width: 0; }
 .scene + .scene { padding-top: 0; margin-top: 0; border-top: 0; }
-.scene:first-child, .scene.enlarged { grid-column: 1 / -1; }
+.scene { grid-column: 1 / -1; }
 .scene[hidden] { display: none; }
 .scene .toolbar { align-items: flex-start; }
 .scene .scene-name { flex-wrap: wrap; gap: 8px; }
-.scene .scene-subtitle { flex-basis: 100%; margin-left: 18px; padding-left: 0; line-height: 1.5; }
+.scene .scene-subtitle { flex-basis: auto; margin-left: 0; padding-left: 4px; line-height: 1.5; }
 .scene .scene-details { padding-left: 0; gap: 16px; }
 .scene .scene-details p { font-size: 11px; }
-.scene .time { display: none; }
-.scene.enlarged .time, .scene:first-child .time { display: inline; }
+.scene .time { display: inline; }
 .scene-index { gap: 5px; }
 .scene-index button { border: 1px solid transparent; border-radius: 7px; padding: 8px 10px; font-size: 11px; background: transparent; color: var(--muted); }
 .scene-index button[aria-pressed="true"] { background: var(--chip); border-color: var(--line); color: var(--ink); }
@@ -134,22 +133,10 @@ h1 span { color: var(--accent); }
 @media (max-width: 850px) {
   #collection { grid-template-columns: minmax(0, 1fr); gap: 34px; }
   .scene .scene-subtitle { flex-basis: auto; margin-left: 0; }
-  .expand { display: none; }
 }
 @media (max-width: 700px) {
-  .scene:first-child .time, .scene.enlarged .time { display: none; }
+  .scene .time { display: none; }
   .scene .scene-subtitle { display: none; }
   .scene-index button { padding: 7px 8px; font-size: 10px; }
   .scene .scene-details p { max-width: none; }
-}
-
-/* Every calendar uses its original full-year grid at a readable width. */
-.wrap { max-width: 1600px; }
-#collection { grid-template-columns: minmax(0, 1fr); gap: 46px; }
-.scene { grid-column: 1 / -1; }
-.scene .time { display: inline; }
-.scene .scene-subtitle { flex-basis: auto; margin-left: 0; padding-left: 4px; }
-.scene .expand { display: none; }
-@media (max-width: 700px) {
-  .scene .time, .scene .scene-subtitle { display: none; }
 }
