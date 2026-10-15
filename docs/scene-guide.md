@@ -32,7 +32,7 @@ Pac-Man, Invaders, Archaeology, Dungeon and Ant Colony also order daily food or 
 | City | Active weeks become skyline lots; totals scale height; foundations, frames and completed buildings appear in order | Empty lots remain empty, height ordering, legal construction stages, total conservation |
 | Space Invaders | The selected target dives below the fleet for a clear interception; ship aims and fires; impact removes it; real streak unlocks boss | Projectile endpoints and obstruction checks, unique sorted hits, genuine streak evidence |
 | Train | Every week is a rail point; active weeks have stations and dwell time; actual months change the scenery | Exact stops, chronological arrival/departure, actual season boundaries |
-| Civilization | Fixed cumulative resource thresholds unlock camp, hamlet, village and later eras; observed inactivity weathers existing development | Threshold boundaries, resource conservation, inactivity/gap semantics, repair, empty settlement |
+| Civilization | Fixed cumulative resource thresholds unlock camp, hamlet, village and later eras; observed inactivity weathers existing development; reaching Space unlocks a closing rocket launch | Threshold boundaries, resource conservation, inactivity/gap semantics, repair, empty settlement, conditional launch after the final date, rendered ascent beyond the scene ribbon |
 | Archaeology | Count-ordered date ore in vertical shafts; miner follows tunnels; ore tier follows count; excavating a real streak unlocks treasure | Miner/date contact, orthogonal route, exact ore totals, tier thresholds and treasure prerequisites |
 | Game of Life | Active dates seed the actual calendar tile mask; every generation uses Conway B3/S23 | Block stability, blinker oscillation, isolated death, empty-world invariance |
 | Ant Colony | Three workers harvest ascending-count deposits and carry each resource home; stored total changes on arrival | Unique harvests, sorted pickups, non-overlapping trips per worker, deposit accounting |
@@ -46,6 +46,8 @@ Pac-Man, Invaders, Archaeology, Dungeon and Ant Colony also order daily food or 
 
 The models deliberately retain their own rules. A Tetris row clears only when all actual date slots in that row are full; missing slots are unavailable. A matching board can finish with unmatched dates and no remaining legal move. A late hammer strike misses. An empty calendar cannot manufacture resources, plants, targets or a space launch.
 
+Civilization unlocks Space at 2,200 accumulated contributions. Its original date timeline finishes before the finale: ignition at 30 seconds, liftoff at 31.4 seconds, accelerating ascent out of the entire card by 35.8 seconds, and replay at 37.5 seconds. Below that threshold the original 32-second loop remains. Static and reduced-motion exports keep the completed rocket parked and unlit. The launch check verifies actual rocket-colored pixels above the settlement ribbon in both themes, so a clipped or stationary rocket fails.
+
 Visual scales are bounded for readable artwork. Town has 24 housing lots, the skyline caps visual height, and Snake caps body length. Summaries retain the underlying counts. Northern hemisphere seasons are a visual convention derived from actual calendar months. Language planting is an aggregate observed repository blend, never a claim about a particular day's language.
 
 ## Verification surfaces
@@ -53,6 +55,7 @@ Visual scales are bounded for readable artwork. Town has 24 housing lots, the sk
 - [Shared calendar layout and routing tests](../test/calendar-layout.test.mjs)
 - [Clearing, misses, and missing-date tests](../test/clearing.test.mjs)
 - [Rendered clearing pixel checks](../scripts/verify-clearing.mjs)
+- [Civilization ignition, ascent pixels, departure and replay checks](../scripts/verify-civilization.mjs)
 - [Calendar and Breakout tests](../test/arcade.test.mjs)
 - [Snake ordering, movement and growth tests](../test/snake.test.mjs)
 - [Pac-Man, Tetris, Match Three and Mole tests](../test/scenes-arcade.test.mjs)

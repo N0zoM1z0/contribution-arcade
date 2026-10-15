@@ -21,7 +21,7 @@ The homepage keeps every scene together. Filter by category, pause or replay eac
 | 06 | City | Weekly construction, activity-scaled heights, windows and a moving crane | [SVG](generated/city-dark.svg) · [GIF](previews/city.gif) |
 | 07 | Space Invaders | Count-ordered interceptions, projectile impacts and a streak boss | [SVG](generated/invaders-dark.svg) · [GIF](previews/invaders.gif) |
 | 08 | Train | A seasonal railway stops at actual active-week stations | [SVG](generated/train-dark.svg) · [GIF](previews/train.gif) |
-| 09 | Civilization | Accumulated resources unlock eras; quiet periods weather the settlement | [SVG](generated/civilization-dark.svg) · [GIF](previews/civilization.gif) |
+| 09 | Civilization | Resources unlock eras; reaching Space ends with ignition and an accelerating rocket launch | [SVG](generated/civilization-dark.svg) · [GIF](previews/civilization.gif) · [Launch](previews/civilization-launch.gif) |
 | 10 | Archaeology | A miner excavates ascending-count ore and unlocks streak treasure | [SVG](generated/archaeology-dark.svg) · [GIF](previews/archaeology.gif) |
 | 11 | Game of Life | Actual finite Conway B3/S23 generations seeded by active dates | [SVG](generated/life-dark.svg) · [GIF](previews/life.gif) |
 | 12 | Ant Colony | Three workers harvest small deposits first and carry resources home | [SVG](generated/ants-dark.svg) · [GIF](previews/ants.gif) |

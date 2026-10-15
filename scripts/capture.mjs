@@ -3,6 +3,7 @@ import { mkdir, readFile, rm } from 'node:fs/promises';
 import { chromium } from 'playwright';
 import { serve } from './serve.mjs';
 import { verifyClearing } from './verify-clearing.mjs';
+import { verifyCivilizationLaunch } from './verify-civilization.mjs';
 
 const catalog = JSON.parse(await readFile('generated/arcade.json', 'utf8'));
 const summaries = new Map(await Promise.all(catalog.scenes.map(async scene => [scene.id,
@@ -175,6 +176,7 @@ try {
     if (breakout.activeDays) assert.ok(frames.some(frame => !frame.equals(frames[0])), `${scene.title}: expected a visible state transition.`);
     for (const theme of ['dark', 'light']) {
       await board.goto(`${base}/generated/${scene.id}-${theme}.svg`);
+      if (scene.id === 'civilization') await verifyCivilizationLaunch(board, summary, theme);
       const molePops = scene.id === 'whack-a-mole' ? summary.events.filter(event => event.type === 'mole-pop') : [];
       const visibleMole = molePops[Math.floor(molePops.length * .55)];
       const poster = visibleMole ? visibleMole.time + Math.min(.12, (visibleMole.data.expires - visibleMole.time) * .25)
