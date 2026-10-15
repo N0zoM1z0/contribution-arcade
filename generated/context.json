@@ -14,7 +14,7 @@
     },
     {
       "name": "TypeScript",
-      "weight": 838,
+      "weight": 842,
       "color": "#3178c6"
     },
     {
@@ -59,7 +59,7 @@
     }
   ],
   "activity": {
-    "commits": 12490,
+    "commits": 12494,
     "issues": 418,
     "pullRequests": 878,
     "reviews": 163

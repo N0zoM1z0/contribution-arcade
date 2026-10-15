@@ -5,7 +5,7 @@
   "metrics": {
     "targets": 139,
     "hits": 139,
-    "contributions": 14031,
+    "contributions": 14035,
     "boss": 1,
     "bossStreak": 95,
     "ordering": "count-ascending"
@@ -1922,9 +1922,9 @@
     {
       "time": 10.6,
       "type": "invader-dive",
-      "date": "2026-10-15",
+      "date": "2026-07-18",
       "data": {
-        "fromY": 197.25,
+        "fromY": 235.25,
         "toY": 278
       }
     },
@@ -1942,32 +1942,32 @@
     {
       "time": 10.68,
       "type": "ship-fire",
-      "date": "2026-10-15",
-      "value": 45,
+      "date": "2026-07-18",
+      "value": 46,
       "data": {
-        "x": 1067.2356226415093,
+        "x": 816.0658113207546,
         "y": 303,
         "hitTime": 10.776,
-        "targetX": 1067.2356226415093,
+        "targetX": 816.0658113207546,
         "targetY": 278
       }
     },
     {
       "time": 10.76,
       "type": "invader-dive",
-      "date": "2026-07-18",
+      "date": "2026-10-15",
       "data": {
-        "fromY": 235.25,
+        "fromY": 197.25,
         "toY": 278
       }
     },
     {
       "time": 10.776,
       "type": "invader-hit",
-      "date": "2026-10-15",
-      "value": 45,
+      "date": "2026-07-18",
+      "value": 46,
       "data": {
-        "x": 1067.2356226415093,
+        "x": 816.0658113207546,
         "y": 278,
         "removed": true
       }
@@ -1975,13 +1975,13 @@
     {
       "time": 10.84,
       "type": "ship-fire",
-      "date": "2026-07-18",
-      "value": 46,
+      "date": "2026-10-15",
+      "value": 49,
       "data": {
-        "x": 815.4258113207546,
+        "x": 1066.5956226415094,
         "y": 303,
         "hitTime": 10.936,
-        "targetX": 815.4258113207546,
+        "targetX": 1066.5956226415094,
         "targetY": 278
       }
     },
@@ -1997,10 +1997,10 @@
     {
       "time": 10.936,
       "type": "invader-hit",
-      "date": "2026-07-18",
-      "value": 46,
+      "date": "2026-10-15",
+      "value": 49,
       "data": {
-        "x": 815.4258113207546,
+        "x": 1066.5956226415094,
         "y": 278,
         "removed": true
       }
