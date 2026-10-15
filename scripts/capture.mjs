@@ -43,6 +43,7 @@ try {
   page.on('response', response => { if (!response.ok()) errors.push(`${response.status()} ${response.url()}`); });
   await page.goto(base); await loadBoards(page);
   assert.equal(await page.locator('.scene').count(), 19);
+  assert.ok((await page.locator('#calendar-label').textContent()).includes(`${actualDays.length} original day tiles`));
   for (const scene of catalog.scenes) assert.equal(await page.getByRole('heading', { name: scene.title, exact: true }).count(), 1);
   for (const category of ['Arcade', 'Worlds', 'Journeys', 'Patterns']) {
     await page.getByRole('button', { name: new RegExp(`^${category}`) }).click();

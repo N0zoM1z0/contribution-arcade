@@ -121,6 +121,8 @@ async function initialize() {
   const profile = document.querySelector('#profile');
   profile.textContent = `@${catalog.username}`;
   profile.href = `https://github.com/${encodeURIComponent(catalog.username)}`;
+  if (catalog.layout) document.querySelector('#calendar-label').textContent = `${catalog.layout.days} original day tiles · ${catalog.layout.columns} weeks`;
+
   const date = value => new Date(`${value}T00:00:00Z`).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }).toUpperCase();
   document.querySelector('#date-label').textContent = `${date(catalog.from)} — ${date(catalog.to)}`;
   collection.replaceChildren();

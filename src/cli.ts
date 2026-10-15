@@ -78,6 +78,7 @@ async function main(): Promise<void> {
   }, null, 2)}\n`);
   await writeFile(resolve(directory, 'arcade.json'), `${JSON.stringify({
     username: calendar.login, from: calendar.from, to: calendar.to,
+    layout: { type: 'github-contribution-calendar', columns: calendar.columns, rows: 7, days: calendar.cells.length },
     scenes: [
       { id: 'breakout', category: 'Arcade', number: '01', title: 'Breakout', caption: 'Your history is the level.',
         description: 'One ball to begin. A long streak brings a second, then a third. A gentle start, a little more momentum, and your year begins again.',
