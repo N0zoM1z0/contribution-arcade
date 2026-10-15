@@ -2,7 +2,7 @@
 
 Nineteen small worlds, made from a year of GitHub contributions.
 
-The homepage keeps every scene together. Filter by category, expand a board, pause or replay it independently, and switch between Midnight and Paper. Each scene also works as a script-free animated SVG in a GitHub README.
+The homepage keeps every scene together. Filter by category, pause or replay each board independently, and switch between Midnight and Paper. Every scene uses the original full contribution graph, displayed at a readable full width. Each scene also works as a script-free animated SVG in a GitHub README.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="previews/collection-dark.png">
@@ -15,8 +15,8 @@ The homepage keeps every scene together. Filter by category, expand a board, pau
 | --- | --- | --- | --- |
 | 01 | Breakout | Swept collisions, stronger bricks, one ball gradually becoming two and three | [SVG](generated/breakout-dark.svg) · [GIF](previews/breakout.gif) |
 | 02 | Growing Snake | Body-safe routes eat exact counts from small to large; gradual, capped growth | [SVG](generated/snake-dark.svg) · [GIF](previews/snake.gif) |
-| 03 | Pac-Man | Ordered date pellets, an opening mouth, and three trail-chasing ghosts | [SVG](generated/pacman-dark.svg) · [GIF](previews/pacman.gif) |
-| 04 | Tetris | Weekly tetrominoes, legal rotations and drops, stack collision and row clears | [SVG](generated/tetris-dark.svg) · [GIF](previews/tetris.gif) |
+| 03 | Pac-Man | Fixed calendar pellets, planned low-count routes, and three trail-chasing ghosts | [SVG](generated/pacman-dark.svg) · [GIF](previews/pacman.gif) |
+| 04 | Tetris | Date-driven tetrominoes on the original graph, legal drops and row clears | [SVG](generated/tetris-dark.svg) · [GIF](previews/tetris.gif) |
 | 05 | Garden | Activity-grown plants, flowers, observed language varieties and seasons | [SVG](generated/garden-dark.svg) · [GIF](previews/garden.gif) |
 | 06 | City | Weekly construction, activity-scaled heights, windows and a moving crane | [SVG](generated/city-dark.svg) · [GIF](previews/city.gif) |
 | 07 | Space Invaders | Count-ordered interceptions, projectile impacts and a streak boss | [SVG](generated/invaders-dark.svg) · [GIF](previews/invaders.gif) |
@@ -31,7 +31,7 @@ The homepage keeps every scene together. Filter by category, expand a board, pau
 | 16 | Space Route | Weekly planets, activity-powered refueling, docking and paid jumps | [SVG](generated/space-route-dark.svg) · [GIF](previews/space-route.gif) |
 | 17 | Town | Roads, homes, festivals and optional sampled public civic activity | [SVG](generated/town-dark.svg) · [GIF](previews/town.gif) |
 | 18 | Match Three | Legal adjacent swaps, runs of three or more, gravity and finite cascades | [SVG](generated/match3-dark.svg) · [GIF](previews/match3.gif) |
-| 19 | Whack-a-Mole | Weekly pop-ups, timed hammer strikes, genuine misses and scoring | [SVG](generated/whack-a-mole-dark.svg) · [GIF](previews/whack-a-mole.gif) |
+| 19 | Whack-a-Mole | Date-positioned pop-ups on the original graph, timed strikes, misses and scoring | [SVG](generated/whack-a-mole-dark.svg) · [GIF](previews/whack-a-mole.gif) |
 
 [Midnight homepage](previews/preview-dark.png) · [Paper homepage](previews/preview-light.png) · [Mobile homepage](previews/preview-mobile.png) · [Mechanics and evidence](docs/scene-guide.md)
 
@@ -65,7 +65,7 @@ npm run generate -- --username N0zoM1z0
 npm run preview
 ```
 
-Open **http://localhost:4173**. All nineteen scenes are on the homepage. Offscreen boards pause automatically to reduce rendering work; individual pause states and playback positions survive theme changes. Space toggles the visible scene when the page itself has focus.
+Open **http://localhost:4173**. All nineteen scenes are on the homepage, one full-width original calendar per row. Offscreen boards pause automatically to reduce rendering work; individual pause states and playback positions survive theme changes. Space toggles the visible scene when the page itself has focus.
 
 The generator reads `GH_TOKEN` or `GITHUB_TOKEN`, falling back to an existing `gh auth login` session. Tokens never enter generated files.
 
@@ -93,6 +93,11 @@ Replace `snake` with any scene ID from the table:
 Animated exports contain no JavaScript or external dependencies. Reduced-motion visitors see a scene-specific still frame. Use `ID-dark-static.svg` or `ID-light-static.svg` when animation is unsuitable. The README image examples and browser gallery use the same SVG files.
 
 ## Data and interpretation
+
+Every scene retains **exactly the original calendar's day tiles and arrangement**: week columns, weekday rows, zero-contribution dates, and partial-week gaps. Changing a day's count cannot change where that date appears. There is no count-sorted replacement calendar, packed active-day maze, separate 3×3 mole board, or unrelated puzzle mesh.
+
+Actors and game effects operate over that fixed graph. Pac-Man, Snake, mining, and harvesting plan their targets from the smallest remaining exact count. Future tiers can be crossed as dormant floor without early consumption. Whack-a-Mole emerges at each actual active date's own tile. Tetris uses one source piece per active date on the original graph's columns and seven weekday rows, with missing dates unavailable; narrow histories can lack room for a tetromino. Match Three starts at the original date slots, then performs explicit swaps and gravity with the actual finite gems. Forced matches and cascades retain matching rules rather than claiming individually sorted consumption.
+
 
 `calendar.json` preserves GitHub's actual date counts, weekday positions, missing dates and contribution levels. Contribution totals include activity visible to the supplied token and follow profile settings; they include more than commits. The checked-in calendar is the public snapshot used by the scheduled workflow.
 
@@ -130,7 +135,7 @@ npx playwright install chromium
 npm run capture
 ```
 
-Model tests check actual rules and accounting, including row compaction, legal matching swaps, growth and collision boundaries, local fog reveal, fuel conservation, Conway oscillators and empty histories. Chromium checks every scene's visible transitions, both static themes, reduced motion, README image animation, gallery categories, expansion, independent playback, theme switching and mobile overflow. CI uploads all SVGs, summaries and screenshots.
+Model tests check actual rules and accounting, including row compaction, legal matching swaps, growth and collision boundaries, local fog reveal, fuel conservation, Conway oscillators and empty histories. Chromium checks every scene's visible transitions, both static themes, reduced motion, README image animation, original calendar geometry, gallery categories, independent playback, theme switching and mobile overflow. CI uploads all SVGs, summaries and screenshots.
 
 Export full-loop GIFs with Chromium and FFmpeg:
 

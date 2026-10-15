@@ -129,6 +129,46 @@ try {
       assert.ok(Math.abs(tile.x - (48 + (day.column + .5) * 1024 / columns)) < .002);
       assert.ok(Math.abs(tile.y - (121.25 + day.row * 19)) < .002);
     });
+    if (scene.id === 'pacman') {
+      const meals = summary.events.filter(event => event.type === 'pellet');
+      assert.ok(meals.every((event, index) => !index || event.value >= meals[index - 1].value));
+      const pellets = await board.locator('.animated circle[data-date]').evaluateAll(items => items.map(item => ({ date: item.dataset.date, x: Number(item.getAttribute('cx')), y: Number(item.getAttribute('cy')) })));
+      assert.equal(pellets.length, actualDays.filter(day => day.count > 0).length);
+      for (const pellet of pellets) {
+        const day = actualDays.find(day => day.date === pellet.date);
+        assert.ok(Math.abs(pellet.x - (48 + (day.column + .5) * 1024 / columns)) < .002);
+        assert.ok(Math.abs(pellet.y - (121.25 + day.row * 19)) < .002);
+      }
+      for (const event of [meals[0], meals[Math.floor(meals.length / 2)], meals.at(-1)].filter(Boolean)) {
+        await seek(board, event.time + .001);
+        const contact = await board.evaluate(date => {
+          const actor = document.querySelector('.animated [data-actor="pacman"]').getCTM();
+          const pellet = document.querySelector(`.animated circle[data-date="${date}"]`);
+          return { distance: Math.hypot(actor.e - Number(pellet.getAttribute('cx')), actor.f - Number(pellet.getAttribute('cy'))), opacity: Number(getComputedStyle(pellet).opacity) };
+        }, event.date);
+        assert.ok(contact.distance < 1, 'Pac-Man must reach the original date coordinate before its pellet disappears.');
+        assert.equal(contact.opacity, 0);
+      }
+    }
+    if (scene.id === 'whack-a-mole') {
+      const pops = summary.events.filter(event => event.type === 'mole-pop');
+      assert.equal(pops.length, actualDays.filter(day => day.count > 0).length);
+      assert.ok(pops.every((event, index) => !index || event.value >= pops[index - 1].value));
+      for (const event of pops) {
+        const day = actualDays.find(day => day.date === event.date);
+        assert.deepEqual([event.data.column, event.data.row, event.value], [day.column, day.row, day.count]);
+        assert.ok(Math.abs(event.data.x - (48 + (day.column + .5) * 1024 / columns)) < .002);
+        assert.ok(Math.abs(event.data.y - (121.25 + day.row * 19)) < .002);
+      }
+      for (const event of [pops[0], pops[Math.floor(pops.length / 2)], pops.at(-1)].filter(Boolean)) {
+        await seek(board, event.time + .1);
+        const location = await board.locator(`.animated [data-mole-date="${event.date}"]`).evaluate(mole => {
+          const matrix = mole.getCTM(); return { x: matrix.e, y: matrix.f, opacity: Number(getComputedStyle(mole).opacity) };
+        });
+        assert.ok(Math.abs(location.x - event.data.x) < .002 && Math.abs(location.y - event.data.y) < .002, 'A mole must pop on its original calendar tile.');
+        assert.ok(location.opacity > 0);
+      }
+    }
     const frames = [];
     for (const time of checkpoints) { await seek(board, time); frames.push(await board.screenshot()); }
     if (breakout.activeDays) assert.ok(frames.some(frame => !frame.equals(frames[0])), `${scene.title}: expected a visible state transition.`);

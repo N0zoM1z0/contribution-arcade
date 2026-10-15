@@ -52,3 +52,11 @@ All three independent producer packets were accepted after their model tests and
 The integrated local acceptance run on 2026-10-14 passed 63 model tests, generated 76 valid SVGs, rendered all nineteen scenes in both themes, verified animation-free static exports and reduced motion, and observed all nineteen SVGs animating inside real image elements. Gallery category counts, expansion, independent pause/replay, theme changes, download paths and mobile overflow passed. Full-loop GIFs and both-theme collection sheets accompany the canonical SVG exports.
 
 The existing Breakout and its compatible outputs remain present. No preparation/reference files are part of the tracked deliverable. Remaining operational verification is the normal remote CI and scheduled-refresh run after pushing this release.
+
+
+## Calendar geometry correction
+
+The collection must use the original contribution graph in every scene: all actual day tiles, zero-count dates, week columns, weekday rows and missing-date gaps. Reordering dates by contribution count to simplify a game violates this requirement. Only target visitation may change. All producers now share a single permanent calendar mesh; narrative artwork stays below it, and game overlays operate on its original coordinates. The homepage displays each graph at full width. Exact geometry is verified in every exported theme and motion mode, with actual browser checks and source-calendar comparisons.
+
+
+The corrected 2026-10-15 integration passed 77 tests. Browser verification checks every actual day in all nineteen scenes against the source date, count, week and weekday center. Pac-Man contact and mole emergence are checked at their original date coordinates, alongside both themes, reduced motion, static variants, full-width gallery controls and real README image animation. Tetris uses the exact 53-by-7 mask (368 valid dates and three missing slots in the release snapshot); matching starts its 138 actual gems at their original day slots, without a shuffled opening or reserve. The preparation directory remains untracked.
