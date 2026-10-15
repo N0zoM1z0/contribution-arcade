@@ -8,6 +8,9 @@ const summaries = new Map(await Promise.all(catalog.scenes.map(async scene => [s
   JSON.parse(await readFile(`generated/${scene.id === 'breakout' ? 'summary' : `${scene.id}-summary`}.json`, 'utf8'))])));
 const snake = summaries.get('snake');
 const breakout = summaries.get('breakout');
+const input = JSON.parse(await readFile('generated/calendar.json', 'utf8'));
+const actualDays = input.calendar.weeks.flatMap((week, column) => week.contributionDays.map(day => ({ date: day.date, column, row: day.weekday, count: day.contributionCount })));
+const columns = input.calendar.weeks.length;
 const server = await serve(0);
 const base = `http://127.0.0.1:${server.address().port}`;
 const browser = await chromium.launch({ headless: true });
@@ -47,10 +50,8 @@ try {
   }
   await page.getByRole('button', { name: /^All/ }).click();
   assert.equal(await page.locator('.scene:visible').count(), 19);
-  const small = await page.locator('#snake').boundingBox();
-  await page.getByRole('button', { name: 'Expand Growing Snake', exact: true }).click();
-  assert.ok((await page.locator('#snake').boundingBox()).width > small.width);
-  await page.getByRole('button', { name: 'Shrink Growing Snake', exact: true }).click();
+  const widths = await page.locator('.board').evaluateAll(boards => boards.map(board => board.getBoundingClientRect().width));
+  assert.ok(widths.every(width => Math.abs(width - widths[0]) < 1 && width >= 1000), 'every original calendar gets the same readable full-width board');
 
   await page.locator('#breakout').scrollIntoViewIfNeeded();
   const ballPosition = () => page.locator('#breakout-board').evaluate(board => {
@@ -108,7 +109,7 @@ try {
   await page.setViewportSize({ width: 390, height: 844 });
   assert.ok(await page.evaluate(() => document.body.scrollWidth <= innerWidth));
   await page.screenshot({ path: 'previews/preview-mobile.png', fullPage: true });
-  console.log('Gallery: all nineteen headings, categories, expand, independent controls, both themes, and mobile passed.');
+  console.log('Gallery: all nineteen headings, categories, full-width calendars, independent controls, both themes, and mobile passed.');
 
   const board = await browser.newPage({ viewport: { width: 1120, height: 448 } });
   const reduced = await browser.newPage({ reducedMotion: 'reduce', viewport: { width: 1120, height: 448 } });
@@ -116,6 +117,17 @@ try {
     const summary = summaries.get(scene.id), checkpoints = summary.checkpoints || [2, scene.duration * .45, scene.duration - 4];
     await board.goto(`${base}/generated/${scene.id}-dark.svg`);
     assert.equal(await board.locator('parsererror').count(), 0);
+    const calendarTiles = await board.locator('[data-calendar-grid] rect[data-cell-date]').evaluateAll(tiles => tiles.map(tile => {
+      const box = tile.getBBox(), point = new DOMPoint(box.x + box.width / 2, box.y + box.height / 2).matrixTransform(tile.getCTM());
+      return { date: tile.dataset.cellDate, column: Number(tile.dataset.column), row: Number(tile.dataset.row), count: Number(tile.dataset.count), x: point.x, y: point.y };
+    }));
+    assert.equal(calendarTiles.length, actualDays.length, `${scene.id}: original number of calendar dates`);
+    calendarTiles.forEach((tile, index) => {
+      const day = actualDays[index];
+      assert.deepEqual({ date: tile.date, column: tile.column, row: tile.row, count: tile.count }, day);
+      assert.ok(Math.abs(tile.x - (48 + (day.column + .5) * 1024 / columns)) < .002);
+      assert.ok(Math.abs(tile.y - (121.25 + day.row * 19)) < .002);
+    });
     const frames = [];
     for (const time of checkpoints) { await seek(board, time); frames.push(await board.screenshot()); }
     if (breakout.activeDays) assert.ok(frames.some(frame => !frame.equals(frames[0])), `${scene.title}: expected a visible state transition.`);
@@ -132,7 +144,7 @@ try {
     }
     await reduced.goto(`${base}/generated/${scene.id}-dark.svg`);
     assert.deepEqual(await reduced.evaluate(() => ({ animated: getComputedStyle(document.querySelector('.animated')).display, reduced: getComputedStyle(document.querySelector('.reduced')).display })), { animated: 'none', reduced: 'inline' });
-    console.log(`Rendered ${scene.id}: state transitions, static themes, and reduced motion passed.`);
+    console.log(`Rendered ${scene.id}: original calendar geometry, state transitions, static themes, and reduced motion passed.`);
   }
   await reduced.close();
   await contactSheet('dark'); await contactSheet('light');

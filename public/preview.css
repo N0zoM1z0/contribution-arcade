@@ -142,3 +142,14 @@ h1 span { color: var(--accent); }
   .scene-index button { padding: 7px 8px; font-size: 10px; }
   .scene .scene-details p { max-width: none; }
 }
+
+/* Every calendar uses its original full-year grid at a readable width. */
+.wrap { max-width: 1600px; }
+#collection { grid-template-columns: minmax(0, 1fr); gap: 46px; }
+.scene { grid-column: 1 / -1; }
+.scene .time { display: inline; }
+.scene .scene-subtitle { flex-basis: auto; margin-left: 0; padding-left: 4px; }
+.scene .expand { display: none; }
+@media (max-width: 700px) {
+  .scene .time, .scene .scene-subtitle { display: none; }
+}
