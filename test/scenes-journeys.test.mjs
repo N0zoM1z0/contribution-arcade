@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { normalizeCalendar } from '../lib/calendar.js';
+import { center, THEMES } from '../lib/scenes/kit.js';
 import { invaderSway, journeysScenes, modelArchaeology, modelDungeon, modelInvaders, modelSpaceRoute, modelTrain, oreTier, seasonFor } from '../lib/scenes/journeys.js';
 
 function fixture(columns = 8, count = (column, row) => (column * 7 + row) % 9, start = Date.UTC(2026, 0, 4)) {
@@ -46,7 +47,7 @@ test('projectiles intersect only the selected diving invader before its removal'
         if (other === target || other.hit <= time) continue;
         const ratio = Math.max(0, Math.min(1, (time - (other.fire - 0.08)) / 0.08));
         const y = other.homeY + (other.y - other.homeY) * ratio;
-        const x = other.x + invaderSway(time);
+        const x = other.x + (other.aimX - other.x) * ratio;
         assert.ok(Math.abs(x - target.aimX) > 8 || Math.abs(y - laserY) > 8,
           `${target.date}'s projectile must not hit ${other.date}`);
       }
@@ -101,7 +102,7 @@ test('archaeology excavates every actual date once with exact-count ore tiers an
     assert.deepEqual([position.x, position.y], [deposit.x, deposit.y]);
     assert.equal(deposit.tier, oreTier(deposit.count));
     const start = model.points.find(point => point.time === deposit.start);
-    assert.equal(start.y, 143);
+    assert.equal(start.y, 265);
     assert.equal(start.x, position.x);
     assert.ok(deposit.leave > deposit.dig);
   }
@@ -157,6 +158,22 @@ test('dungeon collects each active room once and spends actual loot to defeat th
     assert.ok(budget.get(attack.sourceDate) >= 0);
   }
   assert.ok(encounter.attacks.length > 1);
+});
+
+test('dungeon loot follows ascending counts without moving rooms or consuming larger rooms along the route', () => {
+  // The smallest room is above a high-count room the hero must cross first.
+  const calendar = fixture(1, (_, row) => row === 0 ? 1 : row === 3 ? 50 : row === 6 ? 100 : 0);
+  const before = structuredClone(calendar);
+  const model = modelDungeon(calendar), loot = ofType(model, 'room-loot');
+  assert.deepEqual(calendar, before);
+  assert.deepEqual(loot.map(event => event.value), [1, 50, 100]);
+  assert.deepEqual(model.active.map(cell => [cell.date, cell.column, cell.row]), calendar.cells.filter(cell => cell.count).map(cell => [cell.date, cell.column, cell.row]));
+  const firstVisit = model.events.find(event => event.type === 'room-enter' && event.data.row === 6);
+  assert.ok(firstVisit.time < loot[0].time, 'future rooms remain traversable without early collection');
+  for (const event of loot) {
+    const cell = calendar.cells.find(cell => cell.date === event.date);
+    assert.deepEqual([event.data.column, event.data.row], [cell.column, cell.row]);
+  }
 });
 
 test('space route uses exact weekly fuel and pays for every jump without negative reserves', () => {
@@ -234,4 +251,68 @@ test('missing dates and entirely absent weeks create no resource rooms or statio
   assert.equal(modelDungeon(calendar).loot.length, cells.length);
   assert.equal(modelArchaeology(calendar).deposits.length, cells.length);
   assert.equal(modelInvaders(calendar).targets.length, cells.length);
+});
+
+function attributes(markup) {
+  return Object.fromEntries([...markup.matchAll(/([\w-]+)="([^"]*)"/g)].map(match => [match[1], match[2]]));
+}
+
+test('every scene preserves the canonical graph, zero dates, absent dates, exact colors, and immutable input', () => {
+  const full = fixture(5, (column, row) => [0, 1, 8, 3, 25, 2, 50][(column + row) % 7]);
+  const cells = full.cells.filter(cell => !(cell.column === 0 && cell.row < 3) && !(cell.column === 4 && cell.row > 2) && !(cell.column === 2 && cell.row === 3));
+  const partial = { ...full, cells, from: cells[0].date, to: cells.at(-1).date, total: cells.reduce((sum, cell) => sum + cell.count, 0), activeDays: cells.filter(cell => cell.count).length };
+  for (const calendar of [partial, fixture(1, () => 0), fixture(1)]) {
+    const before = structuredClone(calendar), byDate = new Map(calendar.cells.map(cell => [cell.date, cell]));
+    for (const definition of journeysScenes) {
+      const film = definition.build(calendar);
+      for (const theme of ['light', 'dark']) for (const animated of [false, true]) {
+        const svg = film.render(theme, animated);
+        const tiles = [...svg.matchAll(/<rect\b[^>]*data-cell-date="[^"]*"[^>]*>/g)].map(match => attributes(match[0]));
+        assert.equal(tiles.length, calendar.cells.length, `${definition.id} has one permanent tile for every input day`);
+        assert.equal(new Set(tiles.map(tile => tile['data-cell-date'])).size, calendar.cells.length);
+        for (const tile of tiles) {
+          const cell = byDate.get(tile['data-cell-date']), point = center(calendar, cell);
+          assert.deepEqual([Number(tile['data-column']), Number(tile['data-row']), Number(tile['data-count'])], [cell.column, cell.row, cell.count]);
+          assert.ok(Math.abs(Number(tile.x) + Number(tile.width) / 2 - point.x) < 0.001);
+          assert.ok(Math.abs(Number(tile.y) + Number(tile.height) / 2 - point.y) < 0.001);
+        }
+        const activity = [...svg.matchAll(/<rect\b[^>]*data-activity-date="[^"]*"[^>]*>/g)].map(match => attributes(match[0]));
+        for (const tile of activity) {
+          const cell = byDate.get(tile['data-activity-date']), point = center(calendar, cell);
+          assert.ok(cell.count > 0);
+          assert.equal(tile.fill, THEMES[theme].colors[cell.level], 'the legend color follows the original contribution level');
+          assert.ok(Math.abs(Number(tile.x) + Number(tile.width) / 2 - point.x) < 0.001);
+          assert.ok(Math.abs(Number(tile.y) + Number(tile.height) / 2 - point.y) < 0.001);
+        }
+        if (['train', 'space-route'].includes(definition.id)) assert.equal(activity.length, calendar.activeDays * (animated ? 2 : 1), 'weekly travel preserves all daily activity');
+        if (definition.id === 'dungeon') {
+          const rooms = [...svg.matchAll(/<g\b[^>]*data-room="[^"]*"[^>]*>/g)].map(match => attributes(match[0]));
+          assert.equal(rooms.length, calendar.cells.length * (animated ? 2 : 1), 'only input dates become visible room tiles');
+          for (const room of rooms) {
+            const cell = byDate.get(room['data-date']), point = center(calendar, cell);
+            assert.ok(cell);
+            assert.ok(Math.abs(Number(room['data-room-x']) - point.x) < 0.001);
+            assert.ok(Math.abs(Number(room['data-room-y']) - point.y) < 0.001);
+          }
+        }
+      }
+      assert.deepEqual(calendar, before, `${definition.id} leaves original dates and coordinates unchanged`);
+    }
+    const existing = new Set(calendar.cells.map(cell => `${cell.column},${cell.row}`));
+    assert.ok(modelDungeon(calendar).revealed.every(room => existing.has(`${room.column},${room.row}`)), 'fog is allocated only to actual dates');
+  }
+});
+
+test('date actors begin at canonical day centers and weekly journeys remain below the graph', () => {
+  const calendar = fixture(53);
+  for (const target of modelInvaders(calendar).targets) assert.deepEqual({ x: target.x, y: target.homeY }, center(calendar, target));
+  for (const deposit of modelArchaeology(calendar).deposits) assert.deepEqual({ x: deposit.x, y: deposit.y }, center(calendar, deposit));
+  for (const station of modelTrain(calendar).stations) {
+    assert.equal(station.x, center(calendar, { column: station.column, row: 0 }).x);
+    assert.ok(station.y >= 308 && station.y <= 320);
+  }
+  for (const planet of modelSpaceRoute(calendar).planets) {
+    assert.equal(planet.x, center(calendar, { column: planet.column, row: 0 }).x);
+    assert.ok(planet.y >= 307 && planet.y <= 321);
+  }
 });
