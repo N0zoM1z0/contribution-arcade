@@ -3,7 +3,7 @@
   "id": "civilization",
   "duration": 32,
   "metrics": {
-    "resources": 14025,
+    "resources": 14031,
     "era": "Space",
     "erasReached": 6,
     "weathering": 0,
@@ -2839,9 +2839,9 @@
       "time": 29,
       "type": "resources",
       "date": "2026-10-15",
-      "value": 39,
+      "value": 45,
       "data": {
-        "accumulated": 14025
+        "accumulated": 14031
       }
     }
   ]
