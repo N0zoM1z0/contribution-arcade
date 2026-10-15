@@ -75,6 +75,16 @@ export async function verifyClearing(browser, base, catalog, summaries, input) {
             const [pixel] = await pixels(inspector, after, [point]);
             assert.ok(pixel.some((channel, index) => Math.abs(channel - background[index]) > 2), 'A missed mole keeps its date tile.');
           }
+          // GitHub embeds the SVG as an image, with its own real-time clock.
+          await inspector.setViewportSize({ width: 1120, height: 448 });
+          await inspector.setContent(`<body style="margin:0"><img style="display:block" width="1120" height="448" src="${base}/generated/${id}-${theme}.svg" alt="Whack-a-Mole"></body>`);
+          await inspector.waitForFunction(() => document.querySelector('img').complete && document.querySelector('img').naturalWidth);
+          const imageBefore = await pixels(inspector, await inspector.screenshot(), points);
+          assert.ok(imageBefore.some(pixel => pixel.some((channel, index) => Math.abs(channel - background[index]) > 2)));
+          const hit = summary.events.find(event => event.type === 'hammer-hit' && event.date === date);
+          await inspector.waitForTimeout((hit.time + .35) * 1000);
+          const imageAfter = await pixels(inspector, await inspector.screenshot(), points);
+          assert.ok(imageAfter.every(pixel => pixel.every((channel, index) => Math.abs(channel - background[index]) <= 2)), `${id}/${theme}: README image embedding must also clear the whole date tile`);
         }
       }
       await reduced.goto(`${base}/generated/${id}-dark.svg`); await seek(reduced, 0);
