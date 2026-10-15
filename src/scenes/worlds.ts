@@ -1,6 +1,6 @@
 import type { Calendar, Cell } from '../calendar.js';
 import type { SceneContext, SceneDefinition, SceneEvent } from './types.js';
-import { THEMES, appear, film, motion, n, text, tween, visible, weeks, type Theme } from './kit.js';
+import { THEMES, appear, calendarActivity, center, film, motion, n, text, tween, visible, weeks, type Theme } from './kit.js';
 
 type Season = 'Winter' | 'Spring' | 'Summer' | 'Autumn';
 type PlantFamily = 'fern' | 'daisy' | 'bell';
@@ -10,7 +10,7 @@ const count = (value: number): number => Number.isFinite(value) ? Math.max(0, Ma
 const sum = (cells: Cell[]): number => cells.reduce((total, cell) => total + cell.count, 0);
 const seasonFor = (date: string): Season => (['Winter', 'Winter', 'Spring', 'Spring', 'Spring', 'Summer', 'Summer', 'Summer', 'Autumn', 'Autumn', 'Autumn', 'Winter'] as Season[])[Number(date.slice(5, 7)) - 1];
 const timeFor = (index: number, length: number, duration: number): number => 1.4 + index / Math.max(1, length - 1) * (duration - 4.4);
-const positionX = (column: number, columns: number): number => 56 + (column + 0.5) * 1008 / Math.max(1, columns);
+const positionX = (column: number, columns: number): number => 48 + (column + 0.5) * 1024 / Math.max(1, columns);
 const hash = (value: string): number => [...value].reduce((result, character) => (Math.imul(result, 31) + character.charCodeAt(0)) >>> 0, 17);
 
 function footer(theme: Theme, headline: string, detail: string): string {
@@ -35,7 +35,7 @@ function changingText(frames: { time: number; value: string }[], render: (value:
 
 function changingMetric(label: string, frames: { time: number; value: string }[], theme: Theme, duration: number, animated: boolean): string {
   const p = THEMES[theme];
-  return text(56, 125, label.toUpperCase(), p.muted, 8, 'letter-spacing="1.1"') + changingText(frames, value => text(56, 143, value, p.ink, 13, 'font-weight="600"'), duration, animated);
+  return text(56, 287, label.toUpperCase(), p.muted, 8, 'letter-spacing="1.1"') + changingText(frames, value => text(56, 306, value, p.ink, 13, 'font-weight="600"'), duration, animated);
 }
 
 function cumulativeCounter(model: CivilizationModel, theme: Theme, animated: boolean): string {
@@ -105,43 +105,63 @@ export function buildGardenModel(calendar: Calendar, context?: SceneContext): Ga
   return { duration, plants, planting, seasons, contributions: sum(calendar.cells), flowers: plants.filter(plant => plant.flower).length, events: events.sort((a, b) => a.time - b.time) };
 }
 
-function gardenPlant(plant: GardenPlant, x: number, width: number, theme: Theme, animated: boolean, duration: number): string {
+function ribbon(id: string, body: string, animated: boolean): string {
+  const clip = `${id}-ribbon-${animated ? 'animated' : 'static'}`;
+  return `<defs><clipPath id="${clip}"><rect x="48" y="270" width="1024" height="90"/></clipPath></defs><g data-world-ribbon="${id}" clip-path="url(#${clip})">${body}</g>`;
+}
+
+/** The moving outline visits real dates; it never substitutes for a day tile. */
+function dateCursor(calendar: Calendar, theme: Theme, duration: number, animated: boolean): string {
+  if (!animated || !calendar.cells.length) return '';
+  const points = calendar.cells.map((cell, index) => ({ time: timeFor(index, calendar.cells.length, duration), ...center(calendar, cell) }));
+  const size = Math.min(14.5, 1024 / calendar.columns - 3) + 3;
+  return `<g class="world-date-cursor" pointer-events="none">${motion(points, duration)}<rect x="${n(-size / 2)}" y="${n(-size / 2)}" width="${n(size)}" height="${n(size)}" rx="4" fill="none" stroke="${THEMES[theme].accent}" stroke-width="1.2"/></g>`;
+}
+
+function gardenPlant(plant: GardenPlant, calendar: Calendar, theme: Theme, animated: boolean, duration: number): string {
   const p = THEMES[theme];
-  const stem = plant.season === 'Autumn' ? p.accent : p.secondary;
-  const leaf = plant.season === 'Winter' ? p.colors[2] : p.colors[Math.max(2, plant.level)];
+  const point = center(calendar, plant);
+  const stroke = theme === 'dark' && plant.level >= 3 ? p.background : p.ink;
   const h = plant.height;
-  const scale = Math.min(1, width / 15);
+  const scaleX = Math.min(0.67, (1024 / calendar.columns - 5) / 15);
   let leaves = '';
   for (let index = 0; index < plant.leaves; index++) {
     const y = -h * (0.2 + index * 0.18);
     const size = plant.family === 'fern' ? 5.2 : 4;
-    leaves += `<path d="M0 ${n(y)}Q${-size} ${n(y - 7)} ${-size - 1} ${n(y - 3)}Q-5 ${n(y + 1)} 0 ${n(y)}M0 ${n(y - 2)}Q${size} ${n(y - 9)} ${size + 1} ${n(y - 5)}Q5 ${n(y - 1)} 0 ${n(y - 2)}" fill="${leaf}"/>`;
+    leaves += `<path d="M0 ${n(y)}Q${-size} ${n(y - 7)} ${-size - 1} ${n(y - 3)}Q-5 ${n(y + 1)} 0 ${n(y)}M0 ${n(y - 2)}Q${size} ${n(y - 9)} ${size + 1} ${n(y - 5)}Q5 ${n(y - 1)} 0 ${n(y - 2)}" fill="${stroke}" opacity="0.75"/>`;
   }
   const flower = plant.family === 'bell'
-    ? `<path d="M-4 ${n(-h - 1)}Q0 ${n(-h - 10)} 4 ${n(-h - 1)}Z" fill="${p.accent}"/><path d="M-2 ${n(-h)}H2" stroke="${p.ink}" stroke-width="1"/>`
-    : `<g fill="${p.accent}"><ellipse cy="${n(-h - 3.5)}" rx="2" ry="3"/><ellipse cx="-3" cy="${n(-h - 1)}" rx="3" ry="2"/><ellipse cx="3" cy="${n(-h - 1)}" rx="3" ry="2"/><ellipse cy="${n(-h + 1)}" rx="2" ry="3"/></g><circle cy="${n(-h - 1)}" r="1.7" fill="${p.background}"/>`;
+    ? `<path d="M-4 ${n(-h - 1)}Q0 ${n(-h - 10)} 4 ${n(-h - 1)}Z" fill="${p.accent}" stroke="${stroke}" stroke-width="0.7"/>`
+    : `<g fill="${p.accent}" stroke="${stroke}" stroke-width="0.65"><ellipse cy="${n(-h - 3.5)}" rx="2" ry="3"/><ellipse cx="-3" cy="${n(-h - 1)}" rx="3" ry="2"/><ellipse cx="3" cy="${n(-h - 1)}" rx="3" ry="2"/><ellipse cy="${n(-h + 1)}" rx="2" ry="3"/></g><circle cy="${n(-h - 1)}" r="1.7" fill="${stroke}"/>`;
   const growth = animated ? `<animateTransform attributeName="transform" type="scale" values="0 0;0 0;1 1;1 1" keyTimes="0;${(plant.planted / duration).toFixed(6)};${(plant.grown / duration).toFixed(6)};1" dur="${duration}s" repeatCount="indefinite"/>` : '';
-  return `<g class="garden-plant" data-count="${plant.count}" transform="translate(${n(x)} ${164 + plant.row * 27}) scale(${n(scale)} 1)"><ellipse cy="2" rx="5.4" ry="1.6" fill="${p.line}"/><g>${growth}<path d="M0 1Q-1 ${n(-h / 2)} 0 ${n(-h)}" fill="none" stroke="${stem}" stroke-width="1.6" stroke-linecap="round"/>${leaves}${plant.flower ? reveal(flower, plant.grown + 0.15, duration, animated) : `<circle cy="${n(-h)}" r="1.6" fill="${leaf}"/>`}</g></g>`;
+  return `<g class="garden-plant" data-plant-date="${plant.date}" data-count="${plant.count}" transform="translate(${n(point.x)} ${n(point.y)})"><g transform="translate(0 5) scale(${n(scaleX)} 0.34)"><g>${growth}<path d="M0 1Q-1 ${n(-h / 2)} 0 ${n(-h)}" fill="none" stroke="${stroke}" stroke-width="2.4" stroke-linecap="round"/>${leaves}${plant.flower ? reveal(flower, plant.grown + 0.15, duration, animated) : `<circle cy="${n(-h)}" r="1.8" fill="${stroke}"/>`}</g></g></g>`;
+}
+
+function gardenSpecimen(season: Season, x: number, theme: Theme, emphasized: boolean): string {
+  const p = THEMES[theme];
+  const foliage = season === 'Autumn' ? p.accent : p.colors[3];
+  const stem = `<path d="M0 338v-35m0 18q-19-19-23-8q5 13 23 15m0-18q16-18 21-9q-3 12-21 16" fill="none" stroke="${foliage}" stroke-width="3" stroke-linecap="round"/>`;
+  const winter = `<path d="M0 338v-37m0 16-15-11m15 19 17-12m-17-6-8-9" fill="none" stroke="${p.secondary}" stroke-width="2.4"/><path d="M-12 306h8m9 5h12M-3 301h7" stroke="${p.ink}" stroke-width="2" stroke-linecap="round"/>`;
+  const bloom = season === 'Summer' ? `<g fill="${p.accent}"><ellipse cy="297" rx="6" ry="10"/><ellipse cx="-7" cy="302" rx="9" ry="5"/><ellipse cx="7" cy="302" rx="9" ry="5"/><ellipse cy="307" rx="6" ry="9"/></g><circle cy="302" r="4" fill="${p.background}"/>` : season === 'Spring' ? `<circle cy="302" r="5" fill="${p.accent}"/><path d="M-6 307q6 4 12 0" stroke="${p.secondary}" fill="none"/>` : '';
+  return `<g data-season-specimen="${season}" transform="translate(${x} 0)" opacity="${emphasized ? '1' : '0.45'}"><path d="M-14 338h28l-4 16h-20Z" fill="${p.accent}"/><path d="M-16 339h32" stroke="${p.secondary}" stroke-width="2"/>${season === 'Winter' ? winter : stem + bloom}${text(0, 282, season.toUpperCase(), emphasized ? p.secondary : p.muted, 8, 'text-anchor="middle" letter-spacing="0.8"')}</g>`;
 }
 
 function drawGarden(calendar: Calendar, model: GardenModel, theme: Theme, animated: boolean): string {
   const p = THEMES[theme];
-  const width = 1008 / Math.max(1, calendar.columns);
-  const seasonColors: Record<Season, string> = { Winter: p.colors[1], Spring: p.colors[2], Summer: p.colors[3], Autumn: p.accent };
-  const seasonalBeds = weeks(calendar).map(week => `<rect x="${n(56 + week.column * width)}" y="151" width="${n(width)}" height="184" rx="5" fill="${seasonColors[seasonFor(week.cells[0]?.date || calendar.from)]}" opacity="0.075"/>`).join('');
-  const beds = Array.from({ length: 7 }, (_, row) => `<path d="M56 ${167 + row * 27}H1064" stroke="${p.line}" stroke-width="5" stroke-linecap="round"/><path d="M58 ${169 + row * 27}H1062" stroke="${p.border}" stroke-dasharray="1 10"/>`).join('');
-  const labels = model.seasons.map((season, index) => {
-    const label = `<circle cx="66" cy="123" r="3" fill="${seasonColors[season.season]}"/>${text(78, 127, `${season.season.toUpperCase()} / CONTRIBUTION NURSERY`, p.secondary, 9, 'letter-spacing="1.2"')}`;
-    return animated ? during(label, season.time, model.seasons[index + 1]?.time || model.duration, model.duration) : index === model.seasons.length - 1 ? label : '';
+  const season = model.seasons.at(-1)?.season || seasonFor(calendar.to);
+  const labels = model.seasons.map((entry, index) => {
+    const body = text(56, 284, `${entry.season.toUpperCase()} / CONTRIBUTION NURSERY`, p.secondary, 9, 'letter-spacing="0.9"');
+    return animated ? during(body, entry.time, model.seasons[index + 1]?.time || model.duration, model.duration) : index === model.seasons.length - 1 ? body : '';
   }).join('');
-  const languageLabel = model.planting.length ? `OBSERVED REPOSITORY PLANTING MIX · ${model.planting.slice(0, 3).map(item => `${item.name} ${Math.round(item.weight * 100)}%`).join(' / ')}` : 'ONE PLOT PER DATE · GROWTH FROM ACTUAL COUNTS';
+  const languageLabel = model.planting.length ? `Observed repository blend: ${model.planting.slice(0, 3).map(item => `${item.name} ${Math.round(item.weight * 100)}%`).join(' / ')}` : 'Each plant stays on its original date tile.';
   const moments = [...new Set([0, ...model.plants.map(plant => plant.planted), ...model.plants.filter(plant => plant.flower).map(plant => plant.grown + 0.15)])].sort((a, b) => a - b);
-  const counters = moments.map(time => ({ time, value: `${model.plants.filter(plant => plant.planted <= time).length} PLANTS / ${model.plants.filter(plant => plant.flower && plant.grown + 0.15 <= time).length} BLOOMS` }));
-  const counter = changingText(counters, value => text(1064, 127, value, p.muted, 9, 'text-anchor="end" class="mono"'), model.duration, animated);
-  const path = weeks(calendar).filter(week => week.active).map(week => ({ time: timeFor(Math.max(0, calendar.cells.findIndex(cell => cell.column === week.column)), calendar.cells.length, model.duration), x: positionX(week.column, calendar.columns), y: 139 }));
-  const gardener = animated && path.length ? `<g>${motion(path, model.duration)}<path d="M-6-4H5L8 1H-5Z" fill="${p.accent}"/><path d="M-5-4Q-8-12-1-9" fill="none" stroke="${p.accent}" stroke-width="1.5"/><path d="M6-2L13-5M12-3L15-1M10 0L12 3" stroke="${p.secondary}" stroke-width="1.2" stroke-linecap="round"/></g>` : '';
-  const empty = model.plants.length ? '' : text(560, 239, 'The beds are resting. Every active date will grow here.', p.muted, 14, 'text-anchor="middle"');
-  return `<g class="garden-world">${seasonalBeds}${beds}${labels}${counter}${model.plants.map(plant => gardenPlant(plant, positionX(plant.column, calendar.columns), width, theme, animated, model.duration)).join('')}${gardener}${empty}${text(56, 350, languageLabel, p.muted, 8, 'letter-spacing="0.6"')}</g>`;
+  const counters = moments.map(time => ({ time, value: `${model.plants.filter(plant => plant.planted <= time).length} plants · ${model.plants.filter(plant => plant.flower && plant.grown + 0.15 <= time).length} blooms` }));
+  const counter = changingText(counters, value => text(56, 307, value, p.ink, 15, 'font-weight="600"'), model.duration, animated);
+  const specimensFor = (current: Season): string => (['Winter', 'Spring', 'Summer', 'Autumn'] as Season[]).map((item, index) => gardenSpecimen(item, 716 + index * 106, theme, item === current)).join('');
+  const specimens = animated ? model.seasons.map((entry, index) => during(specimensFor(entry.season), entry.time, model.seasons[index + 1]?.time || model.duration, model.duration)).join('') : specimensFor(season);
+  const status = model.plants.length ? 'Actual counts grow stems and leaves; five contributions earn a bloom.' : 'The garden is resting. Every recorded zero day stays visible.';
+  const narrative = `${labels}${counter}${text(56, 328, status, p.muted, 10)}${text(56, 349, languageLabel, p.muted, 9)}${specimens}`;
+  return `<g class="garden-world">${calendarActivity(calendar, theme)}${model.plants.map(plant => gardenPlant(plant, calendar, theme, animated, model.duration)).join('')}${dateCursor(calendar, theme, model.duration, animated)}${ribbon('garden', narrative, animated)}</g>`;
 }
 
 export interface CityBuilding {
@@ -205,14 +225,15 @@ function cityBuilding(building: CityBuilding, calendar: Calendar, theme: Theme, 
 
 function drawCity(calendar: Calendar, model: CityModel, theme: Theme, animated: boolean): string {
   const p = THEMES[theme];
-  const sky = `<path d="M56 263Q130 245 213 266T380 264T560 271T748 263T940 265T1064 267V322H56Z" fill="${p.empty}"/><circle cx="1015" cy="150" r="16" fill="${p.accent}" opacity="0.8"/><circle cx="1008" cy="145" r="16" fill="${p.background}"/><path d="M112 169h56m-36-8h31m613 19h69m-44-9h31" fill="none" stroke="${p.border}" stroke-width="3" stroke-linecap="round"/>`;
   const ground = `<path d="M56 324H1064" stroke="${p.secondary}" stroke-width="2"/><path d="M56 339H1064" stroke="${p.line}" stroke-width="20"/><path d="M56 339H1064" stroke="${p.muted}" stroke-width="1" stroke-dasharray="10 16" opacity="0.4"/>`;
   const points = model.buildings.map(building => ({ time: building.framed, x: Math.max(89, Math.min(1015, positionX(building.column, calendar.columns))), y: 0 }));
   const crane = animated && points.length ? `<g class="city-crane">${motion(points, model.duration)}<path d="M0 318V152M-33 161H49M0 152L-33 161M0 152L49 161M-5 318L0 297L5 318M0 274L-4 254L4 234L-4 214L4 194L0 174" fill="none" stroke="${p.accent}" stroke-width="1.5"/><path d="M36 161v44q0 7-5 6" fill="none" stroke="${p.secondary}" stroke-width="1.2"/><rect x="-32" y="158" width="10" height="7" fill="${p.accent}"/></g>` : '';
-  const car = model.buildings.length ? `<g transform="translate(80 334)">${animated ? motion([{ time: 0, x: 80, y: 334 }, { time: model.duration, x: 1030, y: 334 }], model.duration) : ''}<rect x="0" y="0" width="13" height="5" rx="2" fill="${p.accent}"/><path d="M3 0l2-3h4l2 3" fill="${p.accent}"/><circle cx="3" cy="5" r="1.5" fill="${p.background}"/><circle cx="10" cy="5" r="1.5" fill="${p.background}"/></g>` : '';
-  const empty = model.buildings.length ? '' : text(560, 249, 'A quiet horizon, ready for the first foundation.', p.muted, 14, 'text-anchor="middle"');
+  const car = model.buildings.length ? `<g transform="translate(80 334)">${animated ? motion([{ time: 0, x: 80, y: 334 }, { time: model.duration, x: 1030, y: 334 }], model.duration) : ''}<rect width="13" height="5" rx="2" fill="${p.accent}"/><path d="M3 0l2-3h4l2 3" fill="${p.accent}"/><circle cx="3" cy="5" r="1.5" fill="${p.background}"/><circle cx="10" cy="5" r="1.5" fill="${p.background}"/></g>` : '';
+  const skyline = `<g transform="translate(0 211) scale(1 0.42)">${model.buildings.map(building => cityBuilding(building, calendar, theme, animated, model.duration)).join('')}${crane}${ground}${car}</g>`;
   const counters = [{ time: 0, value: '0 developed blocks' }, ...model.buildings.map((building, index) => ({ time: building.completed, value: `${index + 1} developed blocks` }))];
-  return `<g class="city-world">${sky}${changingMetric('Weekly skyline', counters, theme, model.duration, animated)}${text(1064, 126, 'FOUNDATION → FRAME → FACADE', p.muted, 9, 'text-anchor="end" letter-spacing="1"')}${model.buildings.map(building => cityBuilding(building, calendar, theme, animated, model.duration)).join('')}${crane}${ground}${car}${empty}${text(56, 355, 'ONE BUILDING PER ACTIVE WEEK · HEIGHT = WEEKLY CONTRIBUTIONS', p.muted, 8, 'letter-spacing="0.7"')}</g>`;
+  const counter = changingText(counters, value => text(56, 265, `WEEKLY SKYLINE / ${value}`, p.secondary, 9, 'letter-spacing="0.7"'), model.duration, animated);
+  const quiet = model.buildings.length ? '' : text(560, 315, 'A quiet horizon, ready for the first foundation.', p.muted, 13, 'text-anchor="middle"');
+  return `<g class="city-world">${calendarActivity(calendar, theme)}${dateCursor(calendar, theme, model.duration, animated)}${counter}${ribbon('city', `${skyline}${quiet}`, animated)}${text(1072, 265, 'FOUNDATION → FRAME → FACADE · WEEKLY TOTALS', p.muted, 8, 'text-anchor="end" letter-spacing="0.7"')}</g>`;
 }
 
 export const CIVILIZATION_ERAS = [
@@ -293,27 +314,29 @@ function civilizationEra(era: number, theme: Theme, animated: boolean, model: Ci
   const farms = `<g stroke="${p.colors[2]}" stroke-width="3"><path d="M270 297l56-13m-49 20 56-13m-46 20 56-13"/></g><path d="M650 310H343" stroke="${p.accent}" stroke-width="5" opacity="0.2"/>`;
   const mill = era >= 3 ? `<g class="civilization-windmill"><path d="M300 307l8-63h13l8 63Z" fill="${p.colors[2]}"/><circle cx="314" cy="251" r="4" fill="${p.accent}"/><g>${animated ? `<animateTransform attributeName="transform" type="rotate" from="0 314 251" to="360 314 251" dur="8s" repeatCount="indefinite"/>` : ''}<path d="M314 251l-22-19 5-5 17 24 22-19 5 5-27 14 22 19-5 5-17-24-22 19-5-5Z" fill="${p.secondary}"/></g></g>` : '';
   const industry = era >= 5 ? `<g class="civilization-factory"><path d="M639 307v-55l22-14v14l22-14v14l22-14v69Z" fill="${p.colors[2]}"/><path d="M694 252v-56h12v111" fill="${p.colors[3]}"/><path d="M649 270h10v9h-10m25-9h10v9h-10" fill="${p.accent}"/><g fill="${p.muted}" opacity="0.23"><circle cx="702" cy="186" r="9"/><circle cx="713" cy="171" r="13"/><circle cx="733" cy="157" r="17"/>${animated ? tween('opacity', [{ time: 0, value: 0.13 }, { time: model.duration / 2, value: 0.35 }, { time: model.duration, value: 0.13 }], model.duration) : ''}</g></g>` : '';
-  const space = era >= 6 ? `<g class="civilization-spaceport"><path d="M825 307h113" stroke="${p.secondary}" stroke-width="3"/><path d="M830 307v-70h22m-22 15h22m-22 18h22m-22 18h22" fill="none" stroke="${p.muted}" stroke-width="2"/><g>${animated ? motion([{ time: 0, x: 0, y: 0 }, { time: Math.min(model.duration - 1.4, (model.eras.find(item => item.era === 6)?.time || 0) + 0.4), x: 0, y: 0 }, { time: model.duration - 0.5, x: 26, y: -88 }], model.duration) : ''}<path d="M870 288v-43q0-25 10-35q10 10 10 35v43Z" fill="${p.secondary}"/><path d="M870 268l-8 20h8m20-20 8 20h-8" fill="${p.accent}"/><circle cx="880" cy="242" r="4" fill="${p.background}"/>${animated ? `<path d="M874 291l6 15 6-15" fill="${p.accent}"/>` : ''}</g><path d="M758 211v96m-17-101q17 26 34 0m-34 0 17 5 17-5" fill="none" stroke="${p.secondary}" stroke-width="2"/></g>` : '';
+  const space = era >= 6 ? `<g class="civilization-spaceport"><path d="M825 307h113" stroke="${p.secondary}" stroke-width="3"/><path d="M830 307v-70h22m-22 15h22m-22 18h22m-22 18h22" fill="none" stroke="${p.muted}" stroke-width="2"/><g>${animated ? motion([{ time: 0, x: 0, y: 0 }, { time: Math.min(model.duration - 1.4, (model.eras.find(item => item.era === 6)?.time || 0) + 0.4), x: 0, y: 0 }, { time: model.duration - 0.5, x: 26, y: -44 }], model.duration) : ''}<path d="M870 288v-43q0-25 10-35q10 10 10 35v43Z" fill="${p.secondary}"/><path d="M870 268l-8 20h8m20-20 8 20h-8" fill="${p.accent}"/><circle cx="880" cy="242" r="4" fill="${p.background}"/>${animated ? `<path d="M874 291l6 15 6-15" fill="${p.accent}"/>` : ''}</g><path d="M758 211v96m-17-101q17 26 34 0m-34 0 17 5 17-5" fill="none" stroke="${p.secondary}" stroke-width="2"/></g>` : '';
   return `<g class="civilization-settlement" data-era="${era}">${farms}${homes.join('')}${mill}${industry}${space}</g>`;
 }
 
-function drawCivilization(model: CivilizationModel, theme: Theme, animated: boolean): string {
+function drawCivilization(calendar: Calendar, model: CivilizationModel, theme: Theme, animated: boolean): string {
   const p = THEMES[theme];
-  const landscape = `<circle cx="968" cy="158" r="19" fill="${p.accent}" opacity="0.65"/><path d="M56 279l82-83 65 68 92-99 102 108 77-41 109 49 76-69 90 65 97-97 111 105 112-49 87 51v43H56Z" fill="${p.empty}"/><path d="M56 311Q285 291 473 316T832 309T1064 312V333H56Z" fill="${p.colors[1]}" opacity="0.45"/><path d="M119 276q88 22 62 47q-7 8-4 13" fill="none" stroke="${p.colors[2]}" stroke-width="12" opacity="0.55"/><path d="M85 309v-32m-11 19 11-18 11 18m89 20v-44m-15 26 15-25 15 25m770 20v-44m-15 26 15-25 15 25" fill="none" stroke="${p.secondary}" stroke-width="3"/>`;
+  const landscape = `<path d="M56 279l82-83 65 68 92-99 102 108 77-41 109 49 76-69 90 65 97-97 111 105 112-49 87 51v43H56Z" fill="${p.empty}"/><path d="M56 311Q285 291 473 316T832 309T1064 312V333H56Z" fill="${p.colors[1]}" opacity="0.45"/><path d="M119 276q88 22 62 47q-7 8-4 13" fill="none" stroke="${p.colors[2]}" stroke-width="12" opacity="0.55"/><path d="M85 309v-32m-11 19 11-18 11 18m89 20v-44m-15 26 15-25 15 25m770 20v-44m-15 26 15-25 15 25" fill="none" stroke="${p.secondary}" stroke-width="3"/>`;
   const eraGroups = model.eras.map((entry, index) => {
-    const body = civilizationEra(entry.era, theme, animated, model) + text(1064, 127, `${String(entry.era).padStart(2, '0')} / ${CIVILIZATION_ERAS[entry.era].name.toUpperCase()}`, p.secondary, 10, 'text-anchor="end" letter-spacing="1.2"');
+    const body = civilizationEra(entry.era, theme, animated, model);
     // Multiple thresholds may be crossed on one date: only the latest is visible.
     return animated ? during(body, entry.time, model.eras[index + 1]?.time || model.duration, model.duration) : index === model.eras.length - 1 ? body : '';
   }).join('');
   const weatherFrames = [{ time: 0, value: 0 }, ...model.snapshots.map(snapshot => ({ time: snapshot.time, value: snapshot.weathering * 0.85 }))];
   const overgrowth = `<g class="civilization-weathering" opacity="${n(animated ? 0 : model.weathering * 0.85)}">${animated ? tween('opacity', weatherFrames, model.duration) : ''}<path d="M362 310q18-55 35-39t28 37m65 0q-12-49 8-59m63 60q12-47 30-32t27 32m70 0q-11-57 10-43" fill="none" stroke="${p.colors[4]}" stroke-width="5"/><path d="M382 284l-12-7 2 14m28-14 13-6-3 16m91-18 10-9 1 17m91 9 12-6-3 13m63-13 12-9-2 18" fill="${p.colors[3]}"/><path d="M414 289l4 9-5 7m184-23-5 8 7 9m73-22-4 11 6 6" fill="none" stroke="${p.background}" stroke-width="2"/></g>`;
   const timeline = CIVILIZATION_ERAS.slice(1).map((era, index) => {
-    const x = 218 + index * 143;
+    const x = 340 + index * 121;
     const achieved = model.eras.find(entry => entry.era === index + 1);
-    const marker = (reached: boolean): string => `<circle cx="${x}" cy="345" r="3" fill="${reached ? p.accent : p.border}"/>${text(x + 9, 348, `${era.name} ${era.threshold.toLocaleString('en-US')}`, reached ? p.secondary : p.muted, 8)}`;
+    const marker = (reached: boolean): string => `<circle cx="${x}" cy="355" r="3" fill="${reached ? p.accent : p.border}"/>${text(x + 7, 358, `${era.name} ${era.threshold.toLocaleString('en-US')}`, reached ? p.secondary : p.muted, 8)}`;
     return marker(false) + (achieved ? reveal(marker(true), achieved.time, model.duration, animated) : '');
   }).join('');
-  return `<g class="civilization-world">${landscape}${cumulativeCounter(model, theme, animated)}${eraGroups}${overgrowth}<path d="M218 345H939" stroke="${p.line}"/>${timeline}</g>`;
+  const eraLabel = changingText(model.eras.map(entry => ({ time: entry.time, value: `${String(entry.era).padStart(2, '0')} / ${CIVILIZATION_ERAS[entry.era].name.toUpperCase()}` })), value => text(56, 330, value, p.secondary, 10, 'letter-spacing="1.2"'), model.duration, animated);
+  const scenery = `<g transform="translate(300 218) scale(0.69 0.39)">${landscape}</g><circle cx="1023" cy="285" r="10" fill="${p.accent}" opacity="0.65"/><g transform="translate(395 184) scale(0.53)">${eraGroups}${overgrowth}</g>`;
+  return `<g class="civilization-world">${calendarActivity(calendar, theme)}${dateCursor(calendar, theme, model.duration, animated)}${ribbon('civilization', `${cumulativeCounter(model, theme, animated)}${eraLabel}${scenery}${timeline}`, animated)}</g>`;
 }
 
 export interface TownBuilding {
@@ -390,56 +413,53 @@ export function buildTownModel(calendar: Calendar, context?: SceneContext): Town
 
 function townHouse(building: TownBuilding, theme: Theme, animated: boolean, duration: number): string {
   const p = THEMES[theme];
-  const column = building.lot % 6;
-  const row = Math.floor(building.lot / 6);
-  const x = 93 + column * 108;
-  const y = 179 + row * 43;
-  const variant = building.lot % 3;
-  const body = `<g class="town-house" data-lot="${building.lot}"><rect x="${x - 8}" y="${y - 22}" width="66" height="35" rx="7" fill="${p.empty}"/><rect x="${x}" y="${y - 18}" width="42" height="24" rx="2" fill="${p.colors[2 + variant]}"/><path d="M${x - 4} ${y - 17}l25-12 25 12-25 11Z" fill="${p.accent}"/><path d="M${x + 21} ${y - 6}v12h21v-23" fill="${p.background}" opacity="0.13"/><rect x="${x + 16}" y="${y - 2}" width="7" height="8" fill="${p.background}"/><rect x="${x + 5}" y="${y - 5}" width="5" height="5" fill="${p.background}" opacity="0.7"/><path d="M${x + 19} ${y + 8}v7" stroke="${p.secondary}" stroke-width="2"/><circle cx="${x + 52}" cy="${y + 1}" r="5" fill="${p.colors[3]}"/><path d="M${x + 52} ${y + 1}v9" stroke="${p.secondary}"/></g>`;
+  const x = 337 + building.lot * 20.5;
+  const y = 334;
+  const h = 15 + building.lot % 3 * 3;
+  const body = `<g class="town-house" data-lot="${building.lot}"><rect x="${n(x)}" y="${y - h}" width="15" height="${h}" rx="1" fill="${p.colors[2 + building.lot % 3]}"/><path d="M${n(x - 2)} ${y - h}l9.5-7 9.5 7Z" fill="${p.accent}"/><rect x="${n(x + 6)}" y="${y - 7}" width="4" height="7" rx="0.5" fill="${p.background}"/><path d="M${n(x + 2)} ${y - h + 4}h3v3h-3" fill="${p.background}" opacity="0.65"/></g>`;
   if (!animated) return body;
-  const plot = `<rect x="${x - 3}" y="${y - 15}" width="48" height="23" rx="3" fill="none" stroke="${p.accent}" stroke-dasharray="3 3"/>`;
+  const plot = `<path d="M${n(x - 1)} ${y}v-${h}h17v${h}Z" fill="none" stroke="${p.accent}" stroke-width="1" stroke-dasharray="2 2"/>`;
   return during(plot, building.time, building.time + 0.5, duration) + reveal(body, building.time + 0.5, duration, true);
 }
 
+/** Public structures describe aggregate observed work, never extra calendar days. */
 function civicSquare(model: TownModel, theme: Theme): string {
   const p = THEMES[theme];
-  const backdrop = `<rect x="790" y="155" width="274" height="177" rx="17" fill="${p.empty}"/><path d="M805 244H1049M927 169V318" stroke="${p.border}" stroke-width="17"/><circle cx="927" cy="244" r="15" fill="${p.colors[2]}"/><circle cx="927" cy="244" r="8" fill="${p.background}"/><path d="M927 238v9m-4-6h8" stroke="${p.secondary}" stroke-width="2"/>`;
-  if (!model.activity) return backdrop + text(927, 187, 'THE COMMONS', p.secondary, 10, 'text-anchor="middle" letter-spacing="1.2"') + `<path d="M870 218h114m-105 6h96m-96 5h96M875 280h104m-96 6h88" stroke="${p.colors[2]}" stroke-width="3"/><g fill="${p.colors[3]}"><circle cx="827" cy="197" r="9"/><circle cx="1028" cy="289" r="9"/><circle cx="826" cy="289" r="7"/></g>` + text(927, 308, 'Calendar totals · public types unavailable', p.muted, 9, 'text-anchor="middle"');
+  if (!model.activity) return `<g class="town-commons"><path d="M875 337h177M895 322h138m-130 5h122" stroke="${p.colors[2]}" stroke-width="3"/><path d="M889 319v-18m-9 10 9-14 9 14m142 10v-18m-9 10 9-14 9 14" fill="none" stroke="${p.secondary}" stroke-width="2"/>${text(963, 284, 'THE COMMONS', p.secondary, 10, 'text-anchor="middle" letter-spacing="1.1"')}${text(963, 353, 'Calendar totals · public types unavailable', p.muted, 8, 'text-anchor="middle"')}</g>`;
   const { commits, issues, pullRequests, reviews } = model.activity;
   const items = [
-    { x: 856, y: 197, label: 'COMMITS', value: commits },
-    { x: 996, y: 197, label: 'ISSUES', value: issues },
-    { x: 856, y: 279, label: 'PULL REQUESTS', value: pullRequests },
-    { x: 996, y: 279, label: 'REVIEWS', value: reviews },
+    { x: 852, y: 284, label: 'COMMITS', value: commits },
+    { x: 968, y: 284, label: 'ISSUES', value: issues },
+    { x: 852, y: 325, label: 'PULL REQUESTS', value: pullRequests },
+    { x: 968, y: 325, label: 'REVIEWS', value: reviews },
   ];
-  return backdrop + items.map((item, index) => {
+  return items.map((item, index) => {
     const levels = Math.min(4, Math.ceil(Math.log2(1 + item.value)));
-    const height = 9 + levels * 3;
+    const h = 9 + levels * 1.6;
     const architecture = [
-      `<path d="M-15 6v-${height}l8-5v5l8-5v5l8-5V6Z" fill="${p.colors[2]}"/><path d="M4 ${6 - height}v-9h4v${height + 9}" fill="${p.colors[3]}"/>`,
-      `<path d="M-16 ${6 - height}l16-9 16 9Z" fill="${p.accent}"/><path d="M-13 ${8 - height}V6m9-${height - 2}V6m9-${height - 2}V6m9-${height - 2}V6M-17 7h34" fill="none" stroke="${p.colors[3]}" stroke-width="3"/>`,
-      `<path d="M-17 7V-7h34V7h-5q0-15-12-15T-12 7Z" fill="${p.colors[3]}"/><path d="M-17-9h34M-13-14v7m8-7v7m8-7v7m8-7v7" stroke="${p.accent}" stroke-width="1.5"/>`,
-      `<rect x="-17" y="${6 - height}" width="34" height="${height}" fill="${p.colors[2]}"/><path d="M-20 ${6 - height}l20-9 20 9Z" fill="${p.accent}"/>${Array.from({ length: levels }, (_, book) => `<path d="M${-11 + book * 6} ${9 - height}v${height - 7}" stroke="${p.secondary}" stroke-width="3"/>`).join('')}`,
+      `<path d="M0 8v-${h}l5-4v4l5-4v4l5-4V8Z" fill="${p.colors[2]}"/><path d="M14 ${8 - h}v-6h3v${h + 6}" fill="${p.colors[3]}"/>`,
+      `<path d="M-2 ${8 - h}l10-6 10 6Z" fill="${p.accent}"/><path d="M0 ${10 - h}V8m5-${h - 2}V8m5-${h - 2}V8m5-${h - 2}V8M-2 9h20" fill="none" stroke="${p.colors[3]}" stroke-width="2"/>`,
+      `<path d="M-2 9V-2h20V9h-4q0-9-6-9T2 9Z" fill="${p.colors[3]}"/><path d="M-2-4h20M1-8v5m5-5v5m5-5v5m5-5v5" stroke="${p.accent}" stroke-width="1.1"/>`,
+      `<rect y="${8 - h}" width="16" height="${h}" fill="${p.colors[2]}"/><path d="M-3 ${8 - h}l11-6 11 6Z" fill="${p.accent}"/>${Array.from({ length: levels }, (_, book) => `<path d="M${2 + book * 3} ${11 - h}v${h - 5}" stroke="${p.secondary}" stroke-width="1.6"/>`).join('')}`,
     ][index];
-    return `<g class="town-public-activity" data-type="${item.label.toLowerCase().replaceAll(' ', '-')}" data-count="${item.value}"><rect x="${item.x - 43}" y="${item.y - 27}" width="86" height="65" rx="8" fill="${p.background}" stroke="${p.border}"/><g class="civic-structure" transform="translate(${item.x - 19} ${item.y - 5})">${item.value ? architecture : `<path d="M-17 7h34v-20h-34Z" fill="none" stroke="${p.border}" stroke-dasharray="3 3"/>`}</g>${text(item.x + 7, item.y, item.value.toLocaleString('en-US'), item.value ? p.ink : p.muted, 12, 'font-weight="600"')}${text(item.x, item.y + 20, item.label, p.muted, 7.5, 'text-anchor="middle" letter-spacing="0.6"')}</g>`;
+    return `<g class="town-public-activity" data-type="${item.label.toLowerCase().replaceAll(' ', '-')}" data-count="${item.value}"><g transform="translate(${item.x} ${item.y + 8})">${item.value ? architecture : `<path d="M-2 9h20V-8H-2Z" fill="none" stroke="${p.border}" stroke-dasharray="2 2"/>`}</g>${text(item.x + 28, item.y + 10, item.value.toLocaleString('en-US'), item.value ? p.ink : p.muted, 12, 'font-weight="600"')}${text(item.x + 28, item.y + 23, item.label, p.muted, 7, 'letter-spacing="0.4"')}</g>`;
   }).join('');
 }
 
-function drawTown(model: TownModel, theme: Theme, animated: boolean): string {
+function drawTown(calendar: Calendar, model: TownModel, theme: Theme, animated: boolean): string {
   const p = THEMES[theme];
-  const district = `<rect x="56" y="154" width="712" height="178" rx="17" fill="${p.empty}"/><path d="M68 330H753" stroke="${p.line}" stroke-width="10"/><path d="M68 330H753" stroke="${p.muted}" stroke-width="1" stroke-dasharray="3 10" opacity="0.4"/>`;
   const roads = model.roads.map(road => {
-    const x = 160 + road.segment * 108;
-    return reveal(`<g class="town-road" data-segment="${road.segment}"><path d="M${x} 164V330" stroke="${p.border}" stroke-width="10"/><path d="M${x} 164V325" stroke="${p.muted}" stroke-width="0.8" stroke-dasharray="2 9" opacity="0.35"/></g>`, road.time, model.duration, animated);
+    const x = 332 + road.segment * 82;
+    return reveal(`<g class="town-road" data-segment="${road.segment}"><path d="M${x} 344h82" stroke="${p.line}" stroke-width="8"/><path d="M${x} 344h79" stroke="${p.muted}" stroke-width="0.8" stroke-dasharray="3 7" opacity="0.45"/></g>`, road.time, model.duration, animated);
   }).join('');
-  const celebrationBody = `<path d="M793 150Q927 188 1061 150" fill="none" stroke="${p.secondary}" stroke-width="1"/>${Array.from({ length: 10 }, (_, index) => `<path d="M${807 + index * 25} ${158 + Math.sin(index / 9 * Math.PI) * 13}l6 10 6-8Z" fill="${index % 2 ? p.accent : p.colors[3]}"/>`).join('')}<g fill="${p.accent}"><circle cx="813" cy="140" r="2"/><circle cx="1042" cy="136" r="2"/><path d="M841 134l3-5 3 5m182 13 4-5 3 4" fill="none" stroke="${p.accent}"/></g>`;
+  const celebrationBody = `<path d="M846 272Q951 302 1068 272" fill="none" stroke="${p.secondary}" stroke-width="1"/>${Array.from({ length: 9 }, (_, index) => `<path d="M${853 + index * 25} ${275 + Math.sin(index / 8 * Math.PI) * 12}l4 7 5-6Z" fill="${index % 2 ? p.accent : p.colors[3]}"/>`).join('')}`;
   const celebrations = animated ? model.festivals.map(festival => during(celebrationBody, festival.time, Math.min(model.duration - 0.1, festival.time + 1.15), model.duration)).join('') : model.festivals.length ? celebrationBody : '';
-  const walker = model.buildings.length ? `<g>${animated ? motion([{ time: 0, x: 70, y: 328 }, { time: model.duration * 0.75, x: 751, y: 328 }, { time: model.duration, x: 751, y: 328 }], model.duration) : ''}<circle cx="${animated ? 0 : 730}" cy="${animated ? -4 : 324}" r="2.4" fill="${p.accent}"/><path d="M${animated ? 0 : 730} ${animated ? -1 : 327}v5m-3 0 3-4 3 4" stroke="${p.secondary}" stroke-width="1.5" fill="none"/></g>` : '';
-  const empty = model.buildings.length ? '' : text(412, 247, 'An open neighborhood. First contribution, first home.', p.muted, 12, 'text-anchor="middle"');
-  const status = model.activity ? 'OBSERVED PUBLIC ACTIVITY · SAMPLED TOTALS' : 'CALENDAR-ONLY · NO INFERRED ACTIVITY TYPES';
   const moments = [...new Set([0, ...model.buildings.map(building => building.time + 0.5), ...model.roads.map(road => road.time), ...model.festivals.map(festival => festival.time)])].sort((a, b) => a - b);
-  const counters = moments.map(time => ({ time, value: `${model.buildings.filter(building => building.time + 0.5 <= time).length} homes · ${model.roads.filter(road => road.time <= time).length} lanes · ${model.festivals.filter(festival => festival.time <= time).length} festivals` }));
-  return `<g class="town-world">${changingMetric('A town built together', counters, theme, model.duration, animated)}${text(1064, 127, status, p.muted, 8, 'text-anchor="end" letter-spacing="0.7"')}${district}${roads}${model.buildings.map(building => townHouse(building, theme, animated, model.duration)).join('')}${civicSquare(model, theme)}${celebrations}${walker}${empty}${text(56, 350, 'HOMES FROM ACCUMULATED CONTRIBUTIONS · FESTIVALS FROM ACTIVE WEEKS', p.muted, 8, 'letter-spacing="0.5"')}</g>`;
+  const counters = moments.map(time => ({ time, value: `${model.buildings.filter(building => building.time + 0.5 <= time).length} homes · ${model.festivals.filter(festival => festival.time <= time).length} festivals` }));
+  const status = model.activity ? 'OBSERVED PUBLIC ACTIVITY · SAMPLED TOTALS' : 'CALENDAR-ONLY · NO INFERRED ACTIVITY TYPES';
+  const empty = model.buildings.length ? '' : text(578, 326, 'First contribution, first home.', p.muted, 12, 'text-anchor="middle"');
+  const narrative = `${changingMetric('A town built together', counters, theme, model.duration, animated)}${text(56, 329, 'Active streaks bring celebrations.', p.muted, 9)}${text(56, 348, '24 contributions fund each additional home.', p.muted, 8)}${roads}${model.buildings.map(building => townHouse(building, theme, animated, model.duration)).join('')}${civicSquare(model, theme)}${celebrations}${empty}`;
+  return `<g class="town-world">${calendarActivity(calendar, theme)}${dateCursor(calendar, theme, model.duration, animated)}${text(1072, 265, status, p.muted, 8, 'text-anchor="end" letter-spacing="0.7"')}${ribbon('town', narrative, animated)}</g>`;
 }
 
 const garden: SceneDefinition = {
@@ -468,7 +488,7 @@ const civilization: SceneDefinition = {
   description: 'Actual accumulated contributions cross fixed era thresholds, growing a camp into a hamlet, village, town, industrial settlement and spaceport. Observed inactive runs weather and overgrow the settlement; activity repairs it.',
   build: calendar => {
     const model = buildCivilizationModel(calendar);
-    return film(calendar, civilization, { duration: model.duration, events: model.events, checkpoints: [3, 16, 30], metrics: { resources: model.accumulated, era: CIVILIZATION_ERAS[model.era].name, erasReached: model.era, weathering: Number(model.weathering.toFixed(3)), maximumWeathering: Number(model.maximumWeathering.toFixed(3)) }, draw: (theme, animated) => drawCivilization(model, theme, animated), footer: theme => footer(theme, `Final: ${CIVILIZATION_ERAS[model.era].name} · ${model.accumulated.toLocaleString('en-US')}`, `Final weathering ${Math.round(model.weathering * 100)}% · fixed eras`) });
+    return film(calendar, civilization, { duration: model.duration, events: model.events, checkpoints: [3, 16, 30], metrics: { resources: model.accumulated, era: CIVILIZATION_ERAS[model.era].name, erasReached: model.era, weathering: Number(model.weathering.toFixed(3)), maximumWeathering: Number(model.maximumWeathering.toFixed(3)) }, draw: (theme, animated) => drawCivilization(calendar, model, theme, animated), footer: theme => footer(theme, `Final: ${CIVILIZATION_ERAS[model.era].name} · ${model.accumulated.toLocaleString('en-US')}`, `Final weathering ${Math.round(model.weathering * 100)}% · fixed eras`) });
   },
 };
 
@@ -479,7 +499,7 @@ const town: SceneDefinition = {
   build: (calendar, context) => {
     const model = buildTownModel(calendar, context);
     const checkpoints = [...new Set([4, model.festivals.length ? model.festivals[Math.floor(model.festivals.length / 2)].time + 0.3 : 15, model.festivals.length ? model.festivals.at(-1)!.time + 0.3 : 28, 15, 28])].slice(0, 3).sort((a, b) => a - b);
-    return film(calendar, town, { duration: model.duration, events: model.events, checkpoints, metrics: { homes: model.buildings.length, roads: model.roads.length, festivals: model.festivals.length, contributions: model.contributions, source: model.source, ...(model.activity ? { commits: model.activity.commits, issues: model.activity.issues, pullRequests: model.activity.pullRequests, reviews: model.activity.reviews } : {}) }, draw: (theme, animated) => drawTown(model, theme, animated), footer: theme => footer(theme, `${model.buildings.length} homes · ${model.festivals.length} celebrations`, model.activity ? 'Observed public types · sampled totals' : 'Calendar totals · typed activity unavailable') });
+    return film(calendar, town, { duration: model.duration, events: model.events, checkpoints, metrics: { homes: model.buildings.length, roads: model.roads.length, festivals: model.festivals.length, contributions: model.contributions, source: model.source, ...(model.activity ? { commits: model.activity.commits, issues: model.activity.issues, pullRequests: model.activity.pullRequests, reviews: model.activity.reviews } : {}) }, draw: (theme, animated) => drawTown(calendar, model, theme, animated), footer: theme => footer(theme, `${model.buildings.length} homes · ${model.festivals.length} celebrations`, model.activity ? 'Observed public types · sampled totals' : 'Calendar totals · typed activity unavailable') });
   },
 };
 

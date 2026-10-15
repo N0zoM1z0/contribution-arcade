@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { normalizeCalendar } from '../lib/calendar.js';
+import { THEMES } from '../lib/scenes/kit.js';
 import { worldsScenes, buildGardenModel, buildCityModel, buildCivilizationModel, buildTownModel, CIVILIZATION_ERAS } from '../lib/scenes/worlds.js';
 
 function fixture(counts, first = '2026-01-04', levels) {
@@ -22,6 +23,93 @@ const publicContext = {
   activity: { commits: 40, issues: 7, pullRequests: 12, reviews: 9 },
   coverage: 'Observed public repositories; sampled commits and primary languages.',
 };
+
+function markedElements(svg, element, marker) {
+  return [...svg.matchAll(new RegExp(`<${element}\\b[^>]*\\b${marker}="[^"]+"[^>]*>`, 'g'))].map(match => Object.fromEntries([...match[0].matchAll(/([\w-]+)="([^"]*)"/g)].map(attribute => [attribute[1], attribute[2]])));
+}
+
+function assertDateGeometry(rectangle, cell, columns) {
+  const size = Math.min(14.5, 1024 / columns - 3);
+  const close = (actual, expected) => assert.ok(Math.abs(Number(actual) - expected) <= 0.001, `Expected ${actual} to preserve ${expected}`);
+  close(rectangle.x, 48 + (cell.column + 0.5) * 1024 / columns - size / 2);
+  close(rectangle.y, 114 + cell.row * 19);
+  close(rectangle.width, size);
+  close(rectangle.height, size);
+}
+
+test('all world renders preserve every original day tile and exact date geometry, including zeros and missing dates', () => {
+  const calendar = fixture([0, 8, 1, 0, 13, 2, 0, 4, 0, 3, 0, 9, 0, 1, 0, 7], '2026-01-07');
+  const missing = calendar.cells.splice(5, 1)[0].date;
+  const original = structuredClone(calendar);
+  for (const scene of worldsScenes) {
+    const film = scene.build(calendar, publicContext);
+    for (const theme of ['dark', 'light']) {
+      for (const animated of [true, false]) {
+        const svg = film.render(theme, animated);
+        const tiles = markedElements(svg, 'rect', 'data-cell-date');
+        assert.equal(tiles.length, calendar.cells.length, `${scene.id} must have exactly one permanent tile per recorded date`);
+        assert.deepEqual(tiles.map(tile => tile['data-cell-date']), calendar.cells.map(cell => cell.date));
+        assert.ok(!tiles.some(tile => tile['data-cell-date'] === missing));
+        for (const [index, cell] of calendar.cells.entries()) {
+          const tile = tiles[index];
+          assert.equal(Number(tile['data-column']), cell.column);
+          assert.equal(Number(tile['data-row']), cell.row);
+          assert.equal(Number(tile['data-count']), cell.count);
+          assert.equal(tile.fill, THEMES[theme].empty);
+          assertDateGeometry(tile, cell, calendar.columns);
+        }
+        const activeMarks = markedElements(svg, 'rect', 'data-activity-date');
+        assert.equal(activeMarks.length, calendar.cells.filter(cell => cell.count > 0).length * (animated ? 2 : 1));
+        for (const mark of activeMarks) {
+          const cell = calendar.cells.find(item => item.date === mark['data-activity-date']);
+          assert.ok(cell && cell.count > 0);
+          assertDateGeometry(mark, cell, calendar.columns);
+          assert.equal(mark.fill, THEMES[theme].colors[cell.level]);
+        }
+        assert.match(svg, new RegExp(`data-world-ribbon="${scene.id}" clip-path="url\\(#${scene.id}-ribbon-`));
+        assert.match(svg, /<clipPath[^>]*><rect x="48" y="270" width="1024" height="90"\/>/);
+      }
+    }
+  }
+  assert.deepEqual(calendar, original);
+});
+
+test('garden plant actors remain anchored to exact original day centers and never occupy zero or missing days', () => {
+  const calendar = fixture([0, 16, 1, 9, 0, 3, 0, 5, 0, 2]);
+  calendar.cells.splice(3, 1);
+  const svg = worldsScenes[0].build(calendar).render('dark', false);
+  const plants = markedElements(svg, 'g', 'data-plant-date');
+  assert.equal(plants.length, calendar.cells.filter(cell => cell.count > 0).length);
+  for (const plant of plants) {
+    const cell = calendar.cells.find(item => item.date === plant['data-plant-date']);
+    assert.ok(cell && cell.count > 0);
+    assert.equal(Number(plant['data-count']), cell.count);
+    const [x, y] = plant.transform.match(/[\d.]+/g).map(Number);
+    assert.ok(Math.abs(x - (48 + (cell.column + 0.5) * 1024 / calendar.columns)) <= 0.001);
+    assert.equal(y, 114 + cell.row * 19 + 7.25);
+  }
+});
+
+test('world builders and all theme/static renders accept immutable calendars and real context without mutation', () => {
+  const calendar = fixture([0, 8, 1, 0, 13, 2, 0, 4, 0, 3, 0, 9, 0, 1]);
+  const context = structuredClone(publicContext);
+  const originalCalendar = structuredClone(calendar);
+  const originalContext = structuredClone(context);
+  const freeze = value => {
+    if (value && typeof value === 'object') {
+      for (const child of Object.values(value)) freeze(child);
+      Object.freeze(value);
+    }
+    return value;
+  };
+  freeze(calendar); freeze(context);
+  for (const scene of worldsScenes) {
+    const film = scene.build(calendar, context);
+    for (const theme of ['dark', 'light']) for (const animated of [false, true]) assert.ok(film.render(theme, animated).length > 0);
+  }
+  assert.deepEqual(calendar, originalCalendar);
+  assert.deepEqual(context, originalContext);
+});
 
 test('world definitions are four independent numbered worlds', () => {
   assert.deepEqual(worldsScenes.map(scene => [scene.id, scene.number, scene.category]), [
