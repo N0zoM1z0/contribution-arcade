@@ -1,15 +1,15 @@
 import type { Calendar, Cell } from '../calendar.js';
 import type { SceneDefinition, SceneEvent } from './types.js';
-import { film, grid, center, THEMES, n, text, visible, motion, weeks, colors } from './kit.js';
+import { film, calendarActivity, center, THEMES, n, text, visible, motion, weeks, colors } from './kit.js';
 
 const pointKey = (x: number, y: number): string => `${x},${y}`;
 /** Finite, non-wrapping Conway B3/S23. No decorative or spontaneous births. */
-export function nextGeneration(alive: Set<string>, width: number, height: number): Set<string> {
+export function nextGeneration(alive: Set<string>, width: number, height: number, mask?: Set<string>): Set<string> {
   const neighbors = new Map<string, number>();
   for (const key of alive) {
     const [x, y] = key.split(',').map(Number);
     for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) {
-      if ((!dx && !dy) || x + dx < 0 || x + dx >= width || y + dy < 0 || y + dy >= height) continue;
+      if ((!dx && !dy) || x + dx < 0 || x + dx >= width || y + dy < 0 || y + dy >= height || mask && !mask.has(pointKey(x + dx, y + dy))) continue;
       const neighbor = pointKey(x + dx, y + dy);
       neighbors.set(neighbor, (neighbors.get(neighbor) || 0) + 1);
     }
@@ -17,13 +17,14 @@ export function nextGeneration(alive: Set<string>, width: number, height: number
   return new Set([...neighbors].filter(([key, count]) => count === 3 || count === 2 && alive.has(key)).map(([key]) => key));
 }
 export function buildLifeModel(calendar: Calendar) {
-  let alive = new Set(calendar.cells.filter(cell => cell.count > 0).map(cell => pointKey(cell.column, cell.row + 2)));
+  let alive = new Set(calendar.cells.filter(cell => cell.count > 0).map(cell => pointKey(cell.column, cell.row)));
+  const mask = new Set(calendar.cells.map(cell => pointKey(cell.column, cell.row)));
   const generations = [{ time: 1.8, alive: [...alive] }];
   for (let index = 1; index <= 44; index++) {
-    alive = nextGeneration(alive, calendar.columns, 11);
+    alive = nextGeneration(alive, calendar.columns, 7, mask);
     generations.push({ time: 1.8 + index * 0.58, alive: [...alive] });
   }
-  return { width: calendar.columns, height: 11, generations, duration: 30.5 };
+  return { width: calendar.columns, height: 7, generations, duration: 30.5 };
 }
 const life: SceneDefinition = {
   id: 'life', number: '11', title: 'Game of Life', caption: 'A year becomes a living pattern.', category: 'Patterns',
@@ -32,17 +33,16 @@ const life: SceneDefinition = {
     const model = buildLifeModel(calendar);
     return film(calendar, life, { duration: model.duration,
       events: model.generations.map((generation, index) => ({ time: generation.time, type: 'generation', value: generation.alive.length, data: { generation: index, alive: generation.alive } })),
-      metrics: { generations: 44, seedCells: calendar.activeDays, finalPopulation: model.generations.at(-1)!.alive.length, topology: 'finite B3/S23' },
+      metrics: { generations: 44, seedCells: calendar.activeDays, finalPopulation: model.generations.at(-1)!.alive.length, topology: 'finite B3/S23 on actual dates' },
       checkpoints: [1.8, 8.76, 17.46],
       draw(theme, animated) {
         const p = THEMES[theme], pitch = 1024 / model.width, size = Math.min(14.5, pitch - 3);
         const cell = (key: string, fill: string) => {
           const [column, row] = key.split(',').map(Number);
-          return `<rect x="${n(48 + (column + .5) * pitch - size / 2)}" y="${114 + row * 19}" width="${n(size)}" height="${n(size)}" rx="3" fill="${fill}"/>`;
+          return `<rect x="${n(48 + (column + .5) * pitch - size / 2)}" y="${n(114 + row * 19 + 7.25 - size / 2)}" width="${n(size)}" height="${n(size)}" rx="3" fill="${fill}"/>`;
         };
-        const board = Array.from({ length: model.width * model.height }, (_, index) => cell(pointKey(index % model.width, Math.floor(index / model.width)), p.empty)).join('');
         const frames = (animated ? model.generations : [model.generations[0]]).map((generation, index) => `<g data-generation="${index}">${animated ? visible(index ? generation.time : 0, model.generations[index + 1]?.time || model.duration, model.duration) : ''}${generation.alive.map(key => cell(key, p.secondary)).join('')}${text(1072, 356, `GEN ${String(index).padStart(2, '0')} · ${generation.alive.length} ALIVE`, p.muted, 10, 'text-anchor="end" class="mono"')}</g>`).join('');
-        return board + frames + text(48, 356, 'B3 / S23 · FINITE WORLD', p.muted, 10, 'class="mono"');
+        return frames + text(48, 356, 'B3 / S23 · FINITE WORLD', p.muted, 10, 'class="mono"');
       },
     });
   },
@@ -95,7 +95,7 @@ const ants: SceneDefinition = {
         let stored = 0;
         const arrivals = [...model.trips].sort((a, b) => a.deposit - b.deposit);
         const store = [{ time: 0, total: 0 }, ...arrivals.map(trip => ({ time: trip.deposit, total: stored += trip.cell.count }))];
-        return grid(calendar, theme, .45) + deposits + `<path d="M48 285H1072" stroke="${p.line}" stroke-dasharray="2 7"/><ellipse cx="560" cy="334" rx="38" ry="12" fill="${p.empty}"/><path d="M538 330q22 -35 44 0" stroke="${p.secondary}" stroke-width="2" fill="none"/>` + workers + text(560, 358, 'THE COMMON STORE', p.muted, 9, 'text-anchor="middle" class="mono"') + (animated ? store : store.slice(0, 1)).map((state, index) => `<g data-ant-store="${state.total}">${animated ? visible(state.time, store[index + 1]?.time || duration, duration) : ''}${text(1072, 356, `${state.total.toLocaleString('en-US')} RESOURCES HOME`, p.secondary, 10, 'text-anchor="end" class="mono"')}</g>`).join('');
+        return deposits + `<path d="M48 285H1072" stroke="${p.line}" stroke-dasharray="2 7"/><ellipse cx="560" cy="334" rx="38" ry="12" fill="${p.empty}"/><path d="M538 330q22 -35 44 0" stroke="${p.secondary}" stroke-width="2" fill="none"/>` + workers + text(560, 358, 'THE COMMON STORE', p.muted, 9, 'text-anchor="middle" class="mono"') + (animated ? store : store.slice(0, 1)).map((state, index) => `<g data-ant-store="${state.total}">${animated ? visible(state.time, store[index + 1]?.time || duration, duration) : ''}${text(1072, 356, `${state.total.toLocaleString('en-US')} RESOURCES HOME`, p.secondary, 10, 'text-anchor="end" class="mono"')}</g>`).join('');
       },
     });
   },
@@ -126,17 +126,17 @@ const weather: SceneDefinition = {
       checkpoints: [2, 1.8 + (model.states.findIndex(state => state.count > 0) + .5) * .72, duration - 3],
       draw(theme, animated) {
         const p = THEMES[theme], palette = colors(theme);
-        const terrain = `<path d="M48 294q165 -90 312 -10t298 -8t414 10v46H48Z" fill="${p.empty}"/><path d="M48 318q235 -58 435 -15t589 0" fill="none" stroke="${p.secondary}" stroke-width="1.5"/>`;
+        const terrain = `<path d="M48 332q165 -26 312 -4t298 -5t414 6v19H48Z" fill="${p.empty}"/><path d="M48 342q235 -15 435 -4t589 0" fill="none" stroke="${p.secondary}" stroke-width="1.5"/>`;
         const weekly = model.states.map(state => `<rect x="${n(48 + state.column * 1024 / calendar.columns)}" y="${n(351 - 16 * state.count / Math.max(1, model.peak))}" width="${n(Math.max(1, 1024 / calendar.columns - 3))}" height="${n(2 + 16 * state.count / Math.max(1, model.peak))}" rx="1" fill="${p.colors[state.count ? 3 : 0]}"/>`).join('');
         const chosen = animated ? model.states : [model.states.find(state => state.count === model.peak)!];
         const skies = chosen.map((state, index) => {
-          const cloud = `<path d="M235 210c-35 0-38-45-8-51 5-36 59-43 72-10 38-15 68 14 52 42 38 0 37 28 7 28H235Z" fill="${p.secondary}" opacity="${state.sky === 'sunny' ? '.4' : '.9'}"/>`;
-          const rain = state.sky === 'rain' ? Array.from({ length: 13 }, (_, drop) => `<path d="M${243 + drop * 8} ${227 + drop % 3 * 8}l-4 11" stroke="${palette[2]}" stroke-width="2" opacity=".7">${animated ? `<animateTransform attributeName="transform" type="translate" values="0 -9;-5 23" dur=".72s" repeatCount="indefinite"/>` : ''}</path>`).join('') : '';
-          const sun = state.sky !== 'rain' ? `<g transform="translate(825 180)"><circle r="32" fill="${p.accent}"/>${Array.from({ length: 12 }, (_, ray) => `<path d="M0 -42v-9" transform="rotate(${ray * 30})" stroke="${p.accent}" stroke-width="2" stroke-linecap="round"/>`).join('')}</g>` : '';
-          const confetti = state.record ? Array.from({ length: 12 }, (_, bit) => `<rect x="${625 + bit * 16}" y="${137 + bit % 4 * 14}" width="3" height="6" rx="1" fill="${palette[bit % palette.length]}" transform="rotate(${bit * 17} ${625 + bit * 16} ${137 + bit % 4 * 14})"/>`).join('') : '';
-          return `<g data-weather="${state.sky}" data-week="${state.column}">${animated ? visible(index ? state.time : 0, model.states[index + 1]?.time || duration, duration) : ''}${sun}${cloud}${rain}${confetti}${text(48, 136, `WEEK ${String(state.column + 1).padStart(2, '0')} / ${state.sky.toUpperCase()}`, p.muted, 10, 'class="mono"')}${text(48, 161, `${state.count.toLocaleString('en-US')} contributions`, p.ink, 20)}${text(1072, 356, state.record ? 'A NEW WEEKLY HIGH' : `${state.active} ACTIVE DAYS`, p.muted, 10, 'text-anchor="end" class="mono"')}</g>`;
+          const cloud = `<path d="M235 210c-35 0-38-45-8-51 5-36 59-43 72-10 38-15 68 14 52 42 38 0 37 28 7 28H235Z" transform="translate(390 186) scale(.55)" fill="${p.secondary}" opacity="${state.sky === 'sunny' ? '.4' : '.9'}"/>`;
+          const rain = state.sky === 'rain' ? Array.from({ length: 13 }, (_, drop) => `<path d="M${524 + drop * 5} ${307 + drop % 3 * 4}l-2 6" stroke="${palette[2]}" stroke-width="2" opacity=".7">${animated ? `<animateTransform attributeName="transform" type="translate" values="0 -4;-3 12" dur=".72s" repeatCount="indefinite"/>` : ''}</path>`).join('') : '';
+          const sun = state.sky !== 'rain' ? `<g transform="translate(906 292) scale(.55)"><circle r="32" fill="${p.accent}"/>${Array.from({ length: 12 }, (_, ray) => `<path d="M0 -42v-9" transform="rotate(${ray * 30})" stroke="${p.accent}" stroke-width="2" stroke-linecap="round"/>`).join('')}</g>` : '';
+          const confetti = state.record ? Array.from({ length: 12 }, (_, bit) => `<rect x="${805 + bit * 8}" y="${264 + bit % 4 * 7}" width="3" height="6" rx="1" fill="${palette[bit % palette.length]}" transform="rotate(${bit * 17} ${805 + bit * 8} ${264 + bit % 4 * 7})"/>`).join('') : '';
+          return `<g data-weather="${state.sky}" data-week="${state.column}">${animated ? visible(index ? state.time : 0, model.states[index + 1]?.time || duration, duration) : ''}${sun}${cloud}${rain}${confetti}${text(48, 282, `WEEK ${String(state.column + 1).padStart(2, '0')} / ${state.sky.toUpperCase()}`, p.muted, 10, 'class="mono"')}${text(48, 307, `${state.count.toLocaleString('en-US')} contribution${state.count === 1 ? '' : 's'}`, p.ink, 18)}${text(1072, 282, state.record ? 'A NEW WEEKLY HIGH' : `${state.active} ACTIVE DAYS`, p.muted, 10, 'text-anchor="end" class="mono"')}</g>`;
         }).join('');
-        return terrain + skies + weekly;
+        return calendarActivity(calendar, theme) + terrain + skies + weekly;
       },
     });
   },
@@ -145,12 +145,12 @@ const weather: SceneDefinition = {
 export function buildMusicModel(calendar: Calendar) {
   const bars = weeks(calendar);
   const max = Math.max(1, ...bars.map(week => week.count));
-  const beats = bars.map((week, index) => ({ ...week, time: 1.8 + index * .58, pitch: week.count ? Math.min(7, Math.floor(Math.log2(week.count + 1))) : 0, strength: Math.sqrt(week.count / max), notes: week.cells.filter(cell => cell.count > 0).sort((a, b) => a.count - b.count) }));
+  const beats = bars.map((week, index) => ({ ...week, time: 1.8 + index * .58, pitch: week.count ? Math.min(7, Math.floor(Math.log2(week.count + 1))) : 0, strength: Math.sqrt(week.count / max), notes: week.cells.filter(cell => cell.count > 0) }));
   return { beats, duration: Math.max(12, 1.8 + bars.length * .58 + 2.5) };
 }
 const music: SceneDefinition = {
   id: 'music', number: '15', title: 'Year in Rhythm', caption: 'A quiet score, written by your year.', category: 'Patterns',
-  description: 'Weeks become beats. Actual contribution totals set each note height and pulse; active days add smaller notes from low to high. This visual score is silent.',
+  description: 'Weeks become beats. Actual contribution totals set each note height and pulse; active days retain their date order in each beat. This visual score is silent.',
   build(calendar) {
     const model = buildMusicModel(calendar), duration = model.duration;
     return film(calendar, music, { duration,
@@ -159,16 +159,16 @@ const music: SceneDefinition = {
       checkpoints: [2, duration / 2, duration - 3],
       draw(theme, animated) {
         const p = THEMES[theme], pitch = 1024 / calendar.columns;
-        const staff = [0, 1, 2, 3, 4].map(line => `<path d="M48 ${160 + line * 22}H1072" stroke="${p.line}"/>`).join('');
+        const staff = [0, 1, 2, 3, 4].map(line => `<path d="M48 ${278 + line * 11}H1072" stroke="${p.line}"/>`).join('');
         const notes = model.beats.map(beat => {
-          const x = 48 + (beat.column + .5) * pitch, y = 248 - beat.pitch * 13;
-          const symbol = beat.count ? `<ellipse cx="${n(x)}" cy="${n(y)}" rx="${n(Math.min(6.5, pitch * .34))}" ry="4" transform="rotate(-20 ${n(x)} ${n(y)})" fill="${p.secondary}"/><path d="M${n(x + Math.min(6, pitch * .3))} ${n(y)}v-29" stroke="${p.secondary}" stroke-width="1.5"/>` : `<path d="M${n(x - 2)} 202h4v8h-4Z" fill="${p.muted}"/>`;
-          const stem = `<rect x="${n(x - pitch * .28)}" y="${n(328 - beat.strength * 47)}" width="${n(Math.max(2, pitch * .56))}" height="${n(2 + beat.strength * 47)}" rx="2" fill="${p.colors[beat.count ? 2 : 0]}"/>`;
-          const littleNotes = beat.notes.map((cell, index) => `<circle cx="${n(x - 5 + index * 1.7)}" cy="${n(346 - Math.min(12, Math.log2(cell.count + 1) * 1.2))}" r="1.2" fill="${p.accent}"/>`).join('');
+          const x = 48 + (beat.column + .5) * pitch, y = 322 - beat.pitch * 7;
+          const symbol = beat.count ? `<ellipse cx="${n(x)}" cy="${n(y)}" rx="${n(Math.min(6.5, pitch * .34))}" ry="4" transform="rotate(-20 ${n(x)} ${n(y)})" fill="${p.secondary}"/><path d="M${n(x + Math.min(6, pitch * .3))} ${n(y)}v-19" stroke="${p.secondary}" stroke-width="1.5"/>` : `<path d="M${n(x - 2)} 291h4v8h-4Z" fill="${p.muted}"/>`;
+          const stem = `<rect x="${n(x - pitch * .28)}" y="${n(344 - beat.strength * 12)}" width="${n(Math.max(2, pitch * .56))}" height="${n(2 + beat.strength * 12)}" rx="2" fill="${p.colors[beat.count ? 2 : 0]}"/>`;
+          const littleNotes = beat.notes.map((cell, index) => `<circle cx="${n(x - 5 + index * 1.7)}" cy="${n(357 - Math.min(6, Math.log2(cell.count + 1) * .6))}" r="1.2" fill="${p.accent}"/>`).join('');
           return `<g data-music-week="${beat.column}">${symbol}${stem}${littleNotes}${animated && beat.count ? `<g>${visible(beat.time, beat.time + .45, duration)}<circle cx="${n(x)}" cy="${n(y)}" r="12" fill="none" stroke="${p.accent}" stroke-width="1.5"/></g>` : ''}</g>`;
         }).join('');
-        const playhead = `<g class="music-playhead" transform="translate(48 0)">${animated ? motion(model.beats.map(beat => ({ time: beat.time, x: 48 + (beat.column + .5) * pitch, y: 0 })), duration) : ''}<path d="M0 131v222" stroke="${p.accent}" opacity=".6"/><circle cy="130" r="3" fill="${p.accent}"/></g>`;
-        return staff + notes + playhead + text(48, 120, 'ONE WEEK / ONE BEAT', p.muted, 10, 'class="mono"') + text(1072, 120, 'A SILENT SCORE', p.muted, 10, 'text-anchor="end" class="mono"');
+        const playhead = `<g class="music-playhead" transform="translate(48 0)">${animated ? motion(model.beats.map(beat => ({ time: beat.time, x: 48 + (beat.column + .5) * pitch, y: 0 })), duration) : ''}<path d="M0 113v245" stroke="${p.accent}" opacity=".6"/><circle cy="112" r="3" fill="${p.accent}"/></g>`;
+        return calendarActivity(calendar, theme) + staff + notes + playhead + text(48, 267, 'ONE WEEK / ONE BEAT', p.muted, 10, 'class="mono"') + text(1072, 267, 'A SILENT SCORE', p.muted, 10, 'text-anchor="end" class="mono"');
       },
     });
   },

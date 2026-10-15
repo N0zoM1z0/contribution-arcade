@@ -9,6 +9,25 @@ export type { Theme };
 export function center(calendar: Calendar, cell: Pick<Cell, 'column' | 'row'>): { x: number; y: number } {
   return { x: BOARD.left + (cell.column + 0.5) * BOARD.gridWidth / calendar.columns, y: BOARD.gridY + cell.row * 19 + 7.25 };
 }
+/** One permanent tile for each actual input day, including zero-count days.
+ * Missing dates stay absent. Scene actors and effects may overlay these tiles,
+ * but no producer may create a different calendar mesh or repack its dates.
+ */
+export function calendarGrid(calendar: Calendar, theme: Theme): string {
+  const palette = THEMES[theme], size = Math.min(14.5, BOARD.gridWidth / calendar.columns - 3);
+  return `<g data-calendar-grid="true">${calendar.cells.map(cell => {
+    const point = center(calendar, cell);
+    return `<rect data-cell-date="${cell.date}" data-column="${cell.column}" data-row="${cell.row}" data-count="${cell.count}" x="${n(point.x - size / 2)}" y="${n(point.y - size / 2)}" width="${n(size)}" height="${n(size)}" rx="3" fill="${palette.empty}"/>`;
+  }).join('')}</g>`;
+}
+/** Color the real day tiles without adding another board mesh. */
+export function calendarActivity(calendar: Calendar, theme: Theme, opacity = 1): string {
+  const palette = THEMES[theme], size = Math.min(14.5, BOARD.gridWidth / calendar.columns - 3);
+  return `<g opacity="${opacity}">${calendar.cells.filter(cell => cell.count > 0).map(cell => {
+    const point = center(calendar, cell);
+    return `<rect data-activity-date="${cell.date}" x="${n(point.x - size / 2)}" y="${n(point.y - size / 2)}" width="${n(size)}" height="${n(size)}" rx="3" fill="${palette.colors[cell.level]}"/>`;
+  }).join('')}</g>`;
+}
 export function grid(calendar: Calendar, theme: Theme, opacity = 1): string {
   const palette = THEMES[theme];
   const size = Math.min(14.5, BOARD.gridWidth / calendar.columns - 3);
@@ -71,7 +90,7 @@ export function film(calendar: Calendar, definition: Pick<SceneDefinition, 'id' 
       label: `${definition.number} / ${definition.title.toUpperCase()}`, scene: definition.id,
       duration: options.duration, description: definition.description,
       attributes: { active: calendar.activeDays, events: events.length },
-      content: animated ? `<g class="reduced">${options.draw(theme, false)}</g><g class="animated">${options.draw(theme, true)}</g>` : options.draw(theme, false),
+      content: calendarGrid(calendar, theme) + (animated ? `<g class="reduced">${options.draw(theme, false)}</g><g class="animated">${options.draw(theme, true)}</g>` : options.draw(theme, false)),
       footer: options.footer?.(theme, animated) || '',
     }),
   };

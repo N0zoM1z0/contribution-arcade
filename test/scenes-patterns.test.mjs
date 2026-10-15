@@ -20,6 +20,22 @@ test('Conway rules preserve blocks, alternate blinkers, and keep empty worlds em
   assert.ok(buildLifeModel(empty).generations.every(generation => !generation.alive.length));
 });
 
+test('Life uses exactly the original day coordinates and never births into an absent date', () => {
+  const cells = [
+    { date: '2026-01-04', column: 0, row: 0, count: 1, level: 1 },
+    { date: '2026-01-05', column: 0, row: 1, count: 1, level: 1 },
+    { date: '2026-01-11', column: 1, row: 0, count: 1, level: 1 },
+  ];
+  const calendar = { ...real, columns: 2, cells, activeDays: 3, total: 3 };
+  const before = structuredClone(calendar), model = buildLifeModel(calendar);
+  assert.deepEqual(calendar, before);
+  assert.equal(model.width, 2); assert.equal(model.height, 7);
+  assert.deepEqual(model.generations[0].alive, ['0,0', '0,1', '1,0']);
+  const available = new Set(cells.map(cell => `${cell.column},${cell.row}`));
+  assert.ok(model.generations.every(generation => generation.alive.every(key => available.has(key))));
+  assert.ok(!model.generations[1].alive.includes('1,1'), 'a missing date cannot become a synthetic tile');
+});
+
 test('ants collect each real deposit once, smallest first, and return before their next trip', () => {
   const model = buildAntModel(real);
   assert.equal(model.trips.length, real.activeDays);

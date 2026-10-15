@@ -1,15 +1,16 @@
 import type { Calendar } from './calendar.js';
 import type { GridPoint, SnakeScene } from './snake.js';
+import { calendarGrid } from './scenes/kit.js';
 import { BOARD } from './layout.js';
 import { THEMES, discrete, motion, n, renderCard, type Theme } from './card.js';
 
 export function renderSnakeSVG(calendar: Calendar, scene: SnakeScene, theme: Theme, animated = true): string {
   const palette = THEMES[theme];
   const { duration } = scene;
-  const pitch = BOARD.gridWidth / scene.columns;
+  const pitch = BOARD.gridWidth / calendar.columns;
   const size = Math.min(14.5, pitch - 3);
   const pixel = (point: GridPoint) => ({
-    x: BOARD.left + (point.column + 0.5) * pitch,
+    x: point.column < calendar.columns ? BOARD.left + (point.column + 0.5) * pitch : BOARD.right + 7 * (point.column - calendar.columns + .5),
     y: BOARD.gridY + point.row * 19 + size / 2,
   });
   const square = (point: GridPoint, color: string) => {
@@ -90,7 +91,7 @@ export function renderSnakeSVG(calendar: Calendar, scene: SnakeScene, theme: The
       { time: duration, value: index === 0 ? '1' : '0' },
     ], duration)}<text x="48" y="350" fill="${palette.muted}" font-size="10" class="mono">NEXT · ${count} CONTRIBUTION${count === 1 ? '' : 'S'}</text></g>`;
   }).join('');
-  const content = `${calendar.cells.map(cell => square(cell, palette.empty)).join('')}
+  const content = `${calendarGrid(calendar, theme)}
     <g class="${animated ? 'reduced' : 'static'}">${foods(false)}${staticSnake}</g>
     ${animated ? `<g class="animated">${foods(true)}${movingSnake}${tierLabels}
       <rect x="48" y="376" width="0" height="2" rx="1" fill="${palette.secondary}" opacity="0.7">${discrete('width', [

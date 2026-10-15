@@ -1,6 +1,7 @@
 import type { Calendar } from './calendar.js';
 import { BOARD, type Scene, type Brick } from './breakout.js';
 import { THEMES, n, discrete, motion, renderCard, type Theme } from './card.js';
+import { calendarGrid } from './scenes/kit.js';
 export { escapeXML, type Theme } from './card.js';
 const fraction = (time: number, duration: number): string => n(Math.min(1, Math.max(0, time / duration)));
 
@@ -91,7 +92,7 @@ export function renderSVG(calendar: Calendar, scene: Scene, theme: Theme, animat
     label: '01 / BREAKOUT', scene: 'breakout', duration,
     description: 'An automatically played breakout animation. Stronger contribution levels take more hits. A long streak unlocks multiball. The original calendar returns each loop.',
     attributes: { cleared: scene.cleared, active: activeDays },
-    content: `${scene.bricks.map(brick => cellRect(brick, palette.empty)).join('')}${staticScene}${film}${status}`,
+    content: `${calendarGrid(calendar, theme)}${staticScene}${film}${status}`,
     footer: phaseMarkup,
   });
 }
