@@ -174,7 +174,10 @@ try {
     if (breakout.activeDays) assert.ok(frames.some(frame => !frame.equals(frames[0])), `${scene.title}: expected a visible state transition.`);
     for (const theme of ['dark', 'light']) {
       await board.goto(`${base}/generated/${scene.id}-${theme}.svg`);
-      const poster = scene.id === 'snake' ? snake.playEnd + .2
+      const molePops = scene.id === 'whack-a-mole' ? summary.events.filter(event => event.type === 'mole-pop') : [];
+      const visibleMole = molePops[Math.floor(molePops.length * .55)];
+      const poster = visibleMole ? visibleMole.time + Math.min(.12, (visibleMole.data.expires - visibleMole.time) * .25)
+        : scene.id === 'snake' ? snake.playEnd + .2
         : scene.category === 'Worlds' || scene.id === 'weather' ? checkpoints.at(-1)
         : scene.id === 'ants' ? scene.duration * .55
         : scene.id === 'tetris' ? scene.duration * .72 : checkpoints[1];
