@@ -202,6 +202,37 @@ test('civilization accounts for every contribution and observed inactive runs we
   assert.equal(buildCivilizationModel(fixture(Array(40).fill(0))).weathering, 0);
 });
 
+test('civilization launches only after reaching Space and finishing the original calendar timeline', () => {
+  for (const counts of [[0], [1], [2199]]) {
+    const model = buildCivilizationModel(fixture(counts));
+    assert.equal(model.launch, undefined);
+    assert.equal(model.duration, 32);
+    assert.ok(!model.events.some(event => event.type.startsWith('rocket-')));
+    assert.ok(!worldsScenes[2].build(fixture(counts)).render('dark').includes('data-actor="civilization-rocket"'));
+  }
+  for (const counts of [[2200], [2199, 0, 1], [2200, 0, 0, 100]]) {
+    const calendar = fixture(counts), model = buildCivilizationModel(calendar), launch = model.launch;
+    assert.ok(launch);
+    assert.ok(launch.ignition > model.snapshots.at(-1).time);
+    assert.ok(launch.ignition > model.eras.at(-1).time);
+    assert.ok(launch.ignition < launch.liftoff && launch.liftoff < launch.escape && launch.escape < model.duration);
+    assert.equal(model.historyDuration, 32, 'adding a finale must not stretch the date history');
+    assert.equal(model.snapshots.at(-1).time, counts.length > 1 ? 29 : 1.4);
+    assert.equal(model.accumulated, counts.reduce((a, b) => a + b, 0), 'the launch invents no resources');
+    assert.deepEqual(model.events.filter(event => event.type.startsWith('rocket-')).map(event => event.type), ['rocket-ignition', 'rocket-liftoff', 'rocket-escape']);
+    assert.ok(model.events.filter(event => event.type.startsWith('rocket-')).every(event => event.date === calendar.cells.at(-1).date));
+    const flight = launch.points.slice(1), distances = flight.slice(1).map((point, index) => flight[index].y - point.y);
+    assert.ok(flight.every((point, index) => !index || point.time > flight[index - 1].time && point.x === flight[index - 1].x && point.y < flight[index - 1].y));
+    assert.ok(distances.every((distance, index) => !index || distance > distances[index - 1]), 'liftoff accelerates upwards');
+    assert.ok(flight.at(-1).y + 30 < 0, 'the entire rocket and exhaust leave the card');
+    for (const theme of ['dark', 'light']) {
+      const still = worldsScenes[2].build(calendar).render(theme, false);
+      assert.ok(still.includes('data-actor="civilization-rocket"'));
+      assert.ok(!still.includes('data-rocket-flame') && !still.includes('<animate'), 'the still keeps an unlit rocket parked');
+    }
+  }
+});
+
 test('missing dates break inactivity observations and cannot invent weathering', () => {
   const calendar = fixture([10, 0, 0, 0, 0]);
   calendar.cells.splice(3, 1);

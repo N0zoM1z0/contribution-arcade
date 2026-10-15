@@ -111,9 +111,9 @@ function ribbon(id: string, body: string, animated: boolean): string {
 }
 
 /** The moving outline visits real dates; it never substitutes for a day tile. */
-function dateCursor(calendar: Calendar, theme: Theme, duration: number, animated: boolean): string {
+function dateCursor(calendar: Calendar, theme: Theme, duration: number, animated: boolean, historyDuration = duration): string {
   if (!animated || !calendar.cells.length) return '';
-  const points = calendar.cells.map((cell, index) => ({ time: timeFor(index, calendar.cells.length, duration), ...center(calendar, cell) }));
+  const points = calendar.cells.map((cell, index) => ({ time: timeFor(index, calendar.cells.length, historyDuration), ...center(calendar, cell) }));
   const size = Math.min(14.5, 1024 / calendar.columns - 3) + 3;
   return `<g class="world-date-cursor" pointer-events="none">${motion(points, duration)}<rect x="${n(-size / 2)}" y="${n(-size / 2)}" width="${n(size)}" height="${n(size)}" rx="4" fill="none" stroke="${THEMES[theme].accent}" stroke-width="1.2"/></g>`;
 }
@@ -253,18 +253,25 @@ export interface CivilizationSnapshot {
 
 export interface CivilizationModel {
   duration: number;
+  historyDuration: number;
   snapshots: CivilizationSnapshot[];
   eras: { era: number; time: number; date?: string; accumulated: number }[];
   accumulated: number;
   era: number;
   weathering: number;
   maximumWeathering: number;
+  launch?: {
+    ignition: number;
+    liftoff: number;
+    escape: number;
+    points: { time: number; x: number; y: number }[];
+  };
   events: SceneEvent[];
 }
 
 /** Fixed thresholds preserve the difference between a sparse and a prolific year. */
 export function buildCivilizationModel(calendar: Calendar): CivilizationModel {
-  const duration = 32;
+  const historyDuration = 32;
   let accumulated = 0;
   let era = 0;
   let idleDays = 0;
@@ -273,7 +280,7 @@ export function buildCivilizationModel(calendar: Calendar): CivilizationModel {
   const eras: CivilizationModel['eras'] = [{ era: 0, time: 0, accumulated: 0 }];
   const events: SceneEvent[] = [];
   const snapshots = calendar.cells.map((cell, index): CivilizationSnapshot => {
-    const time = timeFor(index, calendar.cells.length, duration);
+    const time = timeFor(index, calendar.cells.length, historyDuration);
     const stamp = Date.parse(`${cell.date}T00:00:00Z`);
     // Missing calendar dates break an observed run; they are not treated as zero days.
     if (stamp - previousDate !== DAY) idleDays = 0;
@@ -294,7 +301,23 @@ export function buildCivilizationModel(calendar: Calendar): CivilizationModel {
     previousDate = stamp;
     return { date: cell.date, time, count: cell.count, accumulated, era, idleDays, weathering };
   });
-  return { duration, snapshots, eras, accumulated, era, weathering, maximumWeathering: Math.max(0, ...snapshots.map(snapshot => snapshot.weathering)), events: events.sort((a, b) => a.time - b.time) };
+  // Reserve a finale after every date has contributed, even if Space was reached early.
+  const ignition = historyDuration - 2, liftoff = ignition + 1.4, escape = liftoff + 4.4;
+  const launch = era === CIVILIZATION_ERAS.length - 1 ? {
+    ignition, liftoff, escape,
+    points: [{ time: 0, x: 861.4, y: 336.64 }, ...Array.from({ length: 17 }, (_, index) => {
+      const progress = index / 16;
+      return { time: liftoff + progress * (escape - liftoff), x: 861.4, y: 336.64 - 420 * progress ** 2 };
+    })],
+  } : undefined;
+  const duration = launch ? launch.escape + 1.7 : historyDuration;
+  if (launch) {
+    const date = snapshots.at(-1)!.date;
+    for (const [type, time] of [['rocket-ignition', launch.ignition], ['rocket-liftoff', launch.liftoff], ['rocket-escape', launch.escape]] as const) {
+      events.push({ type, time, date, value: accumulated, data: { threshold: CIVILIZATION_ERAS.at(-1)!.threshold } });
+    }
+  }
+  return { duration, historyDuration, snapshots, eras, accumulated, era, weathering, maximumWeathering: Math.max(0, ...snapshots.map(snapshot => snapshot.weathering)), launch, events: events.sort((a, b) => a.time - b.time) };
 }
 
 function house(x: number, y: number, width: number, height: number, theme: Theme, variant = 0): string {
@@ -314,8 +337,18 @@ function civilizationEra(era: number, theme: Theme, animated: boolean, model: Ci
   const farms = `<g stroke="${p.colors[2]}" stroke-width="3"><path d="M270 297l56-13m-49 20 56-13m-46 20 56-13"/></g><path d="M650 310H343" stroke="${p.accent}" stroke-width="5" opacity="0.2"/>`;
   const mill = era >= 3 ? `<g class="civilization-windmill"><path d="M300 307l8-63h13l8 63Z" fill="${p.colors[2]}"/><circle cx="314" cy="251" r="4" fill="${p.accent}"/><g>${animated ? `<animateTransform attributeName="transform" type="rotate" from="0 314 251" to="360 314 251" dur="8s" repeatCount="indefinite"/>` : ''}<path d="M314 251l-22-19 5-5 17 24 22-19 5 5-27 14 22 19-5 5-17-24-22 19-5-5Z" fill="${p.secondary}"/></g></g>` : '';
   const industry = era >= 5 ? `<g class="civilization-factory"><path d="M639 307v-55l22-14v14l22-14v14l22-14v69Z" fill="${p.colors[2]}"/><path d="M694 252v-56h12v111" fill="${p.colors[3]}"/><path d="M649 270h10v9h-10m25-9h10v9h-10" fill="${p.accent}"/><g fill="${p.muted}" opacity="0.23"><circle cx="702" cy="186" r="9"/><circle cx="713" cy="171" r="13"/><circle cx="733" cy="157" r="17"/>${animated ? tween('opacity', [{ time: 0, value: 0.13 }, { time: model.duration / 2, value: 0.35 }, { time: model.duration, value: 0.13 }], model.duration) : ''}</g></g>` : '';
-  const space = era >= 6 ? `<g class="civilization-spaceport"><path d="M825 307h113" stroke="${p.secondary}" stroke-width="3"/><path d="M830 307v-70h22m-22 15h22m-22 18h22m-22 18h22" fill="none" stroke="${p.muted}" stroke-width="2"/><g>${animated ? motion([{ time: 0, x: 0, y: 0 }, { time: Math.min(model.duration - 1.4, (model.eras.find(item => item.era === 6)?.time || 0) + 0.4), x: 0, y: 0 }, { time: model.duration - 0.5, x: 26, y: -44 }], model.duration) : ''}<path d="M870 288v-43q0-25 10-35q10 10 10 35v43Z" fill="${p.secondary}"/><path d="M870 268l-8 20h8m20-20 8 20h-8" fill="${p.accent}"/><circle cx="880" cy="242" r="4" fill="${p.background}"/>${animated ? `<path d="M874 291l6 15 6-15" fill="${p.accent}"/>` : ''}</g><path d="M758 211v96m-17-101q17 26 34 0m-34 0 17 5 17-5" fill="none" stroke="${p.secondary}" stroke-width="2"/></g>` : '';
+  const space = era >= 6 ? `<g class="civilization-spaceport"><path d="M825 307h113" stroke="${p.secondary}" stroke-width="3"/><path d="M859 289h42m-35 0v18m28-18v18" fill="none" stroke="${p.muted}" stroke-width="2"/><path d="M830 307v-70h22m-22 15h22m-22 18h22m-22 18h22" fill="none" stroke="${p.muted}" stroke-width="2"/><path d="M758 211v96m-17-101q17 26 34 0m-34 0 17 5 17-5" fill="none" stroke="${p.secondary}" stroke-width="2"/></g>` : '';
   return `<g class="civilization-settlement" data-era="${era}">${farms}${homes.join('')}${mill}${industry}${space}</g>`;
+}
+
+/** The launch leaves the clipped settlement so the whole rocket can reach the sky. */
+function civilizationRocket(model: CivilizationModel, theme: Theme, animated: boolean): string {
+  if (!model.launch) return '';
+  const p = THEMES[theme], { ignition, liftoff, escape, points } = model.launch;
+  const space = model.eras.find(entry => entry.era === 6)!;
+  const flame = animated ? `<g data-rocket-flame="true" opacity="0">${visible(ignition, escape, model.duration)}<g><animateTransform attributeName="transform" type="scale" values=".9 .85;1 1.1;.95 .95;.9 .85" dur=".21s" repeatCount="indefinite"/><path d="M-7 3Q-9 14 0 26Q9 14 7 3Z" fill="${p.accent}"/><path d="M-3 3Q-4 11 0 17Q4 11 3 3Z" fill="#fff0d3"/></g></g>` : '';
+  const smoke = animated ? `<g data-rocket-smoke="true" transform="translate(861.4 345)"><g opacity="0">${tween('opacity', [{ time: 0, value: 0 }, { time: ignition, value: 0 }, { time: ignition + .6, value: .4 }, { time: liftoff + .4, value: .35 }, { time: liftoff + 2.2, value: 0 }, { time: model.duration, value: 0 }], model.duration)}<ellipse rx="22" ry="3" fill="${p.accent}"/>${[-1, 1].flatMap(side => [0, 1, 2].map(index => `<g>${motion([{ time: 0, x: side * 4, y: 0 }, { time: ignition, x: side * 4, y: 0 }, { time: liftoff + 2.2, x: side * (19 + index * 10), y: -2 - index * 2 }], model.duration)}<ellipse rx="${6 + index * 2}" ry="${3 + index}" fill="${p.muted}"/></g>`)).join('')}</g></g>` : '';
+  return `${smoke}<g data-actor="civilization-rocket" transform="translate(861.4 336.64)"${animated ? ' opacity="0"' : ''}>${animated ? visible(space.time, escape, model.duration) + motion(points, model.duration) : ''}<g transform="scale(.53)">${flame}<path d="M-10 0v-43q0-25 10-35q10 10 10 35V0Z" fill="${p.secondary}"/><path d="M-10-20l-8 20h8m20-20 8 20h-8" fill="${p.accent}"/><circle cy="-46" r="4" fill="${p.background}"/><path d="M-7 0H7" stroke="${p.muted}" stroke-width="2"/></g></g>`;
 }
 
 function drawCivilization(calendar: Calendar, model: CivilizationModel, theme: Theme, animated: boolean): string {
@@ -335,8 +368,9 @@ function drawCivilization(calendar: Calendar, model: CivilizationModel, theme: T
     return marker(false) + (achieved ? reveal(marker(true), achieved.time, model.duration, animated) : '');
   }).join('');
   const eraLabel = changingText(model.eras.map(entry => ({ time: entry.time, value: `${String(entry.era).padStart(2, '0')} / ${CIVILIZATION_ERAS[entry.era].name.toUpperCase()}` })), value => text(56, 330, value, p.secondary, 10, 'letter-spacing="1.2"'), model.duration, animated);
+  const launchStatus = model.launch ? changingText(animated ? [{ time: 0, value: '' }, { time: model.launch.ignition, value: 'IGNITION' }, { time: model.launch.liftoff, value: 'LIFTOFF' }, { time: model.launch.escape, value: 'HELLO, SPACE' }] : [{ time: 0, value: 'ROCKET READY' }], value => text(56, 350, value, p.accent, 9, 'class="mono" letter-spacing="1"'), model.duration, animated) : '';
   const scenery = `<g transform="translate(300 218) scale(0.69 0.39)">${landscape}</g><circle cx="1023" cy="285" r="10" fill="${p.accent}" opacity="0.65"/><g transform="translate(395 184) scale(0.53)">${eraGroups}${overgrowth}</g>`;
-  return `<g class="civilization-world">${calendarActivity(calendar, theme)}${dateCursor(calendar, theme, model.duration, animated)}${ribbon('civilization', `${cumulativeCounter(model, theme, animated)}${eraLabel}${scenery}${timeline}`, animated)}</g>`;
+  return `<g class="civilization-world">${calendarActivity(calendar, theme)}${dateCursor(calendar, theme, model.duration, animated, model.historyDuration)}${ribbon('civilization', `${cumulativeCounter(model, theme, animated)}${eraLabel}${launchStatus}${scenery}${timeline}`, animated)}${civilizationRocket(model, theme, animated)}</g>`;
 }
 
 export interface TownBuilding {
@@ -485,10 +519,10 @@ const city: SceneDefinition = {
 const civilization: SceneDefinition = {
   id: 'civilization', number: '09', title: 'Civilization', category: 'Worlds',
   caption: 'From a first camp to a distant orbit.',
-  description: 'Actual accumulated contributions cross fixed era thresholds, growing a camp into a hamlet, village, town, industrial settlement and spaceport. Observed inactive runs weather and overgrow the settlement; activity repairs it.',
+  description: 'Actual accumulated contributions cross fixed era thresholds, growing a camp into a hamlet, village, town, industrial settlement and spaceport. Observed inactive runs weather and overgrow the settlement; activity repairs it. Reaching Space unlocks a rocket launch after the complete year: ignition, accelerating liftoff and a flight beyond the card.',
   build: calendar => {
     const model = buildCivilizationModel(calendar);
-    return film(calendar, civilization, { duration: model.duration, events: model.events, checkpoints: [3, 16, 30], metrics: { resources: model.accumulated, era: CIVILIZATION_ERAS[model.era].name, erasReached: model.era, weathering: Number(model.weathering.toFixed(3)), maximumWeathering: Number(model.maximumWeathering.toFixed(3)) }, draw: (theme, animated) => drawCivilization(calendar, model, theme, animated), footer: theme => footer(theme, `Final: ${CIVILIZATION_ERAS[model.era].name} · ${model.accumulated.toLocaleString('en-US')}`, `Final weathering ${Math.round(model.weathering * 100)}% · fixed eras`) });
+    return film(calendar, civilization, { duration: model.duration, events: model.events, checkpoints: [3, 16, model.launch ? model.launch.liftoff + 2.3 : 30], metrics: { resources: model.accumulated, era: CIVILIZATION_ERAS[model.era].name, erasReached: model.era, weathering: Number(model.weathering.toFixed(3)), maximumWeathering: Number(model.maximumWeathering.toFixed(3)), rocketLaunch: model.launch ? 1 : 0 }, draw: (theme, animated) => drawCivilization(calendar, model, theme, animated), footer: theme => footer(theme, `Final: ${CIVILIZATION_ERAS[model.era].name} · ${model.accumulated.toLocaleString('en-US')}`, `Final weathering ${Math.round(model.weathering * 100)}% · ${model.launch ? 'launch unlocked' : 'fixed eras'}`) });
   },
 };
 
