@@ -24,7 +24,7 @@ Pac-Man, Invaders, Archaeology, Dungeon and Ant Colony also order daily food or 
 | --- | --- | --- |
 | Breakout | Date-positioned bricks; level-based durability; swept impacts; streak-unlocked multiball | Fast thin-brick collision, hit durability, dense histories, bounded duration |
 | Growing Snake | Exact-count meal tiers; adjacent body-aware routes; gradual length milestones | Ascending values within one color, unique dates, no self-collision, narrow/full boards, occupied-tail growth regression |
-| Pac-Man | Each real active date becomes one ordered pellet at their original week and weekday positions; mouth and three delayed pursuers | Adjacent path, exact pellet contact, conserved counts, real streak pace and ghost delay |
+| Pac-Man | Each real active date supplies a pellet at its original week and weekday position; mouth and three delayed pursuers | Adjacent path, exact pellet contact, conserved counts, real streak pace and ghost delay |
 | Tetris | One source piece per active date; all seven legal tetromino types; legal rotations and hard drops; row removal and compaction | Shape connectivity, wall/floor/stack collision, legal drop path, simultaneous clears, block conservation |
 | Garden | One plant per active date; exact count controls height/leaves/flowering; actual months change seasons | Conserved growth, bounded size, seasonal dates, aggregate observed language blend |
 | City | Active weeks become skyline lots; totals scale height; foundations, frames and completed buildings appear in order | Empty lots remain empty, height ordering, legal construction stages, total conservation |
