@@ -3,7 +3,7 @@
   "id": "civilization",
   "duration": 37.5,
   "metrics": {
-    "resources": 14035,
+    "resources": 14076,
     "era": "Space",
     "erasReached": 6,
     "weathering": 0,
@@ -2831,25 +2831,25 @@
       "time": 28.925,
       "type": "resources",
       "date": "2026-10-14",
-      "value": 213,
+      "value": 214,
       "data": {
-        "accumulated": 13986
+        "accumulated": 13987
       }
     },
     {
       "time": 29,
       "type": "resources",
       "date": "2026-10-15",
-      "value": 49,
+      "value": 89,
       "data": {
-        "accumulated": 14035
+        "accumulated": 14076
       }
     },
     {
       "type": "rocket-ignition",
       "time": 30,
       "date": "2026-10-15",
-      "value": 14035,
+      "value": 14076,
       "data": {
         "threshold": 2200
       }
@@ -2858,7 +2858,7 @@
       "type": "rocket-liftoff",
       "time": 31.4,
       "date": "2026-10-15",
-      "value": 14035,
+      "value": 14076,
       "data": {
         "threshold": 2200
       }
@@ -2867,7 +2867,7 @@
       "type": "rocket-escape",
       "time": 35.8,
       "date": "2026-10-15",
-      "value": 14035,
+      "value": 14076,
       "data": {
         "threshold": 2200
       }
