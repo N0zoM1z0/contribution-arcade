@@ -55,6 +55,10 @@ export async function verifyClearing(browser, base, catalog, summaries, input) {
         const after = await board.screenshot();
         const cleared = await pixels(inspector, after, points);
         assert.ok(cleared.every(pixel => pixel.every((channel, index) => Math.abs(channel - background[index]) <= 2)), `${id}/${theme}: ${date} must leave actual background pixels, got ${JSON.stringify(cleared)}`);
+        if (id !== 'tetris') {
+          await seek(board, scene.duration - .005);
+          assert.deepEqual(await pixels(inspector, await board.screenshot(), points), cleared, `${id}/${theme}: cleared paint must not reappear before the next loop`);
+        }
         // A loop starts with the original date graph again.
         await seek(board, scene.duration + .001);
         const reset = await pixels(inspector, await board.screenshot(), points);

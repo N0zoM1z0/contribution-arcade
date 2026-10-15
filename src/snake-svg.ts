@@ -27,7 +27,7 @@ export function renderSnakeSVG(calendar: Calendar, scene: SnakeScene, theme: The
       { time: 0, value: initialOpacity },
       ...(previousTier ? [{ time: previousTier, value: '1' }] : []),
       { time: mealTimes.get(cell.date)!, value: '0' },
-      { time: duration - 0.04, value: initialOpacity }, { time: duration, value: initialOpacity },
+      { time: duration, value: initialOpacity },
     ], duration)}</g>`;
   }).join('');
 

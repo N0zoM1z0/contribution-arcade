@@ -22,8 +22,6 @@ export function renderSVG(calendar: Calendar, scene: Scene, theme: Theme, animat
     const events = [
       { time: 0, value: '1' },
       ...brick.hits.map(hit => ({ time: hit.time, value: hit.hp === 0 ? '0' : '0.52' })),
-      { time: duration - 0.5, value: '0' },
-      { time: duration - 0.04, value: '1' },
       { time: duration, value: '1' },
     ];
     return `<g data-date="${brick.cell.date}">${cellRect(brick, palette.colors[brick.cell.level])}${discrete('opacity', events, duration)}</g>`;
