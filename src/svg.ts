@@ -92,7 +92,7 @@ export function renderSVG(calendar: Calendar, scene: Scene, theme: Theme, animat
     label: '01 / BREAKOUT', scene: 'breakout', duration,
     description: 'An automatically played breakout animation. Stronger contribution levels take more hits. A long streak unlocks multiball. The original calendar returns each loop.',
     attributes: { cleared: scene.cleared, active: activeDays },
-    content: `${calendarGrid(calendar, theme)}${staticScene}${film}${status}`,
+    content: `${calendarGrid(calendar, theme, { duration, animated, clears: scene.bricks.flatMap(brick => { const hit = brick.hits.find(hit => hit.hp === 0); return hit ? [{ date: brick.cell.date, time: hit.time }] : []; }) })}${staticScene}${film}${status}`,
     footer: phaseMarkup,
   });
 }

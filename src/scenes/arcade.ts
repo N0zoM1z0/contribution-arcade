@@ -1,6 +1,6 @@
 import type { Calendar, Cell } from '../calendar.js';
 import type { SceneDefinition, SceneEvent } from './types.js';
-import { THEMES, colors, n, film, motion, text, visible, calendarActivity, center, discrete, type Theme } from './kit.js';
+import { THEMES, colors, n, film, motion, text, visible, calendarActivity, calendarClears, center, discrete, type Theme } from './kit.js';
 
 import { planCalendarMeals } from './route.js';
 
@@ -81,7 +81,7 @@ export function simulatePacman(calendar: Calendar): PacmanModel {
   return { columns: calendar.columns, duration, pellets, meals, points, ghosts, events: events.sort((a, b) => a.time - b.time) };
 }
 
-function pacmanDrawing(calendar: Calendar, model: PacmanModel, theme: Theme, animated: boolean): string {
+function pacmanDrawing(model: PacmanModel, theme: Theme, animated: boolean): string {
   const p = THEMES[theme];
   const pitch = 1024 / model.columns, size = Math.min(14.5, pitch - 3);
   const radius = Math.min(7.4, size * .48);
@@ -90,10 +90,6 @@ function pacmanDrawing(calendar: Calendar, model: PacmanModel, theme: Theme, ani
   const tiers = [...new Set(model.meals.map(meal => meal.count))];
   const tierStart = (count: number) => model.meals.filter(meal => meal.count < count).at(-1)?.time || 0;
   const currentTier = model.meals.find(meal => meal.time > stillTime)?.count;
-  const grid = calendar.cells.map(cell => {
-    const point = center(calendar, cell);
-    return `<rect x="${n(point.x - size / 2)}" y="${n(point.y - size / 2)}" width="${n(size)}" height="${n(size)}" rx="3" fill="${p.empty}"/>`;
-  }).join('');
   const pellets = model.pellets.map(pellet => {
     if (!animated && pellet.time <= stillTime) return '';
     const start = tierStart(pellet.count), opacity = animated ? start ? '.3' : '1' : pellet.count === currentTier ? '1' : '.3';
@@ -111,7 +107,7 @@ function pacmanDrawing(calendar: Calendar, model: PacmanModel, theme: Theme, ani
   }).join('') : '';
   const frames = [{ time: 0, value: `0 / ${model.meals.length} dates` }, ...model.meals.map((pellet, index) => ({ time: pellet.time, value: `${index + 1} / ${model.meals.length} dates · ${pellet.count} contributions` }))];
   const next = animated ? tiers.map(count => `<g>${visible(tierStart(count), model.meals.filter(meal => meal.count === count).at(-1)!.time, model.duration)}${text(48, 327, `NEXT · ${count} CONTRIBUTION${count === 1 ? '' : 'S'}`, p.secondary, 10, 'class="mono"')}</g>`).join('') : currentTier ? text(48, 327, `NEXT · ${currentTier} CONTRIBUTIONS`, p.secondary, 10, 'class="mono"') : '';
-  return `${grid}<path d="M48 292H1072" stroke="${p.line}" stroke-dasharray="2 7"/>${pellets}${ghosts}${pacman}${next}${changingText(48, 356, animated ? frames : frames.filter(frame => frame.time <= stillTime), model.duration, theme, animated, 11)}${text(1072, 356, 'DATES STAY PUT · LOW COUNTS FIRST', p.muted, 9, 'text-anchor="end" class="mono"')}`;
+  return `<path d="M48 292H1072" stroke="${p.line}" stroke-dasharray="2 7"/>${pellets}${ghosts}${pacman}${next}${changingText(48, 356, animated ? frames : frames.filter(frame => frame.time <= stillTime), model.duration, theme, animated, 11)}${text(1072, 356, 'DATES STAY PUT · LOW COUNTS FIRST', p.muted, 9, 'text-anchor="end" class="mono"')}`;
 }
 
 export type TetrominoKind = 'I' | 'O' | 'T' | 'S' | 'Z' | 'J' | 'L';
@@ -297,8 +293,8 @@ function tetrisDrawing(calendar: Calendar, model: TetrisModel, theme: Theme, ani
     model.board.map((row, y) => row.map((id, x) => id === null ? '' : `<g data-tetris-block="${id}" transform="translate(${n(center(calendar, { column: x, row: y }).x)} ${n(center(calendar, { column: x, row: y }).y)})">${outline(model.blocks[id].kind)}</g>`).join('')).join('');
   const flashes = animated ? model.drops.filter(drop => drop.clearedRows.length).map(drop => `<g data-row-clear="${drop.clearedRows.join(',')}" opacity="0" stroke="${p.accent}" stroke-width="2" fill="none">${visible(drop.lock + .015, drop.clearAt, model.duration)}${calendar.cells.filter(cell => drop.clearedRows.includes(cell.row)).map(cell => { const point = center(calendar, cell); return `<circle cx="${n(point.x)}" cy="${n(point.y)}" r="${n(size * .56)}"/>`; }).join('')}</g>`).join('') : '';
   const frames = [{ time: 0, value: '0 completed weekday lines' }, ...model.events.filter(event => event.type === 'row-clear').map(event => ({ time: event.time, value: `${event.data!.lines} completed weekday lines` }))];
-  const sources = [{ time: 0, value: model.skipped.length ? 'No legal four-block drop fits these date slots.' : 'Original date colors stay fixed beneath the stack.' }, ...model.drops.map(drop => ({ time: drop.start, value: `${drop.kind} piece · ${drop.date} · ${drop.count} contributions` }))];
-  return `${calendarActivity(calendar, theme, .78)}${stack}${flashes}${panel(48, 289, 1024, 69, theme)}${text(66, 311, 'TETRIS / SEVEN WEEKDAYS', p.secondary, 10, 'letter-spacing="1.2"')}${changingText(66, 339, frames, model.duration, theme, animated, 18)}${changingText(505, 313, sources, model.duration, theme, animated, 11)}${text(505, 339, `${model.drops.length} planned date pieces · ${model.restarts} restarts · ${model.skipped.length} without drop space`, p.muted, 10)}`;
+  const sources = [{ time: 0, value: model.skipped.length ? 'No legal four-block drop fits these date slots.' : 'Complete a line to clear its calendar tiles.' }, ...model.drops.map(drop => ({ time: drop.start, value: `${drop.kind} piece · ${drop.date} · ${drop.count} contributions` }))];
+  return `${calendarActivity(calendar, theme, .78, { duration: model.duration, clears: calendarClears(calendar, model.events), animated, stillTime: model.duration })}${stack}${flashes}${panel(48, 289, 1024, 69, theme)}${text(66, 311, 'TETRIS / SEVEN WEEKDAYS', p.secondary, 10, 'letter-spacing="1.2"')}${changingText(66, 339, frames, model.duration, theme, animated, 18)}${changingText(505, 313, sources, model.duration, theme, animated, 11)}${text(505, 339, `${model.drops.length} planned date pieces · ${model.restarts} restarts · ${model.skipped.length} without drop space`, p.muted, 10)}`;
 }
 
 export interface MatchGem { id: number; date: string; count: number; kind: number; column?: number; row?: number }
@@ -435,8 +431,8 @@ export function simulateMatch3(calendar: Calendar): MatchModel {
 }
 
 function matchDrawing(calendar: Calendar, model: MatchModel, theme: Theme, animated: boolean): string {
-  const p = THEMES[theme], radius = Math.min(6, (1024 / calendar.columns - 4) / 2);
-  const gem = (item: MatchGem) => `<title>${item.date}: ${item.count} contributions</title><path d="M0 ${n(-radius)}L${n(radius)} 0 0 ${n(radius)} ${n(-radius)} 0Z" fill="${p.colors[item.kind]}" stroke="${p.ink}" stroke-width=".65" stroke-opacity=".6"/><circle r="1.1" fill="${p.background}"/>`;
+  const p = THEMES[theme], radius = Math.min(6, (1024 / calendar.columns - 4) / 2), tileSize = Math.min(14.5, 1024 / calendar.columns - 3);
+  const gem = (item: MatchGem) => `<title>${item.date}: ${item.count} contributions</title><rect x="${n(-tileSize / 2)}" y="${n(-tileSize / 2)}" width="${n(tileSize)}" height="${n(tileSize)}" rx="3" fill="${p.colors[item.kind]}"/><path d="M0 ${n(-radius)}L${n(radius)} 0 0 ${n(radius)} ${n(-radius)} 0Z" fill="${p.colors[item.kind]}" stroke="${p.ink}" stroke-width=".65" stroke-opacity=".6"/><circle r="1.1" fill="${p.background}"/>`;
   const moving = animated ? model.tracks.map(track => `<g data-gem-date="${track.date}" data-original-column="${track.column}" data-original-row="${track.row}" opacity="0">${visible(track.start, track.end, model.duration)}<g>${motion(track.points.map(point => ({ time: point.time, ...center(calendar, { column: point.x, row: point.y }) })), model.duration)}${gem(track)}</g></g>`).join('') :
     model.initial.map((row, y) => row.map((item, x) => item ? `<g data-gem-date="${item.date}" data-original-column="${x}" data-original-row="${y}" transform="translate(${n(center(calendar, { column: x, row: y }).x)} ${n(center(calendar, { column: x, row: y }).y)})">${gem(item)}</g>` : '').join('')).join('');
   const highlights = animated ? model.turns.map(turn => `<g data-match-swap="${n(turn.time)}" opacity="0" stroke="${p.accent}" stroke-width="1.7" fill="none">${visible(turn.time - .1, turn.time + .4, model.duration)}${[turn.swap.a, turn.swap.b].map(point => { const at = center(calendar, { column: point.x, row: point.y }); return `<circle cx="${n(at.x)}" cy="${n(at.y)}" r="8"/>`; }).join('')}</g>`).join('') : '';
@@ -453,7 +449,7 @@ function matchDrawing(calendar: Calendar, model: MatchModel, theme: Theme, anima
     else if (event.type === 'gravity') moves.push({ time: event.time, value: `Gravity settled · ${calendar.activeDays - matched} gems remain · no refills` });
     else if (event.type === 'no-moves') moves.push({ time: event.time, value: `No legal swaps remain · ${calendar.activeDays - matched} gems left` });
   }
-  return `${calendarActivity(calendar, theme, .38)}${moving}${highlights}${panel(48, 289, 1024, 69, theme)}${text(66, 310, 'MATCH THREE / ORIGINAL DATE GEMS', p.secondary, 10, 'letter-spacing="1"')}${changingText(66, 339, animated ? frames : frames.slice(0, 1), model.duration, theme, animated, 18)}${changingText(611, 311, animated ? moves : moves.slice(0, 1), model.duration, theme, animated, 11)}${text(611, 338, 'Real intensity matches · no reserve or fabricated refills', p.muted, 10)}`;
+  return `${moving}${highlights}${panel(48, 289, 1024, 69, theme)}${text(66, 310, 'MATCH THREE / ORIGINAL DATE GEMS', p.secondary, 10, 'letter-spacing="1"')}${changingText(66, 339, animated ? frames : frames.slice(0, 1), model.duration, theme, animated, 18)}${changingText(611, 311, animated ? moves : moves.slice(0, 1), model.duration, theme, animated, 11)}${text(611, 338, 'Real intensity matches · no reserve or fabricated refills', p.muted, 10)}`;
 }
 
 export interface MoleAttempt {
@@ -508,7 +504,7 @@ function moleDrawing(calendar: Calendar, model: MoleModel, theme: Theme, animate
   let hits = 0, misses = 0;
   const counters = [{ time: 0, value: '0 hits · 0 misses' }, ...model.attempts.map(attempt => ({ time: attempt.strike, value: `${attempt.hit ? ++hits : hits} hits · ${attempt.hit ? misses : ++misses} misses` }))];
   const source = [{ time: 0, value: 'Each mole appears on its own original date tile.' }, ...model.attempts.map(attempt => ({ time: attempt.start, value: `${attempt.date} · ${attempt.count} contributions · streak ${attempt.streak}` }))];
-  return `${calendarActivity(calendar, theme, .82)}${moles}${hammer}${results}${panel(48, 289, 1024, 69, theme)}${text(66, 311, 'WHACK A DATE / LOW COUNTS FIRST', p.secondary, 10, 'letter-spacing="1"')}${changingText(66, 339, scores, model.duration, theme, animated, 18)}${changingText(510, 312, source, model.duration, theme, animated, 10)}${changingText(510, 340, counters, model.duration, theme, animated, 13)}<g transform="translate(1002 323)">${moleFace(theme, 22)}</g>`;
+  return `${calendarActivity(calendar, theme, .82, { duration: model.duration, clears: calendarClears(calendar, model.events), animated, stillTime: model.attempts.at(-1)?.start ?? 0 })}${moles}${hammer}${results}${panel(48, 289, 1024, 69, theme)}${text(66, 311, 'WHACK A DATE / LOW COUNTS FIRST', p.secondary, 10, 'letter-spacing="1"')}${changingText(66, 339, scores, model.duration, theme, animated, 18)}${changingText(510, 312, source, model.duration, theme, animated, 10)}${changingText(510, 340, counters, model.duration, theme, animated, 13)}<g transform="translate(1002 323)">${moleFace(theme, 22)}</g>`;
 }
 
 const pacman: SceneDefinition = {
@@ -517,17 +513,17 @@ const pacman: SceneDefinition = {
   description: 'The original contribution dates stay fixed at their actual week and weekday coordinates. Pac-Man follows planned adjacent routes to eat lower contribution counts first. Actual consecutive-day streaks increase his pace, and three ghosts pursue the same connected calendar trail.',
   build(calendar) {
     const model = simulatePacman(calendar);
-    return film(calendar, pacman, { duration: model.duration, events: model.events, metrics: { pellets: model.pellets.length, contributions: model.pellets.reduce((sum, pellet) => sum + pellet.count, 0), ghosts: model.pellets.length ? 3 : 0, ordering: 'contribution-count' }, checkpoints: [1.4, model.duration * 0.52, model.duration - 2], draw: (theme, animated) => pacmanDrawing(calendar, model, theme, animated) });
+    return film(calendar, pacman, { duration: model.duration, events: model.events, metrics: { pellets: model.pellets.length, contributions: model.pellets.reduce((sum, pellet) => sum + pellet.count, 0), ghosts: model.pellets.length ? 3 : 0, ordering: 'contribution-count' }, stillTime: model.meals[Math.floor(model.meals.length * .58)]?.time ?? 0, checkpoints: [1.4, model.duration * 0.52, model.duration - 2], draw: (theme, animated) => pacmanDrawing(model, theme, animated) });
   },
 };
 const tetris: SceneDefinition = {
   id: 'tetris', number: '04', title: 'Tetris', category: 'Arcade',
   caption: 'Legal pieces fall through the original seven-row calendar.',
-  description: 'Active dates supply legal tetrominoes, with lower contribution counts first. The board has the original calendar width and seven weekday rows. Missing dates are unavailable. Pieces collide with the stack, full weekday lines clear, and the permanent date colors remain fixed beneath the piece outlines. If no legal piece fits, the calendar rests.',
+  description: 'Active dates supply legal tetrominoes, with lower contribution counts first. The board has the original calendar width and seven weekday rows. Missing dates are unavailable. Pieces collide with the stack, full weekday lines clear, and cleared calendar tiles disappear with the piece outlines. If no legal piece fits, the calendar rests.',
   build(calendar) {
     const model = simulateTetris(calendar);
     const clear = model.events.find(event => event.type === 'row-clear');
-    return film(calendar, tetris, { duration: model.duration, events: model.events, metrics: { pieces: model.drops.length, lines: model.lines, restarts: model.restarts, contributions: model.contributions, skippedDates: model.skipped.length, missingSlots: calendar.columns * 7 - calendar.cells.length, calendarDays: calendar.cells.length }, checkpoints: [2, clear ? clear.time + 0.05 : model.duration * 0.5, model.duration - 1.5], draw: (theme, animated) => tetrisDrawing(calendar, model, theme, animated) });
+    return film(calendar, tetris, { duration: model.duration, events: model.events, metrics: { pieces: model.drops.length, lines: model.lines, restarts: model.restarts, contributions: model.contributions, skippedDates: model.skipped.length, missingSlots: calendar.columns * 7 - calendar.cells.length, calendarDays: calendar.cells.length }, stillTime: model.duration, checkpoints: [2, clear ? clear.time + 0.05 : model.duration * 0.5, model.duration - 1.5], draw: (theme, animated) => tetrisDrawing(calendar, model, theme, animated) });
   },
 };
 const match3: SceneDefinition = {
@@ -536,7 +532,20 @@ const match3: SceneDefinition = {
   description: 'Every active date starts in its original week and weekday slot, colored by its real GitHub intensity. Existing runs resolve first. Legal adjacent swaps prefer the lowest available match total; matched dates bank their actual counts and surviving gems fall within real date slots. Missing dates block gravity. All dates start on the graph, so there are no reserves or fabricated refills; forced cascades may match larger counts.',
   build(calendar) {
     const model = simulateMatch3(calendar);
-    return film(calendar, match3, { duration: model.duration, events: model.events, metrics: { swaps: model.turns.length, matchedDates: model.matched, contributions: model.score, cascades: model.cascades, reserve: model.unused.length }, checkpoints: [1.25, model.events.find(event => event.type === 'cascade')?.time ?? model.duration * 0.5, model.duration - 1.5], draw: (theme, animated) => matchDrawing(calendar, model, theme, animated) });
+    const cleared = new Map<string, number>();
+    const clearAt = (column: number, row: number, time: number) => {
+      const cell = calendar.cells.find(cell => cell.column === column && cell.row === row);
+      if (cell) cleared.set(cell.date, Math.min(cleared.get(cell.date) ?? Infinity, time));
+    };
+    for (const track of model.tracks) {
+      for (let index = 1; index < track.points.length; index++) {
+        const previous = track.points[index - 1], point = track.points[index];
+        if (previous.x !== point.x || previous.y !== point.y) clearAt(previous.x, previous.y, previous.time);
+      }
+      if (track.end < model.duration) { const point = track.points.at(-1)!; clearAt(point.x, point.y, track.end); }
+    }
+    const clears = [...cleared].map(([date, time]) => ({ date, time }));
+    return film(calendar, match3, { duration: model.duration, events: model.events, clears, metrics: { swaps: model.turns.length, matchedDates: model.matched, contributions: model.score, cascades: model.cascades, reserve: model.unused.length }, checkpoints: [1.25, model.events.find(event => event.type === 'cascade')?.time ?? model.duration * 0.5, model.duration - 1.5], draw: (theme, animated) => matchDrawing(calendar, model, theme, animated) });
   },
 };
 const whack: SceneDefinition = {
@@ -546,7 +555,7 @@ const whack: SceneDefinition = {
   build(calendar) {
     const model = simulateMoles(calendar);
     const firstMiss = model.attempts.find(attempt => !attempt.hit);
-    return film(calendar, whack, { duration: model.duration, events: model.events, metrics: { attempts: model.attempts.length, hits: model.hits, misses: model.misses, contributions: model.score }, checkpoints: [model.attempts[0] ? model.attempts[0].strike + 0.04 : 2, firstMiss ? firstMiss.strike + 0.04 : model.duration * 0.5, model.duration - 2], draw: (theme, animated) => moleDrawing(calendar, model, theme, animated) });
+    return film(calendar, whack, { duration: model.duration, events: model.events, metrics: { attempts: model.attempts.length, hits: model.hits, misses: model.misses, contributions: model.score }, stillTime: model.attempts.at(-1)?.start ?? 0, checkpoints: [model.attempts[0] ? model.attempts[0].strike + 0.04 : 2, firstMiss ? firstMiss.strike + 0.04 : model.duration * 0.5, model.duration - 2], draw: (theme, animated) => moleDrawing(calendar, model, theme, animated) });
   },
 };
 

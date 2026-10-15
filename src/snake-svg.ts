@@ -91,7 +91,7 @@ export function renderSnakeSVG(calendar: Calendar, scene: SnakeScene, theme: The
       { time: duration, value: index === 0 ? '1' : '0' },
     ], duration)}<text x="48" y="350" fill="${palette.muted}" font-size="10" class="mono">NEXT · ${count} CONTRIBUTION${count === 1 ? '' : 'S'}</text></g>`;
   }).join('');
-  const content = `${calendarGrid(calendar, theme)}
+  const content = `${calendarGrid(calendar, theme, { duration, animated, clears: scene.meals.map(meal => ({ date: meal.cell.date, time: meal.time })) })}
     <g class="${animated ? 'reduced' : 'static'}">${foods(false)}${staticSnake}</g>
     ${animated ? `<g class="animated">${foods(true)}${movingSnake}${tierLabels}
       <rect x="48" y="376" width="0" height="2" rx="1" fill="${palette.secondary}" opacity="0.7">${discrete('width', [

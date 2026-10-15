@@ -9,23 +9,50 @@ export type { Theme };
 export function center(calendar: Calendar, cell: Pick<Cell, 'column' | 'row'>): { x: number; y: number } {
   return { x: BOARD.left + (cell.column + 0.5) * BOARD.gridWidth / calendar.columns, y: BOARD.gridY + cell.row * 19 + 7.25 };
 }
-/** One permanent tile for each actual input day, including zero-count days.
- * Missing dates stay absent. Scene actors and effects may overlay these tiles,
- * but no producer may create a different calendar mesh or repack its dates.
- */
-export function calendarGrid(calendar: Calendar, theme: Theme): string {
+export interface ClearedDate { date: string; time: number }
+export interface CalendarPlayback {
+  duration: number;
+  clears: ClearedDate[];
+  animated?: boolean;
+  stillTime?: number;
+}
+/** Destruction changes visibility, never the original date coordinates. */
+export function calendarClears(calendar: Calendar, events: SceneEvent[]): ClearedDate[] {
+  const dates = new Map<string, number>();
+  const kinds = new Set(['pellet', 'invader-hit', 'ore-excavate', 'room-loot', 'harvest', 'hammer-hit']);
+  const add = (date: string, time: number) => dates.set(date, Math.min(dates.get(date) ?? Infinity, time));
+  for (const event of events) {
+    if (event.date && kinds.has(event.type)) add(event.date, event.time);
+    if (event.type === 'row-clear') {
+      const rows = event.data?.rows as number[] | undefined;
+      for (const cell of calendar.cells) if (rows?.includes(cell.row)) add(cell.date, event.time);
+    }
+  }
+  return [...dates].map(([date, time]) => ({ date, time }));
+}
+function tileState(date: string, playback?: CalendarPlayback): { attributes: string; animation: string } {
+  const time = playback?.clears.find(clear => clear.date === date)?.time;
+  if (time === undefined || !playback) return { attributes: '', animation: '' };
+  const still = time <= (playback.stillTime ?? 0) ? '0' : '1';
+  return {
+    attributes: ` data-cleared-at="${n(time)}" style="--still-opacity:${still}" opacity="${playback.animated === false ? still : '1'}"`,
+    animation: playback.animated === false ? '' : discrete('opacity', [{ time: 0, value: '1' }, { time, value: '0' }, { time: playback.duration, value: '1' }], playback.duration),
+  };
+}
+/** Keep the full original graph initially; cleared tiles leave actual gaps. */
+export function calendarGrid(calendar: Calendar, theme: Theme, playback?: CalendarPlayback): string {
   const palette = THEMES[theme], size = Math.min(14.5, BOARD.gridWidth / calendar.columns - 3);
   return `<g data-calendar-grid="true">${calendar.cells.map(cell => {
-    const point = center(calendar, cell);
-    return `<rect data-cell-date="${cell.date}" data-column="${cell.column}" data-row="${cell.row}" data-count="${cell.count}" x="${n(point.x - size / 2)}" y="${n(point.y - size / 2)}" width="${n(size)}" height="${n(size)}" rx="3" fill="${palette.empty}"/>`;
+    const point = center(calendar, cell), state = tileState(cell.date, playback), id = `calendar-day-${cell.date}`;
+    return `<rect id="${id}" data-cell-date="${cell.date}" data-column="${cell.column}" data-row="${cell.row}" data-count="${cell.count}" x="${n(point.x - size / 2)}" y="${n(point.y - size / 2)}" width="${n(size)}" height="${n(size)}" rx="3" fill="${palette.empty}"${state.attributes}/>${state.animation.replace('<animate ', `<animate href="#${id}" `)}`;
   }).join('')}</g>`;
 }
-/** Color the real day tiles without adding another board mesh. */
-export function calendarActivity(calendar: Calendar, theme: Theme, opacity = 1): string {
+/** Activity paint follows the same destruction timeline as its underlying tile. */
+export function calendarActivity(calendar: Calendar, theme: Theme, opacity = 1, playback?: CalendarPlayback): string {
   const palette = THEMES[theme], size = Math.min(14.5, BOARD.gridWidth / calendar.columns - 3);
   return `<g opacity="${opacity}">${calendar.cells.filter(cell => cell.count > 0).map(cell => {
-    const point = center(calendar, cell);
-    return `<rect data-activity-date="${cell.date}" x="${n(point.x - size / 2)}" y="${n(point.y - size / 2)}" width="${n(size)}" height="${n(size)}" rx="3" fill="${palette.colors[cell.level]}"/>`;
+    const point = center(calendar, cell), state = tileState(cell.date, playback);
+    return `<rect data-activity-date="${cell.date}" x="${n(point.x - size / 2)}" y="${n(point.y - size / 2)}" width="${n(size)}" height="${n(size)}" rx="3" fill="${palette.colors[cell.level]}"${state.attributes}>${state.animation}</rect>`;
   }).join('')}</g>`;
 }
 export function grid(calendar: Calendar, theme: Theme, opacity = 1): string {
@@ -81,6 +108,8 @@ export function film(calendar: Calendar, definition: Pick<SceneDefinition, 'id' 
   checkpoints?: number[];
   draw: (theme: Theme, animated: boolean) => string;
   footer?: (theme: Theme, animated: boolean) => string;
+  clears?: ClearedDate[];
+  stillTime?: number;
 }): SceneFilm {
   const events = [...options.events].sort((a, b) => a.time - b.time);
   return {
@@ -90,7 +119,7 @@ export function film(calendar: Calendar, definition: Pick<SceneDefinition, 'id' 
       label: `${definition.number} / ${definition.title.toUpperCase()}`, scene: definition.id,
       duration: options.duration, description: definition.description,
       attributes: { active: calendar.activeDays, events: events.length },
-      content: calendarGrid(calendar, theme) + (animated ? `<g class="reduced">${options.draw(theme, false)}</g><g class="animated">${options.draw(theme, true)}</g>` : options.draw(theme, false)),
+      content: calendarGrid(calendar, theme, { duration: options.duration, clears: options.clears ?? calendarClears(calendar, events), animated, stillTime: options.stillTime }) + (animated ? `<g class="reduced">${options.draw(theme, false)}</g><g class="animated">${options.draw(theme, true)}</g>` : options.draw(theme, false)),
       footer: options.footer?.(theme, animated) || '',
     }),
   };

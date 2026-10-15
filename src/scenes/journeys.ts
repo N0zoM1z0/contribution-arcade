@@ -123,7 +123,7 @@ const invaders: SceneDefinition = {
     const messages = [{ time: 0, label: targets.length ? `DEFENSE ONLINE  /  ${targets.length} DATE TARGETS` : 'CLEAR SKIES  /  NO ACTIVE DATES' },
       ...targets.map((target, index) => ({ time: target.hit, label: `${String(index + 1).padStart(3, '0')} / ${targets.length} CLEARED  ·  ${target.date}  ·  ${target.count} CONTRIBUTIONS` })),
       ...(boss ? [{ time: boss.start, label: `STREAK BOSS  /  ${boss.streak} CONSECUTIVE DAYS` }, { time: boss.hits.at(-1)!.hit, label: 'SECTOR CLEAR  /  STREAK BOSS DEFEATED' }] : [])];
-    return film(calendar, invaders, { duration, events: model.events,
+    return film(calendar, invaders, { duration, events: model.events, stillTime: snapshot,
       metrics: { targets: targets.length, hits: targets.length, contributions: targets.reduce((sum, target) => sum + target.count, 0), boss: boss ? 1 : 0, bossStreak: boss?.streak ?? 0, ordering: 'count-ascending' },
       checkpoints: [1, targets[Math.floor(targets.length / 2)]?.hit ?? 9, boss ? boss.start + 0.6 : duration - 2],
       draw(theme, animated) {
@@ -231,7 +231,7 @@ const archaeology: SceneDefinition = {
   description: 'The miner excavates real dates in ascending contribution-count order. Counts set quartz, copper, gold and diamond tiers. Excavating a consecutive five-day streak reveals a treasure chest.',
   build(calendar) {
     const model = modelArchaeology(calendar), { deposits, treasure, duration } = model, snapshot = duration * 0.46;
-    return film(calendar, archaeology, { duration, events: model.events,
+    return film(calendar, archaeology, { duration, events: model.events, stillTime: snapshot,
       metrics: { excavations: deposits.length, ore: deposits.reduce((sum, deposit) => sum + deposit.count, 0), treasure: treasure ? 1 : 0, treasureStreak: treasure?.streak ?? 0, ordering: 'count-ascending' },
       checkpoints: [1.8, deposits[Math.floor(deposits.length / 2)]?.dig ?? 12, treasure?.time ?? duration - 2],
       draw(theme, animated) {
@@ -325,7 +325,7 @@ const dungeon: SceneDefinition = {
     const location = (column: number, row: number) => center(calendar, { column, row });
     const points = model.route.map(point => ({ time: point.time, ...location(point.column, point.row) }));
     const size = tileSize(calendar);
-    return film(calendar, dungeon, { duration, events: model.events,
+    return film(calendar, dungeon, { duration, events: model.events, stillTime: snapshot,
       metrics: { rooms: model.active.length, collectedRooms: model.loot.length, loot: model.loot.reduce((sum, cell) => sum + cell.count, 0), revealed: model.revealed.length, steps: model.route.length - 1, guardianHealth: encounter?.hp ?? 0, finalEncounter: encounter ? 1 : 0, ordering: 'count-ascending', layout: 'calendar' },
       checkpoints: [1.4, model.route[Math.floor(model.route.length * 0.6)].time, encounter ? encounter.start + 0.4 : 18],
       draw(theme, animated) {
