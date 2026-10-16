@@ -4,7 +4,7 @@
   "duration": 35.04,
   "metrics": {
     "beats": 53,
-    "notes": 139,
+    "notes": 140,
     "rests": 21,
     "audio": "silent visual score"
   },
@@ -1052,7 +1052,7 @@
     {
       "time": 31.959999999999997,
       "type": "beat",
-      "value": 989,
+      "value": 1151,
       "data": {
         "pitch": 7,
         "notes": [
@@ -1074,7 +1074,11 @@
           },
           {
             "date": "2026-10-15",
-            "count": 89
+            "count": 158
+          },
+          {
+            "date": "2026-10-16",
+            "count": 93
           }
         ]
       }
