@@ -1,25 +1,25 @@
 {
   "source": "github-public",
-  "coverage": "Observed public activity: up to 100 repositories per type and 100 commit days per repository. Languages use repository primary languages, weighted by sampled commits. Period: 2025-10-17 to 2026-10-16.",
+  "coverage": "Observed public activity: up to 100 repositories per type and 100 commit days per repository. Languages use repository primary languages, weighted by sampled commits. Period: 2025-10-18 to 2026-10-17.",
   "languages": [
     {
       "name": "C++",
-      "weight": 6044,
+      "weight": 6203,
       "color": "#f34b7d"
     },
     {
       "name": "Python",
-      "weight": 4540,
+      "weight": 4667,
       "color": "#3572A5"
     },
     {
       "name": "TypeScript",
-      "weight": 870,
+      "weight": 881,
       "color": "#3178c6"
     },
     {
       "name": "Rust",
-      "weight": 588,
+      "weight": 607,
       "color": "#dea584"
     },
     {
@@ -59,9 +59,9 @@
     }
   ],
   "activity": {
-    "commits": 12641,
-    "issues": 434,
-    "pullRequests": 914,
-    "reviews": 166
+    "commits": 12960,
+    "issues": 442,
+    "pullRequests": 938,
+    "reviews": 177
   }
 }

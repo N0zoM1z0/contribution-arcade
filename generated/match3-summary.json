@@ -1,18 +1,18 @@
 {
   "username": "N0zoM1z0",
   "id": "match3",
-  "duration": 15.589999999999998,
+  "duration": 14.04,
   "metrics": {
-    "swaps": 7,
-    "matchedDates": 117,
-    "contributions": 11333,
+    "swaps": 6,
+    "matchedDates": 116,
+    "contributions": 10905,
     "cascades": 1,
     "reserve": 0
   },
   "checkpoints": [
     1.25,
     2.42,
-    14.089999999999998
+    12.54
   ],
   "events": [
     {
@@ -630,13 +630,39 @@
       "time": 1.6,
       "type": "gem-match",
       "date": "2026-10-15",
-      "value": 158,
+      "value": 198,
       "data": {
         "depth": 0,
         "column": 52,
         "row": 4,
         "originalColumn": 52,
         "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-10-16",
+      "value": 227,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 5,
+        "originalColumn": 52,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-10-17",
+      "value": 189,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 6,
+        "originalColumn": 52,
+        "originalRow": 6
       }
     },
     {
@@ -1038,12 +1064,6 @@
             "row": 4
           },
           {
-            "date": "2026-10-11",
-            "column": 52,
-            "fromRow": 0,
-            "row": 4
-          },
-          {
             "date": "2026-02-15",
             "column": 18,
             "fromRow": 0,
@@ -1167,6 +1187,12 @@
             "date": "2026-09-01",
             "column": 46,
             "fromRow": 2,
+            "row": 6
+          },
+          {
+            "date": "2026-10-11",
+            "column": 52,
+            "fromRow": 0,
             "row": 6
           }
         ],
@@ -1839,94 +1865,6 @@
     {
       "time": 10.99,
       "type": "swap",
-      "value": 884,
-      "data": {
-        "a": {
-          "x": 51,
-          "y": 4
-        },
-        "b": {
-          "x": 52,
-          "y": 4
-        },
-        "dates": [
-          "2026-10-08",
-          "2026-10-11"
-        ],
-        "matchSize": 3
-      }
-    },
-    {
-      "time": 11.44,
-      "type": "gem-match",
-      "date": "2026-10-07",
-      "value": 319,
-      "data": {
-        "depth": 0,
-        "column": 51,
-        "row": 3,
-        "originalColumn": 51,
-        "originalRow": 3
-      }
-    },
-    {
-      "time": 11.44,
-      "type": "gem-match",
-      "date": "2026-10-11",
-      "value": 322,
-      "data": {
-        "depth": 0,
-        "column": 51,
-        "row": 4,
-        "originalColumn": 52,
-        "originalRow": 0
-      }
-    },
-    {
-      "time": 11.44,
-      "type": "gem-match",
-      "date": "2026-10-09",
-      "value": 243,
-      "data": {
-        "depth": 0,
-        "column": 51,
-        "row": 5,
-        "originalColumn": 51,
-        "originalRow": 5
-      }
-    },
-    {
-      "time": 12.04,
-      "type": "gravity",
-      "value": 3,
-      "data": {
-        "depth": 0,
-        "falls": [
-          {
-            "date": "2026-10-04",
-            "column": 51,
-            "fromRow": 0,
-            "row": 3
-          },
-          {
-            "date": "2026-10-05",
-            "column": 51,
-            "fromRow": 1,
-            "row": 4
-          },
-          {
-            "date": "2026-10-06",
-            "column": 51,
-            "fromRow": 2,
-            "row": 5
-          }
-        ],
-        "refilledDates": []
-      }
-    },
-    {
-      "time": 12.54,
-      "type": "swap",
       "value": 1917,
       "data": {
         "a": {
@@ -1945,7 +1883,7 @@
       }
     },
     {
-      "time": 12.989999999999998,
+      "time": 11.44,
       "type": "gem-match",
       "date": "2026-08-13",
       "value": 482,
@@ -1958,7 +1896,7 @@
       }
     },
     {
-      "time": 12.989999999999998,
+      "time": 11.44,
       "type": "gem-match",
       "date": "2026-08-20",
       "value": 478,
@@ -1971,7 +1909,7 @@
       }
     },
     {
-      "time": 12.989999999999998,
+      "time": 11.44,
       "type": "gem-match",
       "date": "2026-08-15",
       "value": 391,
@@ -1984,7 +1922,7 @@
       }
     },
     {
-      "time": 12.989999999999998,
+      "time": 11.44,
       "type": "gem-match",
       "date": "2026-08-17",
       "value": 212,
@@ -1997,7 +1935,7 @@
       }
     },
     {
-      "time": 12.989999999999998,
+      "time": 11.44,
       "type": "gem-match",
       "date": "2026-08-14",
       "value": 134,
@@ -2010,7 +1948,7 @@
       }
     },
     {
-      "time": 12.989999999999998,
+      "time": 11.44,
       "type": "gem-match",
       "date": "2026-08-22",
       "value": 220,
@@ -2023,7 +1961,7 @@
       }
     },
     {
-      "time": 13.589999999999998,
+      "time": 12.04,
       "type": "gravity",
       "value": 3,
       "data": {
@@ -2052,9 +1990,9 @@
       }
     },
     {
-      "time": 14.089999999999998,
+      "time": 12.54,
       "type": "no-moves",
-      "value": 11333
+      "value": 10905
     }
   ]
 }
