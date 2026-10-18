@@ -3,14 +3,14 @@
   "id": "weather",
   "duration": 42.459999999999994,
   "metrics": {
-    "rainyWeeks": 21,
-    "sunnyWeeks": 15,
+    "rainyWeeks": 20,
+    "sunnyWeeks": 16,
     "peakWeek": 1866,
     "records": 10
   },
   "checkpoints": [
     2,
-    4.32,
+    3.5999999999999996,
     39.459999999999994
   ],
   "events": [
@@ -36,21 +36,21 @@
     },
     {
       "time": 3.24,
-      "type": "rain",
-      "value": 0,
+      "type": "cloudy",
+      "value": 1,
       "data": {
         "column": 2,
-        "record": false,
+        "record": true,
         "streak": 0
       }
     },
     {
       "time": 3.96,
-      "type": "cloudy",
-      "value": 1,
+      "type": "rain",
+      "value": 0,
       "data": {
         "column": 3,
-        "record": true,
+        "record": false,
         "streak": 0
       }
     },
@@ -176,8 +176,8 @@
     },
     {
       "time": 13.32,
-      "type": "rain",
-      "value": 0,
+      "type": "cloudy",
+      "value": 1,
       "data": {
         "column": 16,
         "record": false,
@@ -187,27 +187,27 @@
     {
       "time": 14.040000000000001,
       "type": "cloudy",
-      "value": 1,
+      "value": 3,
       "data": {
         "column": 17,
-        "record": false,
+        "record": true,
         "streak": 0
       }
     },
     {
       "time": 14.76,
       "type": "cloudy",
-      "value": 3,
+      "value": 2,
       "data": {
         "column": 18,
-        "record": true,
+        "record": false,
         "streak": 0
       }
     },
     {
       "time": 15.48,
-      "type": "cloudy",
-      "value": 2,
+      "type": "rain",
+      "value": 0,
       "data": {
         "column": 19,
         "record": false,
@@ -216,22 +216,22 @@
     },
     {
       "time": 16.2,
-      "type": "rain",
-      "value": 0,
+      "type": "cloudy",
+      "value": 24,
       "data": {
         "column": 20,
-        "record": false,
-        "streak": 0
+        "record": true,
+        "streak": 2
       }
     },
     {
       "time": 16.919999999999998,
-      "type": "cloudy",
-      "value": 24,
+      "type": "rain",
+      "value": 0,
       "data": {
         "column": 21,
-        "record": true,
-        "streak": 2
+        "record": false,
+        "streak": 0
       }
     },
     {
@@ -246,8 +246,8 @@
     },
     {
       "time": 18.36,
-      "type": "rain",
-      "value": 0,
+      "type": "cloudy",
+      "value": 1,
       "data": {
         "column": 23,
         "record": false,
@@ -256,8 +256,8 @@
     },
     {
       "time": 19.080000000000002,
-      "type": "cloudy",
-      "value": 1,
+      "type": "rain",
+      "value": 0,
       "data": {
         "column": 24,
         "record": false,
@@ -266,88 +266,88 @@
     },
     {
       "time": 19.8,
-      "type": "rain",
-      "value": 0,
-      "data": {
-        "column": 25,
-        "record": false,
-        "streak": 0
-      }
-    },
-    {
-      "time": 20.52,
       "type": "cloudy",
       "value": 8,
       "data": {
-        "column": 26,
+        "column": 25,
         "record": false,
         "streak": 2
       }
     },
     {
-      "time": 21.24,
+      "time": 20.52,
       "type": "sunny",
       "value": 31,
       "data": {
-        "column": 27,
+        "column": 26,
         "record": true,
         "streak": 1
+      }
+    },
+    {
+      "time": 21.24,
+      "type": "cloudy",
+      "value": 33,
+      "data": {
+        "column": 27,
+        "record": true,
+        "streak": 0
       }
     },
     {
       "time": 21.96,
       "type": "cloudy",
-      "value": 33,
-      "data": {
-        "column": 28,
-        "record": true,
-        "streak": 0
-      }
-    },
-    {
-      "time": 22.68,
-      "type": "cloudy",
       "value": 40,
       "data": {
-        "column": 29,
+        "column": 28,
         "record": true,
         "streak": 1
       }
     },
     {
-      "time": 23.4,
+      "time": 22.68,
       "type": "cloudy",
       "value": 3,
       "data": {
-        "column": 30,
+        "column": 29,
         "record": false,
         "streak": 0
       }
     },
     {
-      "time": 24.12,
+      "time": 23.4,
       "type": "cloudy",
       "value": 11,
       "data": {
-        "column": 31,
+        "column": 30,
         "record": false,
         "streak": 2
       }
     },
     {
-      "time": 24.84,
+      "time": 24.12,
       "type": "cloudy",
       "value": 79,
       "data": {
-        "column": 32,
+        "column": 31,
         "record": true,
+        "streak": 0
+      }
+    },
+    {
+      "time": 24.84,
+      "type": "cloudy",
+      "value": 3,
+      "data": {
+        "column": 32,
+        "record": false,
         "streak": 0
       }
     },
     {
       "time": 25.56,
       "type": "cloudy",
-      "value": 3,
+      "value": 18,
       "data": {
         "column": 33,
         "record": false,
@@ -357,27 +357,27 @@
     {
       "time": 26.28,
       "type": "cloudy",
-      "value": 18,
-      "data": {
-        "column": 34,
-        "record": false,
-        "streak": 0
-      }
-    },
-    {
-      "time": 27,
-      "type": "cloudy",
       "value": 28,
       "data": {
-        "column": 35,
+        "column": 34,
         "record": false,
         "streak": 3
       }
     },
     {
-      "time": 27.72,
+      "time": 27,
       "type": "cloudy",
       "value": 29,
+      "data": {
+        "column": 35,
+        "record": false,
+        "streak": 0
+      }
+    },
+    {
+      "time": 27.72,
+      "type": "rain",
+      "value": 0,
       "data": {
         "column": 36,
         "record": false,
@@ -386,162 +386,162 @@
     },
     {
       "time": 28.44,
-      "type": "rain",
-      "value": 0,
-      "data": {
-        "column": 37,
-        "record": false,
-        "streak": 0
-      }
-    },
-    {
-      "time": 29.16,
       "type": "cloudy",
       "value": 25,
       "data": {
-        "column": 38,
+        "column": 37,
         "record": false,
         "streak": 4
       }
     },
     {
-      "time": 29.88,
+      "time": 29.16,
       "type": "sunny",
       "value": 1083,
       "data": {
-        "column": 39,
+        "column": 38,
         "record": true,
         "streak": 6
       }
     },
     {
-      "time": 30.599999999999998,
+      "time": 29.88,
       "type": "sunny",
       "value": 444,
       "data": {
-        "column": 40,
+        "column": 39,
         "record": false,
         "streak": 13
       }
     },
     {
-      "time": 31.32,
+      "time": 30.599999999999998,
       "type": "sunny",
       "value": 1049,
       "data": {
-        "column": 41,
+        "column": 40,
         "record": false,
         "streak": 20
       }
     },
     {
-      "time": 32.04,
+      "time": 31.32,
       "type": "sunny",
       "value": 565,
       "data": {
-        "column": 42,
+        "column": 41,
         "record": false,
         "streak": 27
       }
     },
     {
-      "time": 32.76,
+      "time": 32.04,
       "type": "sunny",
       "value": 1611,
       "data": {
-        "column": 43,
+        "column": 42,
         "record": true,
         "streak": 34
       }
     },
     {
-      "time": 33.48,
+      "time": 32.76,
       "type": "sunny",
       "value": 1866,
       "data": {
-        "column": 44,
+        "column": 43,
         "record": true,
         "streak": 41
       }
     },
     {
-      "time": 34.199999999999996,
+      "time": 33.48,
       "type": "sunny",
       "value": 564,
       "data": {
-        "column": 45,
+        "column": 44,
         "record": false,
         "streak": 48
       }
     },
     {
-      "time": 34.919999999999995,
+      "time": 34.199999999999996,
       "type": "sunny",
       "value": 447,
       "data": {
-        "column": 46,
+        "column": 45,
         "record": false,
         "streak": 55
       }
     },
     {
-      "time": 35.63999999999999,
+      "time": 34.919999999999995,
       "type": "sunny",
       "value": 868,
       "data": {
-        "column": 47,
+        "column": 46,
         "record": false,
         "streak": 62
       }
     },
     {
-      "time": 36.36,
+      "time": 35.63999999999999,
       "type": "sunny",
       "value": 754,
       "data": {
-        "column": 48,
+        "column": 47,
         "record": false,
         "streak": 69
       }
     },
     {
-      "time": 37.08,
+      "time": 36.36,
       "type": "sunny",
       "value": 1184,
       "data": {
-        "column": 49,
+        "column": 48,
         "record": false,
         "streak": 76
       }
     },
     {
-      "time": 37.8,
+      "time": 37.08,
       "type": "sunny",
       "value": 626,
       "data": {
-        "column": 50,
+        "column": 49,
         "record": false,
         "streak": 83
       }
     },
     {
-      "time": 38.519999999999996,
+      "time": 37.8,
       "type": "sunny",
       "value": 1686,
       "data": {
-        "column": 51,
+        "column": 50,
         "record": false,
         "streak": 90
       }
     },
     {
+      "time": 38.519999999999996,
+      "type": "sunny",
+      "value": 1630,
+      "data": {
+        "column": 51,
+        "record": false,
+        "streak": 97
+      }
+    },
+    {
       "time": 39.239999999999995,
       "type": "sunny",
-      "value": 1514,
+      "value": 133,
       "data": {
         "column": 52,
         "record": false,
-        "streak": 97
+        "streak": 98
       }
     }
   ]

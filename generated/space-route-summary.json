@@ -1,19 +1,19 @@
 {
   "username": "N0zoM1z0",
   "id": "space-route",
-  "duration": 60.49000000000002,
+  "duration": 62.200000000000024,
   "metrics": {
     "planets": 53,
-    "stations": 32,
-    "refueled": 14601,
-    "fuelBurned": 31,
-    "fuelRemaining": 14570,
+    "stations": 33,
+    "refueled": 14850,
+    "fuelBurned": 32,
+    "fuelRemaining": 14818,
     "fuelPerJump": 1
   },
   "checkpoints": [
     1.4,
-    25.950000000000003,
-    58.49000000000002
+    26.800000000000004,
+    60.200000000000024
   ],
   "events": [
     {
@@ -21,7 +21,7 @@
       "type": "ship-launch",
       "date": "2025-11-02",
       "data": {
-        "column": 3
+        "column": 2
       }
     },
     {
@@ -30,7 +30,7 @@
       "date": "2025-11-02",
       "value": 1,
       "data": {
-        "column": 3,
+        "column": 2,
         "fuel": 1,
         "activeDays": 1
       }
@@ -41,8 +41,8 @@
       "date": "2025-11-02",
       "value": 1,
       "data": {
-        "from": 3,
-        "to": 17,
+        "from": 2,
+        "to": 16,
         "fuel": 0
       }
     },
@@ -52,7 +52,7 @@
       "date": "2025-11-09",
       "value": 0,
       "data": {
-        "column": 4,
+        "column": 3,
         "fuel": 0
       }
     },
@@ -62,7 +62,7 @@
       "date": "2025-11-16",
       "value": 0,
       "data": {
-        "column": 5,
+        "column": 4,
         "fuel": 0
       }
     },
@@ -72,7 +72,7 @@
       "date": "2025-11-23",
       "value": 0,
       "data": {
-        "column": 6,
+        "column": 5,
         "fuel": 0
       }
     },
@@ -82,7 +82,7 @@
       "date": "2025-11-30",
       "value": 0,
       "data": {
-        "column": 7,
+        "column": 6,
         "fuel": 0
       }
     },
@@ -92,7 +92,7 @@
       "date": "2025-12-07",
       "value": 0,
       "data": {
-        "column": 8,
+        "column": 7,
         "fuel": 0
       }
     },
@@ -102,7 +102,7 @@
       "date": "2025-12-14",
       "value": 0,
       "data": {
-        "column": 9,
+        "column": 8,
         "fuel": 0
       }
     },
@@ -112,7 +112,7 @@
       "date": "2025-12-21",
       "value": 0,
       "data": {
-        "column": 10,
+        "column": 9,
         "fuel": 0
       }
     },
@@ -122,7 +122,7 @@
       "date": "2025-12-28",
       "value": 0,
       "data": {
-        "column": 11,
+        "column": 10,
         "fuel": 0
       }
     },
@@ -132,7 +132,7 @@
       "date": "2026-01-04",
       "value": 0,
       "data": {
-        "column": 12,
+        "column": 11,
         "fuel": 0
       }
     },
@@ -142,7 +142,7 @@
       "date": "2026-01-11",
       "value": 0,
       "data": {
-        "column": 13,
+        "column": 12,
         "fuel": 0
       }
     },
@@ -152,7 +152,7 @@
       "date": "2026-01-18",
       "value": 0,
       "data": {
-        "column": 14,
+        "column": 13,
         "fuel": 0
       }
     },
@@ -162,7 +162,7 @@
       "date": "2026-01-25",
       "value": 0,
       "data": {
-        "column": 15,
+        "column": 14,
         "fuel": 0
       }
     },
@@ -172,7 +172,7 @@
       "date": "2026-02-01",
       "value": 0,
       "data": {
-        "column": 16,
+        "column": 15,
         "fuel": 0
       }
     },
@@ -182,7 +182,7 @@
       "date": "2026-02-08",
       "value": 1,
       "data": {
-        "column": 17,
+        "column": 16,
         "fuel": 0
       }
     },
@@ -192,7 +192,7 @@
       "date": "2026-02-08",
       "value": 1,
       "data": {
-        "column": 17,
+        "column": 16,
         "fuel": 1,
         "activeDays": 1
       }
@@ -203,8 +203,8 @@
       "date": "2026-02-08",
       "value": 1,
       "data": {
-        "from": 17,
-        "to": 18,
+        "from": 16,
+        "to": 17,
         "fuel": 0
       }
     },
@@ -214,7 +214,7 @@
       "date": "2026-02-15",
       "value": 3,
       "data": {
-        "column": 18,
+        "column": 17,
         "fuel": 0
       }
     },
@@ -224,7 +224,7 @@
       "date": "2026-02-15",
       "value": 3,
       "data": {
-        "column": 18,
+        "column": 17,
         "fuel": 3,
         "activeDays": 2
       }
@@ -235,8 +235,8 @@
       "date": "2026-02-15",
       "value": 1,
       "data": {
-        "from": 18,
-        "to": 19,
+        "from": 17,
+        "to": 18,
         "fuel": 2
       }
     },
@@ -246,7 +246,7 @@
       "date": "2026-02-22",
       "value": 2,
       "data": {
-        "column": 19,
+        "column": 18,
         "fuel": 2
       }
     },
@@ -256,7 +256,7 @@
       "date": "2026-02-22",
       "value": 2,
       "data": {
-        "column": 19,
+        "column": 18,
         "fuel": 4,
         "activeDays": 2
       }
@@ -267,8 +267,8 @@
       "date": "2026-02-22",
       "value": 1,
       "data": {
-        "from": 19,
-        "to": 21,
+        "from": 18,
+        "to": 20,
         "fuel": 3
       }
     },
@@ -278,7 +278,7 @@
       "date": "2026-03-01",
       "value": 0,
       "data": {
-        "column": 20,
+        "column": 19,
         "fuel": 3
       }
     },
@@ -288,7 +288,7 @@
       "date": "2026-03-08",
       "value": 24,
       "data": {
-        "column": 21,
+        "column": 20,
         "fuel": 3
       }
     },
@@ -298,7 +298,7 @@
       "date": "2026-03-08",
       "value": 24,
       "data": {
-        "column": 21,
+        "column": 20,
         "fuel": 27,
         "activeDays": 2
       }
@@ -309,8 +309,8 @@
       "date": "2026-03-08",
       "value": 1,
       "data": {
-        "from": 21,
-        "to": 24,
+        "from": 20,
+        "to": 23,
         "fuel": 26
       }
     },
@@ -320,7 +320,7 @@
       "date": "2026-03-15",
       "value": 0,
       "data": {
-        "column": 22,
+        "column": 21,
         "fuel": 26
       }
     },
@@ -330,7 +330,7 @@
       "date": "2026-03-22",
       "value": 0,
       "data": {
-        "column": 23,
+        "column": 22,
         "fuel": 26
       }
     },
@@ -340,7 +340,7 @@
       "date": "2026-03-29",
       "value": 1,
       "data": {
-        "column": 24,
+        "column": 23,
         "fuel": 26
       }
     },
@@ -350,7 +350,7 @@
       "date": "2026-03-29",
       "value": 1,
       "data": {
-        "column": 24,
+        "column": 23,
         "fuel": 27,
         "activeDays": 1
       }
@@ -361,8 +361,8 @@
       "date": "2026-03-29",
       "value": 1,
       "data": {
-        "from": 24,
-        "to": 26,
+        "from": 23,
+        "to": 25,
         "fuel": 26
       }
     },
@@ -372,7 +372,7 @@
       "date": "2026-04-05",
       "value": 0,
       "data": {
-        "column": 25,
+        "column": 24,
         "fuel": 26
       }
     },
@@ -382,7 +382,7 @@
       "date": "2026-04-12",
       "value": 8,
       "data": {
-        "column": 26,
+        "column": 25,
         "fuel": 26
       }
     },
@@ -392,7 +392,7 @@
       "date": "2026-04-12",
       "value": 8,
       "data": {
-        "column": 26,
+        "column": 25,
         "fuel": 34,
         "activeDays": 2
       }
@@ -403,8 +403,8 @@
       "date": "2026-04-12",
       "value": 1,
       "data": {
-        "from": 26,
-        "to": 27,
+        "from": 25,
+        "to": 26,
         "fuel": 33
       }
     },
@@ -414,7 +414,7 @@
       "date": "2026-04-19",
       "value": 31,
       "data": {
-        "column": 27,
+        "column": 26,
         "fuel": 33
       }
     },
@@ -424,7 +424,7 @@
       "date": "2026-04-19",
       "value": 31,
       "data": {
-        "column": 27,
+        "column": 26,
         "fuel": 64,
         "activeDays": 5
       }
@@ -435,8 +435,8 @@
       "date": "2026-04-19",
       "value": 1,
       "data": {
-        "from": 27,
-        "to": 28,
+        "from": 26,
+        "to": 27,
         "fuel": 63
       }
     },
@@ -446,7 +446,7 @@
       "date": "2026-04-26",
       "value": 33,
       "data": {
-        "column": 28,
+        "column": 27,
         "fuel": 63
       }
     },
@@ -456,7 +456,7 @@
       "date": "2026-04-26",
       "value": 33,
       "data": {
-        "column": 28,
+        "column": 27,
         "fuel": 96,
         "activeDays": 4
       }
@@ -467,8 +467,8 @@
       "date": "2026-04-26",
       "value": 1,
       "data": {
-        "from": 28,
-        "to": 29,
+        "from": 27,
+        "to": 28,
         "fuel": 95
       }
     },
@@ -478,7 +478,7 @@
       "date": "2026-05-03",
       "value": 40,
       "data": {
-        "column": 29,
+        "column": 28,
         "fuel": 95
       }
     },
@@ -488,7 +488,7 @@
       "date": "2026-05-03",
       "value": 40,
       "data": {
-        "column": 29,
+        "column": 28,
         "fuel": 135,
         "activeDays": 3
       }
@@ -499,8 +499,8 @@
       "date": "2026-05-03",
       "value": 1,
       "data": {
-        "from": 29,
-        "to": 30,
+        "from": 28,
+        "to": 29,
         "fuel": 134
       }
     },
@@ -510,7 +510,7 @@
       "date": "2026-05-10",
       "value": 3,
       "data": {
-        "column": 30,
+        "column": 29,
         "fuel": 134
       }
     },
@@ -520,7 +520,7 @@
       "date": "2026-05-10",
       "value": 3,
       "data": {
-        "column": 30,
+        "column": 29,
         "fuel": 137,
         "activeDays": 3
       }
@@ -531,8 +531,8 @@
       "date": "2026-05-10",
       "value": 1,
       "data": {
-        "from": 30,
-        "to": 31,
+        "from": 29,
+        "to": 30,
         "fuel": 136
       }
     },
@@ -542,7 +542,7 @@
       "date": "2026-05-17",
       "value": 11,
       "data": {
-        "column": 31,
+        "column": 30,
         "fuel": 136
       }
     },
@@ -552,7 +552,7 @@
       "date": "2026-05-17",
       "value": 11,
       "data": {
-        "column": 31,
+        "column": 30,
         "fuel": 147,
         "activeDays": 4
       }
@@ -563,8 +563,8 @@
       "date": "2026-05-17",
       "value": 1,
       "data": {
-        "from": 31,
-        "to": 32,
+        "from": 30,
+        "to": 31,
         "fuel": 146
       }
     },
@@ -574,7 +574,7 @@
       "date": "2026-05-24",
       "value": 79,
       "data": {
-        "column": 32,
+        "column": 31,
         "fuel": 146
       }
     },
@@ -584,7 +584,7 @@
       "date": "2026-05-24",
       "value": 79,
       "data": {
-        "column": 32,
+        "column": 31,
         "fuel": 225,
         "activeDays": 3
       }
@@ -595,8 +595,8 @@
       "date": "2026-05-24",
       "value": 1,
       "data": {
-        "from": 32,
-        "to": 33,
+        "from": 31,
+        "to": 32,
         "fuel": 224
       }
     },
@@ -606,7 +606,7 @@
       "date": "2026-05-31",
       "value": 3,
       "data": {
-        "column": 33,
+        "column": 32,
         "fuel": 224
       }
     },
@@ -616,7 +616,7 @@
       "date": "2026-05-31",
       "value": 3,
       "data": {
-        "column": 33,
+        "column": 32,
         "fuel": 227,
         "activeDays": 1
       }
@@ -627,8 +627,8 @@
       "date": "2026-05-31",
       "value": 1,
       "data": {
-        "from": 33,
-        "to": 34,
+        "from": 32,
+        "to": 33,
         "fuel": 226
       }
     },
@@ -638,7 +638,7 @@
       "date": "2026-06-07",
       "value": 18,
       "data": {
-        "column": 34,
+        "column": 33,
         "fuel": 226
       }
     },
@@ -648,7 +648,7 @@
       "date": "2026-06-07",
       "value": 18,
       "data": {
-        "column": 34,
+        "column": 33,
         "fuel": 244,
         "activeDays": 1
       }
@@ -659,8 +659,8 @@
       "date": "2026-06-07",
       "value": 1,
       "data": {
-        "from": 34,
-        "to": 35,
+        "from": 33,
+        "to": 34,
         "fuel": 243
       }
     },
@@ -670,7 +670,7 @@
       "date": "2026-06-14",
       "value": 28,
       "data": {
-        "column": 35,
+        "column": 34,
         "fuel": 243
       }
     },
@@ -680,7 +680,7 @@
       "date": "2026-06-14",
       "value": 28,
       "data": {
-        "column": 35,
+        "column": 34,
         "fuel": 271,
         "activeDays": 4
       }
@@ -691,8 +691,8 @@
       "date": "2026-06-14",
       "value": 1,
       "data": {
-        "from": 35,
-        "to": 36,
+        "from": 34,
+        "to": 35,
         "fuel": 270
       }
     },
@@ -702,7 +702,7 @@
       "date": "2026-06-21",
       "value": 29,
       "data": {
-        "column": 36,
+        "column": 35,
         "fuel": 270
       }
     },
@@ -712,7 +712,7 @@
       "date": "2026-06-21",
       "value": 29,
       "data": {
-        "column": 36,
+        "column": 35,
         "fuel": 299,
         "activeDays": 1
       }
@@ -723,8 +723,8 @@
       "date": "2026-06-21",
       "value": 1,
       "data": {
-        "from": 36,
-        "to": 38,
+        "from": 35,
+        "to": 37,
         "fuel": 298
       }
     },
@@ -734,7 +734,7 @@
       "date": "2026-06-28",
       "value": 0,
       "data": {
-        "column": 37,
+        "column": 36,
         "fuel": 298
       }
     },
@@ -744,7 +744,7 @@
       "date": "2026-07-05",
       "value": 25,
       "data": {
-        "column": 38,
+        "column": 37,
         "fuel": 298
       }
     },
@@ -754,7 +754,7 @@
       "date": "2026-07-05",
       "value": 25,
       "data": {
-        "column": 38,
+        "column": 37,
         "fuel": 323,
         "activeDays": 4
       }
@@ -765,8 +765,8 @@
       "date": "2026-07-05",
       "value": 1,
       "data": {
-        "from": 38,
-        "to": 39,
+        "from": 37,
+        "to": 38,
         "fuel": 322
       }
     },
@@ -776,7 +776,7 @@
       "date": "2026-07-12",
       "value": 1083,
       "data": {
-        "column": 39,
+        "column": 38,
         "fuel": 322
       }
     },
@@ -786,7 +786,7 @@
       "date": "2026-07-12",
       "value": 1083,
       "data": {
-        "column": 39,
+        "column": 38,
         "fuel": 1405,
         "activeDays": 6
       }
@@ -797,8 +797,8 @@
       "date": "2026-07-12",
       "value": 1,
       "data": {
-        "from": 39,
-        "to": 40,
+        "from": 38,
+        "to": 39,
         "fuel": 1404
       }
     },
@@ -808,7 +808,7 @@
       "date": "2026-07-19",
       "value": 444,
       "data": {
-        "column": 40,
+        "column": 39,
         "fuel": 1404
       }
     },
@@ -818,7 +818,7 @@
       "date": "2026-07-19",
       "value": 444,
       "data": {
-        "column": 40,
+        "column": 39,
         "fuel": 1848,
         "activeDays": 7
       }
@@ -829,8 +829,8 @@
       "date": "2026-07-19",
       "value": 1,
       "data": {
-        "from": 40,
-        "to": 41,
+        "from": 39,
+        "to": 40,
         "fuel": 1847
       }
     },
@@ -840,7 +840,7 @@
       "date": "2026-07-26",
       "value": 1049,
       "data": {
-        "column": 41,
+        "column": 40,
         "fuel": 1847
       }
     },
@@ -850,7 +850,7 @@
       "date": "2026-07-26",
       "value": 1049,
       "data": {
-        "column": 41,
+        "column": 40,
         "fuel": 2896,
         "activeDays": 7
       }
@@ -861,8 +861,8 @@
       "date": "2026-07-26",
       "value": 1,
       "data": {
-        "from": 41,
-        "to": 42,
+        "from": 40,
+        "to": 41,
         "fuel": 2895
       }
     },
@@ -872,7 +872,7 @@
       "date": "2026-08-02",
       "value": 565,
       "data": {
-        "column": 42,
+        "column": 41,
         "fuel": 2895
       }
     },
@@ -882,7 +882,7 @@
       "date": "2026-08-02",
       "value": 565,
       "data": {
-        "column": 42,
+        "column": 41,
         "fuel": 3460,
         "activeDays": 7
       }
@@ -893,8 +893,8 @@
       "date": "2026-08-02",
       "value": 1,
       "data": {
-        "from": 42,
-        "to": 43,
+        "from": 41,
+        "to": 42,
         "fuel": 3459
       }
     },
@@ -904,7 +904,7 @@
       "date": "2026-08-09",
       "value": 1611,
       "data": {
-        "column": 43,
+        "column": 42,
         "fuel": 3459
       }
     },
@@ -914,7 +914,7 @@
       "date": "2026-08-09",
       "value": 1611,
       "data": {
-        "column": 43,
+        "column": 42,
         "fuel": 5070,
         "activeDays": 7
       }
@@ -925,8 +925,8 @@
       "date": "2026-08-09",
       "value": 1,
       "data": {
-        "from": 43,
-        "to": 44,
+        "from": 42,
+        "to": 43,
         "fuel": 5069
       }
     },
@@ -936,7 +936,7 @@
       "date": "2026-08-16",
       "value": 1866,
       "data": {
-        "column": 44,
+        "column": 43,
         "fuel": 5069
       }
     },
@@ -946,7 +946,7 @@
       "date": "2026-08-16",
       "value": 1866,
       "data": {
-        "column": 44,
+        "column": 43,
         "fuel": 6935,
         "activeDays": 7
       }
@@ -957,8 +957,8 @@
       "date": "2026-08-16",
       "value": 1,
       "data": {
-        "from": 44,
-        "to": 45,
+        "from": 43,
+        "to": 44,
         "fuel": 6934
       }
     },
@@ -968,7 +968,7 @@
       "date": "2026-08-23",
       "value": 564,
       "data": {
-        "column": 45,
+        "column": 44,
         "fuel": 6934
       }
     },
@@ -978,7 +978,7 @@
       "date": "2026-08-23",
       "value": 564,
       "data": {
-        "column": 45,
+        "column": 44,
         "fuel": 7498,
         "activeDays": 7
       }
@@ -989,8 +989,8 @@
       "date": "2026-08-23",
       "value": 1,
       "data": {
-        "from": 45,
-        "to": 46,
+        "from": 44,
+        "to": 45,
         "fuel": 7497
       }
     },
@@ -1000,7 +1000,7 @@
       "date": "2026-08-30",
       "value": 447,
       "data": {
-        "column": 46,
+        "column": 45,
         "fuel": 7497
       }
     },
@@ -1010,7 +1010,7 @@
       "date": "2026-08-30",
       "value": 447,
       "data": {
-        "column": 46,
+        "column": 45,
         "fuel": 7944,
         "activeDays": 7
       }
@@ -1021,8 +1021,8 @@
       "date": "2026-08-30",
       "value": 1,
       "data": {
-        "from": 46,
-        "to": 47,
+        "from": 45,
+        "to": 46,
         "fuel": 7943
       }
     },
@@ -1032,7 +1032,7 @@
       "date": "2026-09-06",
       "value": 868,
       "data": {
-        "column": 47,
+        "column": 46,
         "fuel": 7943
       }
     },
@@ -1042,7 +1042,7 @@
       "date": "2026-09-06",
       "value": 868,
       "data": {
-        "column": 47,
+        "column": 46,
         "fuel": 8811,
         "activeDays": 7
       }
@@ -1053,8 +1053,8 @@
       "date": "2026-09-06",
       "value": 1,
       "data": {
-        "from": 47,
-        "to": 48,
+        "from": 46,
+        "to": 47,
         "fuel": 8810
       }
     },
@@ -1064,7 +1064,7 @@
       "date": "2026-09-13",
       "value": 754,
       "data": {
-        "column": 48,
+        "column": 47,
         "fuel": 8810
       }
     },
@@ -1074,7 +1074,7 @@
       "date": "2026-09-13",
       "value": 754,
       "data": {
-        "column": 48,
+        "column": 47,
         "fuel": 9564,
         "activeDays": 7
       }
@@ -1085,8 +1085,8 @@
       "date": "2026-09-13",
       "value": 1,
       "data": {
-        "from": 48,
-        "to": 49,
+        "from": 47,
+        "to": 48,
         "fuel": 9563
       }
     },
@@ -1096,7 +1096,7 @@
       "date": "2026-09-20",
       "value": 1184,
       "data": {
-        "column": 49,
+        "column": 48,
         "fuel": 9563
       }
     },
@@ -1106,7 +1106,7 @@
       "date": "2026-09-20",
       "value": 1184,
       "data": {
-        "column": 49,
+        "column": 48,
         "fuel": 10747,
         "activeDays": 7
       }
@@ -1117,8 +1117,8 @@
       "date": "2026-09-20",
       "value": 1,
       "data": {
-        "from": 49,
-        "to": 50,
+        "from": 48,
+        "to": 49,
         "fuel": 10746
       }
     },
@@ -1128,7 +1128,7 @@
       "date": "2026-09-27",
       "value": 626,
       "data": {
-        "column": 50,
+        "column": 49,
         "fuel": 10746
       }
     },
@@ -1138,7 +1138,7 @@
       "date": "2026-09-27",
       "value": 626,
       "data": {
-        "column": 50,
+        "column": 49,
         "fuel": 11372,
         "activeDays": 7
       }
@@ -1149,8 +1149,8 @@
       "date": "2026-09-27",
       "value": 1,
       "data": {
-        "from": 50,
-        "to": 51,
+        "from": 49,
+        "to": 50,
         "fuel": 11371
       }
     },
@@ -1160,7 +1160,7 @@
       "date": "2026-10-04",
       "value": 1686,
       "data": {
-        "column": 51,
+        "column": 50,
         "fuel": 11371
       }
     },
@@ -1170,7 +1170,7 @@
       "date": "2026-10-04",
       "value": 1686,
       "data": {
-        "column": 51,
+        "column": 50,
         "fuel": 13057,
         "activeDays": 7
       }
@@ -1181,8 +1181,8 @@
       "date": "2026-10-04",
       "value": 1,
       "data": {
-        "from": 51,
-        "to": 52,
+        "from": 50,
+        "to": 51,
         "fuel": 13056
       }
     },
@@ -1190,9 +1190,9 @@
       "time": 56.89000000000002,
       "type": "planet-arrive",
       "date": "2026-10-11",
-      "value": 1514,
+      "value": 1630,
       "data": {
-        "column": 52,
+        "column": 51,
         "fuel": 13056
       }
     },
@@ -1200,11 +1200,43 @@
       "time": 56.89000000000002,
       "type": "station-refuel",
       "date": "2026-10-11",
-      "value": 1514,
+      "value": 1630,
+      "data": {
+        "column": 51,
+        "fuel": 14686,
+        "activeDays": 7
+      }
+    },
+    {
+      "time": 57.74000000000002,
+      "type": "jump-depart",
+      "date": "2026-10-11",
+      "value": 1,
+      "data": {
+        "from": 51,
+        "to": 52,
+        "fuel": 14685
+      }
+    },
+    {
+      "time": 58.60000000000002,
+      "type": "planet-arrive",
+      "date": "2026-10-18",
+      "value": 133,
       "data": {
         "column": 52,
-        "fuel": 14570,
-        "activeDays": 7
+        "fuel": 14685
+      }
+    },
+    {
+      "time": 58.60000000000002,
+      "type": "station-refuel",
+      "date": "2026-10-18",
+      "value": 133,
+      "data": {
+        "column": 52,
+        "fuel": 14818,
+        "activeDays": 1
       }
     }
   ]
