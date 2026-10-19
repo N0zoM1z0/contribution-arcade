@@ -1,13 +1,13 @@
 {
   "username": "N0zoM1z0",
   "id": "dungeon",
-  "duration": 65.38499999999974,
+  "duration": 65.16499999999974,
   "metrics": {
-    "rooms": 142,
-    "collectedRooms": 142,
-    "loot": 14850,
-    "revealed": 309,
-    "steps": 1047,
+    "rooms": 143,
+    "collectedRooms": 143,
+    "loot": 15003,
+    "revealed": 310,
+    "steps": 1043,
     "guardianHealth": 482,
     "finalEncounter": 1,
     "ordering": "count-ascending",
@@ -15,8 +15,8 @@
   },
   "checkpoints": [
     1.4,
-    35.33999999999985,
-    59.584999999999724
+    35.22999999999985,
+    59.364999999999725
   ],
   "events": [
     {
@@ -3168,84 +3168,156 @@
       "time": 10.039999999999974,
       "type": "fog-reveal",
       "data": {
+        "column": 46,
+        "row": 4
+      }
+    },
+    {
+      "time": 10.039999999999974,
+      "type": "fog-reveal",
+      "data": {
         "column": 44,
         "row": 4
       }
     },
     {
       "time": 10.039999999999974,
+      "type": "fog-reveal",
+      "data": {
+        "column": 45,
+        "row": 3
+      }
+    },
+    {
+      "time": 10.039999999999974,
+      "type": "room-enter",
+      "data": {
+        "column": 45,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 10.094999999999974,
+      "type": "fog-reveal",
+      "data": {
+        "column": 46,
+        "row": 3
+      }
+    },
+    {
+      "time": 10.094999999999974,
+      "type": "fog-reveal",
+      "data": {
+        "column": 44,
+        "row": 3
+      }
+    },
+    {
+      "time": 10.094999999999974,
+      "type": "fog-reveal",
+      "data": {
+        "column": 45,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.094999999999974,
+      "type": "room-enter",
+      "data": {
+        "column": 45,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 10.149999999999974,
+      "type": "fog-reveal",
+      "data": {
+        "column": 46,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.149999999999974,
+      "type": "fog-reveal",
+      "data": {
+        "column": 44,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.149999999999974,
+      "type": "fog-reveal",
+      "data": {
+        "column": 45,
+        "row": 1
+      }
+    },
+    {
+      "time": 10.149999999999974,
+      "type": "room-enter",
+      "data": {
+        "column": 45,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 10.204999999999973,
+      "type": "fog-reveal",
+      "data": {
+        "column": 46,
+        "row": 1
+      }
+    },
+    {
+      "time": 10.204999999999973,
+      "type": "fog-reveal",
+      "data": {
+        "column": 44,
+        "row": 1
+      }
+    },
+    {
+      "time": 10.204999999999973,
+      "type": "fog-reveal",
+      "data": {
+        "column": 45,
+        "row": 0
+      }
+    },
+    {
+      "time": 10.204999999999973,
+      "type": "room-enter",
+      "data": {
+        "column": 45,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 10.259999999999973,
+      "type": "fog-reveal",
+      "data": {
+        "column": 43,
+        "row": 1
+      }
+    },
+    {
+      "time": 10.259999999999973,
+      "type": "fog-reveal",
+      "data": {
+        "column": 44,
+        "row": 0
+      }
+    },
+    {
+      "time": 10.259999999999973,
       "type": "room-enter",
       "data": {
         "column": 44,
-        "row": 5,
-        "active": true
-      }
-    },
-    {
-      "time": 10.094999999999974,
-      "type": "fog-reveal",
-      "data": {
-        "column": 43,
-        "row": 4
-      }
-    },
-    {
-      "time": 10.094999999999974,
-      "type": "room-enter",
-      "data": {
-        "column": 43,
-        "row": 5,
-        "active": true
-      }
-    },
-    {
-      "time": 10.149999999999974,
-      "type": "fog-reveal",
-      "data": {
-        "column": 42,
-        "row": 4
-      }
-    },
-    {
-      "time": 10.149999999999974,
-      "type": "room-enter",
-      "data": {
-        "column": 42,
-        "row": 5,
-        "active": true
-      }
-    },
-    {
-      "time": 10.204999999999973,
-      "type": "fog-reveal",
-      "data": {
-        "column": 41,
-        "row": 4
-      }
-    },
-    {
-      "time": 10.204999999999973,
-      "type": "room-enter",
-      "data": {
-        "column": 41,
-        "row": 5,
-        "active": true
-      }
-    },
-    {
-      "time": 10.259999999999973,
-      "type": "fog-reveal",
-      "data": {
-        "column": 40,
-        "row": 4
-      }
-    },
-    {
-      "time": 10.259999999999973,
-      "type": "room-enter",
-      "data": {
-        "column": 40,
-        "row": 5,
+        "row": 1,
         "active": true
       }
     },
@@ -3253,52 +3325,165 @@
       "time": 10.314999999999973,
       "type": "fog-reveal",
       "data": {
-        "column": 39,
-        "row": 4
+        "column": 42,
+        "row": 1
+      }
+    },
+    {
+      "time": 10.314999999999973,
+      "type": "fog-reveal",
+      "data": {
+        "column": 43,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.314999999999973,
+      "type": "fog-reveal",
+      "data": {
+        "column": 43,
+        "row": 0
       }
     },
     {
       "time": 10.314999999999973,
       "type": "room-enter",
       "data": {
-        "column": 39,
-        "row": 5,
+        "column": 43,
+        "row": 1,
         "active": true
+      }
+    },
+    {
+      "time": 10.369999999999973,
+      "type": "fog-reveal",
+      "data": {
+        "column": 41,
+        "row": 1
+      }
+    },
+    {
+      "time": 10.369999999999973,
+      "type": "fog-reveal",
+      "data": {
+        "column": 42,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.369999999999973,
+      "type": "fog-reveal",
+      "data": {
+        "column": 42,
+        "row": 0
       }
     },
     {
       "time": 10.369999999999973,
       "type": "room-enter",
       "data": {
-        "column": 38,
-        "row": 5,
+        "column": 42,
+        "row": 1,
         "active": true
       }
     },
     {
       "time": 10.424999999999972,
-      "type": "room-loot",
-      "date": "2026-07-10",
-      "value": 7,
+      "type": "fog-reveal",
       "data": {
-        "column": 37,
-        "row": 5
+        "column": 40,
+        "row": 1
       }
     },
     {
-      "time": 10.589999999999971,
+      "time": 10.424999999999972,
+      "type": "fog-reveal",
+      "data": {
+        "column": 41,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.424999999999972,
+      "type": "fog-reveal",
+      "data": {
+        "column": 41,
+        "row": 0
+      }
+    },
+    {
+      "time": 10.424999999999972,
+      "type": "room-enter",
+      "data": {
+        "column": 41,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 10.479999999999972,
+      "type": "fog-reveal",
+      "data": {
+        "column": 39,
+        "row": 1
+      }
+    },
+    {
+      "time": 10.479999999999972,
+      "type": "fog-reveal",
+      "data": {
+        "column": 40,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.479999999999972,
+      "type": "fog-reveal",
+      "data": {
+        "column": 40,
+        "row": 0
+      }
+    },
+    {
+      "time": 10.479999999999972,
+      "type": "room-enter",
+      "data": {
+        "column": 40,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 10.534999999999972,
       "type": "fog-reveal",
       "data": {
         "column": 38,
+        "row": 1
+      }
+    },
+    {
+      "time": 10.534999999999972,
+      "type": "fog-reveal",
+      "data": {
+        "column": 39,
         "row": 2
       }
     },
     {
-      "time": 10.589999999999971,
+      "time": 10.534999999999972,
       "type": "fog-reveal",
       "data": {
-        "column": 36,
-        "row": 2
+        "column": 39,
+        "row": 0
+      }
+    },
+    {
+      "time": 10.534999999999972,
+      "type": "room-enter",
+      "data": {
+        "column": 39,
+        "row": 1,
+        "active": true
       }
     },
     {
@@ -3307,23 +3492,31 @@
       "data": {
         "column": 37,
         "row": 1
+      }
+    },
+    {
+      "time": 10.589999999999971,
+      "type": "fog-reveal",
+      "data": {
+        "column": 38,
+        "row": 2
+      }
+    },
+    {
+      "time": 10.589999999999971,
+      "type": "fog-reveal",
+      "data": {
+        "column": 38,
+        "row": 0
       }
     },
     {
       "time": 10.589999999999971,
       "type": "room-enter",
       "data": {
-        "column": 37,
-        "row": 2,
-        "active": false
-      }
-    },
-    {
-      "time": 10.644999999999971,
-      "type": "fog-reveal",
-      "data": {
         "column": 38,
-        "row": 1
+        "row": 1,
+        "active": true
       }
     },
     {
@@ -3349,6 +3542,14 @@
         "column": 37,
         "row": 1,
         "active": false
+      }
+    },
+    {
+      "time": 10.69999999999997,
+      "type": "fog-reveal",
+      "data": {
+        "column": 36,
+        "row": 2
       }
     },
     {
@@ -3399,7 +3600,7 @@
       "time": 11.02999999999997,
       "type": "room-loot",
       "date": "2026-05-18",
-      "value": 7,
+      "value": 6,
       "data": {
         "column": 30,
         "row": 1
@@ -3407,31 +3608,77 @@
     },
     {
       "time": 11.469999999999967,
-      "type": "fog-reveal",
+      "type": "room-enter",
       "data": {
-        "column": 39,
-        "row": 1
+        "column": 37,
+        "row": 2,
+        "active": false
       }
     },
     {
-      "time": 11.469999999999967,
-      "type": "fog-reveal",
+      "time": 11.634999999999966,
+      "type": "room-loot",
+      "date": "2026-07-10",
+      "value": 7,
       "data": {
-        "column": 38,
-        "row": 0
+        "column": 37,
+        "row": 5
       }
     },
     {
-      "time": 11.469999999999967,
+      "time": 11.689999999999966,
       "type": "room-enter",
       "data": {
         "column": 38,
-        "row": 1,
+        "row": 5,
         "active": true
       }
     },
     {
-      "time": 11.469999999999967,
+      "time": 11.744999999999965,
+      "type": "fog-reveal",
+      "data": {
+        "column": 39,
+        "row": 4
+      }
+    },
+    {
+      "time": 11.744999999999965,
+      "type": "room-enter",
+      "data": {
+        "column": 38,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 11.799999999999965,
+      "type": "fog-reveal",
+      "data": {
+        "column": 39,
+        "row": 3
+      }
+    },
+    {
+      "time": 11.799999999999965,
+      "type": "room-enter",
+      "data": {
+        "column": 38,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 11.854999999999965,
+      "type": "room-enter",
+      "data": {
+        "column": 38,
+        "row": 2,
+        "active": true
+      }
+    },
+    {
+      "time": 11.909999999999965,
       "type": "room-loot",
       "date": "2026-07-13",
       "value": 8,
@@ -3441,7 +3688,7 @@
       }
     },
     {
-      "time": 12.349999999999962,
+      "time": 12.78999999999996,
       "type": "fog-reveal",
       "data": {
         "column": 22,
@@ -3449,7 +3696,7 @@
       }
     },
     {
-      "time": 12.349999999999962,
+      "time": 12.78999999999996,
       "type": "room-enter",
       "data": {
         "column": 22,
@@ -3458,7 +3705,7 @@
       }
     },
     {
-      "time": 12.404999999999962,
+      "time": 12.84499999999996,
       "type": "fog-reveal",
       "data": {
         "column": 21,
@@ -3466,7 +3713,7 @@
       }
     },
     {
-      "time": 12.404999999999962,
+      "time": 12.84499999999996,
       "type": "room-enter",
       "data": {
         "column": 21,
@@ -3475,7 +3722,7 @@
       }
     },
     {
-      "time": 12.459999999999962,
+      "time": 12.89999999999996,
       "type": "fog-reveal",
       "data": {
         "column": 20,
@@ -3483,7 +3730,7 @@
       }
     },
     {
-      "time": 12.459999999999962,
+      "time": 12.89999999999996,
       "type": "room-enter",
       "data": {
         "column": 20,
@@ -3492,7 +3739,7 @@
       }
     },
     {
-      "time": 12.569999999999961,
+      "time": 13.009999999999959,
       "type": "room-enter",
       "data": {
         "column": 20,
@@ -3501,7 +3748,7 @@
       }
     },
     {
-      "time": 12.624999999999961,
+      "time": 13.064999999999959,
       "type": "room-enter",
       "data": {
         "column": 20,
@@ -3510,7 +3757,7 @@
       }
     },
     {
-      "time": 12.73499999999996,
+      "time": 13.174999999999958,
       "type": "room-enter",
       "data": {
         "column": 20,
@@ -3519,7 +3766,7 @@
       }
     },
     {
-      "time": 12.73499999999996,
+      "time": 13.174999999999958,
       "type": "room-loot",
       "date": "2026-03-14",
       "value": 8,
@@ -3529,7 +3776,7 @@
       }
     },
     {
-      "time": 12.78999999999996,
+      "time": 13.229999999999958,
       "type": "room-enter",
       "data": {
         "column": 21,
@@ -3538,7 +3785,7 @@
       }
     },
     {
-      "time": 12.84499999999996,
+      "time": 13.284999999999958,
       "type": "room-enter",
       "data": {
         "column": 22,
@@ -3547,7 +3794,7 @@
       }
     },
     {
-      "time": 12.89999999999996,
+      "time": 13.339999999999957,
       "type": "room-enter",
       "data": {
         "column": 23,
@@ -3556,7 +3803,7 @@
       }
     },
     {
-      "time": 12.95499999999996,
+      "time": 13.394999999999957,
       "type": "room-enter",
       "data": {
         "column": 24,
@@ -3565,7 +3812,7 @@
       }
     },
     {
-      "time": 13.779999999999955,
+      "time": 14.219999999999953,
       "type": "room-loot",
       "date": "2026-07-09",
       "value": 10,
@@ -3575,7 +3822,7 @@
       }
     },
     {
-      "time": 13.999999999999954,
+      "time": 14.439999999999952,
       "type": "room-loot",
       "date": "2026-06-19",
       "value": 11,
@@ -3585,7 +3832,7 @@
       }
     },
     {
-      "time": 14.274999999999952,
+      "time": 14.71499999999995,
       "type": "room-loot",
       "date": "2026-06-14",
       "value": 11,
@@ -3595,7 +3842,7 @@
       }
     },
     {
-      "time": 14.71499999999995,
+      "time": 15.154999999999948,
       "type": "room-loot",
       "date": "2026-04-27",
       "value": 12,
@@ -3605,7 +3852,7 @@
       }
     },
     {
-      "time": 14.87999999999995,
+      "time": 15.319999999999947,
       "type": "room-enter",
       "data": {
         "column": 26,
@@ -3614,7 +3861,7 @@
       }
     },
     {
-      "time": 14.934999999999949,
+      "time": 15.374999999999947,
       "type": "room-loot",
       "date": "2026-04-23",
       "value": 12,
@@ -3624,7 +3871,7 @@
       }
     },
     {
-      "time": 14.989999999999949,
+      "time": 15.429999999999946,
       "type": "room-loot",
       "date": "2026-04-22",
       "value": 13,
@@ -3634,7 +3881,7 @@
       }
     },
     {
-      "time": 15.044999999999948,
+      "time": 15.484999999999946,
       "type": "room-enter",
       "data": {
         "column": 27,
@@ -3643,7 +3890,7 @@
       }
     },
     {
-      "time": 15.209999999999948,
+      "time": 15.649999999999945,
       "type": "room-enter",
       "data": {
         "column": 30,
@@ -3652,7 +3899,7 @@
       }
     },
     {
-      "time": 15.264999999999947,
+      "time": 15.704999999999945,
       "type": "room-enter",
       "data": {
         "column": 31,
@@ -3661,7 +3908,7 @@
       }
     },
     {
-      "time": 15.319999999999947,
+      "time": 15.759999999999945,
       "type": "room-enter",
       "data": {
         "column": 32,
@@ -3670,7 +3917,7 @@
       }
     },
     {
-      "time": 15.374999999999947,
+      "time": 15.814999999999944,
       "type": "room-enter",
       "data": {
         "column": 33,
@@ -3679,7 +3926,7 @@
       }
     },
     {
-      "time": 15.484999999999946,
+      "time": 15.924999999999944,
       "type": "room-enter",
       "data": {
         "column": 35,
@@ -3688,7 +3935,7 @@
       }
     },
     {
-      "time": 15.539999999999946,
+      "time": 15.979999999999944,
       "type": "room-enter",
       "data": {
         "column": 36,
@@ -3697,24 +3944,7 @@
       }
     },
     {
-      "time": 15.649999999999945,
-      "type": "fog-reveal",
-      "data": {
-        "column": 39,
-        "row": 3
-      }
-    },
-    {
-      "time": 15.649999999999945,
-      "type": "room-enter",
-      "data": {
-        "column": 38,
-        "row": 3,
-        "active": true
-      }
-    },
-    {
-      "time": 15.704999999999945,
+      "time": 16.144999999999943,
       "type": "fog-reveal",
       "data": {
         "column": 40,
@@ -3722,15 +3952,7 @@
       }
     },
     {
-      "time": 15.704999999999945,
-      "type": "fog-reveal",
-      "data": {
-        "column": 39,
-        "row": 2
-      }
-    },
-    {
-      "time": 15.704999999999945,
+      "time": 16.144999999999943,
       "type": "room-enter",
       "data": {
         "column": 39,
@@ -3739,7 +3961,7 @@
       }
     },
     {
-      "time": 15.759999999999945,
+      "time": 16.199999999999942,
       "type": "fog-reveal",
       "data": {
         "column": 41,
@@ -3747,15 +3969,15 @@
       }
     },
     {
-      "time": 15.759999999999945,
+      "time": 16.199999999999942,
       "type": "fog-reveal",
       "data": {
         "column": 40,
-        "row": 2
+        "row": 4
       }
     },
     {
-      "time": 15.759999999999945,
+      "time": 16.199999999999942,
       "type": "room-enter",
       "data": {
         "column": 40,
@@ -3764,7 +3986,7 @@
       }
     },
     {
-      "time": 15.814999999999944,
+      "time": 16.254999999999942,
       "type": "fog-reveal",
       "data": {
         "column": 42,
@@ -3772,250 +3994,18 @@
       }
     },
     {
-      "time": 15.814999999999944,
+      "time": 16.254999999999942,
       "type": "fog-reveal",
       "data": {
         "column": 41,
-        "row": 2
+        "row": 4
       }
     },
     {
-      "time": 15.814999999999944,
+      "time": 16.254999999999942,
       "type": "room-enter",
       "data": {
         "column": 41,
-        "row": 3,
-        "active": true
-      }
-    },
-    {
-      "time": 15.869999999999944,
-      "type": "fog-reveal",
-      "data": {
-        "column": 43,
-        "row": 3
-      }
-    },
-    {
-      "time": 15.869999999999944,
-      "type": "fog-reveal",
-      "data": {
-        "column": 42,
-        "row": 2
-      }
-    },
-    {
-      "time": 15.869999999999944,
-      "type": "room-enter",
-      "data": {
-        "column": 42,
-        "row": 3,
-        "active": true
-      }
-    },
-    {
-      "time": 15.924999999999944,
-      "type": "fog-reveal",
-      "data": {
-        "column": 44,
-        "row": 3
-      }
-    },
-    {
-      "time": 15.924999999999944,
-      "type": "fog-reveal",
-      "data": {
-        "column": 43,
-        "row": 2
-      }
-    },
-    {
-      "time": 15.924999999999944,
-      "type": "room-enter",
-      "data": {
-        "column": 43,
-        "row": 3,
-        "active": true
-      }
-    },
-    {
-      "time": 15.979999999999944,
-      "type": "fog-reveal",
-      "data": {
-        "column": 45,
-        "row": 3
-      }
-    },
-    {
-      "time": 15.979999999999944,
-      "type": "fog-reveal",
-      "data": {
-        "column": 44,
-        "row": 2
-      }
-    },
-    {
-      "time": 15.979999999999944,
-      "type": "room-enter",
-      "data": {
-        "column": 44,
-        "row": 3,
-        "active": true
-      }
-    },
-    {
-      "time": 16.034999999999943,
-      "type": "fog-reveal",
-      "data": {
-        "column": 46,
-        "row": 3
-      }
-    },
-    {
-      "time": 16.034999999999943,
-      "type": "fog-reveal",
-      "data": {
-        "column": 45,
-        "row": 2
-      }
-    },
-    {
-      "time": 16.034999999999943,
-      "type": "room-enter",
-      "data": {
-        "column": 45,
-        "row": 3,
-        "active": true
-      }
-    },
-    {
-      "time": 16.089999999999943,
-      "type": "fog-reveal",
-      "data": {
-        "column": 47,
-        "row": 3
-      }
-    },
-    {
-      "time": 16.089999999999943,
-      "type": "fog-reveal",
-      "data": {
-        "column": 46,
-        "row": 4
-      }
-    },
-    {
-      "time": 16.089999999999943,
-      "type": "fog-reveal",
-      "data": {
-        "column": 46,
-        "row": 2
-      }
-    },
-    {
-      "time": 16.089999999999943,
-      "type": "room-enter",
-      "data": {
-        "column": 46,
-        "row": 3,
-        "active": true
-      }
-    },
-    {
-      "time": 16.144999999999943,
-      "type": "fog-reveal",
-      "data": {
-        "column": 48,
-        "row": 3
-      }
-    },
-    {
-      "time": 16.144999999999943,
-      "type": "fog-reveal",
-      "data": {
-        "column": 47,
-        "row": 4
-      }
-    },
-    {
-      "time": 16.144999999999943,
-      "type": "fog-reveal",
-      "data": {
-        "column": 47,
-        "row": 2
-      }
-    },
-    {
-      "time": 16.144999999999943,
-      "type": "room-enter",
-      "data": {
-        "column": 47,
-        "row": 3,
-        "active": true
-      }
-    },
-    {
-      "time": 16.199999999999942,
-      "type": "fog-reveal",
-      "data": {
-        "column": 49,
-        "row": 3
-      }
-    },
-    {
-      "time": 16.199999999999942,
-      "type": "fog-reveal",
-      "data": {
-        "column": 48,
-        "row": 4
-      }
-    },
-    {
-      "time": 16.199999999999942,
-      "type": "fog-reveal",
-      "data": {
-        "column": 48,
-        "row": 2
-      }
-    },
-    {
-      "time": 16.199999999999942,
-      "type": "room-enter",
-      "data": {
-        "column": 48,
-        "row": 3,
-        "active": true
-      }
-    },
-    {
-      "time": 16.254999999999942,
-      "type": "fog-reveal",
-      "data": {
-        "column": 50,
-        "row": 3
-      }
-    },
-    {
-      "time": 16.254999999999942,
-      "type": "fog-reveal",
-      "data": {
-        "column": 49,
-        "row": 4
-      }
-    },
-    {
-      "time": 16.254999999999942,
-      "type": "fog-reveal",
-      "data": {
-        "column": 49,
-        "row": 2
-      }
-    },
-    {
-      "time": 16.254999999999942,
-      "type": "room-enter",
-      "data": {
-        "column": 49,
         "row": 3,
         "active": true
       }
@@ -4024,12 +4014,179 @@
       "time": 16.309999999999942,
       "type": "fog-reveal",
       "data": {
-        "column": 50,
+        "column": 43,
+        "row": 3
+      }
+    },
+    {
+      "time": 16.309999999999942,
+      "type": "fog-reveal",
+      "data": {
+        "column": 42,
         "row": 4
       }
     },
     {
       "time": 16.309999999999942,
+      "type": "room-enter",
+      "data": {
+        "column": 42,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 16.36499999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 43,
+        "row": 4
+      }
+    },
+    {
+      "time": 16.36499999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 43,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 16.41999999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 44,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 16.52999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 47,
+        "row": 3
+      }
+    },
+    {
+      "time": 16.52999999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 46,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 16.58499999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 48,
+        "row": 3
+      }
+    },
+    {
+      "time": 16.58499999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 47,
+        "row": 4
+      }
+    },
+    {
+      "time": 16.58499999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 47,
+        "row": 2
+      }
+    },
+    {
+      "time": 16.58499999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 47,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 16.63999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 49,
+        "row": 3
+      }
+    },
+    {
+      "time": 16.63999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 48,
+        "row": 4
+      }
+    },
+    {
+      "time": 16.63999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 48,
+        "row": 2
+      }
+    },
+    {
+      "time": 16.63999999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 48,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 16.69499999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 50,
+        "row": 3
+      }
+    },
+    {
+      "time": 16.69499999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 49,
+        "row": 4
+      }
+    },
+    {
+      "time": 16.69499999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 49,
+        "row": 2
+      }
+    },
+    {
+      "time": 16.69499999999994,
+      "type": "room-enter",
+      "data": {
+        "column": 49,
+        "row": 3,
+        "active": true
+      }
+    },
+    {
+      "time": 16.74999999999994,
+      "type": "fog-reveal",
+      "data": {
+        "column": 50,
+        "row": 4
+      }
+    },
+    {
+      "time": 16.74999999999994,
       "type": "fog-reveal",
       "data": {
         "column": 49,
@@ -4037,7 +4194,7 @@
       }
     },
     {
-      "time": 16.309999999999942,
+      "time": 16.74999999999994,
       "type": "room-enter",
       "data": {
         "column": 49,
@@ -4046,7 +4203,7 @@
       }
     },
     {
-      "time": 16.309999999999942,
+      "time": 16.74999999999994,
       "type": "room-loot",
       "date": "2026-10-01",
       "value": 14,
@@ -4056,7 +4213,7 @@
       }
     },
     {
-      "time": 16.41999999999994,
+      "time": 16.85999999999994,
       "type": "room-loot",
       "date": "2026-09-23",
       "value": 16,
@@ -4066,7 +4223,7 @@
       }
     },
     {
-      "time": 17.684999999999935,
+      "time": 18.124999999999932,
       "type": "room-enter",
       "data": {
         "column": 25,
@@ -4075,7 +4232,7 @@
       }
     },
     {
-      "time": 17.739999999999934,
+      "time": 18.179999999999932,
       "type": "room-enter",
       "data": {
         "column": 24,
@@ -4084,7 +4241,7 @@
       }
     },
     {
-      "time": 17.794999999999934,
+      "time": 18.234999999999932,
       "type": "room-enter",
       "data": {
         "column": 23,
@@ -4093,7 +4250,7 @@
       }
     },
     {
-      "time": 17.849999999999934,
+      "time": 18.28999999999993,
       "type": "room-enter",
       "data": {
         "column": 22,
@@ -4102,7 +4259,7 @@
       }
     },
     {
-      "time": 17.904999999999934,
+      "time": 18.34499999999993,
       "type": "room-enter",
       "data": {
         "column": 21,
@@ -4111,7 +4268,7 @@
       }
     },
     {
-      "time": 18.069999999999933,
+      "time": 18.50999999999993,
       "type": "room-loot",
       "date": "2026-03-13",
       "value": 16,
@@ -4121,7 +4278,7 @@
       }
     },
     {
-      "time": 18.72999999999993,
+      "time": 19.169999999999927,
       "type": "room-enter",
       "data": {
         "column": 31,
@@ -4130,7 +4287,7 @@
       }
     },
     {
-      "time": 18.78499999999993,
+      "time": 19.224999999999927,
       "type": "room-loot",
       "date": "2026-05-27",
       "value": 17,
@@ -4140,7 +4297,7 @@
       }
     },
     {
-      "time": 19.554999999999925,
+      "time": 19.994999999999923,
       "type": "room-enter",
       "data": {
         "column": 44,
@@ -4149,7 +4306,16 @@
       }
     },
     {
-      "time": 19.609999999999925,
+      "time": 20.049999999999923,
+      "type": "room-enter",
+      "data": {
+        "column": 44,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 20.049999999999923,
       "type": "room-loot",
       "date": "2026-08-28",
       "value": 17,
@@ -4159,7 +4325,52 @@
       }
     },
     {
-      "time": 20.049999999999923,
+      "time": 20.104999999999922,
+      "type": "room-enter",
+      "data": {
+        "column": 43,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 20.159999999999922,
+      "type": "room-enter",
+      "data": {
+        "column": 42,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 20.21499999999992,
+      "type": "room-enter",
+      "data": {
+        "column": 41,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 20.26999999999992,
+      "type": "room-enter",
+      "data": {
+        "column": 40,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 20.32499999999992,
+      "type": "room-enter",
+      "data": {
+        "column": 39,
+        "row": 5,
+        "active": true
+      }
+    },
+    {
+      "time": 20.48999999999992,
       "type": "room-enter",
       "data": {
         "column": 36,
@@ -4168,7 +4379,7 @@
       }
     },
     {
-      "time": 20.104999999999922,
+      "time": 20.54499999999992,
       "type": "room-enter",
       "data": {
         "column": 35,
@@ -4177,7 +4388,7 @@
       }
     },
     {
-      "time": 20.21499999999992,
+      "time": 20.65499999999992,
       "type": "room-loot",
       "date": "2026-06-12",
       "value": 18,
@@ -4187,7 +4398,7 @@
       }
     },
     {
-      "time": 20.43499999999992,
+      "time": 20.87499999999992,
       "type": "room-enter",
       "data": {
         "column": 30,
@@ -4196,7 +4407,7 @@
       }
     },
     {
-      "time": 20.59999999999992,
+      "time": 21.039999999999917,
       "type": "room-loot",
       "date": "2026-04-30",
       "value": 18,
@@ -4206,7 +4417,7 @@
       }
     },
     {
-      "time": 21.149999999999917,
+      "time": 21.589999999999915,
       "type": "room-enter",
       "data": {
         "column": 35,
@@ -4215,7 +4426,7 @@
       }
     },
     {
-      "time": 21.204999999999917,
+      "time": 21.644999999999914,
       "type": "room-loot",
       "date": "2026-06-22",
       "value": 29,
@@ -4225,82 +4436,7 @@
       }
     },
     {
-      "time": 21.424999999999915,
-      "type": "fog-reveal",
-      "data": {
-        "column": 40,
-        "row": 1
-      }
-    },
-    {
-      "time": 21.424999999999915,
-      "type": "fog-reveal",
-      "data": {
-        "column": 39,
-        "row": 0
-      }
-    },
-    {
-      "time": 21.424999999999915,
-      "type": "room-enter",
-      "data": {
-        "column": 39,
-        "row": 1,
-        "active": true
-      }
-    },
-    {
-      "time": 21.479999999999915,
-      "type": "fog-reveal",
-      "data": {
-        "column": 41,
-        "row": 1
-      }
-    },
-    {
-      "time": 21.479999999999915,
-      "type": "fog-reveal",
-      "data": {
-        "column": 40,
-        "row": 0
-      }
-    },
-    {
-      "time": 21.479999999999915,
-      "type": "room-enter",
-      "data": {
-        "column": 40,
-        "row": 1,
-        "active": true
-      }
-    },
-    {
-      "time": 21.534999999999915,
-      "type": "fog-reveal",
-      "data": {
-        "column": 42,
-        "row": 1
-      }
-    },
-    {
-      "time": 21.534999999999915,
-      "type": "fog-reveal",
-      "data": {
-        "column": 41,
-        "row": 0
-      }
-    },
-    {
-      "time": 21.534999999999915,
-      "type": "room-enter",
-      "data": {
-        "column": 41,
-        "row": 1,
-        "active": true
-      }
-    },
-    {
-      "time": 21.589999999999915,
+      "time": 22.029999999999912,
       "type": "room-enter",
       "data": {
         "column": 41,
@@ -4309,7 +4445,7 @@
       }
     },
     {
-      "time": 21.699999999999914,
+      "time": 22.13999999999991,
       "type": "room-enter",
       "data": {
         "column": 41,
@@ -4318,7 +4454,7 @@
       }
     },
     {
-      "time": 21.809999999999913,
+      "time": 22.24999999999991,
       "type": "room-loot",
       "date": "2026-08-08",
       "value": 30,
@@ -4328,7 +4464,7 @@
       }
     },
     {
-      "time": 22.68999999999991,
+      "time": 23.129999999999907,
       "type": "room-loot",
       "date": "2026-05-06",
       "value": 31,
@@ -4338,7 +4474,7 @@
       }
     },
     {
-      "time": 23.789999999999903,
+      "time": 24.2299999999999,
       "type": "fog-reveal",
       "data": {
         "column": 47,
@@ -4346,7 +4482,7 @@
       }
     },
     {
-      "time": 23.789999999999903,
+      "time": 24.2299999999999,
       "type": "room-enter",
       "data": {
         "column": 47,
@@ -4355,7 +4491,7 @@
       }
     },
     {
-      "time": 23.844999999999903,
+      "time": 24.2849999999999,
       "type": "fog-reveal",
       "data": {
         "column": 48,
@@ -4363,7 +4499,7 @@
       }
     },
     {
-      "time": 23.844999999999903,
+      "time": 24.2849999999999,
       "type": "fog-reveal",
       "data": {
         "column": 47,
@@ -4371,7 +4507,7 @@
       }
     },
     {
-      "time": 23.844999999999903,
+      "time": 24.2849999999999,
       "type": "room-enter",
       "data": {
         "column": 47,
@@ -4380,7 +4516,7 @@
       }
     },
     {
-      "time": 23.844999999999903,
+      "time": 24.2849999999999,
       "type": "room-loot",
       "date": "2026-09-18",
       "value": 33,
@@ -4390,7 +4526,7 @@
       }
     },
     {
-      "time": 23.899999999999903,
+      "time": 24.3399999999999,
       "type": "fog-reveal",
       "data": {
         "column": 48,
@@ -4398,7 +4534,7 @@
       }
     },
     {
-      "time": 23.899999999999903,
+      "time": 24.3399999999999,
       "type": "room-enter",
       "data": {
         "column": 48,
@@ -4407,7 +4543,7 @@
       }
     },
     {
-      "time": 23.954999999999902,
+      "time": 24.3949999999999,
       "type": "fog-reveal",
       "data": {
         "column": 50,
@@ -4415,7 +4551,7 @@
       }
     },
     {
-      "time": 23.954999999999902,
+      "time": 24.3949999999999,
       "type": "fog-reveal",
       "data": {
         "column": 49,
@@ -4423,7 +4559,7 @@
       }
     },
     {
-      "time": 23.954999999999902,
+      "time": 24.3949999999999,
       "type": "room-enter",
       "data": {
         "column": 49,
@@ -4432,7 +4568,7 @@
       }
     },
     {
-      "time": 24.064999999999902,
+      "time": 24.5049999999999,
       "type": "room-loot",
       "date": "2026-09-30",
       "value": 34,
@@ -4442,7 +4578,7 @@
       }
     },
     {
-      "time": 24.6699999999999,
+      "time": 25.109999999999896,
       "type": "room-enter",
       "data": {
         "column": 39,
@@ -4451,7 +4587,7 @@
       }
     },
     {
-      "time": 24.6699999999999,
+      "time": 25.109999999999896,
       "type": "room-loot",
       "date": "2026-07-23",
       "value": 34,
@@ -4461,7 +4597,7 @@
       }
     },
     {
-      "time": 24.7249999999999,
+      "time": 25.164999999999896,
       "type": "room-enter",
       "data": {
         "column": 40,
@@ -4470,7 +4606,7 @@
       }
     },
     {
-      "time": 24.834999999999898,
+      "time": 25.274999999999896,
       "type": "room-enter",
       "data": {
         "column": 42,
@@ -4479,7 +4615,7 @@
       }
     },
     {
-      "time": 24.889999999999898,
+      "time": 25.329999999999895,
       "type": "room-enter",
       "data": {
         "column": 43,
@@ -4488,16 +4624,7 @@
       }
     },
     {
-      "time": 24.999999999999897,
-      "type": "room-enter",
-      "data": {
-        "column": 45,
-        "row": 4,
-        "active": true
-      }
-    },
-    {
-      "time": 24.999999999999897,
+      "time": 25.439999999999895,
       "type": "room-loot",
       "date": "2026-09-03",
       "value": 37,
@@ -4507,7 +4634,7 @@
       }
     },
     {
-      "time": 25.054999999999897,
+      "time": 25.494999999999894,
       "type": "room-enter",
       "data": {
         "column": 46,
@@ -4516,7 +4643,7 @@
       }
     },
     {
-      "time": 25.219999999999896,
+      "time": 25.659999999999894,
       "type": "fog-reveal",
       "data": {
         "column": 47,
@@ -4524,7 +4651,7 @@
       }
     },
     {
-      "time": 25.219999999999896,
+      "time": 25.659999999999894,
       "type": "room-enter",
       "data": {
         "column": 47,
@@ -4533,7 +4660,7 @@
       }
     },
     {
-      "time": 25.274999999999896,
+      "time": 25.714999999999893,
       "type": "fog-reveal",
       "data": {
         "column": 48,
@@ -4541,15 +4668,7 @@
       }
     },
     {
-      "time": 25.274999999999896,
-      "type": "fog-reveal",
-      "data": {
-        "column": 46,
-        "row": 1
-      }
-    },
-    {
-      "time": 25.274999999999896,
+      "time": 25.714999999999893,
       "type": "fog-reveal",
       "data": {
         "column": 47,
@@ -4557,7 +4676,7 @@
       }
     },
     {
-      "time": 25.274999999999896,
+      "time": 25.714999999999893,
       "type": "room-enter",
       "data": {
         "column": 47,
@@ -4566,7 +4685,7 @@
       }
     },
     {
-      "time": 25.329999999999895,
+      "time": 25.769999999999893,
       "type": "fog-reveal",
       "data": {
         "column": 48,
@@ -4574,7 +4693,7 @@
       }
     },
     {
-      "time": 25.329999999999895,
+      "time": 25.769999999999893,
       "type": "fog-reveal",
       "data": {
         "column": 46,
@@ -4582,7 +4701,7 @@
       }
     },
     {
-      "time": 25.329999999999895,
+      "time": 25.769999999999893,
       "type": "room-enter",
       "data": {
         "column": 47,
@@ -4591,7 +4710,7 @@
       }
     },
     {
-      "time": 25.329999999999895,
+      "time": 25.769999999999893,
       "type": "room-loot",
       "date": "2026-09-13",
       "value": 41,
@@ -4601,15 +4720,7 @@
       }
     },
     {
-      "time": 25.384999999999895,
-      "type": "fog-reveal",
-      "data": {
-        "column": 45,
-        "row": 0
-      }
-    },
-    {
-      "time": 25.384999999999895,
+      "time": 25.824999999999893,
       "type": "room-enter",
       "data": {
         "column": 46,
@@ -4618,23 +4729,7 @@
       }
     },
     {
-      "time": 25.439999999999895,
-      "type": "fog-reveal",
-      "data": {
-        "column": 44,
-        "row": 0
-      }
-    },
-    {
-      "time": 25.439999999999895,
-      "type": "fog-reveal",
-      "data": {
-        "column": 45,
-        "row": 1
-      }
-    },
-    {
-      "time": 25.439999999999895,
+      "time": 25.879999999999892,
       "type": "room-enter",
       "data": {
         "column": 45,
@@ -4643,23 +4738,7 @@
       }
     },
     {
-      "time": 25.494999999999894,
-      "type": "fog-reveal",
-      "data": {
-        "column": 43,
-        "row": 0
-      }
-    },
-    {
-      "time": 25.494999999999894,
-      "type": "fog-reveal",
-      "data": {
-        "column": 44,
-        "row": 1
-      }
-    },
-    {
-      "time": 25.494999999999894,
+      "time": 25.934999999999892,
       "type": "room-enter",
       "data": {
         "column": 44,
@@ -4668,23 +4747,7 @@
       }
     },
     {
-      "time": 25.549999999999894,
-      "type": "fog-reveal",
-      "data": {
-        "column": 42,
-        "row": 0
-      }
-    },
-    {
-      "time": 25.549999999999894,
-      "type": "fog-reveal",
-      "data": {
-        "column": 43,
-        "row": 1
-      }
-    },
-    {
-      "time": 25.549999999999894,
+      "time": 25.989999999999892,
       "type": "room-enter",
       "data": {
         "column": 43,
@@ -4693,7 +4756,7 @@
       }
     },
     {
-      "time": 25.604999999999894,
+      "time": 26.04499999999989,
       "type": "room-enter",
       "data": {
         "column": 42,
@@ -4702,7 +4765,7 @@
       }
     },
     {
-      "time": 25.659999999999894,
+      "time": 26.09999999999989,
       "type": "room-enter",
       "data": {
         "column": 41,
@@ -4711,7 +4774,7 @@
       }
     },
     {
-      "time": 25.714999999999893,
+      "time": 26.15499999999989,
       "type": "room-enter",
       "data": {
         "column": 40,
@@ -4720,7 +4783,7 @@
       }
     },
     {
-      "time": 25.769999999999893,
+      "time": 26.20999999999989,
       "type": "room-enter",
       "data": {
         "column": 39,
@@ -4729,7 +4792,7 @@
       }
     },
     {
-      "time": 25.769999999999893,
+      "time": 26.20999999999989,
       "type": "room-loot",
       "date": "2026-07-19",
       "value": 41,
@@ -4739,25 +4802,7 @@
       }
     },
     {
-      "time": 26.15499999999989,
-      "type": "room-enter",
-      "data": {
-        "column": 45,
-        "row": 1,
-        "active": true
-      }
-    },
-    {
-      "time": 26.20999999999989,
-      "type": "room-enter",
-      "data": {
-        "column": 45,
-        "row": 2,
-        "active": true
-      }
-    },
-    {
-      "time": 26.26499999999989,
+      "time": 26.704999999999888,
       "type": "room-loot",
       "date": "2026-09-02",
       "value": 42,
@@ -4767,7 +4812,7 @@
       }
     },
     {
-      "time": 26.53999999999989,
+      "time": 26.979999999999887,
       "type": "fog-reveal",
       "data": {
         "column": 50,
@@ -4775,7 +4820,7 @@
       }
     },
     {
-      "time": 26.53999999999989,
+      "time": 26.979999999999887,
       "type": "fog-reveal",
       "data": {
         "column": 49,
@@ -4783,7 +4828,7 @@
       }
     },
     {
-      "time": 26.53999999999989,
+      "time": 26.979999999999887,
       "type": "room-enter",
       "data": {
         "column": 49,
@@ -4792,7 +4837,7 @@
       }
     },
     {
-      "time": 26.59499999999989,
+      "time": 27.034999999999886,
       "type": "fog-reveal",
       "data": {
         "column": 50,
@@ -4800,7 +4845,7 @@
       }
     },
     {
-      "time": 26.59499999999989,
+      "time": 27.034999999999886,
       "type": "fog-reveal",
       "data": {
         "column": 49,
@@ -4808,7 +4853,7 @@
       }
     },
     {
-      "time": 26.59499999999989,
+      "time": 27.034999999999886,
       "type": "room-enter",
       "data": {
         "column": 49,
@@ -4817,7 +4862,7 @@
       }
     },
     {
-      "time": 26.59499999999989,
+      "time": 27.034999999999886,
       "type": "room-loot",
       "date": "2026-09-28",
       "value": 42,
@@ -4827,7 +4872,92 @@
       }
     },
     {
-      "time": 26.64999999999989,
+      "time": 27.089999999999886,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 1
+      }
+    },
+    {
+      "time": 27.089999999999886,
+      "type": "fog-reveal",
+      "data": {
+        "column": 50,
+        "row": 0
+      }
+    },
+    {
+      "time": 27.089999999999886,
+      "type": "room-enter",
+      "data": {
+        "column": 50,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 27.144999999999886,
+      "type": "fog-reveal",
+      "data": {
+        "column": 52,
+        "row": 1
+      }
+    },
+    {
+      "time": 27.144999999999886,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 2
+      }
+    },
+    {
+      "time": 27.144999999999886,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 0
+      }
+    },
+    {
+      "time": 27.144999999999886,
+      "type": "room-enter",
+      "data": {
+        "column": 51,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 27.199999999999886,
+      "type": "fog-reveal",
+      "data": {
+        "column": 52,
+        "row": 0
+      }
+    },
+    {
+      "time": 27.199999999999886,
+      "type": "room-enter",
+      "data": {
+        "column": 52,
+        "row": 1,
+        "active": true
+      }
+    },
+    {
+      "time": 27.199999999999886,
+      "type": "room-loot",
+      "date": "2026-10-19",
+      "value": 44,
+      "data": {
+        "column": 52,
+        "row": 1
+      }
+    },
+    {
+      "time": 27.419999999999884,
       "type": "room-enter",
       "data": {
         "column": 48,
@@ -4836,7 +4966,7 @@
       }
     },
     {
-      "time": 26.759999999999888,
+      "time": 27.529999999999884,
       "type": "room-enter",
       "data": {
         "column": 46,
@@ -4845,34 +4975,7 @@
       }
     },
     {
-      "time": 26.869999999999887,
-      "type": "room-enter",
-      "data": {
-        "column": 44,
-        "row": 1,
-        "active": true
-      }
-    },
-    {
-      "time": 26.924999999999887,
-      "type": "room-enter",
-      "data": {
-        "column": 43,
-        "row": 1,
-        "active": true
-      }
-    },
-    {
-      "time": 26.979999999999887,
-      "type": "room-enter",
-      "data": {
-        "column": 42,
-        "row": 1,
-        "active": true
-      }
-    },
-    {
-      "time": 27.254999999999885,
+      "time": 28.02499999999988,
       "type": "room-loot",
       "date": "2026-08-07",
       "value": 44,
@@ -4882,7 +4985,7 @@
       }
     },
     {
-      "time": 27.474999999999884,
+      "time": 28.24499999999988,
       "type": "room-loot",
       "date": "2026-07-18",
       "value": 46,
@@ -4892,7 +4995,7 @@
       }
     },
     {
-      "time": 27.914999999999882,
+      "time": 28.684999999999878,
       "type": "room-enter",
       "data": {
         "column": 46,
@@ -4901,7 +5004,7 @@
       }
     },
     {
-      "time": 27.96999999999988,
+      "time": 28.739999999999878,
       "type": "room-enter",
       "data": {
         "column": 47,
@@ -4910,7 +5013,7 @@
       }
     },
     {
-      "time": 28.07999999999988,
+      "time": 28.849999999999877,
       "type": "room-loot",
       "date": "2026-09-17",
       "value": 50,
@@ -4920,7 +5023,7 @@
       }
     },
     {
-      "time": 28.24499999999988,
+      "time": 29.014999999999876,
       "type": "room-enter",
       "data": {
         "column": 46,
@@ -4929,7 +5032,7 @@
       }
     },
     {
-      "time": 28.35499999999988,
+      "time": 29.124999999999876,
       "type": "room-enter",
       "data": {
         "column": 44,
@@ -4938,7 +5041,7 @@
       }
     },
     {
-      "time": 28.35499999999988,
+      "time": 29.124999999999876,
       "type": "room-loot",
       "date": "2026-08-25",
       "value": 52,
@@ -4948,7 +5051,7 @@
       }
     },
     {
-      "time": 28.57499999999988,
+      "time": 29.344999999999875,
       "type": "room-enter",
       "data": {
         "column": 48,
@@ -4957,15 +5060,7 @@
       }
     },
     {
-      "time": 28.739999999999878,
-      "type": "fog-reveal",
-      "data": {
-        "column": 50,
-        "row": 0
-      }
-    },
-    {
-      "time": 28.739999999999878,
+      "time": 29.509999999999874,
       "type": "room-enter",
       "data": {
         "column": 49,
@@ -4974,7 +5069,7 @@
       }
     },
     {
-      "time": 28.739999999999878,
+      "time": 29.509999999999874,
       "type": "room-loot",
       "date": "2026-09-27",
       "value": 52,
@@ -4984,7 +5079,7 @@
       }
     },
     {
-      "time": 28.794999999999877,
+      "time": 29.564999999999873,
       "type": "room-enter",
       "data": {
         "column": 48,
@@ -4993,7 +5088,7 @@
       }
     },
     {
-      "time": 29.014999999999876,
+      "time": 29.784999999999872,
       "type": "room-loot",
       "date": "2026-08-31",
       "value": 53,
@@ -5003,7 +5098,7 @@
       }
     },
     {
-      "time": 29.234999999999875,
+      "time": 30.00499999999987,
       "type": "room-loot",
       "date": "2026-08-03",
       "value": 53,
@@ -5013,7 +5108,7 @@
       }
     },
     {
-      "time": 29.399999999999874,
+      "time": 30.16999999999987,
       "type": "room-enter",
       "data": {
         "column": 39,
@@ -5022,7 +5117,7 @@
       }
     },
     {
-      "time": 29.454999999999874,
+      "time": 30.22499999999987,
       "type": "room-loot",
       "date": "2026-07-22",
       "value": 54,
@@ -5032,7 +5127,7 @@
       }
     },
     {
-      "time": 29.509999999999874,
+      "time": 30.27999999999987,
       "type": "room-loot",
       "date": "2026-07-21",
       "value": 56,
@@ -5042,7 +5137,7 @@
       }
     },
     {
-      "time": 29.564999999999873,
+      "time": 30.33499999999987,
       "type": "room-enter",
       "data": {
         "column": 40,
@@ -5051,7 +5146,7 @@
       }
     },
     {
-      "time": 29.674999999999873,
+      "time": 30.44499999999987,
       "type": "room-enter",
       "data": {
         "column": 42,
@@ -5060,7 +5155,7 @@
       }
     },
     {
-      "time": 29.729999999999873,
+      "time": 30.49999999999987,
       "type": "room-enter",
       "data": {
         "column": 43,
@@ -5069,7 +5164,7 @@
       }
     },
     {
-      "time": 30.05999999999987,
+      "time": 30.829999999999867,
       "type": "room-loot",
       "date": "2026-09-05",
       "value": 60,
@@ -5079,16 +5174,7 @@
       }
     },
     {
-      "time": 30.55499999999987,
-      "type": "room-enter",
-      "data": {
-        "column": 38,
-        "row": 4,
-        "active": true
-      }
-    },
-    {
-      "time": 30.939999999999866,
+      "time": 31.709999999999862,
       "type": "room-loot",
       "date": "2026-05-28",
       "value": 61,
@@ -5098,7 +5184,7 @@
       }
     },
     {
-      "time": 31.544999999999863,
+      "time": 32.31499999999986,
       "type": "room-loot",
       "date": "2026-08-01",
       "value": 70,
@@ -5108,16 +5194,7 @@
       }
     },
     {
-      "time": 31.87499999999986,
-      "type": "room-enter",
-      "data": {
-        "column": 38,
-        "row": 2,
-        "active": true
-      }
-    },
-    {
-      "time": 31.87499999999986,
+      "time": 32.64499999999986,
       "type": "room-loot",
       "date": "2026-07-14",
       "value": 73,
@@ -5127,7 +5204,7 @@
       }
     },
     {
-      "time": 32.094999999999864,
+      "time": 32.86499999999986,
       "type": "room-loot",
       "date": "2026-07-24",
       "value": 77,
@@ -5137,7 +5214,7 @@
       }
     },
     {
-      "time": 32.149999999999864,
+      "time": 32.91999999999986,
       "type": "room-loot",
       "date": "2026-07-31",
       "value": 78,
@@ -5147,7 +5224,7 @@
       }
     },
     {
-      "time": 32.58999999999986,
+      "time": 33.35999999999986,
       "type": "room-loot",
       "date": "2026-08-24",
       "value": 78,
@@ -5157,7 +5234,7 @@
       }
     },
     {
-      "time": 32.64499999999986,
+      "time": 33.41499999999986,
       "type": "room-loot",
       "date": "2026-08-23",
       "value": 80,
@@ -5167,7 +5244,7 @@
       }
     },
     {
-      "time": 32.97499999999986,
+      "time": 33.744999999999855,
       "type": "room-loot",
       "date": "2026-08-29",
       "value": 81,
@@ -5177,7 +5254,7 @@
       }
     },
     {
-      "time": 33.35999999999986,
+      "time": 34.12999999999985,
       "type": "room-loot",
       "date": "2026-08-10",
       "value": 84,
@@ -5187,7 +5264,7 @@
       }
     },
     {
-      "time": 33.52499999999986,
+      "time": 34.29499999999985,
       "type": "room-loot",
       "date": "2026-07-20",
       "value": 84,
@@ -5197,7 +5274,7 @@
       }
     },
     {
-      "time": 33.744999999999855,
+      "time": 34.51499999999985,
       "type": "room-loot",
       "date": "2026-08-05",
       "value": 87,
@@ -5207,7 +5284,7 @@
       }
     },
     {
-      "time": 34.18499999999985,
+      "time": 34.95499999999985,
       "type": "room-loot",
       "date": "2026-09-06",
       "value": 87,
@@ -5217,7 +5294,7 @@
       }
     },
     {
-      "time": 34.56999999999985,
+      "time": 35.33999999999985,
       "type": "room-loot",
       "date": "2026-08-04",
       "value": 90,
@@ -5227,15 +5304,7 @@
       }
     },
     {
-      "time": 35.06499999999985,
-      "type": "fog-reveal",
-      "data": {
-        "column": 51,
-        "row": 2
-      }
-    },
-    {
-      "time": 35.06499999999985,
+      "time": 35.834999999999845,
       "type": "room-enter",
       "data": {
         "column": 50,
@@ -5244,32 +5313,7 @@
       }
     },
     {
-      "time": 35.11999999999985,
-      "type": "fog-reveal",
-      "data": {
-        "column": 51,
-        "row": 1
-      }
-    },
-    {
-      "time": 35.11999999999985,
-      "type": "room-enter",
-      "data": {
-        "column": 50,
-        "row": 1,
-        "active": true
-      }
-    },
-    {
-      "time": 35.17499999999985,
-      "type": "fog-reveal",
-      "data": {
-        "column": 51,
-        "row": 0
-      }
-    },
-    {
-      "time": 35.17499999999985,
+      "time": 35.944999999999844,
       "type": "room-enter",
       "data": {
         "column": 50,
@@ -5278,7 +5322,7 @@
       }
     },
     {
-      "time": 35.17499999999985,
+      "time": 35.944999999999844,
       "type": "room-loot",
       "date": "2026-10-04",
       "value": 93,
@@ -5288,7 +5332,7 @@
       }
     },
     {
-      "time": 35.504999999999846,
+      "time": 36.27499999999984,
       "type": "room-loot",
       "date": "2026-09-08",
       "value": 94,
@@ -5298,7 +5342,7 @@
       }
     },
     {
-      "time": 36.10999999999984,
+      "time": 36.87999999999984,
       "type": "room-loot",
       "date": "2026-07-25",
       "value": 98,
@@ -5308,7 +5352,7 @@
       }
     },
     {
-      "time": 36.38499999999984,
+      "time": 37.15499999999984,
       "type": "room-loot",
       "date": "2026-08-21",
       "value": 99,
@@ -5318,7 +5362,7 @@
       }
     },
     {
-      "time": 36.54999999999984,
+      "time": 37.31999999999984,
       "type": "room-enter",
       "data": {
         "column": 46,
@@ -5327,7 +5371,7 @@
       }
     },
     {
-      "time": 36.76999999999984,
+      "time": 37.539999999999836,
       "type": "room-loot",
       "date": "2026-09-07",
       "value": 102,
@@ -5337,7 +5381,7 @@
       }
     },
     {
-      "time": 36.87999999999984,
+      "time": 37.649999999999835,
       "type": "room-loot",
       "date": "2026-09-09",
       "value": 103,
@@ -5347,7 +5391,7 @@
       }
     },
     {
-      "time": 37.09999999999984,
+      "time": 37.869999999999834,
       "type": "room-loot",
       "date": "2026-09-29",
       "value": 111,
@@ -5357,7 +5401,7 @@
       }
     },
     {
-      "time": 37.20999999999984,
+      "time": 37.97999999999983,
       "type": "room-loot",
       "date": "2026-09-15",
       "value": 113,
@@ -5367,7 +5411,7 @@
       }
     },
     {
-      "time": 37.484999999999836,
+      "time": 38.25499999999983,
       "type": "room-loot",
       "date": "2026-08-11",
       "value": 113,
@@ -5377,7 +5421,7 @@
       }
     },
     {
-      "time": 37.649999999999835,
+      "time": 38.41999999999983,
       "type": "room-loot",
       "date": "2026-08-06",
       "value": 114,
@@ -5387,7 +5431,7 @@
       }
     },
     {
-      "time": 38.08999999999983,
+      "time": 38.85999999999983,
       "type": "room-loot",
       "date": "2026-08-30",
       "value": 115,
@@ -5397,7 +5441,7 @@
       }
     },
     {
-      "time": 38.25499999999983,
+      "time": 39.02499999999983,
       "type": "room-loot",
       "date": "2026-09-14",
       "value": 119,
@@ -5407,7 +5451,7 @@
       }
     },
     {
-      "time": 38.52999999999983,
+      "time": 39.29999999999983,
       "type": "room-loot",
       "date": "2026-08-26",
       "value": 120,
@@ -5417,7 +5461,7 @@
       }
     },
     {
-      "time": 38.74999999999983,
+      "time": 39.519999999999825,
       "type": "room-loot",
       "date": "2026-07-29",
       "value": 121,
@@ -5427,7 +5471,7 @@
       }
     },
     {
-      "time": 38.80499999999983,
+      "time": 39.574999999999825,
       "type": "room-loot",
       "date": "2026-07-30",
       "value": 132,
@@ -5437,130 +5481,7 @@
       }
     },
     {
-      "time": 39.24499999999983,
-      "type": "room-enter",
-      "data": {
-        "column": 48,
-        "row": 4,
-        "active": true
-      }
-    },
-    {
-      "time": 39.354999999999826,
-      "type": "fog-reveal",
-      "data": {
-        "column": 51,
-        "row": 4
-      }
-    },
-    {
-      "time": 39.354999999999826,
-      "type": "room-enter",
-      "data": {
-        "column": 50,
-        "row": 4,
-        "active": true
-      }
-    },
-    {
-      "time": 39.409999999999826,
-      "type": "fog-reveal",
-      "data": {
-        "column": 51,
-        "row": 5
-      }
-    },
-    {
-      "time": 39.409999999999826,
-      "type": "fog-reveal",
-      "data": {
-        "column": 51,
-        "row": 3
-      }
-    },
-    {
-      "time": 39.409999999999826,
-      "type": "room-enter",
-      "data": {
-        "column": 51,
-        "row": 4,
-        "active": true
-      }
-    },
-    {
-      "time": 39.464999999999826,
-      "type": "room-enter",
-      "data": {
-        "column": 52,
-        "row": 4,
-        "active": false
-      }
-    },
-    {
-      "time": 39.519999999999825,
-      "type": "room-enter",
-      "data": {
-        "column": 52,
-        "row": 3,
-        "active": false
-      }
-    },
-    {
-      "time": 39.574999999999825,
-      "type": "room-enter",
-      "data": {
-        "column": 52,
-        "row": 2,
-        "active": false
-      }
-    },
-    {
-      "time": 39.629999999999825,
-      "type": "fog-reveal",
-      "data": {
-        "column": 52,
-        "row": 0
-      }
-    },
-    {
-      "time": 39.629999999999825,
-      "type": "room-enter",
-      "data": {
-        "column": 52,
-        "row": 1,
-        "active": false
-      }
-    },
-    {
-      "time": 39.684999999999825,
-      "type": "room-enter",
-      "data": {
-        "column": 52,
-        "row": 0,
-        "active": true
-      }
-    },
-    {
-      "time": 39.684999999999825,
-      "type": "room-loot",
-      "date": "2026-10-18",
-      "value": 133,
-      "data": {
-        "column": 52,
-        "row": 0
-      }
-    },
-    {
       "time": 39.739999999999824,
-      "type": "room-enter",
-      "data": {
-        "column": 51,
-        "row": 0,
-        "active": true
-      }
-    },
-    {
-      "time": 40.50999999999982,
       "type": "room-loot",
       "date": "2026-08-14",
       "value": 134,
@@ -5570,7 +5491,7 @@
       }
     },
     {
-      "time": 40.83999999999982,
+      "time": 40.06999999999982,
       "type": "room-loot",
       "date": "2026-09-01",
       "value": 135,
@@ -5580,7 +5501,7 @@
       }
     },
     {
-      "time": 41.279999999999816,
+      "time": 40.50999999999982,
       "type": "fog-reveal",
       "data": {
         "column": 50,
@@ -5588,7 +5509,7 @@
       }
     },
     {
-      "time": 41.279999999999816,
+      "time": 40.50999999999982,
       "type": "room-enter",
       "data": {
         "column": 49,
@@ -5597,7 +5518,7 @@
       }
     },
     {
-      "time": 41.279999999999816,
+      "time": 40.50999999999982,
       "type": "room-loot",
       "date": "2026-10-03",
       "value": 135,
@@ -5607,7 +5528,7 @@
       }
     },
     {
-      "time": 41.499999999999815,
+      "time": 40.72999999999982,
       "type": "room-loot",
       "date": "2026-09-11",
       "value": 136,
@@ -5617,7 +5538,7 @@
       }
     },
     {
-      "time": 41.664999999999814,
+      "time": 40.89499999999982,
       "type": "room-loot",
       "date": "2026-08-27",
       "value": 136,
@@ -5627,7 +5548,7 @@
       }
     },
     {
-      "time": 41.99499999999981,
+      "time": 41.22499999999982,
       "type": "room-loot",
       "date": "2026-08-09",
       "value": 146,
@@ -5637,7 +5558,7 @@
       }
     },
     {
-      "time": 42.48999999999981,
+      "time": 41.719999999999814,
       "type": "room-loot",
       "date": "2026-10-05",
       "value": 146,
@@ -5647,7 +5568,7 @@
       }
     },
     {
-      "time": 43.03999999999981,
+      "time": 42.26999999999981,
       "type": "room-loot",
       "date": "2026-08-02",
       "value": 147,
@@ -5657,7 +5578,7 @@
       }
     },
     {
-      "time": 43.534999999999805,
+      "time": 42.76499999999981,
       "type": "room-loot",
       "date": "2026-09-10",
       "value": 149,
@@ -5667,7 +5588,7 @@
       }
     },
     {
-      "time": 43.644999999999804,
+      "time": 42.87499999999981,
       "type": "room-loot",
       "date": "2026-09-16",
       "value": 154,
@@ -5677,7 +5598,16 @@
       }
     },
     {
-      "time": 43.8649999999998,
+      "time": 42.98499999999981,
+      "type": "room-enter",
+      "data": {
+        "column": 48,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 43.09499999999981,
       "type": "room-enter",
       "data": {
         "column": 48,
@@ -5686,7 +5616,7 @@
       }
     },
     {
-      "time": 43.8649999999998,
+      "time": 43.09499999999981,
       "type": "room-loot",
       "date": "2026-09-26",
       "value": 156,
@@ -5696,7 +5626,7 @@
       }
     },
     {
-      "time": 44.0849999999998,
+      "time": 43.314999999999806,
       "type": "room-loot",
       "date": "2026-09-22",
       "value": 157,
@@ -5706,7 +5636,15 @@
       }
     },
     {
-      "time": 44.2499999999998,
+      "time": 43.479999999999805,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 3
+      }
+    },
+    {
+      "time": 43.479999999999805,
       "type": "room-enter",
       "data": {
         "column": 51,
@@ -5715,16 +5653,7 @@
       }
     },
     {
-      "time": 44.3049999999998,
-      "type": "room-enter",
-      "data": {
-        "column": 51,
-        "row": 1,
-        "active": true
-      }
-    },
-    {
-      "time": 44.3049999999998,
+      "time": 43.534999999999805,
       "type": "room-loot",
       "date": "2026-10-12",
       "value": 158,
@@ -5734,7 +5663,7 @@
       }
     },
     {
-      "time": 44.6899999999998,
+      "time": 43.9199999999998,
       "type": "room-loot",
       "date": "2026-09-25",
       "value": 167,
@@ -5744,7 +5673,7 @@
       }
     },
     {
-      "time": 44.8549999999998,
+      "time": 44.0849999999998,
       "type": "room-loot",
       "date": "2026-09-12",
       "value": 197,
@@ -5754,7 +5683,7 @@
       }
     },
     {
-      "time": 45.0749999999998,
+      "time": 44.3049999999998,
       "type": "fog-reveal",
       "data": {
         "column": 51,
@@ -5762,7 +5691,7 @@
       }
     },
     {
-      "time": 45.0749999999998,
+      "time": 44.3049999999998,
       "type": "room-enter",
       "data": {
         "column": 50,
@@ -5771,7 +5700,15 @@
       }
     },
     {
-      "time": 45.1299999999998,
+      "time": 44.3599999999998,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 5
+      }
+    },
+    {
+      "time": 44.3599999999998,
       "type": "room-enter",
       "data": {
         "column": 51,
@@ -5780,7 +5717,15 @@
       }
     },
     {
-      "time": 45.184999999999796,
+      "time": 44.4149999999998,
+      "type": "fog-reveal",
+      "data": {
+        "column": 51,
+        "row": 4
+      }
+    },
+    {
+      "time": 44.4149999999998,
       "type": "room-enter",
       "data": {
         "column": 51,
@@ -5789,7 +5734,16 @@
       }
     },
     {
-      "time": 45.239999999999796,
+      "time": 44.4699999999998,
+      "type": "room-enter",
+      "data": {
+        "column": 51,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 44.4699999999998,
       "type": "room-loot",
       "date": "2026-10-15",
       "value": 198,
@@ -5799,7 +5753,7 @@
       }
     },
     {
-      "time": 45.294999999999796,
+      "time": 44.5249999999998,
       "type": "room-enter",
       "data": {
         "column": 51,
@@ -5808,7 +5762,16 @@
       }
     },
     {
-      "time": 46.06499999999979,
+      "time": 44.6899999999998,
+      "type": "room-enter",
+      "data": {
+        "column": 51,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 45.294999999999796,
       "type": "room-loot",
       "date": "2026-07-26",
       "value": 205,
@@ -5818,7 +5781,7 @@
       }
     },
     {
-      "time": 46.77999999999979,
+      "time": 46.00999999999979,
       "type": "room-loot",
       "date": "2026-10-13",
       "value": 206,
@@ -5828,7 +5791,7 @@
       }
     },
     {
-      "time": 47.384999999999785,
+      "time": 46.61499999999979,
       "type": "room-loot",
       "date": "2026-07-28",
       "value": 211,
@@ -5838,7 +5801,7 @@
       }
     },
     {
-      "time": 47.604999999999784,
+      "time": 46.83499999999979,
       "type": "room-loot",
       "date": "2026-08-17",
       "value": 212,
@@ -5848,7 +5811,7 @@
       }
     },
     {
-      "time": 47.93499999999978,
+      "time": 47.164999999999786,
       "type": "room-loot",
       "date": "2026-09-20",
       "value": 212,
@@ -5858,7 +5821,7 @@
       }
     },
     {
-      "time": 48.26499999999978,
+      "time": 47.494999999999784,
       "type": "room-loot",
       "date": "2026-10-14",
       "value": 214,
@@ -5868,7 +5831,7 @@
       }
     },
     {
-      "time": 48.53999999999978,
+      "time": 47.76999999999978,
       "type": "room-loot",
       "date": "2026-09-21",
       "value": 217,
@@ -5878,7 +5841,7 @@
       }
     },
     {
-      "time": 49.089999999999776,
+      "time": 48.31999999999978,
       "type": "room-loot",
       "date": "2026-08-22",
       "value": 220,
@@ -5888,7 +5851,7 @@
       }
     },
     {
-      "time": 49.58499999999977,
+      "time": 48.81499999999978,
       "type": "room-loot",
       "date": "2026-10-16",
       "value": 227,
@@ -5898,7 +5861,16 @@
       }
     },
     {
-      "time": 49.69499999999977,
+      "time": 48.92499999999978,
+      "type": "room-enter",
+      "data": {
+        "column": 50,
+        "row": 4,
+        "active": true
+      }
+    },
+    {
+      "time": 48.92499999999978,
       "type": "room-loot",
       "date": "2026-10-08",
       "value": 229,
@@ -5908,7 +5880,7 @@
       }
     },
     {
-      "time": 49.74999999999977,
+      "time": 48.97999999999978,
       "type": "room-enter",
       "data": {
         "column": 50,
@@ -5917,7 +5889,7 @@
       }
     },
     {
-      "time": 50.40999999999977,
+      "time": 49.63999999999977,
       "type": "room-loot",
       "date": "2026-07-27",
       "value": 232,
@@ -5927,7 +5899,7 @@
       }
     },
     {
-      "time": 51.124999999999766,
+      "time": 50.35499999999977,
       "type": "room-loot",
       "date": "2026-10-02",
       "value": 238,
@@ -5937,7 +5909,7 @@
       }
     },
     {
-      "time": 51.179999999999765,
+      "time": 50.40999999999977,
       "type": "room-enter",
       "data": {
         "column": 50,
@@ -5946,7 +5918,7 @@
       }
     },
     {
-      "time": 51.179999999999765,
+      "time": 50.40999999999977,
       "type": "room-loot",
       "date": "2026-10-09",
       "value": 243,
@@ -5956,17 +5928,62 @@
       }
     },
     {
-      "time": 51.399999999999764,
-      "type": "room-loot",
-      "date": "2026-09-19",
-      "value": 244,
+      "time": 50.51999999999977,
+      "type": "room-enter",
       "data": {
-        "column": 47,
-        "row": 6
+        "column": 52,
+        "row": 5,
+        "active": false
       }
     },
     {
-      "time": 51.83999999999976,
+      "time": 50.57499999999977,
+      "type": "room-enter",
+      "data": {
+        "column": 52,
+        "row": 4,
+        "active": false
+      }
+    },
+    {
+      "time": 50.62999999999977,
+      "type": "room-enter",
+      "data": {
+        "column": 52,
+        "row": 3,
+        "active": false
+      }
+    },
+    {
+      "time": 50.68499999999977,
+      "type": "room-enter",
+      "data": {
+        "column": 52,
+        "row": 2,
+        "active": false
+      }
+    },
+    {
+      "time": 50.79499999999977,
+      "type": "room-enter",
+      "data": {
+        "column": 52,
+        "row": 0,
+        "active": true
+      }
+    },
+    {
+      "time": 50.79499999999977,
+      "type": "room-loot",
+      "date": "2026-10-18",
+      "value": 243,
+      "data": {
+        "column": 52,
+        "row": 0
+      }
+    },
+    {
+      "time": 51.399999999999764,
       "type": "room-loot",
       "date": "2026-08-18",
       "value": 244,
@@ -5976,7 +5993,17 @@
       }
     },
     {
-      "time": 52.22499999999976,
+      "time": 51.83999999999976,
+      "type": "room-loot",
+      "date": "2026-09-19",
+      "value": 244,
+      "data": {
+        "column": 47,
+        "row": 6
+      }
+    },
+    {
+      "time": 52.00499999999976,
       "type": "room-loot",
       "date": "2026-09-24",
       "value": 259,
@@ -5986,7 +6013,7 @@
       }
     },
     {
-      "time": 52.60999999999976,
+      "time": 52.38999999999976,
       "type": "room-loot",
       "date": "2026-08-12",
       "value": 261,
@@ -5996,7 +6023,7 @@
       }
     },
     {
-      "time": 52.939999999999756,
+      "time": 52.71999999999976,
       "type": "room-loot",
       "date": "2026-07-17",
       "value": 287,
@@ -6006,7 +6033,7 @@
       }
     },
     {
-      "time": 53.65499999999975,
+      "time": 53.434999999999754,
       "type": "room-loot",
       "date": "2026-10-10",
       "value": 294,
@@ -6016,7 +6043,7 @@
       }
     },
     {
-      "time": 54.47999999999975,
+      "time": 54.25999999999975,
       "type": "room-loot",
       "date": "2026-07-15",
       "value": 295,
@@ -6026,7 +6053,7 @@
       }
     },
     {
-      "time": 55.359999999999744,
+      "time": 55.139999999999745,
       "type": "room-loot",
       "date": "2026-10-17",
       "value": 305,
@@ -6036,7 +6063,7 @@
       }
     },
     {
-      "time": 56.12999999999974,
+      "time": 55.90999999999974,
       "type": "room-loot",
       "date": "2026-08-16",
       "value": 306,
@@ -6046,7 +6073,7 @@
       }
     },
     {
-      "time": 56.29499999999974,
+      "time": 56.07499999999974,
       "type": "room-loot",
       "date": "2026-08-19",
       "value": 307,
@@ -6056,7 +6083,7 @@
       }
     },
     {
-      "time": 56.67999999999974,
+      "time": 56.45999999999974,
       "type": "room-loot",
       "date": "2026-10-07",
       "value": 319,
@@ -6066,7 +6093,7 @@
       }
     },
     {
-      "time": 56.899999999999736,
+      "time": 56.67999999999974,
       "type": "room-loot",
       "date": "2026-10-11",
       "value": 322,
@@ -6076,7 +6103,7 @@
       }
     },
     {
-      "time": 57.064999999999735,
+      "time": 56.844999999999736,
       "type": "room-loot",
       "date": "2026-10-06",
       "value": 362,
@@ -6086,7 +6113,7 @@
       }
     },
     {
-      "time": 57.83499999999973,
+      "time": 57.61499999999973,
       "type": "room-loot",
       "date": "2026-07-16",
       "value": 374,
@@ -6096,7 +6123,7 @@
       }
     },
     {
-      "time": 58.16499999999973,
+      "time": 57.94499999999973,
       "type": "room-loot",
       "date": "2026-08-15",
       "value": 391,
@@ -6106,7 +6133,7 @@
       }
     },
     {
-      "time": 58.32999999999973,
+      "time": 58.10999999999973,
       "type": "room-loot",
       "date": "2026-08-20",
       "value": 478,
@@ -6116,7 +6143,7 @@
       }
     },
     {
-      "time": 58.38499999999973,
+      "time": 58.16499999999973,
       "type": "room-loot",
       "date": "2026-08-13",
       "value": 482,
@@ -6126,18 +6153,18 @@
       }
     },
     {
-      "time": 59.184999999999725,
+      "time": 58.964999999999726,
       "type": "encounter-start",
       "date": "2026-08-13",
       "value": 482,
       "data": {
         "column": 42,
         "row": 4,
-        "collectedRooms": 142
+        "collectedRooms": 143
       }
     },
     {
-      "time": 59.98499999999972,
+      "time": 59.76499999999972,
       "type": "guardian-hit",
       "date": "2026-08-13",
       "value": 121,
@@ -6149,7 +6176,7 @@
       }
     },
     {
-      "time": 60.584999999999724,
+      "time": 60.364999999999725,
       "type": "guardian-hit",
       "date": "2026-08-13",
       "value": 121,
@@ -6161,7 +6188,7 @@
       }
     },
     {
-      "time": 61.184999999999725,
+      "time": 60.964999999999726,
       "type": "guardian-hit",
       "date": "2026-08-13",
       "value": 121,
@@ -6173,7 +6200,7 @@
       }
     },
     {
-      "time": 61.78499999999973,
+      "time": 61.56499999999973,
       "type": "guardian-hit",
       "date": "2026-08-13",
       "value": 119,
@@ -6185,7 +6212,7 @@
       }
     },
     {
-      "time": 62.38499999999973,
+      "time": 62.16499999999973,
       "type": "encounter-defeated",
       "date": "2026-08-13",
       "value": 482

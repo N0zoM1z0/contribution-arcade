@@ -5,9 +5,9 @@
   "metrics": {
     "planets": 53,
     "stations": 33,
-    "refueled": 14850,
+    "refueled": 15003,
     "fuelBurned": 32,
-    "fuelRemaining": 14818,
+    "fuelRemaining": 14971,
     "fuelPerJump": 1
   },
   "checkpoints": [
@@ -540,7 +540,7 @@
       "time": 22.53,
       "type": "planet-arrive",
       "date": "2026-05-17",
-      "value": 11,
+      "value": 10,
       "data": {
         "column": 30,
         "fuel": 136
@@ -550,10 +550,10 @@
       "time": 22.53,
       "type": "station-refuel",
       "date": "2026-05-17",
-      "value": 11,
+      "value": 10,
       "data": {
         "column": 30,
-        "fuel": 147,
+        "fuel": 146,
         "activeDays": 4
       }
     },
@@ -565,7 +565,7 @@
       "data": {
         "from": 30,
         "to": 31,
-        "fuel": 146
+        "fuel": 145
       }
     },
     {
@@ -575,7 +575,7 @@
       "value": 79,
       "data": {
         "column": 31,
-        "fuel": 146
+        "fuel": 145
       }
     },
     {
@@ -585,7 +585,7 @@
       "value": 79,
       "data": {
         "column": 31,
-        "fuel": 225,
+        "fuel": 224,
         "activeDays": 3
       }
     },
@@ -597,7 +597,7 @@
       "data": {
         "from": 31,
         "to": 32,
-        "fuel": 224
+        "fuel": 223
       }
     },
     {
@@ -607,7 +607,7 @@
       "value": 3,
       "data": {
         "column": 32,
-        "fuel": 224
+        "fuel": 223
       }
     },
     {
@@ -617,7 +617,7 @@
       "value": 3,
       "data": {
         "column": 32,
-        "fuel": 227,
+        "fuel": 226,
         "activeDays": 1
       }
     },
@@ -629,7 +629,7 @@
       "data": {
         "from": 32,
         "to": 33,
-        "fuel": 226
+        "fuel": 225
       }
     },
     {
@@ -639,7 +639,7 @@
       "value": 18,
       "data": {
         "column": 33,
-        "fuel": 226
+        "fuel": 225
       }
     },
     {
@@ -649,7 +649,7 @@
       "value": 18,
       "data": {
         "column": 33,
-        "fuel": 244,
+        "fuel": 243,
         "activeDays": 1
       }
     },
@@ -661,7 +661,7 @@
       "data": {
         "from": 33,
         "to": 34,
-        "fuel": 243
+        "fuel": 242
       }
     },
     {
@@ -671,7 +671,7 @@
       "value": 28,
       "data": {
         "column": 34,
-        "fuel": 243
+        "fuel": 242
       }
     },
     {
@@ -681,7 +681,7 @@
       "value": 28,
       "data": {
         "column": 34,
-        "fuel": 271,
+        "fuel": 270,
         "activeDays": 4
       }
     },
@@ -693,7 +693,7 @@
       "data": {
         "from": 34,
         "to": 35,
-        "fuel": 270
+        "fuel": 269
       }
     },
     {
@@ -703,7 +703,7 @@
       "value": 29,
       "data": {
         "column": 35,
-        "fuel": 270
+        "fuel": 269
       }
     },
     {
@@ -713,7 +713,7 @@
       "value": 29,
       "data": {
         "column": 35,
-        "fuel": 299,
+        "fuel": 298,
         "activeDays": 1
       }
     },
@@ -725,7 +725,7 @@
       "data": {
         "from": 35,
         "to": 37,
-        "fuel": 298
+        "fuel": 297
       }
     },
     {
@@ -735,7 +735,7 @@
       "value": 0,
       "data": {
         "column": 36,
-        "fuel": 298
+        "fuel": 297
       }
     },
     {
@@ -745,7 +745,7 @@
       "value": 25,
       "data": {
         "column": 37,
-        "fuel": 298
+        "fuel": 297
       }
     },
     {
@@ -755,7 +755,7 @@
       "value": 25,
       "data": {
         "column": 37,
-        "fuel": 323,
+        "fuel": 322,
         "activeDays": 4
       }
     },
@@ -767,7 +767,7 @@
       "data": {
         "from": 37,
         "to": 38,
-        "fuel": 322
+        "fuel": 321
       }
     },
     {
@@ -777,7 +777,7 @@
       "value": 1083,
       "data": {
         "column": 38,
-        "fuel": 322
+        "fuel": 321
       }
     },
     {
@@ -787,7 +787,7 @@
       "value": 1083,
       "data": {
         "column": 38,
-        "fuel": 1405,
+        "fuel": 1404,
         "activeDays": 6
       }
     },
@@ -799,7 +799,7 @@
       "data": {
         "from": 38,
         "to": 39,
-        "fuel": 1404
+        "fuel": 1403
       }
     },
     {
@@ -809,7 +809,7 @@
       "value": 444,
       "data": {
         "column": 39,
-        "fuel": 1404
+        "fuel": 1403
       }
     },
     {
@@ -819,7 +819,7 @@
       "value": 444,
       "data": {
         "column": 39,
-        "fuel": 1848,
+        "fuel": 1847,
         "activeDays": 7
       }
     },
@@ -831,7 +831,7 @@
       "data": {
         "from": 39,
         "to": 40,
-        "fuel": 1847
+        "fuel": 1846
       }
     },
     {
@@ -841,7 +841,7 @@
       "value": 1049,
       "data": {
         "column": 40,
-        "fuel": 1847
+        "fuel": 1846
       }
     },
     {
@@ -851,7 +851,7 @@
       "value": 1049,
       "data": {
         "column": 40,
-        "fuel": 2896,
+        "fuel": 2895,
         "activeDays": 7
       }
     },
@@ -863,7 +863,7 @@
       "data": {
         "from": 40,
         "to": 41,
-        "fuel": 2895
+        "fuel": 2894
       }
     },
     {
@@ -873,7 +873,7 @@
       "value": 565,
       "data": {
         "column": 41,
-        "fuel": 2895
+        "fuel": 2894
       }
     },
     {
@@ -883,7 +883,7 @@
       "value": 565,
       "data": {
         "column": 41,
-        "fuel": 3460,
+        "fuel": 3459,
         "activeDays": 7
       }
     },
@@ -895,7 +895,7 @@
       "data": {
         "from": 41,
         "to": 42,
-        "fuel": 3459
+        "fuel": 3458
       }
     },
     {
@@ -905,7 +905,7 @@
       "value": 1611,
       "data": {
         "column": 42,
-        "fuel": 3459
+        "fuel": 3458
       }
     },
     {
@@ -915,7 +915,7 @@
       "value": 1611,
       "data": {
         "column": 42,
-        "fuel": 5070,
+        "fuel": 5069,
         "activeDays": 7
       }
     },
@@ -927,7 +927,7 @@
       "data": {
         "from": 42,
         "to": 43,
-        "fuel": 5069
+        "fuel": 5068
       }
     },
     {
@@ -937,7 +937,7 @@
       "value": 1866,
       "data": {
         "column": 43,
-        "fuel": 5069
+        "fuel": 5068
       }
     },
     {
@@ -947,7 +947,7 @@
       "value": 1866,
       "data": {
         "column": 43,
-        "fuel": 6935,
+        "fuel": 6934,
         "activeDays": 7
       }
     },
@@ -959,7 +959,7 @@
       "data": {
         "from": 43,
         "to": 44,
-        "fuel": 6934
+        "fuel": 6933
       }
     },
     {
@@ -969,7 +969,7 @@
       "value": 564,
       "data": {
         "column": 44,
-        "fuel": 6934
+        "fuel": 6933
       }
     },
     {
@@ -979,7 +979,7 @@
       "value": 564,
       "data": {
         "column": 44,
-        "fuel": 7498,
+        "fuel": 7497,
         "activeDays": 7
       }
     },
@@ -991,7 +991,7 @@
       "data": {
         "from": 44,
         "to": 45,
-        "fuel": 7497
+        "fuel": 7496
       }
     },
     {
@@ -1001,7 +1001,7 @@
       "value": 447,
       "data": {
         "column": 45,
-        "fuel": 7497
+        "fuel": 7496
       }
     },
     {
@@ -1011,7 +1011,7 @@
       "value": 447,
       "data": {
         "column": 45,
-        "fuel": 7944,
+        "fuel": 7943,
         "activeDays": 7
       }
     },
@@ -1023,7 +1023,7 @@
       "data": {
         "from": 45,
         "to": 46,
-        "fuel": 7943
+        "fuel": 7942
       }
     },
     {
@@ -1033,7 +1033,7 @@
       "value": 868,
       "data": {
         "column": 46,
-        "fuel": 7943
+        "fuel": 7942
       }
     },
     {
@@ -1043,7 +1043,7 @@
       "value": 868,
       "data": {
         "column": 46,
-        "fuel": 8811,
+        "fuel": 8810,
         "activeDays": 7
       }
     },
@@ -1055,7 +1055,7 @@
       "data": {
         "from": 46,
         "to": 47,
-        "fuel": 8810
+        "fuel": 8809
       }
     },
     {
@@ -1065,7 +1065,7 @@
       "value": 754,
       "data": {
         "column": 47,
-        "fuel": 8810
+        "fuel": 8809
       }
     },
     {
@@ -1075,7 +1075,7 @@
       "value": 754,
       "data": {
         "column": 47,
-        "fuel": 9564,
+        "fuel": 9563,
         "activeDays": 7
       }
     },
@@ -1087,7 +1087,7 @@
       "data": {
         "from": 47,
         "to": 48,
-        "fuel": 9563
+        "fuel": 9562
       }
     },
     {
@@ -1097,7 +1097,7 @@
       "value": 1184,
       "data": {
         "column": 48,
-        "fuel": 9563
+        "fuel": 9562
       }
     },
     {
@@ -1107,7 +1107,7 @@
       "value": 1184,
       "data": {
         "column": 48,
-        "fuel": 10747,
+        "fuel": 10746,
         "activeDays": 7
       }
     },
@@ -1119,7 +1119,7 @@
       "data": {
         "from": 48,
         "to": 49,
-        "fuel": 10746
+        "fuel": 10745
       }
     },
     {
@@ -1129,7 +1129,7 @@
       "value": 626,
       "data": {
         "column": 49,
-        "fuel": 10746
+        "fuel": 10745
       }
     },
     {
@@ -1139,7 +1139,7 @@
       "value": 626,
       "data": {
         "column": 49,
-        "fuel": 11372,
+        "fuel": 11371,
         "activeDays": 7
       }
     },
@@ -1151,7 +1151,7 @@
       "data": {
         "from": 49,
         "to": 50,
-        "fuel": 11371
+        "fuel": 11370
       }
     },
     {
@@ -1161,7 +1161,7 @@
       "value": 1686,
       "data": {
         "column": 50,
-        "fuel": 11371
+        "fuel": 11370
       }
     },
     {
@@ -1171,7 +1171,7 @@
       "value": 1686,
       "data": {
         "column": 50,
-        "fuel": 13057,
+        "fuel": 13056,
         "activeDays": 7
       }
     },
@@ -1183,7 +1183,7 @@
       "data": {
         "from": 50,
         "to": 51,
-        "fuel": 13056
+        "fuel": 13055
       }
     },
     {
@@ -1193,7 +1193,7 @@
       "value": 1630,
       "data": {
         "column": 51,
-        "fuel": 13056
+        "fuel": 13055
       }
     },
     {
@@ -1203,7 +1203,7 @@
       "value": 1630,
       "data": {
         "column": 51,
-        "fuel": 14686,
+        "fuel": 14685,
         "activeDays": 7
       }
     },
@@ -1215,28 +1215,28 @@
       "data": {
         "from": 51,
         "to": 52,
-        "fuel": 14685
+        "fuel": 14684
       }
     },
     {
       "time": 58.60000000000002,
       "type": "planet-arrive",
       "date": "2026-10-18",
-      "value": 133,
+      "value": 287,
       "data": {
         "column": 52,
-        "fuel": 14685
+        "fuel": 14684
       }
     },
     {
       "time": 58.60000000000002,
       "type": "station-refuel",
       "date": "2026-10-18",
-      "value": 133,
+      "value": 287,
       "data": {
         "column": 52,
-        "fuel": 14818,
-        "activeDays": 1
+        "fuel": 14971,
+        "activeDays": 2
       }
     }
   ]

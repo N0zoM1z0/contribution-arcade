@@ -1,12 +1,12 @@
 {
   "username": "N0zoM1z0",
   "from": "2025-10-19",
-  "to": "2026-10-18",
+  "to": "2026-10-19",
   "layout": {
     "type": "github-contribution-calendar",
     "columns": 53,
     "rows": 7,
-    "days": 365
+    "days": 366
   },
   "scenes": [
     {
@@ -16,7 +16,7 @@
       "title": "Breakout",
       "caption": "Your history is the level.",
       "description": "One ball to begin. A long streak brings a second, then a third. A gentle start, a little more momentum, and your year begins again.",
-      "duration": 40.06
+      "duration": 41.21
     },
     {
       "id": "snake",
@@ -25,7 +25,7 @@
       "title": "Growing Snake",
       "caption": "Small steps. A little growth.",
       "description": "Start with the smallest contribution counts and plan a path upward. Grow once every 5 dates, with a compact 16-segment limit.",
-      "duration": 126.91
+      "duration": 127.03
     },
     {
       "id": "pacman",
@@ -34,7 +34,7 @@
       "caption": "Date pellets, hungry turns, and ghosts on your trail.",
       "description": "The original contribution dates stay fixed at their actual week and weekday coordinates. Pac-Man follows planned adjacent routes to eat lower contribution counts first. Actual consecutive-day streaks increase his pace, and three ghosts pursue the same connected calendar trail.",
       "category": "Arcade",
-      "duration": 95.463
+      "duration": 95.089
     },
     {
       "id": "tetris",
@@ -43,7 +43,7 @@
       "caption": "Legal pieces fall through the original seven-row calendar.",
       "description": "Active dates supply legal tetrominoes, with lower contribution counts first. The board has the original calendar width and seven weekday rows. Missing dates are unavailable. Pieces collide with the stack, full weekday lines clear, and cleared calendar tiles disappear with the piece outlines. If no legal piece fits, the calendar rests.",
       "category": "Arcade",
-      "duration": 43.042
+      "duration": 42.93
     },
     {
       "id": "garden",
@@ -70,7 +70,7 @@
       "caption": "A quiet sky. A very busy defense.",
       "description": "The ship fires at real contribution dates in ascending count order. Invaders disappear only on projectile impact. A streak of seven consecutive active dates unlocks a boss.",
       "category": "Journeys",
-      "duration": 33.556
+      "duration": 33.716
     },
     {
       "id": "train",
@@ -79,7 +79,7 @@
       "caption": "Every week, another little station.",
       "description": "A train follows the weeks chronologically, stopping only at stations with actual contributions. Landscape seasons follow calendar months in the northern hemisphere.",
       "category": "Journeys",
-      "duration": 38.07
+      "duration": 38.105
     },
     {
       "id": "civilization",
@@ -97,7 +97,7 @@
       "caption": "A small pickaxe. A year of buried treasure.",
       "description": "The miner excavates real dates in ascending contribution-count order. Counts set quartz, copper, gold and diamond tiers. Excavating a consecutive five-day streak reveals a treasure chest.",
       "category": "Journeys",
-      "duration": 39.45
+      "duration": 39.7
     },
     {
       "id": "life",
@@ -115,7 +115,7 @@
       "caption": "Small journeys, a shared store.",
       "description": "Three workers collect the smallest contribution deposits first and carry each harvest home. Resource totals change only when a worker reaches the nest.",
       "category": "Patterns",
-      "duration": 113.352
+      "duration": 114.429
     },
     {
       "id": "weather",
@@ -133,7 +133,7 @@
       "caption": "Light a room. Find the next door.",
       "description": "Dates keep their calendar rooms. The hero plans adjacent routes to collect the smallest remaining contribution counts first; larger rooms stay dormant until their turn. Collected activity defeats a final guardian.",
       "category": "Journeys",
-      "duration": 65.385
+      "duration": 65.165
     },
     {
       "id": "music",
@@ -178,7 +178,7 @@
       "caption": "Moles pop on their original dates. Streaks sharpen your timing.",
       "description": "One mole appears on every actual active date at its original week and weekday coordinates, with lower counts first. Higher contribution counts shorten the pop window, while real daily streaks reduce hammer reaction time. The hammer travels to that date and banks its contributions only before the mole hides. Zero-count date tiles stay visible, and missing dates are absent.",
       "category": "Arcade",
-      "duration": 68.397
+      "duration": 68.36
     }
   ]
 }
