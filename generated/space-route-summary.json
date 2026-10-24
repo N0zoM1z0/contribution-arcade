@@ -5,9 +5,9 @@
   "metrics": {
     "planets": 53,
     "stations": 33,
-    "refueled": 15831,
+    "refueled": 16019,
     "fuelBurned": 32,
-    "fuelRemaining": 15799,
+    "fuelRemaining": 15987,
     "fuelPerJump": 1
   },
   "checkpoints": [
@@ -1222,7 +1222,7 @@
       "time": 58.60000000000002,
       "type": "planet-arrive",
       "date": "2026-10-18",
-      "value": 1115,
+      "value": 1303,
       "data": {
         "column": 52,
         "fuel": 14684
@@ -1232,11 +1232,11 @@
       "time": 58.60000000000002,
       "type": "station-refuel",
       "date": "2026-10-18",
-      "value": 1115,
+      "value": 1303,
       "data": {
         "column": 52,
-        "fuel": 15799,
-        "activeDays": 6
+        "fuel": 15987,
+        "activeDays": 7
       }
     }
   ]
