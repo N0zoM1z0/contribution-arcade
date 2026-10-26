@@ -5,7 +5,7 @@
   "metrics": {
     "swaps": 8,
     "matchedDates": 124,
-    "contributions": 13346,
+    "contributions": 13345,
     "cascades": 2,
     "reserve": 0
   },
@@ -2007,7 +2007,7 @@
     {
       "time": 8.71,
       "type": "swap",
-      "value": 747,
+      "value": 746,
       "data": {
         "a": {
           "x": 51,
@@ -2054,7 +2054,7 @@
       "time": 9.16,
       "type": "gem-match",
       "date": "2026-10-24",
-      "value": 256,
+      "value": 255,
       "data": {
         "depth": 0,
         "column": 51,
@@ -2404,7 +2404,7 @@
     {
       "time": 16.459999999999997,
       "type": "no-moves",
-      "value": 13346
+      "value": 13345
     }
   ]
 }
