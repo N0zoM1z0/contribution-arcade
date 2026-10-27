@@ -4,10 +4,10 @@
   "duration": 30,
   "metrics": {
     "buildings": 34,
-    "contributions": 16676,
+    "contributions": 16758,
     "tallest": 156.664,
     "peakWeek": 1866,
-    "floors": 287
+    "floors": 288
   },
   "checkpoints": [
     4,
@@ -989,10 +989,10 @@
       "time": 25.719230769230766,
       "type": "foundation",
       "date": "2026-10-18",
-      "value": 1560,
+      "value": 1581,
       "data": {
         "column": 51,
-        "height": 153.39247435099062
+        "height": 153.6497544232085
       }
     },
     {
@@ -1010,7 +1010,7 @@
       "time": 26.119230769230764,
       "type": "frame",
       "date": "2026-10-18",
-      "value": 1560,
+      "value": 1581,
       "data": {
         "column": 51,
         "floors": 16
@@ -1020,10 +1020,10 @@
       "time": 26.2,
       "type": "foundation",
       "date": "2026-10-25",
-      "value": 347,
+      "value": 408,
       "data": {
         "column": 52,
-        "height": 114.86779572190767
+        "height": 119.5593962079319
       }
     },
     {
@@ -1041,20 +1041,20 @@
       "time": 26.599999999999998,
       "type": "frame",
       "date": "2026-10-25",
-      "value": 347,
+      "value": 408,
       "data": {
         "column": 52,
-        "floors": 11
+        "floors": 12
       }
     },
     {
       "time": 26.969230769230766,
       "type": "building-complete",
       "date": "2026-10-18",
-      "value": 1560,
+      "value": 1581,
       "data": {
         "column": 51,
-        "height": 153.39247435099062,
+        "height": 153.6497544232085,
         "floors": 16
       }
     },
@@ -1062,11 +1062,11 @@
       "time": 27.45,
       "type": "building-complete",
       "date": "2026-10-25",
-      "value": 347,
+      "value": 408,
       "data": {
         "column": 52,
-        "height": 114.86779572190767,
-        "floors": 11
+        "height": 119.5593962079319,
+        "floors": 12
       }
     }
   ]
