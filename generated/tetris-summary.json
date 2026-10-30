@@ -1,20 +1,20 @@
 {
   "username": "N0zoM1z0",
   "id": "tetris",
-  "duration": 42.76788219022025,
+  "duration": 42.6649178207685,
   "metrics": {
-    "pieces": 153,
-    "lines": 8,
+    "pieces": 154,
+    "lines": 7,
     "restarts": 0,
-    "contributions": 17506,
+    "contributions": 17953,
     "skippedDates": 0,
-    "missingSlots": 2,
-    "calendarDays": 369
+    "missingSlots": 1,
+    "calendarDays": 370
   },
   "checkpoints": [
     2,
-    22.619981287120588,
-    41.26788219022025
+    12.63350595462627,
+    41.1649178207685
   ],
   "events": [
     {
@@ -47,36 +47,36 @@
       }
     },
     {
-      "time": 1.603758847937515,
+      "time": 1.6024357385353234,
       "type": "lock",
       "date": "2025-11-03",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 0,
+        "x": 50,
         "y": 5,
         "blocks": [
           {
-            "column": 1,
+            "column": 51,
             "row": 5
           },
           {
-            "column": 2,
+            "column": 52,
             "row": 5
           },
           {
-            "column": 0,
+            "column": 50,
             "row": 6
           },
           {
-            "column": 1,
+            "column": 51,
             "row": 6
           }
         ]
       }
     },
     {
-      "time": 1.675915710682613,
+      "time": 1.6741240502236352,
       "type": "spawn",
       "date": "2026-02-09",
       "value": 1,
@@ -105,36 +105,36 @@
       }
     },
     {
-      "time": 1.8796745586201282,
+      "time": 1.876559788758959,
       "type": "lock",
       "date": "2026-02-09",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 3,
+        "x": 48,
         "y": 5,
         "blocks": [
           {
-            "column": 4,
+            "column": 49,
             "row": 5
           },
           {
-            "column": 5,
+            "column": 50,
             "row": 5
           },
           {
-            "column": 3,
+            "column": 48,
             "row": 6
           },
           {
-            "column": 4,
+            "column": 49,
             "row": 6
           }
         ]
       }
     },
     {
-      "time": 1.9518314213652261,
+      "time": 1.9482481004472707,
       "type": "spawn",
       "date": "2026-02-15",
       "value": 1,
@@ -145,54 +145,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
+            "y": 0
           },
           {
-            "x": 1,
-            "y": 2
-          },
-          {
-            "x": 0,
+            "x": 2,
             "y": 0
           },
           {
             "x": 0,
             "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 2.1555902693027416,
+      "time": 2.1506838389825944,
       "type": "lock",
       "date": "2026-02-15",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 2,
-        "y": 3,
+        "x": 46,
+        "y": 5,
         "blocks": [
           {
-            "column": 3,
-            "row": 4
-          },
-          {
-            "column": 3,
+            "column": 47,
             "row": 5
           },
           {
-            "column": 2,
-            "row": 3
+            "column": 48,
+            "row": 5
           },
           {
-            "column": 2,
-            "row": 4
+            "column": 46,
+            "row": 6
+          },
+          {
+            "column": 47,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 2.2277471320478397,
+      "time": 2.222372150670906,
       "type": "spawn",
       "date": "2026-02-22",
       "value": 1,
@@ -221,36 +221,36 @@
       }
     },
     {
-      "time": 2.431505979985355,
+      "time": 2.4248078892062295,
       "type": "lock",
       "date": "2026-02-22",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 0,
-        "y": 3,
+        "x": 45,
+        "y": 4,
         "blocks": [
           {
-            "column": 1,
-            "row": 3
-          },
-          {
-            "column": 1,
+            "column": 46,
             "row": 4
           },
           {
-            "column": 0,
-            "row": 4
-          },
-          {
-            "column": 0,
+            "column": 46,
             "row": 5
+          },
+          {
+            "column": 45,
+            "row": 5
+          },
+          {
+            "column": 45,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 2.5036628427304533,
+      "time": 2.496496200894541,
       "type": "spawn",
       "date": "2026-02-24",
       "value": 1,
@@ -260,55 +260,55 @@
         "sourceRow": 2,
         "shape": [
           {
-            "x": 0,
-            "y": 1
-          },
-          {
             "x": 2,
             "y": 0
           },
           {
-            "x": 1,
-            "y": 0
+            "x": 0,
+            "y": 1
           },
           {
-            "x": 0,
-            "y": 0
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 2.7074216906679687,
+      "time": 2.6989319394298645,
       "type": "lock",
       "date": "2026-02-24",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 0,
-        "y": 2,
+        "x": 42,
+        "y": 5,
         "blocks": [
           {
-            "column": 0,
-            "row": 3
+            "column": 44,
+            "row": 5
           },
           {
-            "column": 2,
-            "row": 2
+            "column": 42,
+            "row": 6
           },
           {
-            "column": 1,
-            "row": 2
+            "column": 43,
+            "row": 6
           },
           {
-            "column": 0,
-            "row": 2
+            "column": 44,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 2.779578553413067,
+      "time": 2.770620251118176,
       "type": "spawn",
       "date": "2026-03-30",
       "value": 1,
@@ -319,54 +319,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
+            "y": 0
           },
           {
-            "x": 1,
-            "y": 2
-          },
-          {
-            "x": 0,
+            "x": 2,
             "y": 0
           },
           {
             "x": 0,
             "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 2.9833374013505822,
+      "time": 2.9730559896534996,
       "type": "lock",
       "date": "2026-03-30",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 3,
-        "y": 2,
+        "x": 40,
+        "y": 5,
         "blocks": [
           {
-            "column": 4,
-            "row": 3
+            "column": 41,
+            "row": 5
           },
           {
-            "column": 4,
-            "row": 4
+            "column": 42,
+            "row": 5
           },
           {
-            "column": 3,
-            "row": 2
+            "column": 40,
+            "row": 6
           },
           {
-            "column": 3,
-            "row": 3
+            "column": 41,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 3.0554942640956804,
+      "time": 3.044744301341811,
       "type": "spawn",
       "date": "2026-04-21",
       "value": 1,
@@ -395,36 +395,36 @@
       }
     },
     {
-      "time": 3.259253112033196,
+      "time": 3.2471800398771347,
       "type": "lock",
       "date": "2026-04-21",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 6,
+        "x": 36,
         "y": 6,
         "blocks": [
           {
-            "column": 6,
+            "column": 36,
             "row": 6
           },
           {
-            "column": 7,
+            "column": 37,
             "row": 6
           },
           {
-            "column": 8,
+            "column": 38,
             "row": 6
           },
           {
-            "column": 9,
+            "column": 39,
             "row": 6
           }
         ]
       }
     },
     {
-      "time": 3.331409974778294,
+      "time": 3.3188683515654462,
       "type": "spawn",
       "date": "2026-04-25",
       "value": 1,
@@ -453,36 +453,36 @@
       }
     },
     {
-      "time": 3.5351688227158093,
+      "time": 3.5213040901007697,
       "type": "lock",
       "date": "2026-04-25",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 5,
-        "y": 4,
+        "x": 46,
+        "y": 3,
         "blocks": [
           {
-            "column": 5,
+            "column": 46,
+            "row": 3
+          },
+          {
+            "column": 47,
+            "row": 3
+          },
+          {
+            "column": 47,
             "row": 4
           },
           {
-            "column": 6,
+            "column": 48,
             "row": 4
-          },
-          {
-            "column": 6,
-            "row": 5
-          },
-          {
-            "column": 7,
-            "row": 5
           }
         ]
       }
     },
     {
-      "time": 3.6073256854609075,
+      "time": 3.5929924017890813,
       "type": "spawn",
       "date": "2026-05-01",
       "value": 1,
@@ -511,36 +511,36 @@
       }
     },
     {
-      "time": 3.811084533398423,
+      "time": 3.795428140324405,
       "type": "lock",
       "date": "2026-05-01",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 4,
-        "y": 2,
+        "x": 48,
+        "y": 3,
         "blocks": [
           {
-            "column": 4,
-            "row": 2
-          },
-          {
-            "column": 5,
-            "row": 2
-          },
-          {
-            "column": 5,
+            "column": 48,
             "row": 3
           },
           {
-            "column": 6,
+            "column": 49,
             "row": 3
+          },
+          {
+            "column": 49,
+            "row": 4
+          },
+          {
+            "column": 50,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 3.883241396143521,
+      "time": 3.8671164520127164,
       "type": "spawn",
       "date": "2026-05-11",
       "value": 1,
@@ -551,54 +551,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 1
-          },
-          {
-            "x": 1,
             "y": 1
           },
           {
             "x": 2,
-            "y": 1
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 4.087000244081036,
+      "time": 4.06955219054804,
       "type": "lock",
       "date": "2026-05-11",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 10,
-        "y": 5,
+        "x": 42,
+        "y": 4,
         "blocks": [
           {
-            "column": 11,
+            "column": 43,
             "row": 5
           },
           {
-            "column": 10,
-            "row": 6
+            "column": 44,
+            "row": 4
           },
           {
-            "column": 11,
-            "row": 6
+            "column": 43,
+            "row": 4
           },
           {
-            "column": 12,
-            "row": 6
+            "column": 42,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 4.159157106826134,
+      "time": 4.141240502236352,
       "type": "spawn",
       "date": "2026-05-14",
       "value": 1,
@@ -608,7 +608,65 @@
         "sourceRow": 4,
         "shape": [
           {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
             "x": 0,
+            "y": 0
+          }
+        ]
+      }
+    },
+    {
+      "time": 4.343676240771676,
+      "type": "lock",
+      "date": "2026-05-14",
+      "value": 4,
+      "data": {
+        "kind": "J",
+        "x": 43,
+        "y": 3,
+        "blocks": [
+          {
+            "column": 45,
+            "row": 4
+          },
+          {
+            "column": 45,
+            "row": 3
+          },
+          {
+            "column": 44,
+            "row": 3
+          },
+          {
+            "column": 43,
+            "row": 3
+          }
+        ]
+      }
+    },
+    {
+      "time": 4.415364552459987,
+      "type": "spawn",
+      "date": "2026-05-15",
+      "value": 1,
+      "data": {
+        "kind": "L",
+        "sourceColumn": 28,
+        "sourceRow": 5,
+        "shape": [
+          {
+            "x": 2,
             "y": 0
           },
           {
@@ -627,94 +685,36 @@
       }
     },
     {
-      "time": 4.36291595476365,
-      "type": "lock",
-      "date": "2026-05-14",
-      "value": 4,
-      "data": {
-        "kind": "J",
-        "x": 8,
-        "y": 4,
-        "blocks": [
-          {
-            "column": 8,
-            "row": 4
-          },
-          {
-            "column": 8,
-            "row": 5
-          },
-          {
-            "column": 9,
-            "row": 5
-          },
-          {
-            "column": 10,
-            "row": 5
-          }
-        ]
-      }
-    },
-    {
-      "time": 4.435072817508748,
-      "type": "spawn",
-      "date": "2026-05-15",
-      "value": 1,
-      "data": {
-        "kind": "L",
-        "sourceColumn": 28,
-        "sourceRow": 5,
-        "shape": [
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 1,
-            "y": 2
-          },
-          {
-            "x": 1,
-            "y": 1
-          },
-          {
-            "x": 1,
-            "y": 0
-          }
-        ]
-      }
-    },
-    {
-      "time": 4.638831665446263,
+      "time": 4.617800290995311,
       "type": "lock",
       "date": "2026-05-15",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 6,
-        "y": 2,
+        "x": 33,
+        "y": 5,
         "blocks": [
           {
-            "column": 6,
-            "row": 2
+            "column": 35,
+            "row": 5
           },
           {
-            "column": 7,
-            "row": 4
+            "column": 33,
+            "row": 6
           },
           {
-            "column": 7,
-            "row": 3
+            "column": 34,
+            "row": 6
           },
           {
-            "column": 7,
-            "row": 2
+            "column": 35,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 4.710988528191361,
+      "time": 4.689488602683623,
       "type": "spawn",
       "date": "2026-05-22",
       "value": 1,
@@ -743,36 +743,36 @@
       }
     },
     {
-      "time": 4.914747376128877,
+      "time": 4.891924341218947,
       "type": "lock",
       "date": "2026-05-22",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 13,
+        "x": 29,
         "y": 6,
         "blocks": [
           {
-            "column": 13,
+            "column": 29,
             "row": 6
           },
           {
-            "column": 14,
+            "column": 30,
             "row": 6
           },
           {
-            "column": 15,
+            "column": 31,
             "row": 6
           },
           {
-            "column": 16,
+            "column": 32,
             "row": 6
           }
         ]
       }
     },
     {
-      "time": 4.986904238873975,
+      "time": 4.963612652907258,
       "type": "spawn",
       "date": "2026-05-23",
       "value": 1,
@@ -801,36 +801,36 @@
       }
     },
     {
-      "time": 5.19066308681149,
+      "time": 5.166048391442582,
       "type": "lock",
       "date": "2026-05-23",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 9,
+        "x": 51,
         "y": 3,
         "blocks": [
           {
-            "column": 9,
+            "column": 51,
             "row": 3
           },
           {
-            "column": 10,
+            "column": 52,
             "row": 3
           },
           {
-            "column": 9,
+            "column": 51,
             "row": 4
           },
           {
-            "column": 10,
+            "column": 52,
             "row": 4
           }
         ]
       }
     },
     {
-      "time": 5.262819949556588,
+      "time": 5.237736703130894,
       "type": "spawn",
       "date": "2026-05-26",
       "value": 1,
@@ -840,7 +840,123 @@
         "sourceRow": 2,
         "shape": [
           {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
             "x": 0,
+            "y": 0
+          }
+        ]
+      }
+    },
+    {
+      "time": 5.440172441666218,
+      "type": "lock",
+      "date": "2026-05-26",
+      "value": 4,
+      "data": {
+        "kind": "J",
+        "x": 48,
+        "y": 2,
+        "blocks": [
+          {
+            "column": 50,
+            "row": 3
+          },
+          {
+            "column": 50,
+            "row": 2
+          },
+          {
+            "column": 49,
+            "row": 2
+          },
+          {
+            "column": 48,
+            "row": 2
+          }
+        ]
+      }
+    },
+    {
+      "time": 5.511860753354529,
+      "type": "spawn",
+      "date": "2026-06-18",
+      "value": 1,
+      "data": {
+        "kind": "S",
+        "sourceColumn": 33,
+        "sourceRow": 4,
+        "shape": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    },
+    {
+      "time": 5.714296491889853,
+      "type": "lock",
+      "date": "2026-06-18",
+      "value": 4,
+      "data": {
+        "kind": "S",
+        "x": 39,
+        "y": 4,
+        "blocks": [
+          {
+            "column": 40,
+            "row": 4
+          },
+          {
+            "column": 41,
+            "row": 4
+          },
+          {
+            "column": 39,
+            "row": 5
+          },
+          {
+            "column": 40,
+            "row": 5
+          }
+        ]
+      }
+    },
+    {
+      "time": 5.785984803578165,
+      "type": "spawn",
+      "date": "2026-02-20",
+      "value": 2,
+      "data": {
+        "kind": "T",
+        "sourceColumn": 16,
+        "sourceRow": 5,
+        "shape": [
+          {
+            "x": 1,
             "y": 0
           },
           {
@@ -859,152 +975,36 @@
       }
     },
     {
-      "time": 5.466578797494104,
+      "time": 5.988258878051409,
       "type": "lock",
-      "date": "2026-05-26",
+      "date": "2026-02-20",
       "value": 4,
       "data": {
-        "kind": "J",
-        "x": 12,
+        "kind": "T",
+        "x": 36,
         "y": 4,
         "blocks": [
           {
-            "column": 12,
+            "column": 37,
             "row": 4
           },
           {
-            "column": 12,
+            "column": 36,
             "row": 5
           },
           {
-            "column": 13,
+            "column": 37,
             "row": 5
           },
           {
-            "column": 14,
+            "column": 38,
             "row": 5
           }
         ]
       }
     },
     {
-      "time": 5.538735660239202,
-      "type": "spawn",
-      "date": "2026-06-18",
-      "value": 1,
-      "data": {
-        "kind": "S",
-        "sourceColumn": 33,
-        "sourceRow": 4,
-        "shape": [
-          {
-            "x": 1,
-            "y": 1
-          },
-          {
-            "x": 1,
-            "y": 2
-          },
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 1
-          }
-        ]
-      }
-    },
-    {
-      "time": 5.742494508176717,
-      "type": "lock",
-      "date": "2026-06-18",
-      "value": 4,
-      "data": {
-        "kind": "S",
-        "x": 12,
-        "y": 2,
-        "blocks": [
-          {
-            "column": 13,
-            "row": 3
-          },
-          {
-            "column": 13,
-            "row": 4
-          },
-          {
-            "column": 12,
-            "row": 2
-          },
-          {
-            "column": 12,
-            "row": 3
-          }
-        ]
-      }
-    },
-    {
-      "time": 5.8146513709218155,
-      "type": "spawn",
-      "date": "2026-02-20",
-      "value": 2,
-      "data": {
-        "kind": "T",
-        "sourceColumn": 16,
-        "sourceRow": 5,
-        "shape": [
-          {
-            "x": 1,
-            "y": 1
-          },
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 1
-          },
-          {
-            "x": 0,
-            "y": 2
-          }
-        ]
-      }
-    },
-    {
-      "time": 6.018247498169395,
-      "type": "lock",
-      "date": "2026-02-20",
-      "value": 4,
-      "data": {
-        "kind": "T",
-        "x": 8,
-        "y": 1,
-        "blocks": [
-          {
-            "column": 9,
-            "row": 2
-          },
-          {
-            "column": 8,
-            "row": 1
-          },
-          {
-            "column": 8,
-            "row": 2
-          },
-          {
-            "column": 8,
-            "row": 3
-          }
-        ]
-      }
-    },
-    {
-      "time": 6.090404360914493,
+      "time": 6.059947189739721,
       "type": "spawn",
       "date": "2026-04-28",
       "value": 2,
@@ -1033,36 +1033,36 @@
       }
     },
     {
-      "time": 6.294000488162073,
+      "time": 6.2622212642129655,
       "type": "lock",
       "date": "2026-04-28",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 17,
+        "x": 26,
         "y": 5,
         "blocks": [
           {
-            "column": 18,
+            "column": 27,
             "row": 5
           },
           {
-            "column": 17,
+            "column": 26,
             "row": 6
           },
           {
-            "column": 18,
+            "column": 27,
             "row": 6
           },
           {
-            "column": 19,
+            "column": 28,
             "row": 6
           }
         ]
       }
     },
     {
-      "time": 6.366157350907171,
+      "time": 6.333909575901277,
       "type": "spawn",
       "date": "2026-05-17",
       "value": 2,
@@ -1073,54 +1073,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
+            "y": 0
           },
           {
-            "x": 1,
-            "y": 2
-          },
-          {
-            "x": 0,
+            "x": 2,
             "y": 0
           },
           {
             "x": 0,
             "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 6.569753478154751,
+      "time": 6.536183650374522,
       "type": "lock",
       "date": "2026-05-17",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 14,
-        "y": 3,
+        "x": 24,
+        "y": 5,
         "blocks": [
           {
-            "column": 15,
-            "row": 4
-          },
-          {
-            "column": 15,
+            "column": 25,
             "row": 5
           },
           {
-            "column": 14,
-            "row": 3
+            "column": 26,
+            "row": 5
           },
           {
-            "column": 14,
-            "row": 4
+            "column": 24,
+            "row": 6
+          },
+          {
+            "column": 25,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 6.641910340899849,
+      "time": 6.607871962062833,
       "type": "spawn",
       "date": "2026-04-18",
       "value": 3,
@@ -1130,55 +1130,55 @@
         "sourceRow": 6,
         "shape": [
           {
-            "x": 2,
-            "y": 1
-          },
-          {
-            "x": 2,
-            "y": 0
+            "x": 0,
+            "y": 2
           },
           {
             "x": 1,
-            "y": 0
+            "y": 2
           },
           {
-            "x": 0,
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
             "y": 0
           }
         ]
       }
     },
     {
-      "time": 6.845343747457493,
+      "time": 6.809984372473999,
       "type": "lock",
       "date": "2026-04-18",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 13,
-        "y": 2,
+        "x": 51,
+        "y": 0,
         "blocks": [
           {
-            "column": 15,
-            "row": 3
-          },
-          {
-            "column": 15,
+            "column": 51,
             "row": 2
           },
           {
-            "column": 14,
+            "column": 52,
             "row": 2
           },
           {
-            "column": 13,
-            "row": 2
+            "column": 52,
+            "row": 1
+          },
+          {
+            "column": 52,
+            "row": 0
           }
         ]
       }
     },
     {
-      "time": 6.917500610202591,
+      "time": 6.881672684162311,
       "type": "spawn",
       "date": "2026-06-04",
       "value": 3,
@@ -1207,36 +1207,36 @@
       }
     },
     {
-      "time": 7.120934016760235,
+      "time": 7.083785094573477,
       "type": "lock",
       "date": "2026-06-04",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 16,
-        "y": 4,
+        "x": 22,
+        "y": 5,
         "blocks": [
           {
-            "column": 17,
-            "row": 4
-          },
-          {
-            "column": 18,
-            "row": 4
-          },
-          {
-            "column": 16,
+            "column": 23,
             "row": 5
           },
           {
-            "column": 17,
+            "column": 24,
             "row": 5
+          },
+          {
+            "column": 22,
+            "row": 6
+          },
+          {
+            "column": 23,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 7.193090879505333,
+      "time": 7.155473406261788,
       "type": "spawn",
       "date": "2026-04-20",
       "value": 4,
@@ -1247,10 +1247,6 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
-          },
-          {
-            "x": 0,
             "y": 0
           },
           {
@@ -1258,43 +1254,47 @@
             "y": 1
           },
           {
-            "x": 0,
-            "y": 2
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 7.3963615653730415,
+      "time": 7.357424152610875,
       "type": "lock",
       "date": "2026-04-20",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 16,
-        "y": 2,
+        "x": 19,
+        "y": 5,
         "blocks": [
           {
-            "column": 17,
-            "row": 3
+            "column": 20,
+            "row": 5
           },
           {
-            "column": 16,
-            "row": 2
+            "column": 19,
+            "row": 6
           },
           {
-            "column": 16,
-            "row": 3
+            "column": 20,
+            "row": 6
           },
           {
-            "column": 16,
-            "row": 4
+            "column": 21,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 7.46851842811814,
+      "time": 7.429112464299187,
       "type": "spawn",
       "date": "2026-05-09",
       "value": 4,
@@ -1323,36 +1323,36 @@
       }
     },
     {
-      "time": 7.671789113985848,
+      "time": 7.631063210648273,
       "type": "lock",
       "date": "2026-05-09",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 20,
+        "x": 16,
         "y": 5,
         "blocks": [
           {
-            "column": 21,
+            "column": 17,
             "row": 5
           },
           {
-            "column": 20,
+            "column": 16,
             "row": 6
           },
           {
-            "column": 21,
+            "column": 17,
             "row": 6
           },
           {
-            "column": 22,
+            "column": 18,
             "row": 6
           }
         ]
       }
     },
     {
-      "time": 7.743945976730946,
+      "time": 7.702751522336585,
       "type": "spawn",
       "date": "2026-07-08",
       "value": 4,
@@ -1381,36 +1381,36 @@
       }
     },
     {
-      "time": 7.947216662598654,
+      "time": 7.904702268685671,
       "type": "lock",
       "date": "2026-07-08",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 19,
+        "x": 18,
         "y": 4,
         "blocks": [
           {
-            "column": 19,
-            "row": 4
-          },
-          {
-            "column": 20,
+            "column": 18,
             "row": 4
           },
           {
             "column": 19,
+            "row": 4
+          },
+          {
+            "column": 18,
             "row": 5
           },
           {
-            "column": 20,
+            "column": 19,
             "row": 5
           }
         ]
       }
     },
     {
-      "time": 8.019373525343752,
+      "time": 7.976390580373983,
       "type": "spawn",
       "date": "2026-07-11",
       "value": 4,
@@ -1439,36 +1439,36 @@
       }
     },
     {
-      "time": 8.22264421121146,
+      "time": 8.17834132672307,
       "type": "lock",
       "date": "2026-07-11",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 17,
-        "y": 2,
+        "x": 20,
+        "y": 4,
         "blocks": [
           {
-            "column": 17,
-            "row": 2
+            "column": 20,
+            "row": 4
           },
           {
-            "column": 18,
-            "row": 2
+            "column": 21,
+            "row": 4
           },
           {
-            "column": 18,
-            "row": 3
+            "column": 21,
+            "row": 5
           },
           {
-            "column": 19,
-            "row": 3
+            "column": 22,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 8.294801073956558,
+      "time": 8.25002963841138,
       "type": "spawn",
       "date": "2026-04-17",
       "value": 5,
@@ -1478,55 +1478,55 @@
         "sourceRow": 5,
         "shape": [
           {
-            "x": 0,
+            "x": 2,
             "y": 0
           },
           {
-            "x": 1,
-            "y": 2
+            "x": 0,
+            "y": 1
           },
           {
             "x": 1,
             "y": 1
           },
           {
-            "x": 1,
-            "y": 0
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 8.49790903913433,
+      "time": 8.451818720698387,
       "type": "lock",
       "date": "2026-04-17",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 10,
-        "y": 2,
+        "x": 49,
+        "y": 0,
         "blocks": [
           {
-            "column": 10,
-            "row": 2
+            "column": 51,
+            "row": 0
           },
           {
-            "column": 11,
-            "row": 4
+            "column": 49,
+            "row": 1
           },
           {
-            "column": 11,
-            "row": 3
+            "column": 50,
+            "row": 1
           },
           {
-            "column": 11,
-            "row": 2
+            "column": 51,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 8.570065901879428,
+      "time": 8.523507032386698,
       "type": "spawn",
       "date": "2026-05-07",
       "value": 5,
@@ -1555,36 +1555,36 @@
       }
     },
     {
-      "time": 8.7731738670572,
+      "time": 8.725296114673705,
       "type": "lock",
       "date": "2026-05-07",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 23,
-        "y": 5,
+        "x": 38,
+        "y": 3,
         "blocks": [
           {
-            "column": 23,
-            "row": 5
+            "column": 38,
+            "row": 3
           },
           {
-            "column": 24,
-            "row": 5
+            "column": 39,
+            "row": 3
           },
           {
-            "column": 23,
-            "row": 6
+            "column": 38,
+            "row": 4
           },
           {
-            "column": 24,
-            "row": 6
+            "column": 39,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 8.845330729802297,
+      "time": 8.796984426362016,
       "type": "spawn",
       "date": "2026-06-20",
       "value": 5,
@@ -1595,54 +1595,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
-          },
-          {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 1,
             "y": 0
           },
           {
             "x": 0,
-            "y": 0
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 9.048438694980069,
+      "time": 8.998773508649023,
       "type": "lock",
       "date": "2026-06-20",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 21,
-        "y": 4,
+        "x": 40,
+        "y": 2,
         "blocks": [
           {
-            "column": 22,
-            "row": 5
+            "column": 41,
+            "row": 2
           },
           {
-            "column": 23,
-            "row": 4
+            "column": 40,
+            "row": 3
           },
           {
-            "column": 22,
-            "row": 4
+            "column": 41,
+            "row": 3
           },
           {
-            "column": 21,
-            "row": 4
+            "column": 42,
+            "row": 3
           }
         ]
       }
     },
     {
-      "time": 9.120595557725167,
+      "time": 9.070461820337334,
       "type": "spawn",
       "date": "2026-09-04",
       "value": 5,
@@ -1671,36 +1671,36 @@
       }
     },
     {
-      "time": 9.323703522902939,
+      "time": 9.272250902624341,
       "type": "lock",
       "date": "2026-09-04",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 25,
+        "x": 0,
         "y": 5,
         "blocks": [
           {
-            "column": 25,
+            "column": 0,
             "row": 5
           },
           {
-            "column": 25,
+            "column": 0,
             "row": 6
           },
           {
-            "column": 26,
+            "column": 1,
             "row": 6
           },
           {
-            "column": 27,
+            "column": 2,
             "row": 6
           }
         ]
       }
     },
     {
-      "time": 9.395860385648037,
+      "time": 9.343939214312652,
       "type": "spawn",
       "date": "2026-05-18",
       "value": 6,
@@ -1729,36 +1729,36 @@
       }
     },
     {
-      "time": 9.598805630135873,
+      "time": 9.54556663253758,
       "type": "lock",
       "date": "2026-05-18",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 20,
-        "y": 2,
+        "x": 1,
+        "y": 4,
         "blocks": [
           {
-            "column": 20,
-            "row": 2
+            "column": 1,
+            "row": 4
           },
           {
-            "column": 21,
-            "row": 2
+            "column": 2,
+            "row": 4
           },
           {
-            "column": 20,
-            "row": 3
+            "column": 1,
+            "row": 5
           },
           {
-            "column": 21,
-            "row": 3
+            "column": 2,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 9.670962492880971,
+      "time": 9.617254944225891,
       "type": "spawn",
       "date": "2026-07-10",
       "value": 7,
@@ -1768,55 +1768,55 @@
         "sourceRow": 5,
         "shape": [
           {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
             "x": 0,
             "y": 1
           },
           {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 1,
-            "y": 0
-          },
-          {
             "x": 0,
-            "y": 0
+            "y": 2
           }
         ]
       }
     },
     {
-      "time": 9.873745016678871,
+      "time": 9.818720698388741,
       "type": "lock",
       "date": "2026-07-10",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 19,
-        "y": 1,
+        "x": 3,
+        "y": 4,
         "blocks": [
           {
-            "column": 19,
-            "row": 2
+            "column": 4,
+            "row": 6
           },
           {
-            "column": 21,
-            "row": 1
+            "column": 3,
+            "row": 4
           },
           {
-            "column": 20,
-            "row": 1
+            "column": 3,
+            "row": 5
           },
           {
-            "column": 19,
-            "row": 1
+            "column": 3,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 9.94590187942397,
+      "time": 9.890409010077052,
       "type": "spawn",
       "date": "2026-03-14",
       "value": 8,
@@ -1826,55 +1826,55 @@
         "sourceRow": 6,
         "shape": [
           {
-            "x": 2,
-            "y": 1
-          },
-          {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 1,
+            "x": 0,
             "y": 0
           },
           {
             "x": 0,
-            "y": 0
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 10.148521682531934,
+      "time": 10.091713100177822,
       "type": "lock",
       "date": "2026-03-14",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 22,
-        "y": 3,
+        "x": 5,
+        "y": 5,
         "blocks": [
           {
-            "column": 24,
-            "row": 4
+            "column": 5,
+            "row": 5
           },
           {
-            "column": 24,
-            "row": 3
+            "column": 5,
+            "row": 6
           },
           {
-            "column": 23,
-            "row": 3
+            "column": 6,
+            "row": 6
           },
           {
-            "column": 22,
-            "row": 3
+            "column": 7,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 10.220678545277032,
+      "time": 10.163401411866133,
       "type": "spawn",
       "date": "2026-07-13",
       "value": 8,
@@ -1884,55 +1884,55 @@
         "sourceRow": 1,
         "shape": [
           {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
             "x": 0,
-            "y": 0
-          },
-          {
-            "x": 1,
-            "y": 0
-          },
-          {
-            "x": 1,
             "y": 1
           },
           {
-            "x": 2,
-            "y": 1
+            "x": 0,
+            "y": 2
           }
         ]
       }
     },
     {
-      "time": 10.423298348384996,
+      "time": 10.364705501966903,
       "type": "lock",
       "date": "2026-07-13",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 25,
-        "y": 4,
+        "x": 4,
+        "y": 3,
         "blocks": [
           {
-            "column": 25,
+            "column": 5,
+            "row": 3
+          },
+          {
+            "column": 5,
             "row": 4
           },
           {
-            "column": 26,
+            "column": 4,
             "row": 4
           },
           {
-            "column": 26,
-            "row": 5
-          },
-          {
-            "column": 27,
+            "column": 4,
             "row": 5
           }
         ]
       }
     },
     {
-      "time": 10.495455211130094,
+      "time": 10.436393813655213,
       "type": "spawn",
       "date": "2026-07-09",
       "value": 10,
@@ -1961,36 +1961,36 @@
       }
     },
     {
-      "time": 10.697749572858188,
+      "time": 10.637374575631826,
       "type": "lock",
       "date": "2026-07-09",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 22,
-        "y": 1,
+        "x": 6,
+        "y": 4,
         "blocks": [
           {
-            "column": 22,
-            "row": 1
+            "column": 6,
+            "row": 4
           },
           {
-            "column": 23,
-            "row": 1
+            "column": 7,
+            "row": 4
           },
           {
-            "column": 22,
-            "row": 2
+            "column": 6,
+            "row": 5
           },
           {
-            "column": 23,
-            "row": 2
+            "column": 7,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 10.769906435603286,
+      "time": 10.709062887320137,
       "type": "spawn",
       "date": "2026-06-14",
       "value": 11,
@@ -2001,6 +2001,10 @@
         "shape": [
           {
             "x": 1,
+            "y": 1
+          },
+          {
+            "x": 0,
             "y": 0
           },
           {
@@ -2008,47 +2012,43 @@
             "y": 1
           },
           {
-            "x": 1,
-            "y": 1
-          },
-          {
-            "x": 2,
-            "y": 1
+            "x": 0,
+            "y": 2
           }
         ]
       }
     },
     {
-      "time": 10.972038076641443,
+      "time": 10.909881985234671,
       "type": "lock",
       "date": "2026-06-14",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 28,
-        "y": 5,
+        "x": 0,
+        "y": 2,
         "blocks": [
           {
-            "column": 29,
-            "row": 5
+            "column": 1,
+            "row": 3
           },
           {
-            "column": 28,
-            "row": 6
+            "column": 0,
+            "row": 2
           },
           {
-            "column": 29,
-            "row": 6
+            "column": 0,
+            "row": 3
           },
           {
-            "column": 30,
-            "row": 6
+            "column": 0,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 11.044194939386541,
+      "time": 10.981570296922982,
       "type": "spawn",
       "date": "2026-06-19",
       "value": 11,
@@ -2077,36 +2077,36 @@
       }
     },
     {
-      "time": 11.246326580424698,
+      "time": 11.182389394837516,
       "type": "lock",
       "date": "2026-06-19",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 4,
-        "y": 1,
+        "x": 8,
+        "y": 6,
         "blocks": [
           {
-            "column": 4,
-            "row": 1
+            "column": 8,
+            "row": 6
           },
           {
-            "column": 5,
-            "row": 1
+            "column": 9,
+            "row": 6
           },
           {
-            "column": 6,
-            "row": 1
+            "column": 10,
+            "row": 6
           },
           {
-            "column": 7,
-            "row": 1
+            "column": 11,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 11.318483443169796,
+      "time": 11.254077706525827,
       "type": "spawn",
       "date": "2026-04-23",
       "value": 12,
@@ -2135,36 +2135,36 @@
       }
     },
     {
-      "time": 11.520452363518018,
+      "time": 11.454735140378281,
       "type": "lock",
       "date": "2026-04-23",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 31,
-        "y": 5,
+        "x": 2,
+        "y": 2,
         "blocks": [
           {
-            "column": 33,
-            "row": 5
+            "column": 4,
+            "row": 2
           },
           {
-            "column": 31,
-            "row": 6
+            "column": 2,
+            "row": 3
           },
           {
-            "column": 32,
-            "row": 6
+            "column": 3,
+            "row": 3
           },
           {
-            "column": 33,
-            "row": 6
+            "column": 4,
+            "row": 3
           }
         ]
       }
     },
     {
-      "time": 11.592609226263116,
+      "time": 11.526423452066592,
       "type": "spawn",
       "date": "2026-04-27",
       "value": 12,
@@ -2193,36 +2193,36 @@
       }
     },
     {
-      "time": 11.794578146611338,
+      "time": 11.727080885919046,
       "type": "lock",
       "date": "2026-04-27",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 24,
+        "x": 5,
         "y": 2,
         "blocks": [
           {
-            "column": 24,
+            "column": 5,
             "row": 2
           },
           {
-            "column": 25,
+            "column": 6,
             "row": 2
           },
           {
-            "column": 25,
+            "column": 6,
             "row": 3
           },
           {
-            "column": 26,
+            "column": 7,
             "row": 3
           }
         ]
       }
     },
     {
-      "time": 11.866735009356436,
+      "time": 11.798769197607356,
       "type": "spawn",
       "date": "2026-04-22",
       "value": 13,
@@ -2251,36 +2251,36 @@
       }
     },
     {
-      "time": 12.068541209014722,
+      "time": 11.999264967397732,
       "type": "lock",
       "date": "2026-04-22",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 30,
-        "y": 4,
+        "x": 1,
+        "y": 1,
         "blocks": [
           {
-            "column": 32,
-            "row": 4
+            "column": 3,
+            "row": 1
           },
           {
-            "column": 30,
-            "row": 5
+            "column": 1,
+            "row": 2
           },
           {
-            "column": 31,
-            "row": 5
+            "column": 2,
+            "row": 2
           },
           {
-            "column": 32,
-            "row": 5
+            "column": 3,
+            "row": 2
           }
         ]
       }
     },
     {
-      "time": 12.14069807175982,
+      "time": 12.070953279086043,
       "type": "spawn",
       "date": "2026-10-01",
       "value": 14,
@@ -2291,54 +2291,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
+            "y": 0
           },
           {
-            "x": 1,
-            "y": 2
-          },
-          {
-            "x": 0,
+            "x": 2,
             "y": 0
           },
           {
             "x": 0,
             "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 12.34234155072817,
+      "time": 12.27128738481434,
       "type": "lock",
       "date": "2026-10-01",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 27,
-        "y": 3,
+        "x": 14,
+        "y": 5,
         "blocks": [
           {
-            "column": 28,
-            "row": 4
-          },
-          {
-            "column": 28,
+            "column": 15,
             "row": 5
           },
           {
-            "column": 27,
-            "row": 3
+            "column": 16,
+            "row": 5
           },
           {
-            "column": 27,
-            "row": 4
+            "column": 14,
+            "row": 6
+          },
+          {
+            "column": 15,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 12.414498413473268,
+      "time": 12.34297569650265,
       "type": "spawn",
       "date": "2026-03-13",
       "value": 16,
@@ -2349,54 +2349,67 @@
         "shape": [
           {
             "x": 0,
-            "y": 0
+            "y": 2
           },
           {
-            "x": 0,
-            "y": 1
+            "x": 1,
+            "y": 2
           },
           {
             "x": 1,
             "y": 1
           },
           {
-            "x": 2,
-            "y": 1
+            "x": 1,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 12.615816451061747,
+      "time": 12.542986474106788,
       "type": "lock",
       "date": "2026-03-13",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 29,
-        "y": 3,
+        "x": 12,
+        "y": 4,
         "blocks": [
           {
-            "column": 29,
-            "row": 3
+            "column": 12,
+            "row": 6
           },
           {
-            "column": 29,
-            "row": 4
+            "column": 13,
+            "row": 6
           },
           {
-            "column": 30,
-            "row": 4
+            "column": 13,
+            "row": 5
           },
           {
-            "column": 31,
+            "column": 13,
             "row": 4
           }
         ]
       }
     },
     {
-      "time": 12.687973313806845,
+      "time": 12.583505954626268,
+      "type": "row-clear",
+      "date": "2026-03-13",
+      "value": 1,
+      "data": {
+        "rows": [
+          6
+        ],
+        "lines": 1,
+        "removedBlocks": 52
+      }
+    },
+    {
+      "time": 12.661428032548347,
       "type": "spawn",
       "date": "2026-09-23",
       "value": 16,
@@ -2407,54 +2420,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
+            "y": 0
           },
           {
-            "x": 1,
-            "y": 2
-          },
-          {
-            "x": 0,
+            "x": 2,
             "y": 0
           },
           {
             "x": 0,
             "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 12.889291351395324,
+      "time": 12.861438810152485,
       "type": "lock",
       "date": "2026-09-23",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 27,
-        "y": 1,
+        "x": 35,
+        "y": 4,
         "blocks": [
           {
-            "column": 28,
-            "row": 2
+            "column": 36,
+            "row": 4
           },
           {
-            "column": 28,
-            "row": 3
+            "column": 37,
+            "row": 4
           },
           {
-            "column": 27,
-            "row": 1
+            "column": 35,
+            "row": 5
           },
           {
-            "column": 27,
-            "row": 2
+            "column": 36,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 12.961448214140422,
+      "time": 12.933127121840796,
       "type": "spawn",
       "date": "2026-05-27",
       "value": 17,
@@ -2483,36 +2496,36 @@
       }
     },
     {
-      "time": 13.162603531038965,
+      "time": 13.132976235382856,
       "type": "lock",
       "date": "2026-05-27",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 34,
+        "x": 8,
         "y": 5,
         "blocks": [
           {
-            "column": 34,
+            "column": 8,
             "row": 5
           },
           {
-            "column": 35,
+            "column": 9,
             "row": 5
           },
           {
-            "column": 34,
+            "column": 8,
             "row": 6
           },
           {
-            "column": 35,
+            "column": 9,
             "row": 6
           }
         ]
       }
     },
     {
-      "time": 13.234760393784063,
+      "time": 13.204664547071166,
       "type": "spawn",
       "date": "2026-08-28",
       "value": 17,
@@ -2522,55 +2535,55 @@
         "sourceRow": 5,
         "shape": [
           {
+            "x": 1,
+            "y": 0
+          },
+          {
             "x": 0,
             "y": 1
           },
           {
             "x": 1,
-            "y": 2
-          },
-          {
-            "x": 1,
             "y": 1
           },
           {
-            "x": 1,
-            "y": 0
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 13.435915710682606,
+      "time": 13.404513660613226,
       "type": "lock",
       "date": "2026-08-28",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 25,
-        "y": 0,
+        "x": 10,
+        "y": 5,
         "blocks": [
           {
-            "column": 25,
-            "row": 1
+            "column": 11,
+            "row": 5
           },
           {
-            "column": 26,
-            "row": 2
+            "column": 10,
+            "row": 6
           },
           {
-            "column": 26,
-            "row": 1
+            "column": 11,
+            "row": 6
           },
           {
-            "column": 26,
-            "row": 0
+            "column": 12,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 13.508072573427704,
+      "time": 13.476201972301537,
       "type": "spawn",
       "date": "2026-04-30",
       "value": 18,
@@ -2580,55 +2593,55 @@
         "sourceRow": 4,
         "shape": [
           {
-            "x": 2,
-            "y": 0
-          },
-          {
             "x": 0,
             "y": 1
           },
           {
-            "x": 1,
-            "y": 1
+            "x": 2,
+            "y": 0
           },
           {
-            "x": 2,
-            "y": 1
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 13.709065169636311,
+      "time": 13.675889421781518,
       "type": "lock",
       "date": "2026-04-30",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 1,
-        "y": 0,
+        "x": 14,
+        "y": 5,
         "blocks": [
           {
-            "column": 3,
-            "row": 0
+            "column": 14,
+            "row": 6
           },
           {
-            "column": 1,
-            "row": 1
+            "column": 16,
+            "row": 5
           },
           {
-            "column": 2,
-            "row": 1
+            "column": 15,
+            "row": 5
           },
           {
-            "column": 3,
-            "row": 1
+            "column": 14,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 13.78122203238141,
+      "time": 13.747577733469829,
       "type": "spawn",
       "date": "2026-06-12",
       "value": 18,
@@ -2638,55 +2651,55 @@
         "sourceRow": 5,
         "shape": [
           {
-            "x": 0,
-            "y": 1
-          },
-          {
             "x": 2,
             "y": 0
           },
           {
-            "x": 1,
-            "y": 0
+            "x": 0,
+            "y": 1
           },
           {
-            "x": 0,
-            "y": 0
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 13.982214628590016,
+      "time": 13.94726518294981,
       "type": "lock",
       "date": "2026-06-12",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 0,
-        "y": 0,
+        "x": 32,
+        "y": 5,
         "blocks": [
           {
-            "column": 0,
-            "row": 1
+            "column": 34,
+            "row": 5
           },
           {
-            "column": 2,
-            "row": 0
+            "column": 32,
+            "row": 6
           },
           {
-            "column": 1,
-            "row": 0
+            "column": 33,
+            "row": 6
           },
           {
-            "column": 0,
-            "row": 0
+            "column": 34,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 14.054371491335115,
+      "time": 14.01895349463812,
       "type": "spawn",
       "date": "2026-06-22",
       "value": 29,
@@ -2715,36 +2728,36 @@
       }
     },
     {
-      "time": 14.253574159954429,
+      "time": 14.216862639435233,
       "type": "lock",
       "date": "2026-06-22",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 36,
-        "y": 5,
+        "x": 0,
+        "y": 1,
         "blocks": [
           {
-            "column": 36,
-            "row": 5
+            "column": 0,
+            "row": 1
           },
           {
-            "column": 37,
-            "row": 5
+            "column": 1,
+            "row": 1
           },
           {
-            "column": 36,
-            "row": 6
+            "column": 0,
+            "row": 2
           },
           {
-            "column": 37,
-            "row": 6
+            "column": 1,
+            "row": 2
           }
         ]
       }
     },
     {
-      "time": 14.325731022699527,
+      "time": 14.288550951123543,
       "type": "spawn",
       "date": "2026-08-08",
       "value": 30,
@@ -2754,55 +2767,55 @@
         "sourceRow": 6,
         "shape": [
           {
-            "x": 2,
-            "y": 0
-          },
-          {
             "x": 0,
             "y": 1
           },
           {
-            "x": 1,
-            "y": 1
+            "x": 2,
+            "y": 0
           },
           {
-            "x": 2,
-            "y": 1
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 14.524770970628905,
+      "time": 14.486298431858575,
       "type": "lock",
       "date": "2026-08-08",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 9,
-        "y": 0,
+        "x": 12,
+        "y": 4,
         "blocks": [
           {
-            "column": 11,
-            "row": 0
+            "column": 12,
+            "row": 5
           },
           {
-            "column": 9,
-            "row": 1
+            "column": 14,
+            "row": 4
           },
           {
-            "column": 10,
-            "row": 1
+            "column": 13,
+            "row": 4
           },
           {
-            "column": 11,
-            "row": 1
+            "column": 12,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 14.596927833374004,
+      "time": 14.557986743546886,
       "type": "spawn",
       "date": "2026-05-06",
       "value": 31,
@@ -2812,55 +2825,55 @@
         "sourceRow": 3,
         "shape": [
           {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 1
-          },
-          {
-            "x": 1,
+            "x": 2,
             "y": 1
           },
           {
             "x": 2,
-            "y": 1
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 14.795805060613446,
+      "time": 14.75557256021984,
       "type": "lock",
       "date": "2026-05-06",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 12,
-        "y": 0,
+        "x": 8,
+        "y": 4,
         "blocks": [
           {
-            "column": 12,
-            "row": 0
+            "column": 10,
+            "row": 5
           },
           {
-            "column": 12,
-            "row": 1
+            "column": 10,
+            "row": 4
           },
           {
-            "column": 13,
-            "row": 1
+            "column": 9,
+            "row": 4
           },
           {
-            "column": 14,
-            "row": 1
+            "column": 8,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 14.867961923358544,
+      "time": 14.82726087190815,
       "type": "spawn",
       "date": "2026-09-18",
       "value": 33,
@@ -2889,36 +2902,49 @@
       }
     },
     {
-      "time": 15.066513709218116,
+      "time": 15.024523360456946,
       "type": "lock",
       "date": "2026-09-18",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 15,
-        "y": 1,
+        "x": 28,
+        "y": 6,
         "blocks": [
           {
-            "column": 15,
-            "row": 1
+            "column": 28,
+            "row": 6
           },
           {
-            "column": 16,
-            "row": 1
+            "column": 29,
+            "row": 6
           },
           {
-            "column": 17,
-            "row": 1
+            "column": 30,
+            "row": 6
           },
           {
-            "column": 18,
-            "row": 1
+            "column": 31,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 15.138670571963214,
+      "time": 15.065042840976426,
+      "type": "row-clear",
+      "date": "2026-09-18",
+      "value": 1,
+      "data": {
+        "rows": [
+          6
+        ],
+        "lines": 2,
+        "removedBlocks": 52
+      }
+    },
+    {
+      "time": 15.142964918898505,
       "type": "spawn",
       "date": "2026-07-23",
       "value": 34,
@@ -2928,55 +2954,55 @@
         "sourceRow": 4,
         "shape": [
           {
-            "x": 2,
-            "y": 0
-          },
-          {
             "x": 0,
             "y": 1
           },
           {
-            "x": 1,
-            "y": 1
+            "x": 2,
+            "y": 0
           },
           {
-            "x": 2,
-            "y": 1
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 15.33705963713285,
+      "time": 15.340065743385221,
       "type": "lock",
       "date": "2026-07-23",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 30,
-        "y": 2,
+        "x": 11,
+        "y": 4,
         "blocks": [
           {
-            "column": 32,
-            "row": 2
+            "column": 11,
+            "row": 5
           },
           {
-            "column": 30,
-            "row": 3
+            "column": 13,
+            "row": 4
           },
           {
-            "column": 31,
-            "row": 3
+            "column": 12,
+            "row": 4
           },
           {
-            "column": 32,
-            "row": 3
+            "column": 11,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 15.409216499877948,
+      "time": 15.411754055073532,
       "type": "spawn",
       "date": "2026-09-30",
       "value": 34,
@@ -3005,36 +3031,36 @@
       }
     },
     {
-      "time": 15.607605565047583,
+      "time": 15.608854879560248,
       "type": "lock",
       "date": "2026-09-30",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 33,
-        "y": 3,
+        "x": 0,
+        "y": 0,
         "blocks": [
           {
-            "column": 33,
-            "row": 3
+            "column": 0,
+            "row": 0
           },
           {
-            "column": 34,
-            "row": 3
+            "column": 1,
+            "row": 0
           },
           {
-            "column": 33,
-            "row": 4
+            "column": 0,
+            "row": 1
           },
           {
-            "column": 34,
-            "row": 4
+            "column": 1,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 15.679762427792681,
+      "time": 15.680543191248558,
       "type": "spawn",
       "date": "2026-09-03",
       "value": 37,
@@ -3063,36 +3089,36 @@
       }
     },
     {
-      "time": 15.87766333089251,
+      "time": 15.877159023549037,
       "type": "lock",
       "date": "2026-09-03",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 35,
-        "y": 3,
+        "x": 4,
+        "y": 2,
         "blocks": [
           {
-            "column": 35,
+            "column": 4,
+            "row": 2
+          },
+          {
+            "column": 5,
+            "row": 2
+          },
+          {
+            "column": 4,
             "row": 3
           },
           {
-            "column": 36,
+            "column": 5,
             "row": 3
-          },
-          {
-            "column": 35,
-            "row": 4
-          },
-          {
-            "column": 36,
-            "row": 4
           }
         ]
       }
     },
     {
-      "time": 15.949820193637608,
+      "time": 15.948847335237348,
       "type": "spawn",
       "date": "2026-07-19",
       "value": 41,
@@ -3106,51 +3132,51 @@
             "y": 1
           },
           {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 1,
+            "x": 0,
             "y": 0
           },
           {
             "x": 0,
-            "y": 0
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
           }
         ]
       }
     },
     {
-      "time": 16.147070213977695,
+      "time": 16.144816511289513,
       "type": "lock",
       "date": "2026-07-19",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 23,
-        "y": 0,
+        "x": 2,
+        "y": 1,
         "blocks": [
           {
-            "column": 24,
+            "column": 3,
+            "row": 2
+          },
+          {
+            "column": 2,
             "row": 1
           },
           {
-            "column": 25,
-            "row": 0
+            "column": 2,
+            "row": 2
           },
           {
-            "column": 24,
-            "row": 0
-          },
-          {
-            "column": 23,
-            "row": 0
+            "column": 2,
+            "row": 3
           }
         ]
       }
     },
     {
-      "time": 16.21922707672279,
+      "time": 16.216504822977825,
       "type": "spawn",
       "date": "2026-09-13",
       "value": 41,
@@ -3179,36 +3205,36 @@
       }
     },
     {
-      "time": 16.416477097062877,
+      "time": 16.412473999029988,
       "type": "lock",
       "date": "2026-09-13",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 30,
-        "y": 1,
+        "x": 46,
+        "y": 3,
         "blocks": [
           {
-            "column": 31,
-            "row": 1
+            "column": 47,
+            "row": 3
           },
           {
-            "column": 32,
-            "row": 1
+            "column": 48,
+            "row": 3
           },
           {
-            "column": 30,
-            "row": 2
+            "column": 46,
+            "row": 4
           },
           {
-            "column": 31,
-            "row": 2
+            "column": 47,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 16.488633959807974,
+      "time": 16.4841623107183,
       "type": "spawn",
       "date": "2026-09-02",
       "value": 42,
@@ -3218,55 +3244,55 @@
         "sourceRow": 3,
         "shape": [
           {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 1
-          },
-          {
-            "x": 1,
+            "x": 2,
             "y": 1
           },
           {
             "x": 2,
-            "y": 1
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 16.685721259458123,
+      "time": 16.679969822708387,
       "type": "lock",
       "date": "2026-09-02",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 33,
-        "y": 1,
+        "x": 15,
+        "y": 5,
         "blocks": [
           {
-            "column": 33,
-            "row": 1
+            "column": 17,
+            "row": 6
           },
           {
-            "column": 33,
-            "row": 2
+            "column": 17,
+            "row": 5
           },
           {
-            "column": 34,
-            "row": 2
+            "column": 16,
+            "row": 5
           },
           {
-            "column": 35,
-            "row": 2
+            "column": 15,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 16.75787812220322,
+      "time": 16.7516581343967,
       "type": "spawn",
       "date": "2026-09-28",
       "value": 42,
@@ -3295,36 +3321,36 @@
       }
     },
     {
-      "time": 16.95496542185337,
+      "time": 16.947465646386785,
       "type": "lock",
       "date": "2026-09-28",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 4,
-        "y": 0,
+        "x": 7,
+        "y": 4,
         "blocks": [
           {
-            "column": 4,
-            "row": 0
-          },
-          {
-            "column": 5,
-            "row": 0
-          },
-          {
-            "column": 6,
-            "row": 0
-          },
-          {
             "column": 7,
-            "row": 0
+            "row": 4
+          },
+          {
+            "column": 8,
+            "row": 4
+          },
+          {
+            "column": 9,
+            "row": 4
+          },
+          {
+            "column": 10,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 17.027122284598466,
+      "time": 17.019153958075098,
       "type": "spawn",
       "date": "2026-08-07",
       "value": 44,
@@ -3353,36 +3379,36 @@
       }
     },
     {
-      "time": 17.223884142868744,
+      "time": 17.214638141941023,
       "type": "lock",
       "date": "2026-08-07",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 38,
-        "y": 5,
+        "x": 6,
+        "y": 2,
         "blocks": [
           {
-            "column": 38,
-            "row": 5
+            "column": 6,
+            "row": 2
           },
           {
-            "column": 38,
-            "row": 6
+            "column": 6,
+            "row": 3
           },
           {
-            "column": 39,
-            "row": 6
+            "column": 7,
+            "row": 3
           },
           {
-            "column": 40,
-            "row": 6
+            "column": 8,
+            "row": 3
           }
         ]
       }
     },
     {
-      "time": 17.29604100561384,
+      "time": 17.286326453629336,
       "type": "spawn",
       "date": "2026-07-18",
       "value": 46,
@@ -3411,36 +3437,36 @@
       }
     },
     {
-      "time": 17.492477422504248,
+      "time": 17.481487309371104,
       "type": "lock",
       "date": "2026-07-18",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 34,
-        "y": 1,
+        "x": 7,
+        "y": 2,
         "blocks": [
           {
-            "column": 36,
+            "column": 9,
+            "row": 3
+          },
+          {
+            "column": 9,
             "row": 2
           },
           {
-            "column": 36,
-            "row": 1
+            "column": 8,
+            "row": 2
           },
           {
-            "column": 35,
-            "row": 1
-          },
-          {
-            "column": 34,
-            "row": 1
+            "column": 7,
+            "row": 2
           }
         ]
       }
     },
     {
-      "time": 17.564634285249344,
+      "time": 17.553175621059417,
       "type": "spawn",
       "date": "2026-09-17",
       "value": 50,
@@ -3451,6 +3477,64 @@
         "shape": [
           {
             "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    },
+    {
+      "time": 17.747689820552868,
+      "type": "lock",
+      "date": "2026-09-17",
+      "value": 4,
+      "data": {
+        "kind": "T",
+        "x": 3,
+        "y": 0,
+        "blocks": [
+          {
+            "column": 4,
+            "row": 0
+          },
+          {
+            "column": 3,
+            "row": 1
+          },
+          {
+            "column": 4,
+            "row": 1
+          },
+          {
+            "column": 5,
+            "row": 1
+          }
+        ]
+      }
+    },
+    {
+      "time": 17.81937813224118,
+      "type": "spawn",
+      "date": "2026-08-25",
+      "value": 52,
+      "data": {
+        "kind": "L",
+        "sourceColumn": 43,
+        "sourceRow": 2,
+        "shape": [
+          {
+            "x": 0,
             "y": 1
           },
           {
@@ -3469,94 +3553,36 @@
       }
     },
     {
-      "time": 17.760419819380008,
-      "type": "lock",
-      "date": "2026-09-17",
-      "value": 4,
-      "data": {
-        "kind": "T",
-        "x": 28,
-        "y": 1,
-        "blocks": [
-          {
-            "column": 29,
-            "row": 2
-          },
-          {
-            "column": 30,
-            "row": 1
-          },
-          {
-            "column": 29,
-            "row": 1
-          },
-          {
-            "column": 28,
-            "row": 1
-          }
-        ]
-      }
-    },
-    {
-      "time": 17.832576682125104,
-      "type": "spawn",
-      "date": "2026-08-25",
-      "value": 52,
-      "data": {
-        "kind": "L",
-        "sourceColumn": 43,
-        "sourceRow": 2,
-        "shape": [
-          {
-            "x": 1,
-            "y": 2
-          },
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 1
-          },
-          {
-            "x": 0,
-            "y": 2
-          }
-        ]
-      }
-    },
-    {
-      "time": 18.028036774875897,
+      "time": 18.013569003610474,
       "type": "lock",
       "date": "2026-08-25",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 37,
-        "y": 2,
+        "x": 33,
+        "y": 5,
         "blocks": [
           {
-            "column": 38,
-            "row": 4
+            "column": 33,
+            "row": 6
           },
           {
-            "column": 37,
-            "row": 2
+            "column": 35,
+            "row": 5
           },
           {
-            "column": 37,
-            "row": 3
+            "column": 34,
+            "row": 5
           },
           {
-            "column": 37,
-            "row": 4
+            "column": 33,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 18.100193637620993,
+      "time": 18.085257315298787,
       "type": "spawn",
       "date": "2026-09-27",
       "value": 52,
@@ -3585,36 +3611,36 @@
       }
     },
     {
-      "time": 18.295653730371786,
+      "time": 18.27944818666808,
       "type": "lock",
       "date": "2026-09-27",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 41,
-        "y": 5,
+        "x": 6,
+        "y": 0,
         "blocks": [
           {
-            "column": 42,
-            "row": 5
+            "column": 7,
+            "row": 0
           },
           {
-            "column": 41,
-            "row": 6
+            "column": 6,
+            "row": 1
           },
           {
-            "column": 42,
-            "row": 6
+            "column": 7,
+            "row": 1
           },
           {
-            "column": 43,
-            "row": 6
+            "column": 8,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 18.367810593116882,
+      "time": 18.351136498356393,
       "type": "spawn",
       "date": "2026-08-03",
       "value": 53,
@@ -3643,36 +3669,36 @@
       }
     },
     {
-      "time": 18.56310796517774,
+      "time": 18.54516570566361,
       "type": "lock",
       "date": "2026-08-03",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 40,
-        "y": 4,
+        "x": 44,
+        "y": 3,
         "blocks": [
           {
-            "column": 41,
+            "column": 45,
+            "row": 3
+          },
+          {
+            "column": 46,
+            "row": 3
+          },
+          {
+            "column": 44,
             "row": 4
           },
           {
-            "column": 42,
+            "column": 45,
             "row": 4
-          },
-          {
-            "column": 40,
-            "row": 5
-          },
-          {
-            "column": 41,
-            "row": 5
           }
         ]
       }
     },
     {
-      "time": 18.635264827922835,
+      "time": 18.616854017351923,
       "type": "spawn",
       "date": "2026-08-31",
       "value": 53,
@@ -3701,36 +3727,36 @@
       }
     },
     {
-      "time": 18.830562199983692,
+      "time": 18.81088322465914,
       "type": "lock",
       "date": "2026-08-31",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 13,
-        "y": 0,
+        "x": 10,
+        "y": 3,
         "blocks": [
           {
+            "column": 10,
+            "row": 3
+          },
+          {
+            "column": 11,
+            "row": 3
+          },
+          {
+            "column": 12,
+            "row": 3
+          },
+          {
             "column": 13,
-            "row": 0
-          },
-          {
-            "column": 14,
-            "row": 0
-          },
-          {
-            "column": 15,
-            "row": 0
-          },
-          {
-            "column": 16,
-            "row": 0
+            "row": 3
           }
         ]
       }
     },
     {
-      "time": 18.90271906272879,
+      "time": 18.882571536347452,
       "type": "spawn",
       "date": "2026-07-22",
       "value": 54,
@@ -3740,6 +3766,10 @@
         "sourceRow": 3,
         "shape": [
           {
+            "x": 0,
+            "y": 0
+          },
+          {
             "x": 1,
             "y": 0
           },
@@ -3748,47 +3778,43 @@
             "y": 1
           },
           {
-            "x": 0,
+            "x": 2,
             "y": 1
-          },
-          {
-            "x": 0,
-            "y": 2
           }
         ]
       }
     },
     {
-      "time": 19.09785371409971,
+      "time": 19.07643907959259,
       "type": "lock",
       "date": "2026-07-22",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 39,
-        "y": 3,
+        "x": 9,
+        "y": 1,
         "blocks": [
           {
-            "column": 40,
-            "row": 3
+            "column": 9,
+            "row": 1
           },
           {
-            "column": 40,
-            "row": 4
+            "column": 10,
+            "row": 1
           },
           {
-            "column": 39,
-            "row": 4
+            "column": 10,
+            "row": 2
           },
           {
-            "column": 39,
-            "row": 5
+            "column": 11,
+            "row": 2
           }
         ]
       }
     },
     {
-      "time": 19.170010576844806,
+      "time": 19.1481273912809,
       "type": "spawn",
       "date": "2026-07-21",
       "value": 56,
@@ -3817,36 +3843,36 @@
       }
     },
     {
-      "time": 19.364819786835856,
+      "time": 19.34167160640188,
       "type": "lock",
       "date": "2026-07-21",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 44,
-        "y": 5,
+        "x": 14,
+        "y": 3,
         "blocks": [
           {
-            "column": 44,
-            "row": 5
+            "column": 14,
+            "row": 3
           },
           {
-            "column": 44,
-            "row": 6
+            "column": 14,
+            "row": 4
           },
           {
-            "column": 45,
-            "row": 6
+            "column": 15,
+            "row": 4
           },
           {
-            "column": 46,
-            "row": 6
+            "column": 16,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 19.436976649580952,
+      "time": 19.413359918090194,
       "type": "spawn",
       "date": "2026-09-05",
       "value": 60,
@@ -3875,36 +3901,36 @@
       }
     },
     {
-      "time": 19.63113497681226,
+      "time": 19.606257476962856,
       "type": "lock",
       "date": "2026-09-05",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 45,
-        "y": 5,
+        "x": 15,
+        "y": 3,
         "blocks": [
           {
-            "column": 47,
-            "row": 6
+            "column": 17,
+            "row": 4
           },
           {
-            "column": 47,
-            "row": 5
+            "column": 17,
+            "row": 3
           },
           {
-            "column": 46,
-            "row": 5
+            "column": 16,
+            "row": 3
           },
           {
-            "column": 45,
-            "row": 5
+            "column": 15,
+            "row": 3
           }
         ]
       }
     },
     {
-      "time": 19.703291839557355,
+      "time": 19.67794578865117,
       "type": "spawn",
       "date": "2026-05-28",
       "value": 61,
@@ -3914,6 +3940,10 @@
         "sourceRow": 4,
         "shape": [
           {
+            "x": 0,
+            "y": 0
+          },
+          {
             "x": 1,
             "y": 0
           },
@@ -3922,47 +3952,43 @@
             "y": 1
           },
           {
-            "x": 0,
+            "x": 2,
             "y": 1
-          },
-          {
-            "x": 0,
-            "y": 2
           }
         ]
       }
     },
     {
-      "time": 19.897287446098726,
+      "time": 19.87068168346175,
       "type": "lock",
       "date": "2026-05-28",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 43,
-        "y": 3,
+        "x": 11,
+        "y": 1,
         "blocks": [
           {
-            "column": 44,
-            "row": 3
+            "column": 11,
+            "row": 1
           },
           {
-            "column": 44,
-            "row": 4
+            "column": 12,
+            "row": 1
           },
           {
-            "column": 43,
-            "row": 4
+            "column": 12,
+            "row": 2
           },
           {
-            "column": 43,
-            "row": 5
+            "column": 13,
+            "row": 2
           }
         ]
       }
     },
     {
-      "time": 19.969444308843823,
+      "time": 19.942369995150063,
       "type": "spawn",
       "date": "2026-08-01",
       "value": 70,
@@ -3991,36 +4017,36 @@
       }
     },
     {
-      "time": 20.161975429175772,
+      "time": 20.133650913401937,
       "type": "lock",
       "date": "2026-08-01",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 38,
-        "y": 2,
+        "x": 42,
+        "y": 3,
         "blocks": [
           {
-            "column": 39,
-            "row": 2
-          },
-          {
-            "column": 40,
-            "row": 2
-          },
-          {
-            "column": 38,
+            "column": 43,
             "row": 3
           },
           {
-            "column": 39,
+            "column": 44,
             "row": 3
+          },
+          {
+            "column": 42,
+            "row": 4
+          },
+          {
+            "column": 43,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 20.23413229192087,
+      "time": 20.20533922509025,
       "type": "spawn",
       "date": "2026-07-14",
       "value": 73,
@@ -4049,36 +4075,36 @@
       }
     },
     {
-      "time": 20.42617525018301,
+      "time": 20.396135151155885,
       "type": "lock",
       "date": "2026-07-14",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 17,
+        "x": 8,
         "y": 0,
         "blocks": [
           {
-            "column": 17,
+            "column": 8,
             "row": 0
           },
           {
-            "column": 18,
+            "column": 9,
             "row": 0
           },
           {
-            "column": 19,
+            "column": 10,
             "row": 0
           },
           {
-            "column": 20,
+            "column": 11,
             "row": 0
           }
         ]
       }
     },
     {
-      "time": 20.498332112928107,
+      "time": 20.467823462844198,
       "type": "spawn",
       "date": "2026-07-24",
       "value": 77,
@@ -4107,36 +4133,36 @@
       }
     },
     {
-      "time": 20.689724188430507,
+      "time": 20.657972732661516,
       "type": "lock",
       "date": "2026-07-24",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 41,
-        "y": 2,
+        "x": 18,
+        "y": 4,
         "blocks": [
           {
-            "column": 41,
-            "row": 2
+            "column": 18,
+            "row": 4
           },
           {
-            "column": 42,
-            "row": 2
+            "column": 19,
+            "row": 4
           },
           {
-            "column": 41,
-            "row": 3
+            "column": 18,
+            "row": 5
           },
           {
-            "column": 42,
-            "row": 3
+            "column": 19,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 20.761881051175603,
+      "time": 20.72966104434983,
       "type": "spawn",
       "date": "2026-07-31",
       "value": 78,
@@ -4147,54 +4173,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
+            "y": 0
           },
           {
-            "x": 1,
-            "y": 2
-          },
-          {
-            "x": 0,
+            "x": 2,
             "y": 0
           },
           {
             "x": 0,
             "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 20.953110405988067,
+      "time": 20.91964865010507,
       "type": "lock",
       "date": "2026-07-31",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 37,
-        "y": 0,
+        "x": 49,
+        "y": 1,
         "blocks": [
           {
-            "column": 38,
+            "column": 50,
             "row": 1
           },
           {
-            "column": 38,
+            "column": 51,
+            "row": 1
+          },
+          {
+            "column": 49,
             "row": 2
           },
           {
-            "column": 37,
-            "row": 0
-          },
-          {
-            "column": 37,
-            "row": 1
+            "column": 50,
+            "row": 2
           }
         ]
       }
     },
     {
-      "time": 21.025267268733163,
+      "time": 20.991336961793383,
       "type": "spawn",
       "date": "2026-08-24",
       "value": 78,
@@ -4223,36 +4249,36 @@
       }
     },
     {
-      "time": 21.216496623545627,
+      "time": 21.181324567548625,
       "type": "lock",
       "date": "2026-08-24",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 39,
-        "y": 0,
+        "x": 47,
+        "y": 1,
         "blocks": [
           {
-            "column": 40,
-            "row": 0
-          },
-          {
-            "column": 41,
-            "row": 0
-          },
-          {
-            "column": 39,
+            "column": 48,
             "row": 1
           },
           {
-            "column": 40,
+            "column": 49,
             "row": 1
+          },
+          {
+            "column": 47,
+            "row": 2
+          },
+          {
+            "column": 48,
+            "row": 2
           }
         ]
       }
     },
     {
-      "time": 21.288653486290723,
+      "time": 21.253012879236937,
       "type": "spawn",
       "date": "2026-08-23",
       "value": 80,
@@ -4262,6 +4288,10 @@
         "sourceRow": 0,
         "shape": [
           {
+            "x": 0,
+            "y": 0
+          },
+          {
             "x": 1,
             "y": 0
           },
@@ -4270,47 +4300,43 @@
             "y": 1
           },
           {
-            "x": 0,
+            "x": 2,
             "y": 1
-          },
-          {
-            "x": 0,
-            "y": 2
           }
         ]
       }
     },
     {
-      "time": 21.479557399723316,
+      "time": 21.44267715686802,
       "type": "lock",
       "date": "2026-08-23",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 43,
+        "x": 13,
         "y": 1,
         "blocks": [
           {
-            "column": 44,
+            "column": 13,
             "row": 1
           },
           {
-            "column": 44,
+            "column": 14,
+            "row": 1
+          },
+          {
+            "column": 14,
             "row": 2
           },
           {
-            "column": 43,
+            "column": 15,
             "row": 2
-          },
-          {
-            "column": 43,
-            "row": 3
           }
         ]
       }
     },
     {
-      "time": 21.551714262468412,
+      "time": 21.51436546855633,
       "type": "spawn",
       "date": "2026-08-29",
       "value": 81,
@@ -4339,36 +4365,36 @@
       }
     },
     {
-      "time": 21.74245545521107,
+      "time": 21.703868082125336,
       "type": "lock",
       "date": "2026-08-29",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 45,
-        "y": 3,
+        "x": 15,
+        "y": 1,
         "blocks": [
           {
-            "column": 45,
-            "row": 3
+            "column": 15,
+            "row": 1
           },
           {
-            "column": 46,
-            "row": 3
+            "column": 16,
+            "row": 1
           },
           {
-            "column": 46,
-            "row": 4
+            "column": 16,
+            "row": 2
           },
           {
-            "column": 47,
-            "row": 4
+            "column": 17,
+            "row": 2
           }
         ]
       }
     },
     {
-      "time": 21.814612317956165,
+      "time": 21.77555639381365,
       "type": "spawn",
       "date": "2026-07-20",
       "value": 84,
@@ -4397,36 +4423,36 @@
       }
     },
     {
-      "time": 22.004865348629014,
+      "time": 21.964574015196416,
       "type": "lock",
       "date": "2026-07-20",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 48,
+        "x": 21,
         "y": 5,
         "blocks": [
           {
-            "column": 48,
+            "column": 21,
             "row": 5
           },
           {
-            "column": 49,
+            "column": 22,
             "row": 5
           },
           {
-            "column": 49,
+            "column": 22,
             "row": 6
           },
           {
-            "column": 50,
+            "column": 23,
             "row": 6
           }
         ]
       }
     },
     {
-      "time": 22.07702221137411,
+      "time": 22.036262326884728,
       "type": "spawn",
       "date": "2026-08-10",
       "value": 84,
@@ -4455,36 +4481,36 @@
       }
     },
     {
-      "time": 22.26727524204696,
+      "time": 22.225279948267495,
       "type": "lock",
       "date": "2026-08-10",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 27,
+        "x": 12,
         "y": 0,
         "blocks": [
           {
-            "column": 27,
+            "column": 12,
             "row": 0
           },
           {
-            "column": 28,
+            "column": 13,
             "row": 0
           },
           {
-            "column": 29,
+            "column": 14,
             "row": 0
           },
           {
-            "column": 30,
+            "column": 15,
             "row": 0
           }
         ]
       }
     },
     {
-      "time": 22.339432104792056,
+      "time": 22.296968259955808,
       "type": "spawn",
       "date": "2026-08-05",
       "value": 87,
@@ -4513,49 +4539,36 @@
       }
     },
     {
-      "time": 22.5291969733951,
+      "time": 22.485500889152338,
       "type": "lock",
       "date": "2026-08-05",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 49,
-        "y": 4,
+        "x": 23,
+        "y": 5,
         "blocks": [
           {
-            "column": 49,
-            "row": 4
-          },
-          {
-            "column": 50,
-            "row": 4
-          },
-          {
-            "column": 50,
+            "column": 23,
             "row": 5
           },
           {
-            "column": 51,
+            "column": 24,
             "row": 5
+          },
+          {
+            "column": 24,
+            "row": 6
+          },
+          {
+            "column": 25,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 22.569981287120587,
-      "type": "row-clear",
-      "date": "2026-08-05",
-      "value": 1,
-      "data": {
-        "rows": [
-          5
-        ],
-        "lines": 1,
-        "removedBlocks": 52
-      }
-    },
-    {
-      "time": 22.648412659669606,
+      "time": 22.55718920084065,
       "type": "spawn",
       "date": "2026-09-06",
       "value": 87,
@@ -4566,54 +4579,54 @@
         "shape": [
           {
             "x": 0,
+            "y": 1
+          },
+          {
+            "x": 2,
             "y": 0
           },
           {
             "x": 1,
-            "y": 2
+            "y": 0
           },
           {
-            "x": 1,
-            "y": 1
-          },
-          {
-            "x": 1,
+            "x": 0,
             "y": 0
           }
         ]
       }
     },
     {
-      "time": 22.83817752827265,
+      "time": 22.74572183003718,
       "type": "lock",
       "date": "2026-09-06",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 47,
+        "x": 20,
         "y": 4,
         "blocks": [
           {
-            "column": 47,
-            "row": 4
-          },
-          {
-            "column": 48,
-            "row": 6
-          },
-          {
-            "column": 48,
+            "column": 20,
             "row": 5
           },
           {
-            "column": 48,
+            "column": 22,
+            "row": 4
+          },
+          {
+            "column": 21,
+            "row": 4
+          },
+          {
+            "column": 20,
             "row": 4
           }
         ]
       }
     },
     {
-      "time": 22.910334391017745,
+      "time": 22.817410141725492,
       "type": "spawn",
       "date": "2026-08-04",
       "value": 90,
@@ -4642,36 +4655,36 @@
       }
     },
     {
-      "time": 23.09961109755098,
+      "time": 23.005457778735785,
       "type": "lock",
       "date": "2026-08-04",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 8,
-        "y": 0,
+        "x": 30,
+        "y": 5,
         "blocks": [
           {
-            "column": 10,
-            "row": 0
+            "column": 32,
+            "row": 5
           },
           {
-            "column": 8,
-            "row": 1
+            "column": 30,
+            "row": 6
           },
           {
-            "column": 9,
-            "row": 1
+            "column": 31,
+            "row": 6
           },
           {
-            "column": 10,
-            "row": 1
+            "column": 32,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 23.171767960296076,
+      "time": 23.077146090424097,
       "type": "spawn",
       "date": "2026-10-04",
       "value": 93,
@@ -4700,36 +4713,36 @@
       }
     },
     {
-      "time": 23.360556504759504,
+      "time": 23.264708735248153,
       "type": "lock",
       "date": "2026-10-04",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 31,
-        "y": 0,
+        "x": 18,
+        "y": 2,
         "blocks": [
           {
-            "column": 32,
-            "row": 0
+            "column": 19,
+            "row": 2
           },
           {
-            "column": 31,
-            "row": 1
+            "column": 18,
+            "row": 3
           },
           {
-            "column": 32,
-            "row": 1
+            "column": 19,
+            "row": 3
           },
           {
-            "column": 33,
-            "row": 1
+            "column": 20,
+            "row": 3
           }
         ]
       }
     },
     {
-      "time": 23.4327133675046,
+      "time": 23.336397046936465,
       "type": "spawn",
       "date": "2026-09-08",
       "value": 94,
@@ -4758,36 +4771,36 @@
       }
     },
     {
-      "time": 23.621339191278093,
+      "time": 23.52379802769844,
       "type": "lock",
       "date": "2026-09-08",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 42,
-        "y": 1,
+        "x": 21,
+        "y": 2,
         "blocks": [
           {
-            "column": 42,
-            "row": 1
-          },
-          {
-            "column": 43,
-            "row": 1
-          },
-          {
-            "column": 42,
+            "column": 21,
             "row": 2
           },
           {
-            "column": 43,
+            "column": 22,
             "row": 2
+          },
+          {
+            "column": 21,
+            "row": 3
+          },
+          {
+            "column": 22,
+            "row": 3
           }
         ]
       }
     },
     {
-      "time": 23.69349605402319,
+      "time": 23.595486339386753,
       "type": "spawn",
       "date": "2026-07-25",
       "value": 98,
@@ -4798,54 +4811,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 1
-          },
-          {
-            "x": 1,
             "y": 1
           },
           {
             "x": 2,
-            "y": 1
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 23.88147099503694,
+      "time": 23.782240663900414,
       "type": "lock",
       "date": "2026-07-25",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 34,
-        "y": 0,
+        "x": 17,
+        "y": 1,
         "blocks": [
           {
-            "column": 35,
-            "row": 0
+            "column": 18,
+            "row": 2
           },
           {
-            "column": 34,
+            "column": 19,
             "row": 1
           },
           {
-            "column": 35,
+            "column": 18,
             "row": 1
           },
           {
-            "column": 36,
+            "column": 17,
             "row": 1
           }
         ]
       }
     },
     {
-      "time": 23.953627857782035,
+      "time": 23.853928975588726,
       "type": "spawn",
       "date": "2026-08-21",
       "value": 99,
@@ -4856,54 +4869,54 @@
         "shape": [
           {
             "x": 0,
+            "y": 1
+          },
+          {
+            "x": 2,
             "y": 0
           },
           {
             "x": 1,
-            "y": 2
+            "y": 0
           },
           {
-            "x": 1,
-            "y": 1
-          },
-          {
-            "x": 1,
+            "x": 0,
             "y": 0
           }
         ]
       }
     },
     {
-      "time": 24.14144007810585,
+      "time": 24.040521636040307,
       "type": "lock",
       "date": "2026-08-21",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 44,
+        "x": 20,
         "y": 1,
         "blocks": [
           {
-            "column": 44,
-            "row": 1
-          },
-          {
-            "column": 45,
-            "row": 3
-          },
-          {
-            "column": 45,
+            "column": 20,
             "row": 2
           },
           {
-            "column": 45,
+            "column": 22,
+            "row": 1
+          },
+          {
+            "column": 21,
+            "row": 1
+          },
+          {
+            "column": 20,
             "row": 1
           }
         ]
       }
     },
     {
-      "time": 24.213596940850945,
+      "time": 24.11220994772862,
       "type": "spawn",
       "date": "2026-09-07",
       "value": 102,
@@ -4932,36 +4945,36 @@
       }
     },
     {
-      "time": 24.40092099910495,
+      "time": 24.298317615993962,
       "type": "lock",
       "date": "2026-09-07",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 21,
-        "y": 0,
+        "x": 23,
+        "y": 3,
         "blocks": [
           {
-            "column": 21,
-            "row": 0
+            "column": 23,
+            "row": 3
           },
           {
-            "column": 22,
-            "row": 0
+            "column": 24,
+            "row": 3
           },
           {
-            "column": 21,
-            "row": 1
+            "column": 23,
+            "row": 4
           },
           {
-            "column": 22,
-            "row": 1
+            "column": 24,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 24.473077861850047,
+      "time": 24.370005927682275,
       "type": "spawn",
       "date": "2026-09-09",
       "value": 103,
@@ -4990,36 +5003,36 @@
       }
     },
     {
-      "time": 24.660239199414118,
+      "time": 24.55595193188554,
       "type": "lock",
       "date": "2026-09-09",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 37,
-        "y": 0,
+        "x": 25,
+        "y": 5,
         "blocks": [
           {
-            "column": 37,
-            "row": 0
+            "column": 25,
+            "row": 5
           },
           {
-            "column": 38,
-            "row": 0
+            "column": 26,
+            "row": 5
           },
           {
-            "column": 38,
-            "row": 1
+            "column": 26,
+            "row": 6
           },
           {
-            "column": 39,
-            "row": 1
+            "column": 27,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 24.732396062159214,
+      "time": 24.627640243573854,
       "type": "spawn",
       "date": "2026-10-26",
       "value": 105,
@@ -5048,36 +5061,49 @@
       }
     },
     {
-      "time": 24.919231958343413,
+      "time": 24.81326291965296,
       "type": "lock",
       "date": "2026-10-26",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 48,
-        "y": 3,
+        "x": 27,
+        "y": 5,
         "blocks": [
           {
-            "column": 48,
-            "row": 3
+            "column": 27,
+            "row": 5
           },
           {
-            "column": 49,
-            "row": 3
+            "column": 28,
+            "row": 5
           },
           {
-            "column": 49,
-            "row": 4
+            "column": 28,
+            "row": 6
           },
           {
-            "column": 50,
-            "row": 4
+            "column": 29,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 24.99138882108851,
+      "time": 24.85378240017244,
+      "type": "row-clear",
+      "date": "2026-10-26",
+      "value": 1,
+      "data": {
+        "rows": [
+          6
+        ],
+        "lines": 3,
+        "removedBlocks": 52
+      }
+    },
+    {
+      "time": 24.93170447809452,
       "type": "spawn",
       "date": "2026-09-29",
       "value": 111,
@@ -5106,36 +5132,36 @@
       }
     },
     {
-      "time": 25.177248393133095,
+      "time": 25.116357169801155,
       "type": "lock",
       "date": "2026-09-29",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 6,
-        "y": 0,
+        "x": 16,
+        "y": 1,
         "blocks": [
           {
-            "column": 6,
-            "row": 0
+            "column": 16,
+            "row": 1
           },
           {
-            "column": 7,
-            "row": 0
+            "column": 17,
+            "row": 1
           },
           {
-            "column": 8,
-            "row": 0
+            "column": 18,
+            "row": 1
           },
           {
-            "column": 9,
-            "row": 0
+            "column": 19,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 25.24940525587819,
+      "time": 25.188045481489468,
       "type": "spawn",
       "date": "2026-08-11",
       "value": 113,
@@ -5146,10 +5172,6 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
-          },
-          {
-            "x": 0,
             "y": 0
           },
           {
@@ -5157,56 +5179,60 @@
             "y": 1
           },
           {
-            "x": 0,
-            "y": 2
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 25.434939386542904,
+      "time": 25.372374845071942,
       "type": "lock",
       "date": "2026-08-11",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 51,
-        "y": 3,
+        "x": 29,
+        "y": 5,
         "blocks": [
           {
-            "column": 52,
-            "row": 4
-          },
-          {
-            "column": 51,
-            "row": 3
-          },
-          {
-            "column": 51,
-            "row": 4
-          },
-          {
-            "column": 51,
+            "column": 30,
             "row": 5
+          },
+          {
+            "column": 29,
+            "row": 6
+          },
+          {
+            "column": 30,
+            "row": 6
+          },
+          {
+            "column": 31,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 25.475723700268393,
+      "time": 25.412894325591424,
       "type": "row-clear",
       "date": "2026-08-11",
       "value": 1,
       "data": {
         "rows": [
-          4
+          6
         ],
-        "lines": 2,
-        "removedBlocks": 53
+        "lines": 4,
+        "removedBlocks": 52
       }
     },
     {
-      "time": 25.554155072817412,
+      "time": 25.490816403513502,
       "type": "spawn",
       "date": "2026-09-15",
       "value": 113,
@@ -5235,36 +5261,36 @@
       }
     },
     {
-      "time": 25.739689203482126,
+      "time": 25.675145767095977,
       "type": "lock",
       "date": "2026-09-15",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 2,
-        "y": 1,
+        "x": 25,
+        "y": 6,
         "blocks": [
           {
-            "column": 2,
-            "row": 1
+            "column": 25,
+            "row": 6
           },
           {
-            "column": 3,
-            "row": 1
+            "column": 26,
+            "row": 6
           },
           {
-            "column": 4,
-            "row": 1
+            "column": 27,
+            "row": 6
           },
           {
-            "column": 5,
-            "row": 1
+            "column": 28,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 25.811846066227222,
+      "time": 25.74683407878429,
       "type": "spawn",
       "date": "2026-08-06",
       "value": 114,
@@ -5293,36 +5319,36 @@
       }
     },
     {
-      "time": 25.997217476202,
+      "time": 25.931001778304687,
       "type": "lock",
       "date": "2026-08-06",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 32,
-        "y": 0,
+        "x": 1,
+        "y": 1,
         "blocks": [
           {
-            "column": 32,
-            "row": 0
-          },
-          {
-            "column": 33,
-            "row": 0
-          },
-          {
-            "column": 33,
+            "column": 1,
             "row": 1
           },
           {
-            "column": 34,
+            "column": 2,
             "row": 1
+          },
+          {
+            "column": 2,
+            "row": 2
+          },
+          {
+            "column": 3,
+            "row": 2
           }
         ]
       }
     },
     {
-      "time": 26.069374338947096,
+      "time": 26.002690089993,
       "type": "spawn",
       "date": "2026-08-30",
       "value": 115,
@@ -5351,36 +5377,36 @@
       }
     },
     {
-      "time": 26.254583028231938,
+      "time": 26.186696125451316,
       "type": "lock",
       "date": "2026-08-30",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 34,
-        "y": 0,
+        "x": 3,
+        "y": 1,
         "blocks": [
           {
-            "column": 36,
+            "column": 5,
+            "row": 2
+          },
+          {
+            "column": 5,
             "row": 1
           },
           {
-            "column": 36,
-            "row": 0
+            "column": 4,
+            "row": 1
           },
           {
-            "column": 35,
-            "row": 0
-          },
-          {
-            "column": 34,
-            "row": 0
+            "column": 3,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 26.326739890977034,
+      "time": 26.25838443713963,
       "type": "spawn",
       "date": "2026-09-14",
       "value": 119,
@@ -5409,36 +5435,36 @@
       }
     },
     {
-      "time": 26.511297697502133,
+      "time": 26.441743816349632,
       "type": "lock",
       "date": "2026-09-14",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 37,
-        "y": 0,
+        "x": 23,
+        "y": 4,
         "blocks": [
           {
-            "column": 39,
-            "row": 1
+            "column": 25,
+            "row": 5
           },
           {
-            "column": 39,
-            "row": 0
+            "column": 25,
+            "row": 4
           },
           {
-            "column": 38,
-            "row": 0
+            "column": 24,
+            "row": 4
           },
           {
-            "column": 37,
-            "row": 0
+            "column": 23,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 26.58345456024723,
+      "time": 26.513432128037945,
       "type": "spawn",
       "date": "2026-08-26",
       "value": 120,
@@ -5467,36 +5493,36 @@
       }
     },
     {
-      "time": 26.767849646082393,
+      "time": 26.696629843185868,
       "type": "lock",
       "date": "2026-08-26",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 40,
-        "y": 0,
+        "x": 26,
+        "y": 4,
         "blocks": [
           {
-            "column": 40,
-            "row": 0
+            "column": 26,
+            "row": 4
           },
           {
-            "column": 40,
-            "row": 1
+            "column": 26,
+            "row": 5
           },
           {
-            "column": 41,
-            "row": 1
+            "column": 27,
+            "row": 5
           },
           {
-            "column": 42,
-            "row": 1
+            "column": 28,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 26.84000650882749,
+      "time": 26.76831815487418,
       "type": "spawn",
       "date": "2026-10-27",
       "value": 120,
@@ -5506,55 +5532,55 @@
         "sourceRow": 2,
         "shape": [
           {
-            "x": 1,
-            "y": 2
-          },
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
             "x": 0,
             "y": 1
           },
           {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
             "x": 0,
-            "y": 2
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 27.024401594662653,
+      "time": 26.951515870022103,
       "type": "lock",
       "date": "2026-10-27",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 46,
-        "y": 2,
+        "x": 6,
+        "y": 1,
         "blocks": [
           {
-            "column": 47,
-            "row": 4
-          },
-          {
-            "column": 46,
+            "column": 6,
             "row": 2
           },
           {
-            "column": 46,
-            "row": 3
+            "column": 8,
+            "row": 1
           },
           {
-            "column": 46,
-            "row": 4
+            "column": 7,
+            "row": 1
+          },
+          {
+            "column": 6,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 27.09655845740775,
+      "time": 27.023204181710415,
       "type": "spawn",
       "date": "2026-07-29",
       "value": 121,
@@ -5568,51 +5594,51 @@
             "y": 1
           },
           {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 1,
+            "x": 0,
             "y": 0
           },
           {
             "x": 0,
-            "y": 0
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
           }
         ]
       }
     },
     {
-      "time": 27.280790822552976,
+      "time": 27.206240232796258,
       "type": "lock",
       "date": "2026-07-29",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 49,
-        "y": 3,
+        "x": 29,
+        "y": 4,
         "blocks": [
           {
-            "column": 50,
+            "column": 30,
+            "row": 5
+          },
+          {
+            "column": 29,
             "row": 4
           },
           {
-            "column": 51,
-            "row": 3
+            "column": 29,
+            "row": 5
           },
           {
-            "column": 50,
-            "row": 3
-          },
-          {
-            "column": 49,
-            "row": 3
+            "column": 29,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 27.352947685298073,
+      "time": 27.27792854448457,
       "type": "spawn",
       "date": "2026-07-30",
       "value": 132,
@@ -5626,64 +5652,51 @@
             "y": 0
           },
           {
-            "x": 0,
-            "y": 1
+            "x": 1,
+            "y": 0
           },
           {
-            "x": 0,
-            "y": 2
+            "x": 2,
+            "y": 0
           },
           {
-            "x": 0,
-            "y": 3
+            "x": 3,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 27.535390122854007,
+      "time": 27.459186290887544,
       "type": "lock",
       "date": "2026-07-30",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 52,
+        "x": 9,
         "y": 1,
         "blocks": [
           {
-            "column": 52,
+            "column": 9,
             "row": 1
           },
           {
-            "column": 52,
-            "row": 2
+            "column": 10,
+            "row": 1
           },
           {
-            "column": 52,
-            "row": 3
+            "column": 11,
+            "row": 1
           },
           {
-            "column": 52,
-            "row": 4
+            "column": 12,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 27.576174436579496,
-      "type": "row-clear",
-      "date": "2026-07-30",
-      "value": 1,
-      "data": {
-        "rows": [
-          4
-        ],
-        "lines": 3,
-        "removedBlocks": 53
-      }
-    },
-    {
-      "time": 27.654605809128515,
+      "time": 27.530874602575857,
       "type": "spawn",
       "date": "2026-08-14",
       "value": 134,
@@ -5693,55 +5706,55 @@
         "sourceRow": 5,
         "shape": [
           {
-            "x": 2,
-            "y": 1
-          },
-          {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 1,
+            "x": 0,
             "y": 0
           },
           {
             "x": 0,
-            "y": 0
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 27.83672280530458,
+      "time": 27.711809020854673,
       "type": "lock",
       "date": "2026-08-14",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 41,
-        "y": 1,
+        "x": 31,
+        "y": 5,
         "blocks": [
           {
-            "column": 43,
-            "row": 2
+            "column": 31,
+            "row": 5
           },
           {
-            "column": 43,
-            "row": 1
+            "column": 31,
+            "row": 6
           },
           {
-            "column": 42,
-            "row": 1
+            "column": 32,
+            "row": 6
           },
           {
-            "column": 41,
-            "row": 1
+            "column": 33,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 27.908879668049675,
+      "time": 27.783497332542986,
       "type": "spawn",
       "date": "2026-09-01",
       "value": 135,
@@ -5770,36 +5783,36 @@
       }
     },
     {
-      "time": 28.090833943535802,
+      "time": 27.964270086759722,
       "type": "lock",
       "date": "2026-09-01",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 29,
+        "x": 49,
         "y": 1,
         "blocks": [
           {
-            "column": 31,
+            "column": 51,
             "row": 1
           },
           {
-            "column": 29,
+            "column": 49,
             "row": 2
           },
           {
-            "column": 30,
+            "column": 50,
             "row": 2
           },
           {
-            "column": 31,
+            "column": 51,
             "row": 2
           }
         ]
       }
     },
     {
-      "time": 28.1629908062809,
+      "time": 28.035958398448035,
       "type": "spawn",
       "date": "2026-08-27",
       "value": 136,
@@ -5828,36 +5841,36 @@
       }
     },
     {
-      "time": 28.34478236107709,
+      "time": 28.216569488602694,
       "type": "lock",
       "date": "2026-08-27",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 47,
+        "x": 27,
         "y": 3,
         "blocks": [
           {
-            "column": 47,
+            "column": 27,
             "row": 3
           },
           {
-            "column": 48,
+            "column": 28,
             "row": 3
           },
           {
-            "column": 47,
+            "column": 27,
             "row": 4
           },
           {
-            "column": 48,
+            "column": 28,
             "row": 4
           }
         ]
       }
     },
     {
-      "time": 28.416939223822187,
+      "time": 28.288257800291007,
       "type": "spawn",
       "date": "2026-09-11",
       "value": 136,
@@ -5886,36 +5899,36 @@
       }
     },
     {
-      "time": 28.59873077861838,
+      "time": 28.468868890445666,
       "type": "lock",
       "date": "2026-09-11",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 10,
-        "y": 1,
+        "x": 29,
+        "y": 3,
         "blocks": [
           {
-            "column": 10,
-            "row": 1
+            "column": 29,
+            "row": 3
           },
           {
-            "column": 11,
-            "row": 1
+            "column": 30,
+            "row": 3
           },
           {
-            "column": 11,
-            "row": 2
+            "column": 30,
+            "row": 4
           },
           {
-            "column": 12,
-            "row": 2
+            "column": 31,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 28.670887641363475,
+      "time": 28.54055720213398,
       "type": "spawn",
       "date": "2026-10-19",
       "value": 136,
@@ -5925,68 +5938,55 @@
         "sourceRow": 1,
         "shape": [
           {
-            "x": 2,
-            "y": 0
-          },
-          {
             "x": 0,
             "y": 1
           },
           {
-            "x": 1,
-            "y": 1
+            "x": 2,
+            "y": 0
           },
           {
-            "x": 2,
-            "y": 1
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 28.852679196159666,
+      "time": 28.721168292288638,
       "type": "lock",
       "date": "2026-10-19",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 49,
-        "y": 2,
+        "x": 0,
+        "y": 0,
         "blocks": [
           {
-            "column": 51,
-            "row": 2
+            "column": 0,
+            "row": 1
           },
           {
-            "column": 49,
-            "row": 3
+            "column": 2,
+            "row": 0
           },
           {
-            "column": 50,
-            "row": 3
+            "column": 1,
+            "row": 0
           },
           {
-            "column": 51,
-            "row": 3
+            "column": 0,
+            "row": 0
           }
         ]
       }
     },
     {
-      "time": 28.893463509885155,
-      "type": "row-clear",
-      "date": "2026-10-19",
-      "value": 1,
-      "data": {
-        "rows": [
-          3
-        ],
-        "lines": 4,
-        "removedBlocks": 53
-      }
-    },
-    {
-      "time": 28.971894882434174,
+      "time": 28.79285660397695,
       "type": "spawn",
       "date": "2026-08-09",
       "value": 146,
@@ -5996,55 +5996,55 @@
         "sourceRow": 0,
         "shape": [
           {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 1
-          },
-          {
-            "x": 1,
+            "x": 2,
             "y": 1
           },
           {
             "x": 2,
-            "y": 1
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 29.15205923033101,
+      "time": 28.971851053510818,
       "type": "lock",
       "date": "2026-08-09",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 44,
-        "y": 2,
+        "x": 32,
+        "y": 5,
         "blocks": [
           {
-            "column": 44,
-            "row": 2
+            "column": 34,
+            "row": 6
           },
           {
-            "column": 44,
-            "row": 3
+            "column": 34,
+            "row": 5
           },
           {
-            "column": 45,
-            "row": 3
+            "column": 33,
+            "row": 5
           },
           {
-            "column": 46,
-            "row": 3
+            "column": 32,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 29.224216093076105,
+      "time": 29.04353936519913,
       "type": "spawn",
       "date": "2026-10-05",
       "value": 146,
@@ -6073,36 +6073,36 @@
       }
     },
     {
-      "time": 29.40438044097294,
+      "time": 29.222533814732998,
       "type": "lock",
       "date": "2026-10-05",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 47,
+        "x": 23,
         "y": 3,
         "blocks": [
           {
-            "column": 47,
+            "column": 23,
             "row": 3
           },
           {
-            "column": 48,
+            "column": 24,
             "row": 3
           },
           {
-            "column": 49,
+            "column": 25,
             "row": 3
           },
           {
-            "column": 50,
+            "column": 26,
             "row": 3
           }
         ]
       }
     },
     {
-      "time": 29.476537303718036,
+      "time": 29.29422212642131,
       "type": "spawn",
       "date": "2026-08-02",
       "value": 147,
@@ -6131,36 +6131,36 @@
       }
     },
     {
-      "time": 29.656538930924935,
+      "time": 29.4730549118931,
       "type": "lock",
       "date": "2026-08-02",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 13,
-        "y": 2,
+        "x": 35,
+        "y": 5,
         "blocks": [
           {
-            "column": 13,
-            "row": 2
+            "column": 35,
+            "row": 5
           },
           {
-            "column": 13,
-            "row": 3
+            "column": 35,
+            "row": 6
           },
           {
-            "column": 14,
-            "row": 3
+            "column": 36,
+            "row": 6
           },
           {
-            "column": 15,
-            "row": 3
+            "column": 37,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 29.72869579367003,
+      "time": 29.544743223581413,
       "type": "spawn",
       "date": "2026-09-10",
       "value": 149,
@@ -6171,54 +6171,67 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
-          },
-          {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 1,
             "y": 0
           },
           {
             "x": 0,
-            "y": 0
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 29.90837197949706,
+      "time": 29.723252680929043,
       "type": "lock",
       "date": "2026-09-10",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 11,
-        "y": 1,
+        "x": 38,
+        "y": 5,
         "blocks": [
           {
-            "column": 12,
-            "row": 2
+            "column": 39,
+            "row": 5
           },
           {
-            "column": 13,
-            "row": 1
+            "column": 38,
+            "row": 6
           },
           {
-            "column": 12,
-            "row": 1
+            "column": 39,
+            "row": 6
           },
           {
-            "column": 11,
-            "row": 1
+            "column": 40,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 29.980528842242155,
+      "time": 29.763772161448525,
+      "type": "row-clear",
+      "date": "2026-09-10",
+      "value": 1,
+      "data": {
+        "rows": [
+          6
+        ],
+        "lines": 5,
+        "removedBlocks": 52
+      }
+    },
+    {
+      "time": 29.841694239370604,
       "type": "spawn",
       "date": "2026-10-03",
       "value": 150,
@@ -6247,36 +6260,94 @@
       }
     },
     {
-      "time": 30.160042307379246,
+      "time": 30.020042032656157,
       "type": "lock",
       "date": "2026-10-03",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 0,
-        "y": 2,
+        "x": 3,
+        "y": 0,
         "blocks": [
           {
-            "column": 0,
-            "row": 2
+            "column": 3,
+            "row": 0
           },
           {
-            "column": 1,
-            "row": 2
+            "column": 4,
+            "row": 0
           },
           {
-            "column": 0,
-            "row": 3
+            "column": 3,
+            "row": 1
           },
           {
-            "column": 1,
-            "row": 3
+            "column": 4,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 30.232199170124343,
+      "time": 30.09173034434447,
+      "type": "spawn",
+      "date": "2026-10-30",
+      "value": 152,
+      "data": {
+        "kind": "L",
+        "sourceColumn": 52,
+        "sourceRow": 5,
+        "shape": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    },
+    {
+      "time": 30.269754809505866,
+      "type": "lock",
+      "date": "2026-10-30",
+      "value": 4,
+      "data": {
+        "kind": "L",
+        "x": 36,
+        "y": 5,
+        "blocks": [
+          {
+            "column": 38,
+            "row": 5
+          },
+          {
+            "column": 36,
+            "row": 6
+          },
+          {
+            "column": 37,
+            "row": 6
+          },
+          {
+            "column": 38,
+            "row": 6
+          }
+        ]
+      }
+    },
+    {
+      "time": 30.341443121194178,
       "type": "spawn",
       "date": "2026-09-16",
       "value": 154,
@@ -6305,36 +6376,36 @@
       }
     },
     {
-      "time": 30.41106175250169,
+      "time": 30.519144258231414,
       "type": "lock",
       "date": "2026-09-16",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 2,
-        "y": 2,
+        "x": 5,
+        "y": 1,
         "blocks": [
           {
-            "column": 2,
-            "row": 2
-          },
-          {
-            "column": 3,
-            "row": 2
-          },
-          {
-            "column": 4,
-            "row": 2
-          },
-          {
             "column": 5,
-            "row": 2
+            "row": 1
+          },
+          {
+            "column": 6,
+            "row": 1
+          },
+          {
+            "column": 7,
+            "row": 1
+          },
+          {
+            "column": 8,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 30.483218615246788,
+      "time": 30.590832569919726,
       "type": "spawn",
       "date": "2026-09-26",
       "value": 156,
@@ -6344,55 +6415,68 @@
         "sourceRow": 6,
         "shape": [
           {
-            "x": 0,
-            "y": 1
-          },
-          {
             "x": 2,
             "y": 0
           },
           {
-            "x": 1,
-            "y": 0
+            "x": 0,
+            "y": 1
           },
           {
-            "x": 0,
-            "y": 0
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 30.661755756244265,
+      "time": 30.768210378832805,
       "type": "lock",
       "date": "2026-09-26",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 28,
-        "y": 2,
+        "x": 40,
+        "y": 5,
         "blocks": [
           {
-            "column": 28,
-            "row": 3
+            "column": 42,
+            "row": 5
           },
           {
-            "column": 30,
-            "row": 2
+            "column": 40,
+            "row": 6
           },
           {
-            "column": 29,
-            "row": 2
+            "column": 41,
+            "row": 6
           },
           {
-            "column": 28,
-            "row": 2
+            "column": 42,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 30.73391261898936,
+      "time": 30.808729859352287,
+      "type": "row-clear",
+      "date": "2026-09-26",
+      "value": 1,
+      "data": {
+        "rows": [
+          6
+        ],
+        "lines": 6,
+        "removedBlocks": 52
+      }
+    },
+    {
+      "time": 30.886651937274365,
       "type": "spawn",
       "date": "2026-09-22",
       "value": 157,
@@ -6421,36 +6505,36 @@
       }
     },
     {
-      "time": 30.912287039296903,
+      "time": 31.063868082125364,
       "type": "lock",
       "date": "2026-09-22",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 8,
-        "y": 1,
+        "x": 45,
+        "y": 5,
         "blocks": [
           {
-            "column": 9,
-            "row": 1
+            "column": 46,
+            "row": 5
           },
           {
-            "column": 10,
-            "row": 1
+            "column": 47,
+            "row": 5
           },
           {
-            "column": 8,
-            "row": 2
+            "column": 45,
+            "row": 6
           },
           {
-            "column": 9,
-            "row": 2
+            "column": 46,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 30.984443902042,
+      "time": 31.135556393813676,
       "type": "spawn",
       "date": "2026-10-12",
       "value": 158,
@@ -6479,36 +6563,36 @@
       }
     },
     {
-      "time": 31.162655601659605,
+      "time": 31.312610874602598,
       "type": "lock",
       "date": "2026-10-12",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 25,
-        "y": 2,
+        "x": 39,
+        "y": 5,
         "blocks": [
           {
-            "column": 27,
-            "row": 2
+            "column": 41,
+            "row": 5
           },
           {
-            "column": 25,
-            "row": 3
+            "column": 39,
+            "row": 6
           },
           {
-            "column": 26,
-            "row": 3
+            "column": 40,
+            "row": 6
           },
           {
-            "column": 27,
-            "row": 3
+            "column": 41,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 31.2348124644047,
+      "time": 31.38429918629091,
       "type": "spawn",
       "date": "2026-09-25",
       "value": 167,
@@ -6537,36 +6621,36 @@
       }
     },
     {
-      "time": 31.411559677812885,
+      "time": 31.55989869052112,
       "type": "lock",
       "date": "2026-09-25",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 16,
-        "y": 2,
+        "x": 0,
+        "y": 0,
         "blocks": [
           {
-            "column": 17,
-            "row": 2
+            "column": 1,
+            "row": 0
           },
           {
-            "column": 16,
-            "row": 3
+            "column": 0,
+            "row": 1
           },
           {
-            "column": 17,
-            "row": 3
+            "column": 1,
+            "row": 1
           },
           {
-            "column": 18,
-            "row": 3
+            "column": 2,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 31.48371654055798,
+      "time": 31.631587002209432,
       "type": "spawn",
       "date": "2026-10-20",
       "value": 177,
@@ -6576,113 +6660,55 @@
         "sourceRow": 2,
         "shape": [
           {
-            "x": 2,
-            "y": 0
-          },
-          {
             "x": 0,
             "y": 1
           },
           {
-            "x": 1,
-            "y": 1
+            "x": 2,
+            "y": 0
           },
           {
-            "x": 2,
-            "y": 1
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 31.65883654706681,
+      "time": 31.805569865818853,
       "type": "lock",
       "date": "2026-10-20",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 14,
-        "y": 1,
+        "x": 48,
+        "y": 3,
         "blocks": [
           {
-            "column": 16,
-            "row": 1
+            "column": 48,
+            "row": 4
           },
           {
-            "column": 14,
-            "row": 2
+            "column": 50,
+            "row": 3
           },
           {
-            "column": 15,
-            "row": 2
-          },
-          {
-            "column": 16,
-            "row": 2
-          }
-        ]
-      }
-    },
-    {
-      "time": 31.730993409811905,
-      "type": "spawn",
-      "date": "2026-10-29",
-      "value": 182,
-      "data": {
-        "kind": "I",
-        "sourceColumn": 52,
-        "sourceRow": 4,
-        "shape": [
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 1,
-            "y": 0
-          },
-          {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 3,
-            "y": 0
-          }
-        ]
-      }
-    },
-    {
-      "time": 31.905299812871053,
-      "type": "lock",
-      "date": "2026-10-29",
-      "value": 4,
-      "data": {
-        "kind": "I",
-        "x": 45,
-        "y": 2,
-        "blocks": [
-          {
-            "column": 45,
-            "row": 2
-          },
-          {
-            "column": 46,
-            "row": 2
-          },
-          {
-            "column": 47,
-            "row": 2
+            "column": 49,
+            "row": 3
           },
           {
             "column": 48,
-            "row": 2
+            "row": 3
           }
         ]
       }
     },
     {
-      "time": 31.97745667561615,
+      "time": 31.877258177507166,
       "type": "spawn",
       "date": "2026-10-15",
       "value": 198,
@@ -6711,15 +6737,77 @@
       }
     },
     {
-      "time": 32.14915954763633,
+      "time": 32.04784609581293,
       "type": "lock",
       "date": "2026-10-15",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 49,
-        "y": 2,
+        "x": 5,
+        "y": 1,
         "blocks": [
+          {
+            "column": 5,
+            "row": 1
+          },
+          {
+            "column": 6,
+            "row": 1
+          },
+          {
+            "column": 7,
+            "row": 1
+          },
+          {
+            "column": 8,
+            "row": 1
+          }
+        ]
+      }
+    },
+    {
+      "time": 32.11953440750124,
+      "type": "spawn",
+      "date": "2026-07-26",
+      "value": 205,
+      "data": {
+        "kind": "L",
+        "sourceColumn": 39,
+        "sourceRow": 0,
+        "shape": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    },
+    {
+      "time": 32.288990677372446,
+      "type": "lock",
+      "date": "2026-07-26",
+      "value": 4,
+      "data": {
+        "kind": "L",
+        "x": 49,
+        "y": 1,
+        "blocks": [
+          {
+            "column": 51,
+            "row": 1
+          },
           {
             "column": 49,
             "row": 2
@@ -6731,23 +6819,19 @@
           {
             "column": 51,
             "row": 2
-          },
-          {
-            "column": 52,
-            "row": 2
           }
         ]
       }
     },
     {
-      "time": 32.22131641038143,
+      "time": 32.36067898906076,
       "type": "spawn",
-      "date": "2026-07-26",
-      "value": 205,
+      "date": "2026-10-13",
+      "value": 206,
       "data": {
         "kind": "L",
-        "sourceColumn": 39,
-        "sourceRow": 0,
+        "sourceColumn": 50,
+        "sourceRow": 2,
         "shape": [
           {
             "x": 0,
@@ -6769,94 +6853,36 @@
       }
     },
     {
-      "time": 32.39188023757205,
-      "type": "lock",
-      "date": "2026-07-26",
-      "value": 4,
-      "data": {
-        "kind": "L",
-        "x": 24,
-        "y": 2,
-        "blocks": [
-          {
-            "column": 24,
-            "row": 3
-          },
-          {
-            "column": 26,
-            "row": 2
-          },
-          {
-            "column": 25,
-            "row": 2
-          },
-          {
-            "column": 24,
-            "row": 2
-          }
-        ]
-      }
-    },
-    {
-      "time": 32.46403710031715,
-      "type": "spawn",
-      "date": "2026-10-13",
-      "value": 206,
-      "data": {
-        "kind": "L",
-        "sourceColumn": 50,
-        "sourceRow": 2,
-        "shape": [
-          {
-            "x": 1,
-            "y": 2
-          },
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 1
-          },
-          {
-            "x": 0,
-            "y": 2
-          }
-        ]
-      }
-    },
-    {
-      "time": 32.63443820681784,
+      "time": 32.52997359486989,
       "type": "lock",
       "date": "2026-10-13",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 19,
-        "y": 1,
+        "x": 45,
+        "y": 4,
         "blocks": [
           {
-            "column": 20,
-            "row": 3
+            "column": 45,
+            "row": 5
           },
           {
-            "column": 19,
-            "row": 1
+            "column": 47,
+            "row": 4
           },
           {
-            "column": 19,
-            "row": 2
+            "column": 46,
+            "row": 4
           },
           {
-            "column": 19,
-            "row": 3
+            "column": 45,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 32.70659506956294,
+      "time": 32.6016619065582,
       "type": "spawn",
       "date": "2026-07-28",
       "value": 211,
@@ -6870,64 +6896,51 @@
             "y": 0
           },
           {
-            "x": 0,
-            "y": 1
+            "x": 1,
+            "y": 0
           },
           {
-            "x": 0,
-            "y": 2
+            "x": 2,
+            "y": 0
           },
           {
-            "x": 0,
-            "y": 3
+            "x": 3,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 32.87618257261395,
+      "time": 32.77014819205693,
       "type": "lock",
       "date": "2026-07-28",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 23,
+        "x": 2,
         "y": 0,
         "blocks": [
           {
-            "column": 23,
+            "column": 2,
             "row": 0
           },
           {
-            "column": 23,
-            "row": 1
+            "column": 3,
+            "row": 0
           },
           {
-            "column": 23,
-            "row": 2
+            "column": 4,
+            "row": 0
           },
           {
-            "column": 23,
-            "row": 3
+            "column": 5,
+            "row": 0
           }
         ]
       }
     },
     {
-      "time": 32.91696688633944,
-      "type": "row-clear",
-      "date": "2026-07-28",
-      "value": 1,
-      "data": {
-        "rows": [
-          3
-        ],
-        "lines": 5,
-        "removedBlocks": 53
-      }
-    },
-    {
-      "time": 32.99539825888846,
+      "time": 32.84183650374524,
       "type": "spawn",
       "date": "2026-08-17",
       "value": 212,
@@ -6956,36 +6969,36 @@
       }
     },
     {
-      "time": 33.164823041249534,
+      "time": 33.010161125181895,
       "type": "lock",
       "date": "2026-08-17",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 6,
+        "x": 46,
         "y": 2,
         "blocks": [
           {
-            "column": 7,
+            "column": 47,
             "row": 2
           },
           {
-            "column": 8,
+            "column": 48,
             "row": 2
           },
           {
-            "column": 6,
+            "column": 46,
             "row": 3
           },
           {
-            "column": 7,
+            "column": 47,
             "row": 3
           }
         ]
       }
     },
     {
-      "time": 33.23697990399463,
+      "time": 33.08184943687021,
       "type": "spawn",
       "date": "2026-09-20",
       "value": 212,
@@ -7014,36 +7027,36 @@
       }
     },
     {
-      "time": 33.40640468635571,
+      "time": 33.25017405830686,
       "type": "lock",
       "date": "2026-09-20",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 3,
+        "x": 9,
         "y": 2,
         "blocks": [
           {
-            "column": 3,
+            "column": 9,
             "row": 2
           },
           {
-            "column": 4,
+            "column": 10,
             "row": 2
           },
           {
-            "column": 5,
+            "column": 11,
             "row": 2
           },
           {
-            "column": 6,
+            "column": 12,
             "row": 2
           }
         ]
       }
     },
     {
-      "time": 33.4785615491008,
+      "time": 33.32186236999517,
       "type": "spawn",
       "date": "2026-10-14",
       "value": 214,
@@ -7072,36 +7085,36 @@
       }
     },
     {
-      "time": 33.64766089008201,
+      "time": 33.48986366330767,
       "type": "lock",
       "date": "2026-10-14",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 14,
-        "y": 1,
+        "x": 43,
+        "y": 5,
         "blocks": [
           {
-            "column": 14,
-            "row": 1
+            "column": 43,
+            "row": 5
           },
           {
-            "column": 15,
-            "row": 1
+            "column": 44,
+            "row": 5
           },
           {
-            "column": 14,
-            "row": 2
+            "column": 43,
+            "row": 6
           },
           {
-            "column": 15,
-            "row": 2
+            "column": 44,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 33.719817752827105,
+      "time": 33.561551974995986,
       "type": "spawn",
       "date": "2026-09-21",
       "value": 217,
@@ -7111,55 +7124,55 @@
         "sourceRow": 1,
         "shape": [
           {
-            "x": 2,
-            "y": 0
-          },
-          {
             "x": 0,
             "y": 1
           },
           {
-            "x": 1,
-            "y": 1
+            "x": 2,
+            "y": 0
           },
           {
-            "x": 2,
-            "y": 1
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 33.8884289317385,
+      "time": 33.72906827612225,
       "type": "lock",
       "date": "2026-09-21",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 20,
-        "y": 2,
+        "x": 42,
+        "y": 4,
         "blocks": [
           {
-            "column": 22,
-            "row": 2
+            "column": 42,
+            "row": 5
           },
           {
-            "column": 20,
-            "row": 3
+            "column": 44,
+            "row": 4
           },
           {
-            "column": 21,
-            "row": 3
+            "column": 43,
+            "row": 4
           },
           {
-            "column": 22,
-            "row": 3
+            "column": 42,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 33.9605857944836,
+      "time": 33.80075658781056,
       "type": "spawn",
       "date": "2026-09-12",
       "value": 219,
@@ -7188,36 +7201,36 @@
       }
     },
     {
-      "time": 34.128871532015125,
+      "time": 33.96794956081266,
       "type": "lock",
       "date": "2026-09-12",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 19,
-        "y": 1,
+        "x": 31,
+        "y": 5,
         "blocks": [
           {
-            "column": 19,
-            "row": 1
+            "column": 31,
+            "row": 5
           },
           {
-            "column": 20,
-            "row": 1
+            "column": 32,
+            "row": 5
           },
           {
-            "column": 20,
-            "row": 2
+            "column": 32,
+            "row": 6
           },
           {
-            "column": 21,
-            "row": 2
+            "column": 33,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 34.20102839476022,
+      "time": 34.039637872500975,
       "type": "spawn",
       "date": "2026-08-22",
       "value": 220,
@@ -7227,68 +7240,55 @@
         "sourceRow": 6,
         "shape": [
           {
+            "x": 1,
+            "y": 0
+          },
+          {
             "x": 0,
             "y": 1
           },
           {
             "x": 1,
-            "y": 2
-          },
-          {
-            "x": 1,
             "y": 1
           },
           {
-            "x": 1,
-            "y": 0
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 34.36915141160181,
+      "time": 34.206669181441,
       "type": "lock",
       "date": "2026-08-22",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 17,
-        "y": 1,
+        "x": 9,
+        "y": 0,
         "blocks": [
           {
-            "column": 17,
-            "row": 2
+            "column": 10,
+            "row": 0
           },
           {
-            "column": 18,
-            "row": 3
+            "column": 9,
+            "row": 1
           },
           {
-            "column": 18,
-            "row": 2
+            "column": 10,
+            "row": 1
           },
           {
-            "column": 18,
+            "column": 11,
             "row": 1
           }
         ]
       }
     },
     {
-      "time": 34.4099357253273,
-      "type": "row-clear",
-      "date": "2026-08-22",
-      "value": 1,
-      "data": {
-        "rows": [
-          3
-        ],
-        "lines": 6,
-        "removedBlocks": 53
-      }
-    },
-    {
-      "time": 34.48836709787632,
+      "time": 34.27835749312931,
       "type": "spawn",
       "date": "2026-10-23",
       "value": 225,
@@ -7317,36 +7317,36 @@
       }
     },
     {
-      "time": 34.65567651126823,
+      "time": 34.44458048175894,
       "type": "lock",
       "date": "2026-10-23",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 24,
+        "x": 13,
         "y": 2,
         "blocks": [
           {
-            "column": 24,
+            "column": 13,
             "row": 2
           },
           {
-            "column": 25,
+            "column": 14,
             "row": 2
           },
           {
-            "column": 24,
+            "column": 13,
             "row": 3
           },
           {
-            "column": 25,
+            "column": 14,
             "row": 3
           }
         ]
       }
     },
     {
-      "time": 34.72783337401333,
+      "time": 34.51626879344725,
       "type": "spawn",
       "date": "2026-10-16",
       "value": 227,
@@ -7357,67 +7357,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
-          },
-          {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 1,
             "y": 0
           },
           {
             "x": 0,
-            "y": 0
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 34.89481734602537,
+      "time": 34.68216845395272,
       "type": "lock",
       "date": "2026-10-16",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 40,
-        "y": 3,
+        "x": 12,
+        "y": 0,
         "blocks": [
           {
-            "column": 41,
-            "row": 4
+            "column": 13,
+            "row": 0
           },
           {
-            "column": 42,
-            "row": 3
+            "column": 12,
+            "row": 1
           },
           {
-            "column": 41,
-            "row": 3
+            "column": 13,
+            "row": 1
           },
           {
-            "column": 40,
-            "row": 3
+            "column": 14,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 34.93560165975086,
-      "type": "row-clear",
-      "date": "2026-10-16",
-      "value": 1,
-      "data": {
-        "rows": [
-          4
-        ],
-        "lines": 7,
-        "removedBlocks": 53
-      }
-    },
-    {
-      "time": 35.01403303229988,
+      "time": 34.75385676564103,
       "type": "spawn",
       "date": "2026-10-08",
       "value": 229,
@@ -7428,67 +7415,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
-          },
-          {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 1,
             "y": 0
           },
           {
             "x": 0,
-            "y": 0
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 35.18069156293205,
+      "time": 34.919433098022346,
       "type": "lock",
       "date": "2026-10-08",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 44,
-        "y": 4,
+        "x": 15,
+        "y": 2,
         "blocks": [
           {
-            "column": 45,
-            "row": 5
+            "column": 16,
+            "row": 2
           },
           {
-            "column": 46,
-            "row": 4
+            "column": 15,
+            "row": 3
           },
           {
-            "column": 45,
-            "row": 4
+            "column": 16,
+            "row": 3
           },
           {
-            "column": 44,
-            "row": 4
+            "column": 17,
+            "row": 3
           }
         ]
       }
     },
     {
-      "time": 35.221475876657536,
-      "type": "row-clear",
-      "date": "2026-10-08",
-      "value": 1,
-      "data": {
-        "rows": [
-          5
-        ],
-        "lines": 8,
-        "removedBlocks": 52
-      }
-    },
-    {
-      "time": 35.299907249206555,
+      "time": 34.99112140971066,
       "type": "spawn",
       "date": "2026-07-27",
       "value": 232,
@@ -7499,54 +7473,54 @@
         "shape": [
           {
             "x": 0,
-            "y": 1
-          },
-          {
-            "x": 2,
             "y": 0
           },
           {
             "x": 1,
-            "y": 0
+            "y": 2
           },
           {
-            "x": 0,
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
             "y": 0
           }
         ]
       }
     },
     {
-      "time": 35.46607761776892,
+      "time": 35.156212749905734,
       "type": "lock",
       "date": "2026-07-27",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 43,
-        "y": 4,
+        "x": 14,
+        "y": 0,
         "blocks": [
           {
-            "column": 43,
-            "row": 5
+            "column": 14,
+            "row": 0
           },
           {
-            "column": 45,
-            "row": 4
+            "column": 15,
+            "row": 2
           },
           {
-            "column": 44,
-            "row": 4
+            "column": 15,
+            "row": 1
           },
           {
-            "column": 43,
-            "row": 4
+            "column": 15,
+            "row": 0
           }
         ]
       }
     },
     {
-      "time": 35.538234480514014,
+      "time": 35.227901061594046,
       "type": "spawn",
       "date": "2026-10-09",
       "value": 243,
@@ -7557,54 +7531,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
+            "y": 0
           },
           {
-            "x": 1,
-            "y": 2
-          },
-          {
-            "x": 0,
+            "x": 2,
             "y": 0
           },
           {
             "x": 0,
             "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 35.70261492148708,
+      "time": 35.39121409710625,
       "type": "lock",
       "date": "2026-10-09",
       "value": 4,
       "data": {
         "kind": "S",
-        "x": 1,
+        "x": 39,
         "y": 4,
         "blocks": [
           {
-            "column": 2,
-            "row": 5
-          },
-          {
-            "column": 2,
-            "row": 6
-          },
-          {
-            "column": 1,
+            "column": 40,
             "row": 4
           },
           {
-            "column": 1,
+            "column": 41,
+            "row": 4
+          },
+          {
+            "column": 39,
+            "row": 5
+          },
+          {
+            "column": 40,
             "row": 5
           }
         ]
       }
     },
     {
-      "time": 35.77477178423218,
+      "time": 35.46290240879456,
       "type": "spawn",
       "date": "2026-10-18",
       "value": 243,
@@ -7633,36 +7607,49 @@
       }
     },
     {
-      "time": 35.93915222520525,
+      "time": 35.626215444306766,
       "type": "lock",
       "date": "2026-10-18",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 2,
-        "y": 4,
+        "x": 34,
+        "y": 6,
         "blocks": [
           {
-            "column": 2,
-            "row": 4
+            "column": 34,
+            "row": 6
           },
           {
-            "column": 3,
-            "row": 4
+            "column": 35,
+            "row": 6
           },
           {
-            "column": 4,
-            "row": 4
+            "column": 36,
+            "row": 6
           },
           {
-            "column": 5,
-            "row": 4
+            "column": 37,
+            "row": 6
           }
         ]
       }
     },
     {
-      "time": 36.011309087950345,
+      "time": 35.666734924826244,
+      "type": "row-clear",
+      "date": "2026-10-18",
+      "value": 1,
+      "data": {
+        "rows": [
+          6
+        ],
+        "lines": 7,
+        "removedBlocks": 52
+      }
+    },
+    {
+      "time": 35.74465700274832,
       "type": "spawn",
       "date": "2026-08-18",
       "value": 244,
@@ -7691,36 +7678,36 @@
       }
     },
     {
-      "time": 36.17552680823348,
+      "time": 35.907808374198446,
       "type": "lock",
       "date": "2026-08-18",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 26,
-        "y": 4,
+        "x": 11,
+        "y": 0,
         "blocks": [
           {
-            "column": 26,
-            "row": 4
+            "column": 11,
+            "row": 0
           },
           {
-            "column": 27,
-            "row": 4
+            "column": 12,
+            "row": 0
           },
           {
-            "column": 26,
-            "row": 5
+            "column": 11,
+            "row": 1
           },
           {
-            "column": 27,
-            "row": 5
+            "column": 12,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 36.247683670978574,
+      "time": 35.97949668588676,
       "type": "spawn",
       "date": "2026-09-19",
       "value": 244,
@@ -7749,36 +7736,36 @@
       }
     },
     {
-      "time": 36.41190139126171,
+      "time": 36.142648057336885,
       "type": "lock",
       "date": "2026-09-19",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 28,
-        "y": 4,
+        "x": 6,
+        "y": 0,
         "blocks": [
           {
-            "column": 29,
-            "row": 4
+            "column": 7,
+            "row": 0
           },
           {
-            "column": 28,
-            "row": 5
+            "column": 6,
+            "row": 1
           },
           {
-            "column": 29,
-            "row": 5
+            "column": 7,
+            "row": 1
           },
           {
-            "column": 30,
-            "row": 5
+            "column": 8,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 36.484058254006804,
+      "time": 36.2143363690252,
       "type": "spawn",
       "date": "2026-10-21",
       "value": 248,
@@ -7807,36 +7794,36 @@
       }
     },
     {
-      "time": 36.647625091530195,
+      "time": 36.37684108422701,
       "type": "lock",
       "date": "2026-10-21",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 16,
+        "x": 18,
         "y": 3,
         "blocks": [
           {
-            "column": 16,
+            "column": 18,
             "row": 3
           },
           {
-            "column": 17,
+            "column": 19,
             "row": 3
           },
           {
-            "column": 16,
+            "column": 18,
             "row": 4
           },
           {
-            "column": 17,
+            "column": 19,
             "row": 4
           }
         ]
       }
     },
     {
-      "time": 36.71978195427529,
+      "time": 36.44852939591532,
       "type": "spawn",
       "date": "2026-10-02",
       "value": 254,
@@ -7846,55 +7833,55 @@
         "sourceRow": 5,
         "shape": [
           {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
             "x": 0,
             "y": 1
           },
           {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 1,
-            "y": 0
-          },
-          {
             "x": 0,
-            "y": 0
+            "y": 2
           }
         ]
       }
     },
     {
-      "time": 36.88237246765907,
+      "time": 36.61006412674466,
       "type": "lock",
       "date": "2026-10-02",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 13,
+        "x": 20,
         "y": 3,
         "blocks": [
           {
-            "column": 13,
+            "column": 21,
+            "row": 5
+          },
+          {
+            "column": 20,
+            "row": 3
+          },
+          {
+            "column": 20,
             "row": 4
           },
           {
-            "column": 15,
-            "row": 3
-          },
-          {
-            "column": 14,
-            "row": 3
-          },
-          {
-            "column": 13,
-            "row": 3
+            "column": 20,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 36.95452933040416,
+      "time": 36.68175243843297,
       "type": "spawn",
       "date": "2026-10-24",
       "value": 258,
@@ -7923,36 +7910,36 @@
       }
     },
     {
-      "time": 37.1164689610282,
+      "time": 36.842640513014,
       "type": "lock",
       "date": "2026-10-24",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 6,
-        "y": 4,
+        "x": 3,
+        "y": 0,
         "blocks": [
           {
+            "column": 3,
+            "row": 0
+          },
+          {
+            "column": 4,
+            "row": 0
+          },
+          {
+            "column": 5,
+            "row": 0
+          },
+          {
             "column": 6,
-            "row": 4
-          },
-          {
-            "column": 7,
-            "row": 4
-          },
-          {
-            "column": 8,
-            "row": 4
-          },
-          {
-            "column": 9,
-            "row": 4
+            "row": 0
           }
         ]
       }
     },
     {
-      "time": 37.18862582377329,
+      "time": 36.91432882470231,
       "type": "spawn",
       "date": "2026-09-24",
       "value": 259,
@@ -7963,54 +7950,54 @@
         "shape": [
           {
             "x": 1,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 1
-          },
-          {
-            "x": 1,
             "y": 1
           },
           {
             "x": 2,
-            "y": 1
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
           }
         ]
       }
     },
     {
-      "time": 37.35040273370739,
+      "time": 37.07505523522125,
       "type": "lock",
       "date": "2026-09-24",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 10,
-        "y": 3,
+        "x": 8,
+        "y": 0,
         "blocks": [
           {
-            "column": 11,
-            "row": 3
+            "column": 9,
+            "row": 1
           },
           {
             "column": 10,
-            "row": 4
+            "row": 0
           },
           {
-            "column": 11,
-            "row": 4
+            "column": 9,
+            "row": 0
           },
           {
-            "column": 12,
-            "row": 4
+            "column": 8,
+            "row": 0
           }
         ]
       }
     },
     {
-      "time": 37.42255959645249,
+      "time": 37.14674354690956,
       "type": "spawn",
       "date": "2026-08-12",
       "value": 261,
@@ -8039,23 +8026,15 @@
       }
     },
     {
-      "time": 37.58401106500671,
+      "time": 37.30714662930435,
       "type": "lock",
       "date": "2026-08-12",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 20,
-        "y": 3,
+        "x": 21,
+        "y": 4,
         "blocks": [
-          {
-            "column": 20,
-            "row": 3
-          },
-          {
-            "column": 21,
-            "row": 3
-          },
           {
             "column": 21,
             "row": 4
@@ -8063,12 +8042,20 @@
           {
             "column": 22,
             "row": 4
+          },
+          {
+            "column": 22,
+            "row": 5
+          },
+          {
+            "column": 23,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 37.65616792775181,
+      "time": 37.37883494099266,
       "type": "spawn",
       "date": "2026-10-25",
       "value": 279,
@@ -8097,36 +8084,36 @@
       }
     },
     {
-      "time": 37.81469042388719,
+      "time": 37.536328070270024,
       "type": "lock",
       "date": "2026-10-25",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 27,
-        "y": 3,
+        "x": 16,
+        "y": 2,
         "blocks": [
           {
-            "column": 28,
-            "row": 4
-          },
-          {
-            "column": 29,
+            "column": 17,
             "row": 3
           },
           {
-            "column": 28,
-            "row": 3
+            "column": 18,
+            "row": 2
           },
           {
-            "column": 27,
-            "row": 3
+            "column": 17,
+            "row": 2
+          },
+          {
+            "column": 16,
+            "row": 2
           }
         ]
       }
     },
     {
-      "time": 37.88684728663229,
+      "time": 37.608016381958336,
       "type": "spawn",
       "date": "2026-07-17",
       "value": 287,
@@ -8155,36 +8142,36 @@
       }
     },
     {
-      "time": 38.044068017248186,
+      "time": 37.764216198739064,
       "type": "lock",
       "date": "2026-07-17",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 7,
-        "y": 3,
+        "x": 24,
+        "y": 5,
         "blocks": [
           {
-            "column": 7,
-            "row": 3
+            "column": 24,
+            "row": 5
           },
           {
-            "column": 8,
-            "row": 3
+            "column": 25,
+            "row": 5
           },
           {
-            "column": 9,
-            "row": 3
+            "column": 26,
+            "row": 5
           },
           {
-            "column": 10,
-            "row": 3
+            "column": 27,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 38.11622487999328,
+      "time": 37.835904510427376,
       "type": "spawn",
       "date": "2026-10-10",
       "value": 294,
@@ -8213,36 +8200,36 @@
       }
     },
     {
-      "time": 38.27230656577963,
+      "time": 37.99097267877355,
       "type": "lock",
       "date": "2026-10-10",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 12,
-        "y": 2,
+        "x": 0,
+        "y": 0,
         "blocks": [
           {
-            "column": 12,
-            "row": 3
+            "column": 0,
+            "row": 1
           },
           {
-            "column": 14,
-            "row": 2
+            "column": 2,
+            "row": 0
           },
           {
-            "column": 13,
-            "row": 2
+            "column": 1,
+            "row": 0
           },
           {
-            "column": 12,
-            "row": 2
+            "column": 0,
+            "row": 0
           }
         ]
       }
     },
     {
-      "time": 38.344463428524726,
+      "time": 38.062660990461865,
       "type": "spawn",
       "date": "2026-10-22",
       "value": 294,
@@ -8271,36 +8258,36 @@
       }
     },
     {
-      "time": 38.50054511431107,
+      "time": 38.21772915880804,
       "type": "lock",
       "date": "2026-10-22",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 4,
-        "y": 2,
+        "x": 16,
+        "y": 0,
         "blocks": [
           {
-            "column": 6,
-            "row": 2
+            "column": 18,
+            "row": 0
           },
           {
-            "column": 4,
-            "row": 3
+            "column": 16,
+            "row": 1
           },
           {
-            "column": 5,
-            "row": 3
+            "column": 17,
+            "row": 1
           },
           {
-            "column": 6,
-            "row": 3
+            "column": 18,
+            "row": 1
           }
         ]
       }
     },
     {
-      "time": 38.57270197705617,
+      "time": 38.28941747049635,
       "type": "spawn",
       "date": "2026-07-15",
       "value": 295,
@@ -8310,55 +8297,55 @@
         "sourceRow": 3,
         "shape": [
           {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
             "x": 0,
             "y": 1
           },
           {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 1,
-            "y": 0
-          },
-          {
             "x": 0,
-            "y": 0
+            "y": 2
           }
         ]
       }
     },
     {
-      "time": 38.72862094215258,
+      "time": 38.44432397478045,
       "type": "lock",
       "date": "2026-07-15",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 3,
-        "y": 2,
+        "x": 19,
+        "y": 0,
         "blocks": [
           {
-            "column": 3,
-            "row": 3
-          },
-          {
-            "column": 5,
+            "column": 20,
             "row": 2
           },
           {
-            "column": 4,
-            "row": 2
+            "column": 19,
+            "row": 0
           },
           {
-            "column": 3,
+            "column": 19,
+            "row": 1
+          },
+          {
+            "column": 19,
             "row": 2
           }
         ]
       }
     },
     {
-      "time": 38.80077780489768,
+      "time": 38.516012286468765,
       "type": "spawn",
       "date": "2026-10-17",
       "value": 305,
@@ -8368,55 +8355,55 @@
         "sourceRow": 6,
         "shape": [
           {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
             "x": 0,
-            "y": 0
-          },
-          {
-            "x": 1,
-            "y": 0
-          },
-          {
-            "x": 1,
             "y": 1
           },
           {
-            "x": 2,
-            "y": 1
+            "x": 0,
+            "y": 2
           }
         ]
       }
     },
     {
-      "time": 38.95506956309473,
+      "time": 38.669302150132076,
       "type": "lock",
       "date": "2026-10-17",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 17,
-        "y": 2,
+        "x": 50,
+        "y": 0,
         "blocks": [
           {
-            "column": 17,
+            "column": 51,
+            "row": 0
+          },
+          {
+            "column": 51,
+            "row": 1
+          },
+          {
+            "column": 50,
+            "row": 1
+          },
+          {
+            "column": 50,
             "row": 2
-          },
-          {
-            "column": 18,
-            "row": 2
-          },
-          {
-            "column": 18,
-            "row": 3
-          },
-          {
-            "column": 19,
-            "row": 3
           }
         ]
       }
     },
     {
-      "time": 39.02722642583983,
+      "time": 38.74099046182039,
       "type": "spawn",
       "date": "2026-08-16",
       "value": 306,
@@ -8445,36 +8432,36 @@
       }
     },
     {
-      "time": 39.18135546334695,
+      "time": 38.894118661421615,
       "type": "lock",
       "date": "2026-08-16",
       "value": 4,
       "data": {
         "kind": "J",
-        "x": 0,
-        "y": 3,
+        "x": 49,
+        "y": 0,
         "blocks": [
           {
-            "column": 1,
-            "row": 3
+            "column": 50,
+            "row": 0
           },
           {
-            "column": 0,
-            "row": 3
+            "column": 49,
+            "row": 0
           },
           {
-            "column": 0,
-            "row": 4
+            "column": 49,
+            "row": 1
           },
           {
-            "column": 0,
-            "row": 5
+            "column": 49,
+            "row": 2
           }
         ]
       }
     },
     {
-      "time": 39.25351232609204,
+      "time": 38.96580697310993,
       "type": "spawn",
       "date": "2026-08-19",
       "value": 307,
@@ -8484,55 +8471,55 @@
         "sourceRow": 3,
         "shape": [
           {
+            "x": 1,
+            "y": 0
+          },
+          {
             "x": 0,
             "y": 1
           },
           {
             "x": 1,
-            "y": 2
-          },
-          {
-            "x": 1,
             "y": 1
           },
           {
-            "x": 1,
-            "y": 0
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 39.407478642909226,
+      "time": 39.11877350864908,
       "type": "lock",
       "date": "2026-08-19",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 1,
-        "y": 1,
+        "x": 23,
+        "y": 3,
         "blocks": [
           {
-            "column": 1,
-            "row": 2
-          },
-          {
-            "column": 2,
+            "column": 24,
             "row": 3
           },
           {
-            "column": 2,
-            "row": 2
+            "column": 23,
+            "row": 4
           },
           {
-            "column": 2,
-            "row": 1
+            "column": 24,
+            "row": 4
+          },
+          {
+            "column": 25,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 39.47963550565432,
+      "time": 39.19046182033739,
       "type": "spawn",
       "date": "2026-10-07",
       "value": 319,
@@ -8561,36 +8548,36 @@
       }
     },
     {
-      "time": 39.631649174192276,
+      "time": 39.34148838713159,
       "type": "lock",
       "date": "2026-10-07",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 3,
-        "y": 1,
+        "x": 13,
+        "y": 0,
         "blocks": [
           {
-            "column": 3,
-            "row": 1
+            "column": 13,
+            "row": 0
           },
           {
-            "column": 4,
-            "row": 1
+            "column": 14,
+            "row": 0
           },
           {
-            "column": 5,
-            "row": 1
+            "column": 15,
+            "row": 0
           },
           {
-            "column": 6,
-            "row": 1
+            "column": 16,
+            "row": 0
           }
         ]
       }
     },
     {
-      "time": 39.70380603693737,
+      "time": 39.4131766988199,
       "type": "spawn",
       "date": "2026-10-11",
       "value": 322,
@@ -8619,36 +8606,36 @@
       }
     },
     {
-      "time": 39.85533154340552,
+      "time": 39.56371827342787,
       "type": "lock",
       "date": "2026-10-11",
       "value": 4,
       "data": {
         "kind": "O",
-        "x": 7,
-        "y": 1,
+        "x": 21,
+        "y": 2,
         "blocks": [
           {
-            "column": 7,
-            "row": 1
-          },
-          {
-            "column": 8,
-            "row": 1
-          },
-          {
-            "column": 7,
+            "column": 21,
             "row": 2
           },
           {
-            "column": 8,
+            "column": 22,
             "row": 2
+          },
+          {
+            "column": 21,
+            "row": 3
+          },
+          {
+            "column": 22,
+            "row": 3
           }
         ]
       }
     },
     {
-      "time": 39.927488406150616,
+      "time": 39.63540658511618,
       "type": "spawn",
       "date": "2026-10-06",
       "value": 362,
@@ -8677,36 +8664,36 @@
       }
     },
     {
-      "time": 40.072505085021334,
+      "time": 39.77948159724098,
       "type": "lock",
       "date": "2026-10-06",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 22,
-        "y": 3,
+        "x": 28,
+        "y": 5,
         "blocks": [
           {
-            "column": 22,
-            "row": 3
+            "column": 28,
+            "row": 5
           },
           {
-            "column": 23,
-            "row": 3
+            "column": 29,
+            "row": 5
           },
           {
-            "column": 24,
-            "row": 3
+            "column": 30,
+            "row": 5
           },
           {
-            "column": 25,
-            "row": 3
+            "column": 31,
+            "row": 5
           }
         ]
       }
     },
     {
-      "time": 40.14466194776643,
+      "time": 39.85116990892929,
       "type": "spawn",
       "date": "2026-07-16",
       "value": 374,
@@ -8735,36 +8722,36 @@
       }
     },
     {
-      "time": 40.28772597835792,
+      "time": 39.99330495230915,
       "type": "lock",
       "date": "2026-07-16",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 0,
-        "y": 0,
+        "x": 23,
+        "y": 1,
         "blocks": [
           {
-            "column": 1,
-            "row": 1
-          },
-          {
-            "column": 0,
-            "row": 0
-          },
-          {
-            "column": 0,
-            "row": 1
-          },
-          {
-            "column": 0,
+            "column": 24,
             "row": 2
+          },
+          {
+            "column": 23,
+            "row": 1
+          },
+          {
+            "column": 23,
+            "row": 2
+          },
+          {
+            "column": 23,
+            "row": 3
           }
         ]
       }
     },
     {
-      "time": 40.359882841103015,
+      "time": 40.064993263997465,
       "type": "spawn",
       "date": "2026-08-15",
       "value": 391,
@@ -8793,36 +8780,36 @@
       }
     },
     {
-      "time": 40.5001806199656,
+      "time": 40.20438001832198,
       "type": "lock",
       "date": "2026-08-15",
       "value": 4,
       "data": {
         "kind": "Z",
-        "x": 14,
-        "y": 1,
+        "x": 25,
+        "y": 3,
         "blocks": [
           {
-            "column": 14,
-            "row": 1
+            "column": 25,
+            "row": 3
           },
           {
-            "column": 15,
-            "row": 1
+            "column": 26,
+            "row": 3
           },
           {
-            "column": 15,
-            "row": 2
+            "column": 26,
+            "row": 4
           },
           {
-            "column": 16,
-            "row": 2
+            "column": 27,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 40.572337482710694,
+      "time": 40.27606833001029,
       "type": "spawn",
       "date": "2026-10-28",
       "value": 470,
@@ -8851,46 +8838,50 @@
       }
     },
     {
-      "time": 40.69978032706835,
+      "time": 40.40268362343056,
       "type": "lock",
       "date": "2026-10-28",
       "value": 4,
       "data": {
         "kind": "I",
-        "x": 1,
-        "y": 0,
+        "x": 28,
+        "y": 4,
         "blocks": [
           {
-            "column": 1,
-            "row": 0
+            "column": 28,
+            "row": 4
           },
           {
-            "column": 2,
-            "row": 0
+            "column": 29,
+            "row": 4
           },
           {
-            "column": 3,
-            "row": 0
+            "column": 30,
+            "row": 4
           },
           {
-            "column": 4,
-            "row": 0
+            "column": 31,
+            "row": 4
           }
         ]
       }
     },
     {
-      "time": 40.77193718981345,
+      "time": 40.474371935118874,
       "type": "spawn",
-      "date": "2026-08-20",
-      "value": 478,
+      "date": "2026-10-29",
+      "value": 477,
       "data": {
-        "kind": "L",
-        "sourceColumn": 42,
+        "kind": "O",
+        "sourceColumn": 52,
         "sourceRow": 4,
         "shape": [
           {
-            "x": 2,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
             "y": 0
           },
           {
@@ -8900,45 +8891,99 @@
           {
             "x": 1,
             "y": 1
-          },
-          {
-            "x": 2,
-            "y": 1
           }
         ]
       }
     },
     {
-      "time": 40.89807826865162,
+      "time": 40.599855580104595,
+      "type": "lock",
+      "date": "2026-10-29",
+      "value": 4,
+      "data": {
+        "kind": "O",
+        "x": 20,
+        "y": 0,
+        "blocks": [
+          {
+            "column": 20,
+            "row": 0
+          },
+          {
+            "column": 21,
+            "row": 0
+          },
+          {
+            "column": 20,
+            "row": 1
+          },
+          {
+            "column": 21,
+            "row": 1
+          }
+        ]
+      }
+    },
+    {
+      "time": 40.67154389179291,
+      "type": "spawn",
+      "date": "2026-08-20",
+      "value": 478,
+      "data": {
+        "kind": "L",
+        "sourceColumn": 42,
+        "sourceRow": 4,
+        "shape": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ]
+      }
+    },
+    {
+      "time": 40.79686587271655,
       "type": "lock",
       "date": "2026-08-20",
       "value": 4,
       "data": {
         "kind": "L",
-        "x": 9,
-        "y": 1,
+        "x": 46,
+        "y": 2,
         "blocks": [
           {
-            "column": 11,
-            "row": 1
+            "column": 46,
+            "row": 3
           },
           {
-            "column": 9,
+            "column": 48,
             "row": 2
           },
           {
-            "column": 10,
+            "column": 47,
             "row": 2
           },
           {
-            "column": 11,
+            "column": 46,
             "row": 2
           }
         ]
       }
     },
     {
-      "time": 40.97023513139672,
+      "time": 40.868554184404864,
       "type": "spawn",
       "date": "2026-08-13",
       "value": 482,
@@ -8949,48 +8994,48 @@
         "shape": [
           {
             "x": 1,
-            "y": 1
-          },
-          {
-            "x": 2,
-            "y": 0
-          },
-          {
-            "x": 1,
             "y": 0
           },
           {
             "x": 0,
-            "y": 0
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
           }
         ]
       }
     },
     {
-      "time": 41.09572532747515,
+      "time": 40.99322950908019,
       "type": "lock",
       "date": "2026-08-13",
       "value": 4,
       "data": {
         "kind": "T",
-        "x": 25,
+        "x": 27,
         "y": 2,
         "blocks": [
           {
-            "column": 26,
-            "row": 3
+            "column": 28,
+            "row": 2
           },
           {
             "column": 27,
-            "row": 2
+            "row": 3
           },
           {
-            "column": 26,
-            "row": 2
+            "column": 28,
+            "row": 3
           },
           {
-            "column": 25,
-            "row": 2
+            "column": 29,
+            "row": 3
           }
         ]
       }
