@@ -4,8 +4,8 @@
   "duration": 14.04,
   "metrics": {
     "swaps": 6,
-    "matchedDates": 127,
-    "contributions": 13343,
+    "matchedDates": 128,
+    "contributions": 14325,
     "cascades": 1,
     "reserve": 0
   },
@@ -889,6 +889,45 @@
     {
       "time": 1.6,
       "type": "gem-match",
+      "date": "2026-10-28",
+      "value": 470,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 3,
+        "originalColumn": 52,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-10-29",
+      "value": 477,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 4,
+        "originalColumn": 52,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-10-30",
+      "value": 412,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 5,
+        "originalColumn": 52,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
       "date": "2026-04-30",
       "value": 18,
       "data": {
@@ -1045,32 +1084,6 @@
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-10-23",
-      "value": 225,
-      "data": {
-        "depth": 0,
-        "column": 51,
-        "row": 5,
-        "originalColumn": 51,
-        "originalRow": 5
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-10-30",
-      "value": 152,
-      "data": {
-        "depth": 0,
-        "column": 52,
-        "row": 5,
-        "originalColumn": 52,
-        "originalRow": 5
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
       "date": "2026-07-18",
       "value": 46,
       "data": {
@@ -1136,7 +1149,7 @@
     {
       "time": 2.2,
       "type": "gravity",
-      "value": 42,
+      "value": 41,
       "data": {
         "depth": 0,
         "falls": [
@@ -1189,12 +1202,6 @@
             "row": 3
           },
           {
-            "date": "2026-10-26",
-            "column": 52,
-            "fromRow": 1,
-            "row": 3
-          },
-          {
             "date": "2026-04-27",
             "column": 26,
             "fromRow": 1,
@@ -1231,8 +1238,8 @@
             "row": 4
           },
           {
-            "date": "2026-10-28",
-            "column": 52,
+            "date": "2026-10-21",
+            "column": 51,
             "fromRow": 3,
             "row": 4
           },
@@ -1291,15 +1298,15 @@
             "row": 5
           },
           {
-            "date": "2026-10-21",
+            "date": "2026-10-22",
             "column": 51,
-            "fromRow": 3,
+            "fromRow": 4,
             "row": 5
           },
           {
-            "date": "2026-10-29",
+            "date": "2026-10-26",
             "column": 52,
-            "fromRow": 4,
+            "fromRow": 1,
             "row": 5
           },
           {
@@ -1387,9 +1394,9 @@
             "row": 6
           },
           {
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "column": 51,
-            "fromRow": 4,
+            "fromRow": 5,
             "row": 6
           }
         ],
@@ -2189,7 +2196,7 @@
     {
       "time": 12.54,
       "type": "no-moves",
-      "value": 13343
+      "value": 14325
     }
   ]
 }

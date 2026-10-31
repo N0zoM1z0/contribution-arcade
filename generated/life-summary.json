@@ -4,7 +4,7 @@
   "duration": 30.5,
   "metrics": {
     "generations": 44,
-    "seedCells": 154,
+    "seedCells": 155,
     "finalPopulation": 5,
     "topology": "finite B3/S23 on actual dates"
   },
@@ -17,7 +17,7 @@
     {
       "time": 1.8,
       "type": "generation",
-      "value": 154,
+      "value": 155,
       "data": {
         "generation": 0,
         "alive": [
@@ -174,14 +174,15 @@
           "52,2",
           "52,3",
           "52,4",
-          "52,5"
+          "52,5",
+          "52,6"
         ]
       }
     },
     {
       "time": 2.38,
       "type": "generation",
-      "value": 36,
+      "value": 37,
       "data": {
         "generation": 1,
         "alive": [
@@ -220,7 +221,8 @@
           "35,5",
           "36,6",
           "37,0",
-          "52,0"
+          "52,0",
+          "52,6"
         ]
       }
     },
