@@ -1,55 +1,8 @@
 {
   "login": "N0zoM1z0",
   "calendar": {
-    "totalContributions": 18350,
+    "totalContributions": 18721,
     "weeks": [
-      {
-        "firstDay": "2025-10-26",
-        "contributionDays": [
-          {
-            "date": "2025-10-26",
-            "weekday": 0,
-            "contributionCount": 0,
-            "contributionLevel": "NONE"
-          },
-          {
-            "date": "2025-10-27",
-            "weekday": 1,
-            "contributionCount": 0,
-            "contributionLevel": "NONE"
-          },
-          {
-            "date": "2025-10-28",
-            "weekday": 2,
-            "contributionCount": 0,
-            "contributionLevel": "NONE"
-          },
-          {
-            "date": "2025-10-29",
-            "weekday": 3,
-            "contributionCount": 0,
-            "contributionLevel": "NONE"
-          },
-          {
-            "date": "2025-10-30",
-            "weekday": 4,
-            "contributionCount": 0,
-            "contributionLevel": "NONE"
-          },
-          {
-            "date": "2025-10-31",
-            "weekday": 5,
-            "contributionCount": 0,
-            "contributionLevel": "NONE"
-          },
-          {
-            "date": "2025-11-01",
-            "weekday": 6,
-            "contributionCount": 0,
-            "contributionLevel": "NONE"
-          }
-        ]
-      },
       {
         "firstDay": "2025-11-02",
         "contributionDays": [
@@ -2465,7 +2418,7 @@
           {
             "date": "2026-10-27",
             "weekday": 2,
-            "contributionCount": 120,
+            "contributionCount": 121,
             "contributionLevel": "SECOND_QUARTILE"
           },
           {
@@ -2489,8 +2442,19 @@
           {
             "date": "2026-10-31",
             "weekday": 6,
-            "contributionCount": 137,
-            "contributionLevel": "SECOND_QUARTILE"
+            "contributionCount": 459,
+            "contributionLevel": "FOURTH_QUARTILE"
+          }
+        ]
+      },
+      {
+        "firstDay": "2026-11-01",
+        "contributionDays": [
+          {
+            "date": "2026-11-01",
+            "weekday": 0,
+            "contributionCount": 48,
+            "contributionLevel": "FIRST_QUARTILE"
           }
         ]
       }
