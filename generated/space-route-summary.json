@@ -5,9 +5,9 @@
   "metrics": {
     "planets": 53,
     "stations": 35,
-    "refueled": 19293,
+    "refueled": 19817,
     "fuelBurned": 34,
-    "fuelRemaining": 19259,
+    "fuelRemaining": 19783,
     "fuelPerJump": 1
   },
   "checkpoints": [
@@ -1222,7 +1222,7 @@
       "time": 58.60000000000002,
       "type": "planet-arrive",
       "date": "2026-10-18",
-      "value": 1580,
+      "value": 1581,
       "data": {
         "column": 50,
         "fuel": 14739
@@ -1232,10 +1232,10 @@
       "time": 58.60000000000002,
       "type": "station-refuel",
       "date": "2026-10-18",
-      "value": 1580,
+      "value": 1581,
       "data": {
         "column": 50,
-        "fuel": 16319,
+        "fuel": 16320,
         "activeDays": 7
       }
     },
@@ -1247,7 +1247,7 @@
       "data": {
         "from": 50,
         "to": 51,
-        "fuel": 16318
+        "fuel": 16319
       }
     },
     {
@@ -1257,7 +1257,7 @@
       "value": 2323,
       "data": {
         "column": 51,
-        "fuel": 16318
+        "fuel": 16319
       }
     },
     {
@@ -1267,7 +1267,7 @@
       "value": 2323,
       "data": {
         "column": 51,
-        "fuel": 18641,
+        "fuel": 18642,
         "activeDays": 7
       }
     },
@@ -1279,28 +1279,28 @@
       "data": {
         "from": 51,
         "to": 52,
-        "fuel": 18640
+        "fuel": 18641
       }
     },
     {
       "time": 62.020000000000024,
       "type": "planet-arrive",
       "date": "2026-11-01",
-      "value": 619,
+      "value": 1142,
       "data": {
         "column": 52,
-        "fuel": 18640
+        "fuel": 18641
       }
     },
     {
       "time": 62.020000000000024,
       "type": "station-refuel",
       "date": "2026-11-01",
-      "value": 619,
+      "value": 1142,
       "data": {
         "column": 52,
-        "fuel": 19259,
-        "activeDays": 4
+        "fuel": 19783,
+        "activeDays": 5
       }
     }
   ]

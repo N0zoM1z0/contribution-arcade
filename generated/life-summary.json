@@ -4,7 +4,7 @@
   "duration": 30.5,
   "metrics": {
     "generations": 44,
-    "seedCells": 159,
+    "seedCells": 160,
     "finalPopulation": 5,
     "topology": "finite B3/S23 on actual dates"
   },
@@ -17,7 +17,7 @@
     {
       "time": 1.8,
       "type": "generation",
-      "value": 159,
+      "value": 160,
       "data": {
         "generation": 0,
         "alive": [
@@ -179,7 +179,8 @@
           "52,0",
           "52,1",
           "52,2",
-          "52,3"
+          "52,3",
+          "52,4"
         ]
       }
     },
