@@ -1,11 +1,11 @@
 {
   "username": "N0zoM1z0",
   "id": "ants",
-  "duration": 127.94932914046134,
+  "duration": 129.41662473794557,
   "metrics": {
     "workers": 3,
-    "trips": 160,
-    "resources": 19817
+    "trips": 161,
+    "resources": 20493
   },
   "checkpoints": [
     2,
@@ -1753,8 +1753,8 @@
     {
       "time": 72.39900943396223,
       "type": "harvest",
-      "date": "2026-11-05",
-      "value": 124,
+      "date": "2026-07-30",
+      "value": 132,
       "data": {
         "ant": 1
       }
@@ -1762,10 +1762,19 @@
     {
       "time": 72.59900943396224,
       "type": "harvest",
+      "date": "2026-08-14",
+      "value": 134,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 73.49856394129976,
+      "type": "deposit",
       "date": "2026-07-30",
       "value": 132,
       "data": {
-        "ant": 2
+        "ant": 1
       }
     },
     {
@@ -1778,1119 +1787,1128 @@
       }
     },
     {
-      "time": 73.69856394129977,
+      "time": 73.72038784067084,
       "type": "deposit",
-      "date": "2026-07-30",
-      "value": 132,
+      "date": "2026-08-14",
+      "value": 134,
       "data": {
         "ant": 2
       }
     },
     {
-      "time": 73.79910901467503,
+      "time": 74.76897798742135,
+      "type": "harvest",
+      "date": "2026-09-01",
+      "value": 135,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 74.96897798742135,
+      "type": "harvest",
+      "date": "2026-08-27",
+      "value": 136,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 75.16897798742136,
+      "type": "harvest",
+      "date": "2026-09-11",
+      "value": 136,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 76.01809224318654,
+      "type": "deposit",
+      "date": "2026-09-01",
+      "value": 135,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 76.15440251572323,
+      "type": "deposit",
+      "date": "2026-08-27",
+      "value": 136,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 76.37622641509431,
+      "type": "deposit",
+      "date": "2026-09-11",
+      "value": 136,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 77.33859014675049,
+      "type": "harvest",
+      "date": "2026-10-19",
+      "value": 136,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 77.5385901467505,
+      "type": "harvest",
+      "date": "2026-08-09",
+      "value": 146,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 77.7385901467505,
+      "type": "harvest",
+      "date": "2026-10-05",
+      "value": 146,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 78.75908805031443,
+      "type": "deposit",
+      "date": "2026-10-19",
+      "value": 136,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 78.76552410901465,
+      "type": "deposit",
+      "date": "2026-08-09",
+      "value": 146,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 79.11615303983226,
+      "type": "deposit",
+      "date": "2026-10-05",
+      "value": 146,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 79.8645545073375,
+      "type": "harvest",
+      "date": "2026-08-02",
+      "value": 147,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 80.0645545073375,
+      "type": "harvest",
+      "date": "2026-09-10",
+      "value": 149,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 80.26669287211737,
+      "type": "harvest",
+      "date": "2026-10-03",
+      "value": 150,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 81.07002096436057,
+      "type": "deposit",
+      "date": "2026-08-02",
+      "value": 147,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 81.29291404612157,
+      "type": "deposit",
+      "date": "2026-09-10",
+      "value": 149,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 81.51723270440249,
+      "type": "deposit",
+      "date": "2026-10-03",
+      "value": 150,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 82.24095911949684,
+      "type": "harvest",
+      "date": "2026-09-16",
+      "value": 154,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 82.44095911949684,
+      "type": "harvest",
+      "date": "2026-09-26",
+      "value": 156,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 82.73074947589096,
+      "type": "harvest",
+      "date": "2026-09-22",
+      "value": 157,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 83.5118972746331,
+      "type": "deposit",
+      "date": "2026-09-16",
+      "value": 154,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 83.67003144654086,
+      "type": "deposit",
+      "date": "2026-09-26",
+      "value": 156,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 84.04426624737943,
+      "type": "deposit",
+      "date": "2026-09-22",
+      "value": 157,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 84.81092767295596,
+      "type": "harvest",
+      "date": "2026-10-12",
+      "value": 158,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 85.01092767295596,
+      "type": "harvest",
+      "date": "2026-09-25",
+      "value": 167,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 85.34365303983226,
+      "type": "harvest",
+      "date": "2026-10-20",
+      "value": 177,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 86.2099580712788,
+      "type": "deposit",
+      "date": "2026-10-12",
+      "value": 158,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 86.26111111111109,
+      "type": "deposit",
+      "date": "2026-09-25",
+      "value": 167,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 86.74303983228509,
+      "type": "deposit",
+      "date": "2026-10-20",
+      "value": 177,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 87.44565513626833,
+      "type": "harvest",
+      "date": "2026-10-15",
+      "value": 198,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 87.64565513626833,
+      "type": "harvest",
+      "date": "2026-11-03",
+      "value": 198,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 87.84565513626833,
+      "type": "harvest",
+      "date": "2026-07-26",
+      "value": 205,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 88.78135220125785,
+      "type": "deposit",
+      "date": "2026-10-15",
+      "value": 198,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 89.02965408805031,
+      "type": "deposit",
+      "date": "2026-07-26",
+      "value": 205,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 89.08797693920334,
+      "type": "deposit",
+      "date": "2026-11-03",
+      "value": 198,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 90.05927148846959,
+      "type": "harvest",
+      "date": "2026-10-13",
+      "value": 206,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 90.2592714884696,
+      "type": "harvest",
+      "date": "2026-07-28",
+      "value": 211,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 90.4592714884696,
+      "type": "harvest",
+      "date": "2026-08-17",
+      "value": 212,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 91.40104821802935,
+      "type": "deposit",
+      "date": "2026-07-28",
+      "value": 211,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 91.43719077568133,
+      "type": "deposit",
+      "date": "2026-10-13",
+      "value": 206,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 91.68656184486373,
+      "type": "deposit",
+      "date": "2026-08-17",
+      "value": 212,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 92.69292976939202,
+      "type": "harvest",
+      "date": "2026-09-20",
+      "value": 212,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 92.89292976939203,
+      "type": "harvest",
+      "date": "2026-10-14",
+      "value": 214,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 93.09292976939203,
+      "type": "harvest",
+      "date": "2026-09-21",
+      "value": 217,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 94.04866876310271,
+      "type": "deposit",
+      "date": "2026-09-20",
+      "value": 212,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 94.24973794549265,
+      "type": "deposit",
+      "date": "2026-10-14",
+      "value": 214,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 94.4275576519916,
+      "type": "deposit",
+      "date": "2026-09-21",
+      "value": 217,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 95.13480607966456,
+      "type": "harvest",
+      "date": "2026-09-12",
+      "value": 219,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 95.33480607966456,
+      "type": "harvest",
+      "date": "2026-08-22",
+      "value": 220,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 95.70654612159329,
+      "type": "harvest",
+      "date": "2026-11-06",
+      "value": 221,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 96.3209433962264,
+      "type": "deposit",
+      "date": "2026-09-12",
+      "value": 219,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 96.45654088050313,
+      "type": "deposit",
+      "date": "2026-08-22",
+      "value": 220,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 97.08553459119497,
+      "type": "deposit",
+      "date": "2026-11-06",
+      "value": 221,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 97.5569968553459,
+      "type": "harvest",
+      "date": "2026-10-23",
+      "value": 225,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 97.7569968553459,
+      "type": "harvest",
+      "date": "2026-10-16",
+      "value": 227,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 98.2997641509434,
+      "type": "harvest",
+      "date": "2026-10-08",
+      "value": 229,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 98.8930503144654,
+      "type": "deposit",
+      "date": "2026-10-23",
+      "value": 225,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 99.07158280922431,
+      "type": "deposit",
+      "date": "2026-10-16",
+      "value": 227,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 99.61399371069183,
+      "type": "deposit",
+      "date": "2026-10-08",
+      "value": 229,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 99.95593815513627,
+      "type": "harvest",
+      "date": "2026-07-27",
+      "value": 232,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 100.26470125786163,
+      "type": "harvest",
+      "date": "2026-10-09",
+      "value": 243,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 100.95560272536689,
+      "type": "harvest",
+      "date": "2026-10-18",
+      "value": 243,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 101.11882599580713,
+      "type": "deposit",
+      "date": "2026-07-27",
+      "value": 232,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 101.55781970649895,
+      "type": "deposit",
+      "date": "2026-10-09",
+      "value": 243,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 102.22500524109016,
+      "type": "harvest",
+      "date": "2026-08-18",
+      "value": 244,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 102.39721174004194,
+      "type": "deposit",
+      "date": "2026-10-18",
+      "value": 243,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 102.66542452830188,
+      "type": "harvest",
+      "date": "2026-09-19",
+      "value": 244,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 103.43118448637318,
+      "type": "deposit",
+      "date": "2026-08-18",
+      "value": 244,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 103.67548742138366,
+      "type": "harvest",
+      "date": "2026-10-21",
+      "value": 248,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 103.87302935010482,
+      "type": "deposit",
+      "date": "2026-09-19",
+      "value": 244,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 104.60283542976941,
+      "type": "harvest",
+      "date": "2026-10-02",
+      "value": 254,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 105.05376310272538,
+      "type": "deposit",
+      "date": "2026-10-21",
+      "value": 248,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 105.08797169811321,
+      "type": "harvest",
+      "date": "2026-10-24",
+      "value": 258,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 105.87448637316564,
+      "type": "deposit",
+      "date": "2026-10-02",
+      "value": 254,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 106.22505765199163,
+      "type": "harvest",
+      "date": "2026-09-24",
+      "value": 259,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 106.4029140461216,
+      "type": "deposit",
+      "date": "2026-10-24",
+      "value": 258,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 106.93808700209647,
+      "type": "harvest",
+      "date": "2026-08-12",
+      "value": 261,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 107.49635220125788,
+      "type": "deposit",
+      "date": "2026-09-24",
+      "value": 259,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 107.76599056603774,
+      "type": "harvest",
+      "date": "2026-10-25",
+      "value": 279,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 108.10168763102729,
+      "type": "deposit",
+      "date": "2026-08-12",
+      "value": 261,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 108.43186058700212,
+      "type": "harvest",
+      "date": "2026-07-17",
+      "value": 287,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 109.22906708595389,
+      "type": "deposit",
+      "date": "2026-10-25",
+      "value": 279,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 109.2736949685535,
+      "type": "harvest",
+      "date": "2026-10-10",
+      "value": 294,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 109.46736897274636,
+      "type": "deposit",
+      "date": "2026-07-17",
+      "value": 287,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 110.4862316561845,
+      "type": "harvest",
+      "date": "2026-10-22",
+      "value": 294,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 110.5457023060797,
+      "type": "deposit",
+      "date": "2026-10-10",
+      "value": 294,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 110.6862316561845,
+      "type": "harvest",
+      "date": "2026-07-15",
+      "value": 295,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 111.739177148847,
+      "type": "harvest",
+      "date": "2026-10-17",
+      "value": 305,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 111.76396226415096,
+      "type": "deposit",
+      "date": "2026-07-15",
+      "value": 295,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 111.84339622641511,
+      "type": "deposit",
+      "date": "2026-10-22",
+      "value": 294,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 112.99179769392036,
+      "type": "harvest",
+      "date": "2026-08-16",
+      "value": 306,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 113.0326519916143,
+      "type": "deposit",
+      "date": "2026-10-17",
+      "value": 305,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 113.19179769392036,
+      "type": "harvest",
+      "date": "2026-08-19",
+      "value": 307,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 114.24019916142561,
+      "type": "deposit",
+      "date": "2026-08-16",
+      "value": 306,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 114.37686582809226,
+      "type": "deposit",
+      "date": "2026-08-19",
+      "value": 307,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 114.39608490566043,
+      "type": "harvest",
+      "date": "2026-11-02",
+      "value": 308,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 115.47553983228515,
+      "type": "harvest",
+      "date": "2026-10-07",
+      "value": 319,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 115.69700733752623,
+      "type": "harvest",
+      "date": "2026-10-11",
+      "value": 322,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 115.85951781970655,
+      "type": "deposit",
+      "date": "2026-11-02",
+      "value": 308,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 116.81088050314469,
+      "type": "deposit",
+      "date": "2026-10-07",
+      "value": 319,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 117.11596960167721,
+      "type": "harvest",
+      "date": "2026-10-06",
+      "value": 362,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 117.11714884696019,
+      "type": "deposit",
+      "date": "2026-10-11",
+      "value": 322,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 117.76750000000004,
+      "type": "harvest",
+      "date": "2026-07-16",
+      "value": 374,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 118.11741614255769,
+      "type": "harvest",
+      "date": "2026-08-15",
+      "value": 391,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 118.47242138364786,
+      "type": "deposit",
+      "date": "2026-10-06",
+      "value": 362,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 118.82411949685539,
+      "type": "deposit",
+      "date": "2026-07-16",
+      "value": 374,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 119.21768343815518,
+      "type": "deposit",
+      "date": "2026-08-15",
+      "value": 391,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 119.79363207547176,
+      "type": "harvest",
+      "date": "2026-11-04",
+      "value": 407,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 120.08164046121598,
+      "type": "harvest",
+      "date": "2026-10-30",
+      "value": 412,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 120.45409329140466,
+      "type": "harvest",
+      "date": "2026-10-31",
+      "value": 459,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 121.21484276729566,
+      "type": "deposit",
+      "date": "2026-11-04",
+      "value": 407,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 121.43916142557657,
+      "type": "deposit",
+      "date": "2026-10-30",
+      "value": 412,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 121.79050314465414,
+      "type": "deposit",
+      "date": "2026-10-31",
+      "value": 459,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 122.51458595387848,
+      "type": "harvest",
+      "date": "2026-10-28",
+      "value": 470,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 122.71779350104828,
+      "type": "harvest",
+      "date": "2026-10-29",
+      "value": 477,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 122.91779350104828,
+      "type": "harvest",
+      "date": "2026-08-20",
+      "value": 478,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 123.91432914046129,
+      "type": "deposit",
+      "date": "2026-10-28",
+      "value": 470,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 124.08175052410907,
+      "type": "deposit",
+      "date": "2026-08-20",
+      "value": 478,
+      "data": {
+        "ant": 2
+      }
+    },
+    {
+      "time": 124.09642557651998,
+      "type": "deposit",
+      "date": "2026-10-29",
+      "value": 477,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 124.95681865828101,
+      "type": "harvest",
+      "date": "2026-08-13",
+      "value": 482,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 125.39652515723277,
+      "type": "harvest",
+      "date": "2026-11-05",
+      "value": 579,
+      "data": {
+        "ant": 1
+      }
+    },
+    {
+      "time": 126.09930817610072,
+      "type": "deposit",
+      "date": "2026-08-13",
+      "value": 482,
+      "data": {
+        "ant": 0
+      }
+    },
+    {
+      "time": 126.79662473794556,
       "type": "deposit",
       "date": "2026-11-05",
-      "value": 124,
+      "value": 579,
       "data": {
         "ant": 1
-      }
-    },
-    {
-      "time": 74.64124213836476,
-      "type": "harvest",
-      "date": "2026-08-14",
-      "value": 134,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 74.94822327044022,
-      "type": "harvest",
-      "date": "2026-09-01",
-      "value": 135,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 75.14822327044023,
-      "type": "harvest",
-      "date": "2026-08-27",
-      "value": 136,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 75.76262054507336,
-      "type": "deposit",
-      "date": "2026-08-14",
-      "value": 134,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 76.19733752620542,
-      "type": "deposit",
-      "date": "2026-09-01",
-      "value": 135,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 76.3336477987421,
-      "type": "deposit",
-      "date": "2026-08-27",
-      "value": 136,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 76.86986897274632,
-      "type": "harvest",
-      "date": "2026-09-11",
-      "value": 136,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 77.51783542976936,
-      "type": "harvest",
-      "date": "2026-10-19",
-      "value": 136,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 77.71783542976937,
-      "type": "harvest",
-      "date": "2026-08-09",
-      "value": 146,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 78.07711740041927,
-      "type": "deposit",
-      "date": "2026-09-11",
-      "value": 136,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 78.9383333333333,
-      "type": "deposit",
-      "date": "2026-10-19",
-      "value": 136,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 78.94476939203352,
-      "type": "deposit",
-      "date": "2026-08-09",
-      "value": 146,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 79.35468029350103,
-      "type": "harvest",
-      "date": "2026-10-05",
-      "value": 146,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 80.04379979035637,
-      "type": "harvest",
-      "date": "2026-08-02",
-      "value": 147,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 80.24379979035638,
-      "type": "harvest",
-      "date": "2026-09-10",
-      "value": 149,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 80.73224318658279,
-      "type": "deposit",
-      "date": "2026-10-05",
-      "value": 146,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 81.24926624737944,
-      "type": "deposit",
-      "date": "2026-08-02",
-      "value": 147,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 81.47215932914044,
-      "type": "deposit",
-      "date": "2026-09-10",
-      "value": 149,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 81.88278301886791,
-      "type": "harvest",
-      "date": "2026-10-03",
-      "value": 150,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 82.42020440251571,
-      "type": "harvest",
-      "date": "2026-09-16",
-      "value": 154,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 82.62020440251571,
-      "type": "harvest",
-      "date": "2026-09-26",
-      "value": 156,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 83.13332285115303,
-      "type": "deposit",
-      "date": "2026-10-03",
-      "value": 150,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 83.69114255765197,
-      "type": "deposit",
-      "date": "2026-09-16",
-      "value": 154,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 83.84927672955973,
-      "type": "deposit",
-      "date": "2026-09-26",
-      "value": 156,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 84.3468396226415,
-      "type": "harvest",
-      "date": "2026-09-22",
-      "value": 157,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 84.99017295597483,
-      "type": "harvest",
-      "date": "2026-10-12",
-      "value": 158,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 85.19017295597483,
-      "type": "harvest",
-      "date": "2026-09-25",
-      "value": 167,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 85.66035639412996,
-      "type": "deposit",
-      "date": "2026-09-22",
-      "value": 157,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 86.38920335429768,
-      "type": "deposit",
-      "date": "2026-10-12",
-      "value": 158,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 86.44035639412996,
-      "type": "deposit",
-      "date": "2026-09-25",
-      "value": 167,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 86.9597431865828,
-      "type": "harvest",
-      "date": "2026-10-20",
-      "value": 177,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 87.6249004192872,
-      "type": "harvest",
-      "date": "2026-10-15",
-      "value": 198,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 87.8249004192872,
-      "type": "harvest",
-      "date": "2026-11-03",
-      "value": 198,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 88.35912997903563,
-      "type": "deposit",
-      "date": "2026-10-20",
-      "value": 177,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 88.96059748427672,
-      "type": "deposit",
-      "date": "2026-10-15",
-      "value": 198,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 89.26722222222222,
-      "type": "deposit",
-      "date": "2026-11-03",
-      "value": 198,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 89.44312893081761,
-      "type": "harvest",
-      "date": "2026-07-26",
-      "value": 205,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 90.23851677148846,
-      "type": "harvest",
-      "date": "2026-10-13",
-      "value": 206,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 90.43851677148847,
-      "type": "harvest",
-      "date": "2026-07-28",
-      "value": 211,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 90.62712788259958,
-      "type": "deposit",
-      "date": "2026-07-26",
-      "value": 205,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 91.58029350104822,
-      "type": "deposit",
-      "date": "2026-07-28",
-      "value": 211,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 91.6164360587002,
-      "type": "deposit",
-      "date": "2026-10-13",
-      "value": 206,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 91.75441823899372,
-      "type": "harvest",
-      "date": "2026-08-17",
-      "value": 212,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 92.8721750524109,
-      "type": "harvest",
-      "date": "2026-09-20",
-      "value": 212,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 92.98170859538786,
-      "type": "deposit",
-      "date": "2026-08-17",
-      "value": 212,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 93.0721750524109,
-      "type": "harvest",
-      "date": "2026-10-14",
-      "value": 214,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 94.21633647798744,
-      "type": "harvest",
-      "date": "2026-09-21",
-      "value": 217,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 94.22791404612158,
-      "type": "deposit",
-      "date": "2026-09-20",
-      "value": 212,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 94.42898322851153,
-      "type": "deposit",
-      "date": "2026-10-14",
-      "value": 214,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 95.31405136268343,
-      "type": "harvest",
-      "date": "2026-09-12",
-      "value": 219,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 95.51405136268343,
-      "type": "harvest",
-      "date": "2026-08-22",
-      "value": 220,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 95.55096436058702,
-      "type": "deposit",
-      "date": "2026-09-21",
-      "value": 217,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 96.50018867924527,
-      "type": "deposit",
-      "date": "2026-09-12",
-      "value": 219,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 96.635786163522,
-      "type": "deposit",
-      "date": "2026-08-22",
-      "value": 220,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 96.78701781970652,
-      "type": "harvest",
-      "date": "2026-10-23",
-      "value": 225,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 97.71477463312368,
-      "type": "harvest",
-      "date": "2026-10-16",
-      "value": 227,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 97.91477463312368,
-      "type": "harvest",
-      "date": "2026-10-08",
-      "value": 229,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 98.12307127882602,
-      "type": "deposit",
-      "date": "2026-10-23",
-      "value": 225,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 99.02936058700209,
-      "type": "deposit",
-      "date": "2026-10-16",
-      "value": 227,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 99.18595911949689,
-      "type": "harvest",
-      "date": "2026-07-27",
-      "value": 232,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 99.22900419287211,
-      "type": "deposit",
-      "date": "2026-10-08",
-      "value": 229,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 100.22247903563941,
-      "type": "harvest",
-      "date": "2026-10-09",
-      "value": 243,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 100.34884696016775,
-      "type": "deposit",
-      "date": "2026-07-27",
-      "value": 232,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 100.57061320754717,
-      "type": "harvest",
-      "date": "2026-10-18",
-      "value": 243,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 101.45502620545078,
-      "type": "harvest",
-      "date": "2026-08-18",
-      "value": 244,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 101.51559748427673,
-      "type": "deposit",
-      "date": "2026-10-09",
-      "value": 243,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 102.01222222222222,
-      "type": "deposit",
-      "date": "2026-10-18",
-      "value": 243,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 102.62320230607966,
-      "type": "harvest",
-      "date": "2026-09-19",
-      "value": 244,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 102.6612054507338,
-      "type": "deposit",
-      "date": "2026-08-18",
-      "value": 244,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 103.29049790356395,
-      "type": "harvest",
-      "date": "2026-10-21",
-      "value": 248,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 103.8308071278826,
-      "type": "deposit",
-      "date": "2026-09-19",
-      "value": 244,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 103.83285639413003,
-      "type": "harvest",
-      "date": "2026-10-02",
-      "value": 254,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 104.66877358490567,
-      "type": "deposit",
-      "date": "2026-10-21",
-      "value": 248,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 105.04574947589099,
-      "type": "harvest",
-      "date": "2026-10-24",
-      "value": 258,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 105.10450733752626,
-      "type": "deposit",
-      "date": "2026-10-02",
-      "value": 254,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 105.84006813417191,
-      "type": "harvest",
-      "date": "2026-09-24",
-      "value": 259,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 106.16810796645709,
-      "type": "harvest",
-      "date": "2026-08-12",
-      "value": 261,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 106.36069182389937,
-      "type": "deposit",
-      "date": "2026-10-24",
-      "value": 258,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 107.11136268343816,
-      "type": "deposit",
-      "date": "2026-09-24",
-      "value": 259,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 107.33170859538791,
-      "type": "deposit",
-      "date": "2026-08-12",
-      "value": 261,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 107.72376834381552,
-      "type": "harvest",
-      "date": "2026-10-25",
-      "value": 279,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 108.0468710691824,
-      "type": "harvest",
-      "date": "2026-07-17",
-      "value": 287,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 108.50371593291412,
-      "type": "harvest",
-      "date": "2026-10-10",
-      "value": 294,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 109.08237945492664,
-      "type": "deposit",
-      "date": "2026-07-17",
-      "value": 287,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 109.18684486373166,
-      "type": "deposit",
-      "date": "2026-10-25",
-      "value": 279,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 109.77572327044032,
-      "type": "deposit",
-      "date": "2026-10-10",
-      "value": 294,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 110.44400943396228,
-      "type": "harvest",
-      "date": "2026-10-22",
-      "value": 294,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 110.64400943396228,
-      "type": "harvest",
-      "date": "2026-07-15",
-      "value": 295,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 110.96919811320763,
-      "type": "harvest",
-      "date": "2026-10-17",
-      "value": 305,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 111.72174004192874,
-      "type": "deposit",
-      "date": "2026-07-15",
-      "value": 295,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 111.80117400419289,
-      "type": "deposit",
-      "date": "2026-10-22",
-      "value": 294,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 112.26267295597492,
-      "type": "deposit",
-      "date": "2026-10-17",
-      "value": 305,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 112.94957547169814,
-      "type": "harvest",
-      "date": "2026-08-16",
-      "value": 306,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 113.14957547169814,
-      "type": "harvest",
-      "date": "2026-08-19",
-      "value": 307,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 113.62610587002105,
-      "type": "harvest",
-      "date": "2026-11-02",
-      "value": 308,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 114.19797693920339,
-      "type": "deposit",
-      "date": "2026-08-16",
-      "value": 306,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 114.33464360587004,
-      "type": "deposit",
-      "date": "2026-08-19",
-      "value": 307,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 115.08953878406717,
-      "type": "deposit",
-      "date": "2026-11-02",
-      "value": 308,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 115.43331761006293,
-      "type": "harvest",
-      "date": "2026-10-07",
-      "value": 319,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 115.65478511530401,
-      "type": "harvest",
-      "date": "2026-10-11",
-      "value": 322,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 116.34599056603783,
-      "type": "harvest",
-      "date": "2026-10-06",
-      "value": 362,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 116.76865828092247,
-      "type": "deposit",
-      "date": "2026-10-07",
-      "value": 319,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 117.07492662473797,
-      "type": "deposit",
-      "date": "2026-10-11",
-      "value": 322,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 117.70244234800847,
-      "type": "deposit",
-      "date": "2026-10-06",
-      "value": 362,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 117.72527777777782,
-      "type": "harvest",
-      "date": "2026-07-16",
-      "value": 374,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 118.07519392033547,
-      "type": "harvest",
-      "date": "2026-08-15",
-      "value": 391,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 118.78189727463317,
-      "type": "deposit",
-      "date": "2026-07-16",
-      "value": 374,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 119.02365303983238,
-      "type": "harvest",
-      "date": "2026-11-04",
-      "value": 407,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 119.17546121593296,
-      "type": "deposit",
-      "date": "2026-08-15",
-      "value": 391,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 120.03941823899376,
-      "type": "harvest",
-      "date": "2026-10-30",
-      "value": 412,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 120.41187106918244,
-      "type": "harvest",
-      "date": "2026-10-31",
-      "value": 459,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 120.44486373165628,
-      "type": "deposit",
-      "date": "2026-11-04",
-      "value": 407,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 121.39693920335435,
-      "type": "deposit",
-      "date": "2026-10-30",
-      "value": 412,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 121.7446069182391,
-      "type": "harvest",
-      "date": "2026-10-28",
-      "value": 470,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 121.74828092243192,
-      "type": "deposit",
-      "date": "2026-10-31",
-      "value": 459,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 122.67557127882606,
-      "type": "harvest",
-      "date": "2026-10-29",
-      "value": 477,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 122.87557127882606,
-      "type": "harvest",
-      "date": "2026-08-20",
-      "value": 478,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 123.14435010482191,
-      "type": "deposit",
-      "date": "2026-10-28",
-      "value": 470,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 124.03952830188685,
-      "type": "deposit",
-      "date": "2026-08-20",
-      "value": 478,
-      "data": {
-        "ant": 2
-      }
-    },
-    {
-      "time": 124.05420335429775,
-      "type": "deposit",
-      "date": "2026-10-29",
-      "value": 477,
-      "data": {
-        "ant": 1
-      }
-    },
-    {
-      "time": 124.18683962264163,
-      "type": "harvest",
-      "date": "2026-08-13",
-      "value": 482,
-      "data": {
-        "ant": 0
-      }
-    },
-    {
-      "time": 125.32932914046134,
-      "type": "deposit",
-      "date": "2026-08-13",
-      "value": 482,
-      "data": {
-        "ant": 0
       }
     }
   ]

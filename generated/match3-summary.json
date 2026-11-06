@@ -1,18 +1,18 @@
 {
   "username": "N0zoM1z0",
   "id": "match3",
-  "duration": 14.04,
+  "duration": 10.21,
   "metrics": {
-    "swaps": 6,
-    "matchedDates": 130,
-    "contributions": 14983,
-    "cascades": 1,
+    "swaps": 3,
+    "matchedDates": 125,
+    "contributions": 13939,
+    "cascades": 2,
     "reserve": 0
   },
   "checkpoints": [
     1.25,
     2.42,
-    12.54
+    8.71
   ],
   "events": [
     {
@@ -174,32 +174,6 @@
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-07-29",
-      "value": 121,
-      "data": {
-        "depth": 0,
-        "column": 38,
-        "row": 3,
-        "originalColumn": 38,
-        "originalRow": 3
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-07-30",
-      "value": 132,
-      "data": {
-        "depth": 0,
-        "column": 38,
-        "row": 4,
-        "originalColumn": 38,
-        "originalRow": 4
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
       "date": "2026-08-23",
       "value": 80,
       "data": {
@@ -273,6 +247,136 @@
         "row": 2,
         "originalColumn": 42,
         "originalRow": 2
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-26",
+      "value": 120,
+      "data": {
+        "depth": 0,
+        "column": 42,
+        "row": 3,
+        "originalColumn": 42,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-27",
+      "value": 136,
+      "data": {
+        "depth": 0,
+        "column": 42,
+        "row": 4,
+        "originalColumn": 42,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-28",
+      "value": 17,
+      "data": {
+        "depth": 0,
+        "column": 42,
+        "row": 5,
+        "originalColumn": 42,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-29",
+      "value": 81,
+      "data": {
+        "depth": 0,
+        "column": 42,
+        "row": 6,
+        "originalColumn": 42,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-08-31",
+      "value": 53,
+      "data": {
+        "depth": 0,
+        "column": 43,
+        "row": 1,
+        "originalColumn": 43,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-01",
+      "value": 135,
+      "data": {
+        "depth": 0,
+        "column": 43,
+        "row": 2,
+        "originalColumn": 43,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-02",
+      "value": 42,
+      "data": {
+        "depth": 0,
+        "column": 43,
+        "row": 3,
+        "originalColumn": 43,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-03",
+      "value": 37,
+      "data": {
+        "depth": 0,
+        "column": 43,
+        "row": 4,
+        "originalColumn": 43,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-04",
+      "value": 5,
+      "data": {
+        "depth": 0,
+        "column": 43,
+        "row": 5,
+        "originalColumn": 43,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-05",
+      "value": 60,
+      "data": {
+        "depth": 0,
+        "column": 43,
+        "row": 6,
+        "originalColumn": 43,
+        "originalRow": 6
       }
     },
     {
@@ -447,45 +551,6 @@
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-10-11",
-      "value": 322,
-      "data": {
-        "depth": 0,
-        "column": 49,
-        "row": 0,
-        "originalColumn": 49,
-        "originalRow": 0
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-10-18",
-      "value": 243,
-      "data": {
-        "depth": 0,
-        "column": 50,
-        "row": 0,
-        "originalColumn": 50,
-        "originalRow": 0
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-10-25",
-      "value": 279,
-      "data": {
-        "depth": 0,
-        "column": 51,
-        "row": 0,
-        "originalColumn": 51,
-        "originalRow": 0
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
       "date": "2026-04-20",
       "value": 4,
       "data": {
@@ -616,32 +681,6 @@
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-08-31",
-      "value": 53,
-      "data": {
-        "depth": 0,
-        "column": 43,
-        "row": 1,
-        "originalColumn": 43,
-        "originalRow": 1
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-10-05",
-      "value": 146,
-      "data": {
-        "depth": 0,
-        "column": 48,
-        "row": 1,
-        "originalColumn": 48,
-        "originalRow": 1
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
       "date": "2026-10-12",
       "value": 158,
       "data": {
@@ -649,19 +688,6 @@
         "column": 49,
         "row": 1,
         "originalColumn": 49,
-        "originalRow": 1
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-10-19",
-      "value": 136,
-      "data": {
-        "depth": 0,
-        "column": 50,
-        "row": 1,
-        "originalColumn": 50,
         "originalRow": 1
       }
     },
@@ -759,45 +785,6 @@
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-10-20",
-      "value": 177,
-      "data": {
-        "depth": 0,
-        "column": 50,
-        "row": 2,
-        "originalColumn": 50,
-        "originalRow": 2
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-10-27",
-      "value": 121,
-      "data": {
-        "depth": 0,
-        "column": 51,
-        "row": 2,
-        "originalColumn": 51,
-        "originalRow": 2
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-11-03",
-      "value": 198,
-      "data": {
-        "depth": 0,
-        "column": 52,
-        "row": 2,
-        "originalColumn": 52,
-        "originalRow": 2
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
       "date": "2026-07-08",
       "value": 4,
       "data": {
@@ -850,104 +837,52 @@
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-09-02",
-      "value": 42,
+      "date": "2026-07-29",
+      "value": 121,
       "data": {
         "depth": 0,
-        "column": 43,
+        "column": 38,
         "row": 3,
-        "originalColumn": 43,
+        "originalColumn": 38,
         "originalRow": 3
       }
     },
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-09-03",
-      "value": 37,
+      "date": "2026-07-30",
+      "value": 132,
       "data": {
         "depth": 0,
-        "column": 43,
+        "column": 38,
         "row": 4,
-        "originalColumn": 43,
+        "originalColumn": 38,
         "originalRow": 4
       }
     },
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-09-04",
-      "value": 5,
+      "date": "2026-07-31",
+      "value": 78,
       "data": {
         "depth": 0,
-        "column": 43,
+        "column": 38,
         "row": 5,
-        "originalColumn": 43,
+        "originalColumn": 38,
         "originalRow": 5
       }
     },
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-09-05",
-      "value": 60,
+      "date": "2026-08-01",
+      "value": 70,
       "data": {
         "depth": 0,
-        "column": 43,
+        "column": 38,
         "row": 6,
-        "originalColumn": 43,
-        "originalRow": 6
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-10-28",
-      "value": 470,
-      "data": {
-        "depth": 0,
-        "column": 51,
-        "row": 3,
-        "originalColumn": 51,
-        "originalRow": 3
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-10-29",
-      "value": 477,
-      "data": {
-        "depth": 0,
-        "column": 51,
-        "row": 4,
-        "originalColumn": 51,
-        "originalRow": 4
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-10-30",
-      "value": 412,
-      "data": {
-        "depth": 0,
-        "column": 51,
-        "row": 5,
-        "originalColumn": 51,
-        "originalRow": 5
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-10-31",
-      "value": 459,
-      "data": {
-        "depth": 0,
-        "column": 51,
-        "row": 6,
-        "originalColumn": 51,
+        "originalColumn": 38,
         "originalRow": 6
       }
     },
@@ -1032,52 +967,52 @@
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-09-10",
-      "value": 149,
+      "date": "2026-09-24",
+      "value": 259,
       "data": {
         "depth": 0,
-        "column": 44,
+        "column": 46,
         "row": 4,
-        "originalColumn": 44,
+        "originalColumn": 46,
         "originalRow": 4
       }
     },
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-09-11",
-      "value": 136,
+      "date": "2026-09-25",
+      "value": 167,
       "data": {
         "depth": 0,
-        "column": 44,
+        "column": 46,
         "row": 5,
-        "originalColumn": 44,
+        "originalColumn": 46,
         "originalRow": 5
       }
     },
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-09-12",
-      "value": 219,
+      "date": "2026-09-26",
+      "value": 156,
       "data": {
         "depth": 0,
-        "column": 44,
+        "column": 46,
         "row": 6,
-        "originalColumn": 44,
+        "originalColumn": 46,
         "originalRow": 6
       }
     },
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-07-31",
-      "value": 78,
+      "date": "2026-08-14",
+      "value": 134,
       "data": {
         "depth": 0,
-        "column": 38,
+        "column": 40,
         "row": 5,
-        "originalColumn": 38,
+        "originalColumn": 40,
         "originalRow": 5
       }
     },
@@ -1097,13 +1032,65 @@
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-08-28",
-      "value": 17,
+      "date": "2026-09-11",
+      "value": 136,
       "data": {
         "depth": 0,
-        "column": 42,
+        "column": 44,
         "row": 5,
-        "originalColumn": 42,
+        "originalColumn": 44,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-09-18",
+      "value": 33,
+      "data": {
+        "depth": 0,
+        "column": 45,
+        "row": 5,
+        "originalColumn": 45,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-10-02",
+      "value": 254,
+      "data": {
+        "depth": 0,
+        "column": 47,
+        "row": 5,
+        "originalColumn": 47,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-10-09",
+      "value": 243,
+      "data": {
+        "depth": 0,
+        "column": 48,
+        "row": 5,
+        "originalColumn": 48,
+        "originalRow": 5
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-10-23",
+      "value": 225,
+      "data": {
+        "depth": 0,
+        "column": 50,
+        "row": 5,
+        "originalColumn": 50,
         "originalRow": 5
       }
     },
@@ -1123,59 +1110,46 @@
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-08-01",
-      "value": 70,
+      "date": "2026-09-12",
+      "value": 219,
       "data": {
         "depth": 0,
-        "column": 38,
+        "column": 44,
         "row": 6,
-        "originalColumn": 38,
+        "originalColumn": 44,
         "originalRow": 6
       }
     },
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-10-10",
-      "value": 294,
+      "date": "2026-09-19",
+      "value": 244,
       "data": {
         "depth": 0,
-        "column": 48,
+        "column": 45,
         "row": 6,
-        "originalColumn": 48,
+        "originalColumn": 45,
         "originalRow": 6
       }
     },
     {
       "time": 1.6,
       "type": "gem-match",
-      "date": "2026-10-17",
-      "value": 305,
+      "date": "2026-10-03",
+      "value": 150,
       "data": {
         "depth": 0,
-        "column": 49,
+        "column": 47,
         "row": 6,
-        "originalColumn": 49,
-        "originalRow": 6
-      }
-    },
-    {
-      "time": 1.6,
-      "type": "gem-match",
-      "date": "2026-10-24",
-      "value": 258,
-      "data": {
-        "depth": 0,
-        "column": 50,
-        "row": 6,
-        "originalColumn": 50,
+        "originalColumn": 47,
         "originalRow": 6
       }
     },
     {
       "time": 2.2,
       "type": "gravity",
-      "value": 43,
+      "value": 48,
       "data": {
         "depth": 0,
         "falls": [
@@ -1186,8 +1160,14 @@
             "row": 1
           },
           {
-            "date": "2026-11-01",
-            "column": 52,
+            "date": "2026-10-04",
+            "column": 48,
+            "fromRow": 0,
+            "row": 1
+          },
+          {
+            "date": "2026-10-18",
+            "column": 50,
             "fromRow": 0,
             "row": 1
           },
@@ -1198,20 +1178,26 @@
             "row": 2
           },
           {
+            "date": "2026-08-10",
+            "column": 40,
+            "fromRow": 1,
+            "row": 2
+          },
+          {
             "date": "2026-08-17",
             "column": 41,
             "fromRow": 1,
             "row": 2
           },
           {
-            "date": "2026-10-04",
+            "date": "2026-10-05",
             "column": 48,
-            "fromRow": 0,
+            "fromRow": 1,
             "row": 2
           },
           {
-            "date": "2026-11-02",
-            "column": 52,
+            "date": "2026-10-19",
+            "column": 50,
             "fromRow": 1,
             "row": 2
           },
@@ -1228,6 +1214,12 @@
             "row": 3
           },
           {
+            "date": "2026-08-11",
+            "column": 40,
+            "fromRow": 2,
+            "row": 3
+          },
+          {
             "date": "2026-08-18",
             "column": 41,
             "fromRow": 2,
@@ -1236,6 +1228,12 @@
           {
             "date": "2026-10-06",
             "column": 48,
+            "fromRow": 2,
+            "row": 3
+          },
+          {
+            "date": "2026-10-20",
+            "column": 50,
             "fromRow": 2,
             "row": 3
           },
@@ -1258,14 +1256,14 @@
             "row": 4
           },
           {
-            "date": "2026-08-19",
-            "column": 41,
+            "date": "2026-08-12",
+            "column": 40,
             "fromRow": 3,
             "row": 4
           },
           {
-            "date": "2026-08-26",
-            "column": 42,
+            "date": "2026-08-19",
+            "column": 41,
             "fromRow": 3,
             "row": 4
           },
@@ -1318,21 +1316,33 @@
             "row": 5
           },
           {
+            "date": "2026-08-13",
+            "column": 40,
+            "fromRow": 4,
+            "row": 5
+          },
+          {
             "date": "2026-08-20",
             "column": 41,
             "fromRow": 4,
             "row": 5
           },
           {
-            "date": "2026-08-27",
-            "column": 42,
-            "fromRow": 4,
+            "date": "2026-09-16",
+            "column": 45,
+            "fromRow": 3,
             "row": 5
           },
           {
             "date": "2026-10-08",
             "column": 48,
             "fromRow": 4,
+            "row": 5
+          },
+          {
+            "date": "2026-10-11",
+            "column": 49,
+            "fromRow": 0,
             "row": 5
           },
           {
@@ -1414,27 +1424,21 @@
             "row": 6
           },
           {
-            "date": "2026-09-01",
-            "column": 43,
-            "fromRow": 2,
+            "date": "2026-09-10",
+            "column": 44,
+            "fromRow": 4,
             "row": 6
           },
           {
-            "date": "2026-10-09",
-            "column": 48,
-            "fromRow": 5,
+            "date": "2026-09-17",
+            "column": 45,
+            "fromRow": 4,
             "row": 6
           },
           {
-            "date": "2026-10-23",
-            "column": 50,
-            "fromRow": 5,
-            "row": 6
-          },
-          {
-            "date": "2026-10-26",
-            "column": 51,
-            "fromRow": 1,
+            "date": "2026-09-23",
+            "column": 46,
+            "fromRow": 3,
             "row": 6
           }
         ],
@@ -1556,6 +1560,45 @@
         "row": 5,
         "originalColumn": 27,
         "originalRow": 1
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-10-11",
+      "value": 322,
+      "data": {
+        "depth": 1,
+        "column": 49,
+        "row": 5,
+        "originalColumn": 49,
+        "originalRow": 0
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-10-22",
+      "value": 294,
+      "data": {
+        "depth": 1,
+        "column": 50,
+        "row": 5,
+        "originalColumn": 50,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 2.42,
+      "type": "gem-match",
+      "date": "2026-10-30",
+      "value": 412,
+      "data": {
+        "depth": 1,
+        "column": 51,
+        "row": 5,
+        "originalColumn": 51,
+        "originalRow": 5
       }
     },
     {
@@ -1704,7 +1747,7 @@
     {
       "time": 2.42,
       "type": "cascade",
-      "value": 20,
+      "value": 23,
       "data": {
         "depth": 1
       }
@@ -1712,10 +1755,64 @@
     {
       "time": 3.02,
       "type": "gravity",
-      "value": 3,
+      "value": 12,
       "data": {
         "depth": 1,
         "falls": [
+          {
+            "date": "2026-10-25",
+            "column": 51,
+            "fromRow": 0,
+            "row": 1
+          },
+          {
+            "date": "2026-10-18",
+            "column": 50,
+            "fromRow": 1,
+            "row": 2
+          },
+          {
+            "date": "2026-10-26",
+            "column": 51,
+            "fromRow": 1,
+            "row": 2
+          },
+          {
+            "date": "2026-10-19",
+            "column": 50,
+            "fromRow": 2,
+            "row": 3
+          },
+          {
+            "date": "2026-10-27",
+            "column": 51,
+            "fromRow": 2,
+            "row": 3
+          },
+          {
+            "date": "2026-10-20",
+            "column": 50,
+            "fromRow": 3,
+            "row": 4
+          },
+          {
+            "date": "2026-10-28",
+            "column": 51,
+            "fromRow": 3,
+            "row": 4
+          },
+          {
+            "date": "2026-10-21",
+            "column": 50,
+            "fromRow": 4,
+            "row": 5
+          },
+          {
+            "date": "2026-10-29",
+            "column": 51,
+            "fromRow": 4,
+            "row": 5
+          },
           {
             "date": "2026-02-15",
             "column": 15,
@@ -1740,211 +1837,124 @@
     },
     {
       "time": 3.2399999999999998,
-      "type": "swap",
-      "value": 99,
-      "data": {
-        "a": {
-          "x": 45,
-          "y": 3
-        },
-        "b": {
-          "x": 46,
-          "y": 3
-        },
-        "dates": [
-          "2026-09-16",
-          "2026-09-23"
-        ],
-        "matchSize": 3
-      }
-    },
-    {
-      "time": 3.69,
       "type": "gem-match",
-      "date": "2026-09-23",
-      "value": 16,
+      "date": "2026-10-20",
+      "value": 177,
       "data": {
-        "depth": 0,
-        "column": 45,
-        "row": 3,
-        "originalColumn": 46,
-        "originalRow": 3
-      }
-    },
-    {
-      "time": 3.69,
-      "type": "gem-match",
-      "date": "2026-09-17",
-      "value": 50,
-      "data": {
-        "depth": 0,
-        "column": 45,
+        "depth": 2,
+        "column": 50,
         "row": 4,
-        "originalColumn": 45,
-        "originalRow": 4
-      }
-    },
-    {
-      "time": 3.69,
-      "type": "gem-match",
-      "date": "2026-09-18",
-      "value": 33,
-      "data": {
-        "depth": 0,
-        "column": 45,
-        "row": 5,
-        "originalColumn": 45,
-        "originalRow": 5
-      }
-    },
-    {
-      "time": 4.29,
-      "type": "gravity",
-      "value": 0,
-      "data": {
-        "depth": 0,
-        "falls": [],
-        "refilledDates": []
-      }
-    },
-    {
-      "time": 4.79,
-      "type": "swap",
-      "value": 391,
-      "data": {
-        "a": {
-          "x": 42,
-          "y": 6
-        },
-        "b": {
-          "x": 43,
-          "y": 6
-        },
-        "dates": [
-          "2026-08-29",
-          "2026-09-01"
-        ],
-        "matchSize": 3
-      }
-    },
-    {
-      "time": 5.24,
-      "type": "gem-match",
-      "date": "2026-08-26",
-      "value": 120,
-      "data": {
-        "depth": 0,
-        "column": 42,
-        "row": 4,
-        "originalColumn": 42,
-        "originalRow": 3
-      }
-    },
-    {
-      "time": 5.24,
-      "type": "gem-match",
-      "date": "2026-08-27",
-      "value": 136,
-      "data": {
-        "depth": 0,
-        "column": 42,
-        "row": 5,
-        "originalColumn": 42,
-        "originalRow": 4
-      }
-    },
-    {
-      "time": 5.24,
-      "type": "gem-match",
-      "date": "2026-09-01",
-      "value": 135,
-      "data": {
-        "depth": 0,
-        "column": 42,
-        "row": 6,
-        "originalColumn": 43,
+        "originalColumn": 50,
         "originalRow": 2
       }
     },
     {
-      "time": 5.84,
-      "type": "gravity",
-      "value": 0,
-      "data": {
-        "depth": 0,
-        "falls": [],
-        "refilledDates": []
-      }
-    },
-    {
-      "time": 6.340000000000001,
-      "type": "swap",
-      "value": 477,
-      "data": {
-        "a": {
-          "x": 46,
-          "y": 3
-        },
-        "b": {
-          "x": 46,
-          "y": 4
-        },
-        "dates": [
-          "2026-09-16",
-          "2026-09-24"
-        ],
-        "matchSize": 3
-      }
-    },
-    {
-      "time": 6.790000000000001,
+      "time": 3.2399999999999998,
       "type": "gem-match",
-      "date": "2026-09-16",
-      "value": 154,
+      "date": "2026-10-21",
+      "value": 248,
       "data": {
-        "depth": 0,
-        "column": 46,
-        "row": 4,
-        "originalColumn": 45,
+        "depth": 2,
+        "column": 50,
+        "row": 5,
+        "originalColumn": 50,
         "originalRow": 3
       }
     },
     {
-      "time": 6.790000000000001,
+      "time": 3.2399999999999998,
       "type": "gem-match",
-      "date": "2026-09-25",
-      "value": 167,
+      "date": "2026-10-24",
+      "value": 258,
       "data": {
-        "depth": 0,
-        "column": 46,
-        "row": 5,
-        "originalColumn": 46,
-        "originalRow": 5
-      }
-    },
-    {
-      "time": 6.790000000000001,
-      "type": "gem-match",
-      "date": "2026-09-26",
-      "value": 156,
-      "data": {
-        "depth": 0,
-        "column": 46,
+        "depth": 2,
+        "column": 50,
         "row": 6,
-        "originalColumn": 46,
+        "originalColumn": 50,
         "originalRow": 6
       }
     },
     {
-      "time": 7.390000000000001,
-      "type": "gravity",
-      "value": 1,
+      "time": 3.2399999999999998,
+      "type": "gem-match",
+      "date": "2026-10-28",
+      "value": 470,
       "data": {
-        "depth": 0,
+        "depth": 2,
+        "column": 51,
+        "row": 4,
+        "originalColumn": 51,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 3.2399999999999998,
+      "type": "gem-match",
+      "date": "2026-10-29",
+      "value": 477,
+      "data": {
+        "depth": 2,
+        "column": 51,
+        "row": 5,
+        "originalColumn": 51,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 3.2399999999999998,
+      "type": "gem-match",
+      "date": "2026-10-31",
+      "value": 459,
+      "data": {
+        "depth": 2,
+        "column": 51,
+        "row": 6,
+        "originalColumn": 51,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 3.2399999999999998,
+      "type": "cascade",
+      "value": 6,
+      "data": {
+        "depth": 2
+      }
+    },
+    {
+      "time": 3.84,
+      "type": "gravity",
+      "value": 5,
+      "data": {
+        "depth": 2,
         "falls": [
           {
-            "date": "2026-09-24",
-            "column": 46,
+            "date": "2026-10-25",
+            "column": 51,
+            "fromRow": 1,
+            "row": 4
+          },
+          {
+            "date": "2026-10-18",
+            "column": 50,
+            "fromRow": 2,
+            "row": 5
+          },
+          {
+            "date": "2026-10-26",
+            "column": 51,
+            "fromRow": 2,
+            "row": 5
+          },
+          {
+            "date": "2026-10-19",
+            "column": 50,
+            "fromRow": 3,
+            "row": 6
+          },
+          {
+            "date": "2026-10-27",
+            "column": 51,
             "fromRow": 3,
             "row": 6
           }
@@ -1953,116 +1963,40 @@
       }
     },
     {
-      "time": 7.8900000000000015,
+      "time": 4.06,
       "type": "swap",
-      "value": 746,
+      "value": 717,
       "data": {
         "a": {
-          "x": 47,
-          "y": 6
+          "x": 40,
+          "y": 4
         },
         "b": {
-          "x": 48,
-          "y": 6
+          "x": 41,
+          "y": 4
         },
         "dates": [
-          "2026-10-03",
-          "2026-10-09"
+          "2026-08-12",
+          "2026-08-19"
         ],
         "matchSize": 3
       }
     },
     {
-      "time": 8.340000000000002,
+      "time": 4.51,
       "type": "gem-match",
-      "date": "2026-09-19",
-      "value": 244,
-      "data": {
-        "depth": 0,
-        "column": 45,
-        "row": 6,
-        "originalColumn": 45,
-        "originalRow": 6
-      }
-    },
-    {
-      "time": 8.340000000000002,
-      "type": "gem-match",
-      "date": "2026-09-24",
-      "value": 259,
-      "data": {
-        "depth": 0,
-        "column": 46,
-        "row": 6,
-        "originalColumn": 46,
-        "originalRow": 4
-      }
-    },
-    {
-      "time": 8.340000000000002,
-      "type": "gem-match",
-      "date": "2026-10-09",
-      "value": 243,
-      "data": {
-        "depth": 0,
-        "column": 47,
-        "row": 6,
-        "originalColumn": 48,
-        "originalRow": 5
-      }
-    },
-    {
-      "time": 8.940000000000001,
-      "type": "gravity",
-      "value": 1,
-      "data": {
-        "depth": 0,
-        "falls": [
-          {
-            "date": "2026-10-02",
-            "column": 47,
-            "fromRow": 5,
-            "row": 6
-          }
-        ],
-        "refilledDates": []
-      }
-    },
-    {
-      "time": 9.440000000000001,
-      "type": "swap",
-      "value": 857,
-      "data": {
-        "a": {
-          "x": 41,
-          "y": 1
-        },
-        "b": {
-          "x": 41,
-          "y": 2
-        },
-        "dates": [
-          "2026-08-16",
-          "2026-08-17"
-        ],
-        "matchSize": 3
-      }
-    },
-    {
-      "time": 9.89,
-      "type": "gem-match",
-      "date": "2026-08-16",
-      "value": 306,
+      "date": "2026-08-17",
+      "value": 212,
       "data": {
         "depth": 0,
         "column": 41,
         "row": 2,
         "originalColumn": 41,
-        "originalRow": 0
+        "originalRow": 1
       }
     },
     {
-      "time": 9.89,
+      "time": 4.51,
       "type": "gem-match",
       "date": "2026-08-18",
       "value": 244,
@@ -2075,27 +2009,27 @@
       }
     },
     {
-      "time": 9.89,
+      "time": 4.51,
       "type": "gem-match",
-      "date": "2026-08-19",
-      "value": 307,
+      "date": "2026-08-12",
+      "value": 261,
       "data": {
         "depth": 0,
         "column": 41,
         "row": 4,
-        "originalColumn": 41,
+        "originalColumn": 40,
         "originalRow": 3
       }
     },
     {
-      "time": 10.49,
+      "time": 5.109999999999999,
       "type": "gravity",
       "value": 1,
       "data": {
         "depth": 0,
         "falls": [
           {
-            "date": "2026-08-17",
+            "date": "2026-08-16",
             "column": 41,
             "fromRow": 1,
             "row": 4
@@ -2105,136 +2039,197 @@
       }
     },
     {
-      "time": 10.99,
+      "time": 5.61,
       "type": "swap",
-      "value": 1917,
+      "value": 743,
       "data": {
         "a": {
-          "x": 40,
-          "y": 5
+          "x": 51,
+          "y": 4
         },
         "b": {
-          "x": 41,
+          "x": 51,
           "y": 5
         },
         "dates": [
-          "2026-08-14",
-          "2026-08-20"
+          "2026-10-25",
+          "2026-10-26"
         ],
-        "matchSize": 6
+        "matchSize": 3
       }
     },
     {
-      "time": 11.44,
+      "time": 6.0600000000000005,
       "type": "gem-match",
-      "date": "2026-08-13",
-      "value": 482,
+      "date": "2026-10-18",
+      "value": 243,
       "data": {
         "depth": 0,
-        "column": 40,
-        "row": 4,
-        "originalColumn": 40,
-        "originalRow": 4
-      }
-    },
-    {
-      "time": 11.44,
-      "type": "gem-match",
-      "date": "2026-08-20",
-      "value": 478,
-      "data": {
-        "depth": 0,
-        "column": 40,
+        "column": 50,
         "row": 5,
-        "originalColumn": 41,
-        "originalRow": 4
+        "originalColumn": 50,
+        "originalRow": 0
       }
     },
     {
-      "time": 11.44,
+      "time": 6.0600000000000005,
       "type": "gem-match",
-      "date": "2026-08-15",
-      "value": 391,
+      "date": "2026-10-25",
+      "value": 279,
       "data": {
         "depth": 0,
-        "column": 40,
-        "row": 6,
-        "originalColumn": 40,
-        "originalRow": 6
-      }
-    },
-    {
-      "time": 11.44,
-      "type": "gem-match",
-      "date": "2026-08-17",
-      "value": 212,
-      "data": {
-        "depth": 0,
-        "column": 41,
-        "row": 4,
-        "originalColumn": 41,
-        "originalRow": 1
-      }
-    },
-    {
-      "time": 11.44,
-      "type": "gem-match",
-      "date": "2026-08-14",
-      "value": 134,
-      "data": {
-        "depth": 0,
-        "column": 41,
+        "column": 51,
         "row": 5,
-        "originalColumn": 40,
+        "originalColumn": 51,
+        "originalRow": 0
+      }
+    },
+    {
+      "time": 6.0600000000000005,
+      "type": "gem-match",
+      "date": "2026-11-06",
+      "value": 221,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 5,
+        "originalColumn": 52,
         "originalRow": 5
       }
     },
     {
-      "time": 11.44,
-      "type": "gem-match",
-      "date": "2026-08-22",
-      "value": 220,
-      "data": {
-        "depth": 0,
-        "column": 41,
-        "row": 6,
-        "originalColumn": 41,
-        "originalRow": 6
-      }
-    },
-    {
-      "time": 12.04,
+      "time": 6.66,
       "type": "gravity",
-      "value": 3,
+      "value": 6,
       "data": {
         "depth": 0,
         "falls": [
           {
-            "date": "2026-08-10",
-            "column": 40,
+            "date": "2026-11-01",
+            "column": 52,
+            "fromRow": 0,
+            "row": 1
+          },
+          {
+            "date": "2026-11-02",
+            "column": 52,
             "fromRow": 1,
+            "row": 2
+          },
+          {
+            "date": "2026-11-03",
+            "column": 52,
+            "fromRow": 2,
+            "row": 3
+          },
+          {
+            "date": "2026-11-04",
+            "column": 52,
+            "fromRow": 3,
             "row": 4
           },
           {
-            "date": "2026-08-11",
-            "column": 40,
-            "fromRow": 2,
+            "date": "2026-10-26",
+            "column": 51,
+            "fromRow": 4,
             "row": 5
           },
           {
-            "date": "2026-08-12",
-            "column": 40,
-            "fromRow": 3,
-            "row": 6
+            "date": "2026-11-05",
+            "column": 52,
+            "fromRow": 4,
+            "row": 5
           }
         ],
         "refilledDates": []
       }
     },
     {
-      "time": 12.54,
+      "time": 7.160000000000001,
+      "type": "swap",
+      "value": 975,
+      "data": {
+        "a": {
+          "x": 48,
+          "y": 5
+        },
+        "b": {
+          "x": 48,
+          "y": 6
+        },
+        "dates": [
+          "2026-10-08",
+          "2026-10-10"
+        ],
+        "matchSize": 3
+      }
+    },
+    {
+      "time": 7.610000000000001,
+      "type": "gem-match",
+      "date": "2026-10-06",
+      "value": 362,
+      "data": {
+        "depth": 0,
+        "column": 48,
+        "row": 3,
+        "originalColumn": 48,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 7.610000000000001,
+      "type": "gem-match",
+      "date": "2026-10-07",
+      "value": 319,
+      "data": {
+        "depth": 0,
+        "column": 48,
+        "row": 4,
+        "originalColumn": 48,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 7.610000000000001,
+      "type": "gem-match",
+      "date": "2026-10-10",
+      "value": 294,
+      "data": {
+        "depth": 0,
+        "column": 48,
+        "row": 5,
+        "originalColumn": 48,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 8.21,
+      "type": "gravity",
+      "value": 2,
+      "data": {
+        "depth": 0,
+        "falls": [
+          {
+            "date": "2026-10-04",
+            "column": 48,
+            "fromRow": 1,
+            "row": 4
+          },
+          {
+            "date": "2026-10-05",
+            "column": 48,
+            "fromRow": 2,
+            "row": 5
+          }
+        ],
+        "refilledDates": []
+      }
+    },
+    {
+      "time": 8.71,
       "type": "no-moves",
-      "value": 14983
+      "value": 13939
     }
   ]
 }
