@@ -5,8 +5,8 @@
   "metrics": {
     "rainyWeeks": 18,
     "sunnyWeeks": 18,
-    "peakWeek": 2323,
-    "records": 11
+    "peakWeek": 2385,
+    "records": 12
   },
   "checkpoints": [
     2,
@@ -367,7 +367,7 @@
     {
       "time": 27,
       "type": "cloudy",
-      "value": 25,
+      "value": 23,
       "data": {
         "column": 35,
         "record": false,
@@ -537,11 +537,11 @@
     {
       "time": 39.239999999999995,
       "type": "sunny",
-      "value": 1818,
+      "value": 2385,
       "data": {
         "column": 52,
-        "record": false,
-        "streak": 117
+        "record": true,
+        "streak": 118
       }
     }
   ]
