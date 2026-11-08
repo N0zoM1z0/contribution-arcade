@@ -1,36 +1,36 @@
 {
   "username": "N0zoM1z0",
   "id": "space-route",
-  "duration": 65.62000000000003,
+  "duration": 63.54000000000002,
   "metrics": {
     "planets": 53,
     "stations": 35,
-    "refueled": 21058,
+    "refueled": 21615,
     "fuelBurned": 34,
-    "fuelRemaining": 21024,
+    "fuelRemaining": 21581,
     "fuelPerJump": 1
   },
   "checkpoints": [
     1.4,
-    28.510000000000005,
-    63.62000000000003
+    29.76,
+    61.54000000000002
   ],
   "events": [
     {
       "time": 1,
       "type": "ship-launch",
-      "date": "2025-11-02",
+      "date": "2026-02-08",
       "data": {
-        "column": 0
+        "column": 13
       }
     },
     {
       "time": 1,
       "type": "station-refuel",
-      "date": "2025-11-02",
+      "date": "2026-02-08",
       "value": 1,
       "data": {
-        "column": 0,
+        "column": 13,
         "fuel": 1,
         "activeDays": 1
       }
@@ -38,286 +38,134 @@
     {
       "time": 1.85,
       "type": "jump-depart",
-      "date": "2025-11-02",
+      "date": "2026-02-08",
       "value": 1,
       "data": {
-        "from": 0,
+        "from": 13,
         "to": 14,
         "fuel": 0
       }
     },
     {
-      "time": 2.06,
-      "type": "planet-flyby",
-      "date": "2025-11-09",
-      "value": 0,
-      "data": {
-        "column": 1,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 2.27,
-      "type": "planet-flyby",
-      "date": "2025-11-16",
-      "value": 0,
-      "data": {
-        "column": 2,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 2.48,
-      "type": "planet-flyby",
-      "date": "2025-11-23",
-      "value": 0,
-      "data": {
-        "column": 3,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 2.6900000000000004,
-      "type": "planet-flyby",
-      "date": "2025-11-30",
-      "value": 0,
-      "data": {
-        "column": 4,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 2.9000000000000004,
-      "type": "planet-flyby",
-      "date": "2025-12-07",
-      "value": 0,
-      "data": {
-        "column": 5,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 3.1100000000000003,
-      "type": "planet-flyby",
-      "date": "2025-12-14",
-      "value": 0,
-      "data": {
-        "column": 6,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 3.3200000000000003,
-      "type": "planet-flyby",
-      "date": "2025-12-21",
-      "value": 0,
-      "data": {
-        "column": 7,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 3.5300000000000002,
-      "type": "planet-flyby",
-      "date": "2025-12-28",
-      "value": 0,
-      "data": {
-        "column": 8,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 3.74,
-      "type": "planet-flyby",
-      "date": "2026-01-04",
-      "value": 0,
-      "data": {
-        "column": 9,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 3.9500000000000006,
-      "type": "planet-flyby",
-      "date": "2026-01-11",
-      "value": 0,
-      "data": {
-        "column": 10,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 4.16,
-      "type": "planet-flyby",
-      "date": "2026-01-18",
-      "value": 0,
-      "data": {
-        "column": 11,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 4.37,
-      "type": "planet-flyby",
-      "date": "2026-01-25",
-      "value": 0,
-      "data": {
-        "column": 12,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 4.58,
-      "type": "planet-flyby",
-      "date": "2026-02-01",
-      "value": 0,
-      "data": {
-        "column": 13,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 4.790000000000001,
+      "time": 2.71,
       "type": "planet-arrive",
-      "date": "2026-02-08",
-      "value": 1,
+      "date": "2026-02-15",
+      "value": 3,
       "data": {
         "column": 14,
         "fuel": 0
       }
     },
     {
-      "time": 4.790000000000001,
+      "time": 2.71,
       "type": "station-refuel",
-      "date": "2026-02-08",
-      "value": 1,
+      "date": "2026-02-15",
+      "value": 3,
       "data": {
         "column": 14,
-        "fuel": 1,
-        "activeDays": 1
-      }
-    },
-    {
-      "time": 5.640000000000001,
-      "type": "jump-depart",
-      "date": "2026-02-08",
-      "value": 1,
-      "data": {
-        "from": 14,
-        "to": 15,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 6.500000000000001,
-      "type": "planet-arrive",
-      "date": "2026-02-15",
-      "value": 3,
-      "data": {
-        "column": 15,
-        "fuel": 0
-      }
-    },
-    {
-      "time": 6.500000000000001,
-      "type": "station-refuel",
-      "date": "2026-02-15",
-      "value": 3,
-      "data": {
-        "column": 15,
         "fuel": 3,
         "activeDays": 2
       }
     },
     {
-      "time": 7.3500000000000005,
+      "time": 3.56,
       "type": "jump-depart",
       "date": "2026-02-15",
       "value": 1,
       "data": {
-        "from": 15,
-        "to": 16,
+        "from": 14,
+        "to": 15,
         "fuel": 2
       }
     },
     {
-      "time": 8.21,
+      "time": 4.42,
       "type": "planet-arrive",
       "date": "2026-02-22",
       "value": 2,
       "data": {
-        "column": 16,
+        "column": 15,
         "fuel": 2
       }
     },
     {
-      "time": 8.21,
+      "time": 4.42,
       "type": "station-refuel",
       "date": "2026-02-22",
       "value": 2,
       "data": {
-        "column": 16,
+        "column": 15,
         "fuel": 4,
         "activeDays": 2
       }
     },
     {
-      "time": 9.06,
+      "time": 5.27,
       "type": "jump-depart",
       "date": "2026-02-22",
       "value": 1,
       "data": {
-        "from": 16,
-        "to": 18,
+        "from": 15,
+        "to": 17,
         "fuel": 3
       }
     },
     {
-      "time": 9.57,
+      "time": 5.779999999999999,
       "type": "planet-flyby",
       "date": "2026-03-01",
       "value": 0,
+      "data": {
+        "column": 16,
+        "fuel": 3
+      }
+    },
+    {
+      "time": 6.289999999999999,
+      "type": "planet-arrive",
+      "date": "2026-03-08",
+      "value": 24,
       "data": {
         "column": 17,
         "fuel": 3
       }
     },
     {
-      "time": 10.08,
-      "type": "planet-arrive",
-      "date": "2026-03-08",
-      "value": 24,
-      "data": {
-        "column": 18,
-        "fuel": 3
-      }
-    },
-    {
-      "time": 10.08,
+      "time": 6.289999999999999,
       "type": "station-refuel",
       "date": "2026-03-08",
       "value": 24,
       "data": {
-        "column": 18,
+        "column": 17,
         "fuel": 27,
         "activeDays": 2
       }
     },
     {
-      "time": 10.93,
+      "time": 7.139999999999999,
       "type": "jump-depart",
       "date": "2026-03-08",
       "value": 1,
       "data": {
-        "from": 18,
-        "to": 21,
+        "from": 17,
+        "to": 20,
         "fuel": 26
       }
     },
     {
-      "time": 11.323333333333332,
+      "time": 7.533333333333332,
       "type": "planet-flyby",
       "date": "2026-03-15",
+      "value": 0,
+      "data": {
+        "column": 18,
+        "fuel": 26
+      }
+    },
+    {
+      "time": 7.926666666666666,
+      "type": "planet-flyby",
+      "date": "2026-03-22",
       "value": 0,
       "data": {
         "column": 19,
@@ -325,982 +173,1004 @@
       }
     },
     {
-      "time": 11.716666666666667,
-      "type": "planet-flyby",
-      "date": "2026-03-22",
-      "value": 0,
+      "time": 8.319999999999999,
+      "type": "planet-arrive",
+      "date": "2026-03-29",
+      "value": 1,
       "data": {
         "column": 20,
         "fuel": 26
       }
     },
     {
-      "time": 12.11,
-      "type": "planet-arrive",
-      "date": "2026-03-29",
-      "value": 1,
-      "data": {
-        "column": 21,
-        "fuel": 26
-      }
-    },
-    {
-      "time": 12.11,
+      "time": 8.319999999999999,
       "type": "station-refuel",
       "date": "2026-03-29",
       "value": 1,
       "data": {
-        "column": 21,
+        "column": 20,
         "fuel": 27,
         "activeDays": 1
       }
     },
     {
-      "time": 12.959999999999999,
+      "time": 9.169999999999998,
       "type": "jump-depart",
       "date": "2026-03-29",
       "value": 1,
       "data": {
-        "from": 21,
-        "to": 23,
+        "from": 20,
+        "to": 22,
         "fuel": 26
       }
     },
     {
-      "time": 13.469999999999999,
+      "time": 9.679999999999998,
       "type": "planet-flyby",
       "date": "2026-04-05",
       "value": 0,
+      "data": {
+        "column": 21,
+        "fuel": 26
+      }
+    },
+    {
+      "time": 10.189999999999998,
+      "type": "planet-arrive",
+      "date": "2026-04-12",
+      "value": 10,
       "data": {
         "column": 22,
         "fuel": 26
       }
     },
     {
-      "time": 13.979999999999999,
-      "type": "planet-arrive",
-      "date": "2026-04-12",
-      "value": 10,
-      "data": {
-        "column": 23,
-        "fuel": 26
-      }
-    },
-    {
-      "time": 13.979999999999999,
+      "time": 10.189999999999998,
       "type": "station-refuel",
       "date": "2026-04-12",
       "value": 10,
       "data": {
-        "column": 23,
+        "column": 22,
         "fuel": 36,
         "activeDays": 2
       }
     },
     {
-      "time": 14.829999999999998,
+      "time": 11.039999999999997,
       "type": "jump-depart",
       "date": "2026-04-12",
       "value": 1,
       "data": {
-        "from": 23,
-        "to": 24,
+        "from": 22,
+        "to": 23,
         "fuel": 35
       }
     },
     {
-      "time": 15.689999999999998,
+      "time": 11.899999999999997,
       "type": "planet-arrive",
       "date": "2026-04-19",
       "value": 31,
       "data": {
-        "column": 24,
+        "column": 23,
         "fuel": 35
       }
     },
     {
-      "time": 15.689999999999998,
+      "time": 11.899999999999997,
       "type": "station-refuel",
       "date": "2026-04-19",
       "value": 31,
       "data": {
-        "column": 24,
+        "column": 23,
         "fuel": 66,
         "activeDays": 5
       }
     },
     {
-      "time": 16.54,
+      "time": 12.749999999999996,
       "type": "jump-depart",
       "date": "2026-04-19",
       "value": 1,
       "data": {
-        "from": 24,
-        "to": 25,
+        "from": 23,
+        "to": 24,
         "fuel": 65
       }
     },
     {
-      "time": 17.4,
+      "time": 13.609999999999996,
       "type": "planet-arrive",
       "date": "2026-04-26",
       "value": 33,
       "data": {
-        "column": 25,
+        "column": 24,
         "fuel": 65
       }
     },
     {
-      "time": 17.4,
+      "time": 13.609999999999996,
       "type": "station-refuel",
       "date": "2026-04-26",
       "value": 33,
       "data": {
-        "column": 25,
+        "column": 24,
         "fuel": 98,
         "activeDays": 4
       }
     },
     {
-      "time": 18.25,
+      "time": 14.459999999999996,
       "type": "jump-depart",
       "date": "2026-04-26",
       "value": 1,
       "data": {
-        "from": 25,
-        "to": 26,
+        "from": 24,
+        "to": 25,
         "fuel": 97
       }
     },
     {
-      "time": 19.11,
+      "time": 15.319999999999995,
       "type": "planet-arrive",
       "date": "2026-05-03",
       "value": 40,
       "data": {
-        "column": 26,
+        "column": 25,
         "fuel": 97
       }
     },
     {
-      "time": 19.11,
+      "time": 15.319999999999995,
       "type": "station-refuel",
       "date": "2026-05-03",
       "value": 40,
       "data": {
-        "column": 26,
+        "column": 25,
         "fuel": 137,
         "activeDays": 3
       }
     },
     {
-      "time": 19.96,
+      "time": 16.169999999999995,
       "type": "jump-depart",
       "date": "2026-05-03",
       "value": 1,
       "data": {
-        "from": 26,
-        "to": 27,
+        "from": 25,
+        "to": 26,
         "fuel": 136
       }
     },
     {
-      "time": 20.82,
+      "time": 17.029999999999994,
       "type": "planet-arrive",
       "date": "2026-05-10",
       "value": 3,
       "data": {
-        "column": 27,
+        "column": 26,
         "fuel": 136
       }
     },
     {
-      "time": 20.82,
+      "time": 17.029999999999994,
       "type": "station-refuel",
       "date": "2026-05-10",
       "value": 3,
       "data": {
-        "column": 27,
+        "column": 26,
         "fuel": 139,
         "activeDays": 3
       }
     },
     {
-      "time": 21.67,
+      "time": 17.879999999999995,
       "type": "jump-depart",
       "date": "2026-05-10",
       "value": 1,
       "data": {
-        "from": 27,
-        "to": 28,
+        "from": 26,
+        "to": 27,
         "fuel": 138
       }
     },
     {
-      "time": 22.53,
+      "time": 18.739999999999995,
       "type": "planet-arrive",
       "date": "2026-05-17",
       "value": 10,
       "data": {
-        "column": 28,
+        "column": 27,
         "fuel": 138
       }
     },
     {
-      "time": 22.53,
+      "time": 18.739999999999995,
       "type": "station-refuel",
       "date": "2026-05-17",
       "value": 10,
       "data": {
-        "column": 28,
+        "column": 27,
         "fuel": 148,
         "activeDays": 4
       }
     },
     {
-      "time": 23.380000000000003,
+      "time": 19.589999999999996,
       "type": "jump-depart",
       "date": "2026-05-17",
       "value": 1,
       "data": {
-        "from": 28,
-        "to": 29,
+        "from": 27,
+        "to": 28,
         "fuel": 147
       }
     },
     {
-      "time": 24.240000000000002,
+      "time": 20.449999999999996,
       "type": "planet-arrive",
       "date": "2026-05-24",
       "value": 79,
       "data": {
-        "column": 29,
+        "column": 28,
         "fuel": 147
       }
     },
     {
-      "time": 24.240000000000002,
+      "time": 20.449999999999996,
       "type": "station-refuel",
       "date": "2026-05-24",
       "value": 79,
       "data": {
-        "column": 29,
+        "column": 28,
         "fuel": 226,
         "activeDays": 3
       }
     },
     {
-      "time": 25.090000000000003,
+      "time": 21.299999999999997,
       "type": "jump-depart",
       "date": "2026-05-24",
       "value": 1,
       "data": {
-        "from": 29,
-        "to": 30,
+        "from": 28,
+        "to": 29,
         "fuel": 225
       }
     },
     {
-      "time": 25.950000000000003,
+      "time": 22.159999999999997,
       "type": "planet-arrive",
       "date": "2026-05-31",
       "value": 3,
       "data": {
-        "column": 30,
+        "column": 29,
         "fuel": 225
       }
     },
     {
-      "time": 25.950000000000003,
+      "time": 22.159999999999997,
       "type": "station-refuel",
       "date": "2026-05-31",
       "value": 3,
       "data": {
-        "column": 30,
+        "column": 29,
         "fuel": 228,
         "activeDays": 1
       }
     },
     {
-      "time": 26.800000000000004,
+      "time": 23.009999999999998,
       "type": "jump-depart",
       "date": "2026-05-31",
       "value": 1,
       "data": {
-        "from": 30,
-        "to": 31,
+        "from": 29,
+        "to": 30,
         "fuel": 227
       }
     },
     {
-      "time": 27.660000000000004,
+      "time": 23.869999999999997,
       "type": "planet-arrive",
       "date": "2026-06-07",
       "value": 18,
       "data": {
-        "column": 31,
+        "column": 30,
         "fuel": 227
       }
     },
     {
-      "time": 27.660000000000004,
+      "time": 23.869999999999997,
       "type": "station-refuel",
       "date": "2026-06-07",
       "value": 18,
       "data": {
-        "column": 31,
+        "column": 30,
         "fuel": 245,
         "activeDays": 1
       }
     },
     {
-      "time": 28.510000000000005,
+      "time": 24.72,
       "type": "jump-depart",
       "date": "2026-06-07",
       "value": 1,
       "data": {
-        "from": 31,
-        "to": 32,
+        "from": 30,
+        "to": 31,
         "fuel": 244
       }
     },
     {
-      "time": 29.370000000000005,
+      "time": 25.58,
       "type": "planet-arrive",
       "date": "2026-06-14",
       "value": 28,
       "data": {
-        "column": 32,
+        "column": 31,
         "fuel": 244
       }
     },
     {
-      "time": 29.370000000000005,
+      "time": 25.58,
       "type": "station-refuel",
       "date": "2026-06-14",
       "value": 28,
       "data": {
-        "column": 32,
+        "column": 31,
         "fuel": 272,
         "activeDays": 4
       }
     },
     {
-      "time": 30.220000000000006,
+      "time": 26.43,
       "type": "jump-depart",
       "date": "2026-06-14",
       "value": 1,
       "data": {
-        "from": 32,
-        "to": 33,
+        "from": 31,
+        "to": 32,
         "fuel": 271
       }
     },
     {
-      "time": 31.080000000000005,
+      "time": 27.29,
       "type": "planet-arrive",
       "date": "2026-06-21",
       "value": 29,
       "data": {
-        "column": 33,
+        "column": 32,
         "fuel": 271
       }
     },
     {
-      "time": 31.080000000000005,
+      "time": 27.29,
       "type": "station-refuel",
       "date": "2026-06-21",
       "value": 29,
       "data": {
-        "column": 33,
+        "column": 32,
         "fuel": 300,
         "activeDays": 1
       }
     },
     {
-      "time": 31.930000000000007,
+      "time": 28.14,
       "type": "jump-depart",
       "date": "2026-06-21",
       "value": 1,
       "data": {
-        "from": 33,
-        "to": 35,
+        "from": 32,
+        "to": 34,
         "fuel": 299
       }
     },
     {
-      "time": 32.440000000000005,
+      "time": 28.650000000000002,
       "type": "planet-flyby",
       "date": "2026-06-28",
       "value": 0,
+      "data": {
+        "column": 33,
+        "fuel": 299
+      }
+    },
+    {
+      "time": 29.16,
+      "type": "planet-arrive",
+      "date": "2026-07-05",
+      "value": 25,
       "data": {
         "column": 34,
         "fuel": 299
       }
     },
     {
-      "time": 32.95000000000001,
-      "type": "planet-arrive",
-      "date": "2026-07-05",
-      "value": 23,
-      "data": {
-        "column": 35,
-        "fuel": 299
-      }
-    },
-    {
-      "time": 32.95000000000001,
+      "time": 29.16,
       "type": "station-refuel",
       "date": "2026-07-05",
-      "value": 23,
+      "value": 25,
       "data": {
-        "column": 35,
-        "fuel": 322,
+        "column": 34,
+        "fuel": 324,
         "activeDays": 4
       }
     },
     {
-      "time": 33.80000000000001,
+      "time": 30.01,
       "type": "jump-depart",
       "date": "2026-07-05",
       "value": 1,
       "data": {
-        "from": 35,
-        "to": 36,
-        "fuel": 321
+        "from": 34,
+        "to": 35,
+        "fuel": 323
       }
     },
     {
-      "time": 34.66000000000001,
+      "time": 30.87,
       "type": "planet-arrive",
       "date": "2026-07-12",
       "value": 1083,
       "data": {
-        "column": 36,
-        "fuel": 321
+        "column": 35,
+        "fuel": 323
       }
     },
     {
-      "time": 34.66000000000001,
+      "time": 30.87,
       "type": "station-refuel",
       "date": "2026-07-12",
       "value": 1083,
       "data": {
-        "column": 36,
-        "fuel": 1404,
+        "column": 35,
+        "fuel": 1406,
         "activeDays": 6
       }
     },
     {
-      "time": 35.51000000000001,
+      "time": 31.720000000000002,
       "type": "jump-depart",
       "date": "2026-07-12",
       "value": 1,
       "data": {
-        "from": 36,
-        "to": 37,
-        "fuel": 1403
+        "from": 35,
+        "to": 36,
+        "fuel": 1405
       }
     },
     {
-      "time": 36.37000000000001,
+      "time": 32.580000000000005,
       "type": "planet-arrive",
       "date": "2026-07-19",
       "value": 444,
       "data": {
-        "column": 37,
-        "fuel": 1403
+        "column": 36,
+        "fuel": 1405
       }
     },
     {
-      "time": 36.37000000000001,
+      "time": 32.580000000000005,
       "type": "station-refuel",
       "date": "2026-07-19",
       "value": 444,
       "data": {
-        "column": 37,
-        "fuel": 1847,
+        "column": 36,
+        "fuel": 1849,
         "activeDays": 7
       }
     },
     {
-      "time": 37.22000000000001,
+      "time": 33.43000000000001,
       "type": "jump-depart",
       "date": "2026-07-19",
+      "value": 1,
+      "data": {
+        "from": 36,
+        "to": 37,
+        "fuel": 1848
+      }
+    },
+    {
+      "time": 34.290000000000006,
+      "type": "planet-arrive",
+      "date": "2026-07-26",
+      "value": 1049,
+      "data": {
+        "column": 37,
+        "fuel": 1848
+      }
+    },
+    {
+      "time": 34.290000000000006,
+      "type": "station-refuel",
+      "date": "2026-07-26",
+      "value": 1049,
+      "data": {
+        "column": 37,
+        "fuel": 2897,
+        "activeDays": 7
+      }
+    },
+    {
+      "time": 35.14000000000001,
+      "type": "jump-depart",
+      "date": "2026-07-26",
       "value": 1,
       "data": {
         "from": 37,
         "to": 38,
-        "fuel": 1846
+        "fuel": 2896
       }
     },
     {
-      "time": 38.08000000000001,
+      "time": 36.00000000000001,
       "type": "planet-arrive",
-      "date": "2026-07-26",
-      "value": 1049,
+      "date": "2026-08-02",
+      "value": 565,
       "data": {
         "column": 38,
-        "fuel": 1846
+        "fuel": 2896
       }
     },
     {
-      "time": 38.08000000000001,
+      "time": 36.00000000000001,
       "type": "station-refuel",
-      "date": "2026-07-26",
-      "value": 1049,
+      "date": "2026-08-02",
+      "value": 565,
       "data": {
         "column": 38,
-        "fuel": 2895,
+        "fuel": 3461,
         "activeDays": 7
       }
     },
     {
-      "time": 38.930000000000014,
+      "time": 36.85000000000001,
       "type": "jump-depart",
-      "date": "2026-07-26",
+      "date": "2026-08-02",
       "value": 1,
       "data": {
         "from": 38,
         "to": 39,
-        "fuel": 2894
+        "fuel": 3460
       }
     },
     {
-      "time": 39.79000000000001,
+      "time": 37.71000000000001,
       "type": "planet-arrive",
-      "date": "2026-08-02",
-      "value": 565,
+      "date": "2026-08-09",
+      "value": 1611,
       "data": {
         "column": 39,
-        "fuel": 2894
+        "fuel": 3460
       }
     },
     {
-      "time": 39.79000000000001,
+      "time": 37.71000000000001,
       "type": "station-refuel",
-      "date": "2026-08-02",
-      "value": 565,
+      "date": "2026-08-09",
+      "value": 1611,
       "data": {
         "column": 39,
-        "fuel": 3459,
+        "fuel": 5071,
         "activeDays": 7
       }
     },
     {
-      "time": 40.640000000000015,
+      "time": 38.56000000000001,
       "type": "jump-depart",
-      "date": "2026-08-02",
+      "date": "2026-08-09",
       "value": 1,
       "data": {
         "from": 39,
         "to": 40,
-        "fuel": 3458
+        "fuel": 5070
       }
     },
     {
-      "time": 41.500000000000014,
+      "time": 39.42000000000001,
       "type": "planet-arrive",
-      "date": "2026-08-09",
-      "value": 1611,
+      "date": "2026-08-16",
+      "value": 1866,
       "data": {
         "column": 40,
-        "fuel": 3458
+        "fuel": 5070
       }
     },
     {
-      "time": 41.500000000000014,
+      "time": 39.42000000000001,
       "type": "station-refuel",
-      "date": "2026-08-09",
-      "value": 1611,
+      "date": "2026-08-16",
+      "value": 1866,
       "data": {
         "column": 40,
-        "fuel": 5069,
+        "fuel": 6936,
         "activeDays": 7
       }
     },
     {
-      "time": 42.350000000000016,
+      "time": 40.27000000000001,
       "type": "jump-depart",
-      "date": "2026-08-09",
+      "date": "2026-08-16",
       "value": 1,
       "data": {
         "from": 40,
         "to": 41,
-        "fuel": 5068
+        "fuel": 6935
       }
     },
     {
-      "time": 43.210000000000015,
+      "time": 41.13000000000001,
       "type": "planet-arrive",
-      "date": "2026-08-16",
-      "value": 1866,
+      "date": "2026-08-23",
+      "value": 564,
       "data": {
         "column": 41,
-        "fuel": 5068
+        "fuel": 6935
       }
     },
     {
-      "time": 43.210000000000015,
+      "time": 41.13000000000001,
       "type": "station-refuel",
-      "date": "2026-08-16",
-      "value": 1866,
+      "date": "2026-08-23",
+      "value": 564,
       "data": {
         "column": 41,
-        "fuel": 6934,
+        "fuel": 7499,
         "activeDays": 7
       }
     },
     {
-      "time": 44.06000000000002,
+      "time": 41.98000000000001,
       "type": "jump-depart",
-      "date": "2026-08-16",
+      "date": "2026-08-23",
       "value": 1,
       "data": {
         "from": 41,
         "to": 42,
-        "fuel": 6933
+        "fuel": 7498
       }
     },
     {
-      "time": 44.920000000000016,
+      "time": 42.84000000000001,
       "type": "planet-arrive",
-      "date": "2026-08-23",
-      "value": 564,
+      "date": "2026-08-30",
+      "value": 447,
       "data": {
         "column": 42,
-        "fuel": 6933
+        "fuel": 7498
       }
     },
     {
-      "time": 44.920000000000016,
+      "time": 42.84000000000001,
       "type": "station-refuel",
-      "date": "2026-08-23",
-      "value": 564,
+      "date": "2026-08-30",
+      "value": 447,
       "data": {
         "column": 42,
-        "fuel": 7497,
+        "fuel": 7945,
         "activeDays": 7
       }
     },
     {
-      "time": 45.77000000000002,
+      "time": 43.69000000000001,
       "type": "jump-depart",
-      "date": "2026-08-23",
+      "date": "2026-08-30",
       "value": 1,
       "data": {
         "from": 42,
         "to": 43,
-        "fuel": 7496
+        "fuel": 7944
       }
     },
     {
-      "time": 46.63000000000002,
+      "time": 44.55000000000001,
       "type": "planet-arrive",
-      "date": "2026-08-30",
-      "value": 447,
+      "date": "2026-09-06",
+      "value": 890,
       "data": {
         "column": 43,
-        "fuel": 7496
+        "fuel": 7944
       }
     },
     {
-      "time": 46.63000000000002,
+      "time": 44.55000000000001,
       "type": "station-refuel",
-      "date": "2026-08-30",
-      "value": 447,
+      "date": "2026-09-06",
+      "value": 890,
       "data": {
         "column": 43,
-        "fuel": 7943,
+        "fuel": 8834,
         "activeDays": 7
       }
     },
     {
-      "time": 47.48000000000002,
+      "time": 45.40000000000001,
       "type": "jump-depart",
-      "date": "2026-08-30",
+      "date": "2026-09-06",
       "value": 1,
       "data": {
         "from": 43,
         "to": 44,
-        "fuel": 7942
+        "fuel": 8833
       }
     },
     {
-      "time": 48.34000000000002,
+      "time": 46.26000000000001,
       "type": "planet-arrive",
-      "date": "2026-09-06",
-      "value": 890,
+      "date": "2026-09-13",
+      "value": 754,
       "data": {
         "column": 44,
-        "fuel": 7942
+        "fuel": 8833
       }
     },
     {
-      "time": 48.34000000000002,
+      "time": 46.26000000000001,
       "type": "station-refuel",
-      "date": "2026-09-06",
-      "value": 890,
+      "date": "2026-09-13",
+      "value": 754,
       "data": {
         "column": 44,
-        "fuel": 8832,
+        "fuel": 9587,
         "activeDays": 7
       }
     },
     {
-      "time": 49.19000000000002,
+      "time": 47.110000000000014,
       "type": "jump-depart",
-      "date": "2026-09-06",
+      "date": "2026-09-13",
       "value": 1,
       "data": {
         "from": 44,
         "to": 45,
-        "fuel": 8831
+        "fuel": 9586
       }
     },
     {
-      "time": 50.05000000000002,
+      "time": 47.97000000000001,
       "type": "planet-arrive",
-      "date": "2026-09-13",
-      "value": 754,
+      "date": "2026-09-20",
+      "value": 1184,
       "data": {
         "column": 45,
-        "fuel": 8831
+        "fuel": 9586
       }
     },
     {
-      "time": 50.05000000000002,
+      "time": 47.97000000000001,
       "type": "station-refuel",
-      "date": "2026-09-13",
-      "value": 754,
+      "date": "2026-09-20",
+      "value": 1184,
       "data": {
         "column": 45,
-        "fuel": 9585,
+        "fuel": 10770,
         "activeDays": 7
       }
     },
     {
-      "time": 50.90000000000002,
+      "time": 48.820000000000014,
       "type": "jump-depart",
-      "date": "2026-09-13",
+      "date": "2026-09-20",
       "value": 1,
       "data": {
         "from": 45,
         "to": 46,
-        "fuel": 9584
+        "fuel": 10769
       }
     },
     {
-      "time": 51.76000000000002,
+      "time": 49.680000000000014,
       "type": "planet-arrive",
-      "date": "2026-09-20",
-      "value": 1184,
+      "date": "2026-09-27",
+      "value": 657,
       "data": {
         "column": 46,
-        "fuel": 9584
+        "fuel": 10769
       }
     },
     {
-      "time": 51.76000000000002,
+      "time": 49.680000000000014,
       "type": "station-refuel",
-      "date": "2026-09-20",
-      "value": 1184,
+      "date": "2026-09-27",
+      "value": 657,
       "data": {
         "column": 46,
-        "fuel": 10768,
+        "fuel": 11426,
         "activeDays": 7
       }
     },
     {
-      "time": 52.61000000000002,
+      "time": 50.530000000000015,
       "type": "jump-depart",
-      "date": "2026-09-20",
+      "date": "2026-09-27",
       "value": 1,
       "data": {
         "from": 46,
         "to": 47,
-        "fuel": 10767
+        "fuel": 11425
       }
     },
     {
-      "time": 53.47000000000002,
+      "time": 51.390000000000015,
       "type": "planet-arrive",
-      "date": "2026-09-27",
-      "value": 657,
+      "date": "2026-10-04",
+      "value": 1686,
       "data": {
         "column": 47,
-        "fuel": 10767
+        "fuel": 11425
       }
     },
     {
-      "time": 53.47000000000002,
+      "time": 51.390000000000015,
       "type": "station-refuel",
-      "date": "2026-09-27",
-      "value": 657,
+      "date": "2026-10-04",
+      "value": 1686,
       "data": {
         "column": 47,
-        "fuel": 11424,
+        "fuel": 13111,
         "activeDays": 7
       }
     },
     {
-      "time": 54.32000000000002,
+      "time": 52.240000000000016,
       "type": "jump-depart",
-      "date": "2026-09-27",
+      "date": "2026-10-04",
       "value": 1,
       "data": {
         "from": 47,
         "to": 48,
-        "fuel": 11423
+        "fuel": 13110
       }
     },
     {
-      "time": 55.18000000000002,
+      "time": 53.100000000000016,
       "type": "planet-arrive",
-      "date": "2026-10-04",
-      "value": 1686,
+      "date": "2026-10-11",
+      "value": 1630,
       "data": {
         "column": 48,
-        "fuel": 11423
+        "fuel": 13110
       }
     },
     {
-      "time": 55.18000000000002,
+      "time": 53.100000000000016,
       "type": "station-refuel",
-      "date": "2026-10-04",
-      "value": 1686,
+      "date": "2026-10-11",
+      "value": 1630,
       "data": {
         "column": 48,
-        "fuel": 13109,
+        "fuel": 14740,
         "activeDays": 7
       }
     },
     {
-      "time": 56.03000000000002,
+      "time": 53.95000000000002,
       "type": "jump-depart",
-      "date": "2026-10-04",
+      "date": "2026-10-11",
       "value": 1,
       "data": {
         "from": 48,
         "to": 49,
-        "fuel": 13108
+        "fuel": 14739
       }
     },
     {
-      "time": 56.89000000000002,
+      "time": 54.81000000000002,
       "type": "planet-arrive",
-      "date": "2026-10-11",
-      "value": 1630,
+      "date": "2026-10-18",
+      "value": 1581,
       "data": {
         "column": 49,
-        "fuel": 13108
+        "fuel": 14739
       }
     },
     {
-      "time": 56.89000000000002,
+      "time": 54.81000000000002,
       "type": "station-refuel",
-      "date": "2026-10-11",
-      "value": 1630,
+      "date": "2026-10-18",
+      "value": 1581,
       "data": {
         "column": 49,
-        "fuel": 14738,
+        "fuel": 16320,
         "activeDays": 7
       }
     },
     {
-      "time": 57.74000000000002,
+      "time": 55.66000000000002,
       "type": "jump-depart",
-      "date": "2026-10-11",
+      "date": "2026-10-18",
       "value": 1,
       "data": {
         "from": 49,
         "to": 50,
-        "fuel": 14737
+        "fuel": 16319
       }
     },
     {
-      "time": 58.60000000000002,
+      "time": 56.52000000000002,
       "type": "planet-arrive",
-      "date": "2026-10-18",
-      "value": 1581,
+      "date": "2026-10-25",
+      "value": 2335,
       "data": {
         "column": 50,
-        "fuel": 14737
+        "fuel": 16319
       }
     },
     {
-      "time": 58.60000000000002,
+      "time": 56.52000000000002,
       "type": "station-refuel",
-      "date": "2026-10-18",
-      "value": 1581,
+      "date": "2026-10-25",
+      "value": 2335,
       "data": {
         "column": 50,
-        "fuel": 16318,
+        "fuel": 18654,
         "activeDays": 7
       }
     },
     {
-      "time": 59.450000000000024,
+      "time": 57.37000000000002,
       "type": "jump-depart",
-      "date": "2026-10-18",
+      "date": "2026-10-25",
       "value": 1,
       "data": {
         "from": 50,
         "to": 51,
-        "fuel": 16317
+        "fuel": 18653
       }
     },
     {
-      "time": 60.310000000000024,
+      "time": 58.23000000000002,
       "type": "planet-arrive",
-      "date": "2026-10-25",
-      "value": 2323,
+      "date": "2026-11-01",
+      "value": 2793,
       "data": {
         "column": 51,
-        "fuel": 16317
+        "fuel": 18653
       }
     },
     {
-      "time": 60.310000000000024,
+      "time": 58.23000000000002,
       "type": "station-refuel",
-      "date": "2026-10-25",
-      "value": 2323,
+      "date": "2026-11-01",
+      "value": 2793,
       "data": {
         "column": 51,
-        "fuel": 18640,
+        "fuel": 21446,
         "activeDays": 7
       }
     },
     {
-      "time": 61.160000000000025,
+      "time": 59.08000000000002,
       "type": "jump-depart",
-      "date": "2026-10-25",
+      "date": "2026-11-01",
       "value": 1,
       "data": {
         "from": 51,
         "to": 52,
-        "fuel": 18639
+        "fuel": 21445
       }
     },
     {
-      "time": 62.020000000000024,
+      "time": 59.94000000000002,
       "type": "planet-arrive",
-      "date": "2026-11-01",
-      "value": 2385,
+      "date": "2026-11-08",
+      "value": 136,
       "data": {
         "column": 52,
-        "fuel": 18639
+        "fuel": 21445
       }
     },
     {
-      "time": 62.020000000000024,
+      "time": 59.94000000000002,
       "type": "station-refuel",
-      "date": "2026-11-01",
-      "value": 2385,
+      "date": "2026-11-08",
+      "value": 136,
       "data": {
         "column": 52,
-        "fuel": 21024,
-        "activeDays": 7
+        "fuel": 21581,
+        "activeDays": 1
       }
     }
   ]
