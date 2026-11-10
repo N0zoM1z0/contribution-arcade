@@ -1,17 +1,17 @@
 {
   "username": "N0zoM1z0",
   "id": "train",
-  "duration": 39.48499999999999,
+  "duration": 39.519999999999996,
   "metrics": {
     "weeks": 53,
     "stops": 35,
-    "contributions": 22148,
+    "contributions": 22670,
     "seasonChanges": 5
   },
   "checkpoints": [
     1.2,
     13.989999999999998,
-    36.48499999999999
+    36.519999999999996
   ],
   "events": [
     {
@@ -768,7 +768,7 @@
       "time": 19.844999999999995,
       "type": "station-stop",
       "date": "2026-07-05",
-      "value": 25,
+      "value": 24,
       "data": {
         "column": 34,
         "activeDays": 4,
@@ -1155,12 +1155,12 @@
       "time": 36.714999999999996,
       "type": "station-stop",
       "date": "2026-11-08",
-      "value": 669,
+      "value": 1192,
       "data": {
         "column": 52,
-        "activeDays": 2,
+        "activeDays": 3,
         "arrive": 36.714999999999996,
-        "depart": 37.12499999999999
+        "depart": 37.16
       }
     }
   ]

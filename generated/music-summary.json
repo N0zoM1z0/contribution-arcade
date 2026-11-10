@@ -4,7 +4,7 @@
   "duration": 35.04,
   "metrics": {
     "beats": 53,
-    "notes": 163,
+    "notes": 164,
     "rests": 18,
     "audio": "silent visual score"
   },
@@ -495,13 +495,13 @@
     {
       "time": 21.52,
       "type": "beat",
-      "value": 25,
+      "value": 24,
       "data": {
         "pitch": 4,
         "notes": [
           {
             "date": "2026-07-08",
-            "count": 4
+            "count": 3
           },
           {
             "date": "2026-07-09",
@@ -1163,7 +1163,7 @@
     {
       "time": 31.959999999999997,
       "type": "beat",
-      "value": 669,
+      "value": 1192,
       "data": {
         "pitch": 7,
         "notes": [
@@ -1173,7 +1173,11 @@
           },
           {
             "date": "2026-11-09",
-            "count": 146
+            "count": 587
+          },
+          {
+            "date": "2026-11-10",
+            "count": 82
           }
         ]
       }
