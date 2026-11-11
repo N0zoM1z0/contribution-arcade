@@ -357,7 +357,7 @@
     {
       "time": 26.28,
       "type": "cloudy",
-      "value": 24,
+      "value": 23,
       "data": {
         "column": 34,
         "record": false,
@@ -537,11 +537,11 @@
     {
       "time": 39.239999999999995,
       "type": "sunny",
-      "value": 1192,
+      "value": 1864,
       "data": {
         "column": 52,
         "record": false,
-        "streak": 121
+        "streak": 122
       }
     }
   ]

@@ -1,18 +1,18 @@
 {
   "username": "N0zoM1z0",
   "id": "match3",
-  "duration": 8.66,
+  "duration": 10.21,
   "metrics": {
-    "swaps": 2,
-    "matchedDates": 129,
-    "contributions": 15393,
+    "swaps": 3,
+    "matchedDates": 132,
+    "contributions": 16952,
     "cascades": 2,
     "reserve": 0
   },
   "checkpoints": [
     1.25,
     2.42,
-    7.16
+    8.71
   ],
   "events": [
     {
@@ -799,7 +799,7 @@
       "time": 1.6,
       "type": "gem-match",
       "date": "2026-07-08",
-      "value": 3,
+      "value": 2,
       "data": {
         "depth": 0,
         "column": 34,
@@ -2213,8 +2213,77 @@
     },
     {
       "time": 7.160000000000001,
+      "type": "swap",
+      "value": 1560,
+      "data": {
+        "a": {
+          "x": 52,
+          "y": 2
+        },
+        "b": {
+          "x": 52,
+          "y": 3
+        },
+        "dates": [
+          "2026-11-10",
+          "2026-11-11"
+        ],
+        "matchSize": 3
+      }
+    },
+    {
+      "time": 7.610000000000001,
+      "type": "gem-match",
+      "date": "2026-11-08",
+      "value": 524,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 0,
+        "originalColumn": 52,
+        "originalRow": 0
+      }
+    },
+    {
+      "time": 7.610000000000001,
+      "type": "gem-match",
+      "date": "2026-11-09",
+      "value": 586,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 1,
+        "originalColumn": 52,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 7.610000000000001,
+      "type": "gem-match",
+      "date": "2026-11-11",
+      "value": 450,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 2,
+        "originalColumn": 52,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 8.21,
+      "type": "gravity",
+      "value": 0,
+      "data": {
+        "depth": 0,
+        "falls": [],
+        "refilledDates": []
+      }
+    },
+    {
+      "time": 8.71,
       "type": "no-moves",
-      "value": 15393
+      "value": 16952
     }
   ]
 }
