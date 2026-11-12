@@ -4,7 +4,7 @@
   "duration": 30,
   "metrics": {
     "buildings": 35,
-    "contributions": 23341,
+    "contributions": 23704,
     "tallest": 162.614,
     "peakWeek": 2793,
     "floors": 324
@@ -1051,10 +1051,10 @@
       "time": 26.2,
       "type": "foundation",
       "date": "2026-11-08",
-      "value": 1864,
+      "value": 2227,
       "data": {
         "column": 52,
-        "height": 156.64589743033727
+        "height": 159.51700543260296
       }
     },
     {
@@ -1072,7 +1072,7 @@
       "time": 26.599999999999998,
       "type": "frame",
       "date": "2026-11-08",
-      "value": 1864,
+      "value": 2227,
       "data": {
         "column": 52,
         "floors": 16
@@ -1093,10 +1093,10 @@
       "time": 27.45,
       "type": "building-complete",
       "date": "2026-11-08",
-      "value": 1864,
+      "value": 2227,
       "data": {
         "column": 52,
-        "height": 156.64589743033727,
+        "height": 159.51700543260296,
         "floors": 16
       }
     }
