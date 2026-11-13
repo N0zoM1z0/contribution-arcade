@@ -4,8 +4,8 @@
   "duration": 7,
   "metrics": {
     "swaps": 0,
-    "matchedDates": 142,
-    "contributions": 17791,
+    "matchedDates": 143,
+    "contributions": 18371,
     "cascades": 1,
     "reserve": 0
   },
@@ -1422,6 +1422,19 @@
     {
       "time": 1.6,
       "type": "gem-match",
+      "date": "2026-11-12",
+      "value": 580,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 4,
+        "originalColumn": 52,
+        "originalRow": 4
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
       "date": "2026-08-14",
       "value": 134,
       "data": {
@@ -1513,10 +1526,22 @@
     {
       "time": 2.2,
       "type": "gravity",
-      "value": 31,
+      "value": 35,
       "data": {
         "depth": 0,
         "falls": [
+          {
+            "date": "2026-11-08",
+            "column": 52,
+            "fromRow": 0,
+            "row": 1
+          },
+          {
+            "date": "2026-11-09",
+            "column": 52,
+            "fromRow": 1,
+            "row": 2
+          },
           {
             "date": "2026-05-17",
             "column": 27,
@@ -1527,6 +1552,12 @@
             "date": "2026-09-20",
             "column": 45,
             "fromRow": 0,
+            "row": 3
+          },
+          {
+            "date": "2026-11-10",
+            "column": 52,
+            "fromRow": 2,
             "row": 3
           },
           {
@@ -1557,6 +1588,12 @@
             "date": "2026-11-01",
             "column": 51,
             "fromRow": 0,
+            "row": 4
+          },
+          {
+            "date": "2026-11-11",
+            "column": 52,
+            "fromRow": 3,
             "row": 4
           },
           {
@@ -2104,7 +2141,7 @@
     {
       "time": 3.2399999999999998,
       "type": "no-moves",
-      "value": 17791
+      "value": 18371
     }
   ]
 }
