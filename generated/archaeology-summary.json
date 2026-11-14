@@ -1,18 +1,18 @@
 {
   "username": "N0zoM1z0",
   "id": "archaeology",
-  "duration": 45.7,
+  "duration": 45.95,
   "metrics": {
-    "excavations": 167,
-    "ore": 24413,
+    "excavations": 168,
+    "ore": 24679,
     "treasure": 1,
-    "treasureStreak": 124,
+    "treasureStreak": 125,
     "ordering": "count-ascending"
   },
   "checkpoints": [
     1.8,
-    21.87,
-    42.6575
+    22.12,
+    42.9075
   ],
   "events": [
     {
@@ -2065,6 +2065,29 @@
     {
       "time": 23.25,
       "type": "shaft-enter",
+      "date": "2026-11-14",
+      "data": {
+        "column": 52,
+        "row": 6,
+        "x": 1062.3396226415093,
+        "y": 235.25
+      }
+    },
+    {
+      "time": 23.37,
+      "type": "ore-excavate",
+      "date": "2026-11-14",
+      "value": 113,
+      "data": {
+        "tier": "diamond",
+        "x": 1062.3396226415093,
+        "y": 235.25,
+        "removed": true
+      }
+    },
+    {
+      "time": 23.5,
+      "type": "shaft-enter",
       "date": "2026-08-06",
       "data": {
         "column": 38,
@@ -2074,7 +2097,7 @@
       }
     },
     {
-      "time": 23.37,
+      "time": 23.62,
       "type": "ore-excavate",
       "date": "2026-08-06",
       "value": 114,
@@ -2086,7 +2109,7 @@
       }
     },
     {
-      "time": 23.5,
+      "time": 23.75,
       "type": "shaft-enter",
       "date": "2026-11-01",
       "data": {
@@ -2097,7 +2120,7 @@
       }
     },
     {
-      "time": 23.62,
+      "time": 23.87,
       "type": "ore-excavate",
       "date": "2026-11-01",
       "value": 114,
@@ -2109,7 +2132,7 @@
       }
     },
     {
-      "time": 23.75,
+      "time": 24,
       "type": "shaft-enter",
       "date": "2026-08-30",
       "data": {
@@ -2120,7 +2143,7 @@
       }
     },
     {
-      "time": 23.87,
+      "time": 24.12,
       "type": "ore-excavate",
       "date": "2026-08-30",
       "value": 115,
@@ -2132,7 +2155,7 @@
       }
     },
     {
-      "time": 24,
+      "time": 24.25,
       "type": "shaft-enter",
       "date": "2026-09-14",
       "data": {
@@ -2143,7 +2166,7 @@
       }
     },
     {
-      "time": 24.12,
+      "time": 24.37,
       "type": "ore-excavate",
       "date": "2026-09-14",
       "value": 119,
@@ -2155,7 +2178,7 @@
       }
     },
     {
-      "time": 24.25,
+      "time": 24.5,
       "type": "shaft-enter",
       "date": "2026-08-26",
       "data": {
@@ -2166,7 +2189,7 @@
       }
     },
     {
-      "time": 24.37,
+      "time": 24.62,
       "type": "ore-excavate",
       "date": "2026-08-26",
       "value": 120,
@@ -2178,7 +2201,7 @@
       }
     },
     {
-      "time": 24.5,
+      "time": 24.75,
       "type": "shaft-enter",
       "date": "2026-07-29",
       "data": {
@@ -2189,7 +2212,7 @@
       }
     },
     {
-      "time": 24.62,
+      "time": 24.87,
       "type": "ore-excavate",
       "date": "2026-07-29",
       "value": 121,
@@ -2201,7 +2224,7 @@
       }
     },
     {
-      "time": 24.75,
+      "time": 25,
       "type": "shaft-enter",
       "date": "2026-10-27",
       "data": {
@@ -2212,7 +2235,7 @@
       }
     },
     {
-      "time": 24.87,
+      "time": 25.12,
       "type": "ore-excavate",
       "date": "2026-10-27",
       "value": 129,
@@ -2224,7 +2247,7 @@
       }
     },
     {
-      "time": 25,
+      "time": 25.25,
       "type": "shaft-enter",
       "date": "2026-07-30",
       "data": {
@@ -2235,7 +2258,7 @@
       }
     },
     {
-      "time": 25.12,
+      "time": 25.37,
       "type": "ore-excavate",
       "date": "2026-07-30",
       "value": 132,
@@ -2247,7 +2270,7 @@
       }
     },
     {
-      "time": 25.25,
+      "time": 25.5,
       "type": "shaft-enter",
       "date": "2026-08-14",
       "data": {
@@ -2258,7 +2281,7 @@
       }
     },
     {
-      "time": 25.37,
+      "time": 25.62,
       "type": "ore-excavate",
       "date": "2026-08-14",
       "value": 134,
@@ -2270,7 +2293,7 @@
       }
     },
     {
-      "time": 25.5,
+      "time": 25.75,
       "type": "shaft-enter",
       "date": "2026-09-01",
       "data": {
@@ -2281,7 +2304,7 @@
       }
     },
     {
-      "time": 25.62,
+      "time": 25.87,
       "type": "ore-excavate",
       "date": "2026-09-01",
       "value": 135,
@@ -2293,7 +2316,7 @@
       }
     },
     {
-      "time": 25.75,
+      "time": 26,
       "type": "shaft-enter",
       "date": "2026-08-27",
       "data": {
@@ -2304,7 +2327,7 @@
       }
     },
     {
-      "time": 25.87,
+      "time": 26.12,
       "type": "ore-excavate",
       "date": "2026-08-27",
       "value": 136,
@@ -2316,7 +2339,7 @@
       }
     },
     {
-      "time": 26,
+      "time": 26.25,
       "type": "shaft-enter",
       "date": "2026-09-11",
       "data": {
@@ -2327,7 +2350,7 @@
       }
     },
     {
-      "time": 26.12,
+      "time": 26.37,
       "type": "ore-excavate",
       "date": "2026-09-11",
       "value": 136,
@@ -2339,7 +2362,7 @@
       }
     },
     {
-      "time": 26.25,
+      "time": 26.5,
       "type": "shaft-enter",
       "date": "2026-10-19",
       "data": {
@@ -2350,7 +2373,7 @@
       }
     },
     {
-      "time": 26.37,
+      "time": 26.62,
       "type": "ore-excavate",
       "date": "2026-10-19",
       "value": 136,
@@ -2358,29 +2381,6 @@
         "tier": "diamond",
         "x": 1004.377358490566,
         "y": 140.25,
-        "removed": true
-      }
-    },
-    {
-      "time": 26.5,
-      "type": "shaft-enter",
-      "date": "2026-11-13",
-      "data": {
-        "column": 52,
-        "row": 5,
-        "x": 1062.3396226415093,
-        "y": 216.25
-      }
-    },
-    {
-      "time": 26.62,
-      "type": "ore-excavate",
-      "date": "2026-11-13",
-      "value": 136,
-      "data": {
-        "tier": "diamond",
-        "x": 1062.3396226415093,
-        "y": 216.25,
         "removed": true
       }
     },
@@ -3238,6 +3238,29 @@
     {
       "time": 36,
       "type": "shaft-enter",
+      "date": "2026-11-13",
+      "data": {
+        "column": 52,
+        "row": 5,
+        "x": 1062.3396226415093,
+        "y": 216.25
+      }
+    },
+    {
+      "time": 36.12,
+      "type": "ore-excavate",
+      "date": "2026-11-13",
+      "value": 289,
+      "data": {
+        "tier": "diamond",
+        "x": 1062.3396226415093,
+        "y": 216.25,
+        "removed": true
+      }
+    },
+    {
+      "time": 36.25,
+      "type": "shaft-enter",
       "date": "2026-10-10",
       "data": {
         "column": 47,
@@ -3247,7 +3270,7 @@
       }
     },
     {
-      "time": 36.12,
+      "time": 36.37,
       "type": "ore-excavate",
       "date": "2026-10-10",
       "value": 294,
@@ -3259,7 +3282,7 @@
       }
     },
     {
-      "time": 36.25,
+      "time": 36.5,
       "type": "shaft-enter",
       "date": "2026-10-22",
       "data": {
@@ -3270,7 +3293,7 @@
       }
     },
     {
-      "time": 36.37,
+      "time": 36.62,
       "type": "ore-excavate",
       "date": "2026-10-22",
       "value": 294,
@@ -3282,7 +3305,7 @@
       }
     },
     {
-      "time": 36.5,
+      "time": 36.75,
       "type": "shaft-enter",
       "date": "2026-07-15",
       "data": {
@@ -3293,7 +3316,7 @@
       }
     },
     {
-      "time": 36.62,
+      "time": 36.87,
       "type": "ore-excavate",
       "date": "2026-07-15",
       "value": 295,
@@ -3305,7 +3328,7 @@
       }
     },
     {
-      "time": 36.75,
+      "time": 37,
       "type": "shaft-enter",
       "date": "2026-11-10",
       "data": {
@@ -3316,7 +3339,7 @@
       }
     },
     {
-      "time": 36.87,
+      "time": 37.12,
       "type": "ore-excavate",
       "date": "2026-11-10",
       "value": 304,
@@ -3328,7 +3351,7 @@
       }
     },
     {
-      "time": 37,
+      "time": 37.25,
       "type": "shaft-enter",
       "date": "2026-10-17",
       "data": {
@@ -3339,7 +3362,7 @@
       }
     },
     {
-      "time": 37.12,
+      "time": 37.37,
       "type": "ore-excavate",
       "date": "2026-10-17",
       "value": 305,
@@ -3351,7 +3374,7 @@
       }
     },
     {
-      "time": 37.25,
+      "time": 37.5,
       "type": "shaft-enter",
       "date": "2026-08-16",
       "data": {
@@ -3362,7 +3385,7 @@
       }
     },
     {
-      "time": 37.37,
+      "time": 37.62,
       "type": "ore-excavate",
       "date": "2026-08-16",
       "value": 306,
@@ -3374,7 +3397,7 @@
       }
     },
     {
-      "time": 37.5,
+      "time": 37.75,
       "type": "shaft-enter",
       "date": "2026-08-19",
       "data": {
@@ -3385,7 +3408,7 @@
       }
     },
     {
-      "time": 37.62,
+      "time": 37.87,
       "type": "ore-excavate",
       "date": "2026-08-19",
       "value": 307,
@@ -3397,7 +3420,7 @@
       }
     },
     {
-      "time": 37.75,
+      "time": 38,
       "type": "shaft-enter",
       "date": "2026-11-02",
       "data": {
@@ -3408,7 +3431,7 @@
       }
     },
     {
-      "time": 37.87,
+      "time": 38.12,
       "type": "ore-excavate",
       "date": "2026-11-02",
       "value": 308,
@@ -3420,7 +3443,7 @@
       }
     },
     {
-      "time": 38,
+      "time": 38.25,
       "type": "shaft-enter",
       "date": "2026-10-07",
       "data": {
@@ -3431,7 +3454,7 @@
       }
     },
     {
-      "time": 38.12,
+      "time": 38.37,
       "type": "ore-excavate",
       "date": "2026-10-07",
       "value": 319,
@@ -3443,7 +3466,7 @@
       }
     },
     {
-      "time": 38.25,
+      "time": 38.5,
       "type": "shaft-enter",
       "date": "2026-10-11",
       "data": {
@@ -3454,7 +3477,7 @@
       }
     },
     {
-      "time": 38.37,
+      "time": 38.62,
       "type": "ore-excavate",
       "date": "2026-10-11",
       "value": 322,
@@ -3466,7 +3489,7 @@
       }
     },
     {
-      "time": 38.5,
+      "time": 38.75,
       "type": "shaft-enter",
       "date": "2026-10-06",
       "data": {
@@ -3477,7 +3500,7 @@
       }
     },
     {
-      "time": 38.62,
+      "time": 38.87,
       "type": "ore-excavate",
       "date": "2026-10-06",
       "value": 362,
@@ -3489,7 +3512,7 @@
       }
     },
     {
-      "time": 38.75,
+      "time": 39,
       "type": "shaft-enter",
       "date": "2026-07-16",
       "data": {
@@ -3500,7 +3523,7 @@
       }
     },
     {
-      "time": 38.87,
+      "time": 39.12,
       "type": "ore-excavate",
       "date": "2026-07-16",
       "value": 374,
@@ -3512,7 +3535,7 @@
       }
     },
     {
-      "time": 39,
+      "time": 39.25,
       "type": "shaft-enter",
       "date": "2026-08-15",
       "data": {
@@ -3523,7 +3546,7 @@
       }
     },
     {
-      "time": 39.12,
+      "time": 39.37,
       "type": "ore-excavate",
       "date": "2026-08-15",
       "value": 391,
@@ -3535,7 +3558,7 @@
       }
     },
     {
-      "time": 39.25,
+      "time": 39.5,
       "type": "shaft-enter",
       "date": "2026-11-04",
       "data": {
@@ -3546,7 +3569,7 @@
       }
     },
     {
-      "time": 39.37,
+      "time": 39.62,
       "type": "ore-excavate",
       "date": "2026-11-04",
       "value": 408,
@@ -3558,7 +3581,7 @@
       }
     },
     {
-      "time": 39.5,
+      "time": 39.75,
       "type": "shaft-enter",
       "date": "2026-10-30",
       "data": {
@@ -3569,7 +3592,7 @@
       }
     },
     {
-      "time": 39.62,
+      "time": 39.87,
       "type": "ore-excavate",
       "date": "2026-10-30",
       "value": 412,
@@ -3581,7 +3604,7 @@
       }
     },
     {
-      "time": 39.75,
+      "time": 40,
       "type": "shaft-enter",
       "date": "2026-10-31",
       "data": {
@@ -3592,7 +3615,7 @@
       }
     },
     {
-      "time": 39.87,
+      "time": 40.12,
       "type": "ore-excavate",
       "date": "2026-10-31",
       "value": 460,
@@ -3604,7 +3627,7 @@
       }
     },
     {
-      "time": 40,
+      "time": 40.25,
       "type": "shaft-enter",
       "date": "2026-10-28",
       "data": {
@@ -3615,7 +3638,7 @@
       }
     },
     {
-      "time": 40.12,
+      "time": 40.37,
       "type": "ore-excavate",
       "date": "2026-10-28",
       "value": 473,
@@ -3627,7 +3650,7 @@
       }
     },
     {
-      "time": 40.25,
+      "time": 40.5,
       "type": "shaft-enter",
       "date": "2026-10-29",
       "data": {
@@ -3638,7 +3661,7 @@
       }
     },
     {
-      "time": 40.37,
+      "time": 40.62,
       "type": "ore-excavate",
       "date": "2026-10-29",
       "value": 477,
@@ -3650,7 +3673,7 @@
       }
     },
     {
-      "time": 40.5,
+      "time": 40.75,
       "type": "shaft-enter",
       "date": "2026-08-20",
       "data": {
@@ -3661,7 +3684,7 @@
       }
     },
     {
-      "time": 40.62,
+      "time": 40.87,
       "type": "ore-excavate",
       "date": "2026-08-20",
       "value": 478,
@@ -3673,7 +3696,7 @@
       }
     },
     {
-      "time": 40.75,
+      "time": 41,
       "type": "shaft-enter",
       "date": "2026-08-13",
       "data": {
@@ -3684,7 +3707,7 @@
       }
     },
     {
-      "time": 40.87,
+      "time": 41.12,
       "type": "ore-excavate",
       "date": "2026-08-13",
       "value": 482,
@@ -3696,7 +3719,7 @@
       }
     },
     {
-      "time": 41,
+      "time": 41.25,
       "type": "shaft-enter",
       "date": "2026-11-08",
       "data": {
@@ -3707,7 +3730,7 @@
       }
     },
     {
-      "time": 41.12,
+      "time": 41.37,
       "type": "ore-excavate",
       "date": "2026-11-08",
       "value": 524,
@@ -3719,7 +3742,7 @@
       }
     },
     {
-      "time": 41.25,
+      "time": 41.5,
       "type": "shaft-enter",
       "date": "2026-11-06",
       "data": {
@@ -3730,7 +3753,7 @@
       }
     },
     {
-      "time": 41.37,
+      "time": 41.62,
       "type": "ore-excavate",
       "date": "2026-11-06",
       "value": 538,
@@ -3742,7 +3765,7 @@
       }
     },
     {
-      "time": 41.5,
+      "time": 41.75,
       "type": "shaft-enter",
       "date": "2026-11-05",
       "data": {
@@ -3753,7 +3776,7 @@
       }
     },
     {
-      "time": 41.62,
+      "time": 41.87,
       "type": "ore-excavate",
       "date": "2026-11-05",
       "value": 579,
@@ -3765,7 +3788,7 @@
       }
     },
     {
-      "time": 41.75,
+      "time": 42,
       "type": "shaft-enter",
       "date": "2026-11-12",
       "data": {
@@ -3776,7 +3799,7 @@
       }
     },
     {
-      "time": 41.87,
+      "time": 42.12,
       "type": "ore-excavate",
       "date": "2026-11-12",
       "value": 580,
@@ -3788,7 +3811,7 @@
       }
     },
     {
-      "time": 42,
+      "time": 42.25,
       "type": "shaft-enter",
       "date": "2026-11-09",
       "data": {
@@ -3799,7 +3822,7 @@
       }
     },
     {
-      "time": 42.12,
+      "time": 42.37,
       "type": "ore-excavate",
       "date": "2026-11-09",
       "value": 586,
@@ -3811,7 +3834,7 @@
       }
     },
     {
-      "time": 42.25,
+      "time": 42.5,
       "type": "shaft-enter",
       "date": "2026-11-07",
       "data": {
@@ -3822,7 +3845,7 @@
       }
     },
     {
-      "time": 42.37,
+      "time": 42.62,
       "type": "ore-excavate",
       "date": "2026-11-07",
       "value": 648,
@@ -3834,7 +3857,7 @@
       }
     },
     {
-      "time": 42.5,
+      "time": 42.75,
       "type": "shaft-enter",
       "date": "2026-11-11",
       "data": {
@@ -3845,7 +3868,7 @@
       }
     },
     {
-      "time": 42.62,
+      "time": 42.87,
       "type": "ore-excavate",
       "date": "2026-11-11",
       "value": 806,
@@ -3857,10 +3880,10 @@
       }
     },
     {
-      "time": 42.6575,
+      "time": 42.9075,
       "type": "treasure-unlock",
-      "date": "2026-11-13",
-      "value": 124,
+      "date": "2026-11-14",
+      "value": 125,
       "data": {
         "threshold": 5,
         "streakDates": [
@@ -3987,7 +4010,8 @@
           "2026-11-10",
           "2026-11-11",
           "2026-11-12",
-          "2026-11-13"
+          "2026-11-13",
+          "2026-11-14"
         ]
       }
     }
