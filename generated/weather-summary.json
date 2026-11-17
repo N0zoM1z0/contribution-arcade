@@ -537,11 +537,11 @@
     {
       "time": 39.239999999999995,
       "type": "sunny",
-      "value": 500,
+      "value": 1052,
       "data": {
         "column": 52,
         "record": false,
-        "streak": 127
+        "streak": 128
       }
     }
   ]
