@@ -1,18 +1,18 @@
 {
   "username": "N0zoM1z0",
   "id": "match3",
-  "duration": 11.76,
+  "duration": 13.309999999999999,
   "metrics": {
-    "swaps": 4,
-    "matchedDates": 138,
-    "contributions": 19212,
+    "swaps": 5,
+    "matchedDates": 141,
+    "contributions": 19856,
     "cascades": 2,
     "reserve": 0
   },
   "checkpoints": [
     1.25,
     2.42,
-    10.26
+    11.809999999999999
   ],
   "events": [
     {
@@ -851,7 +851,7 @@
       "time": 1.6,
       "type": "gem-match",
       "date": "2026-07-15",
-      "value": 190,
+      "value": 189,
       "data": {
         "depth": 0,
         "column": 34,
@@ -2401,34 +2401,21 @@
     {
       "time": 8.71,
       "type": "swap",
-      "value": 1956,
+      "value": 1635,
       "data": {
         "a": {
           "x": 51,
-          "y": 4
+          "y": 3
         },
         "b": {
-          "x": 51,
-          "y": 5
+          "x": 52,
+          "y": 3
         },
         "dates": [
-          "2026-11-10",
-          "2026-11-11"
+          "2026-11-09",
+          "2026-11-16"
         ],
         "matchSize": 3
-      }
-    },
-    {
-      "time": 9.16,
-      "type": "gem-match",
-      "date": "2026-11-08",
-      "value": 540,
-      "data": {
-        "depth": 0,
-        "column": 51,
-        "row": 2,
-        "originalColumn": 51,
-        "originalRow": 0
       }
     },
     {
@@ -2438,7 +2425,7 @@
       "value": 586,
       "data": {
         "depth": 0,
-        "column": 51,
+        "column": 52,
         "row": 3,
         "originalColumn": 51,
         "originalRow": 1
@@ -2447,30 +2434,126 @@
     {
       "time": 9.16,
       "type": "gem-match",
-      "date": "2026-11-11",
-      "value": 830,
+      "date": "2026-11-17",
+      "value": 523,
       "data": {
         "depth": 0,
-        "column": 51,
+        "column": 52,
         "row": 4,
-        "originalColumn": 51,
-        "originalRow": 3
+        "originalColumn": 52,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 9.16,
+      "type": "gem-match",
+      "date": "2026-11-20",
+      "value": 526,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 5,
+        "originalColumn": 52,
+        "originalRow": 5
       }
     },
     {
       "time": 9.76,
       "type": "gravity",
-      "value": 0,
+      "value": 1,
       "data": {
         "depth": 0,
-        "falls": [],
+        "falls": [
+          {
+            "date": "2026-11-15",
+            "column": 52,
+            "fromRow": 2,
+            "row": 5
+          }
+        ],
         "refilledDates": []
       }
     },
     {
       "time": 10.26,
+      "type": "swap",
+      "value": 966,
+      "data": {
+        "a": {
+          "x": 51,
+          "y": 5
+        },
+        "b": {
+          "x": 51,
+          "y": 6
+        },
+        "dates": [
+          "2026-11-11",
+          "2026-11-14"
+        ],
+        "matchSize": 3
+      }
+    },
+    {
+      "time": 10.709999999999999,
+      "type": "gem-match",
+      "date": "2026-11-16",
+      "value": 306,
+      "data": {
+        "depth": 0,
+        "column": 51,
+        "row": 3,
+        "originalColumn": 52,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 10.709999999999999,
+      "type": "gem-match",
+      "date": "2026-11-10",
+      "value": 304,
+      "data": {
+        "depth": 0,
+        "column": 51,
+        "row": 4,
+        "originalColumn": 51,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 10.709999999999999,
+      "type": "gem-match",
+      "date": "2026-11-14",
+      "value": 356,
+      "data": {
+        "depth": 0,
+        "column": 51,
+        "row": 5,
+        "originalColumn": 51,
+        "originalRow": 6
+      }
+    },
+    {
+      "time": 11.309999999999999,
+      "type": "gravity",
+      "value": 1,
+      "data": {
+        "depth": 0,
+        "falls": [
+          {
+            "date": "2026-11-08",
+            "column": 51,
+            "fromRow": 2,
+            "row": 5
+          }
+        ],
+        "refilledDates": []
+      }
+    },
+    {
+      "time": 11.809999999999999,
       "type": "no-moves",
-      "value": 19212
+      "value": 19856
     }
   ]
 }
