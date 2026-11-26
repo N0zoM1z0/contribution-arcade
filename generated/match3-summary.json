@@ -4,8 +4,8 @@
   "duration": 12.49,
   "metrics": {
     "swaps": 5,
-    "matchedDates": 151,
-    "contributions": 21788,
+    "matchedDates": 154,
+    "contributions": 23291,
     "cascades": 1,
     "reserve": 0
   },
@@ -902,6 +902,45 @@
     {
       "time": 1.6,
       "type": "gem-match",
+      "date": "2026-11-23",
+      "value": 483,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 1,
+        "originalColumn": 52,
+        "originalRow": 1
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-11-24",
+      "value": 515,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 2,
+        "originalColumn": 52,
+        "originalRow": 2
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
+      "date": "2026-11-25",
+      "value": 506,
+      "data": {
+        "depth": 0,
+        "column": 52,
+        "row": 3,
+        "originalColumn": 52,
+        "originalRow": 3
+      }
+    },
+    {
+      "time": 1.6,
+      "type": "gem-match",
       "date": "2026-05-26",
       "value": 1,
       "data": {
@@ -1436,7 +1475,7 @@
       "time": 1.6,
       "type": "gem-match",
       "date": "2026-07-18",
-      "value": 62,
+      "value": 61,
       "data": {
         "depth": 0,
         "column": 33,
@@ -1474,7 +1513,7 @@
     {
       "time": 2.2,
       "type": "gravity",
-      "value": 46,
+      "value": 47,
       "data": {
         "depth": 0,
         "falls": [
@@ -1548,6 +1587,12 @@
             "date": "2026-11-17",
             "column": 51,
             "fromRow": 2,
+            "row": 3
+          },
+          {
+            "date": "2026-11-22",
+            "column": 52,
+            "fromRow": 0,
             "row": 3
           },
           {
@@ -2608,7 +2653,7 @@
     {
       "time": 10.99,
       "type": "no-moves",
-      "value": 21788
+      "value": 23291
     }
   ]
 }
