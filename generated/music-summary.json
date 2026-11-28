@@ -4,7 +4,7 @@
   "duration": 35.04,
   "metrics": {
     "beats": 53,
-    "notes": 181,
+    "notes": 180,
     "rests": 16,
     "audio": "silent visual score"
   },
@@ -378,21 +378,13 @@
     {
       "time": 16.88,
       "type": "beat",
-      "value": 79,
+      "value": 1,
       "data": {
-        "pitch": 6,
+        "pitch": 1,
         "notes": [
           {
             "date": "2026-05-26",
             "count": 1
-          },
-          {
-            "date": "2026-05-27",
-            "count": 17
-          },
-          {
-            "date": "2026-05-28",
-            "count": 61
           }
         ]
       }
@@ -537,7 +529,7 @@
     {
       "time": 21.52,
       "type": "beat",
-      "value": 472,
+      "value": 471,
       "data": {
         "pitch": 7,
         "notes": [
@@ -555,7 +547,7 @@
           },
           {
             "date": "2026-07-22",
-            "count": 54
+            "count": 53
           },
           {
             "date": "2026-07-23",
@@ -1221,7 +1213,7 @@
     {
       "time": 31.959999999999997,
       "type": "beat",
-      "value": 1922,
+      "value": 2466,
       "data": {
         "pitch": 7,
         "notes": [
@@ -1239,15 +1231,19 @@
           },
           {
             "date": "2026-11-25",
-            "count": 506
+            "count": 560
           },
           {
             "date": "2026-11-26",
-            "count": 190
+            "count": 290
           },
           {
             "date": "2026-11-27",
-            "count": 6
+            "count": 144
+          },
+          {
+            "date": "2026-11-28",
+            "count": 252
           }
         ]
       }

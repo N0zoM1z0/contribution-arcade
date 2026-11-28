@@ -6,7 +6,7 @@
     "rainyWeeks": 16,
     "sunnyWeeks": 21,
     "peakWeek": 3581,
-    "records": 14
+    "records": 13
   },
   "checkpoints": [
     2,
@@ -277,10 +277,10 @@
     {
       "time": 20.52,
       "type": "cloudy",
-      "value": 79,
+      "value": 1,
       "data": {
         "column": 26,
-        "record": true,
+        "record": false,
         "streak": 0
       }
     },
@@ -357,7 +357,7 @@
     {
       "time": 26.28,
       "type": "sunny",
-      "value": 472,
+      "value": 471,
       "data": {
         "column": 34,
         "record": false,
@@ -537,11 +537,11 @@
     {
       "time": 39.239999999999995,
       "type": "sunny",
-      "value": 1922,
+      "value": 2466,
       "data": {
         "column": 52,
         "record": false,
-        "streak": 138
+        "streak": 139
       }
     }
   ]

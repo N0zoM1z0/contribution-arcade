@@ -4,10 +4,10 @@
   "duration": 30,
   "metrics": {
     "buildings": 37,
-    "contributions": 29697,
+    "contributions": 30162,
     "tallest": 165.314,
     "peakWeek": 3581,
-    "floors": 357
+    "floors": 351
   },
   "checkpoints": [
     4,
@@ -338,10 +338,10 @@
       "time": 13.7,
       "type": "foundation",
       "date": "2026-05-24",
-      "value": 79,
+      "value": 1,
       "data": {
         "column": 26,
-        "height": 74.57105129679812
+        "height": 21.538403912731063
       }
     },
     {
@@ -359,10 +359,10 @@
       "time": 14.1,
       "type": "frame",
       "date": "2026-05-24",
-      "value": 79,
+      "value": 1,
       "data": {
         "column": 26,
-        "floors": 7
+        "floors": 1
       }
     },
     {
@@ -410,11 +410,11 @@
       "time": 14.95,
       "type": "building-complete",
       "date": "2026-05-24",
-      "value": 79,
+      "value": 1,
       "data": {
         "column": 26,
-        "height": 74.57105129679812,
-        "floors": 7
+        "height": 21.538403912731063,
+        "floors": 1
       }
     },
     {
@@ -555,10 +555,10 @@
       "time": 17.546153846153846,
       "type": "foundation",
       "date": "2026-07-19",
-      "value": 472,
+      "value": 471,
       "data": {
         "column": 34,
-        "height": 123.74211950983795
+        "height": 123.68162600216834
       }
     },
     {
@@ -576,7 +576,7 @@
       "time": 17.946153846153845,
       "type": "frame",
       "date": "2026-07-19",
-      "value": 472,
+      "value": 471,
       "data": {
         "column": 34,
         "floors": 12
@@ -627,10 +627,10 @@
       "time": 18.796153846153846,
       "type": "building-complete",
       "date": "2026-07-19",
-      "value": 472,
+      "value": 471,
       "data": {
         "column": 34,
-        "height": 123.74211950983795,
+        "height": 123.68162600216834,
         "floors": 12
       }
     },
@@ -1113,10 +1113,10 @@
       "time": 26.2,
       "type": "foundation",
       "date": "2026-11-22",
-      "value": 1922,
+      "value": 2466,
       "data": {
         "column": 52,
-        "height": 157.16771975310922
+        "height": 160.9881358293833
       }
     },
     {
@@ -1134,7 +1134,7 @@
       "time": 26.599999999999998,
       "type": "frame",
       "date": "2026-11-22",
-      "value": 1922,
+      "value": 2466,
       "data": {
         "column": 52,
         "floors": 16
@@ -1155,10 +1155,10 @@
       "time": 27.45,
       "type": "building-complete",
       "date": "2026-11-22",
-      "value": 1922,
+      "value": 2466,
       "data": {
         "column": 52,
-        "height": 157.16771975310922,
+        "height": 160.9881358293833,
         "floors": 16
       }
     }

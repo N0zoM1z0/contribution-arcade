@@ -5,17 +5,17 @@
   "metrics": {
     "homes": 24,
     "roads": 6,
-    "festivals": 24,
-    "contributions": 29697,
+    "festivals": 23,
+    "contributions": 30162,
     "source": "github-public",
-    "commits": 27842,
+    "commits": 28300,
     "issues": 487,
-    "pullRequests": 1075,
+    "pullRequests": 1082,
     "reviews": 204
   },
   "checkpoints": [
     4,
-    22.02737127371274,
+    21.972432432432434,
     27.3
   ],
   "events": [
@@ -23,15 +23,15 @@
       "time": 0,
       "type": "public-activity-summary",
       "data": {
-        "commits": 27842,
+        "commits": 28300,
         "issues": 487,
-        "pullRequests": 1075,
+        "pullRequests": 1082,
         "reviews": 204,
         "scope": "aggregate-context; no date attribution"
       }
     },
     {
-      "time": 6.811382113821139,
+      "time": 6.796756756756757,
       "type": "town-building",
       "date": "2026-02-09",
       "value": 1,
@@ -41,13 +41,13 @@
       }
     },
     {
-      "time": 6.811382113821139,
+      "time": 6.796756756756757,
       "type": "road",
       "date": "2026-02-09",
       "value": 0
     },
     {
-      "time": 9.100813008130082,
+      "time": 9.08,
       "type": "town-building",
       "date": "2026-03-14",
       "value": 25,
@@ -57,13 +57,13 @@
       }
     },
     {
-      "time": 9.100813008130082,
+      "time": 9.08,
       "type": "road",
       "date": "2026-03-14",
       "value": 1
     },
     {
-      "time": 11.80650406504065,
+      "time": 11.77837837837838,
       "type": "town-building",
       "date": "2026-04-22",
       "value": 49,
@@ -73,13 +73,13 @@
       }
     },
     {
-      "time": 11.80650406504065,
+      "time": 11.77837837837838,
       "type": "road",
       "date": "2026-04-22",
       "value": 2
     },
     {
-      "time": 12.014634146341464,
+      "time": 11.985945945945947,
       "type": "festival",
       "date": "2026-04-25",
       "value": 31,
@@ -89,7 +89,7 @@
       }
     },
     {
-      "time": 12.15338753387534,
+      "time": 12.124324324324325,
       "type": "town-building",
       "date": "2026-04-27",
       "value": 73,
@@ -99,13 +99,13 @@
       }
     },
     {
-      "time": 12.15338753387534,
+      "time": 12.124324324324325,
       "type": "road",
       "date": "2026-04-27",
       "value": 3
     },
     {
-      "time": 12.361517615176153,
+      "time": 12.331891891891894,
       "type": "town-building",
       "date": "2026-04-30",
       "value": 97,
@@ -115,13 +115,13 @@
       }
     },
     {
-      "time": 12.361517615176153,
+      "time": 12.331891891891894,
       "type": "road",
       "date": "2026-04-30",
       "value": 4
     },
     {
-      "time": 12.777777777777779,
+      "time": 12.747027027027029,
       "type": "town-building",
       "date": "2026-05-06",
       "value": 121,
@@ -131,13 +131,13 @@
       }
     },
     {
-      "time": 12.777777777777779,
+      "time": 12.747027027027029,
       "type": "road",
       "date": "2026-05-06",
       "value": 5
     },
     {
-      "time": 12.985907859078592,
+      "time": 12.954594594594596,
       "type": "town-building",
       "date": "2026-05-09",
       "value": 145,
@@ -147,7 +147,7 @@
       }
     },
     {
-      "time": 12.985907859078592,
+      "time": 12.954594594594596,
       "type": "festival",
       "date": "2026-05-09",
       "value": 40,
@@ -157,29 +157,29 @@
       }
     },
     {
-      "time": 14.234688346883468,
+      "time": 15.307027027027027,
       "type": "town-building",
-      "date": "2026-05-27",
+      "date": "2026-06-12",
       "value": 169,
       "data": {
         "lot": 7,
-        "accumulated": 176
+        "accumulated": 180
       }
     },
     {
-      "time": 14.304065040650407,
+      "time": 15.791351351351354,
       "type": "town-building",
-      "date": "2026-05-28",
+      "date": "2026-06-19",
       "value": 193,
       "data": {
         "lot": 8,
-        "accumulated": 237
+        "accumulated": 203
       }
     },
     {
-      "time": 14.304065040650407,
+      "time": 15.99891891891892,
       "type": "town-building",
-      "date": "2026-05-28",
+      "date": "2026-06-22",
       "value": 217,
       "data": {
         "lot": 9,
@@ -187,67 +187,17 @@
       }
     },
     {
-      "time": 14.442818428184284,
-      "type": "festival",
-      "date": "2026-05-30",
-      "value": 79,
-      "data": {
-        "column": 26,
-        "streak": 3
-      }
-    },
-    {
-      "time": 15.344715447154472,
+      "time": 17.175135135135136,
       "type": "town-building",
-      "date": "2026-06-12",
+      "date": "2026-07-09",
       "value": 241,
       "data": {
         "lot": 10,
-        "accumulated": 258
+        "accumulated": 249
       }
     },
     {
-      "time": 15.483468834688347,
-      "type": "town-building",
-      "date": "2026-06-14",
-      "value": 265,
-      "data": {
-        "lot": 11,
-        "accumulated": 269
-      }
-    },
-    {
-      "time": 16.038482384823848,
-      "type": "town-building",
-      "date": "2026-06-22",
-      "value": 289,
-      "data": {
-        "lot": 12,
-        "accumulated": 315
-      }
-    },
-    {
-      "time": 16.038482384823848,
-      "type": "town-building",
-      "date": "2026-06-22",
-      "value": 313,
-      "data": {
-        "lot": 13,
-        "accumulated": 315
-      }
-    },
-    {
-      "time": 17.356639566395664,
-      "type": "town-building",
-      "date": "2026-07-11",
-      "value": 337,
-      "data": {
-        "lot": 14,
-        "accumulated": 338
-      }
-    },
-    {
-      "time": 17.356639566395664,
+      "time": 17.313513513513513,
       "type": "festival",
       "date": "2026-07-11",
       "value": 23,
@@ -257,97 +207,137 @@
       }
     },
     {
-      "time": 17.564769647696476,
+      "time": 17.451891891891893,
+      "type": "town-building",
+      "date": "2026-07-13",
+      "value": 265,
+      "data": {
+        "lot": 11,
+        "accumulated": 268
+      }
+    },
+    {
+      "time": 17.521081081081082,
       "type": "town-building",
       "date": "2026-07-14",
+      "value": 289,
+      "data": {
+        "lot": 12,
+        "accumulated": 339
+      }
+    },
+    {
+      "time": 17.521081081081082,
+      "type": "town-building",
+      "date": "2026-07-14",
+      "value": 313,
+      "data": {
+        "lot": 13,
+        "accumulated": 339
+      }
+    },
+    {
+      "time": 17.521081081081082,
+      "type": "town-building",
+      "date": "2026-07-14",
+      "value": 337,
+      "data": {
+        "lot": 14,
+        "accumulated": 339
+      }
+    },
+    {
+      "time": 17.59027027027027,
+      "type": "town-building",
+      "date": "2026-07-15",
       "value": 361,
       "data": {
         "lot": 15,
-        "accumulated": 417
+        "accumulated": 526
       }
     },
     {
-      "time": 17.564769647696476,
+      "time": 17.59027027027027,
       "type": "town-building",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "value": 385,
       "data": {
         "lot": 16,
-        "accumulated": 417
+        "accumulated": 526
       }
     },
     {
-      "time": 17.564769647696476,
+      "time": 17.59027027027027,
       "type": "town-building",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "value": 409,
       "data": {
         "lot": 17,
-        "accumulated": 417
+        "accumulated": 526
       }
     },
     {
-      "time": 17.634146341463413,
+      "time": 17.59027027027027,
       "type": "town-building",
       "date": "2026-07-15",
       "value": 433,
       "data": {
         "lot": 18,
-        "accumulated": 604
+        "accumulated": 526
       }
     },
     {
-      "time": 17.634146341463413,
+      "time": 17.59027027027027,
       "type": "town-building",
       "date": "2026-07-15",
       "value": 457,
       "data": {
         "lot": 19,
-        "accumulated": 604
+        "accumulated": 526
       }
     },
     {
-      "time": 17.634146341463413,
+      "time": 17.59027027027027,
       "type": "town-building",
       "date": "2026-07-15",
       "value": 481,
       "data": {
         "lot": 20,
-        "accumulated": 604
+        "accumulated": 526
       }
     },
     {
-      "time": 17.634146341463413,
+      "time": 17.59027027027027,
       "type": "town-building",
       "date": "2026-07-15",
       "value": 505,
       "data": {
         "lot": 21,
-        "accumulated": 604
+        "accumulated": 526
       }
     },
     {
-      "time": 17.634146341463413,
+      "time": 17.65945945945946,
       "type": "town-building",
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "value": 529,
       "data": {
         "lot": 22,
-        "accumulated": 604
+        "accumulated": 699
       }
     },
     {
-      "time": 17.634146341463413,
+      "time": 17.65945945945946,
       "type": "town-building",
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "value": 553,
       "data": {
         "lot": 23,
-        "accumulated": 604
+        "accumulated": 699
       }
     },
     {
-      "time": 17.84227642276423,
+      "time": 17.797837837837836,
       "type": "festival",
       "date": "2026-07-18",
       "value": 731,
@@ -357,17 +347,17 @@
       }
     },
     {
-      "time": 18.32791327913279,
+      "time": 18.282162162162162,
       "type": "festival",
       "date": "2026-07-25",
-      "value": 472,
+      "value": 471,
       "data": {
         "column": 34,
         "streak": 7
       }
     },
     {
-      "time": 18.813550135501355,
+      "time": 18.766486486486485,
       "type": "festival",
       "date": "2026-08-01",
       "value": 1049,
@@ -377,7 +367,7 @@
       }
     },
     {
-      "time": 19.29918699186992,
+      "time": 19.25081081081081,
       "type": "festival",
       "date": "2026-08-08",
       "value": 565,
@@ -387,7 +377,7 @@
       }
     },
     {
-      "time": 19.78482384823848,
+      "time": 19.735135135135135,
       "type": "festival",
       "date": "2026-08-15",
       "value": 1611,
@@ -397,7 +387,7 @@
       }
     },
     {
-      "time": 20.270460704607046,
+      "time": 20.21945945945946,
       "type": "festival",
       "date": "2026-08-22",
       "value": 1866,
@@ -407,7 +397,7 @@
       }
     },
     {
-      "time": 20.75609756097561,
+      "time": 20.703783783783784,
       "type": "festival",
       "date": "2026-08-29",
       "value": 564,
@@ -417,7 +407,7 @@
       }
     },
     {
-      "time": 21.241734417344173,
+      "time": 21.188108108108107,
       "type": "festival",
       "date": "2026-09-05",
       "value": 447,
@@ -427,7 +417,7 @@
       }
     },
     {
-      "time": 21.727371273712738,
+      "time": 21.672432432432434,
       "type": "festival",
       "date": "2026-09-12",
       "value": 890,
@@ -437,7 +427,7 @@
       }
     },
     {
-      "time": 22.2130081300813,
+      "time": 22.156756756756756,
       "type": "festival",
       "date": "2026-09-19",
       "value": 754,
@@ -447,7 +437,7 @@
       }
     },
     {
-      "time": 22.698644986449864,
+      "time": 22.64108108108108,
       "type": "festival",
       "date": "2026-09-26",
       "value": 1184,
@@ -457,7 +447,7 @@
       }
     },
     {
-      "time": 23.18428184281843,
+      "time": 23.125405405405406,
       "type": "festival",
       "date": "2026-10-03",
       "value": 657,
@@ -467,7 +457,7 @@
       }
     },
     {
-      "time": 23.66991869918699,
+      "time": 23.60972972972973,
       "type": "festival",
       "date": "2026-10-10",
       "value": 1694,
@@ -477,7 +467,7 @@
       }
     },
     {
-      "time": 24.155555555555555,
+      "time": 24.094054054054055,
       "type": "festival",
       "date": "2026-10-17",
       "value": 1630,
@@ -487,7 +477,7 @@
       }
     },
     {
-      "time": 24.64119241192412,
+      "time": 24.57837837837838,
       "type": "festival",
       "date": "2026-10-24",
       "value": 1581,
@@ -497,7 +487,7 @@
       }
     },
     {
-      "time": 25.126829268292685,
+      "time": 25.0627027027027,
       "type": "festival",
       "date": "2026-10-31",
       "value": 2335,
@@ -507,7 +497,7 @@
       }
     },
     {
-      "time": 25.612466124661246,
+      "time": 25.547027027027028,
       "type": "festival",
       "date": "2026-11-07",
       "value": 2793,
@@ -517,7 +507,7 @@
       }
     },
     {
-      "time": 26.09810298102981,
+      "time": 26.031351351351354,
       "type": "festival",
       "date": "2026-11-14",
       "value": 3581,
@@ -527,7 +517,7 @@
       }
     },
     {
-      "time": 26.583739837398376,
+      "time": 26.515675675675674,
       "type": "festival",
       "date": "2026-11-21",
       "value": 3033,
@@ -539,11 +529,11 @@
     {
       "time": 27,
       "type": "festival",
-      "date": "2026-11-27",
-      "value": 1922,
+      "date": "2026-11-28",
+      "value": 2466,
       "data": {
         "column": 52,
-        "streak": 6
+        "streak": 7
       }
     }
   ]

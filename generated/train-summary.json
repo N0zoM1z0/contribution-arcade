@@ -1,17 +1,17 @@
 {
   "username": "N0zoM1z0",
   "id": "train",
-  "duration": 40.795,
+  "duration": 40.760000000000005,
   "metrics": {
     "weeks": 53,
     "stops": 37,
-    "contributions": 29697,
+    "contributions": 30162,
     "seasonChanges": 5
   },
   "checkpoints": [
     1.2,
     14.914999999999997,
-    37.795
+    37.760000000000005
   ],
   "events": [
     {
@@ -591,16 +591,16 @@
       "time": 14.914999999999997,
       "type": "station-stop",
       "date": "2026-05-24",
-      "value": 79,
+      "value": 1,
       "data": {
         "column": 26,
-        "activeDays": 3,
+        "activeDays": 1,
         "arrive": 14.914999999999997,
-        "depart": 15.359999999999998
+        "depart": 15.289999999999997
       }
     },
     {
-      "time": 15.359999999999998,
+      "time": 15.289999999999997,
       "type": "train-depart",
       "date": "2026-05-24",
       "data": {
@@ -609,19 +609,19 @@
       }
     },
     {
-      "time": 15.719999999999997,
+      "time": 15.649999999999997,
       "type": "station-stop",
       "date": "2026-05-31",
       "value": 3,
       "data": {
         "column": 27,
         "activeDays": 1,
-        "arrive": 15.719999999999997,
-        "depart": 16.095
+        "arrive": 15.649999999999997,
+        "depart": 16.025
       }
     },
     {
-      "time": 16.095,
+      "time": 16.025,
       "type": "train-depart",
       "date": "2026-05-31",
       "data": {
@@ -630,19 +630,19 @@
       }
     },
     {
-      "time": 16.455,
+      "time": 16.384999999999998,
       "type": "station-stop",
       "date": "2026-06-07",
       "value": 18,
       "data": {
         "column": 28,
         "activeDays": 1,
-        "arrive": 16.455,
-        "depart": 16.83
+        "arrive": 16.384999999999998,
+        "depart": 16.759999999999998
       }
     },
     {
-      "time": 16.455,
+      "time": 16.384999999999998,
       "type": "season-change",
       "date": "2026-06-07",
       "data": {
@@ -651,7 +651,7 @@
       }
     },
     {
-      "time": 16.83,
+      "time": 16.759999999999998,
       "type": "train-depart",
       "date": "2026-06-07",
       "data": {
@@ -660,19 +660,19 @@
       }
     },
     {
-      "time": 17.189999999999998,
+      "time": 17.119999999999997,
       "type": "station-stop",
       "date": "2026-06-14",
       "value": 28,
       "data": {
         "column": 29,
         "activeDays": 4,
-        "arrive": 17.189999999999998,
-        "depart": 17.669999999999998
+        "arrive": 17.119999999999997,
+        "depart": 17.599999999999998
       }
     },
     {
-      "time": 17.669999999999998,
+      "time": 17.599999999999998,
       "type": "train-depart",
       "date": "2026-06-14",
       "data": {
@@ -681,19 +681,19 @@
       }
     },
     {
-      "time": 18.029999999999998,
+      "time": 17.959999999999997,
       "type": "station-stop",
       "date": "2026-06-21",
       "value": 29,
       "data": {
         "column": 30,
         "activeDays": 1,
-        "arrive": 18.029999999999998,
-        "depart": 18.404999999999998
+        "arrive": 17.959999999999997,
+        "depart": 18.334999999999997
       }
     },
     {
-      "time": 18.404999999999998,
+      "time": 18.334999999999997,
       "type": "train-depart",
       "date": "2026-06-21",
       "data": {
@@ -702,19 +702,19 @@
       }
     },
     {
-      "time": 18.764999999999997,
+      "time": 18.694999999999997,
       "type": "week-pass",
       "date": "2026-06-28",
       "value": 0,
       "data": {
         "column": 31,
         "activeDays": 0,
-        "arrive": 18.764999999999997,
-        "depart": 18.764999999999997
+        "arrive": 18.694999999999997,
+        "depart": 18.694999999999997
       }
     },
     {
-      "time": 18.764999999999997,
+      "time": 18.694999999999997,
       "type": "train-depart",
       "date": "2026-06-28",
       "data": {
@@ -723,19 +723,19 @@
       }
     },
     {
-      "time": 19.124999999999996,
+      "time": 19.054999999999996,
       "type": "station-stop",
       "date": "2026-07-05",
       "value": 23,
       "data": {
         "column": 32,
         "activeDays": 4,
-        "arrive": 19.124999999999996,
-        "depart": 19.604999999999997
+        "arrive": 19.054999999999996,
+        "depart": 19.534999999999997
       }
     },
     {
-      "time": 19.604999999999997,
+      "time": 19.534999999999997,
       "type": "train-depart",
       "date": "2026-07-05",
       "data": {
@@ -744,19 +744,19 @@
       }
     },
     {
-      "time": 19.964999999999996,
+      "time": 19.894999999999996,
       "type": "station-stop",
       "date": "2026-07-12",
       "value": 731,
       "data": {
         "column": 33,
         "activeDays": 6,
-        "arrive": 19.964999999999996,
-        "depart": 20.514999999999997
+        "arrive": 19.894999999999996,
+        "depart": 20.444999999999997
       }
     },
     {
-      "time": 20.514999999999997,
+      "time": 20.444999999999997,
       "type": "train-depart",
       "date": "2026-07-12",
       "data": {
@@ -765,19 +765,19 @@
       }
     },
     {
-      "time": 20.874999999999996,
+      "time": 20.804999999999996,
       "type": "station-stop",
       "date": "2026-07-19",
-      "value": 472,
+      "value": 471,
       "data": {
         "column": 34,
         "activeDays": 7,
-        "arrive": 20.874999999999996,
-        "depart": 21.459999999999997
+        "arrive": 20.804999999999996,
+        "depart": 21.389999999999997
       }
     },
     {
-      "time": 21.459999999999997,
+      "time": 21.389999999999997,
       "type": "train-depart",
       "date": "2026-07-19",
       "data": {
@@ -786,19 +786,19 @@
       }
     },
     {
-      "time": 21.819999999999997,
+      "time": 21.749999999999996,
       "type": "station-stop",
       "date": "2026-07-26",
       "value": 1049,
       "data": {
         "column": 35,
         "activeDays": 7,
-        "arrive": 21.819999999999997,
-        "depart": 22.404999999999998
+        "arrive": 21.749999999999996,
+        "depart": 22.334999999999997
       }
     },
     {
-      "time": 22.404999999999998,
+      "time": 22.334999999999997,
       "type": "train-depart",
       "date": "2026-07-26",
       "data": {
@@ -807,19 +807,19 @@
       }
     },
     {
-      "time": 22.764999999999997,
+      "time": 22.694999999999997,
       "type": "station-stop",
       "date": "2026-08-02",
       "value": 565,
       "data": {
         "column": 36,
         "activeDays": 7,
-        "arrive": 22.764999999999997,
-        "depart": 23.349999999999998
+        "arrive": 22.694999999999997,
+        "depart": 23.279999999999998
       }
     },
     {
-      "time": 23.349999999999998,
+      "time": 23.279999999999998,
       "type": "train-depart",
       "date": "2026-08-02",
       "data": {
@@ -828,19 +828,19 @@
       }
     },
     {
-      "time": 23.709999999999997,
+      "time": 23.639999999999997,
       "type": "station-stop",
       "date": "2026-08-09",
       "value": 1611,
       "data": {
         "column": 37,
         "activeDays": 7,
-        "arrive": 23.709999999999997,
-        "depart": 24.294999999999998
+        "arrive": 23.639999999999997,
+        "depart": 24.224999999999998
       }
     },
     {
-      "time": 24.294999999999998,
+      "time": 24.224999999999998,
       "type": "train-depart",
       "date": "2026-08-09",
       "data": {
@@ -849,19 +849,19 @@
       }
     },
     {
-      "time": 24.654999999999998,
+      "time": 24.584999999999997,
       "type": "station-stop",
       "date": "2026-08-16",
       "value": 1866,
       "data": {
         "column": 38,
         "activeDays": 7,
-        "arrive": 24.654999999999998,
-        "depart": 25.24
+        "arrive": 24.584999999999997,
+        "depart": 25.169999999999998
       }
     },
     {
-      "time": 25.24,
+      "time": 25.169999999999998,
       "type": "train-depart",
       "date": "2026-08-16",
       "data": {
@@ -870,19 +870,19 @@
       }
     },
     {
-      "time": 25.599999999999998,
+      "time": 25.529999999999998,
       "type": "station-stop",
       "date": "2026-08-23",
       "value": 564,
       "data": {
         "column": 39,
         "activeDays": 7,
-        "arrive": 25.599999999999998,
-        "depart": 26.185
+        "arrive": 25.529999999999998,
+        "depart": 26.115
       }
     },
     {
-      "time": 26.185,
+      "time": 26.115,
       "type": "train-depart",
       "date": "2026-08-23",
       "data": {
@@ -891,19 +891,19 @@
       }
     },
     {
-      "time": 26.544999999999998,
+      "time": 26.474999999999998,
       "type": "station-stop",
       "date": "2026-08-30",
       "value": 447,
       "data": {
         "column": 40,
         "activeDays": 7,
-        "arrive": 26.544999999999998,
-        "depart": 27.13
+        "arrive": 26.474999999999998,
+        "depart": 27.06
       }
     },
     {
-      "time": 27.13,
+      "time": 27.06,
       "type": "train-depart",
       "date": "2026-08-30",
       "data": {
@@ -912,19 +912,19 @@
       }
     },
     {
-      "time": 27.49,
+      "time": 27.419999999999998,
       "type": "station-stop",
       "date": "2026-09-06",
       "value": 890,
       "data": {
         "column": 41,
         "activeDays": 7,
-        "arrive": 27.49,
-        "depart": 28.075
+        "arrive": 27.419999999999998,
+        "depart": 28.005
       }
     },
     {
-      "time": 27.49,
+      "time": 27.419999999999998,
       "type": "season-change",
       "date": "2026-09-06",
       "data": {
@@ -933,7 +933,7 @@
       }
     },
     {
-      "time": 28.075,
+      "time": 28.005,
       "type": "train-depart",
       "date": "2026-09-06",
       "data": {
@@ -942,19 +942,19 @@
       }
     },
     {
-      "time": 28.435,
+      "time": 28.365,
       "type": "station-stop",
       "date": "2026-09-13",
       "value": 754,
       "data": {
         "column": 42,
         "activeDays": 7,
-        "arrive": 28.435,
-        "depart": 29.02
+        "arrive": 28.365,
+        "depart": 28.95
       }
     },
     {
-      "time": 29.02,
+      "time": 28.95,
       "type": "train-depart",
       "date": "2026-09-13",
       "data": {
@@ -963,19 +963,19 @@
       }
     },
     {
-      "time": 29.38,
+      "time": 29.31,
       "type": "station-stop",
       "date": "2026-09-20",
       "value": 1184,
       "data": {
         "column": 43,
         "activeDays": 7,
-        "arrive": 29.38,
-        "depart": 29.965
+        "arrive": 29.31,
+        "depart": 29.895
       }
     },
     {
-      "time": 29.965,
+      "time": 29.895,
       "type": "train-depart",
       "date": "2026-09-20",
       "data": {
@@ -984,19 +984,19 @@
       }
     },
     {
-      "time": 30.325,
+      "time": 30.255,
       "type": "station-stop",
       "date": "2026-09-27",
       "value": 657,
       "data": {
         "column": 44,
         "activeDays": 7,
-        "arrive": 30.325,
-        "depart": 30.91
+        "arrive": 30.255,
+        "depart": 30.84
       }
     },
     {
-      "time": 30.91,
+      "time": 30.84,
       "type": "train-depart",
       "date": "2026-09-27",
       "data": {
@@ -1005,19 +1005,19 @@
       }
     },
     {
-      "time": 31.27,
+      "time": 31.2,
       "type": "station-stop",
       "date": "2026-10-04",
       "value": 1694,
       "data": {
         "column": 45,
         "activeDays": 7,
-        "arrive": 31.27,
-        "depart": 31.855
+        "arrive": 31.2,
+        "depart": 31.785
       }
     },
     {
-      "time": 31.855,
+      "time": 31.785,
       "type": "train-depart",
       "date": "2026-10-04",
       "data": {
@@ -1026,19 +1026,19 @@
       }
     },
     {
-      "time": 32.215,
+      "time": 32.145,
       "type": "station-stop",
       "date": "2026-10-11",
       "value": 1630,
       "data": {
         "column": 46,
         "activeDays": 7,
-        "arrive": 32.215,
-        "depart": 32.800000000000004
+        "arrive": 32.145,
+        "depart": 32.730000000000004
       }
     },
     {
-      "time": 32.800000000000004,
+      "time": 32.730000000000004,
       "type": "train-depart",
       "date": "2026-10-11",
       "data": {
@@ -1047,19 +1047,19 @@
       }
     },
     {
-      "time": 33.160000000000004,
+      "time": 33.09,
       "type": "station-stop",
       "date": "2026-10-18",
       "value": 1581,
       "data": {
         "column": 47,
         "activeDays": 7,
-        "arrive": 33.160000000000004,
-        "depart": 33.745000000000005
+        "arrive": 33.09,
+        "depart": 33.675000000000004
       }
     },
     {
-      "time": 33.745000000000005,
+      "time": 33.675000000000004,
       "type": "train-depart",
       "date": "2026-10-18",
       "data": {
@@ -1068,19 +1068,19 @@
       }
     },
     {
-      "time": 34.105000000000004,
+      "time": 34.035000000000004,
       "type": "station-stop",
       "date": "2026-10-25",
       "value": 2335,
       "data": {
         "column": 48,
         "activeDays": 7,
-        "arrive": 34.105000000000004,
-        "depart": 34.690000000000005
+        "arrive": 34.035000000000004,
+        "depart": 34.620000000000005
       }
     },
     {
-      "time": 34.690000000000005,
+      "time": 34.620000000000005,
       "type": "train-depart",
       "date": "2026-10-25",
       "data": {
@@ -1089,19 +1089,19 @@
       }
     },
     {
-      "time": 35.050000000000004,
+      "time": 34.980000000000004,
       "type": "station-stop",
       "date": "2026-11-01",
       "value": 2793,
       "data": {
         "column": 49,
         "activeDays": 7,
-        "arrive": 35.050000000000004,
-        "depart": 35.635000000000005
+        "arrive": 34.980000000000004,
+        "depart": 35.565000000000005
       }
     },
     {
-      "time": 35.635000000000005,
+      "time": 35.565000000000005,
       "type": "train-depart",
       "date": "2026-11-01",
       "data": {
@@ -1110,19 +1110,19 @@
       }
     },
     {
-      "time": 35.995000000000005,
+      "time": 35.925000000000004,
       "type": "station-stop",
       "date": "2026-11-08",
       "value": 3581,
       "data": {
         "column": 50,
         "activeDays": 7,
-        "arrive": 35.995000000000005,
-        "depart": 36.580000000000005
+        "arrive": 35.925000000000004,
+        "depart": 36.510000000000005
       }
     },
     {
-      "time": 36.580000000000005,
+      "time": 36.510000000000005,
       "type": "train-depart",
       "date": "2026-11-08",
       "data": {
@@ -1131,19 +1131,19 @@
       }
     },
     {
-      "time": 36.940000000000005,
+      "time": 36.870000000000005,
       "type": "station-stop",
       "date": "2026-11-15",
       "value": 3033,
       "data": {
         "column": 51,
         "activeDays": 7,
-        "arrive": 36.940000000000005,
-        "depart": 37.525000000000006
+        "arrive": 36.870000000000005,
+        "depart": 37.455000000000005
       }
     },
     {
-      "time": 37.525000000000006,
+      "time": 37.455000000000005,
       "type": "train-depart",
       "date": "2026-11-15",
       "data": {
@@ -1152,15 +1152,15 @@
       }
     },
     {
-      "time": 37.885000000000005,
+      "time": 37.815000000000005,
       "type": "station-stop",
       "date": "2026-11-22",
-      "value": 1922,
+      "value": 2466,
       "data": {
         "column": 52,
-        "activeDays": 6,
-        "arrive": 37.885000000000005,
-        "depart": 38.435
+        "activeDays": 7,
+        "arrive": 37.815000000000005,
+        "depart": 38.400000000000006
       }
     }
   ]

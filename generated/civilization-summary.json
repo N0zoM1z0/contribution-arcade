@@ -3,7 +3,7 @@
   "id": "civilization",
   "duration": 37.5,
   "metrics": {
-    "resources": 29697,
+    "resources": 30162,
     "era": "Space",
     "erasReached": 6,
     "weathering": 0,
@@ -17,7 +17,7 @@
   ],
   "events": [
     {
-      "time": 7.234146341463415,
+      "time": 7.218378378378379,
       "type": "resources",
       "date": "2026-02-09",
       "value": 1,
@@ -26,7 +26,7 @@
       }
     },
     {
-      "time": 7.234146341463415,
+      "time": 7.218378378378379,
       "type": "era",
       "date": "2026-02-09",
       "value": 1,
@@ -37,7 +37,7 @@
       }
     },
     {
-      "time": 7.458536585365854,
+      "time": 7.4421621621621625,
       "type": "weathering",
       "date": "2026-02-12",
       "value": 0.075,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "time": 7.533333333333333,
+      "time": 7.516756756756758,
       "type": "weathering",
       "date": "2026-02-13",
       "value": 0.15,
@@ -55,7 +55,7 @@
       }
     },
     {
-      "time": 7.608130081300814,
+      "time": 7.591351351351351,
       "type": "weathering",
       "date": "2026-02-14",
       "value": 0.22499999999999998,
@@ -64,7 +64,7 @@
       }
     },
     {
-      "time": 7.682926829268293,
+      "time": 7.665945945945946,
       "type": "resources",
       "date": "2026-02-15",
       "value": 1,
@@ -73,7 +73,7 @@
       }
     },
     {
-      "time": 7.9073170731707325,
+      "time": 7.88972972972973,
       "type": "weathering",
       "date": "2026-02-18",
       "value": 0.282,
@@ -82,7 +82,7 @@
       }
     },
     {
-      "time": 7.982113821138212,
+      "time": 7.964324324324325,
       "type": "weathering",
       "date": "2026-02-19",
       "value": 0.357,
@@ -91,7 +91,7 @@
       }
     },
     {
-      "time": 8.05691056910569,
+      "time": 8.03891891891892,
       "type": "resources",
       "date": "2026-02-20",
       "value": 2,
@@ -100,7 +100,7 @@
       }
     },
     {
-      "time": 8.20650406504065,
+      "time": 8.188108108108109,
       "type": "resources",
       "date": "2026-02-22",
       "value": 1,
@@ -109,7 +109,7 @@
       }
     },
     {
-      "time": 8.35609756097561,
+      "time": 8.337297297297297,
       "type": "resources",
       "date": "2026-02-24",
       "value": 1,
@@ -118,7 +118,7 @@
       }
     },
     {
-      "time": 8.58048780487805,
+      "time": 8.561081081081081,
       "type": "weathering",
       "date": "2026-02-27",
       "value": 0.36,
@@ -127,7 +127,7 @@
       }
     },
     {
-      "time": 8.655284552845528,
+      "time": 8.635675675675676,
       "type": "weathering",
       "date": "2026-02-28",
       "value": 0.435,
@@ -136,7 +136,7 @@
       }
     },
     {
-      "time": 8.730081300813008,
+      "time": 8.710270270270271,
       "type": "weathering",
       "date": "2026-03-01",
       "value": 0.51,
@@ -145,7 +145,7 @@
       }
     },
     {
-      "time": 8.80487804878049,
+      "time": 8.784864864864865,
       "type": "weathering",
       "date": "2026-03-02",
       "value": 0.585,
@@ -154,7 +154,7 @@
       }
     },
     {
-      "time": 8.879674796747967,
+      "time": 8.85945945945946,
       "type": "weathering",
       "date": "2026-03-03",
       "value": 0.6599999999999999,
@@ -163,7 +163,7 @@
       }
     },
     {
-      "time": 8.954471544715448,
+      "time": 8.934054054054053,
       "type": "weathering",
       "date": "2026-03-04",
       "value": 0.7349999999999999,
@@ -172,7 +172,7 @@
       }
     },
     {
-      "time": 9.029268292682927,
+      "time": 9.008648648648649,
       "type": "weathering",
       "date": "2026-03-05",
       "value": 0.8099999999999998,
@@ -181,7 +181,7 @@
       }
     },
     {
-      "time": 9.104065040650408,
+      "time": 9.083243243243244,
       "type": "weathering",
       "date": "2026-03-06",
       "value": 0.8849999999999998,
@@ -190,7 +190,7 @@
       }
     },
     {
-      "time": 9.178861788617885,
+      "time": 9.157837837837839,
       "type": "weathering",
       "date": "2026-03-07",
       "value": 0.9599999999999997,
@@ -199,7 +199,7 @@
       }
     },
     {
-      "time": 9.253658536585366,
+      "time": 9.232432432432432,
       "type": "weathering",
       "date": "2026-03-08",
       "value": 1,
@@ -208,7 +208,7 @@
       }
     },
     {
-      "time": 9.328455284552845,
+      "time": 9.307027027027027,
       "type": "weathering",
       "date": "2026-03-09",
       "value": 1,
@@ -217,7 +217,7 @@
       }
     },
     {
-      "time": 9.403252032520326,
+      "time": 9.38162162162162,
       "type": "weathering",
       "date": "2026-03-10",
       "value": 1,
@@ -226,7 +226,7 @@
       }
     },
     {
-      "time": 9.478048780487805,
+      "time": 9.456216216216218,
       "type": "weathering",
       "date": "2026-03-11",
       "value": 1,
@@ -235,7 +235,7 @@
       }
     },
     {
-      "time": 9.552845528455284,
+      "time": 9.530810810810811,
       "type": "weathering",
       "date": "2026-03-12",
       "value": 1,
@@ -244,7 +244,7 @@
       }
     },
     {
-      "time": 9.627642276422765,
+      "time": 9.605405405405406,
       "type": "resources",
       "date": "2026-03-13",
       "value": 16,
@@ -253,7 +253,7 @@
       }
     },
     {
-      "time": 9.702439024390246,
+      "time": 9.68,
       "type": "resources",
       "date": "2026-03-14",
       "value": 8,
@@ -262,7 +262,7 @@
       }
     },
     {
-      "time": 9.926829268292684,
+      "time": 9.903783783783785,
       "type": "weathering",
       "date": "2026-03-17",
       "value": 0.6429999999999999,
@@ -271,7 +271,7 @@
       }
     },
     {
-      "time": 10.001626016260163,
+      "time": 9.978378378378379,
       "type": "weathering",
       "date": "2026-03-18",
       "value": 0.7179999999999999,
@@ -280,7 +280,7 @@
       }
     },
     {
-      "time": 10.076422764227642,
+      "time": 10.052972972972974,
       "type": "weathering",
       "date": "2026-03-19",
       "value": 0.7929999999999998,
@@ -289,7 +289,7 @@
       }
     },
     {
-      "time": 10.151219512195123,
+      "time": 10.127567567567569,
       "type": "weathering",
       "date": "2026-03-20",
       "value": 0.8679999999999998,
@@ -298,7 +298,7 @@
       }
     },
     {
-      "time": 10.226016260162602,
+      "time": 10.202162162162164,
       "type": "weathering",
       "date": "2026-03-21",
       "value": 0.9429999999999997,
@@ -307,7 +307,7 @@
       }
     },
     {
-      "time": 10.300813008130081,
+      "time": 10.276756756756757,
       "type": "weathering",
       "date": "2026-03-22",
       "value": 1,
@@ -316,7 +316,7 @@
       }
     },
     {
-      "time": 10.375609756097562,
+      "time": 10.351351351351353,
       "type": "weathering",
       "date": "2026-03-23",
       "value": 1,
@@ -325,7 +325,7 @@
       }
     },
     {
-      "time": 10.450406504065041,
+      "time": 10.425945945945946,
       "type": "weathering",
       "date": "2026-03-24",
       "value": 1,
@@ -334,7 +334,7 @@
       }
     },
     {
-      "time": 10.525203252032522,
+      "time": 10.500540540540541,
       "type": "weathering",
       "date": "2026-03-25",
       "value": 1,
@@ -343,7 +343,7 @@
       }
     },
     {
-      "time": 10.6,
+      "time": 10.575135135135136,
       "type": "weathering",
       "date": "2026-03-26",
       "value": 1,
@@ -352,7 +352,7 @@
       }
     },
     {
-      "time": 10.67479674796748,
+      "time": 10.649729729729732,
       "type": "weathering",
       "date": "2026-03-27",
       "value": 1,
@@ -361,7 +361,7 @@
       }
     },
     {
-      "time": 10.74959349593496,
+      "time": 10.724324324324325,
       "type": "weathering",
       "date": "2026-03-28",
       "value": 1,
@@ -370,7 +370,7 @@
       }
     },
     {
-      "time": 10.82439024390244,
+      "time": 10.79891891891892,
       "type": "weathering",
       "date": "2026-03-29",
       "value": 1,
@@ -379,7 +379,7 @@
       }
     },
     {
-      "time": 10.89918699186992,
+      "time": 10.873513513513513,
       "type": "resources",
       "date": "2026-03-30",
       "value": 1,
@@ -388,7 +388,7 @@
       }
     },
     {
-      "time": 11.123577235772357,
+      "time": 11.097297297297299,
       "type": "weathering",
       "date": "2026-04-02",
       "value": 1,
@@ -397,7 +397,7 @@
       }
     },
     {
-      "time": 11.198373983739838,
+      "time": 11.171891891891892,
       "type": "weathering",
       "date": "2026-04-03",
       "value": 1,
@@ -406,7 +406,7 @@
       }
     },
     {
-      "time": 11.273170731707317,
+      "time": 11.246486486486488,
       "type": "weathering",
       "date": "2026-04-04",
       "value": 1,
@@ -415,7 +415,7 @@
       }
     },
     {
-      "time": 11.347967479674798,
+      "time": 11.321081081081081,
       "type": "weathering",
       "date": "2026-04-05",
       "value": 1,
@@ -424,7 +424,7 @@
       }
     },
     {
-      "time": 11.422764227642277,
+      "time": 11.395675675675678,
       "type": "weathering",
       "date": "2026-04-06",
       "value": 1,
@@ -433,7 +433,7 @@
       }
     },
     {
-      "time": 11.497560975609757,
+      "time": 11.470270270270271,
       "type": "weathering",
       "date": "2026-04-07",
       "value": 1,
@@ -442,7 +442,7 @@
       }
     },
     {
-      "time": 11.572357723577237,
+      "time": 11.544864864864866,
       "type": "weathering",
       "date": "2026-04-08",
       "value": 1,
@@ -451,7 +451,7 @@
       }
     },
     {
-      "time": 11.647154471544717,
+      "time": 11.61945945945946,
       "type": "weathering",
       "date": "2026-04-09",
       "value": 1,
@@ -460,7 +460,7 @@
       }
     },
     {
-      "time": 11.721951219512196,
+      "time": 11.694054054054055,
       "type": "weathering",
       "date": "2026-04-10",
       "value": 1,
@@ -469,7 +469,7 @@
       }
     },
     {
-      "time": 11.796747967479675,
+      "time": 11.76864864864865,
       "type": "weathering",
       "date": "2026-04-11",
       "value": 1,
@@ -478,7 +478,7 @@
       }
     },
     {
-      "time": 11.871544715447156,
+      "time": 11.843243243243245,
       "type": "weathering",
       "date": "2026-04-12",
       "value": 1,
@@ -487,7 +487,7 @@
       }
     },
     {
-      "time": 11.946341463414635,
+      "time": 11.917837837837839,
       "type": "weathering",
       "date": "2026-04-13",
       "value": 1,
@@ -496,7 +496,7 @@
       }
     },
     {
-      "time": 12.021138211382114,
+      "time": 11.992432432432434,
       "type": "weathering",
       "date": "2026-04-14",
       "value": 1,
@@ -505,7 +505,7 @@
       }
     },
     {
-      "time": 12.095934959349595,
+      "time": 12.067027027027027,
       "type": "weathering",
       "date": "2026-04-15",
       "value": 1,
@@ -514,7 +514,7 @@
       }
     },
     {
-      "time": 12.170731707317074,
+      "time": 12.141621621621622,
       "type": "weathering",
       "date": "2026-04-16",
       "value": 1,
@@ -523,7 +523,7 @@
       }
     },
     {
-      "time": 12.245528455284553,
+      "time": 12.216216216216218,
       "type": "resources",
       "date": "2026-04-17",
       "value": 7,
@@ -532,7 +532,7 @@
       }
     },
     {
-      "time": 12.245528455284553,
+      "time": 12.216216216216218,
       "type": "era",
       "date": "2026-04-17",
       "value": 38,
@@ -543,7 +543,7 @@
       }
     },
     {
-      "time": 12.320325203252033,
+      "time": 12.290810810810813,
       "type": "resources",
       "date": "2026-04-18",
       "value": 3,
@@ -552,7 +552,7 @@
       }
     },
     {
-      "time": 12.469918699186993,
+      "time": 12.440000000000001,
       "type": "resources",
       "date": "2026-04-20",
       "value": 4,
@@ -561,7 +561,7 @@
       }
     },
     {
-      "time": 12.544715447154472,
+      "time": 12.514594594594595,
       "type": "resources",
       "date": "2026-04-21",
       "value": 1,
@@ -570,7 +570,7 @@
       }
     },
     {
-      "time": 12.619512195121953,
+      "time": 12.589189189189192,
       "type": "resources",
       "date": "2026-04-22",
       "value": 13,
@@ -579,7 +579,7 @@
       }
     },
     {
-      "time": 12.694308943089432,
+      "time": 12.663783783783785,
       "type": "resources",
       "date": "2026-04-23",
       "value": 12,
@@ -588,7 +588,7 @@
       }
     },
     {
-      "time": 12.84390243902439,
+      "time": 12.812972972972974,
       "type": "resources",
       "date": "2026-04-25",
       "value": 1,
@@ -597,7 +597,7 @@
       }
     },
     {
-      "time": 12.99349593495935,
+      "time": 12.962162162162162,
       "type": "resources",
       "date": "2026-04-27",
       "value": 12,
@@ -606,7 +606,7 @@
       }
     },
     {
-      "time": 13.068292682926831,
+      "time": 13.036756756756759,
       "type": "resources",
       "date": "2026-04-28",
       "value": 2,
@@ -615,7 +615,7 @@
       }
     },
     {
-      "time": 13.21788617886179,
+      "time": 13.185945945945948,
       "type": "resources",
       "date": "2026-04-30",
       "value": 18,
@@ -624,7 +624,7 @@
       }
     },
     {
-      "time": 13.29268292682927,
+      "time": 13.260540540540541,
       "type": "resources",
       "date": "2026-05-01",
       "value": 1,
@@ -633,7 +633,7 @@
       }
     },
     {
-      "time": 13.517073170731708,
+      "time": 13.484324324324326,
       "type": "weathering",
       "date": "2026-05-04",
       "value": 0.075,
@@ -642,7 +642,7 @@
       }
     },
     {
-      "time": 13.591869918699189,
+      "time": 13.55891891891892,
       "type": "weathering",
       "date": "2026-05-05",
       "value": 0.15,
@@ -651,7 +651,7 @@
       }
     },
     {
-      "time": 13.666666666666668,
+      "time": 13.633513513513515,
       "type": "resources",
       "date": "2026-05-06",
       "value": 31,
@@ -660,7 +660,7 @@
       }
     },
     {
-      "time": 13.741463414634147,
+      "time": 13.708108108108108,
       "type": "resources",
       "date": "2026-05-07",
       "value": 5,
@@ -669,7 +669,7 @@
       }
     },
     {
-      "time": 13.741463414634147,
+      "time": 13.708108108108108,
       "type": "era",
       "date": "2026-05-07",
       "value": 141,
@@ -680,7 +680,7 @@
       }
     },
     {
-      "time": 13.891056910569107,
+      "time": 13.857297297297299,
       "type": "resources",
       "date": "2026-05-09",
       "value": 4,
@@ -689,7 +689,7 @@
       }
     },
     {
-      "time": 14.040650406504065,
+      "time": 14.006486486486487,
       "type": "resources",
       "date": "2026-05-11",
       "value": 1,
@@ -698,7 +698,7 @@
       }
     },
     {
-      "time": 14.265040650406505,
+      "time": 14.230270270270273,
       "type": "resources",
       "date": "2026-05-14",
       "value": 1,
@@ -707,7 +707,7 @@
       }
     },
     {
-      "time": 14.339837398373986,
+      "time": 14.304864864864866,
       "type": "resources",
       "date": "2026-05-15",
       "value": 1,
@@ -716,7 +716,7 @@
       }
     },
     {
-      "time": 14.489430894308946,
+      "time": 14.454054054054055,
       "type": "resources",
       "date": "2026-05-17",
       "value": 2,
@@ -725,7 +725,7 @@
       }
     },
     {
-      "time": 14.564227642276423,
+      "time": 14.52864864864865,
       "type": "resources",
       "date": "2026-05-18",
       "value": 6,
@@ -734,7 +734,7 @@
       }
     },
     {
-      "time": 14.788617886178862,
+      "time": 14.752432432432434,
       "type": "weathering",
       "date": "2026-05-21",
       "value": 0.075,
@@ -743,7 +743,7 @@
       }
     },
     {
-      "time": 14.863414634146341,
+      "time": 14.827027027027029,
       "type": "resources",
       "date": "2026-05-22",
       "value": 1,
@@ -752,7 +752,7 @@
       }
     },
     {
-      "time": 14.938211382113822,
+      "time": 14.901621621621622,
       "type": "resources",
       "date": "2026-05-23",
       "value": 1,
@@ -761,7 +761,7 @@
       }
     },
     {
-      "time": 15.162601626016261,
+      "time": 15.125405405405408,
       "type": "resources",
       "date": "2026-05-26",
       "value": 1,
@@ -770,178 +770,178 @@
       }
     },
     {
-      "time": 15.237398373983739,
-      "type": "resources",
-      "date": "2026-05-27",
-      "value": 17,
+      "time": 15.34918918918919,
+      "type": "weathering",
+      "date": "2026-05-29",
+      "value": 0.09599999999999999,
       "data": {
-        "accumulated": 176
+        "idleDays": 3
       }
     },
     {
-      "time": 15.31219512195122,
-      "type": "resources",
-      "date": "2026-05-28",
-      "value": 61,
+      "time": 15.423783783783785,
+      "type": "weathering",
+      "date": "2026-05-30",
+      "value": 0.17099999999999999,
       "data": {
-        "accumulated": 237
+        "idleDays": 4
       }
     },
     {
-      "time": 15.53658536585366,
+      "time": 15.49837837837838,
       "type": "weathering",
       "date": "2026-05-31",
-      "value": 0.075,
+      "value": 0.246,
       "data": {
-        "idleDays": 3
+        "idleDays": 5
       }
     },
     {
-      "time": 15.61138211382114,
+      "time": 15.572972972972973,
       "type": "weathering",
       "date": "2026-06-01",
-      "value": 0.15,
-      "data": {
-        "idleDays": 4
-      }
-    },
-    {
-      "time": 15.68617886178862,
-      "type": "weathering",
-      "date": "2026-06-02",
-      "value": 0.22499999999999998,
-      "data": {
-        "idleDays": 5
-      }
-    },
-    {
-      "time": 15.7609756097561,
-      "type": "weathering",
-      "date": "2026-06-03",
-      "value": 0.3,
-      "data": {
-        "idleDays": 6
-      }
-    },
-    {
-      "time": 15.835772357723577,
-      "type": "resources",
-      "date": "2026-06-04",
-      "value": 3,
-      "data": {
-        "accumulated": 240
-      }
-    },
-    {
-      "time": 16.060162601626015,
-      "type": "weathering",
-      "date": "2026-06-07",
       "value": 0.321,
       "data": {
-        "idleDays": 3
-      }
-    },
-    {
-      "time": 16.134959349593498,
-      "type": "weathering",
-      "date": "2026-06-08",
-      "value": 0.396,
-      "data": {
-        "idleDays": 4
-      }
-    },
-    {
-      "time": 16.209756097560977,
-      "type": "weathering",
-      "date": "2026-06-09",
-      "value": 0.47100000000000003,
-      "data": {
-        "idleDays": 5
-      }
-    },
-    {
-      "time": 16.284552845528456,
-      "type": "weathering",
-      "date": "2026-06-10",
-      "value": 0.546,
-      "data": {
         "idleDays": 6
       }
     },
     {
-      "time": 16.359349593495935,
+      "time": 15.647567567567567,
       "type": "weathering",
-      "date": "2026-06-11",
-      "value": 0.621,
+      "date": "2026-06-02",
+      "value": 0.396,
       "data": {
         "idleDays": 7
       }
     },
     {
-      "time": 16.434146341463414,
-      "type": "resources",
-      "date": "2026-06-12",
-      "value": 18,
-      "data": {
-        "accumulated": 258
-      }
-    },
-    {
-      "time": 16.583739837398372,
-      "type": "resources",
-      "date": "2026-06-14",
-      "value": 11,
-      "data": {
-        "accumulated": 269
-      }
-    },
-    {
-      "time": 16.808130081300813,
+      "time": 15.722162162162164,
       "type": "weathering",
-      "date": "2026-06-17",
-      "value": 0.198,
+      "date": "2026-06-03",
+      "value": 0.47100000000000003,
+      "data": {
+        "idleDays": 8
+      }
+    },
+    {
+      "time": 15.796756756756757,
+      "type": "resources",
+      "date": "2026-06-04",
+      "value": 3,
+      "data": {
+        "accumulated": 162
+      }
+    },
+    {
+      "time": 16.02054054054054,
+      "type": "weathering",
+      "date": "2026-06-07",
+      "value": 0.49200000000000005,
       "data": {
         "idleDays": 3
       }
     },
     {
-      "time": 16.882926829268296,
+      "time": 16.095135135135134,
+      "type": "weathering",
+      "date": "2026-06-08",
+      "value": 0.5670000000000001,
+      "data": {
+        "idleDays": 4
+      }
+    },
+    {
+      "time": 16.169729729729728,
+      "type": "weathering",
+      "date": "2026-06-09",
+      "value": 0.642,
+      "data": {
+        "idleDays": 5
+      }
+    },
+    {
+      "time": 16.244324324324324,
+      "type": "weathering",
+      "date": "2026-06-10",
+      "value": 0.717,
+      "data": {
+        "idleDays": 6
+      }
+    },
+    {
+      "time": 16.31891891891892,
+      "type": "weathering",
+      "date": "2026-06-11",
+      "value": 0.7919999999999999,
+      "data": {
+        "idleDays": 7
+      }
+    },
+    {
+      "time": 16.393513513513515,
+      "type": "resources",
+      "date": "2026-06-12",
+      "value": 18,
+      "data": {
+        "accumulated": 180
+      }
+    },
+    {
+      "time": 16.5427027027027,
+      "type": "resources",
+      "date": "2026-06-14",
+      "value": 11,
+      "data": {
+        "accumulated": 191
+      }
+    },
+    {
+      "time": 16.766486486486485,
+      "type": "weathering",
+      "date": "2026-06-17",
+      "value": 0.36899999999999994,
+      "data": {
+        "idleDays": 3
+      }
+    },
+    {
+      "time": 16.84108108108108,
       "type": "resources",
       "date": "2026-06-18",
       "value": 1,
       "data": {
-        "accumulated": 270
+        "accumulated": 192
       }
     },
     {
-      "time": 16.95772357723577,
+      "time": 16.915675675675676,
       "type": "resources",
       "date": "2026-06-19",
       "value": 11,
       "data": {
-        "accumulated": 281
+        "accumulated": 203
       }
     },
     {
-      "time": 17.03252032520325,
+      "time": 16.99027027027027,
       "type": "resources",
       "date": "2026-06-20",
       "value": 5,
       "data": {
-        "accumulated": 286
+        "accumulated": 208
       }
     },
     {
-      "time": 17.182113821138213,
+      "time": 17.13945945945946,
       "type": "resources",
       "date": "2026-06-22",
       "value": 29,
       "data": {
-        "accumulated": 315
+        "accumulated": 237
       }
     },
     {
-      "time": 17.40650406504065,
+      "time": 17.363243243243243,
       "type": "weathering",
       "date": "2026-06-25",
       "value": 0.075,
@@ -950,7 +950,7 @@
       }
     },
     {
-      "time": 17.48130081300813,
+      "time": 17.437837837837836,
       "type": "weathering",
       "date": "2026-06-26",
       "value": 0.15,
@@ -959,7 +959,7 @@
       }
     },
     {
-      "time": 17.55609756097561,
+      "time": 17.512432432432433,
       "type": "weathering",
       "date": "2026-06-27",
       "value": 0.22499999999999998,
@@ -968,7 +968,7 @@
       }
     },
     {
-      "time": 17.630894308943088,
+      "time": 17.587027027027027,
       "type": "weathering",
       "date": "2026-06-28",
       "value": 0.3,
@@ -977,7 +977,7 @@
       }
     },
     {
-      "time": 17.705691056910567,
+      "time": 17.66162162162162,
       "type": "weathering",
       "date": "2026-06-29",
       "value": 0.375,
@@ -986,7 +986,7 @@
       }
     },
     {
-      "time": 17.78048780487805,
+      "time": 17.736216216216214,
       "type": "weathering",
       "date": "2026-06-30",
       "value": 0.45,
@@ -995,7 +995,7 @@
       }
     },
     {
-      "time": 17.85528455284553,
+      "time": 17.81081081081081,
       "type": "weathering",
       "date": "2026-07-01",
       "value": 0.525,
@@ -1004,7 +1004,7 @@
       }
     },
     {
-      "time": 17.930081300813008,
+      "time": 17.885405405405404,
       "type": "weathering",
       "date": "2026-07-02",
       "value": 0.6,
@@ -1013,7 +1013,7 @@
       }
     },
     {
-      "time": 18.00487804878049,
+      "time": 17.959999999999997,
       "type": "weathering",
       "date": "2026-07-03",
       "value": 0.6749999999999999,
@@ -1022,7 +1022,7 @@
       }
     },
     {
-      "time": 18.079674796747966,
+      "time": 18.034594594594594,
       "type": "weathering",
       "date": "2026-07-04",
       "value": 0.7499999999999999,
@@ -1031,7 +1031,7 @@
       }
     },
     {
-      "time": 18.154471544715445,
+      "time": 18.10918918918919,
       "type": "weathering",
       "date": "2026-07-05",
       "value": 0.8249999999999998,
@@ -1040,7 +1040,7 @@
       }
     },
     {
-      "time": 18.229268292682924,
+      "time": 18.183783783783785,
       "type": "weathering",
       "date": "2026-07-06",
       "value": 0.8999999999999998,
@@ -1049,7 +1049,7 @@
       }
     },
     {
-      "time": 18.304065040650407,
+      "time": 18.258378378378378,
       "type": "weathering",
       "date": "2026-07-07",
       "value": 0.9749999999999998,
@@ -1058,73 +1058,73 @@
       }
     },
     {
-      "time": 18.378861788617886,
+      "time": 18.33297297297297,
       "type": "resources",
       "date": "2026-07-08",
       "value": 2,
       "data": {
-        "accumulated": 317
+        "accumulated": 239
       }
     },
     {
-      "time": 18.453658536585365,
+      "time": 18.40756756756757,
       "type": "resources",
       "date": "2026-07-09",
       "value": 10,
       "data": {
-        "accumulated": 327
+        "accumulated": 249
       }
     },
     {
-      "time": 18.528455284552845,
+      "time": 18.48216216216216,
       "type": "resources",
       "date": "2026-07-10",
       "value": 7,
       "data": {
-        "accumulated": 334
+        "accumulated": 256
       }
     },
     {
-      "time": 18.603252032520324,
+      "time": 18.556756756756755,
       "type": "resources",
       "date": "2026-07-11",
       "value": 4,
       "data": {
-        "accumulated": 338
+        "accumulated": 260
       }
     },
     {
-      "time": 18.752845528455282,
+      "time": 18.705945945945945,
       "type": "resources",
       "date": "2026-07-13",
       "value": 8,
       "data": {
-        "accumulated": 346
+        "accumulated": 268
       }
     },
     {
-      "time": 18.827642276422765,
+      "time": 18.78054054054054,
       "type": "resources",
       "date": "2026-07-14",
       "value": 71,
       "data": {
-        "accumulated": 417
+        "accumulated": 339
       }
     },
     {
-      "time": 18.902439024390244,
+      "time": 18.855135135135136,
       "type": "resources",
       "date": "2026-07-15",
       "value": 187,
       "data": {
-        "accumulated": 604
+        "accumulated": 526
       }
     },
     {
-      "time": 18.902439024390244,
+      "time": 18.855135135135136,
       "type": "era",
       "date": "2026-07-15",
-      "value": 604,
+      "value": 526,
       "data": {
         "era": 4,
         "name": "Town",
@@ -1132,28 +1132,46 @@
       }
     },
     {
-      "time": 18.977235772357723,
+      "time": 18.92972972972973,
       "type": "resources",
       "date": "2026-07-16",
       "value": 173,
       "data": {
-        "accumulated": 777
+        "accumulated": 699
       }
     },
     {
-      "time": 19.052032520325202,
+      "time": 19.004324324324326,
       "type": "resources",
       "date": "2026-07-17",
       "value": 231,
       "data": {
-        "accumulated": 1008
+        "accumulated": 930
       }
     },
     {
-      "time": 19.052032520325202,
+      "time": 19.07891891891892,
+      "type": "resources",
+      "date": "2026-07-18",
+      "value": 61,
+      "data": {
+        "accumulated": 991
+      }
+    },
+    {
+      "time": 19.153513513513513,
+      "type": "resources",
+      "date": "2026-07-19",
+      "value": 69,
+      "data": {
+        "accumulated": 1060
+      }
+    },
+    {
+      "time": 19.153513513513513,
       "type": "era",
-      "date": "2026-07-17",
-      "value": 1008,
+      "date": "2026-07-19",
+      "value": 1060,
       "data": {
         "era": 5,
         "name": "Industry",
@@ -1161,118 +1179,100 @@
       }
     },
     {
-      "time": 19.126829268292685,
-      "type": "resources",
-      "date": "2026-07-18",
-      "value": 61,
-      "data": {
-        "accumulated": 1069
-      }
-    },
-    {
-      "time": 19.20162601626016,
-      "type": "resources",
-      "date": "2026-07-19",
-      "value": 69,
-      "data": {
-        "accumulated": 1138
-      }
-    },
-    {
-      "time": 19.27642276422764,
+      "time": 19.228108108108106,
       "type": "resources",
       "date": "2026-07-20",
       "value": 84,
       "data": {
-        "accumulated": 1222
+        "accumulated": 1144
       }
     },
     {
-      "time": 19.351219512195122,
+      "time": 19.302702702702703,
       "type": "resources",
       "date": "2026-07-21",
       "value": 56,
       "data": {
-        "accumulated": 1278
+        "accumulated": 1200
       }
     },
     {
-      "time": 19.4260162601626,
+      "time": 19.377297297297297,
       "type": "resources",
       "date": "2026-07-22",
-      "value": 54,
+      "value": 53,
       "data": {
-        "accumulated": 1332
+        "accumulated": 1253
       }
     },
     {
-      "time": 19.50081300813008,
+      "time": 19.45189189189189,
       "type": "resources",
       "date": "2026-07-23",
       "value": 34,
       "data": {
-        "accumulated": 1366
+        "accumulated": 1287
       }
     },
     {
-      "time": 19.57560975609756,
+      "time": 19.526486486486483,
       "type": "resources",
       "date": "2026-07-24",
       "value": 77,
       "data": {
-        "accumulated": 1443
+        "accumulated": 1364
       }
     },
     {
-      "time": 19.650406504065042,
+      "time": 19.60108108108108,
       "type": "resources",
       "date": "2026-07-25",
       "value": 98,
       "data": {
-        "accumulated": 1541
+        "accumulated": 1462
       }
     },
     {
-      "time": 19.725203252032518,
+      "time": 19.675675675675677,
       "type": "resources",
       "date": "2026-07-26",
       "value": 205,
       "data": {
-        "accumulated": 1746
+        "accumulated": 1667
       }
     },
     {
-      "time": 19.799999999999997,
+      "time": 19.75027027027027,
       "type": "resources",
       "date": "2026-07-27",
       "value": 232,
       "data": {
-        "accumulated": 1978
+        "accumulated": 1899
       }
     },
     {
-      "time": 19.87479674796748,
+      "time": 19.824864864864864,
       "type": "resources",
       "date": "2026-07-28",
       "value": 211,
       "data": {
-        "accumulated": 2189
+        "accumulated": 2110
       }
     },
     {
-      "time": 19.94959349593496,
+      "time": 19.89945945945946,
       "type": "resources",
       "date": "2026-07-29",
       "value": 121,
       "data": {
-        "accumulated": 2310
+        "accumulated": 2231
       }
     },
     {
-      "time": 19.94959349593496,
+      "time": 19.89945945945946,
       "type": "era",
       "date": "2026-07-29",
-      "value": 2310,
+      "value": 2231,
       "data": {
         "era": 6,
         "name": "Space",
@@ -1280,1099 +1280,1108 @@
       }
     },
     {
-      "time": 20.024390243902438,
+      "time": 19.974054054054054,
       "type": "resources",
       "date": "2026-07-30",
       "value": 132,
       "data": {
-        "accumulated": 2442
+        "accumulated": 2363
       }
     },
     {
-      "time": 20.099186991869917,
+      "time": 20.048648648648648,
       "type": "resources",
       "date": "2026-07-31",
       "value": 78,
       "data": {
-        "accumulated": 2520
+        "accumulated": 2441
       }
     },
     {
-      "time": 20.1739837398374,
+      "time": 20.12324324324324,
       "type": "resources",
       "date": "2026-08-01",
       "value": 70,
       "data": {
-        "accumulated": 2590
+        "accumulated": 2511
       }
     },
     {
-      "time": 20.24878048780488,
+      "time": 20.197837837837838,
       "type": "resources",
       "date": "2026-08-02",
       "value": 147,
       "data": {
-        "accumulated": 2737
+        "accumulated": 2658
       }
     },
     {
-      "time": 20.323577235772355,
+      "time": 20.27243243243243,
       "type": "resources",
       "date": "2026-08-03",
       "value": 53,
       "data": {
-        "accumulated": 2790
+        "accumulated": 2711
       }
     },
     {
-      "time": 20.398373983739837,
+      "time": 20.347027027027025,
       "type": "resources",
       "date": "2026-08-04",
       "value": 90,
       "data": {
-        "accumulated": 2880
+        "accumulated": 2801
       }
     },
     {
-      "time": 20.473170731707317,
+      "time": 20.421621621621618,
       "type": "resources",
       "date": "2026-08-05",
       "value": 87,
       "data": {
-        "accumulated": 2967
+        "accumulated": 2888
       }
     },
     {
-      "time": 20.547967479674796,
+      "time": 20.496216216216215,
       "type": "resources",
       "date": "2026-08-06",
       "value": 114,
       "data": {
-        "accumulated": 3081
+        "accumulated": 3002
       }
     },
     {
-      "time": 20.622764227642275,
+      "time": 20.570810810810812,
       "type": "resources",
       "date": "2026-08-07",
       "value": 44,
       "data": {
-        "accumulated": 3125
+        "accumulated": 3046
       }
     },
     {
-      "time": 20.697560975609758,
+      "time": 20.645405405405405,
       "type": "resources",
       "date": "2026-08-08",
       "value": 30,
       "data": {
-        "accumulated": 3155
+        "accumulated": 3076
       }
     },
     {
-      "time": 20.772357723577237,
+      "time": 20.72,
       "type": "resources",
       "date": "2026-08-09",
       "value": 146,
       "data": {
-        "accumulated": 3301
+        "accumulated": 3222
       }
     },
     {
-      "time": 20.847154471544712,
+      "time": 20.794594594594596,
       "type": "resources",
       "date": "2026-08-10",
       "value": 84,
       "data": {
-        "accumulated": 3385
+        "accumulated": 3306
       }
     },
     {
-      "time": 20.921951219512195,
+      "time": 20.86918918918919,
       "type": "resources",
       "date": "2026-08-11",
       "value": 113,
       "data": {
-        "accumulated": 3498
+        "accumulated": 3419
       }
     },
     {
-      "time": 20.996747967479674,
+      "time": 20.943783783783783,
       "type": "resources",
       "date": "2026-08-12",
       "value": 261,
       "data": {
-        "accumulated": 3759
+        "accumulated": 3680
       }
     },
     {
-      "time": 21.071544715447153,
+      "time": 21.018378378378376,
       "type": "resources",
       "date": "2026-08-13",
       "value": 482,
       "data": {
-        "accumulated": 4241
+        "accumulated": 4162
       }
     },
     {
-      "time": 21.146341463414632,
+      "time": 21.092972972972973,
       "type": "resources",
       "date": "2026-08-14",
       "value": 134,
       "data": {
-        "accumulated": 4375
+        "accumulated": 4296
       }
     },
     {
-      "time": 21.221138211382115,
+      "time": 21.167567567567566,
       "type": "resources",
       "date": "2026-08-15",
       "value": 391,
       "data": {
-        "accumulated": 4766
+        "accumulated": 4687
       }
     },
     {
-      "time": 21.295934959349594,
+      "time": 21.24216216216216,
       "type": "resources",
       "date": "2026-08-16",
       "value": 306,
       "data": {
-        "accumulated": 5072
+        "accumulated": 4993
       }
     },
     {
-      "time": 21.370731707317074,
+      "time": 21.316756756756757,
       "type": "resources",
       "date": "2026-08-17",
       "value": 212,
       "data": {
-        "accumulated": 5284
+        "accumulated": 5205
       }
     },
     {
-      "time": 21.445528455284553,
+      "time": 21.391351351351354,
       "type": "resources",
       "date": "2026-08-18",
       "value": 244,
       "data": {
-        "accumulated": 5528
+        "accumulated": 5449
       }
     },
     {
-      "time": 21.520325203252032,
+      "time": 21.465945945945947,
       "type": "resources",
       "date": "2026-08-19",
       "value": 307,
       "data": {
-        "accumulated": 5835
+        "accumulated": 5756
       }
     },
     {
-      "time": 21.59512195121951,
+      "time": 21.54054054054054,
       "type": "resources",
       "date": "2026-08-20",
       "value": 478,
       "data": {
-        "accumulated": 6313
+        "accumulated": 6234
       }
     },
     {
-      "time": 21.66991869918699,
+      "time": 21.615135135135134,
       "type": "resources",
       "date": "2026-08-21",
       "value": 99,
       "data": {
-        "accumulated": 6412
+        "accumulated": 6333
       }
     },
     {
-      "time": 21.744715447154473,
+      "time": 21.68972972972973,
       "type": "resources",
       "date": "2026-08-22",
       "value": 220,
       "data": {
-        "accumulated": 6632
+        "accumulated": 6553
       }
     },
     {
-      "time": 21.819512195121952,
+      "time": 21.764324324324324,
       "type": "resources",
       "date": "2026-08-23",
       "value": 80,
       "data": {
-        "accumulated": 6712
+        "accumulated": 6633
       }
     },
     {
-      "time": 21.89430894308943,
+      "time": 21.838918918918917,
       "type": "resources",
       "date": "2026-08-24",
       "value": 78,
       "data": {
-        "accumulated": 6790
+        "accumulated": 6711
       }
     },
     {
-      "time": 21.96910569105691,
+      "time": 21.91351351351351,
       "type": "resources",
       "date": "2026-08-25",
       "value": 52,
       "data": {
-        "accumulated": 6842
+        "accumulated": 6763
       }
     },
     {
-      "time": 22.04390243902439,
+      "time": 21.988108108108108,
       "type": "resources",
       "date": "2026-08-26",
       "value": 120,
       "data": {
-        "accumulated": 6962
+        "accumulated": 6883
       }
     },
     {
-      "time": 22.11869918699187,
+      "time": 22.0627027027027,
       "type": "resources",
       "date": "2026-08-27",
       "value": 136,
       "data": {
-        "accumulated": 7098
+        "accumulated": 7019
       }
     },
     {
-      "time": 22.193495934959348,
+      "time": 22.137297297297298,
       "type": "resources",
       "date": "2026-08-28",
       "value": 17,
       "data": {
-        "accumulated": 7115
+        "accumulated": 7036
       }
     },
     {
-      "time": 22.26829268292683,
+      "time": 22.21189189189189,
       "type": "resources",
       "date": "2026-08-29",
       "value": 81,
       "data": {
-        "accumulated": 7196
+        "accumulated": 7117
       }
     },
     {
-      "time": 22.34308943089431,
+      "time": 22.28648648648649,
       "type": "resources",
       "date": "2026-08-30",
       "value": 115,
       "data": {
-        "accumulated": 7311
+        "accumulated": 7232
       }
     },
     {
-      "time": 22.41788617886179,
+      "time": 22.361081081081082,
       "type": "resources",
       "date": "2026-08-31",
       "value": 53,
       "data": {
-        "accumulated": 7364
+        "accumulated": 7285
       }
     },
     {
-      "time": 22.492682926829268,
+      "time": 22.435675675675675,
       "type": "resources",
       "date": "2026-09-01",
       "value": 135,
+      "data": {
+        "accumulated": 7420
+      }
+    },
+    {
+      "time": 22.51027027027027,
+      "type": "resources",
+      "date": "2026-09-02",
+      "value": 42,
+      "data": {
+        "accumulated": 7462
+      }
+    },
+    {
+      "time": 22.584864864864866,
+      "type": "resources",
+      "date": "2026-09-03",
+      "value": 37,
       "data": {
         "accumulated": 7499
       }
     },
     {
-      "time": 22.567479674796747,
-      "type": "resources",
-      "date": "2026-09-02",
-      "value": 42,
-      "data": {
-        "accumulated": 7541
-      }
-    },
-    {
-      "time": 22.642276422764226,
-      "type": "resources",
-      "date": "2026-09-03",
-      "value": 37,
-      "data": {
-        "accumulated": 7578
-      }
-    },
-    {
-      "time": 22.717073170731705,
+      "time": 22.65945945945946,
       "type": "resources",
       "date": "2026-09-04",
       "value": 5,
       "data": {
-        "accumulated": 7583
+        "accumulated": 7504
       }
     },
     {
-      "time": 22.791869918699188,
+      "time": 22.734054054054052,
       "type": "resources",
       "date": "2026-09-05",
       "value": 60,
       "data": {
-        "accumulated": 7643
+        "accumulated": 7564
       }
     },
     {
-      "time": 22.866666666666667,
+      "time": 22.808648648648646,
       "type": "resources",
       "date": "2026-09-06",
       "value": 87,
       "data": {
-        "accumulated": 7730
+        "accumulated": 7651
       }
     },
     {
-      "time": 22.941463414634146,
+      "time": 22.883243243243243,
       "type": "resources",
       "date": "2026-09-07",
       "value": 102,
       "data": {
-        "accumulated": 7832
+        "accumulated": 7753
       }
     },
     {
-      "time": 23.016260162601625,
+      "time": 22.95783783783784,
       "type": "resources",
       "date": "2026-09-08",
       "value": 94,
       "data": {
-        "accumulated": 7926
+        "accumulated": 7847
       }
     },
     {
-      "time": 23.091056910569105,
+      "time": 23.032432432432433,
       "type": "resources",
       "date": "2026-09-09",
       "value": 103,
       "data": {
-        "accumulated": 8029
+        "accumulated": 7950
       }
     },
     {
-      "time": 23.165853658536584,
+      "time": 23.107027027027026,
       "type": "resources",
       "date": "2026-09-10",
       "value": 149,
       "data": {
-        "accumulated": 8178
+        "accumulated": 8099
       }
     },
     {
-      "time": 23.240650406504063,
+      "time": 23.181621621621623,
       "type": "resources",
       "date": "2026-09-11",
       "value": 136,
       "data": {
-        "accumulated": 8314
+        "accumulated": 8235
       }
     },
     {
-      "time": 23.315447154471546,
+      "time": 23.256216216216217,
       "type": "resources",
       "date": "2026-09-12",
       "value": 219,
       "data": {
-        "accumulated": 8533
+        "accumulated": 8454
       }
     },
     {
-      "time": 23.390243902439025,
+      "time": 23.33081081081081,
       "type": "resources",
       "date": "2026-09-13",
       "value": 41,
       "data": {
-        "accumulated": 8574
+        "accumulated": 8495
       }
     },
     {
-      "time": 23.465040650406504,
+      "time": 23.405405405405403,
       "type": "resources",
       "date": "2026-09-14",
       "value": 119,
       "data": {
-        "accumulated": 8693
+        "accumulated": 8614
       }
     },
     {
-      "time": 23.539837398373983,
+      "time": 23.48,
       "type": "resources",
       "date": "2026-09-15",
       "value": 113,
       "data": {
-        "accumulated": 8806
+        "accumulated": 8727
       }
     },
     {
-      "time": 23.614634146341466,
+      "time": 23.554594594594594,
       "type": "resources",
       "date": "2026-09-16",
       "value": 154,
       "data": {
-        "accumulated": 8960
+        "accumulated": 8881
       }
     },
     {
-      "time": 23.68943089430894,
+      "time": 23.629189189189187,
       "type": "resources",
       "date": "2026-09-17",
       "value": 50,
       "data": {
-        "accumulated": 9010
+        "accumulated": 8931
       }
     },
     {
-      "time": 23.76422764227642,
+      "time": 23.703783783783784,
       "type": "resources",
       "date": "2026-09-18",
       "value": 33,
       "data": {
-        "accumulated": 9043
+        "accumulated": 8964
       }
     },
     {
-      "time": 23.839024390243903,
+      "time": 23.77837837837838,
       "type": "resources",
       "date": "2026-09-19",
       "value": 244,
       "data": {
-        "accumulated": 9287
+        "accumulated": 9208
       }
     },
     {
-      "time": 23.913821138211382,
+      "time": 23.852972972972974,
       "type": "resources",
       "date": "2026-09-20",
       "value": 212,
       "data": {
-        "accumulated": 9499
+        "accumulated": 9420
       }
     },
     {
-      "time": 23.98861788617886,
+      "time": 23.927567567567568,
       "type": "resources",
       "date": "2026-09-21",
       "value": 217,
       "data": {
-        "accumulated": 9716
+        "accumulated": 9637
       }
     },
     {
-      "time": 24.06341463414634,
+      "time": 24.00216216216216,
       "type": "resources",
       "date": "2026-09-22",
       "value": 157,
       "data": {
-        "accumulated": 9873
+        "accumulated": 9794
       }
     },
     {
-      "time": 24.138211382113823,
+      "time": 24.076756756756758,
       "type": "resources",
       "date": "2026-09-23",
       "value": 16,
       "data": {
-        "accumulated": 9889
+        "accumulated": 9810
       }
     },
     {
-      "time": 24.2130081300813,
+      "time": 24.15135135135135,
       "type": "resources",
       "date": "2026-09-24",
       "value": 259,
       "data": {
-        "accumulated": 10148
+        "accumulated": 10069
       }
     },
     {
-      "time": 24.287804878048778,
+      "time": 24.225945945945945,
       "type": "resources",
       "date": "2026-09-25",
       "value": 167,
       "data": {
-        "accumulated": 10315
+        "accumulated": 10236
       }
     },
     {
-      "time": 24.36260162601626,
+      "time": 24.30054054054054,
       "type": "resources",
       "date": "2026-09-26",
       "value": 156,
       "data": {
-        "accumulated": 10471
+        "accumulated": 10392
       }
     },
     {
-      "time": 24.43739837398374,
+      "time": 24.375135135135135,
       "type": "resources",
       "date": "2026-09-27",
       "value": 52,
       "data": {
-        "accumulated": 10523
+        "accumulated": 10444
       }
     },
     {
-      "time": 24.51219512195122,
+      "time": 24.44972972972973,
       "type": "resources",
       "date": "2026-09-28",
       "value": 42,
       "data": {
-        "accumulated": 10565
+        "accumulated": 10486
       }
     },
     {
-      "time": 24.5869918699187,
+      "time": 24.524324324324322,
       "type": "resources",
       "date": "2026-09-29",
       "value": 111,
       "data": {
-        "accumulated": 10676
+        "accumulated": 10597
       }
     },
     {
-      "time": 24.66178861788618,
+      "time": 24.59891891891892,
       "type": "resources",
       "date": "2026-09-30",
       "value": 34,
       "data": {
-        "accumulated": 10710
+        "accumulated": 10631
       }
     },
     {
-      "time": 24.73658536585366,
+      "time": 24.673513513513516,
       "type": "resources",
       "date": "2026-10-01",
       "value": 14,
       "data": {
-        "accumulated": 10724
+        "accumulated": 10645
       }
     },
     {
-      "time": 24.811382113821136,
+      "time": 24.74810810810811,
       "type": "resources",
       "date": "2026-10-02",
       "value": 254,
       "data": {
-        "accumulated": 10978
+        "accumulated": 10899
       }
     },
     {
-      "time": 24.88617886178862,
+      "time": 24.822702702702703,
       "type": "resources",
       "date": "2026-10-03",
       "value": 150,
       "data": {
-        "accumulated": 11128
+        "accumulated": 11049
       }
     },
     {
-      "time": 24.960975609756098,
+      "time": 24.897297297297296,
       "type": "resources",
       "date": "2026-10-04",
       "value": 93,
       "data": {
-        "accumulated": 11221
+        "accumulated": 11142
       }
     },
     {
-      "time": 25.035772357723577,
+      "time": 24.971891891891893,
       "type": "resources",
       "date": "2026-10-05",
       "value": 146,
       "data": {
-        "accumulated": 11367
+        "accumulated": 11288
       }
     },
     {
-      "time": 25.110569105691056,
+      "time": 25.046486486486486,
       "type": "resources",
       "date": "2026-10-06",
       "value": 369,
       "data": {
-        "accumulated": 11736
+        "accumulated": 11657
       }
     },
     {
-      "time": 25.18536585365854,
+      "time": 25.12108108108108,
       "type": "resources",
       "date": "2026-10-07",
       "value": 320,
       "data": {
-        "accumulated": 12056
+        "accumulated": 11977
       }
     },
     {
-      "time": 25.260162601626018,
+      "time": 25.195675675675673,
       "type": "resources",
       "date": "2026-10-08",
       "value": 229,
       "data": {
-        "accumulated": 12285
+        "accumulated": 12206
       }
     },
     {
-      "time": 25.334959349593497,
+      "time": 25.27027027027027,
       "type": "resources",
       "date": "2026-10-09",
       "value": 243,
       "data": {
-        "accumulated": 12528
+        "accumulated": 12449
       }
     },
     {
-      "time": 25.409756097560976,
+      "time": 25.344864864864864,
       "type": "resources",
       "date": "2026-10-10",
       "value": 294,
       "data": {
-        "accumulated": 12822
+        "accumulated": 12743
       }
     },
     {
-      "time": 25.484552845528455,
+      "time": 25.41945945945946,
       "type": "resources",
       "date": "2026-10-11",
       "value": 322,
       "data": {
-        "accumulated": 13144
+        "accumulated": 13065
       }
     },
     {
-      "time": 25.559349593495934,
+      "time": 25.494054054054054,
       "type": "resources",
       "date": "2026-10-12",
       "value": 158,
       "data": {
-        "accumulated": 13302
+        "accumulated": 13223
       }
     },
     {
-      "time": 25.634146341463413,
+      "time": 25.56864864864865,
       "type": "resources",
       "date": "2026-10-13",
       "value": 206,
       "data": {
-        "accumulated": 13508
+        "accumulated": 13429
       }
     },
     {
-      "time": 25.708943089430896,
+      "time": 25.643243243243244,
       "type": "resources",
       "date": "2026-10-14",
       "value": 214,
       "data": {
-        "accumulated": 13722
+        "accumulated": 13643
       }
     },
     {
-      "time": 25.783739837398375,
+      "time": 25.717837837837838,
       "type": "resources",
       "date": "2026-10-15",
       "value": 198,
       "data": {
-        "accumulated": 13920
+        "accumulated": 13841
       }
     },
     {
-      "time": 25.858536585365854,
+      "time": 25.79243243243243,
       "type": "resources",
       "date": "2026-10-16",
       "value": 227,
       "data": {
-        "accumulated": 14147
+        "accumulated": 14068
       }
     },
     {
-      "time": 25.933333333333334,
+      "time": 25.867027027027028,
       "type": "resources",
       "date": "2026-10-17",
       "value": 305,
       "data": {
-        "accumulated": 14452
+        "accumulated": 14373
       }
     },
     {
-      "time": 26.008130081300813,
+      "time": 25.94162162162162,
       "type": "resources",
       "date": "2026-10-18",
       "value": 243,
       "data": {
-        "accumulated": 14695
+        "accumulated": 14616
       }
     },
     {
-      "time": 26.082926829268292,
+      "time": 26.016216216216215,
       "type": "resources",
       "date": "2026-10-19",
       "value": 136,
       "data": {
-        "accumulated": 14831
+        "accumulated": 14752
       }
     },
     {
-      "time": 26.15772357723577,
+      "time": 26.090810810810808,
       "type": "resources",
       "date": "2026-10-20",
       "value": 177,
       "data": {
-        "accumulated": 15008
+        "accumulated": 14929
       }
     },
     {
-      "time": 26.232520325203254,
+      "time": 26.165405405405405,
       "type": "resources",
       "date": "2026-10-21",
       "value": 248,
       "data": {
-        "accumulated": 15256
+        "accumulated": 15177
       }
     },
     {
-      "time": 26.307317073170733,
+      "time": 26.240000000000002,
       "type": "resources",
       "date": "2026-10-22",
       "value": 294,
       "data": {
-        "accumulated": 15550
+        "accumulated": 15471
       }
     },
     {
-      "time": 26.382113821138212,
+      "time": 26.314594594594595,
       "type": "resources",
       "date": "2026-10-23",
       "value": 225,
       "data": {
-        "accumulated": 15775
+        "accumulated": 15696
       }
     },
     {
-      "time": 26.45691056910569,
+      "time": 26.38918918918919,
       "type": "resources",
       "date": "2026-10-24",
       "value": 258,
       "data": {
-        "accumulated": 16033
+        "accumulated": 15954
       }
     },
     {
-      "time": 26.53170731707317,
+      "time": 26.463783783783786,
       "type": "resources",
       "date": "2026-10-25",
       "value": 279,
       "data": {
-        "accumulated": 16312
+        "accumulated": 16233
       }
     },
     {
-      "time": 26.60650406504065,
+      "time": 26.53837837837838,
       "type": "resources",
       "date": "2026-10-26",
       "value": 105,
       "data": {
-        "accumulated": 16417
+        "accumulated": 16338
       }
     },
     {
-      "time": 26.68130081300813,
+      "time": 26.612972972972972,
       "type": "resources",
       "date": "2026-10-27",
       "value": 129,
       "data": {
-        "accumulated": 16546
+        "accumulated": 16467
       }
     },
     {
-      "time": 26.75609756097561,
+      "time": 26.687567567567566,
       "type": "resources",
       "date": "2026-10-28",
       "value": 473,
       "data": {
-        "accumulated": 17019
+        "accumulated": 16940
       }
     },
     {
-      "time": 26.83089430894309,
+      "time": 26.762162162162163,
       "type": "resources",
       "date": "2026-10-29",
       "value": 477,
       "data": {
-        "accumulated": 17496
+        "accumulated": 17417
       }
     },
     {
-      "time": 26.90569105691057,
+      "time": 26.836756756756756,
       "type": "resources",
       "date": "2026-10-30",
       "value": 412,
       "data": {
-        "accumulated": 17908
+        "accumulated": 17829
       }
     },
     {
-      "time": 26.98048780487805,
+      "time": 26.91135135135135,
       "type": "resources",
       "date": "2026-10-31",
       "value": 460,
       "data": {
-        "accumulated": 18368
+        "accumulated": 18289
       }
     },
     {
-      "time": 27.055284552845528,
+      "time": 26.985945945945947,
       "type": "resources",
       "date": "2026-11-01",
       "value": 114,
       "data": {
-        "accumulated": 18482
+        "accumulated": 18403
       }
     },
     {
-      "time": 27.130081300813007,
+      "time": 27.060540540540543,
       "type": "resources",
       "date": "2026-11-02",
       "value": 308,
       "data": {
-        "accumulated": 18790
+        "accumulated": 18711
       }
     },
     {
-      "time": 27.204878048780486,
+      "time": 27.135135135135137,
       "type": "resources",
       "date": "2026-11-03",
       "value": 198,
       "data": {
-        "accumulated": 18988
+        "accumulated": 18909
       }
     },
     {
-      "time": 27.27967479674797,
+      "time": 27.20972972972973,
       "type": "resources",
       "date": "2026-11-04",
       "value": 408,
       "data": {
-        "accumulated": 19396
+        "accumulated": 19317
       }
     },
     {
-      "time": 27.354471544715448,
+      "time": 27.284324324324324,
       "type": "resources",
       "date": "2026-11-05",
       "value": 579,
       "data": {
-        "accumulated": 19975
+        "accumulated": 19896
       }
     },
     {
-      "time": 27.429268292682927,
+      "time": 27.35891891891892,
       "type": "resources",
       "date": "2026-11-06",
       "value": 538,
       "data": {
-        "accumulated": 20513
+        "accumulated": 20434
       }
     },
     {
-      "time": 27.504065040650406,
+      "time": 27.433513513513514,
       "type": "resources",
       "date": "2026-11-07",
       "value": 648,
       "data": {
-        "accumulated": 21161
+        "accumulated": 21082
       }
     },
     {
-      "time": 27.57886178861789,
+      "time": 27.508108108108107,
       "type": "resources",
       "date": "2026-11-08",
       "value": 540,
       "data": {
-        "accumulated": 21701
+        "accumulated": 21622
       }
     },
     {
-      "time": 27.653658536585365,
+      "time": 27.5827027027027,
       "type": "resources",
       "date": "2026-11-09",
       "value": 586,
       "data": {
-        "accumulated": 22287
+        "accumulated": 22208
       }
     },
     {
-      "time": 27.728455284552844,
+      "time": 27.657297297297298,
       "type": "resources",
       "date": "2026-11-10",
       "value": 304,
       "data": {
-        "accumulated": 22591
+        "accumulated": 22512
       }
     },
     {
-      "time": 27.803252032520327,
+      "time": 27.73189189189189,
       "type": "resources",
       "date": "2026-11-11",
       "value": 830,
       "data": {
-        "accumulated": 23421
+        "accumulated": 23342
       }
     },
     {
-      "time": 27.878048780487806,
+      "time": 27.806486486486488,
       "type": "resources",
       "date": "2026-11-12",
       "value": 618,
       "data": {
-        "accumulated": 24039
+        "accumulated": 23960
       }
     },
     {
-      "time": 27.952845528455285,
+      "time": 27.88108108108108,
       "type": "resources",
       "date": "2026-11-13",
       "value": 347,
       "data": {
-        "accumulated": 24386
+        "accumulated": 24307
       }
     },
     {
-      "time": 28.027642276422764,
+      "time": 27.95567567567568,
       "type": "resources",
       "date": "2026-11-14",
       "value": 356,
       "data": {
-        "accumulated": 24742
+        "accumulated": 24663
       }
     },
     {
-      "time": 28.102439024390247,
+      "time": 28.03027027027027,
       "type": "resources",
       "date": "2026-11-15",
       "value": 438,
       "data": {
-        "accumulated": 25180
+        "accumulated": 25101
       }
     },
     {
-      "time": 28.177235772357722,
+      "time": 28.104864864864865,
       "type": "resources",
       "date": "2026-11-16",
       "value": 306,
       "data": {
-        "accumulated": 25486
+        "accumulated": 25407
       }
     },
     {
-      "time": 28.2520325203252,
+      "time": 28.17945945945946,
       "type": "resources",
       "date": "2026-11-17",
       "value": 523,
       "data": {
-        "accumulated": 26009
+        "accumulated": 25930
       }
     },
     {
-      "time": 28.32682926829268,
+      "time": 28.254054054054055,
       "type": "resources",
       "date": "2026-11-18",
       "value": 349,
       "data": {
-        "accumulated": 26358
+        "accumulated": 26279
       }
     },
     {
-      "time": 28.401626016260163,
+      "time": 28.32864864864865,
       "type": "resources",
       "date": "2026-11-19",
       "value": 558,
       "data": {
-        "accumulated": 26916
+        "accumulated": 26837
       }
     },
     {
-      "time": 28.476422764227642,
+      "time": 28.403243243243242,
       "type": "resources",
       "date": "2026-11-20",
       "value": 526,
       "data": {
-        "accumulated": 27442
+        "accumulated": 27363
       }
     },
     {
-      "time": 28.55121951219512,
+      "time": 28.477837837837836,
       "type": "resources",
       "date": "2026-11-21",
       "value": 333,
       "data": {
-        "accumulated": 27775
+        "accumulated": 27696
       }
     },
     {
-      "time": 28.626016260162604,
+      "time": 28.552432432432433,
       "type": "resources",
       "date": "2026-11-22",
       "value": 222,
       "data": {
-        "accumulated": 27997
+        "accumulated": 27918
       }
     },
     {
-      "time": 28.700813008130083,
+      "time": 28.62702702702703,
       "type": "resources",
       "date": "2026-11-23",
       "value": 483,
       "data": {
-        "accumulated": 28480
+        "accumulated": 28401
       }
     },
     {
-      "time": 28.77560975609756,
+      "time": 28.701621621621623,
       "type": "resources",
       "date": "2026-11-24",
       "value": 515,
       "data": {
-        "accumulated": 28995
+        "accumulated": 28916
       }
     },
     {
-      "time": 28.850406504065038,
+      "time": 28.776216216216216,
       "type": "resources",
       "date": "2026-11-25",
-      "value": 506,
+      "value": 560,
       "data": {
-        "accumulated": 29501
+        "accumulated": 29476
       }
     },
     {
-      "time": 28.92520325203252,
+      "time": 28.850810810810813,
       "type": "resources",
       "date": "2026-11-26",
-      "value": 190,
+      "value": 290,
       "data": {
-        "accumulated": 29691
+        "accumulated": 29766
+      }
+    },
+    {
+      "time": 28.925405405405407,
+      "type": "resources",
+      "date": "2026-11-27",
+      "value": 144,
+      "data": {
+        "accumulated": 29910
       }
     },
     {
       "time": 29,
       "type": "resources",
-      "date": "2026-11-27",
-      "value": 6,
+      "date": "2026-11-28",
+      "value": 252,
       "data": {
-        "accumulated": 29697
+        "accumulated": 30162
       }
     },
     {
       "type": "rocket-ignition",
       "time": 30,
-      "date": "2026-11-27",
-      "value": 29697,
+      "date": "2026-11-28",
+      "value": 30162,
       "data": {
         "threshold": 2200
       }
@@ -2380,8 +2389,8 @@
     {
       "type": "rocket-liftoff",
       "time": 31.4,
-      "date": "2026-11-27",
-      "value": 29697,
+      "date": "2026-11-28",
+      "value": 30162,
       "data": {
         "threshold": 2200
       }
@@ -2389,8 +2398,8 @@
     {
       "type": "rocket-escape",
       "time": 35.8,
-      "date": "2026-11-27",
-      "value": 29697,
+      "date": "2026-11-28",
+      "value": 30162,
       "data": {
         "threshold": 2200
       }
